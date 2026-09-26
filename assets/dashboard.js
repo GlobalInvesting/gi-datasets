@@ -6583,6 +6583,7 @@ async function _renderLWChart(ohlcId, label) {
       } else {
         paneIndex = _lwChart.panes().length;
         _indPaneIndex[id] = paneIndex;
+        try { _lwChart.priceScale('right', paneIndex).applyOptions({ mode: 0, autoScale: true }); } catch(_) {}
       }
 
       _indSeries[id] = [];
