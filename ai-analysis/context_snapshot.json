@@ -1,64 +1,80 @@
 {
   "fx": {
-    "eurusd": 1.1395,
-    "gbpusd": 1.3245,
-    "usdjpy": 157.284,
-    "audusd": 0.7028,
-    "usdchf": 0.8284,
+    "eurusd": 1.1401,
+    "gbpusd": 1.3246,
+    "usdjpy": 157.185,
+    "audusd": 0.7026,
+    "usdchf": 0.8283,
     "usdcad": 1.4141,
-    "nzdusd": 0.5666
+    "nzdusd": 0.5659
   },
   "cross": {
     "vix": 14.87,
     "spx": 7743.41,
-    "gold": 4320.8,
-    "wti": 92.46,
-    "dxy": 101.019,
+    "gold": 4321.2,
+    "wti": 92.41,
+    "dxy": 101.035,
     "move": 96.0025,
-    "us2y": 4.85,
+    "us2y": 4.87,
     "us10y": 5.184
   },
   "cot": {
     "USD": {
-      "net": -4908,
-      "we": "2026-09-15"
+      "net": -4496,
+      "we": "2026-09-22"
     },
     "EUR": {
-      "net": -51355,
-      "we": "2026-09-15"
+      "net": -58805,
+      "we": "2026-09-22"
     },
     "GBP": {
-      "net": 18698,
-      "we": "2026-09-15"
+      "net": 6519,
+      "we": "2026-09-22"
     },
     "JPY": {
-      "net": 20069,
-      "we": "2026-09-15"
+      "net": 4472,
+      "we": "2026-09-22"
     },
     "AUD": {
-      "net": 59299,
-      "we": "2026-09-15"
+      "net": 55684,
+      "we": "2026-09-22"
     },
     "CAD": {
-      "net": -41404,
-      "we": "2026-09-15"
+      "net": -49123,
+      "we": "2026-09-22"
     },
     "CHF": {
-      "net": -16664,
-      "we": "2026-09-15"
+      "net": -18620,
+      "we": "2026-09-22"
     },
     "NZD": {
-      "net": -2319,
-      "we": "2026-09-15"
+      "net": -5216,
+      "we": "2026-09-22"
     }
   },
   "headlines": [
+    {
+      "t": "SNB Chairman Schlegel: current drop in Swiss franc a minor reversal to long-term currency appreciation",
+      "time": "10:00"
+    },
+    {
+      "t": "SNB chairman Schlegel: can maintain interest rates as inflation hits target",
+      "time": "10:00"
+    },
+    {
+      "t": "How Much Further Can the Dollar Run After Last Week\u2019s Broad Rally?",
+      "time": "07:59"
+    },
+    {
+      "t": "investingLive Americas market news wrap: Iran hopes spring eternal",
+      "time": "21:15"
+    },
     {
       "t": "Iran's Foreign Minister: They can accept this 7-day plan, and at the end, the Strait of Hormuz will be open.",
       "time": "20:22"
     },
     {
-      "t": "Soaring bond yields ‘not even close’ to cooling red-hot US economy, investors say",
+      "t": "Soaring bond yields \u2018not even close\u2019 to cooling red-hot US economy, investors say",
       "time": "20:00"
     },
     {
@@ -68,137 +84,8 @@
     {
       "t": "fed's Hammack: I am mindful of financial conditions, but the Fed is the decision maker on monetary policy.",
       "time": "18:49"
-    },
-    {
-      "t": "ECB’s Vujcic warns energy shock could keep inflation hot",
-      "time": "18:34"
-    },
-    {
-      "t": "Fed’s Hammack warns inflation mindset is the biggest risk",
-      "time": "18:15"
-    },
-    {
-      "t": "Gold finds a pulse as WTI slump takes the edge off US Dollar",
-      "time": "17:58"
-    },
-    {
-      "t": "Swiss Franc remains under pressure as Fed-SNB interest rate gap widens",
-      "time": "17:43"
     }
   ],
   "market_closed": true,
-  "saved_at": "2026-09-25T21:02:37Z",
-  "research_context": {
-    "updated_utc": "2026-09-26T20:20:47.360600+00:00",
-    "items": [
-      {
-        "bank": "CME",
-        "title": "British Pound futures bounce as UK consumer confidence hits 2-year high.",
-        "pairs": [],
-        "ts": 1790370484000
-      },
-      {
-        "bank": "CME",
-        "title": "Crude's supply risks meet a 66.4% probability of a Fed hike.",
-        "pairs": [],
-        "ts": 1790366551000
-      },
-      {
-        "bank": "ING",
-        "title": "Fresh cracks emerge in Hungary’s labour market",
-        "pairs": [],
-        "ts": 1790337660000
-      },
-      {
-        "bank": "Saxo",
-        "title": "Commodity weekly: Macro pressure meets supply tightness",
-        "pairs": [],
-        "ts": 1790335800000
-      },
-      {
-        "bank": "UBS",
-        "title": "Has the era of cheap food come to an end?",
-        "pairs": [],
-        "ts": 1790335288000
-      },
-      {
-        "bank": "ING",
-        "title": "CNB Minutes: Inflationary risks are starting to materialise",
-        "pairs": [],
-        "ts": 1790332560000
-      },
-      {
-        "bank": "ING",
-        "title": "CEE & CCA week ahead: Inflation data from Poland and Czech GDP",
-        "pairs": [],
-        "ts": 1790332200000
-      },
-      {
-        "bank": "Saxo",
-        "title": "Geopolitics could continue to dog this market for a long while yet.",
-        "pairs": [
-          "USD/JPY"
-        ],
-        "ts": 1790330280000
-      },
-      {
-        "bank": "ING",
-        "title": "THINK Ahead: US jobs report and eurozone inflation data",
-        "pairs": [],
-        "ts": 1790330100000
-      },
-      {
-        "bank": "ING",
-        "title": "RBA preview: A decisive hike to keep inflation in check",
-        "pairs": [],
-        "ts": 1790329500000
-      },
-      {
-        "bank": "ING",
-        "title": "Sustained loan growth in the eurozone",
-        "pairs": [],
-        "ts": 1790325120000
-      },
-      {
-        "bank": "Saxo",
-        "title": "The FX Trader: USDJPY reverses around key resistance level.",
-        "pairs": [
-          "USD/JPY"
-        ],
-        "ts": 1790321460000
-      },
-      {
-        "bank": "ING",
-        "title": "Asia week ahead: RBA decision, key data on China, Japan, Korea, Indonesia",
-        "pairs": [],
-        "ts": 1790319120000
-      },
-      {
-        "bank": "Saxo",
-        "title": "Market Quick Take - Brent near $106 as the thirty-year tops 5.4% - 25 September 2026",
-        "pairs": [],
-        "ts": 1790318700000
-      },
-      {
-        "bank": "ING",
-        "title": "FX Daily: Bond sell-off helps USD consolidate gains",
-        "pairs": [
-          "EUR/USD"
-        ],
-        "ts": 1790317380000
-      },
-      {
-        "bank": "ING",
-        "title": "German consumers aren’t buying the resilience story",
-        "pairs": [],
-        "ts": 1790317200000
-      },
-      {
-        "bank": "CME",
-        "title": "Australian Dollar futures drop to 2-month lows as Fed speakers turn hawkish.",
-        "pairs": [],
-        "ts": 1790284167000
-      }
-    ]
-  }
+  "saved_at": "2026-09-26T21:02:00Z"
 }
