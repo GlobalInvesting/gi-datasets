@@ -1,15 +1,66 @@
 {
-  "updated_utc": "2026-09-27T05:21:03.959014+00:00",
-  "updated_label": "05:21 UTC",
-  "total": 38,
+  "updated_utc": "2026-09-27T08:20:44.588440+00:00",
+  "updated_label": "08:20 UTC",
+  "total": 42,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
+    "RBC",
     "Saxo",
-    "UBS"
+    "TD",
+    "UBS",
+    "Wells Fargo"
   ],
   "items": [
+    {
+      "id": "2b0e2d325448",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "The Weekly Bottom Line: Resilient Growth Keeps the Fed on Edge",
+      "excerpt": "Our summary of recent economic events and what to expect in the weeks ahead. Canadian Highlights Canadian bond yields rose alongside U.S. rates, leaving the key 5-year yield at its highest level since 2024. Economic data this week showed that population growth remains weak despite upward revisions, and household spending was likely resilient in Q3, [&#8230;] The post The Weekly Bottom Line: Resilient Growth Keeps the Fed on Edge appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655472-the-weekly-bottom-line-resilient-growth-keeps-the-fed-on-edge/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790386680000,
+      "published": "2026-09-26T01:38:00+00:00"
+    },
+    {
+      "id": "0578542a259e",
+      "bank": "Wells Fargo",
+      "bank_full": "Wells Fargo Securities",
+      "series": "",
+      "title": "Economics Week Ahead",
+      "excerpt": "Next week will be busy. We expect consumer spending to rise 0.8% in August, while income growth of 0.5% and annual BEA revisions should show a resilient U.S. economy. The PCE deflator is expected to firm in August, although broader revisions should leave the recent inflation trend somewhat softer. On Friday, we expect payroll growth [&#8230;] The post Economics Week Ahead appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655463-economics-week-ahead-26/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790386458000,
+      "published": "2026-09-26T01:34:18+00:00"
+    },
+    {
+      "id": "c450a044dd59",
+      "bank": "RBC",
+      "bank_full": "RBC Financial Group",
+      "series": "",
+      "title": "Canada’s Economic Growth Stalled in July",
+      "excerpt": "Early industry data suggests the Canadian economy stalled in July, following stronger monthly gains in real gross domestic product from April to June that averaged 0.4%. July’s manufacturing, wholesale and retail sales data all point to declines in shipments, although manufacturing GDP was likely near flat as weakness was concentrated in petroleum and auto. These [&#8230;] The post Canada’s Economic Growth Stalled in July appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655459-canadas-economic-growth-stalled-in-july/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790386080000,
+      "published": "2026-09-26T01:28:00+00:00"
+    },
     {
       "id": "71bd3444ea11",
       "bank": "CME",
@@ -43,6 +94,23 @@
       "category": "macro",
       "ts": 1790366551000,
       "published": "2026-09-25T20:02:31+00:00"
+    },
+    {
+      "id": "35e36ff2df35",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "Weekly Focus – Bond Yields Hit New Highs, Equities Calm",
+      "excerpt": "Global bond yields continued to move higher over the past week, with 10-year US government bond yields rising from 4.95% on Monday to a weekly high of more than 5.20% on Thursday. Bonds also came under pressure in Europe and Japan, where yields reached new cycle highs. However, the increase in yields appears to be [&#8230;] The post Weekly Focus &#8211; Bond Yields Hit New Highs, Equities Calm appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655452-weekly-focus-bond-yields-hit-new-highs-equities-calm/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790346236000,
+      "published": "2026-09-25T14:23:56+00:00"
     },
     {
       "id": "36a8f26ca4a9",
@@ -398,23 +466,6 @@
       "published": "2026-09-24T06:18:00+00:00"
     },
     {
-      "id": "e65864e1e5c6",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Opening remarks - panel session on economics of innovation",
-      "excerpt": "Opening remarks by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the panel session on economics of innovation, at the Central Bank of Ireland conference “Trust and innovation – the future of finance\", Dublin, 18 September 2026.",
-      "author": "Joachim Nagel",
-      "url": "https://www.bis.org/speeches/20260924-opening-remarks-panel-session-economics-innovation",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790208000000,
-      "published": "2026-09-24T00:00:00+00:00"
-    },
-    {
       "id": "4a713375fe12",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -458,6 +509,23 @@
       "excerpt": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the Eurofi Financial Forum Gala Dinner, Dublin, 17 September 2026.",
       "author": "Gabriel Makhlouf",
       "url": "https://www.bis.org/speeches/20260924-finance-europes-future-getting-foundations-right",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790208000000,
+      "published": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "id": "e65864e1e5c6",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening remarks - panel session on economics of innovation",
+      "excerpt": "Opening remarks by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the panel session on economics of innovation, at the Central Bank of Ireland conference “Trust and innovation – the future of finance\", Dublin, 18 September 2026.",
+      "author": "Joachim Nagel",
+      "url": "https://www.bis.org/speeches/20260924-opening-remarks-panel-session-economics-innovation",
       "currencies": [
         "EUR"
       ],
