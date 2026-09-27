@@ -1,5 +1,5 @@
 
-const CACHE_VERSION = 'gi-v8.542.32';
+const CACHE_VERSION = 'gi-v8.543.0';
 const CACHE_STATIC  = `${CACHE_VERSION}-static`;
 const CACHE_DATA    = `${CACHE_VERSION}-data`;
 
@@ -7,26 +7,27 @@ const STATIC_PRECACHE = [
   '/assets/dashboard.css?v=8.540.3',
   '/assets/command-bar.css?v=8.491.5',
   '/assets/pair-detail.css?v=1.0.0',
-  '/assets/dashboard.js?v=8.542.32',
-  '/assets/pair-detail.js?v=1.0.2',
+  '/assets/dashboard.js?v=8.543.0',
+  '/assets/pair-detail.js?v=1.1.0',
   '/assets/command-bar.js?v=8.491.4',
+  '/assets/data-base.js?v=1.0.0',
   '/assets/gi-auth.js?v=1.7.8',
   '/assets/gi-overview.js?v=2.0.1',
   '/assets/fx-websocket.js?v=1.0.6',
-  '/assets/cot-modal-chart.js?v=7.99.1',
-  '/assets/cb-rates-modal.js?v=8.0.8',
-  '/assets/real-carry-modal.js?v=2.7.11',
+  '/assets/cot-modal-chart.js?v=7.99.2',
+  '/assets/cb-rates-modal.js?v=8.0.9',
+  '/assets/real-carry-modal.js?v=2.7.12',
   '/assets/corr-modal.js?v=2.7.0',
-  '/assets/yc-modal.js?v=8.8.7',
-  '/assets/heatmap-modal.js?v=2.6.8',
-  '/assets/econ-surprises-modal.js?v=1.3.12',
+  '/assets/yc-modal.js?v=8.8.8',
+  '/assets/heatmap-modal.js?v=2.6.9',
+  '/assets/econ-surprises-modal.js?v=1.3.13',
   '/assets/onboarding.js?v=7.89.12',
   '/assets/layout-resizer.js?v=1.0.2',
   '/assets/feed.js?v=1.0.0',
   '/assets/share.js?v=1.1.0',
   '/assets/inline-panel.js?v=1.4.2',
-  '/assets/calendar-panel.js?v=1.21.1',
-  '/assets/econ-matrix.js?v=2.6.10',
+  '/assets/calendar-panel.js?v=1.21.2',
+  '/assets/econ-matrix.js?v=2.6.11',
   '/assets/capital-flows.js?v=2.2.1',
   '/assets/gdpr.js',
   '/assets/sw-register.js',
@@ -81,15 +82,24 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
+const DATA_ORIGIN = 'https://raw.githubusercontent.com';
+const DATA_ORIGIN_PATH_PREFIX = '/GlobalInvesting/globalinvesting.github.io/main';
+
 self.addEventListener('fetch', event => {
   const { request } = event;
   const url = new URL(request.url);
 
-  if (request.method !== 'GET' || url.origin !== self.location.origin) return;
+  if (request.method !== 'GET') return;
 
-  const isData = DATA_PATH_PREFIXES.some(p => url.pathname.startsWith(p));
+  const isCrossOriginData = url.origin === DATA_ORIGIN && url.pathname.startsWith(DATA_ORIGIN_PATH_PREFIX);
 
-  const isEntryPoint = url.pathname === '/' || url.pathname === '/index.html';
+  if (url.origin !== self.location.origin && !isCrossOriginData) return;
+
+  const dataPathname = isCrossOriginData ? url.pathname.slice(DATA_ORIGIN_PATH_PREFIX.length) : url.pathname;
+
+  const isData = DATA_PATH_PREFIXES.some(p => dataPathname.startsWith(p));
+
+  const isEntryPoint = !isCrossOriginData && (url.pathname === '/' || url.pathname === '/index.html');
 
   if (isEntryPoint || isData) {
     event.respondWith(
