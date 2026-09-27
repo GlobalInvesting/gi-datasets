@@ -59,9 +59,23 @@ jobs:
           EOF
           git add 404.html
 
-      - name: Commit and push
+      - name: Commit and push (with retry)
         run: |
+          set -euo pipefail
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "cleanup: remove frontend files — site migrated to gi-frontend-app/global-investing.pages.dev"
-          git push origin main
+
+          for i in 1 2 3 4 5; do
+            echo "--- Attempt $i ---"
+            if git push origin main; then
+              echo "✅ Push succeeded on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected — rebasing onto latest main and retrying in $((i * 3))s..."
+            git fetch origin main
+            git rebase origin/main
+            sleep $((i * 3))
+          done
+          echo "::error::All push attempts exhausted."
+          exit 1
