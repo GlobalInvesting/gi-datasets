@@ -1,38 +1,33 @@
 {
-  "lastUpdate": "2026-09-26T23:58:59Z",
-  "generatedAt": "2026-09-26T23:58:59Z",
+  "lastUpdate": "2026-09-27T10:39:00Z",
+  "generatedAt": "2026-09-27T10:39:00Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-09-26",
+  "rangeFrom": "2025-09-29",
   "rangeTo": "2026-10-09",
-  "totalEvents": 5717,
+  "totalEvents": 5706,
   "currencyCounts": {
-    "EUR": 1650,
-    "CAD": 341,
-    "USD": 1757,
+    "EUR": 1647,
     "GBP": 554,
+    "USD": 1750,
     "JPY": 389,
     "NZD": 144,
     "AUD": 333,
     "CHF": 163,
+    "CAD": 340,
     "SEK": 235,
     "NOK": 151
   },
   "impactCounts": {
-    "medium": 2407,
-    "high": 1706,
+    "medium": 2401,
+    "high": 1701,
     "low": 1604
   },
   "surpriseStats": {
-    "JPY/retail sales yoy": {
-      "n": 4,
-      "mean": 0.225,
-      "std": 2.010597
-    },
     "SEK/balance of trade": {
       "n": 3,
       "mean": 4.366667,
@@ -1323,6 +1318,11 @@
       "mean": 0.1,
       "std": 0.1
     },
+    "JPY/retail sales yoy": {
+      "n": 3,
+      "mean": -0.4,
+      "std": 1.92873
+    },
     "JPY/boj interest rate decision": {
       "n": 2,
       "mean": 0.0,
@@ -2000,138 +2000,6 @@
     }
   },
   "events": [
-    {
-      "currency": "EUR",
-      "event": "Business Confidence",
-      "dateISO": "2025-09-26",
-      "actual": "87.3",
-      "forecast": "87.5",
-      "previous": "87.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "08:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Consumer Confidence",
-      "dateISO": "2025-09-26",
-      "actual": "96.8",
-      "forecast": "96.5",
-      "previous": "96.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "08:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Unemployment Benefit Claims",
-      "dateISO": "2025-09-26",
-      "actual": "-11.7K",
-      "forecast": "25.1",
-      "previous": "52.9",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "CAD",
-      "event": "GDP MoM",
-      "dateISO": "2025-09-26",
-      "actual": "0%",
-      "forecast": "0.2",
-      "previous": "0.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Personal Income MoM",
-      "dateISO": "2025-09-26",
-      "actual": "0.4%",
-      "forecast": "0.3",
-      "previous": "0.4",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Core PCE Price Index MoM",
-      "dateISO": "2025-09-26",
-      "actual": "0.2%",
-      "forecast": "0.2",
-      "previous": "0.2",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "PCE Price Index MoM",
-      "dateISO": "2025-09-26",
-      "actual": "0.3%",
-      "forecast": "0.3",
-      "previous": "0.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Core PCE Price Index YoY",
-      "dateISO": "2025-09-26",
-      "actual": "2.9%",
-      "forecast": "2.9",
-      "previous": "2.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "PCE Price Index YoY",
-      "dateISO": "2025-09-26",
-      "actual": "2.7%",
-      "forecast": "2.7",
-      "previous": "2.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Personal Spending MoM",
-      "dateISO": "2025-09-26",
-      "actual": "0.6%",
-      "forecast": "0.5",
-      "previous": "0.5",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Michigan Consumer Sentiment",
-      "dateISO": "2025-09-26",
-      "actual": "55.1",
-      "forecast": "55.4",
-      "previous": "58.2",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "14:00"
-    },
     {
       "currency": "EUR",
       "event": "Inflation Rate YoY",
