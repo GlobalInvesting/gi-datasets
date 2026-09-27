@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T13:55:30Z",
+  "updated": "2026-09-27T14:00:39Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,13 +35,13 @@
       "pct1w_date": "2026-09-18"
     },
     "gold": {
-      "close": 4286.1237,
+      "close": 4286.2148,
       "prev_close": 4286.2145,
-      "chg": -0.0908,
-      "pct": -0.0021,
+      "chg": 0.0003,
+      "pct": 0.0,
       "source": "twelve_data",
       "high": 4351.6,
-      "low": 4289.4,
+      "low": 4289.3,
       "open": 4309.5,
       "market_state": "REGULAR",
       "market_time": 1790369999
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-09-18"
     },
     "btc": {
-      "close": 84891.84,
+      "close": 85020.75,
       "prev_close": 84429.016,
-      "chg": 462.824,
-      "pct": 0.5482,
+      "chg": 591.734,
+      "pct": 0.7009,
       "high": 85016.58,
       "low": 84245.75,
       "open": 84429.016,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1790517328,
+      "market_time": 1790517640,
       "source": "quote-pipeline-primary",
-      "pct1w": 4.9324,
+      "pct1w": 5.0917,
       "pct1w_date": "2026-09-18",
-      "session_high": 85133.45,
-      "session_low": 83818.01
+      "session_high": 85140.49,
+      "session_low": 83814.07
     },
     "eth": {
-      "close": 2706.73,
+      "close": 2709.44,
       "prev_close": 2695.67,
-      "chg": 11.06,
-      "pct": 0.4103,
+      "chg": 13.77,
+      "pct": 0.5108,
       "high": 2719.1218,
       "low": 2689.5962,
       "open": 2695.67,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1790517332,
+      "market_time": 1790517638,
       "source": "quote-pipeline-primary",
-      "pct1w": 3.6526,
+      "pct1w": 3.7564,
       "pct1w_date": "2026-09-18",
-      "session_high": 2721.74,
-      "session_low": 2665.27
+      "session_high": 2721.78,
+      "session_low": 2665.34
     },
     "nasdaq": {
       "close": 30608.135,
@@ -277,7 +277,7 @@
       "open": 8702.0,
       "bid": null,
       "ask": null,
-      "market_state": "CLOSED",
+      "market_state": "PREPRE",
       "market_time": 1790319615,
       "source": "quote-pipeline-primary",
       "pct1w": -0.7582,
@@ -1192,7 +1192,7 @@
       "chg": -2.78,
       "pct": -2.7739,
       "high": 100.26,
-      "low": 96.4,
+      "low": 96.39,
       "open": 106.52,
       "bid": 96.5,
       "ask": 98.5,
