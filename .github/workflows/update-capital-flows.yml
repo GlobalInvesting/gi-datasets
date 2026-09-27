@@ -113,8 +113,3 @@ jobs:
           echo "pushed=false" >> "$GITHUB_OUTPUT"
           exit 0
 
-      - name: Trigger Pages deploy
-        if: steps.push.outputs.pushed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy-pages.yml --ref main

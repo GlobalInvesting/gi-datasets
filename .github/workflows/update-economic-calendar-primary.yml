@@ -202,12 +202,6 @@ jobs:
           echo "pushed=false" >> "$GITHUB_OUTPUT"
           exit 0
 
-      - name: Trigger Pages deploy
-        if: steps.gate.outputs.run == 'true' && steps.push.outputs.pushed == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh workflow run deploy-pages.yml --ref main
-
       - name: Dispatch calendar-actual-changed if any new actual detected
         if: steps.gate.outputs.run == 'true'
         env:
