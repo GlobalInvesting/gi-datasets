@@ -147,6 +147,8 @@ jobs:
           cp ai-analysis/currency-drivers.json /tmp/structural_fresh/
           [ -f ai-analysis/currency-catalysts.json ] && cp ai-analysis/currency-catalysts.json /tmp/structural_fresh/
           [ -f ai-analysis/call-budget-state.json ] && cp ai-analysis/call-budget-state.json /tmp/structural_fresh/
+          [ -f ai-analysis/weekly-outlook.json ] && cp ai-analysis/weekly-outlook.json /tmp/structural_fresh/
+          [ -f ai-analysis/weekly-outlook-state.json ] && cp ai-analysis/weekly-outlook-state.json /tmp/structural_fresh/
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
 
           for i in 1 2 3 4 5; do
@@ -163,6 +165,14 @@ jobs:
             if [ -f /tmp/structural_fresh/call-budget-state.json ]; then
               cp /tmp/structural_fresh/call-budget-state.json ai-analysis/
               git add ai-analysis/call-budget-state.json
+            fi
+            if [ -f /tmp/structural_fresh/weekly-outlook.json ]; then
+              cp /tmp/structural_fresh/weekly-outlook.json ai-analysis/
+              git add ai-analysis/weekly-outlook.json
+            fi
+            if [ -f /tmp/structural_fresh/weekly-outlook-state.json ]; then
+              cp /tmp/structural_fresh/weekly-outlook-state.json ai-analysis/
+              git add ai-analysis/weekly-outlook-state.json
             fi
             if git diff --quiet && git diff --staged --quiet; then
               echo "No changes vs remote HEAD — skipping commit."
