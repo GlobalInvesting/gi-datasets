@@ -1,51 +1,39 @@
 {
-  "generated_at": "2026-09-27T21:00:47Z",
+  "generated_at": "2026-09-27T23:51:14Z",
   "signals": [
     {
-      "time": "20:58",
-      "priority": "critical",
-      "title": "AUD/USD — G10 Bilateral Theme + Crowded Long",
-      "text": "AUD/USD trades at 0.7015, testing support just above its 200-day moving average at 0.7026 while sitting well below its 20-day and 50-day moving average cluster at 0.7141/0.7096. Across G10 peers, USD leads performance at +0.915% across 9 pairs while AUD lags at -1.062% across 4 pairs, creating an extreme 1.977% bilateral spread. CFTC data shows Leveraged Funds net long +55,684 contracts in AUD, placing positioning in the 95th percentile with a z-score of +1.97. Despite a 47bp OIS carry advantage for AUD against SOFR, net speculative flow contracted by 3,615 contracts this week, signalling long exhaustion. This combination leaves an extended speculative long base vulnerable to sharp liquidation into technical support. Trade bias: Bearish AUD/USD, crowded long unwinding against broad US Dollar strength. Catalyst: RBA Interest Rate Decision on 29 Sep. Risk: Hawkish RBA surprise delivers immediate rate support and stalls long liquidation above 0.7026.",
-      "evidence": [
-        "USD 1W avg: +0.915% (n=9)",
-        "AUD 1W avg: -1.062% (n=4)",
-        "G10 spread: 1.977%"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "20:55",
-      "priority": "critical",
-      "title": "USD/JPY — Geopolitical Tension vs Carry",
-      "text": "USD/JPY trades at 157.20, holding above its 20-day moving average at 156.40 but capped below the 50-day and 200-day moving average band at 158.45/158.60. A 290bp OIS carry differential anchored by SOFR 3.88% versus TONA 0.98% structurally supports the pair, yet headlines confirming Iran's seizure of an autonomous underwater vessel in the Strait of Hormuz inject acute geopolitical risk. VIX prints at 14.9, maintaining a low-volatility environment where carry dominates until systemic risk-off accelerates. However, the options market prices significant protection against downside shocks, visible in the 25-delta risk reversal printing at -2.28 alongside a negative volatility risk premium where 1M implied volatility at 8.7% sits below 30-day realized volatility of 10.3%. Watch 160.00 as the critical overhead boundary previously associated with Ministry of Finance intervention commentary. Trade bias: Long USD/JPY, carry support dominant while equity volatility remains contained. Catalyst: BoJ Monetary Policy Meeting Minutes release on 27 Sep. Risk: Geopolitical escalation in the Persian Gulf drives VIX above 25.0 and triggers a fast carry unwind.",
-      "evidence": [
-        "SOFR 3.88% vs TONA 0.98% — +290bp",
-        "USD/JPY 25d RR: -2.28 put skew",
-        "USD/JPY VRP: -1.6% (IV 8.7% vs HV30 10.3%)"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "20:51",
+      "time": "23:45",
       "priority": "warning",
-      "title": "USD/CHF — Negative Real Rate vs Policy Divergence",
-      "text": "USD/CHF trades at 0.8278, maintaining an intact bullish structure above its 20-day, 50-day, and 200-day moving averages at 0.8168, 0.8123, and 0.7946. Central bank rate policy establishes a 400bp nominal advantage for the Federal Reserve at 4.00% over the Swiss National Bank at 0.00%, reinforced by a restrictive US real policy rate of +1.68% against Switzerland's deeply accommodative -1.24%. While SNB Chairman Schlegel verbally characterised recent Swiss franc softening as a minor reversal, CFTC positioning shows speculative accounts heavily positioned against CHF with net shorts of -18,620 contracts, marking the 7th percentile of its 52-week range at z = -1.54. The massive 400bp carry cushion and persistent real rate divergence continue to penalise CHF holdings across non-stress regimes. Trade bias: Bullish USD/CHF, carry and real policy rate divergence favoring the Dollar. Catalyst: Switzerland KOF Economic Barometer on 28 Sep. Risk: US core inflation data undershoots expectations and rapidly narrows the transatlantic real rate premium.",
+      "title": "USD/JPY — Carry Premium + Options Put Skew",
+      "text": "USD/JPY trades at 157.51, holding above its SMA20 at 156.40 while remaining below the SMA50/200 cluster around 158.45/158.60. An overnight OIS differential of SOFR 3.88% vs TONA 0.98% secures a +290bp carry advantage for the dollar, anchoring spot demand while VIX at 14.9 confirms a low-volatility environment where carry strategies typically dominate. However, options pricing exhibits strong structural caution, with 25d risk reversals marked at -2.28 put skew and 1M ATM implied volatility at 8.7% vs 30-day realized volatility of 10.1%, generating a -1.5% volatility risk premium. Furthermore, the MOVE index sits at the 96th percentile of its trailing year while VIX sits at the 8th, highlighting bond market volatility pricing central bank path uncertainty that equities are not reflecting. Leveraged Funds pared JPY longs by -15,597 contracts WoW to leave net positioning at +4,472, though 160.00 remains the key level that has previously triggered Ministry of Finance intervention warnings. Trade bias: Long USD/JPY, carry-driven upside constrained by options downside skew. Catalyst: Fed Governor Bowman speech at 12:15 UTC. Risk: US 10Y yields drop sharply below 5.00%, compressing the US-Japan rate gap and triggering rapid carry liquidation.",
       "evidence": [
-        "Fed 4.0% vs SNB 0.0% — +400bp",
-        "US real rate +1.68% vs CH real rate -1.24%",
-        "CHF COT LF net: -18,620 (pctl 7, z -1.54)"
+        "USD/JPY OIS carry: +290bp",
+        "USDJPY 25d RR: -2.28 put skew",
+        "USD/JPY VRP: -1.5% (IV 8.7% vs HV30 10.1%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:46",
+      "time": "23:42",
       "priority": "warning",
-      "title": "EUR/USD — Macro Divergence + Cross-Asset Decoupling",
-      "text": "EUR/USD trades flat at 1.1380, remaining pinned below its entire daily moving average cluster of 1.1539, 1.1538, and 1.1625 across the 20-day, 50-day, and 200-day metrics. Sovereign fixed income markets exhibit wide structural divergence, as the US 2-year yield of 4.87% maintains a 158bp yield premium over German Bund equivalents at 3.28%. Simultaneously, the correlation between EUR/USD and the EuroStoxx 50 has broken down completely to -0.009 against its 252-day norm of +0.145, registering a z-score dislocation of -1.60 standard deviations. This decoupling demonstrates that equity resilience is offering zero spillover support to the currency, leaving the pair exposed entirely to US rate momentum. Trade bias: Bearish EUR/USD, structural yield disadvantage capping rebound attempts. Catalyst: Euro Area Consumer Price Expectations on 28 Sep. Risk: Preliminary Spanish and Euro Area inflation figures surprise significantly to the upside, steepening the ECB hiking trajectory.",
+      "title": "NZD/USD — Retail Extreme vs Spec Short",
+      "text": "NZD/USD trades at 0.5652, suppressed firmly beneath its SMA20/50/200 technical cluster between 0.5789 and 0.5853. Leveraged Funds hold net short positions of -5,216 contracts following a weekly reduction of -2,897 contracts, whereas retail positioning on Retail sentiment data displays an extreme 92% net-long exposure. This acute retail-versus-institutional positioning divergence develops as Fed 4.00% vs RBNZ 2.75% provides a +125bp carry premium supporting the dollar, compounded by the 2Y NZ-US sovereign spread widening 27bp in the dollar's favor over the past 20 sessions to -88bp. Retail dip-buyers are fighting persistent structural macro divergence and lower moving-average resistance. Trade bias: Bearish NZD/USD, retail capitulation setup against institutional trend. Catalyst: United States JOLTS Job Openings at 14:00 UTC. Risk: US labor data softens significantly, driving a broad dollar pullback above the 0.5700 handle.",
       "evidence": [
-        "US 2Y 4.87% vs DE 2Y 3.28% — spread -158bp",
-        "EUR/USD vs EuroStoxx: corr -0.009 (z -1.60σ)",
-        "EUR/USD position: below SMA20/50/200"
+        "NZD/USD Retail: 92% long / 8% short",
+        "NZD COT LF net: -5,216 (WoW -2,897)",
+        "USD/NZD carry: Fed 4.0% vs RBNZ 2.75% — +125bp"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "23:38",
+      "priority": "info",
+      "title": "EUR/USD — Technical Compression + Real Yield Shift",
+      "text": "EUR/USD trades at 1.1379, remaining below its SMA20 at 1.1539, SMA50 at 1.1538, and SMA200 at 1.1625. Leveraged Funds maintain an extended net short position of -58,805 contracts (37.3% long share) after selling an additional -7,450 contracts WoW. The policy backdrop reinforces this downward momentum, as Fed 4.00% vs ECB 2.65% establishes a +135bp carry advantage favoring the dollar, with Germany-US 2Y spreads widening -20bp toward the greenback over the trailing 20 sessions to -158bp. Cross-asset dynamics highlight this decoupling, with EUR/USD correlation to the EuroStoxx breaking to -0.009 against a 252-day norm of +0.145 (z = -1.60σ). Trade bias: Bearish EUR/USD, moving-average resistance capping upside. Catalyst: Euro Area Economic Sentiment Indicator and Consumer Price Expectations at 09:00 UTC. Risk: Eurozone inflation expectations print sharply above forecast, accelerating ECB rate hike pricing.",
+      "evidence": [
+        "EUR/USD: below SMA20 (1.1539) and SMA50 (1.1538)",
+        "Fed 4.0% vs ECB 2.65% — +135bp",
+        "EUR/USD vs EuroStoxx: z = -1.60σ"
       ],
       "_source": "engine-ai-primary"
     }
