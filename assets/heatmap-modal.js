@@ -506,7 +506,7 @@
   function fetchDrivers() {
     if (_driversFetched) return;
     _driversFetched = true;
-    fetch('./ai-analysis/currency-drivers.json?_=' + Date.now())
+    fetch(GI_DATA_BASE + 'ai-analysis/currency-drivers.json?_=' + Date.now())
       .then(r => r.ok ? r.json() : null)
       .then(data => {
         if (data && data.drivers && typeof data.drivers === 'object') {
@@ -519,7 +519,7 @@
   function fetchCatalysts() {
     if (_catalystsFetched) return;
     _catalystsFetched = true;
-    fetch('./ai-analysis/currency-catalysts.json?_=' + Date.now())
+    fetch(GI_DATA_BASE + 'ai-analysis/currency-catalysts.json?_=' + Date.now())
       .then(r => r.ok ? r.json() : null)
       .then(data => {
         if (data && data.currencies && typeof data.currencies === 'object') {
@@ -535,7 +535,7 @@
   function fetchSessionContext() {
     if (_sessionCtxFetched) return;
     _sessionCtxFetched = true;
-    fetch('./ai-analysis/session-context.json?_=' + Date.now())
+    fetch(GI_DATA_BASE + 'ai-analysis/session-context.json?_=' + Date.now())
       .then(r => r.ok ? r.json() : null)
       .then(data => {
         if (data && data.sessions && typeof data.sessions === 'object') {
@@ -1032,7 +1032,7 @@
     if (!wrap) return;
     wrap.innerHTML = '<div class="hm-news-loading">Loading market commentary…</div>';
     try {
-      const res = await fetch('./news-data/news.json', { cache: 'no-store' }).catch(() => null);
+      const res = await fetch(GI_DATA_BASE + 'news-data/news.json', { cache: 'no-store' }).catch(() => null);
       if (!res || !res.ok) throw new Error('fetch failed');
       const j = await res.json();
       if (ccy !== _hmNewsCcy) return; 
@@ -1472,9 +1472,9 @@
   PAIR_DEFS.forEach(p => { PAIR_SIGN[p.id] = p.sign; });
 
   function _csiBasePathForTf(tf) {
-    if (tf === 'H1') return './ohlc-data/h1/';
-    if (tf === 'H4') return './ohlc-data/h4/';
-    return './ohlc-data/'; 
+    if (tf === 'H1') return GI_DATA_BASE + 'ohlc-data/h1/';
+    if (tf === 'H4') return GI_DATA_BASE + 'ohlc-data/h4/';
+    return GI_DATA_BASE + 'ohlc-data/'; 
   }
 
   async function _loadCSIData(tf) {

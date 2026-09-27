@@ -260,7 +260,7 @@ async function openCBRatesModal(ccy,obs,bankInfo,meetingData){
     try{
       const st=window._STATE_meetings;
       if(st?.meetings?.[ccy]){meetingData=st.meetings[ccy];}
-      else{const res=await fetch('./meetings-data/meetings.json').then(r=>r.ok?r.json():null).catch(()=>null);if(res?.meetings?.[ccy])meetingData=res.meetings[ccy];}
+      else{const res=await fetch(GI_DATA_BASE + 'meetings-data/meetings.json').then(r=>r.ok?r.json():null).catch(()=>null);if(res?.meetings?.[ccy])meetingData=res.meetings[ccy];}
     }catch(_){}
   }
   const{chronData,decisions}=_processCBRateData(obs);
@@ -375,7 +375,7 @@ async function _cbrLoadPolicySummary(ccy, bankShort){
   const wrap=document.getElementById('cbr-policy-summary');
   if(!wrap)return;
   try{
-    const res=await fetch('./news-data/news.json',{cache:'no-store'}).catch(()=>null);
+    const res=await fetch(GI_DATA_BASE + 'news-data/news.json',{cache:'no-store'}).catch(()=>null);
     if(!res?.ok)throw new Error('fetch failed');
     const j=await res.json();
     const CB_KW=['rate','hike','cut','hold','hawkish','dovish','inflation','gdp','policy','central bank',

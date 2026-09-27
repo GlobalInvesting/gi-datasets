@@ -96,10 +96,10 @@
     if (state.loading) return state.loading;
     if (!force && state.data && Date.now() - state.loadedAt < REFRESH_MS) return Promise.resolve(state.data);
     var urls = {
-      catalysts: './ai-analysis/currency-catalysts.json',
-      session:   './ai-analysis/session-context.json',
-      drivers:   './ai-analysis/currency-drivers.json',
-      fair:      './fair-value-data/summary.json'
+      catalysts: GI_DATA_BASE + 'ai-analysis/currency-catalysts.json',
+      session:   GI_DATA_BASE + 'ai-analysis/session-context.json',
+      drivers:   GI_DATA_BASE + 'ai-analysis/currency-drivers.json',
+      fair:      GI_DATA_BASE + 'fair-value-data/summary.json'
     };
     var keys = Object.keys(urls);
     state.loading = Promise.all(keys.map(function (k) {

@@ -332,7 +332,7 @@
   }
 
   async function loadCalendarData() {
-    const res = await fetch('./calendar-data/calendar.json', { cache: 'no-store' }).catch(() => null);
+    const res = await fetch(GI_DATA_BASE + 'calendar-data/calendar.json', { cache: 'no-store' }).catch(() => null);
     if (!res || !res.ok) return null;
     const data = await res.json().catch(() => null);
     if (!data || !Array.isArray(data.events)) return null;
@@ -367,7 +367,7 @@
   }
 
   async function load10y(ccy) {
-    const ext = await fetch('./extended-data/' + ccy + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null);
+    const ext = await fetch(GI_DATA_BASE + 'extended-data/' + ccy + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null);
     const v = ext && ext.data && ext.data.bond10y;
     if (v == null || isNaN(v)) return null;
     const date = (ext.dates && ext.dates.bond10y) || '';
@@ -416,7 +416,7 @@
   async function lastMeetingDate(ccy) {
     let meetings = await waitForMeetings(1500);
     if (!meetings) {
-      const data = await fetch('./meetings-data/meetings.json').then(r => r.ok ? r.json() : null).catch(() => null);
+      const data = await fetch(GI_DATA_BASE + 'meetings-data/meetings.json').then(r => r.ok ? r.json() : null).catch(() => null);
       meetings = data && data.meetings;
     }
     const rec = meetings && meetings[ccy];
@@ -436,7 +436,7 @@
       const trend = (typeof window.computeCBTrend === 'function') ? window.computeCBTrend(rec.obs) : simpleTrend(rec.obs);
       return { rate: rec.rate, date: meetingDate || rec.date, trend };
     }
-    const data = await fetch('./rates/' + ccy + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null);
+    const data = await fetch(GI_DATA_BASE + 'rates/' + ccy + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null);
     const obs = data && data.observations;
     if (!obs || !obs.length) return null;
     const rate = parseFloat(obs[0].value);

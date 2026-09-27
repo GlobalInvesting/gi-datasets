@@ -580,7 +580,7 @@
     if (!pairKey) return null;
     if (_ohlcCache[pairKey]) return _ohlcCache[pairKey];
     try {
-      const res = await fetch(`./ohlc-data/${pairKey}.json`, { cache: 'no-store' });
+      const res = await fetch(`${GI_DATA_BASE}ohlc-data/${pairKey}.json`, { cache: 'no-store' });
       if (!res.ok) return null;
       const data = await res.json();
       _ohlcCache[pairKey] = data;
@@ -1522,8 +1522,8 @@
     try {
       const _cb = '?_=' + Math.floor(Date.now() / 120000);
       const [ffRes, calRes] = await Promise.all([
-        fetch('./calendar-data/economic-events.json' + _cb, { cache: 'no-store' }).catch(() => null),
-        fetch('./calendar-data/calendar.json' + _cb, { cache: 'no-store' }).catch(() => null)
+        fetch(GI_DATA_BASE + 'calendar-data/economic-events.json' + _cb, { cache: 'no-store' }).catch(() => null),
+        fetch(GI_DATA_BASE + 'calendar-data/calendar.json' + _cb, { cache: 'no-store' }).catch(() => null)
       ]);
       const ffJson  = ffRes?.ok  ? await ffRes.json().catch(() => null)  : null;
       const calJson = calRes?.ok ? await calRes.json().catch(() => null) : null;

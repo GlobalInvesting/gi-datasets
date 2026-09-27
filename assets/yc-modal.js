@@ -221,7 +221,7 @@ async function _ycLoadPolicySummary(){
   const wrap=document.getElementById('ycm-policy-summary');
   if(!wrap)return;
   try{
-    const res=await fetch('./news-data/news.json',{cache:'no-store'}).catch(()=>null);
+    const res=await fetch(GI_DATA_BASE + 'news-data/news.json',{cache:'no-store'}).catch(()=>null);
     if(!res?.ok)throw new Error('fetch failed');
     const j=await res.json();
     const YC_KW=['treasury','treasuries','yield curve','10-year yield','10-year treasury',

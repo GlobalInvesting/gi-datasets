@@ -81,7 +81,7 @@ async function renderFairValue() {
 
   let summary = null;
   try {
-    const r = await _fetchWithRetry('./fair-value-data/summary.json');
+    const r = await _fetchWithRetry(GI_DATA_BASE + 'fair-value-data/summary.json');
     summary = r && r.ok ? await r.json() : null;
   } catch {
     summary = null;
@@ -177,7 +177,7 @@ async function _fvRenderCsvExport() {
 
   let manifest = null;
   try {
-    const r = await _fetchWithRetry('./fair-value-data/backtest/manifest.json');
+    const r = await _fetchWithRetry(GI_DATA_BASE + 'fair-value-data/backtest/manifest.json');
     manifest = r && r.ok ? await r.json() : null;
   } catch {
     manifest = null;
@@ -192,7 +192,7 @@ async function _fvRenderCsvExport() {
   const totalPairs = manifest.pairs_exported || 32;
   const totalRows = manifest.total_computed_rows_all_pairs;
 
-  btn.href = './fair-value-data/backtest/all_pairs.csv';
+  btn.href = GI_DATA_BASE + 'fair-value-data/backtest/all_pairs.csv';
   btn.title = `Download point-in-time CSV (raw inputs, all ${totalPairs} pairs) for independent backtesting — ` +
     `walk-forward Fair Value/Z-score computed for ${pairsWithData}/${totalPairs} pairs so far (${totalRows} rows total, ` +
     `growing by one row per pair per weekday session) · no lookahead: each computed row used only data available up to its own date.`;
@@ -412,7 +412,7 @@ updateClock();
 
 async function fetchFrankfurter() {
   try {
-    const res = await fetch('/fx-data/frankfurter.json');
+    const res = await fetch(GI_DATA_BASE + 'fx-data/frankfurter.json');
     if (!res.ok) return;
     const data = await res.json();
 
@@ -661,7 +661,7 @@ async function _corrMtxLoadPairData() {
     const out = {};
     await Promise.all(CORR_MTX_PAIRS.map(async ([id]) => {
       try {
-        const r = await _fetchWithRetry('./ohlc-data/' + id + '.json');
+        const r = await _fetchWithRetry(GI_DATA_BASE + 'ohlc-data/' + id + '.json');
         const bars = await r.json();
         if (Array.isArray(bars) && bars.length > 1) {
           const byDate = {};
@@ -854,7 +854,7 @@ async function _corrPairsLoadCloses(tf) {
     const out = {};
     await Promise.all(CORR_MTX_PAIRS.map(async ([id]) => {
       try {
-        const r = await _fetchWithRetry('./ohlc-data/' + dir + id + '.json');
+        const r = await _fetchWithRetry(GI_DATA_BASE + 'ohlc-data/' + dir + id + '.json');
         const bars = await r.json();
         if (Array.isArray(bars) && bars.length > 1) {
           const byDate = {};
@@ -960,7 +960,7 @@ async function _load2YDiffFactorSeries() {
     const out = {};
     await Promise.all(CORR_MTX_CCYS.map(async ccy => {
       try {
-        const r = await fetch('./bond2y-data/' + ccy + '.json', { cache: 'no-store' });
+        const r = await fetch(GI_DATA_BASE + 'bond2y-data/' + ccy + '.json', { cache: 'no-store' });
         const hist = r.ok ? await r.json() : null;
         if (Array.isArray(hist) && hist.length) {
           const byDate = {};
@@ -1349,7 +1349,7 @@ function computeCBTrend(obs) {
 async function fetchCBRates() {
   const promises = CB_CONFIG.map(async cfg => {
     try {
-      const r = await fetch('./rates/' + cfg.file + '.json', { cache: 'no-store' });
+      const r = await fetch(GI_DATA_BASE + 'rates/' + cfg.file + '.json', { cache: 'no-store' });
       if (!r.ok) return null;
       const data = await r.json();
       const obs = data.observations;
@@ -1600,7 +1600,7 @@ function _renderCOTRows(results, symMap, dataStoreKey) {
 async function fetchCOTData() {
   const promises = COT_CURRENCIES.map(async ccy => {
     try {
-      const r = await fetch('./cot-data/' + ccy + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
       if (!r.ok) return null;
       const data = await r.json();
       return { ccy, ...data };
@@ -1631,7 +1631,7 @@ async function fetchCOTIndicesData() {
 
   const promises = COT_INDICES.map(async sym => {
     try {
-      const r = await fetch('./cot-data/indices/' + sym + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/indices/' + sym + '.json');
       if (!r.ok) return null;
       const data = await r.json();
       return { ccy: sym, ...data };
@@ -1660,7 +1660,7 @@ async function fetchCOTCommoditiesData() {
 
   const promises = COT_COMMODITIES.map(async sym => {
     try {
-      const r = await fetch('./cot-data/commodities/' + sym + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/commodities/' + sym + '.json');
       if (!r.ok) return null;
       const data = await r.json();
       return { ccy: sym, ...data };
@@ -1731,21 +1731,21 @@ let _cotBreakdownData = null;
 async function _fetchCotBreakdownData() {
   const ccyPromises = COT_BREAKDOWN_CCYS.map(async ccy => {
     try {
-      const r = await fetch('./cot-data/' + ccy + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
       if (!r.ok) return null;
       return { ccy, data: await r.json() };
     } catch { return null; }
   });
   const idxPromises = COT_BREAKDOWN_INDICES.map(async sym => {
     try {
-      const r = await fetch('./cot-data/indices/' + sym + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/indices/' + sym + '.json');
       if (!r.ok) return null;
       return { sym, data: await r.json() };
     } catch { return null; }
   });
   const comPromises = COT_BREAKDOWN_COMMODITIES.map(async sym => {
     try {
-      const r = await fetch('./cot-data/commodities/' + sym + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/commodities/' + sym + '.json');
       if (!r.ok) return null;
       return { sym, data: await r.json() };
     } catch { return null; }
@@ -2169,7 +2169,7 @@ async function fetchNewsData() {
   try {
     const headers = {};
     if (_newsEtag) headers['If-None-Match'] = _newsEtag;
-    const r = await fetch('./news-data/news.json', { headers });
+    const r = await fetch(GI_DATA_BASE + 'news-data/news.json', { headers });
     if (r.status === 304) return;
     if (!r.ok) return;
     const etag = r.headers.get('ETag');
@@ -2415,7 +2415,7 @@ async function loadIntradayQuotes() {
 
   _intradayInFlight = (async () => {
     try {
-      const r = await fetch('./intraday-data/quotes.json?_=' + Math.floor(now / 60000), {
+      const r = await fetch(GI_DATA_BASE + 'intraday-data/quotes.json?_=' + Math.floor(now / 60000), {
         signal: AbortSignal.timeout(5000)
       });
       if (!r.ok) return null;
@@ -2757,7 +2757,7 @@ async function buildCOTSentiment() {
   const results = {};
   await Promise.all(COT_CCYS.map(async ccy => {
     try {
-      const r = await fetch('./cot-data/' + ccy + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
       if (!r.ok) return;
       const d = await r.json();
       if (d.longPositions != null && d.shortPositions != null) {
@@ -3111,7 +3111,7 @@ async function fetchSentiment() {
   await loadIntradayQuotes().catch(() => null);
 
   try {
-    const r = await fetch('./sentiment-data/myfxbook.json');
+    const r = await fetch(GI_DATA_BASE + 'sentiment-data/myfxbook.json');
     if (r.ok) {
       const d = await r.json();
       if (_sentimentSourceOneUsable(d, Date.now())) {
@@ -3354,9 +3354,9 @@ async function fetchRiskData() {
   const byId = {};
   try {
     const [usdExt, eurExt, jpyExt] = await Promise.all([
-      fetch('./extended-data/USD.json').then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch('./extended-data/EUR.json').then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch('./extended-data/JPY.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'extended-data/USD.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'extended-data/EUR.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'extended-data/JPY.json').then(r => r.ok ? r.json() : null).catch(() => null),
     ]);
     if (usdExt?.data) {
       const d = usdExt.data;
@@ -4422,7 +4422,7 @@ async function _renderLWChart(ohlcId, label) {
 
   if (typeof window._lwFvSummaryReq === 'undefined') {
     window._lwFvSummary = null;
-    window._lwFvSummaryReq = _fetchWithRetry('./fair-value-data/summary.json')
+    window._lwFvSummaryReq = _fetchWithRetry(GI_DATA_BASE + 'fair-value-data/summary.json')
       .then(res => res && res.ok ? res.json() : null)
       .then(d => { window._lwFvSummary = (d && d.pairs) ? d.pairs : {}; })
       .catch(() => { window._lwFvSummary = {}; });
@@ -4431,9 +4431,9 @@ async function _renderLWChart(ohlcId, label) {
   const _activeTf = _lwActiveTf;
   const _isIntradayTf = (_activeTf === 'H1' || _activeTf === 'H4');
   let _jsonPath;
-  if (_activeTf === 'H1')      _jsonPath = './ohlc-data/h1/' + ohlcId + '.json';
-  else if (_activeTf === 'H4') _jsonPath = './ohlc-data/h4/' + ohlcId + '.json';
-  else                         _jsonPath = './ohlc-data/' + ohlcId + '.json';
+  if (_activeTf === 'H1')      _jsonPath = GI_DATA_BASE + 'ohlc-data/h1/' + ohlcId + '.json';
+  else if (_activeTf === 'H4') _jsonPath = GI_DATA_BASE + 'ohlc-data/h4/' + ohlcId + '.json';
+  else                         _jsonPath = GI_DATA_BASE + 'ohlc-data/' + ohlcId + '.json';
 
   const r = await fetch(_jsonPath, { signal: AbortSignal.timeout(6000) });
   if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -4981,7 +4981,7 @@ async function _renderLWChart(ohlcId, label) {
       };
       const relevantCBs = _CB_MAP[ohlcId] || [];
       if (relevantCBs.length === 0) return;
-      const mtgData = window._STATE_meetings || await fetch('./meetings-data/meetings.json', { cache: 'no-store' })
+      const mtgData = window._STATE_meetings || await fetch(GI_DATA_BASE + 'meetings-data/meetings.json', { cache: 'no-store' })
         .then(r => r.ok ? r.json() : null).catch(() => null);
       if (!mtgData?.meetings) return;
       const barDates = new Set(bars.map(b => b.time));
@@ -8110,7 +8110,7 @@ const BOND_YIELD_CACHE = {};
   const CCYS = ['USD','EUR','GBP','JPY','AUD','CAD','CHF','NZD','NOK','SEK'];
   await Promise.all(CCYS.map(async ccy => {
     try {
-      const r = await fetch('./extended-data/' + ccy + '.json');
+      const r = await fetch(GI_DATA_BASE + 'extended-data/' + ccy + '.json');
       if (!r.ok) return;
       const j = await r.json();
       const d = j?.data ?? j;
@@ -8127,7 +8127,7 @@ const BOND_YIELD_CACHE = {};
   const CCYS = ['EUR','GBP','JPY','AUD','CAD','CHF','NZD','USD'];
   await Promise.all(CCYS.map(async ccy => {
     try {
-      const r = await fetch('./cot-data/' + ccy + '.json');
+      const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
       if (!r.ok) return;
       const d = await r.json();
       let prevOI = null;
@@ -8589,7 +8589,7 @@ async function fetchCarryRanking() {
       const cached = STATE.cbRates?.[ccy.toLowerCase()];
       if (cached?.rate != null) { cbRates[ccy] = cached.rate; return; }
       try {
-        const r = await fetch('./rates/' + ccy + '.json', { cache: 'no-store' });
+        const r = await fetch(GI_DATA_BASE + 'rates/' + ccy + '.json', { cache: 'no-store' });
         if (!r.ok) return;
         const d = await r.json();
         if (d.observations?.[0]?.value) cbRates[ccy] = parseFloat(d.observations[0].value);
@@ -8606,7 +8606,7 @@ async function fetchCarryRanking() {
     let oisData = null;
     if (Object.keys(oisCache).length === 0) {
       try {
-        const or = await fetch('./ois-rates/rates.json', { cache: 'no-store' });
+        const or = await fetch(GI_DATA_BASE + 'ois-rates/rates.json', { cache: 'no-store' });
         if (or.ok) oisData = await or.json();
       } catch {}
     }
@@ -8638,7 +8638,7 @@ async function fetchCarryRanking() {
         return;
       }
       try {
-        const r = await fetch('./extended-data/' + ccy + '.json');
+        const r = await fetch(GI_DATA_BASE + 'extended-data/' + ccy + '.json');
         if (!r.ok) return;
         const d = await r.json();
         const ie = d?.data?.inflationExpectations;
@@ -9017,7 +9017,7 @@ async function fetchCarryData() {
     const rateData = {};
     await Promise.all(CURRENCIES.map(async ccy => {
       try {
-        const r = await fetch('./rates/' + ccy + '.json', { cache: 'no-store' });
+        const r = await fetch(GI_DATA_BASE + 'rates/' + ccy + '.json', { cache: 'no-store' });
         if (!r.ok) return;
         const d = await r.json();
         if (d.observations && d.observations.length) {
@@ -9067,7 +9067,7 @@ async function fetchCrossAssetData() {
 
   try {
     const _cb = '?_=' + Math.floor(Date.now() / 120000);
-    const _ffRes = await fetch('./calendar-data/economic-events.json' + _cb, { cache: 'no-store' });
+    const _ffRes = await fetch(GI_DATA_BASE + 'calendar-data/economic-events.json' + _cb, { cache: 'no-store' });
     if (_ffRes.ok) {
       const _ffJson = await _ffRes.json();
       const _todayIso = new Date().toISOString().slice(0, 10);
@@ -9122,7 +9122,7 @@ async function fetchCrossAssetData() {
 
   let _repoUs10y = null;
   try {
-    const usdExt = await fetch('./extended-data/USD.json').then(r => r.ok ? r.json() : null).catch(() => null);
+    const usdExt = await fetch(GI_DATA_BASE + 'extended-data/USD.json').then(r => r.ok ? r.json() : null).catch(() => null);
     if (usdExt?.data?.bond10y != null && !isNaN(usdExt.data.bond10y)) {
       _repoUs10y = { close: usdExt.data.bond10y, chg: 0, pct: 0, fromRepo: true };
       setCA('us10y', _repoUs10y.close, null, true);
@@ -9285,12 +9285,12 @@ async function fetchFedExpectations() {
     const currencies = ['USD','EUR','GBP','JPY','AUD','CAD','CHF','NZD','NOK','SEK'];
 
     const [meetingsRes, bond2yHistRes, ...rateResponses] = await Promise.all([
-      fetch('./meetings-data/meetings.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'meetings-data/meetings.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
       Promise.all(currencies.map(c =>
-        fetch(`./bond2y-data/${c}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
+        fetch(GI_DATA_BASE + `bond2y-data/${c}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
       )),
       ...currencies.map(c =>
-        fetch(`./rates/${c}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
+        fetch(GI_DATA_BASE + `rates/${c}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
       )
     ]);
 
@@ -9489,7 +9489,7 @@ async function fetchOptionSkew() {
     const cotFiles = ['EUR','GBP','JPY','AUD','CAD','CHF','NZD'];
     const cotResults = await Promise.all(cotFiles.map(async ccy => {
       try {
-        const r = await fetch('./cot-data/' + ccy + '.json');
+        const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
         if (!r.ok) return null;
         const d = await r.json();
         return { ccy, net: d.netPosition || 0, long: d.longPositions||0, short: d.shortPositions||0 };
@@ -9500,7 +9500,7 @@ async function fetchOptionSkew() {
 
     let rrMap = {};
     try {
-      const rrRes = await fetch('./rr-data/rr.json').catch(() => null);
+      const rrRes = await fetch(GI_DATA_BASE + 'rr-data/rr.json').catch(() => null);
       if (rrRes?.ok) {
         const rrJson = await rrRes.json();
         if (rrJson?.pairs) rrMap = rrJson.pairs;  
@@ -9659,7 +9659,7 @@ async function fetchOptionSkew() {
 
 async function loadAIRegime() {
   try {
-    const res = await fetch('./ai-analysis/index.json', { cache: 'no-store' });
+    const res = await fetch(GI_DATA_BASE + 'ai-analysis/index.json', { cache: 'no-store' });
     if (!res.ok) return;
     const d = await res.json();
     if (d.generated_at) { _narrativeGeneratedAt = d.generated_at; window._narrativeGeneratedAt = d.generated_at; }
@@ -9669,8 +9669,8 @@ async function loadAIRegime() {
 async function buildRichNarrative() {
   try {
     const [narRes, newsRes] = await Promise.all([
-      fetch('./ai-analysis/index.json', { cache: 'no-store' }),
-      fetch('./news-data/news.json'),
+      fetch(GI_DATA_BASE + 'ai-analysis/index.json', { cache: 'no-store' }),
+      fetch(GI_DATA_BASE + 'news-data/news.json'),
     ]);
 
     let baseNarrative = '';
@@ -9760,7 +9760,7 @@ async function buildRichNarrative() {
     }
 
     try {
-      const sigR = await fetch('./ai-analysis/signals.json', { cache: 'no-store' });
+      const sigR = await fetch(GI_DATA_BASE + 'ai-analysis/signals.json', { cache: 'no-store' });
       if (sigR.ok) {
         const _sigRaw = await sigR.json();
         const signals = Array.isArray(_sigRaw) ? _sigRaw : (Array.isArray(_sigRaw?.signals) ? _sigRaw.signals : []);
@@ -10028,7 +10028,7 @@ setInterval(buildRichNarrative, 3 * 60 * 1000);
   let _lastRatesRun = null;  
   async function _pollCBRates() {
     try {
-      const res = await fetch('./rates/health.json', { cache: 'no-store' });
+      const res = await fetch(GI_DATA_BASE + 'rates/health.json', { cache: 'no-store' });
       if (!res.ok) return;
       const h = await res.json();
       const runTs = h.run || h.timestamp || null;
@@ -10112,7 +10112,7 @@ async function fetchLiquidityData() {
   const isWeekend = utcDay === 6 || (utcDay === 0 && utcHour < 21) || (utcDay === 5 && utcHour >= 21);
 
   try {
-    const r = await fetch('/fx-data/fx-liquidity.json');
+    const r = await fetch(GI_DATA_BASE + 'fx-data/fx-liquidity.json');
     if (!r.ok) throw new Error('fx-liquidity.json not available');
     const d = await r.json();
 
@@ -10138,7 +10138,7 @@ async function fetchLiquidityData() {
   }
 
   try {
-    const r = await fetch('/fx-data/frankfurter.json');
+    const r = await fetch(GI_DATA_BASE + 'fx-data/frankfurter.json');
     if (!r.ok) throw new Error('FX rates cache not available');
     const cacheData = await r.json();
     const rates = Object.values((cacheData.series && cacheData.series.rates) ? cacheData.series.rates : {});
@@ -11193,7 +11193,7 @@ const ECO_FP_KEY = 'gi_eco_fp';
 
 async function _buildEcoActualFp(currencies) {
   try {
-    const res = await fetch('./calendar-data/economic-events.json', { cache: 'no-store' }).catch(() => null);
+    const res = await fetch(GI_DATA_BASE + 'calendar-data/economic-events.json', { cache: 'no-store' }).catch(() => null);
     if (!res?.ok) return null;
     const ffj = await res.json();
     const todayISO = new Date().toISOString().slice(0, 10);
@@ -11487,7 +11487,7 @@ async function _alertsLoadFairValue() {
   const now = Date.now();
   if (_alertsFVCache && (now - _alertsFVCacheTime) < 600_000) return _alertsFVCache;
   try {
-    const res = await fetch('./fair-value-data/summary.json', { cache: 'no-store' }).catch(() => null);
+    const res = await fetch(GI_DATA_BASE + 'fair-value-data/summary.json', { cache: 'no-store' }).catch(() => null);
     if (res?.ok) {
       const j = await res.json();
       if (j?.pairs) { _alertsFVCache = j.pairs; _alertsFVCacheTime = now; }
@@ -11499,7 +11499,7 @@ async function _alertsLoadFairValue() {
 async function _alertsLoadRR() {
   if (window.RR_DATA_CACHE && Object.keys(window.RR_DATA_CACHE).length) return window.RR_DATA_CACHE;
   try {
-    const res = await fetch('./rr-data/rr.json').catch(() => null);
+    const res = await fetch(GI_DATA_BASE + 'rr-data/rr.json').catch(() => null);
     if (res?.ok) {
       const j = await res.json();
       if (j?.pairs) {
@@ -11519,7 +11519,7 @@ async function _alertsLoadCot() {
   try {
     const results = await Promise.all(COT_CURRENCIES.map(async ccy => {
       try {
-        const r = await fetch('./cot-data/' + ccy + '.json');
+        const r = await fetch(GI_DATA_BASE + 'cot-data/' + ccy + '.json');
         if (!r.ok) return null;
         const data = await r.json();
         return { ccy, ...data };
@@ -12217,7 +12217,7 @@ async function renderRRInFXTable() {
   let rrMap = window.RR_DATA_CACHE || {};
   if (Object.keys(rrMap).length === 0) {
     try {
-      const res = await fetch('./rr-data/rr.json').catch(() => null);
+      const res = await fetch(GI_DATA_BASE + 'rr-data/rr.json').catch(() => null);
       if (res?.ok) {
         const j = await res.json();
         if (j?.pairs) { rrMap = j.pairs; Object.assign(window.RR_DATA_CACHE, rrMap); }
@@ -12262,7 +12262,7 @@ async function renderDerivativesSection() {
   let rrMap = window.RR_DATA_CACHE || {};
   if (Object.keys(rrMap).length === 0) {
     try {
-      const res = await fetch('./rr-data/rr.json').catch(() => null);
+      const res = await fetch(GI_DATA_BASE + 'rr-data/rr.json').catch(() => null);
       if (res?.ok) {
         const j = await res.json();
         if (j?.pairs) {
@@ -12278,7 +12278,7 @@ async function renderDerivativesSection() {
 
   let rr2Map = {};
   try {
-    const rr2Res = await fetch('./rr-data/rr2.json').catch(() => null);
+    const rr2Res = await fetch(GI_DATA_BASE + 'rr-data/rr2.json').catch(() => null);
     if (rr2Res?.ok) {
       const rr2Json = await rr2Res.json();
       if (rr2Json?.pairs) rr2Map = rr2Json.pairs;
@@ -12551,7 +12551,7 @@ async function renderDerivativesSection() {
   const ecbTbody = document.getElementById('ecb-fixings-tbody');
   if (ecbTbody) {
     try {
-      const fxRes = await fetch('./fx-data/frankfurter.json').catch(() => null);
+      const fxRes = await fetch(GI_DATA_BASE + 'fx-data/frankfurter.json').catch(() => null);
       if (fxRes?.ok) {
         const fxJson = await fxRes.json();
         const todayRates = fxJson?.today_eur?.rates ?? fxJson?.today?.rates ?? {};
@@ -12616,7 +12616,7 @@ async function renderDerivativesSection() {
   const dtccTbody = document.getElementById('dtcc-tbody');
   if (dtccTbody) {
     try {
-      const dtccRes = await fetch('./dtcc-data/dtcc_fx.json').catch(() => null);
+      const dtccRes = await fetch(GI_DATA_BASE + 'dtcc-data/dtcc_fx.json').catch(() => null);
       if (dtccRes?.ok) {
         const dtcc = await dtccRes.json();
         const pairs = dtcc?.pairs ?? {};
@@ -12739,9 +12739,9 @@ async function renderG8YieldPane(cty) {
 
   try {
     const [ext, hist2y, hist10y] = await Promise.all([
-      fetch('./extended-data/' + cfg.file + '.json').then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch('./bond2y-data/' + cfg.file + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch('./bond10y-data/' + cfg.file + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'extended-data/' + cfg.file + '.json').then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'bond2y-data/' + cfg.file + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch(GI_DATA_BASE + 'bond10y-data/' + cfg.file + '.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
     ]);
     if (!ext) { contentEl.textContent = 'Data unavailable — extended-data/' + cfg.file + '.json'; return; }
 
@@ -12835,7 +12835,7 @@ async function renderSovereignSpreads(base) {
   const countries = G10_RATE_CCYS.filter(c => c.ccy !== base);
 
   try {
-    const baseExt = await fetch('./extended-data/' + base + '.json').then(r => r.ok ? r.json() : null).catch(() => null);
+    const baseExt = await fetch(GI_DATA_BASE + 'extended-data/' + base + '.json').then(r => r.ok ? r.json() : null).catch(() => null);
     const baseData = baseExt?.data ?? baseExt;
     const base10y = baseData?.bond10y ?? null;
     const base2y = baseData?.bond2y ?? null;
@@ -12845,7 +12845,7 @@ async function renderSovereignSpreads(base) {
 
     const rowsHtml = await Promise.all(countries.map(async c => {
       try {
-        const ext = await fetch('./extended-data/' + c.ccy + '.json').then(r => r.ok ? r.json() : null).catch(() => null);
+        const ext = await fetch(GI_DATA_BASE + 'extended-data/' + c.ccy + '.json').then(r => r.ok ? r.json() : null).catch(() => null);
         const d = ext?.data ?? ext;
         const cty10y = d?.bond10y ?? null;
         const cty2y = d?.bond2y ?? null;
@@ -12899,8 +12899,8 @@ async function renderMomentumScreener(base) {
   const countries = G10_RATE_CCYS.filter(c => c.ccy !== base);
 
   const [baseHist, ...histRes] = await Promise.all([
-    fetch(`./bond2y-data/${base}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
-    ...countries.map(c => fetch(`./bond2y-data/${c.ccy}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)),
+    fetch(GI_DATA_BASE + `bond2y-data/${base}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+    ...countries.map(c => fetch(GI_DATA_BASE + `bond2y-data/${c.ccy}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)),
   ]);
 
   const baseByDate = {};
@@ -13089,7 +13089,7 @@ async function _lwEnterYieldSpreadView(baseCcy, rowCcy) {
       const mk = LWC.AreaSeries
         ? _lwChart.addSeries(LWC.AreaSeries, seriesOpts)
         : _lwChart.addAreaSeries(seriesOpts);
-      const r = await fetch(`./bond2y-data/${l.ccy}.json`, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
+      const r = await fetch(GI_DATA_BASE + `bond2y-data/${l.ccy}.json`, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const hist = await r.json();
       const seriesData = (Array.isArray(hist) ? hist : [])
@@ -13200,7 +13200,7 @@ async function renderEconSurprises() {
   let calEvents = [];
   let calSource = '';
   try {
-    const res = await fetch('./calendar-data/calendar.json', { cache: 'no-store' }).catch(() => null);
+    const res = await fetch(GI_DATA_BASE + 'calendar-data/calendar.json', { cache: 'no-store' }).catch(() => null);
     if (res?.ok) {
       const calj = await res.json();
       const evts = (calj?.events || []).map(ev => ({
@@ -13224,7 +13224,7 @@ async function renderEconSurprises() {
 
   if (!calEvents.length) {
     try {
-      const res2 = await fetch('./calendar-data/economic-events.json').catch(() => null);
+      const res2 = await fetch(GI_DATA_BASE + 'calendar-data/economic-events.json').catch(() => null);
       if (res2?.ok) {
         const ffj = await res2.json();
         const win21 = 21 * 24 * 60 * 60 * 1000;
@@ -13434,7 +13434,7 @@ async function loadCBRatesCache() {
   };
   await Promise.all(Object.entries(ccyFiles).map(async ([ccy, path]) => {
     try {
-      const r = await fetch('./' + path, { cache: 'no-store' });
+      const r = await fetch(GI_DATA_BASE + path, { cache: 'no-store' });
       if (!r.ok) return;
       const d = await r.json();
       const obs = d.observations;
@@ -13448,7 +13448,7 @@ async function loadCBRatesCache() {
 
 async function loadOISRatesCache() {
   try {
-    const r = await fetch('./ois-rates/rates.json', { cache: 'no-store' });
+    const r = await fetch(GI_DATA_BASE + 'ois-rates/rates.json', { cache: 'no-store' });
     if (!r.ok) return;
     const d = await r.json();
     const rates   = d.rates   || {};
@@ -14295,9 +14295,9 @@ async function _lwLoadCompare(cmpId, cmpLabel, cmpType = 'ohlc', fromRestore) {
 
     if (cmpType === 'ohlc') {
       let cmpPath;
-      if (_lwActiveTf === 'H1')      cmpPath = `./ohlc-data/h1/${cmpId}.json`;
-      else if (_lwActiveTf === 'H4') cmpPath = `./ohlc-data/h4/${cmpId}.json`;
-      else                           cmpPath = `./ohlc-data/${cmpId}.json`;
+      if (_lwActiveTf === 'H1')      cmpPath = GI_DATA_BASE + `ohlc-data/h1/${cmpId}.json`;
+      else if (_lwActiveTf === 'H4') cmpPath = GI_DATA_BASE + `ohlc-data/h4/${cmpId}.json`;
+      else                           cmpPath = GI_DATA_BASE + `ohlc-data/${cmpId}.json`;
 
       const r = await fetch(cmpPath, { signal: AbortSignal.timeout(6000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -14332,7 +14332,7 @@ async function _lwLoadCompare(cmpId, cmpLabel, cmpType = 'ohlc', fromRestore) {
       priceFormat = { type: 'custom', formatter: v => (v >= 0 ? '+' : '') + v.toFixed(2) + '%' };
 
     } else if (cmpType === 'cot') {
-      const r = await fetch(`./cot-data/${cmpId}.json`, { signal: AbortSignal.timeout(6000) });
+      const r = await fetch(GI_DATA_BASE + `cot-data/${cmpId}.json`, { signal: AbortSignal.timeout(6000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const d = await r.json();
       const history = Array.isArray(d.history) ? d.history : [];
@@ -14364,7 +14364,7 @@ async function _lwLoadCompare(cmpId, cmpLabel, cmpType = 'ohlc', fromRestore) {
       };
 
     } else if (cmpType === 'rate') {
-      const r = await fetch(`./rates/${cmpId}.json`, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
+      const r = await fetch(GI_DATA_BASE + `rates/${cmpId}.json`, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const d = await r.json();
       const obs = Array.isArray(d.observations) ? d.observations : [];
@@ -14387,7 +14387,7 @@ async function _lwLoadCompare(cmpId, cmpLabel, cmpType = 'ohlc', fromRestore) {
       }
 
     } else if (cmpType === 'esi') {
-      const r = await fetch('./calendar-data/calendar.json', { cache: 'no-store', signal: AbortSignal.timeout(8000) });
+      const r = await fetch(GI_DATA_BASE + 'calendar-data/calendar.json', { cache: 'no-store', signal: AbortSignal.timeout(8000) });
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const calj = await r.json();
       const allEvents = calj.events || [];
@@ -14902,7 +14902,7 @@ window._researchSetFilter = _researchSetFilter;
 
 async function loadBankResearch() {
   try {
-    const resp = await fetch('research-data/bank-research.json?v=' + Date.now());
+    const resp = await fetch(GI_DATA_BASE + 'research-data/bank-research.json?v=' + Date.now());
     if (!resp.ok) {
       console.warn('[Research] bank-research.json not found — pipeline may not have run yet');
       const feed = document.getElementById('research-section-feed');
@@ -15213,7 +15213,7 @@ window.addEventListener('gi-theme-change', function() {
     if (windowsSection) windowsSection.style.display = '';
 
     try {
-      const res = await fetch(`./seasonality-data/${pair}.json`, { cache: 'no-store' });
+      const res = await fetch(GI_DATA_BASE + `seasonality-data/${pair}.json`, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       await _sznRenderChart(data.curve);
@@ -15372,7 +15372,7 @@ async function renderDollarSmile() {
 
   let doc;
   try {
-    const res = await fetch('./growth-differential-data/history.json', { cache: 'no-store' });
+    const res = await fetch(GI_DATA_BASE + 'growth-differential-data/history.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     doc = await res.json();
     if (!doc || !Array.isArray(doc.quarters) || !doc.quarters.length) throw new Error('malformed history.json');

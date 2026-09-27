@@ -259,14 +259,14 @@ async function _rcmFetchData() {
       const extKeys = _RCM_G8; 
       const [rateResults, extResults, meetingsRes, quotesRes, oisRes] = await Promise.all([
         Promise.all(_RCM_G8.map(ccy =>
-          fetch(`./rates/${ccy}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
+          fetch(`${GI_DATA_BASE}rates/${ccy}.json`, { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null)
         )),
         Promise.all(extKeys.map(ccy =>
-          fetch(`./extended-data/${ccy}.json`).then(r => r.ok ? r.json() : null).catch(() => null)
+          fetch(`${GI_DATA_BASE}extended-data/${ccy}.json`).then(r => r.ok ? r.json() : null).catch(() => null)
         )),
-        fetch('./meetings-data/meetings.json').then(r => r.ok ? r.json() : null).catch(() => null),
-        fetch('./intraday-data/quotes.json').then(r => r.ok ? r.json() : null).catch(() => null),
-        fetch('./ois-rates/rates.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch(GI_DATA_BASE + 'meetings-data/meetings.json').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch(GI_DATA_BASE + 'intraday-data/quotes.json').then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch(GI_DATA_BASE + 'ois-rates/rates.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : null).catch(() => null),
       ]);
 
       const oisRates   = oisRes?.rates   || {};   

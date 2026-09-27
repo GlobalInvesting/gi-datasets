@@ -426,7 +426,7 @@ async function _fetchCOTSpot(ccy) {
   const cfg = _COT_SPOT[ccy];
   if (!cfg) return null;
   try {
-    const resp = await fetch(`./ohlc-data/${cfg.file}.json`);
+    const resp = await fetch(`${GI_DATA_BASE}ohlc-data/${cfg.file}.json`);
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const rows = await resp.json(); 
     return rows
