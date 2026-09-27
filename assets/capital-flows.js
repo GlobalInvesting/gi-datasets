@@ -1,6 +1,6 @@
 
 (function () {
-  const DATA_URL = "capital-flows-data/capital_flows.json";
+  const DATA_URL = GI_DATA_BASE + "capital-flows-data/capital_flows.json";
 
   function signalColor(signal) {
     if (signal === "Accumulating") return "var(--up)";
