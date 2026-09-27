@@ -1,55 +1,56 @@
 {
-  "generated_at": "2026-09-26T21:01:14Z",
+  "generated_at": "2026-09-27T17:04:18Z",
   "signals": [
     {
-      "time": "20:22",
-      "priority": "warning",
-      "title": "USD/CAD — Geopolitical De-escalation + COT Short Squeeze",
-      "text": "CAD COT LF short -49.1k (28.1% long, 19th percentile) faces acute short-covering pressure as weekend progress on an Iranian diplomatic framework softens crude oil prices below $92.40/bbl. The 158bp OIS carry advantage backing USD (SOFR 3.88% vs CORRA 2.30%) anchors upside momentum after USD/CAD closed Friday at 1.4141 cleanly above its 20-day SMA at 1.3927. The next BoC meeting (mkt: 66% hike priced) on 28 Oct determines policy divergence, but prompt energy-spread deflation leads the move. Trade bias: Bullish USD/CAD on spot open targeting 1.4200 extension. Catalyst: Crude oil open reaction to the 7-day Strait of Hormuz resolution proposal. Risk: Iranian diplomatic negotiations collapse, driving WTI back toward recent cycle highs.",
+      "time": "21:15",
+      "priority": "critical",
+      "title": "AUD/USD — G10 Bilateral Theme + Geopolitical Shock",
+      "text": "AUD COT LF long +55.7k (74.5% long, 95th percentile) creates severe crowded-long liquidation risk as AUD/USD closed Friday at 0.7026 testing its 200-day SMA at 0.7026. Heightened Middle East escalation over Iranian actions in the Strait of Hormuz accelerates broad safe-haven dollar accumulation against high-beta commodity currencies, reinforcing the 1.711% G10 divergence spread against AUD. The RBA Interest Rate Decision on 29 Sep determines whether domestic policy support can halt the unwind. Trade bias: Bearish AUD/USD into the Sydney open; crowded spec positioning leaves spot vulnerable to break below 0.7026. Catalyst: Sydney open and RBA Interest Rate Decision on 29 Sep. Risk: A hawkish RBA rate hike surprise or sudden de-escalation in Middle East tensions invalidates the bearish bias.",
       "evidence": [
-        "CAD COT LF net: -49,123 (long% 28.1%, pctl 19)",
-        "USD/CAD Friday close: 1.4141 vs SMA20: 1.3927",
-        "USD/CAD OIS carry spread: +158bp (favors USD)",
-        "WTI crude 1D: -2.33% to $92.40"
+        "USD 1W avg: +0.882% (n=9)",
+        "AUD 1W avg: -0.829% (n=4)",
+        "G10 spread: 1.711%",
+        "AUD COT LF net +55,684 (pctl 95)",
+        "Friday close 0.7026 vs SMA200 0.7026"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "14:50",
+      "priority": "warning",
+      "title": "USD/CAD — COT Short Squeeze + Bear Steepener",
+      "text": "CAD COT LF short -49.1k (28.1% long) maintains significant short-covering risk as USD/CAD closed Friday at 1.4141, trading firmly above its 200-day SMA at 1.3841. The widening US-Canada 10-year yield spread (-124bp) and an ongoing US bear steepener (+31.4bp 2s10s) fuel USD demand via a +158bp OIS carry advantage (SOFR 3.88% vs CORRA 2.30%). Canada GDP data on 29 Sep and the next BoC meeting (mkt: 64% hike priced) on 28 Oct serve as the key fundamental catalysts. Trade bias: Bullish USD/CAD; structural carry and short CAD positioning support upward continuation above 1.4140. Catalyst: Canada GDP m/m on 29 Sep at 12:30 UTC. Risk: A drop back below 1.4000 or an unexpected surge in Canadian growth invalidates the upward momentum.",
+      "evidence": [
+        "CAD COT LF net -49,123 (long 28.1%)",
+        "OIS carry favors USD by +158bp",
+        "US-CA 10Y yield spread -124bp",
+        "USD/CAD Friday close 1.4141 above SMA200 1.3841"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "10:32",
+      "priority": "warning",
+      "title": "USD/JPY — Options Downside Skew vs Carry Gap",
+      "text": "Options markets show an extreme put skew in USD/JPY with 25-delta risk reversals at -2.28 while spot closed Friday at 157.19. Geopolitical tensions in the Persian Gulf drive safe-haven demand into JPY despite a prohibitive +290bp OIS carry penalty favoring USD (SOFR 3.88% vs TONA 0.98%). BoJ Monetary Policy Meeting Minutes at 23:50 UTC provide the initial directional test ahead of the next BoJ meeting (mkt: 100% hold priced) on 30 Oct. Trade bias: Bearish USD/JPY on headline safe-haven flows; elevated options put demand points toward a test of the 20-day SMA at 156.40. Catalyst: BoJ Meeting Minutes release at 23:50 UTC. Risk: Sustained carry re-engagement above 158.00 invalidates the short bias.",
+      "evidence": [
+        "USD/JPY 25d RR at -2.28 (strong put skew)",
+        "USD/JPY Friday close 157.19",
+        "OIS carry favors USD by +290bp",
+        "BoJ Minutes scheduled 23:50 UTC"
       ],
       "_source": "engine-ai-primary"
     },
     {
       "time": "10:00",
-      "priority": "warning",
-      "title": "USD/CHF — SNB Policy Reassurance vs Extreme Carry Gap",
-      "text": "CHF COT LF short -18.6k (7th percentile, z=-1.54) caps franc appreciation despite SNB Chairman Schlegel dismissing recent CHF weakness as a temporary pause in long-term structural strength. The crushing 400bp policy rate spread and negative SARON (-0.0400%) relative to SOFR (3.8800%) penalize unhedged CHF longs, keeping USD/CHF elevated after Friday's close at 0.8283 above all major daily moving averages. The next SNB meeting (mkt: 100% hold priced) on 10 Dec acts as the definitive policy checkpoint, but retail's 68% short bias leaves the topside vulnerable to drift. Trade bias: Bullish USD/CHF on dips toward 0.8250 backed by massive positive carry. Catalyst: Sydney/Tokyo liquidity resumption following Schlegel remarks. Risk: SNB steps into spot markets with direct FX sales to halt franc depreciation.",
-      "evidence": [
-        "CHF COT LF net: -18,620 (pctl 7, z -1.54)",
-        "USD/CHF Friday close: 0.8283 vs SMA20: 0.8168",
-        "Fed vs SNB policy differential: +400bp",
-        "USD/CHF VRP: -1.1% (IV 6.2% vs HV30 7.4%)"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "23:50",
-      "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew vs 290bp Carry Floor",
-      "text": "USD/JPY 25-delta risk reversals print at -2.28 alongside a -1.6% volatility risk premium (IV 8.7% vs HV30 10.3%), showing heavy demand for downside protection despite the pair closing Friday at 157.19. The dominant 290bp OIS carry buffer (SOFR 3.88% vs TONA 0.98%) directly clashes with this derivative-market skew, generating a tactical squeeze floor around the 20-day SMA at 156.40. The BoJ Monetary Policy Meeting Minutes at 23:50 UTC serve as the immediate test of tightening intent ahead of the next BoJ meeting (mkt: 100% hold priced) on 30 Oct. Trade bias: Neutral-to-bullish USD/JPY above 156.40 as deep carry limits sustained declines. Catalyst: BoJ Monetary Policy Meeting Minutes release at 23:50 UTC. Risk: BoJ Minutes reveal explicit consensus for an imminent October rate hike.",
-      "evidence": [
-        "USDJPY 25d RR: -2.28 (strong put skew)",
-        "USD/JPY VRP: -1.6% (IV 8.7% vs HV30 10.3%)",
-        "USD/JPY OIS carry spread: +290bp",
-        "USD/JPY Friday close: 157.19 vs SMA20: 156.40"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "18:54",
       "priority": "info",
-      "title": "EUR/USD — Crowded Speculative Shorts Facing Technical Resistance",
-      "text": "EUR COT LF short -58.8k (37.3% long, 27th percentile) leaves the pair vulnerable to short covering after Friday's close at 1.1401 stabilized just above structural multi-month lows. Disjointed ECB commentary and an adverse 144bp OIS carry differential (SOFR 3.88% vs €STR 2.44%) maintain structural selling into rallies toward the 20-day SMA at 1.1539. Multiple ECB President Lagarde addresses on Monday establish the policy threshold ahead of the next ECB meeting (mkt: 45% hike priced) on 29 Oct. Trade bias: Bearish EUR/USD on corrective rallies into 1.1480-1.1520. Catalyst: ECB President Lagarde speech at 13:30 UTC Monday. Risk: ECB explicitly pre-commits to a 50bp rate hike at the October meeting.",
+      "title": "USD/CHF — Negative Real Rate Divergence",
+      "text": "CHF COT LF short stands at -18.6k (24.8% long, 7th percentile) as USD/CHF closed Friday at 0.8283 above its 20-day SMA at 0.8168. Swiss National Bank comments affirming interest rate stability reinforce the 400bp CB rate differential (Fed 4.00% vs SNB 0.00%) and a deeply negative Swiss real rate of -1.24%. Switzerland KOF Economic Barometer on 29 Sep and the next SNB meeting (mkt: 100% hold priced) on 10 Dec determine the durability of franc weakness. Trade bias: Bullish USD/CHF; massive nominal carry advantage and negative Swiss real rates keep the pair supported above 0.8250. Catalyst: Switzerland KOF Economic Barometer on 29 Sep at 07:00 UTC. Risk: Escalating geopolitical risk-off driving defensive CHF repatriation below 0.8200 invalidates the setup.",
       "evidence": [
-        "EUR COT LF net: -58,805 (long% 37.3%, WoW -7,450)",
-        "EUR/USD OIS carry spread: +144bp (favors USD)",
-        "EUR/USD Friday close: 1.1401 vs SMA20: 1.1539",
-        "EUR ESI: +13.7 vs USD ESI: +6.6"
+        "CHF COT LF net -18,620 (pctl 7)",
+        "Fed-SNB policy rate spread +400bp",
+        "Switzerland real rate -1.24% vs US +1.68%",
+        "USD/CHF Friday close 0.8283"
       ],
       "_source": "engine-ai-primary"
     }
