@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-27T23:55:52Z",
+  "universe": [
+    "EUR/USD",
+    "GBP/USD",
+    "USD/JPY",
+    "AUD/USD",
+    "NZD/USD",
+    "USD/CAD",
+    "USD/CHF"
+  ],
+  "pairs": {
+    "EUR/USD": {
+      "paragraph": "Spot closed at 1.1395, trading below its SMA20 of 1.1539, SMA50 of 1.1538, and SMA200 of 1.1625. The quote currency retains a 144bp OIS carry advantage, while leveraged funds hold a 37.3% long posture, placing positioning at the 27th percentile of its 52-week range. The broader USD backdrop reflects a 5-day nominal move in the US 5Y yield of +25bp, decomposed into a +24bp rise in real yields and a +1bp shift in breakevens to reach 5.03% nominal (2.70% real, 2.33% breakeven), characterized as real-yield-led. A sustained break back above the 1.1538/1.1539 SMA cluster would neutralize the current downward pressure, whereas failure to reclaim those averages leaves the pair exposed to further downside.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "GBP/USD": {
+      "paragraph": "The pair closed at 1.3245, positioned below its SMA20 of 1.344, SMA50 of 1.3466, and SMA200 of 1.3452. The OIS carry differential stands at 15bp in favor of the quote currency, alongside leveraged-fund positioning at 52.6% long, which sits at the 39th percentile of its trailing 52-week distribution. Cross-asset dynamics show the MOVE index at 96.0 (its 96th percentile) while the VIX sits at 14.9 (its 8th percentile), exhibiting a divergence labeled as bond vol pricing stress while equity vol stays calm. Reclaiming the tightly bunched SMA200 at 1.3452 and SMA50 at 1.3466 would confirm technical stabilization, while a persistent failure below 1.344 keeps the bearish technical alignment intact.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "USD/JPY": {
+      "paragraph": "Spot settled at 157.26, holding above the SMA20 of 156.4 but remaining below both the SMA50 of 158.6 and SMA200 of 158.45. The base currency maintains an OIS carry advantage of 290bp, with leveraged funds positioned 51.3% long, placing them at the 86th percentile of their 52-week range. An extension above the SMA200 at 158.45 and SMA50 at 158.6 would invalidate the broader intermediate downtrend, while a decline back below the SMA20 at 156.4 would confirm renewed downward momentum.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "AUD/USD": {
+      "paragraph": "The pair closed at 0.7028, trading below its SMA20 of 0.7141 and SMA50 of 0.7096, but holding above its SMA200 of 0.7026. The base currency carries an OIS differential advantage of 47bp, while leveraged funds are positioned 74.5% long, representing the 95th percentile of their 52-week range. Heading into the 29 September meeting, markets have a 100% hike priced into OIS curves. A hawkish delivery reinforcing that path would support a push back above the SMA50 at 0.7096, whereas any dovish policy communication would trigger an invalidation of the long posture and open a sustained break below the SMA200 at 0.7026.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "NZD/USD": {
+      "paragraph": "Trading at a close of 0.5667, the pair sits below its SMA20 of 0.5789, SMA50 of 0.5843, and SMA200 of 0.5853. The quote currency maintains a 113bp OIS carry advantage, while leveraged funds hold 43.3% long positioning, situated at the 33rd percentile of the trailing 52-week range. A rebound clearing the SMA20 at 0.5789 would open the path toward testing the SMA50 at 0.5843, while ongoing rejection beneath 0.5789 maintains the dominant short-term bearish bias.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "USD/CAD": {
+      "paragraph": "Spot closed at 1.4139, positioned firmly above its SMA20 of 1.3927, SMA50 of 1.3947, and SMA200 of 1.3841. The base currency holds a 158bp OIS carry advantage, while leveraged funds sit at 28.1% long, placing positioning at the 19th percentile of the 52-week range. Descriptively, the US 5Y yield over the trailing 20 days is up +66bp nominally, consisting of +64bp in real yields and +2bp in breakevens to 5.03% (2.70% real, 2.33% breakeven), classified as real-yield-led. Sustained strength keeping spot above the 1.3947 SMA50 maintains the constructive technical structure, whereas a drop back below the 1.3927 SMA20 would invalidate the current upward run.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    },
+    "USD/CHF": {
+      "paragraph": "The pair finished at 0.8283, maintaining a technical position above its SMA20 of 0.8168, SMA50 of 0.8123, and SMA200 of 0.7946. The base currency commands an OIS carry premium of 392bp, accompanied by leveraged-fund positioning at 24.8% long, marking the 7th percentile of its 52-week distribution. Continued price action above the SMA20 at 0.8168 preserves the bullish posture, while a decline breaching the SMA50 at 0.8123 would negate the short-term upward momentum.",
+      "updated": "2026-09-27T23:55:45Z",
+      "source_model": "engine-ai-primary"
+    }
+  }
+}
