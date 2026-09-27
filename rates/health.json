@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-09-26T12:53:30.221646Z",
-  "runDate": "2026-09-26",
+  "runTimestamp": "2026-09-27T13:46:02.238788Z",
+  "runDate": "2026-09-27",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -47,9 +47,9 @@
     },
     "CHF": {
       "status": "ok",
-      "rate": "0.0",
-      "source": "ff-calendar-actual",
-      "date": "2026-09-24",
+      "rate": "0.00",
+      "source": "SNB-scraping",
+      "date": "2026-09-27",
       "issues": []
     },
     "NZD": {
@@ -60,9 +60,9 @@
       "issues": []
     },
     "NOK": {
-      "status": "ok",
+      "status": "cached",
       "rate": "4.5",
-      "source": "ff-calendar-actual",
+      "source": "cached-file",
       "date": "2026-09-24",
       "issues": []
     },
@@ -75,6 +75,8 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "NOK: kept cached 2026-09-24 value over older BIS-CBPOL candidate (2026-08-01) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
