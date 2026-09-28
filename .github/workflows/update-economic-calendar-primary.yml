@@ -243,7 +243,7 @@ jobs:
           if [ "${HTTP_CODE}" = "204" ]; then
             echo "Dispatch accepted (204) -- update-economic-calendar.yml will start shortly."
           else
-            echo "WARNING: dispatch to globalinvesting.github.io returned HTTP ${HTTP_CODE} -- check SCRIPTS_PAT scope/expiry."
+            echo "WARNING: dispatch to gi-datasets returned HTTP ${HTTP_CODE} -- check SCRIPTS_PAT scope/expiry."
             cat /tmp/dispatch3.json 2>/dev/null || true
           fi
 
