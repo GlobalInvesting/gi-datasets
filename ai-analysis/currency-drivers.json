@@ -1,27 +1,52 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28T06:06:07Z",
+  "generated_at": "2026-09-28T19:06:36Z",
   "coverage": {
     "expected": 32,
-    "generated": 28,
+    "generated": 3,
     "carried_over": [
+      "GBP/USD",
+      "USD/JPY",
+      "AUD/USD",
+      "USD/CAD",
       "USD/CHF",
+      "NZD/USD",
+      "EUR/AUD",
+      "EUR/CAD",
+      "EUR/CHF",
+      "EUR/NZD",
+      "GBP/JPY",
+      "GBP/AUD",
+      "GBP/CAD",
+      "GBP/CHF",
+      "GBP/NZD",
+      "AUD/JPY",
+      "AUD/CAD",
+      "AUD/CHF",
+      "AUD/NZD",
+      "CAD/JPY",
+      "CAD/CHF",
+      "NZD/CAD",
+      "CHF/JPY",
+      "NZD/JPY",
       "NZD/CHF",
       "EUR/NOK",
-      "EUR/SEK"
+      "EUR/SEK",
+      "USD/NOK",
+      "USD/SEK"
     ],
     "missing": []
   },
   "pairs": {
-    "EUR/USD": "The euro ekes out a modest weekly gain of +0.10% but remains trapped below its 20‑day, 50‑day and 200‑day moving averages as leveraged funds have pushed net short exposure to –58,805 contracts. An AI‑driven bearish moving‑average structure keeps EUR/USD pinned at 1.1390 under a descending SMA stack, while the 135‑bp nominal rate differential still favors the dollar (Fed 4.00% vs ECB 2.65%). OIS forward bias shows a 97% probability of a Fed hike on 28 Oct versus a 44% probability of an ECB hike on 29 Oct, reinforcing the carry tilt toward the greenback. With the VIX at 14.9, risk sentiment is neutral, limiting any upside bounce for the euro. Traders should watch for further short‑covering pressure if US data eases the Fed’s tightening narrative",
+    "EUR/USD": "EUR/USD trades down at 1.13710 as the dollar firms on broader geopolitical momentum following remarks from Donald Trump claiming the US will win the Iran war very soon and cause energy prices to tumble. Technical momentum remains soft with spot pinned beneath its descending moving average stack, compounded by darkening German consumer sentiment heading into October due to elevated baseline energy costs. The European Central Bank remains on hold ahead of its October 29 meeting, with President Christine Lagarde noting that policy rates sit at the upper end of the neutral range and that energy subsidy shifts add an estimated 0.1% to headline inflation. By contrast, US rates markets reflect a 91% probability of a Federal Reserve hike at the October 28 FOMC, maintaining a 135-basis-point yield advantage that continues to anchor spot rallies",
     "GBP/USD": "The pound is perched at three‑month lows, trading just below its 20‑, 50‑ and 200‑day moving averages and posting a modest –0.07% weekly underperformance across G10 crosses. BoE Governor Andrew Bailey warned that stubborn energy prices could compel higher rates, reinforcing the forward bias of a 95% hike probability ahead of the 5 Nov meeting, effectively pricing in a rate increase. Market headlines flag a bearish near‑term bias with GBP/USD holding near 1.3200, underscoring limited upside. With the Fed also on a steep hike path (97% probability), the GBP/USD carry differential remains constrained, keeping the pair range‑bound despite the pound’s technical weakness. Traders should watch any surprise energy‑price data for a possible catalyst to the already priced‑in BoE tightening",
     "USD/JPY": "JPY modestly up 0.08% weekly, trading firm above its 20‑day SMA at 156.40 but still under the 50‑day/200‑day resistance near 158.5. BoJ board member Hajime Takata’s hawkish remarks on consecutive rate hikes have lifted market‑implied odds of a September move, yet the OIS curve keeps BoJ on hold through the 30 Oct meeting, preserving the yen’s carry bid. The pair sits at 157.72, with an options downside skew and vol divergence signaling downside pressure if US core PCE or durable‑goods data soften, while Fed hike expectations remain near‑certain (97% probability). CFTC data shows JPY leveraged funds net long 4,472 contracts, at the 98th percentile, adding a speculative long bias. Overall, USD/JPY remains range‑bound above SMA20, with upside capped by BoJ on‑hold stance and downside risk tied to US inflation surprises",
     "AUD/USD": "AUD/USD is testing its 200‑day moving average at 0.7026 as the dollar softens against the Aussie, with the pair down 0.68% on the week and slipping below its 20‑day and 50‑day trends. The RBA’s cash‑rate decision looms on 29 Sep, and the forward curve reflects a 100 % probability of a hike, effectively pricing in a tighter Aussie stance versus a Fed‑expected hike on 28 Oct. Technicals show support at the 200‑day level and leveraged funds remain net long +55,684 contracts despite a modest weekly reduction, underscoring bullish positioning. The “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative reinforces expectations of continued rate tightening, keeping the AUD’s carry premium intact. Overall, the pair trades in a range‑bound, carry‑positive environment with upside bias if the 200‑day support holds",
     "USD/CAD": "USD/CAD remains under pressure as the OIS curve prices a near‑certain Fed hike on Oct 28 versus a 64% probability of a BoC holds at 2.25%. BMO Economics projects a long pause from the BoC while the Fed could deliver up to 75 bps of cuts later in the year, reinforcing the upside bias for USD. Recent headlines flag a widening US‑Canada rate gap and a slide in crude oil, both headwinds for the loonie and further underpinning the USD rally. Despite the CAD’s underlying resilience toward a 1.3300 target by year‑end, the forward‑bias spread and rate‑gap narrative dominate short‑term pricing. Traders are likely to keep USD long and CAD short pending any surprise in BoC policy or oil rebounds",
     "USD/CHF": "USD/CHF hovers near 0.8285, sustaining multi-month strength as the US rate premium continues to dictate flow. The pair saw brief price adjustments after Donald Trump stated he expects renewed negotiations with Iran this week, slightly diminishing broader macro uncertainty. Fundamental support for the greenback remains firm ahead of the October 28 Federal Reserve meeting, where money markets price a 97% probability of a policy rate hike. In contrast, the Swiss National Bank remains firmly on hold ahead of its December 10 decision, with Chairman Martin Schlegel noting that the country is in a comfortable inflation spot. CHF steady. SNB on hold. Carry drag limits demand. The wide Federal Reserve-SNB policy divergence provides a persistent floor beneath the pair near 0.8230",
     "NZD/USD": "NZD faces pressure as widening US‑NZ yield differentials curb demand for kiwi debt, while RBNZ official Breman flagged higher oil prices as near‑term inflation upside, keeping a near‑term rate‑hike priced in for the October 28 meeting. The pair slipped below its 20‑day and 50‑day moving averages, confirming a prolonged correction despite a headline lift from the US‑China truce extension that briefly pushed the kiwi above 0.5650. Forward bias underscores a 90% probability of an RBNZ hike versus a 97% Fed hike probability, widening the carry differential and favouring USD strength. COT positioning remains net short NZD, reinforcing the downside bias. Traders should watch commodity price moves and any further US‑NZ spread widening for additional downside risk",
-    "EUR/GBP": "EUR/GBP is testing the top of its recent channel amid a headline noting a pullback, while leveraged funds’ net short stance on the euro adds downside bias. The OIS curve signals a 95% probability of a BoE hike on 5 Nov versus a 44% chance of an ECB hike on 29 Oct, widening the GBP carry advantage. The euro’s modest weekly advance is constrained by positioning flows, and the pair remains below key moving averages, limiting bullish momentum. Low VIX levels keep market tone non‑risk‑off, so any GBP strength will likely be driven by rate‑differential expectations rather than safe‑haven flows. Watch for GBP‑driven upside if UK inflation data stays firm",
-    "EUR/JPY": "EUR/JPY is under pressure as net short exposure on the euro expands, with the euro trading below its longer‑term averages. The BoJ is on hold through its 30 Oct meeting, while the ECB’s 44% hike probability on 29 Oct leaves the euro with a modest carry edge over the yen. Given the VIX at 14.9, safe‑haven demand for the yen is marginal, and the pair is likely to stay range‑bound unless a surprise policy shift occurs. Positioning bias remains bearish for the euro, and any further fund shorting could push the pair lower. Traders should monitor US‑Japan yield spreads for short‑term directional cues",
+    "EUR/GBP": "EUR/GBP trades softer at 0.85730 as widening monetary divergence weighs on the cross. The ECB remains firmly on hold ahead of its October 29 gathering, whereas the Bank of England faces heavy market pricing for a rate hike on November 5 with OIS pricing an active 93% probability. While UK public borrowing surges and fiscal uncertainty persists ahead of the UK Autumn Budget on October 28, elevated short-sterling yields continue to draw institutional flows away from the single currency. Modest euro-area support from Spain's confirmed Q2 GDP growth of 0.7% year-on-year proved insufficient to offset Lagarde's reiteration that policy is not being guided by neutral rate estimates",
+    "EUR/JPY": "EUR/JPY trades at 178.94 with price",
     "EUR/AUD": "The euro’s weekly gain is modest, but leveraged funds have deepened net short exposure, pressuring EUR/AUD lower. OIS forward bias indicates a 100% probability of an RBA hike on 29 Sep versus a 44% chance of an ECB hike on 29 Oct, giving the Australian dollar a strong carry advantage. With the VIX subdued, risk sentiment is neutral and does not provide a safe‑haven lift for the euro. The AI signal for EUR/USD suggests broader euro weakness, which may spill over to the AUD pair. Expect continued downside unless Australian data softens the RBA’s tightening outlook",
     "EUR/CAD": "EUR/CAD remains under the weight of a –58,805 contract net short on the euro, limiting upside potential. Forward OIS data shows a 64% probability of a BoC hike on 28 Oct compared with a 44% ECB hike probability on 29 Oct, tilting carry in favour of the Canadian dollar. Low volatility conditions (VIX 14.9) keep the market tone normal, so the pair is likely to trade within its recent range absent a policy surprise. The euro’s modest weekly advance is insufficient to overcome the CAD’s yield edge. Traders should watch Canadian inflation releases for any catalyst to reinforce the bias",
     "EUR/CHF": "The euro’s slight weekly rise is offset by a sizeable net short position, while the CHF remains on hold as the SNB’s next meeting is slated for 10 Dec. OIS forward bias gives the euro a carry edge over the franc, with a 44% ECB hike probability versus a neutral SNB stance, but safe‑haven flows are muted given the VIX at 14.9. Consequently, EUR/CHF is likely to stay range‑bound, with positioning pressure capping upside. The AI‑driven bearish structure in EUR/USD adds to the euro’s downside narrative across cross‑pairs. Any unexpected SNB policy shift would be the primary driver for a move",
@@ -31,20 +56,54 @@
     "GBP/CAD": "GBP/CAD reflects the pound’s technical weakness and the BoE’s 95% hike probability versus the Bank of Canada’s 64% hike odds (next meeting 28 Oct). The pound’s underperformance and the BoE’s aggressive tightening narrative keep the pair under bearish pressure, while the CAD’s moderate hike expectations provide limited support. Headlines flag a bearish near‑term bias for GBP/USD, extending to GBP/CAD, suggesting the pair may remain constrained unless UK inflation surprises to the upside. The carry differential narrows as both sides price in rate hikes, leaving GBP/CAD range‑bound with any move likely tied to UK energy‑price developments or Canadian data releases",
     "GBP/CHF": "The pound’s three‑month low and BoE’s 95% hike probability contrast with the SNB’s on‑hold stance, but CHF carry drag limits demand, keeping GBP/CHF range‑bound. Technicals show the GBP below its major moving averages, reinforcing the bearish tone echoed in GBP/USD headlines. With the BoE tightening aggressively and the CHF steady, the pair lacks a strong directional catalyst, and the VIX at 14.9 suggests low‑volatility conditions. Traders should monitor UK energy‑price pressures for any upside surprise, though the prevailing bias remains modestly bearish amid limited carry incentive",
     "GBP/NZD": "GBP/NZD is pressured by the pound’s technical weakness and the BoE’s 95% hike probability, while the RBNZ’s 90% hike odds (meeting 28 Oct) sustain a relatively tight carry spread. The pair inherits the bearish bias from GBP/USD headlines, with the pound trading near three‑month lows and under its key averages. With both central banks on tightening paths, the NZD’s higher rate outlook offers limited upside for the pound, keeping the pair in a constrained range. Any deviation will likely stem from UK energy‑price shocks that could force a sharper BoE response, but absent such a catalyst the GBP/NZD remains range‑bound",
-    "AUD/JPY": "AUD/JPY trades near 84.30, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
-    "AUD/CAD": "AUD/CAD is anchored near 0.9500 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
-    "AUD/CHF": "AUD/CHF trades around 0.6400 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
-    "AUD/NZD": "AUD/NZD is near 1.0800 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD",
-    "CAD/JPY": "CAD/JPY hovers around 106.10 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
+    "AUD/JPY": "AUD/JPY trades near 110.51, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
+    "AUD/CAD": "AUD/CAD is anchored near 0.9947 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
+    "AUD/CHF": "AUD/CHF trades around 0.5840 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
+    "AUD/NZD": "AUD/NZD is near 1.2383 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD",
+    "CAD/JPY": "CAD/JPY hovers around 111.08 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
     "CAD/CHF": "CAD/CHF is poised in a range‑bound corridor as the OIS bias shows a 64% hike probability for the BoC against a neutral stance from the SNB, limiting carry‑driven demand for the franc. BMO’s forecast of a BoC pause and a Fed easing trajectory supports a modest upside for the loonie, while the CHF remains constrained by limited carry appeal. Headlines noting CAD weakness on the widening rate gap and falling crude oil prices add downside pressure, yet the CHF’s lack of safe‑haven inflows in a low‑vol VIX environment tempers any sharp moves. The pair’s pricing reflects a modest carry advantage for CAD, with positioning likely to stay near current levels unless oil prices rebound or the BoC signals a policy shift",
     "NZD/CAD": "NZD/CAD benefits from a pronounced carry differential as the RBNZ is priced for a 90% hike probability on Oct 28, while the BoC faces a 64% hike probability, tilting the spread in favour of the kiwi. BMO’s outlook of a BoC pause and anticipated Fed cuts further buttresses the NZD’s relative strength, despite CAD headlines highlighting rate‑gap concerns and oil price declines. The OIS forward bias underscores a stronger NZD carry profile, encouraging long NZD positions against a softer CAD. With VIX at 14.9, risk sentiment remains neutral, limiting safe‑haven flows and keeping the pair’s move largely driven by interest‑rate differentials and commodity backdrop. Traders should monitor any BoC policy surprise or oil price bounce that could recalibrate the CAD’s trajectory",
     "CHF/JPY": "CHF/JPY sits near 189.99, with the SNB on hold and BoJ also on hold, leaving the yen’s carry bid intact while the franc lacks a rate‑differential edge. The AI bilateral theme notes CHF lagging the G10 group (‑0.488% weekly) versus JPY’s +0.602% return, underscoring yen outperformance. CFTC data shows JPY leveraged funds net long at the 98th percentile, adding pressure on the franc side, while low VIX conditions keep safe‑haven flows marginal. With both central banks on hold, the pair is expected to trade range‑bound, upside limited by the yen’s modest carry and downside constrained by the franc’s neutral stance. Any shift in SNB policy or unexpected yen intervention could break the current equilibrium",
-    "NZD/JPY": "NZD/JPY trades around 101.50, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite",
-    "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4910, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975",
-    "EUR/NOK": "EUR/NOK trades higher toward the 11.65 level as softening crude oil benchmarks degrade the terms of trade for the Norwegian krone. Norges Bank policymakers maintain a restrictive policy tone to anchor domestic core prices, yet the krone struggles to attract sustained capital inflows amid fluctuating global petroleum demand. Across the continent, ECB rhetoric remains split, with Boris Vujcic highlighting inflation risks while economic sentiment indicators in Germany paint a darkening cyclical outlook ahead of October. An active 19-year seasonal window typically reflects long bias characteristics for EUR/NOK through early autumn, lending technical support to systematic buy programs. The cross maintains solid footing above its 50-day moving average, with market participants looking toward upcoming Scandinavian inflation data to dictate near-term range boundaries",
+    "NZD/JPY": "NZD/JPY trades around 89.22, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite",
+    "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4715, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975",
+    "EUR/NOK": "EUR/NOK trades higher toward the 10.85 level as softening crude oil benchmarks degrade the terms of trade for the Norwegian krone. Norges Bank policymakers maintain a restrictive policy tone to anchor domestic core prices, yet the krone struggles to attract sustained capital inflows amid fluctuating global petroleum demand. Across the continent, ECB rhetoric remains split, with Boris Vujcic highlighting inflation risks while economic sentiment indicators in Germany paint a darkening cyclical outlook ahead of October. An active 19-year seasonal window typically reflects long bias characteristics for EUR/NOK through early autumn, lending technical support to systematic buy programs. The cross maintains solid footing above its 50-day moving average, with market participants looking toward upcoming Scandinavian inflation data to dictate near-term range boundaries",
     "EUR/SEK": "EUR/SEK sits locked in a tight corridor around 11.29 as market participants evaluate shifting European interest rate structures. The Swedish Riksbank is navigating a delicate balancing act between persistent domestic cost pressures and an export-sensitive manufacturing base, leaving the krona sensitive to broader euro area sentiment. In Frankfurt, the European Central Bank approaches its October 29 meeting with OIS markets pricing a 44% chance of a policy rate hike amidst vocal concerns from Governing Council member Boris Vujcic over energy price persistence. Long-term multi-year seasonal studies point to a historical long bias window for EUR/SEK during this calendar frame, offering mild technical backing to interbank spot bids. Key chart support is positioned at 11.25, while resistance at 11.35 continues to attract sovereign institutional selling interest",
     "USD/NOK": "The dollar remains anchored near the 101.03 index level, buoyed by resilient Treasury yields and Fed Chair’s hawkish rhetoric, with a 97% probability of a rate hike at the Oct 28 meeting now fully priced in. With the VIX under 15, market tone is neutral rather than risk‑off, limiting any safe‑haven demand for the krone despite broader geopolitical jitters such as Trump’s rejection of the Iranian Hormuz offer. CFTC data show leveraged funds still net short the dollar against the NOK, but the positioning edge is modest and the forward bias favors continued dollar strength. Traders should watch the upcoming Fed decision for any surprise on the pace of tightening, which could sustain the dollar’s weekly +1.04% gain versus the NOK",
     "USD/SEK": "Dollar upside is underpinned by a firm index reading above its key moving averages and a 97% hike probability for the Fed at the Oct 28 meeting, keeping the greenback on a short‑term rally against the Swedish krona. The low‑vol environment (VIX 14.9) curtails safe‑haven flows into the SEK, while headline risk such as Trump’s dismissal of the Iranian Hormuz proposal adds a geopolitical backdrop without materially shifting risk sentiment. COT positioning remains lightly short the dollar versus the SEK, but the OIS forward bias signals further dollar bias until the Fed’s policy decision. Market participants should monitor any surprise in U.S. data releases that could sharpen the dollar’s carry advantage over the SEK"
+  },
+  "pair_generated_at": {
+    "EUR/USD": "2026-09-28T19:06:36Z",
+    "GBP/USD": "2026-09-28T06:06:07Z",
+    "USD/JPY": "2026-09-28T06:06:07Z",
+    "AUD/USD": "2026-09-28T06:06:07Z",
+    "USD/CAD": "2026-09-28T06:06:07Z",
+    "USD/CHF": "2026-09-28T06:06:07Z",
+    "NZD/USD": "2026-09-28T06:06:07Z",
+    "EUR/GBP": "2026-09-28T19:06:36Z",
+    "EUR/JPY": "2026-09-28T19:06:36Z",
+    "EUR/AUD": "2026-09-28T06:06:07Z",
+    "EUR/CAD": "2026-09-28T06:06:07Z",
+    "EUR/CHF": "2026-09-28T06:06:07Z",
+    "EUR/NZD": "2026-09-28T06:06:07Z",
+    "GBP/JPY": "2026-09-28T06:06:07Z",
+    "GBP/AUD": "2026-09-28T06:06:07Z",
+    "GBP/CAD": "2026-09-28T06:06:07Z",
+    "GBP/CHF": "2026-09-28T06:06:07Z",
+    "GBP/NZD": "2026-09-28T06:06:07Z",
+    "AUD/JPY": "2026-09-28T06:06:07Z",
+    "AUD/CAD": "2026-09-28T06:06:07Z",
+    "AUD/CHF": "2026-09-28T06:06:07Z",
+    "AUD/NZD": "2026-09-28T06:06:07Z",
+    "CAD/JPY": "2026-09-28T06:06:07Z",
+    "CAD/CHF": "2026-09-28T06:06:07Z",
+    "NZD/CAD": "2026-09-28T06:06:07Z",
+    "CHF/JPY": "2026-09-28T06:06:07Z",
+    "NZD/JPY": "2026-09-28T06:06:07Z",
+    "NZD/CHF": "2026-09-28T06:06:07Z",
+    "EUR/NOK": "2026-09-28T06:06:07Z",
+    "EUR/SEK": "2026-09-28T06:06:07Z",
+    "USD/NOK": "2026-09-28T06:06:07Z",
+    "USD/SEK": "2026-09-28T06:06:07Z"
   },
   "pair_sources": {
     "EUR/USD": [
@@ -57,28 +116,16 @@
         "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
       },
       {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
+        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030 | LiteFinance",
         "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
       },
       {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
+        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
+        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
       },
       {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
+        "title": "USD/JPY and DXY Price Forecast: Bullish Rebound Faces Overbought Risks",
+        "url": "https://www.stonex.com/en-gb/news-and-analysis/usd-jpy-and-dxy-price-forecast-bullish-rebound-faces-overbought-risks-2026-09-22"
       }
     ],
     "EUR/GBP": [
@@ -91,24 +138,16 @@
         "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
       },
       {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
+        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030 | LiteFinance",
         "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
-      },
-      {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
       },
       {
         "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
         "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
       },
       {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
+        "title": "Pound to Dollar Outlook: Why the USD Is Winning the Central Bank Battle | Currency News UK",
+        "url": "https://www.currencynews.co.uk/forecast/20260619-46246_pound-to-dollar-outlook-why-the-usd-is-winning-the-central-bank-battle.html"
       }
     ],
     "EUR/JPY": [
@@ -121,780 +160,42 @@
         "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
       },
       {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
+        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030 | LiteFinance",
         "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
       },
       {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      },
-      {
         "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
         "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
+      },
+      {
+        "title": "USD/JPY and DXY Price Forecast: Bullish Rebound Faces Overbought Risks",
+        "url": "https://www.stonex.com/en-gb/news-and-analysis/usd-jpy-and-dxy-price-forecast-bullish-rebound-faces-overbought-risks-2026-09-22"
       },
       {
         "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
         "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
       },
       {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "EUR/AUD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
-      },
-      {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      }
-    ],
-    "EUR/CAD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
-      },
-      {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "EUR/CHF": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
-      },
-      {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      },
-      {
-        "title": "TMGM Daily Market Breakfast: 26 September 2026",
-        "url": "https://www.tmgm.com/en-in/analysis/market-insight/morning-brief-2026-09-25"
-      },
-      {
-        "title": "USD/CHF (USDCHF) Volatility Intensified on Sep 24: Factors to Watch",
-        "url": "https://www.tradingkey.com/news/market-movers/262185318-market-movers-usdchf-20260924"
-      }
-    ],
-    "EUR/NZD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
-        "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
-      },
-      {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      }
-    ],
-    "GBP/USD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      }
-    ],
-    "GBP/JPY": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "GBP/AUD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      }
-    ],
-    "GBP/CAD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "GBP/CHF": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "TMGM Daily Market Breakfast: 26 September 2026",
-        "url": "https://www.tmgm.com/en-in/analysis/market-insight/morning-brief-2026-09-25"
-      },
-      {
-        "title": "USD/CHF (USDCHF) Volatility Intensified on Sep 24: Factors to Watch",
-        "url": "https://www.tradingkey.com/news/market-movers/262185318-market-movers-usdchf-20260924"
-      }
-    ],
-    "GBP/NZD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      }
-    ],
-    "USD/JPY": [
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      },
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "AUD/JPY": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "CAD/JPY": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "CHF/JPY": [
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "TMGM Daily Market Breakfast: 26 September 2026",
-        "url": "https://www.tmgm.com/en-in/analysis/market-insight/morning-brief-2026-09-25"
-      },
-      {
-        "title": "USD/CHF (USDCHF) Volatility Intensified on Sep 24: Factors to Watch",
-        "url": "https://www.tradingkey.com/news/market-movers/262185318-market-movers-usdchf-20260924"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "NZD/JPY": [
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      },
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "AUD/USD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      },
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      }
-    ],
-    "AUD/CAD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "AUD/CHF": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "TMGM Daily Market Breakfast: 26 September 2026",
-        "url": "https://www.tmgm.com/en-in/analysis/market-insight/morning-brief-2026-09-25"
-      },
-      {
-        "title": "USD/CHF (USDCHF) Volatility Intensified on Sep 24: Factors to Watch",
-        "url": "https://www.tradingkey.com/news/market-movers/262185318-market-movers-usdchf-20260924"
-      }
-    ],
-    "AUD/NZD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      }
-    ],
-    "USD/CAD": [
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      },
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "CAD/CHF": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      },
-      {
-        "title": "SNB Rate Decision September 2026: Rates Held at 0%",
-        "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
-      },
-      {
-        "title": "TMGM Daily Market Breakfast: 26 September 2026",
-        "url": "https://www.tmgm.com/en-in/analysis/market-insight/morning-brief-2026-09-25"
-      },
-      {
-        "title": "USD/CHF (USDCHF) Volatility Intensified on Sep 24: Factors to Watch",
-        "url": "https://www.tradingkey.com/news/market-movers/262185318-market-movers-usdchf-20260924"
-      }
-    ],
-    "NZD/CAD": [
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      },
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "NZD/USD": [
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      },
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      }
-    ],
-    "USD/NOK": [
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      },
-      {
-        "title": "Scandinavian FX update: Why NOK looks healthier than SEK",
-        "url": "https://think.ing.com/articles/scandinavian-fx-update-nok-looks-healthier-than-sek"
-      }
-    ],
-    "USD/SEK": [
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
-      },
-      {
-        "title": "Our view on the Swedish krona after a stellar month | articles | ING THINK",
-        "url": "https://think.ing.com/articles/our-view-on-the-swedish-krona-after-a-stellar-month"
-      },
-      {
-        "title": "Scandinavian FX update: Why NOK looks healthier than SEK",
-        "url": "https://think.ing.com/articles/scandinavian-fx-update-nok-looks-healthier-than-sek"
+        "title": "U.S. Dollar to Japanese Yen - USD/JPY Exchange Rate Chart - FOREX.com US",
+        "url": "https://www.forex.com/en-us/forex-trading/usd-jpy"
       }
     ]
   },
   "drivers": {
     "EUR": {
-      "EUR/USD": "The euro ekes out a modest weekly gain of +0.10% but remains trapped below its 20‑day, 50‑day and 200‑day moving averages as leveraged funds have pushed net short exposure to –58,805 contracts. An AI‑driven bearish moving‑average structure keeps EUR/USD pinned at 1.1390 under a descending SMA stack, while the 135‑bp nominal rate differential still favors the dollar (Fed 4.00% vs ECB 2.65%). OIS forward bias shows a 97% probability of a Fed hike on 28 Oct versus a 44% probability of an ECB hike on 29 Oct, reinforcing the carry tilt toward the greenback. With the VIX at 14.9, risk sentiment is neutral, limiting any upside bounce for the euro. Traders should watch for further short‑covering pressure if US data eases the Fed’s tightening narrative",
-      "EUR/GBP": "EUR/GBP is testing the top of its recent channel amid a headline noting a pullback, while leveraged funds’ net short stance on the euro adds downside bias. The OIS curve signals a 95% probability of a BoE hike on 5 Nov versus a 44% chance of an ECB hike on 29 Oct, widening the GBP carry advantage. The euro’s modest weekly advance is constrained by positioning flows, and the pair remains below key moving averages, limiting bullish momentum. Low VIX levels keep market tone non‑risk‑off, so any GBP strength will likely be driven by rate‑differential expectations rather than safe‑haven flows. Watch for GBP‑driven upside if UK inflation data stays firm",
-      "EUR/JPY": "EUR/JPY is under pressure as net short exposure on the euro expands, with the euro trading below its longer‑term averages. The BoJ is on hold through its 30 Oct meeting, while the ECB’s 44% hike probability on 29 Oct leaves the euro with a modest carry edge over the yen. Given the VIX at 14.9, safe‑haven demand for the yen is marginal, and the pair is likely to stay range‑bound unless a surprise policy shift occurs. Positioning bias remains bearish for the euro, and any further fund shorting could push the pair lower. Traders should monitor US‑Japan yield spreads for short‑term directional cues",
+      "EUR/USD": "EUR/USD trades down at 1.13710 as the dollar firms on broader geopolitical momentum following remarks from Donald Trump claiming the US will win the Iran war very soon and cause energy prices to tumble. Technical momentum remains soft with spot pinned beneath its descending moving average stack, compounded by darkening German consumer sentiment heading into October due to elevated baseline energy costs. The European Central Bank remains on hold ahead of its October 29 meeting, with President Christine Lagarde noting that policy rates sit at the upper end of the neutral range and that energy subsidy shifts add an estimated 0.1% to headline inflation. By contrast, US rates markets reflect a 91% probability of a Federal Reserve hike at the October 28 FOMC, maintaining a 135-basis-point yield advantage that continues to anchor spot rallies",
+      "EUR/GBP": "EUR/GBP trades softer at 0.85730 as widening monetary divergence weighs on the cross. The ECB remains firmly on hold ahead of its October 29 gathering, whereas the Bank of England faces heavy market pricing for a rate hike on November 5 with OIS pricing an active 93% probability. While UK public borrowing surges and fiscal uncertainty persists ahead of the UK Autumn Budget on October 28, elevated short-sterling yields continue to draw institutional flows away from the single currency. Modest euro-area support from Spain's confirmed Q2 GDP growth of 0.7% year-on-year proved insufficient to offset Lagarde's reiteration that policy is not being guided by neutral rate estimates",
+      "EUR/JPY": "EUR/JPY trades at 178.94 with price",
       "EUR/AUD": "The euro’s weekly gain is modest, but leveraged funds have deepened net short exposure, pressuring EUR/AUD lower. OIS forward bias indicates a 100% probability of an RBA hike on 29 Sep versus a 44% chance of an ECB hike on 29 Oct, giving the Australian dollar a strong carry advantage. With the VIX subdued, risk sentiment is neutral and does not provide a safe‑haven lift for the euro. The AI signal for EUR/USD suggests broader euro weakness, which may spill over to the AUD pair. Expect continued downside unless Australian data softens the RBA’s tightening outlook",
       "EUR/CAD": "EUR/CAD remains under the weight of a –58,805 contract net short on the euro, limiting upside potential. Forward OIS data shows a 64% probability of a BoC hike on 28 Oct compared with a 44% ECB hike probability on 29 Oct, tilting carry in favour of the Canadian dollar. Low volatility conditions (VIX 14.9) keep the market tone normal, so the pair is likely to trade within its recent range absent a policy surprise. The euro’s modest weekly advance is insufficient to overcome the CAD’s yield edge. Traders should watch Canadian inflation releases for any catalyst to reinforce the bias",
       "EUR/CHF": "The euro’s slight weekly rise is offset by a sizeable net short position, while the CHF remains on hold as the SNB’s next meeting is slated for 10 Dec. OIS forward bias gives the euro a carry edge over the franc, with a 44% ECB hike probability versus a neutral SNB stance, but safe‑haven flows are muted given the VIX at 14.9. Consequently, EUR/CHF is likely to stay range‑bound, with positioning pressure capping upside. The AI‑driven bearish structure in EUR/USD adds to the euro’s downside narrative across cross‑pairs. Any unexpected SNB policy shift would be the primary driver for a move",
       "EUR/NZD": "EUR/NZD is pressured by leveraged funds’ net short exposure on the euro, while the NZD enjoys a robust carry outlook. OIS forward bias projects a 90% probability of an RBNZ hike on 28 Oct versus a 44",
-      "EUR/NOK": "EUR/NOK trades higher toward the 11.65 level as softening crude oil benchmarks degrade the terms of trade for the Norwegian krone. Norges Bank policymakers maintain a restrictive policy tone to anchor domestic core prices, yet the krone struggles to attract sustained capital inflows amid fluctuating global petroleum demand. Across the continent, ECB rhetoric remains split, with Boris Vujcic highlighting inflation risks while economic sentiment indicators in Germany paint a darkening cyclical outlook ahead of October. An active 19-year seasonal window typically reflects long bias characteristics for EUR/NOK through early autumn, lending technical support to systematic buy programs. The cross maintains solid footing above its 50-day moving average, with market participants looking toward upcoming Scandinavian inflation data to dictate near-term range boundaries",
+      "EUR/NOK": "EUR/NOK trades higher toward the 10.85 level as softening crude oil benchmarks degrade the terms of trade for the Norwegian krone. Norges Bank policymakers maintain a restrictive policy tone to anchor domestic core prices, yet the krone struggles to attract sustained capital inflows amid fluctuating global petroleum demand. Across the continent, ECB rhetoric remains split, with Boris Vujcic highlighting inflation risks while economic sentiment indicators in Germany paint a darkening cyclical outlook ahead of October. An active 19-year seasonal window typically reflects long bias characteristics for EUR/NOK through early autumn, lending technical support to systematic buy programs. The cross maintains solid footing above its 50-day moving average, with market participants looking toward upcoming Scandinavian inflation data to dictate near-term range boundaries",
       "EUR/SEK": "EUR/SEK sits locked in a tight corridor around 11.29 as market participants evaluate shifting European interest rate structures. The Swedish Riksbank is navigating a delicate balancing act between persistent domestic cost pressures and an export-sensitive manufacturing base, leaving the krona sensitive to broader euro area sentiment. In Frankfurt, the European Central Bank approaches its October 29 meeting with OIS markets pricing a 44% chance of a policy rate hike amidst vocal concerns from Governing Council member Boris Vujcic over energy price persistence. Long-term multi-year seasonal studies point to a historical long bias window for EUR/SEK during this calendar frame, offering mild technical backing to interbank spot bids. Key chart support is positioned at 11.25, while resistance at 11.35 continues to attract sovereign institutional selling interest"
     },
     "GBP": {
       "GBP/USD": "The pound is perched at three‑month lows, trading just below its 20‑, 50‑ and 200‑day moving averages and posting a modest –0.07% weekly underperformance across G10 crosses. BoE Governor Andrew Bailey warned that stubborn energy prices could compel higher rates, reinforcing the forward bias of a 95% hike probability ahead of the 5 Nov meeting, effectively pricing in a rate increase. Market headlines flag a bearish near‑term bias with GBP/USD holding near 1.3200, underscoring limited upside. With the Fed also on a steep hike path (97% probability), the GBP/USD carry differential remains constrained, keeping the pair range‑bound despite the pound’s technical weakness. Traders should watch any surprise energy‑price data for a possible catalyst to the already priced‑in BoE tightening",
-      "EUR/GBP": "EUR/GBP is testing the top of its recent channel amid a headline noting a pullback, while leveraged funds’ net short stance on the euro adds downside bias. The OIS curve signals a 95% probability of a BoE hike on 5 Nov versus a 44% chance of an ECB hike on 29 Oct, widening the GBP carry advantage. The euro’s modest weekly advance is constrained by positioning flows, and the pair remains below key moving averages, limiting bullish momentum. Low VIX levels keep market tone non‑risk‑off, so any GBP strength will likely be driven by rate‑differential expectations rather than safe‑haven flows. Watch for GBP‑driven upside if UK inflation data stays firm",
+      "EUR/GBP": "EUR/GBP trades softer at 0.85730 as widening monetary divergence weighs on the cross. The ECB remains firmly on hold ahead of its October 29 gathering, whereas the Bank of England faces heavy market pricing for a rate hike on November 5 with OIS pricing an active 93% probability. While UK public borrowing surges and fiscal uncertainty persists ahead of the UK Autumn Budget on October 28, elevated short-sterling yields continue to draw institutional flows away from the single currency. Modest euro-area support from Spain's confirmed Q2 GDP growth of 0.7% year-on-year proved insufficient to offset Lagarde's reiteration that policy is not being guided by neutral rate estimates",
       "GBP/JPY": "GBP/JPY mirrors the pound’s technical frailty, lingering near three‑month lows and underperforming G10 peers, while the yen sits on a BoJ hold stance with carry bid intact. The BoE’s 95% hike probability (next meeting 5 Nov) contrasts with the yen’s on‑hold policy, creating a modest carry advantage for the pound but limited by the pound’s weak price action. Headlines emphasize a bearish bias for GBP/USD, which spills over to GBP/JPY, suggesting the pair may stay subdued unless energy‑price shocks force a sharper BoE tightening. With the Fed’s 97% hike odds further compressing global carry spreads, the GBP/JPY outlook remains range‑bound, with any deviation likely tied to unexpected UK inflation or energy data",
       "GBP/AUD": "The pound’s slide to three‑month lows and the BoE’s 95% hike probability set a backdrop of modest upside for GBP/AUD, yet the Australian dollar benefits from a 100% hike probability at the RBA (meeting 29 Sep), eroding the pound’s carry edge. Technicals show the GBP under its key moving averages, while the AUD’s policy stance remains firmly tightening, limiting upside for the pair. Market commentary points to a bearish bias in GBP/USD, implying similar pressure on GBP/AUD unless UK energy‑price dynamics trigger a sharper BoE rate move. With both central banks on a tightening trajectory, the pair is likely to trade in a narrow band, with positioning driven more by relative rate differentials than pure directional thrust",
       "GBP/CAD": "GBP/CAD reflects the pound’s technical weakness and the BoE’s 95% hike probability versus the Bank of Canada’s 64% hike odds (next meeting 28 Oct). The pound’s underperformance and the BoE’s aggressive tightening narrative keep the pair under bearish pressure, while the CAD’s moderate hike expectations provide limited support. Headlines flag a bearish near‑term bias for GBP/USD, extending to GBP/CAD, suggesting the pair may remain constrained unless UK inflation surprises to the upside. The carry differential narrows as both sides price in rate hikes, leaving GBP/CAD range‑bound with any move likely tied to UK energy‑price developments or Canadian data releases",
@@ -903,28 +204,28 @@
     },
     "JPY": {
       "USD/JPY": "JPY modestly up 0.08% weekly, trading firm above its 20‑day SMA at 156.40 but still under the 50‑day/200‑day resistance near 158.5. BoJ board member Hajime Takata’s hawkish remarks on consecutive rate hikes have lifted market‑implied odds of a September move, yet the OIS curve keeps BoJ on hold through the 30 Oct meeting, preserving the yen’s carry bid. The pair sits at 157.72, with an options downside skew and vol divergence signaling downside pressure if US core PCE or durable‑goods data soften, while Fed hike expectations remain near‑certain (97% probability). CFTC data shows JPY leveraged funds net long 4,472 contracts, at the 98th percentile, adding a speculative long bias. Overall, USD/JPY remains range‑bound above SMA20, with upside capped by BoJ on‑hold stance and downside risk tied to US inflation surprises",
-      "EUR/JPY": "EUR/JPY is under pressure as net short exposure on the euro expands, with the euro trading below its longer‑term averages. The BoJ is on hold through its 30 Oct meeting, while the ECB’s 44% hike probability on 29 Oct leaves the euro with a modest carry edge over the yen. Given the VIX at 14.9, safe‑haven demand for the yen is marginal, and the pair is likely to stay range‑bound unless a surprise policy shift occurs. Positioning bias remains bearish for the euro, and any further fund shorting could push the pair lower. Traders should monitor US‑Japan yield spreads for short‑term directional cues",
+      "EUR/JPY": "EUR/JPY trades at 178.94 with price",
       "GBP/JPY": "GBP/JPY mirrors the pound’s technical frailty, lingering near three‑month lows and underperforming G10 peers, while the yen sits on a BoJ hold stance with carry bid intact. The BoE’s 95% hike probability (next meeting 5 Nov) contrasts with the yen’s on‑hold policy, creating a modest carry advantage for the pound but limited by the pound’s weak price action. Headlines emphasize a bearish bias for GBP/USD, which spills over to GBP/JPY, suggesting the pair may stay subdued unless energy‑price shocks force a sharper BoE tightening. With the Fed’s 97% hike odds further compressing global carry spreads, the GBP/JPY outlook remains range‑bound, with any deviation likely tied to unexpected UK inflation or energy data",
-      "AUD/JPY": "AUD/JPY trades near 84.30, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
-      "CAD/JPY": "CAD/JPY hovers around 106.10 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
+      "AUD/JPY": "AUD/JPY trades near 110.51, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
+      "CAD/JPY": "CAD/JPY hovers around 111.08 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
       "CHF/JPY": "CHF/JPY sits near 189.99, with the SNB on hold and BoJ also on hold, leaving the yen’s carry bid intact while the franc lacks a rate‑differential edge. The AI bilateral theme notes CHF lagging the G10 group (‑0.488% weekly) versus JPY’s +0.602% return, underscoring yen outperformance. CFTC data shows JPY leveraged funds net long at the 98th percentile, adding pressure on the franc side, while low VIX conditions keep safe‑haven flows marginal. With both central banks on hold, the pair is expected to trade range‑bound, upside limited by the yen’s modest carry and downside constrained by the franc’s neutral stance. Any shift in SNB policy or unexpected yen intervention could break the current equilibrium",
-      "NZD/JPY": "NZD/JPY trades around 101.50, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite"
+      "NZD/JPY": "NZD/JPY trades around 89.22, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite"
     },
     "AUD": {
       "AUD/USD": "AUD/USD is testing its 200‑day moving average at 0.7026 as the dollar softens against the Aussie, with the pair down 0.68% on the week and slipping below its 20‑day and 50‑day trends. The RBA’s cash‑rate decision looms on 29 Sep, and the forward curve reflects a 100 % probability of a hike, effectively pricing in a tighter Aussie stance versus a Fed‑expected hike on 28 Oct. Technicals show support at the 200‑day level and leveraged funds remain net long +55,684 contracts despite a modest weekly reduction, underscoring bullish positioning. The “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative reinforces expectations of continued rate tightening, keeping the AUD’s carry premium intact. Overall, the pair trades in a range‑bound, carry‑positive environment with upside bias if the 200‑day support holds",
       "EUR/AUD": "The euro’s weekly gain is modest, but leveraged funds have deepened net short exposure, pressuring EUR/AUD lower. OIS forward bias indicates a 100% probability of an RBA hike on 29 Sep versus a 44% chance of an ECB hike on 29 Oct, giving the Australian dollar a strong carry advantage. With the VIX subdued, risk sentiment is neutral and does not provide a safe‑haven lift for the euro. The AI signal for EUR/USD suggests broader euro weakness, which may spill over to the AUD pair. Expect continued downside unless Australian data softens the RBA’s tightening outlook",
       "GBP/AUD": "The pound’s slide to three‑month lows and the BoE’s 95% hike probability set a backdrop of modest upside for GBP/AUD, yet the Australian dollar benefits from a 100% hike probability at the RBA (meeting 29 Sep), eroding the pound’s carry edge. Technicals show the GBP under its key moving averages, while the AUD’s policy stance remains firmly tightening, limiting upside for the pair. Market commentary points to a bearish bias in GBP/USD, implying similar pressure on GBP/AUD unless UK energy‑price dynamics trigger a sharper BoE rate move. With both central banks on a tightening trajectory, the pair is likely to trade in a narrow band, with positioning driven more by relative rate differentials than pure directional thrust",
-      "AUD/JPY": "AUD/JPY trades near 84.30, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
-      "AUD/CAD": "AUD/CAD is anchored near 0.9500 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
-      "AUD/CHF": "AUD/CHF trades around 0.6400 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
-      "AUD/NZD": "AUD/NZD is near 1.0800 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD"
+      "AUD/JPY": "AUD/JPY trades near 110.51, buoyed by the RBA’s hike‑expected stance (100% probability) and a still‑on‑hold BoJ, which sustains a modest yen carry advantage. The yen’s recent modest weekly gain and Takata’s hawkish cues have limited downside, while the AUD benefits from a forward‑bias hike priced in, supporting a slight bullish bias on the cross. AI‑driven G10 bilateral theme shows JPY leading the basket with +0.602% weekly return, reinforcing its relative strength versus the AUD. CFTC positioning remains heavily long on JPY, adding pressure on the cross, but the AUD’s own carry premium offsets some of that drag. With VIX low, the pair is likely to trade in a narrow band, upside constrained by BoJ on‑hold policy and downside limited by RBA’s upcoming hike",
+      "AUD/CAD": "AUD/CAD is anchored near 0.9947 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
+      "AUD/CHF": "AUD/CHF trades around 0.5840 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
+      "AUD/NZD": "AUD/NZD is near 1.2383 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD"
     },
     "CAD": {
       "USD/CAD": "USD/CAD remains under pressure as the OIS curve prices a near‑certain Fed hike on Oct 28 versus a 64% probability of a BoC holds at 2.25%. BMO Economics projects a long pause from the BoC while the Fed could deliver up to 75 bps of cuts later in the year, reinforcing the upside bias for USD. Recent headlines flag a widening US‑Canada rate gap and a slide in crude oil, both headwinds for the loonie and further underpinning the USD rally. Despite the CAD’s underlying resilience toward a 1.3300 target by year‑end, the forward‑bias spread and rate‑gap narrative dominate short‑term pricing. Traders are likely to keep USD long and CAD short pending any surprise in BoC policy or oil rebounds",
       "EUR/CAD": "EUR/CAD remains under the weight of a –58,805 contract net short on the euro, limiting upside potential. Forward OIS data shows a 64% probability of a BoC hike on 28 Oct compared with a 44% ECB hike probability on 29 Oct, tilting carry in favour of the Canadian dollar. Low volatility conditions (VIX 14.9) keep the market tone normal, so the pair is likely to trade within its recent range absent a policy surprise. The euro’s modest weekly advance is insufficient to overcome the CAD’s yield edge. Traders should watch Canadian inflation releases for any catalyst to reinforce the bias",
       "GBP/CAD": "GBP/CAD reflects the pound’s technical weakness and the BoE’s 95% hike probability versus the Bank of Canada’s 64% hike odds (next meeting 28 Oct). The pound’s underperformance and the BoE’s aggressive tightening narrative keep the pair under bearish pressure, while the CAD’s moderate hike expectations provide limited support. Headlines flag a bearish near‑term bias for GBP/USD, extending to GBP/CAD, suggesting the pair may remain constrained unless UK inflation surprises to the upside. The carry differential narrows as both sides price in rate hikes, leaving GBP/CAD range‑bound with any move likely tied to UK energy‑price developments or Canadian data releases",
-      "AUD/CAD": "AUD/CAD is anchored near 0.9500 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
-      "CAD/JPY": "CAD/JPY hovers around 106.10 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
+      "AUD/CAD": "AUD/CAD is anchored near 0.9947 as the RBA’s 29 Sep hike is fully priced in, while the BoC’s 28 Oct meeting carries a 64 % hike probability, narrowing the yield differential. The Aussie’s weekly decline of 0.68% and breach of its 20‑day and 50‑day moving averages adds modest downside pressure, but the forward bias still favors the AUD’s carry advantage. No specific AI signal is provided for this cross, yet leveraged positioning in AUD/USD suggests a net long bias that may spill over into AUD/CAD. The “FX Watch: EUR/AUD and AUD/JPY Setups for a Dovish RBA Hike” headline hints at market debate, but the forward curve’s 100 % hike probability keeps the AUD’s outlook relatively firm. In a low‑vol environment (VIX 14.9), the pair is likely to trade in a narrow band unless surprise data shift the RBA’s stance",
+      "CAD/JPY": "CAD/JPY hovers around 111.08 as the BoC’s hike‑expected stance (64% probability) meets a BoJ on‑hold outlook, creating a modest carry differential favoring the yen. The yen’s 0.08% weekly gain and the CFTC’s net long JPY leveraged funds (98th percentile) add a speculative short bias on the CAD side, while Canadian data has been mixed, limiting directional thrust. AI signals highlight JPY’s leadership in the G10 strength scorecard, further supporting yen resilience against the loonie. With the Fed’s hike priced in and BoJ steady, the cross remains range‑bound, upside capped by BoC’s less aggressive stance and downside buffered by yen carry. Market participants should watch for any surprise in Canadian inflation or US data that could tilt the pair",
       "CAD/CHF": "CAD/CHF is poised in a range‑bound corridor as the OIS bias shows a 64% hike probability for the BoC against a neutral stance from the SNB, limiting carry‑driven demand for the franc. BMO’s forecast of a BoC pause and a Fed easing trajectory supports a modest upside for the loonie, while the CHF remains constrained by limited carry appeal. Headlines noting CAD weakness on the widening rate gap and falling crude oil prices add downside pressure, yet the CHF’s lack of safe‑haven inflows in a low‑vol VIX environment tempers any sharp moves. The pair’s pricing reflects a modest carry advantage for CAD, with positioning likely to stay near current levels unless oil prices rebound or the BoC signals a policy shift",
       "NZD/CAD": "NZD/CAD benefits from a pronounced carry differential as the RBNZ is priced for a 90% hike probability on Oct 28, while the BoC faces a 64% hike probability, tilting the spread in favour of the kiwi. BMO’s outlook of a BoC pause and anticipated Fed cuts further buttresses the NZD’s relative strength, despite CAD headlines highlighting rate‑gap concerns and oil price declines. The OIS forward bias underscores a stronger NZD carry profile, encouraging long NZD positions against a softer CAD. With VIX at 14.9, risk sentiment remains neutral, limiting safe‑haven flows and keeping the pair’s move largely driven by interest‑rate differentials and commodity backdrop. Traders should monitor any BoC policy surprise or oil price bounce that could recalibrate the CAD’s trajectory"
     },
@@ -932,22 +233,22 @@
       "USD/CHF": "USD/CHF hovers near 0.8285, sustaining multi-month strength as the US rate premium continues to dictate flow. The pair saw brief price adjustments after Donald Trump stated he expects renewed negotiations with Iran this week, slightly diminishing broader macro uncertainty. Fundamental support for the greenback remains firm ahead of the October 28 Federal Reserve meeting, where money markets price a 97% probability of a policy rate hike. In contrast, the Swiss National Bank remains firmly on hold ahead of its December 10 decision, with Chairman Martin Schlegel noting that the country is in a comfortable inflation spot. CHF steady. SNB on hold. Carry drag limits demand. The wide Federal Reserve-SNB policy divergence provides a persistent floor beneath the pair near 0.8230",
       "EUR/CHF": "The euro’s slight weekly rise is offset by a sizeable net short position, while the CHF remains on hold as the SNB’s next meeting is slated for 10 Dec. OIS forward bias gives the euro a carry edge over the franc, with a 44% ECB hike probability versus a neutral SNB stance, but safe‑haven flows are muted given the VIX at 14.9. Consequently, EUR/CHF is likely to stay range‑bound, with positioning pressure capping upside. The AI‑driven bearish structure in EUR/USD adds to the euro’s downside narrative across cross‑pairs. Any unexpected SNB policy shift would be the primary driver for a move",
       "GBP/CHF": "The pound’s three‑month low and BoE’s 95% hike probability contrast with the SNB’s on‑hold stance, but CHF carry drag limits demand, keeping GBP/CHF range‑bound. Technicals show the GBP below its major moving averages, reinforcing the bearish tone echoed in GBP/USD headlines. With the BoE tightening aggressively and the CHF steady, the pair lacks a strong directional catalyst, and the VIX at 14.9 suggests low‑volatility conditions. Traders should monitor UK energy‑price pressures for any upside surprise, though the prevailing bias remains modestly bearish amid limited carry incentive",
-      "AUD/CHF": "AUD/CHF trades around 0.6400 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
+      "AUD/CHF": "AUD/CHF trades around 0.5840 with the RBA’s 100 % hike probability contrasting the SNB’s on‑hold stance, leaving the AUD’s carry premium intact against a neutral CHF. The Aussie’s weekly slide of 0.68% and breach of short‑term moving averages temper the upside, but forward bias supports a modestly bullish bias for the AUD. CHF demand remains limited in the current low‑vol regime, and the SNB’s hold reduces any safe‑haven inflow, keeping the pair range‑bound. Leveraged funds’ net long exposure in AUD/USD suggests supportive positioning for AUD/CHF despite the recent technical weakness. Overall, the cross is likely to hover near recent levels with a slight carry‑driven edge to the upside",
       "CAD/CHF": "CAD/CHF is poised in a range‑bound corridor as the OIS bias shows a 64% hike probability for the BoC against a neutral stance from the SNB, limiting carry‑driven demand for the franc. BMO’s forecast of a BoC pause and a Fed easing trajectory supports a modest upside for the loonie, while the CHF remains constrained by limited carry appeal. Headlines noting CAD weakness on the widening rate gap and falling crude oil prices add downside pressure, yet the CHF’s lack of safe‑haven inflows in a low‑vol VIX environment tempers any sharp moves. The pair’s pricing reflects a modest carry advantage for CAD, with positioning likely to stay near current levels unless oil prices rebound or the BoC signals a policy shift",
       "CHF/JPY": "CHF/JPY sits near 189.99, with the SNB on hold and BoJ also on hold, leaving the yen’s carry bid intact while the franc lacks a rate‑differential edge. The AI bilateral theme notes CHF lagging the G10 group (‑0.488% weekly) versus JPY’s +0.602% return, underscoring yen outperformance. CFTC data shows JPY leveraged funds net long at the 98th percentile, adding pressure on the franc side, while low VIX conditions keep safe‑haven flows marginal. With both central banks on hold, the pair is expected to trade range‑bound, upside limited by the yen’s modest carry and downside constrained by the franc’s neutral stance. Any shift in SNB policy or unexpected yen intervention could break the current equilibrium",
-      "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4910, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975"
+      "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4715, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975"
     },
     "NZD": {
       "NZD/USD": "NZD faces pressure as widening US‑NZ yield differentials curb demand for kiwi debt, while RBNZ official Breman flagged higher oil prices as near‑term inflation upside, keeping a near‑term rate‑hike priced in for the October 28 meeting. The pair slipped below its 20‑day and 50‑day moving averages, confirming a prolonged correction despite a headline lift from the US‑China truce extension that briefly pushed the kiwi above 0.5650. Forward bias underscores a 90% probability of an RBNZ hike versus a 97% Fed hike probability, widening the carry differential and favouring USD strength. COT positioning remains net short NZD, reinforcing the downside bias. Traders should watch commodity price moves and any further US‑NZ spread widening for additional downside risk",
       "EUR/NZD": "EUR/NZD is pressured by leveraged funds’ net short exposure on the euro, while the NZD enjoys a robust carry outlook. OIS forward bias projects a 90% probability of an RBNZ hike on 28 Oct versus a 44",
       "GBP/NZD": "GBP/NZD is pressured by the pound’s technical weakness and the BoE’s 95% hike probability, while the RBNZ’s 90% hike odds (meeting 28 Oct) sustain a relatively tight carry spread. The pair inherits the bearish bias from GBP/USD headlines, with the pound trading near three‑month lows and under its key averages. With both central banks on tightening paths, the NZD’s higher rate outlook offers limited upside for the pound, keeping the pair in a constrained range. Any deviation will likely stem from UK energy‑price shocks that could force a sharper BoE response, but absent such a catalyst the GBP/NZD remains range‑bound",
-      "AUD/NZD": "AUD/NZD is near 1.0800 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD",
+      "AUD/NZD": "AUD/NZD is near 1.2383 as both the RBA and RBNZ are slated for hikes, with the RBA’s 100 % probability and the RBNZ’s 90 % probability reinforcing a strong AUD carry versus the NZD. The Aussie’s weekly decline of 0.68% and dip below its 20‑day and 50‑day averages introduce short‑term downside risk, yet the forward curve’s aggressive RBA stance outweighs the NZD’s similar tightening bias. No AI signal is listed for this pair, but the broader “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative supports continued AUD strength. In a low‑vol market, the pair is expected to trade in a tight range, with any break above the 200‑day level at 0.7026 (AUD/USD equivalent) potentially sparking a rally. Carry‑positive dynamics keep the AUD slightly favored against the NZD",
       "NZD/CAD": "NZD/CAD benefits from a pronounced carry differential as the RBNZ is priced for a 90% hike probability on Oct 28, while the BoC faces a 64% hike probability, tilting the spread in favour of the kiwi. BMO’s outlook of a BoC pause and anticipated Fed cuts further buttresses the NZD’s relative strength, despite CAD headlines highlighting rate‑gap concerns and oil price declines. The OIS forward bias underscores a stronger NZD carry profile, encouraging long NZD positions against a softer CAD. With VIX at 14.9, risk sentiment remains neutral, limiting safe‑haven flows and keeping the pair’s move largely driven by interest‑rate differentials and commodity backdrop. Traders should monitor any BoC policy surprise or oil price bounce that could recalibrate the CAD’s trajectory",
-      "NZD/JPY": "NZD/JPY trades around 101.50, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite",
-      "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4910, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975"
+      "NZD/JPY": "NZD/JPY trades around 89.22, reflecting the RBNZ’s hike‑expected outlook (90% probability) against a BoJ on‑hold stance, which narrows the interest‑rate spread and curtails yen carry appeal. The yen’s modest weekly gain and strong CFTC long positioning keep a speculative bias toward the yen, while the NZD’s forward‑bias hike supports a slight bullish tilt on the cross. AI signals show JPY leading the G10 strength scorecard, reinforcing its relative strength versus the kiwi. With VIX low, risk sentiment is neutral, so the pair is likely to remain in a tight range, upside capped by BoJ’s on‑hold policy and downside limited by the RBNZ’s anticipated rate hike. Market focus will be on New Zealand inflation and any surprise in US data that could affect the NZD’s risk appetite",
+      "NZD/CHF": "NZD/CHF trades with a positive bias around 0.4715, driven by the pronounced interest rate premium offered by Wellington over Zurich. Reserve Bank of New Zealand policymaker Breman underscored the need for vigilance against lingering price pressures, resulting in a 90% hike probability for the October 28 RBNZ rate decision. On the Swiss side, the SNB is projected to remain on hold through its December 10 meeting, reinforced by robust Swiss Q2 current account surplus data totaling CHF 23.7 billion. CHF steady. SNB on hold. Carry drag limits demand. Yield-seeking accounts continue to accumulate the pair on short-term dips, aiming for technical resistance near 0.4975"
     },
     "USD": {
-      "EUR/USD": "The euro ekes out a modest weekly gain of +0.10% but remains trapped below its 20‑day, 50‑day and 200‑day moving averages as leveraged funds have pushed net short exposure to –58,805 contracts. An AI‑driven bearish moving‑average structure keeps EUR/USD pinned at 1.1390 under a descending SMA stack, while the 135‑bp nominal rate differential still favors the dollar (Fed 4.00% vs ECB 2.65%). OIS forward bias shows a 97% probability of a Fed hike on 28 Oct versus a 44% probability of an ECB hike on 29 Oct, reinforcing the carry tilt toward the greenback. With the VIX at 14.9, risk sentiment is neutral, limiting any upside bounce for the euro. Traders should watch for further short‑covering pressure if US data eases the Fed’s tightening narrative",
+      "EUR/USD": "EUR/USD trades down at 1.13710 as the dollar firms on broader geopolitical momentum following remarks from Donald Trump claiming the US will win the Iran war very soon and cause energy prices to tumble. Technical momentum remains soft with spot pinned beneath its descending moving average stack, compounded by darkening German consumer sentiment heading into October due to elevated baseline energy costs. The European Central Bank remains on hold ahead of its October 29 meeting, with President Christine Lagarde noting that policy rates sit at the upper end of the neutral range and that energy subsidy shifts add an estimated 0.1% to headline inflation. By contrast, US rates markets reflect a 91% probability of a Federal Reserve hike at the October 28 FOMC, maintaining a 135-basis-point yield advantage that continues to anchor spot rallies",
       "GBP/USD": "The pound is perched at three‑month lows, trading just below its 20‑, 50‑ and 200‑day moving averages and posting a modest –0.07% weekly underperformance across G10 crosses. BoE Governor Andrew Bailey warned that stubborn energy prices could compel higher rates, reinforcing the forward bias of a 95% hike probability ahead of the 5 Nov meeting, effectively pricing in a rate increase. Market headlines flag a bearish near‑term bias with GBP/USD holding near 1.3200, underscoring limited upside. With the Fed also on a steep hike path (97% probability), the GBP/USD carry differential remains constrained, keeping the pair range‑bound despite the pound’s technical weakness. Traders should watch any surprise energy‑price data for a possible catalyst to the already priced‑in BoE tightening",
       "USD/JPY": "JPY modestly up 0.08% weekly, trading firm above its 20‑day SMA at 156.40 but still under the 50‑day/200‑day resistance near 158.5. BoJ board member Hajime Takata’s hawkish remarks on consecutive rate hikes have lifted market‑implied odds of a September move, yet the OIS curve keeps BoJ on hold through the 30 Oct meeting, preserving the yen’s carry bid. The pair sits at 157.72, with an options downside skew and vol divergence signaling downside pressure if US core PCE or durable‑goods data soften, while Fed hike expectations remain near‑certain (97% probability). CFTC data shows JPY leveraged funds net long 4,472 contracts, at the 98th percentile, adding a speculative long bias. Overall, USD/JPY remains range‑bound above SMA20, with upside capped by BoJ on‑hold stance and downside risk tied to US inflation surprises",
       "AUD/USD": "AUD/USD is testing its 200‑day moving average at 0.7026 as the dollar softens against the Aussie, with the pair down 0.68% on the week and slipping below its 20‑day and 50‑day trends. The RBA’s cash‑rate decision looms on 29 Sep, and the forward curve reflects a 100 % probability of a hike, effectively pricing in a tighter Aussie stance versus a Fed‑expected hike on 28 Oct. Technicals show support at the 200‑day level and leveraged funds remain net long +55,684 contracts despite a modest weekly reduction, underscoring bullish positioning. The “Why the RBA Keeps Hiking While Other Central Banks Stay Cautious” narrative reinforces expectations of continued rate tightening, keeping the AUD’s carry premium intact. Overall, the pair trades in a range‑bound, carry‑positive environment with upside bias if the 200‑day support holds",
@@ -969,116 +270,12 @@
         "url": "https://admiralmarkets.com/analytics/traders-blog/snb-rate-decision-september-2026"
       },
       {
-        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028 and ...",
+        "title": "EURUSD Forecast & Predictions for 2026, 2027–2028, and Beyond until 2030 | LiteFinance",
         "url": "https://www.litefinance.org/blog/analysts-opinions/eurusd-forecast-and-price-prediction"
       },
       {
-        "title": "Euro US dollar Forecast: Dollar Strength and Hormuz Tensions | Capital.com",
-        "url": "https://capital.com/en-int/analysis/euro-forecast"
-      }
-    ],
-    "GBP": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
         "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
         "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "2026 Market Outlook | J.P. Morgan Global Research",
-        "url": "https://www.jpmorgan.com/insights/global-research/outlook/market-outlook"
-      },
-      {
-        "title": "Currency Volatility: Dollar Strength, Euro Weakness?",
-        "url": "https://www.jpmorgan.com/insights/global-research/currencies/currency-volatility-dollar-strength"
-      }
-    ],
-    "JPY": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Chart of the Day: USDJPY eyes 160.00 again 📈 Will FX intervention withstand the pressure? (28.08.2026) | XTB",
-        "url": "https://www.xtb.com/int/market-analysis/news-and-research/chart-of-the-day-usdjpy-eyes-160-00-again-will-fx-intervention-withstand-the-pressure-28-08-2026"
-      },
-      {
-        "title": "USD/JPY (USDJPY) Moved Sharply on Sep 25: Are Central Bank Expectations Shifting?",
-        "url": "https://www.tradingkey.com/news/market-movers/262186413-market-movers-usdjpy-20260925"
-      }
-    ],
-    "AUD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "AUD to INR forecast: rate history and key drivers",
-        "url": "https://www.finder.com.au/international-money-transfers/aud-to-inr-forecast"
-      },
-      {
-        "title": "2026 FX Outlook: Improved global growth boosts weaker US dollar; EUR, AUD, and JPY top picks",
-        "url": "https://www.marketpulse.com/markets/2026-fx-outlook-improved-global-growth-boosts-weaker-us-dollar-eur-aud-and-jpy-top-picks"
-      },
-      {
-        "title": "Silver/AUD (XAGAUD) Is up 2.02% on Sep 18: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262174616-market-movers-xagaud-20260918"
-      }
-    ],
-    "CAD": [
-      {
-        "title": "10 Best Forex Pairs to Trade in 2026: Major, Minor, & Exotic Pairs",
-        "url": "https://www.mitrade.com/au/insights/forex/forex-basics/best-forex-pairs-to-trade"
-      },
-      {
-        "title": "USDCAD and USDMXN 2026 Fundamental Outlook Can the Canadian Dollar and Mexican Peso Maintain Their Strength",
-        "url": "https://www.forex.com/ie/news-and-analysis/usdcad-and-usdmxn-2026-fundamental-outlook-can-the-canadian-dollar-and-mexican-peso-maintain-their-strength"
-      },
-      {
-        "title": "Bank of Canada interest rate update (September 2, 2026)",
-        "url": "https://www.rbcroyalbank.com/en-ca/my-money-matters/money-academy/economics-101/understanding-interest-rates/bank-of-canada-interest-rate-announcement"
-      },
-      {
-        "title": "The Canadian Dollar’s Surprise Rebound: Is It on Track to End 2025 on a High?",
-        "url": "https://global.morningstar.com/en-ca/markets/canadian-dollars-surprise-rebound-is-it-track-end-2025-high"
-      }
-    ],
-    "NZD": [
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com Australia",
-        "url": "https://capital.com/en-au/learn/most-traded-currencies"
-      },
-      {
-        "title": "Most Traded Currencies 2025: US Dollar Leads as Yuan Climbs | Capital.com UAE",
-        "url": "https://capital.com/en-ae/learn/most-traded-currencies"
-      },
-      {
-        "title": "NZD/USD (NZDUSD) Is down 0.53% on Aug 28: Why It Happened",
-        "url": "https://www.tradingkey.com/news/market-movers/262139035-market-movers-nzdusd-20260828"
-      }
-    ],
-    "USD": [
-      {
-        "title": "Dollar falls before US data amid shutdown concerns, yen outperforms - KITCO",
-        "url": "http://news.kitco.com/news/off-the-wire/2025-09-29/dollar-falls-us-data-amid-shutdown-concerns-yen-outperforms"
-      },
-      {
-        "title": "Dollar softens amid trade optimism, central bank watch, offshore yuan jumps - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2025-10-27/dollar-softens-amid-trade-optimism-central-bank-watch-offshore-yuan"
-      },
-      {
-        "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields - Reuters",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/"
-      },
-      {
-        "title": "Citigroup's hedge fund clients sold the dollar around Supreme Court tariff ruling - KITCO",
-        "url": "https://www.kitco.com/news/off-the-wire/2026-02-24/citigroups-hedge-fund-clients-sold-dollar-around-supreme-court-tariff"
       }
     ]
   },
