@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-28T08:33:11Z",
-  "generatedAt": "2026-09-28T08:33:11Z",
+  "lastUpdate": "2026-09-28T08:35:59Z",
+  "generatedAt": "2026-09-28T08:35:59Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1842,6 +1842,16 @@
       "n": 2,
       "mean": 0.05,
       "std": 0.212132
+    },
+    "EUR/slovenia retail sales yoy": {
+      "n": 2,
+      "mean": 1.85,
+      "std": 1.202082
+    },
+    "EUR/slovenia retail sales mom": {
+      "n": 2,
+      "mean": 1.35,
+      "std": 0.494975
     },
     "EUR/consumer confidence index": {
       "n": 2,
@@ -66361,7 +66371,7 @@
       "flag": "🇪🇺",
       "event": "Slovenia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "1.0%",
       "forecast": "-0.7%",
       "previous": "1.6%"
     },
@@ -66374,7 +66384,7 @@
       "flag": "🇪🇺",
       "event": "Slovenia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "5.7%",
       "forecast": "4.7%",
       "previous": "5.2%"
     },
