@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-27T23:53:29Z",
+  "generatedAt": "2026-09-28T14:19:14Z",
   "scriptVersion": "1.7",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 188,
+  "aliasCount": 194,
   "aliases": [
     {
       "currency": "AUD",
@@ -802,21 +802,8 @@
           "actual_secondary_raw": "37.8",
           "forecast_secondary_raw": "37",
           "previous_secondary_raw": "47.4"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-16",
-          "forecast_primary": 37.0,
-          "forecast_yahoo": null,
-          "actual_primary": 32.0,
-          "actual_yahoo": 32.0,
-          "previous_primary": 35.0,
-          "previous_yahoo": 35.0,
-          "actual_yahoo_raw": "32",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "35"
         }
-      },
-      "yahoo_title": "NAHB Housing Market Indx"
+      }
     },
     {
       "currency": "EUR",
@@ -826,13 +813,13 @@
         "secondary": {
           "dateISO": "2026-10-02",
           "forecast_primary": 2.4,
-          "forecast_secondary": 2.5,
+          "forecast_secondary": 2.6,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 2.4,
           "previous_secondary": 2.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "2.5%",
+          "forecast_secondary_raw": "2.6%",
           "previous_secondary_raw": "2.4%"
         }
       }
@@ -845,13 +832,13 @@
         "secondary": {
           "dateISO": "2026-10-02",
           "forecast_primary": null,
-          "forecast_secondary": 103.9,
+          "forecast_secondary": 104.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 103.69,
           "previous_secondary": 103.69,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "103.9",
+          "forecast_secondary_raw": "104.1",
           "previous_secondary_raw": "103.69"
         }
       }
@@ -1588,11 +1575,11 @@
       "evidence": {
         "secondary": {
           "dateISO": "2026-10-05",
-          "forecast_primary": 51.7,
+          "forecast_primary": 51.6,
           "forecast_secondary": 51.6,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": 52.5,
+          "previous_primary": 51.6,
           "previous_secondary": 52.5,
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "51.6",
@@ -1603,18 +1590,18 @@
     {
       "currency": "JPY",
       "primary_title": "Japan au Jibun Bank Composite PMI",
-      "secondary_title": "Japan S&P Global Composite PMI Final",
+      "secondary_title": "Japan S&P Global Composite PMI Flash",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-05",
+          "dateISO": "2026-09-24",
           "forecast_primary": null,
-          "forecast_secondary": 52.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "forecast_secondary": 54.0,
+          "actual_primary": 52.5,
+          "actual_secondary": 52.5,
           "previous_primary": 53.5,
           "previous_secondary": 53.5,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "52.5",
+          "actual_secondary_raw": "52.5",
+          "forecast_secondary_raw": "54",
           "previous_secondary_raw": "53.5"
         }
       }
@@ -2010,6 +1997,44 @@
     },
     {
       "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI m/m",
+      "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-09-29",
+          "forecast_primary": 0.1,
+          "forecast_secondary": 0.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.2,
+          "previous_secondary": 0.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.1%",
+          "previous_secondary_raw": "0.2%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI y/y",
+      "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-09-29",
+          "forecast_primary": 2.1,
+          "forecast_secondary": 1.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.6,
+          "previous_secondary": 1.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.5%",
+          "previous_secondary_raw": "1.6%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
       "primary_title": "BoE M4 Money Supply m/m",
       "secondary_title": "United Kingdom M4 Money Supply MoM",
       "evidence": {
@@ -2054,13 +2079,13 @@
         "secondary": {
           "dateISO": "2026-09-29",
           "forecast_primary": 6.6,
-          "forecast_secondary": 5.1,
+          "forecast_secondary": 6.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 5.8,
           "previous_secondary": 5.8,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "5.1",
+          "forecast_secondary_raw": "6",
           "previous_secondary_raw": "5.8"
         }
       }
@@ -3232,13 +3257,13 @@
         "secondary": {
           "dateISO": "2026-10-06",
           "forecast_primary": -0.1,
-          "forecast_secondary": null,
+          "forecast_secondary": -0.4,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -0.6,
           "previous_secondary": -0.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "-0.4%",
           "previous_secondary_raw": "-0.6%"
         }
       }
@@ -3251,13 +3276,13 @@
         "secondary": {
           "dateISO": "2026-10-06",
           "forecast_primary": 1.2,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.6,
           "previous_secondary": 0.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "0.6%"
         }
       }
@@ -3278,6 +3303,63 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "53",
           "previous_secondary_raw": "64.3"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia MI Inflation Expectations",
+      "secondary_title": "Australia Consumer Inflation Expectations",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 4.5,
+          "forecast_secondary": 5.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 4.9,
+          "previous_secondary": 4.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "5.0%",
+          "previous_secondary_raw": "4.9%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Economy Watchers Index for Current Conditions",
+      "secondary_title": "Japan Eco Watchers Survey Current",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 46.9,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 46.4,
+          "previous_secondary": 46.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "46.4"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Economy Watchers Index for Future Conditions",
+      "secondary_title": "Japan Eco Watchers Survey Outlook",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 47.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 48.3,
+          "previous_secondary": 48.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "48.3"
         }
       }
     },
@@ -3848,6 +3930,25 @@
           "actual_yahoo_raw": "3.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.4"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Retail Sales m/m",
+      "yahoo_title": "Retail Sales Ex. Auto",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-28",
+          "forecast_primary": -0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 0.6,
+          "actual_yahoo": 0.6,
+          "previous_primary": -0.7,
+          "previous_yahoo": -0.7,
+          "actual_yahoo_raw": "0.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.7"
         }
       }
     },
