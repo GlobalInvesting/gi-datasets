@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
+    inputs:
+      force_weekly_outlook:
+        description: 'Rebuild the Weekly Outlook card even if this week edition is still valid'
+        type: boolean
+        default: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -89,6 +94,7 @@ jobs:
           AI_PRIMARY_KEY_6: ${{ secrets.AI_PRIMARY_KEY_6 }}
           AI_PRIMARY_KEY_7: ${{ secrets.AI_PRIMARY_KEY_7 }}
           WEB_SEARCH_KEY: ${{ secrets.WEB_SEARCH_KEY }}
+          GI_FORCE_WEEKLY_OUTLOOK: ${{ inputs.force_weekly_outlook && '1' || '' }}
         run: |
           DAY_OF_WEEK=$(date -u +%u)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
