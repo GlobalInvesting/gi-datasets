@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-28T05:03:04Z",
-  "generatedAt": "2026-09-28T05:03:04Z",
+  "lastUpdate": "2026-09-28T05:05:05Z",
+  "generatedAt": "2026-09-28T05:05:05Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1707,6 +1707,16 @@
       "n": 5,
       "mean": 0.2878,
       "std": 0.529265
+    },
+    "EUR/finland business confidence": {
+      "n": 2,
+      "mean": -2.0,
+      "std": 2.828427
+    },
+    "EUR/finland consumer confidence": {
+      "n": 2,
+      "mean": 0.4,
+      "std": 3.676955
     },
     "EUR/germany gfk consumer climate": {
       "n": 2,
@@ -66165,7 +66175,7 @@
       "flag": "🇪🇺",
       "event": "Finland Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "3",
       "forecast": "7",
       "previous": "6"
     },
@@ -66178,7 +66188,7 @@
       "flag": "🇪🇺",
       "event": "Finland Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "-4.9",
       "forecast": "-2.7",
       "previous": "-3.0"
     },
