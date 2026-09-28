@@ -1,49 +1,964 @@
 {
-  "generated_at": "2026-09-28T00:10:00Z",
-  "universe": [
-    "EUR/USD",
-    "GBP/USD",
-    "USD/JPY",
+  "schema_version": 2,
+  "generated_at": "2026-09-27T23:30:00Z",
+  "week_of": "2026-09-28",
+  "ai_complete": false,
+  "view": {
+    "headline": "Week ahead: AUD central bank 29 Sep",
+    "summary": "JPY led and AUD lagged the G10 last week (-0.26% and -1.39% against the USD). Key events: EUR ECB President Lagarde Speech (2026-09-28); AUD RBA Interest Rate Decision (2026-09-29); EUR ECB President Lagarde Speech (2026-09-29).",
+    "source": "deterministic"
+  },
+  "order": [
     "AUD/USD",
-    "NZD/USD",
-    "USD/CAD",
-    "USD/CHF"
+    "AUD/JPY",
+    "USD/CHF",
+    "GBP/CHF",
+    "GBP/USD",
+    "EUR/USD",
+    "USD/JPY",
+    "EUR/CAD"
+  ],
+  "universe": [
+    "AUD/USD",
+    "AUD/JPY",
+    "USD/CHF",
+    "GBP/CHF",
+    "GBP/USD",
+    "EUR/USD",
+    "USD/JPY",
+    "EUR/CAD"
   ],
   "pairs": {
-    "EUR/USD": {
-      "paragraph": "EUR/USD closed at 1.1395, 1.25% below its SMA20 (1.1539) and 1.98% below its SMA200 (1.1625), with the SMA50 (1.1538) sitting on top of the SMA20: all three averages stack above spot, a bearish alignment. The rate backdrop points the same way. OIS carry favors the dollar by 144bp, and the US 5Y yield rose 25bp over five days to 5.03%, almost entirely through the real component (+24bp, to 2.70%) while breakevens barely moved (+1bp, to 2.33%), a real-yield-led rise rather than an inflation-compensation one. Leveraged funds hold 37.3% long EUR futures, the 27th percentile of the 52-week range: leaning short but not stretched, so there is little positioning extreme to fuel a squeeze in either direction. What would weaken the bearish read: a recovery above the 1.1538/1.1539 cluster, which would neutralize the downward pressure and bring the SMA200 at 1.1625 into view. What would reinforce it: spot failing to reclaim those averages while the 5Y real yield keeps climbing.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
-    },
-    "GBP/USD": {
-      "paragraph": "GBP/USD closed at 1.3245, 1.45% below its SMA20 (1.344) and below both the SMA50 (1.3466) and SMA200 (1.3452), which are tightly bunched with the SMA20 in the 1.344-1.3466 band. OIS carry is nearly flat at 15bp in favor of the dollar, so rate differentials offer little directional pull on their own. Leveraged funds sit at 52.6% long GBP futures, the 39th percentile of the 52-week range, a neutral reading. The cross-asset backdrop is the notable feature: the MOVE index is at 96.0 (96th percentile of its 252-session range) while the VIX is at 14.9 (8th percentile), a divergence where bond volatility prices stress while equity volatility stays calm. If bond stress spreads to equities, risk sentiment could shift quickly; if bond volatility subsides, the divergence closes from the other side. A reclaim of the 1.3452/1.3466 band would signal technical stabilization, while continued failure below 1.344 keeps the bearish alignment intact.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
-    },
-    "USD/JPY": {
-      "paragraph": "USD/JPY settled at 157.26, above its SMA20 (156.4) but 0.75% below the SMA200 (158.45) and below the SMA50 (158.6): the pair is caught between short-term support and a resistance zone formed by the two longer averages, which sit almost on top of each other. OIS carry favors the dollar by 290bp, the largest structural pull in the majors set. Leveraged funds are at 51.3% long JPY futures, the 86th percentile of the 52-week range, meaning yen positioning is already elevated relative to its own history. An extension above 158.45/158.6 would invalidate the broader intermediate downtrend and expose a rebuilding of dollar strength against the yen. A decline back below the SMA20 at 156.4 would confirm renewed downward momentum. With yen positioning near the upper end of its range, a further leg lower in USD/JPY has less room to be driven by fresh yen buying alone.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
-    },
     "AUD/USD": {
-      "paragraph": "AUD/USD closed at 0.7028, essentially on its SMA200 (0.7026) and below the SMA20 (0.7141) and SMA50 (0.7096): the long-term average is the line the pair is defending. AUD carries a 47bp OIS advantage over the dollar, and the RBA meets on 29 September with a 100% hike priced into OIS, so a hike itself is fully in the price and the market reaction depends on the guidance rather than the decision. Leveraged funds hold 74.5% long AUD futures, the 95th percentile of the 52-week range, the most stretched positioning in the set. That combination makes the pair sensitive in both directions. A hawkish delivery that reinforces the hiking path would support a push back above the SMA50 at 0.7096. A dovish tone would invalidate the long positioning case, and with crowded longs a sustained break below the SMA200 at 0.7026 could accelerate.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
+      "paragraph": "AUD/USD closed at 0.7028 (-1.39% on the week), above its SMA200, below its SMA20 and SMA50. The overnight OIS differential is 47bp in favour of AUD. CFTC leveraged funds are 74.5% long AUD, the 95th percentile of its 52-week range. The AUD central bank meets on 29 Sep with 100% hike priced in OIS. A close above SMA50 at 0.7096 would ease the current setup, whereas a break below SMA200 at 0.7026 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 0.7028,
+      "asof": "2026-09-25",
+      "week_pct": -1.39,
+      "stance": "Above SMA200 · Below SMA20/50",
+      "resistance": [
+        {
+          "label": "SMA50",
+          "value": 0.7096
+        },
+        {
+          "label": "SMA20",
+          "value": 0.7141
+        }
+      ],
+      "support": [
+        {
+          "label": "SMA200",
+          "value": 0.7026
+        },
+        {
+          "label": "20D low",
+          "value": 0.7007
+        }
+      ],
+      "carry_bp": 47,
+      "reasons": [
+        "AUD central bank 29 Sep: 100% hike priced",
+        "1W -1.39%",
+        "AUD leveraged-fund positioning at 95th percentile",
+        "testing SMA200"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "12:15",
+          "ccy": "USD",
+          "event": "ADP Nonfarm Employment Change",
+          "forecast": "41K",
+          "previous": "38K",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Unemployment Rate",
+          "forecast": "4.1%",
+          "previous": "4.1%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Nonfarm Payrolls",
+          "forecast": "52K",
+          "previous": "162K",
+          "impact": "high"
+        }
+      ],
+      "meetings": [
+        {
+          "ccy": "AUD",
+          "next_meeting": "29 Sep",
+          "days_out": 2,
+          "bias": "hike",
+          "prob": 100,
+          "in_window": true
+        }
+      ]
     },
-    "NZD/USD": {
-      "paragraph": "NZD/USD closed at 0.5667, 2.11% below its SMA20 (0.5789) and below the SMA50 (0.5843) and SMA200 (0.5853), a fully bearish alignment in which the two longer averages sit close together well above spot. OIS carry favors the dollar by 113bp. Leveraged funds hold 43.3% long NZD futures, the 33rd percentile of the 52-week range, a modestly light reading that leaves no crowded position to unwind. The risk to the bearish structure is a rebound that clears the SMA20 at 0.5789, which would open the way to the SMA50 at 0.5843. Continued rejection beneath 0.5789 maintains the dominant short-term bearish bias, and with the pair well below its longer averages a relief move can fade there without changing the trend.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
-    },
-    "USD/CAD": {
-      "paragraph": "USD/CAD closed at 1.4139, 1.52% above its SMA20 (1.3927) and above the SMA50 (1.3947) and SMA200 (1.3841), a bullish alignment in which spot has moved well away from all three averages. OIS carry favors the dollar by 158bp. Over the trailing 20 days the US 5Y yield is up 66bp to 5.03%, composed of a 64bp rise in real yields (to 2.70%) and 2bp in breakevens (2.33%), a real-yield-led move that lines up with dollar strength. Leveraged funds hold 28.1% long CAD futures, the 19th percentile of the 52-week range, so CAD positioning is light. Spot holding above the 1.3947 SMA50 maintains the constructive technical structure. A drop back below the 1.3927 SMA20 would invalidate the current upward run and suggest the move has overextended relative to its averages.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
+    "AUD/JPY": {
+      "paragraph": "AUD/JPY closed at 110.400 (-1.22% on the week), below its SMA20 and SMA50 and SMA200. The overnight OIS differential is 312bp in favour of AUD. CFTC leveraged funds are 74.5% long AUD, the 95th percentile of its 52-week range. The AUD central bank meets on 29 Sep with 100% hike priced in OIS. A close above SMA200 at 111.265 would ease the current setup, whereas a break below 20D low at 109.666 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 110.4,
+      "asof": "2026-09-25",
+      "week_pct": -1.22,
+      "stance": "Below SMA20/50/200",
+      "resistance": [
+        {
+          "label": "SMA200",
+          "value": 111.265
+        },
+        {
+          "label": "SMA20",
+          "value": 111.62
+        }
+      ],
+      "support": [
+        {
+          "label": "20D low",
+          "value": 109.666
+        },
+        {
+          "label": "52W low",
+          "value": 96.247
+        }
+      ],
+      "carry_bp": 312,
+      "reasons": [
+        "AUD central bank 29 Sep: 100% hike priced",
+        "1W -1.22%",
+        "AUD leveraged-fund positioning at 95th percentile",
+        "OIS carry gap 312bp"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-29",
+          "time": "04:30",
+          "ccy": "AUD",
+          "event": "RBA Interest Rate Decision",
+          "forecast": null,
+          "previous": "4.35%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-09-29",
+          "time": "23:50",
+          "ccy": "JPY",
+          "event": "Retail Sales m/m",
+          "forecast": "0.8%",
+          "previous": "2.4%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-01",
+          "time": "23:30",
+          "ccy": "JPY",
+          "event": "Tokyo CPI excl. Food and Energy y/y",
+          "forecast": "2.3%",
+          "previous": "2.0%",
+          "impact": "high"
+        }
+      ],
+      "meetings": [
+        {
+          "ccy": "AUD",
+          "next_meeting": "29 Sep",
+          "days_out": 2,
+          "bias": "hike",
+          "prob": 100,
+          "in_window": true
+        }
+      ]
     },
     "USD/CHF": {
-      "paragraph": "USD/CHF closed at 0.8283, 1.41% above its SMA20 (0.8168) and above the SMA50 (0.8123) and SMA200 (0.7946), a bullish alignment with the averages fanning upward. OIS carry favors the dollar by 392bp, the widest gap in the set, which is consistent with the franc acting as the low-yielding side of the pair. Leveraged funds hold 24.8% long CHF futures, the 7th percentile of the 52-week range: CHF positioning is close to the lightest it has been in the year, so the trend has not been built on a crowded long that can unwind. Continued price action above the SMA20 at 0.8168 preserves the bullish posture. A decline through the SMA50 at 0.8123 would negate the short-term upward momentum, and with positioning already light the franc would need a fresh catalyst rather than position-squaring to drive a reversal.",
-      "updated": "2026-09-28T00:10:00Z",
-      "source_model": "manual-draft"
+      "paragraph": "USD/CHF closed at 0.8283 (+0.79% on the week), above its SMA20 and SMA50 and SMA200. The overnight OIS differential is 392bp in favour of USD. CFTC leveraged funds are 24.8% long CHF, the 7th percentile of its 52-week range. A close above 20D high / 52W high at 0.8298 would ease the current setup, whereas a break below SMA20 at 0.8168 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 0.8283,
+      "asof": "2026-09-25",
+      "week_pct": 0.79,
+      "stance": "Above SMA20/50/200",
+      "resistance": [
+        {
+          "label": "20D high / 52W high",
+          "value": 0.8298
+        }
+      ],
+      "support": [
+        {
+          "label": "SMA20",
+          "value": 0.8168
+        },
+        {
+          "label": "SMA50",
+          "value": 0.8123
+        }
+      ],
+      "carry_bp": 392,
+      "reasons": [
+        "1W +0.79%",
+        "CHF leveraged-fund positioning at 7th percentile",
+        "OIS carry gap 392bp"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "12:15",
+          "ccy": "USD",
+          "event": "ADP Nonfarm Employment Change",
+          "forecast": "41K",
+          "previous": "38K",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Unemployment Rate",
+          "forecast": "4.1%",
+          "previous": "4.1%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Nonfarm Payrolls",
+          "forecast": "52K",
+          "previous": "162K",
+          "impact": "high"
+        }
+      ],
+      "meetings": []
+    },
+    "GBP/CHF": {
+      "paragraph": "GBP/CHF closed at 1.0968 (-0.36% on the week), above its SMA50 and SMA200, below its SMA20. The overnight OIS differential is 377bp in favour of GBP. CFTC leveraged funds are 52.6% long GBP, the 39th percentile of its 52-week range. A close above SMA20 at 1.0977 would ease the current setup, whereas a break below SMA50 at 1.0938 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 1.0968,
+      "asof": "2026-09-25",
+      "week_pct": -0.36,
+      "stance": "Above SMA50/200 · Below SMA20",
+      "resistance": [
+        {
+          "label": "SMA20",
+          "value": 1.0977
+        },
+        {
+          "label": "20D high / 52W high",
+          "value": 1.1066
+        }
+      ],
+      "support": [
+        {
+          "label": "SMA50",
+          "value": 1.0938
+        },
+        {
+          "label": "20D low",
+          "value": 1.0894
+        }
+      ],
+      "carry_bp": 377,
+      "reasons": [
+        "1W -0.36%",
+        "CHF leveraged-fund positioning at 7th percentile",
+        "OIS carry gap 377bp"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "06:00",
+          "ccy": "GBP",
+          "event": "GDP q/q",
+          "forecast": "0.4%",
+          "previous": "0.4%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-09-30",
+          "time": "06:00",
+          "ccy": "GBP",
+          "event": "GDP y/y",
+          "forecast": "1.2%",
+          "previous": "1.2%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-01",
+          "time": "08:00",
+          "ccy": "GBP",
+          "event": "BoE Governor Bailey Speech",
+          "forecast": null,
+          "previous": null,
+          "impact": "high"
+        }
+      ],
+      "meetings": []
+    },
+    "GBP/USD": {
+      "paragraph": "GBP/USD closed at 1.3245 (-1.12% on the week), below its SMA20 and SMA50 and SMA200. The overnight OIS differential is 15bp in favour of USD. CFTC leveraged funds are 52.6% long GBP, the 39th percentile of its 52-week range. A close above SMA20 at 1.3440 would ease the current setup, whereas a break below 20D low at 1.3206 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 1.3245,
+      "asof": "2026-09-25",
+      "week_pct": -1.12,
+      "stance": "Below SMA20/50/200",
+      "resistance": [
+        {
+          "label": "SMA20",
+          "value": 1.344
+        },
+        {
+          "label": "SMA200",
+          "value": 1.3452
+        }
+      ],
+      "support": [
+        {
+          "label": "20D low",
+          "value": 1.3206
+        },
+        {
+          "label": "52W low",
+          "value": 1.3011
+        }
+      ],
+      "carry_bp": -15,
+      "reasons": [
+        "1W -1.12%"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "12:15",
+          "ccy": "USD",
+          "event": "ADP Nonfarm Employment Change",
+          "forecast": "41K",
+          "previous": "38K",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Unemployment Rate",
+          "forecast": "4.1%",
+          "previous": "4.1%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Nonfarm Payrolls",
+          "forecast": "52K",
+          "previous": "162K",
+          "impact": "high"
+        }
+      ],
+      "meetings": []
+    },
+    "EUR/USD": {
+      "paragraph": "EUR/USD closed at 1.1395 (-0.83% on the week), below its SMA20 and SMA50 and SMA200. The overnight OIS differential is 144bp in favour of USD. CFTC leveraged funds are 37.3% long EUR, the 27th percentile of its 52-week range. A close above SMA50 / SMA20 at 1.1538 would ease the current setup, whereas a break below 20D low at 1.1364 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 1.1395,
+      "asof": "2026-09-25",
+      "week_pct": -0.83,
+      "stance": "Below SMA20/50/200",
+      "resistance": [
+        {
+          "label": "SMA50 / SMA20",
+          "value": 1.1538
+        },
+        {
+          "label": "SMA200",
+          "value": 1.1625
+        }
+      ],
+      "support": [
+        {
+          "label": "20D low",
+          "value": 1.1364
+        },
+        {
+          "label": "52W low",
+          "value": 1.1329
+        }
+      ],
+      "carry_bp": -144,
+      "reasons": [
+        "1W -0.83%"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "12:15",
+          "ccy": "USD",
+          "event": "ADP Nonfarm Employment Change",
+          "forecast": "41K",
+          "previous": "38K",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Unemployment Rate",
+          "forecast": "4.1%",
+          "previous": "4.1%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Nonfarm Payrolls",
+          "forecast": "52K",
+          "previous": "162K",
+          "impact": "high"
+        }
+      ],
+      "meetings": []
+    },
+    "USD/JPY": {
+      "paragraph": "USD/JPY closed at 157.260 (+0.26% on the week), above its SMA20, below its SMA50 and SMA200. The overnight OIS differential is 265bp in favour of USD. CFTC leveraged funds are 51.3% long JPY, the 86th percentile of its 52-week range. A close above SMA200 at 158.450 would ease the current setup, whereas a break below SMA20 at 156.400 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 157.26,
+      "asof": "2026-09-25",
+      "week_pct": 0.26,
+      "stance": "Above SMA20 · Below SMA50/200",
+      "resistance": [
+        {
+          "label": "SMA200",
+          "value": 158.45
+        },
+        {
+          "label": "SMA50",
+          "value": 158.6
+        }
+      ],
+      "support": [
+        {
+          "label": "SMA20",
+          "value": 156.4
+        },
+        {
+          "label": "20D low",
+          "value": 152.881
+        }
+      ],
+      "carry_bp": 265,
+      "reasons": [
+        "1W +0.26%",
+        "OIS carry gap 265bp"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-30",
+          "time": "12:15",
+          "ccy": "USD",
+          "event": "ADP Nonfarm Employment Change",
+          "forecast": "41K",
+          "previous": "38K",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Unemployment Rate",
+          "forecast": "4.1%",
+          "previous": "4.1%",
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Nonfarm Payrolls",
+          "forecast": "52K",
+          "previous": "162K",
+          "impact": "high"
+        }
+      ],
+      "meetings": []
+    },
+    "EUR/CAD": {
+      "paragraph": "EUR/CAD closed at 1.6104 (+0.29% on the week), above its SMA20 and SMA50 and SMA200. The overnight OIS differential is 14bp in favour of EUR. CFTC leveraged funds are 37.3% long EUR, the 27th percentile of its 52-week range. A close above 20D high at 1.6136 would ease the current setup, whereas a break below SMA50 at 1.6086 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-09-27T23:30:00Z",
+      "close": 1.6104,
+      "asof": "2026-09-25",
+      "week_pct": 0.29,
+      "stance": "Above SMA20/50/200",
+      "resistance": [
+        {
+          "label": "20D high",
+          "value": 1.6136
+        },
+        {
+          "label": "52W high",
+          "value": 1.6467
+        }
+      ],
+      "support": [
+        {
+          "label": "SMA50",
+          "value": 1.6086
+        },
+        {
+          "label": "SMA200",
+          "value": 1.6081
+        }
+      ],
+      "carry_bp": 14,
+      "reasons": [
+        "1W +0.29%",
+        "testing SMA200"
+      ],
+      "deltas": [],
+      "events": [
+        {
+          "date": "2026-09-28",
+          "time": "13:30",
+          "ccy": "EUR",
+          "event": "ECB President Lagarde Speech",
+          "forecast": null,
+          "previous": null,
+          "impact": "high"
+        },
+        {
+          "date": "2026-09-29",
+          "time": "11:00",
+          "ccy": "EUR",
+          "event": "ECB President Lagarde Speech",
+          "forecast": null,
+          "previous": null,
+          "impact": "high"
+        },
+        {
+          "date": "2026-10-01",
+          "time": "13:30",
+          "ccy": "EUR",
+          "event": "ECB President Lagarde Speech",
+          "forecast": null,
+          "previous": null,
+          "impact": "high"
+        }
+      ],
+      "meetings": []
     }
-  }
+  },
+  "cross_asset": [
+    {
+      "key": "dxy",
+      "label": "DXY",
+      "level": 101.03,
+      "chg": 0.82,
+      "unit": "pct",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "us2y",
+      "label": "US 2Y",
+      "level": 4.85,
+      "chg": 16.0,
+      "unit": "bp",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "us10y",
+      "label": "US 10Y",
+      "level": 5.18,
+      "chg": 18.6,
+      "unit": "bp",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "vix",
+      "label": "VIX",
+      "level": 14.87,
+      "chg": 0.41,
+      "unit": "pct",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "move",
+      "label": "MOVE",
+      "level": 96.0,
+      "chg": 19.05,
+      "unit": "pct",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "spx",
+      "label": "S&P 500",
+      "level": 7743.41,
+      "chg": 1.21,
+      "unit": "pct",
+      "asof": "2026-09-25"
+    },
+    {
+      "key": "brent",
+      "label": "Brent",
+      "level": 98.53,
+      "chg": -1.8,
+      "unit": "pct",
+      "asof": "2026-09-27"
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "level": 4321.2,
+      "chg": -2.34,
+      "unit": "pct",
+      "asof": "2026-09-25"
+    }
+  ],
+  "fx_performance": [
+    {
+      "ccy": "JPY",
+      "pct": -0.26
+    },
+    {
+      "ccy": "CHF",
+      "pct": -0.78
+    },
+    {
+      "ccy": "EUR",
+      "pct": -0.83
+    },
+    {
+      "ccy": "SEK",
+      "pct": -0.89
+    },
+    {
+      "ccy": "NZD",
+      "pct": -1.01
+    },
+    {
+      "ccy": "NOK",
+      "pct": -1.04
+    },
+    {
+      "ccy": "CAD",
+      "pct": -1.1
+    },
+    {
+      "ccy": "GBP",
+      "pct": -1.12
+    },
+    {
+      "ccy": "AUD",
+      "pct": -1.39
+    }
+  ],
+  "week_ahead": [
+    {
+      "date": "2026-09-28",
+      "time": "13:30",
+      "ccy": "EUR",
+      "event": "ECB President Lagarde Speech",
+      "forecast": null,
+      "previous": null,
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "04:30",
+      "ccy": "AUD",
+      "event": "RBA Interest Rate Decision",
+      "forecast": null,
+      "previous": "4.35%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "11:00",
+      "ccy": "EUR",
+      "event": "ECB President Lagarde Speech",
+      "forecast": null,
+      "previous": null,
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "23:50",
+      "ccy": "JPY",
+      "event": "Retail Sales m/m",
+      "forecast": "0.8%",
+      "previous": "2.4%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "06:00",
+      "ccy": "GBP",
+      "event": "GDP q/q",
+      "forecast": "0.4%",
+      "previous": "0.4%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "06:00",
+      "ccy": "GBP",
+      "event": "GDP y/y",
+      "forecast": "1.2%",
+      "previous": "1.2%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "12:15",
+      "ccy": "USD",
+      "event": "ADP Nonfarm Employment Change",
+      "forecast": "41K",
+      "previous": "38K",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "12:30",
+      "ccy": "USD",
+      "event": "Core PCE Price Index m/m",
+      "forecast": "0.2%",
+      "previous": "0.2%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "12:30",
+      "ccy": "USD",
+      "event": "Core PCE Price Index y/y",
+      "forecast": "3.3%",
+      "previous": "3.3%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "08:00",
+      "ccy": "GBP",
+      "event": "BoE Governor Bailey Speech",
+      "forecast": null,
+      "previous": null,
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "13:30",
+      "ccy": "EUR",
+      "event": "ECB President Lagarde Speech",
+      "forecast": null,
+      "previous": null,
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-01",
+      "time": "23:30",
+      "ccy": "JPY",
+      "event": "Tokyo CPI excl. Food and Energy y/y",
+      "forecast": "2.3%",
+      "previous": "2.0%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "12:30",
+      "ccy": "USD",
+      "event": "Unemployment Rate",
+      "forecast": "4.1%",
+      "previous": "4.1%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-02",
+      "time": "12:30",
+      "ccy": "USD",
+      "event": "Nonfarm Payrolls",
+      "forecast": "52K",
+      "previous": "162K",
+      "impact": "high"
+    }
+  ],
+  "central_banks": [
+    {
+      "ccy": "USD",
+      "rate": 3.88,
+      "next_meeting": "28 Oct",
+      "next_meeting_iso": "2026-10-28",
+      "days_out": 31,
+      "bias": "hike",
+      "prob": 97,
+      "in_window": false
+    },
+    {
+      "ccy": "EUR",
+      "rate": 2.44,
+      "next_meeting": "29 Oct",
+      "next_meeting_iso": "2026-10-29",
+      "days_out": 32,
+      "bias": "hike",
+      "prob": 44,
+      "in_window": false
+    },
+    {
+      "ccy": "GBP",
+      "rate": 3.7305,
+      "next_meeting": "5 Nov",
+      "next_meeting_iso": "2026-11-05",
+      "days_out": 39,
+      "bias": "hike",
+      "prob": 95,
+      "in_window": false
+    },
+    {
+      "ccy": "JPY",
+      "rate": 1.227,
+      "next_meeting": "30 Oct",
+      "next_meeting_iso": "2026-10-30",
+      "days_out": 33,
+      "bias": "hold",
+      "prob": null,
+      "in_window": false
+    },
+    {
+      "ccy": "AUD",
+      "rate": 4.35,
+      "next_meeting": "29 Sep",
+      "next_meeting_iso": "2026-09-29",
+      "days_out": 2,
+      "bias": "hike",
+      "prob": 100,
+      "in_window": true
+    },
+    {
+      "ccy": "NZD",
+      "rate": 2.75,
+      "next_meeting": "28 Oct",
+      "next_meeting_iso": "2026-10-28",
+      "days_out": 31,
+      "bias": "hike",
+      "prob": 90,
+      "in_window": false
+    },
+    {
+      "ccy": "CAD",
+      "rate": 2.3,
+      "next_meeting": "28 Oct",
+      "next_meeting_iso": "2026-10-28",
+      "days_out": 31,
+      "bias": "hike",
+      "prob": 64,
+      "in_window": false
+    },
+    {
+      "ccy": "CHF",
+      "rate": -0.04,
+      "next_meeting": "10 Dec",
+      "next_meeting_iso": "2026-12-10",
+      "days_out": 74,
+      "bias": "hold",
+      "prob": null,
+      "in_window": false
+    },
+    {
+      "ccy": "NOK",
+      "rate": 4.5,
+      "next_meeting": "5 Nov",
+      "next_meeting_iso": "2026-11-05",
+      "days_out": 39,
+      "bias": "hold",
+      "prob": null,
+      "in_window": false
+    },
+    {
+      "ccy": "SEK",
+      "rate": 1.651,
+      "next_meeting": "10 Nov",
+      "next_meeting_iso": "2026-11-10",
+      "days_out": 44,
+      "bias": "hold",
+      "prob": null,
+      "in_window": false
+    }
+  ],
+  "positioning": [
+    {
+      "ccy": "EUR",
+      "pct_long": 37.3,
+      "percentile": 27,
+      "net": -58805,
+      "net_change": -7450,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "GBP",
+      "pct_long": 52.6,
+      "percentile": 39,
+      "net": 6519,
+      "net_change": -12179,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "JPY",
+      "pct_long": 51.3,
+      "percentile": 86,
+      "net": 4472,
+      "net_change": -15597,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "AUD",
+      "pct_long": 74.5,
+      "percentile": 95,
+      "net": 55684,
+      "net_change": -3615,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "NZD",
+      "pct_long": 43.3,
+      "percentile": 33,
+      "net": -5216,
+      "net_change": -2897,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "CAD",
+      "pct_long": 28.1,
+      "percentile": 19,
+      "net": -49123,
+      "net_change": -7719,
+      "week_ending": "2026-09-22"
+    },
+    {
+      "ccy": "CHF",
+      "pct_long": 24.8,
+      "percentile": 7,
+      "net": -18620,
+      "net_change": -1956,
+      "week_ending": "2026-09-22"
+    }
+  ],
+  "changes": []
 }
