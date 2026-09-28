@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-28T16:35:16Z",
-  "generatedAt": "2026-09-28T16:35:16Z",
+  "lastUpdate": "2026-09-28T16:37:29Z",
+  "generatedAt": "2026-09-28T16:37:29Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,10 +9,10 @@
   "fetchErrors": [],
   "rangeFrom": "2025-09-29",
   "rangeTo": "2026-10-12",
-  "totalEvents": 5716,
+  "totalEvents": 5717,
   "currencyCounts": {
     "EUR": 1652,
-    "GBP": 556,
+    "GBP": 557,
     "USD": 1750,
     "JPY": 392,
     "NZD": 144,
@@ -23,7 +23,7 @@
     "NOK": 151
   },
   "impactCounts": {
-    "medium": 2403,
+    "medium": 2404,
     "high": 1701,
     "low": 1612
   },
@@ -1015,8 +1015,8 @@
     },
     "JPY/inflation rate yoy": {
       "n": 4,
-      "mean": -0.025,
-      "std": 0.170783
+      "mean": -0.05,
+      "std": 0.191485
     },
     "JPY/core inflation rate yoy": {
       "n": 3,
@@ -1490,13 +1490,13 @@
     },
     "JPY/cpi excl. food and energy yoy": {
       "n": 2,
-      "mean": 0.3,
-      "std": 0.141421
+      "mean": 0.25,
+      "std": 0.070711
     },
     "JPY/core cpi yoy": {
       "n": 2,
-      "mean": -0.35,
-      "std": 0.070711
+      "mean": -0.4,
+      "std": 0.141421
     },
     "EUR/france s&p global manufacturing pmi": {
       "n": 3,
@@ -55600,9 +55600,9 @@
       "flag": "🇯🇵",
       "event": "Japan Machine Tool Orders y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "64.7%",
       "forecast": null,
-      "previous": null
+      "previous": "50.4%"
     },
     {
       "date": "9 Sep",
@@ -62016,9 +62016,9 @@
       "flag": "🇯🇵",
       "event": "Japan CPI y/y",
       "impact": "low",
-      "actual": "2.0%",
+      "actual": "1.9%",
       "forecast": "2.1%",
-      "previous": "2.0%"
+      "previous": "1.9%"
     },
     {
       "date": "17 Sep",
@@ -62029,9 +62029,9 @@
       "flag": "🇯🇵",
       "event": "Japan CPI excl. Food and Energy y/y",
       "impact": "medium",
-      "actual": "2.0%",
+      "actual": "1.9%",
       "forecast": "1.6%",
-      "previous": "1.8%"
+      "previous": "1.9%"
     },
     {
       "date": "17 Sep",
@@ -62042,7 +62042,7 @@
       "flag": "🇯🇵",
       "event": "Japan Core CPI y/y",
       "impact": "medium",
-      "actual": "1.8%",
+      "actual": "1.7%",
       "forecast": "2.2%",
       "previous": "1.8%"
     },
@@ -62055,7 +62055,7 @@
       "flag": "🇯🇵",
       "event": "Japan CPI s.a. m/m",
       "impact": "low",
-      "actual": "0.1%",
+      "actual": "0.0%",
       "forecast": null,
       "previous": "0.4%"
     },
@@ -71695,6 +71695,19 @@
     {
       "date": "6 Oct",
       "dateISO": "2026-10-06",
+      "timeUTC": "08:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE MPC Member Mann Speech",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "6 Oct",
+      "dateISO": "2026-10-06",
       "timeUTC": "08:40",
       "country": "EUR",
       "currency": "EUR",
@@ -73068,7 +73081,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "64.7%"
     },
     {
       "date": "9 Oct",
@@ -73470,8 +73483,8 @@
       "event": "United States Michigan Consumer Sentiment",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "44.7",
+      "previous": "48.1"
     },
     {
       "date": "9 Oct",
@@ -73483,8 +73496,8 @@
       "event": "United States Michigan Consumer Expectations",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "42.6",
+      "previous": "46.3"
     },
     {
       "date": "9 Oct",
@@ -73496,8 +73509,8 @@
       "event": "United States Michigan Current Conditions",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "49.7",
+      "previous": "50.9"
     },
     {
       "date": "9 Oct",
@@ -73509,8 +73522,8 @@
       "event": "United States Michigan Inflation Expectations",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.3%",
+      "previous": "4.6%"
     },
     {
       "date": "9 Oct",
@@ -73522,8 +73535,8 @@
       "event": "United States Michigan 5-Year Inflation Expectations",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "3.3%",
+      "previous": "3.4%"
     },
     {
       "date": "9 Oct",
