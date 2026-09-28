@@ -2,6 +2,15 @@
   "_schema": 2,
   "_week_of": "2026-09-28",
   "snapshot": {
+    "AUD/JPY": {
+      "close": 110.4,
+      "position": "below_sma20_below_sma50_below_sma200",
+      "carry_bp": 312,
+      "cot": {
+        "AUD": 74.5,
+        "JPY": 51.3
+      }
+    },
     "AUD/USD": {
       "close": 0.7028,
       "position": "below_sma20_below_sma50_above_sma200",
@@ -10,12 +19,12 @@
         "AUD": 74.5
       }
     },
-    "AUD/JPY": {
-      "close": 110.4,
+    "GBP/JPY": {
+      "close": 208.247,
       "position": "below_sma20_below_sma50_below_sma200",
-      "carry_bp": 312,
+      "carry_bp": 250,
       "cot": {
-        "AUD": 74.5,
+        "GBP": 52.6,
         "JPY": 51.3
       }
     },
@@ -28,13 +37,13 @@
         "CHF": 24.8
       }
     },
-    "EUR/AUD": {
-      "close": 1.6212,
-      "position": "above_sma20_below_sma50_below_sma200",
-      "carry_bp": -191,
+    "GBP/CHF": {
+      "close": 1.0968,
+      "position": "below_sma20_above_sma50_above_sma200",
+      "carry_bp": 377,
       "cot": {
-        "EUR": 37.3,
-        "AUD": 74.5
+        "GBP": 52.6,
+        "CHF": 24.8
       }
     },
     "GBP/AUD": {
@@ -46,41 +55,6 @@
         "AUD": 74.5
       }
     },
-    "AUD/NZD": {
-      "close": 1.2385,
-      "position": "above_sma20_above_sma50_above_sma200",
-      "carry_bp": 160,
-      "cot": {
-        "AUD": 74.5,
-        "NZD": 43.3
-      }
-    },
-    "USD/CHF": {
-      "close": 0.8283,
-      "position": "above_sma20_above_sma50_above_sma200",
-      "carry_bp": 392,
-      "cot": {
-        "CHF": 24.8
-      }
-    },
-    "AUD/CAD": {
-      "close": 0.9926,
-      "position": "below_sma20_above_sma50_above_sma200",
-      "carry_bp": 205,
-      "cot": {
-        "AUD": 74.5,
-        "CAD": 28.1
-      }
-    },
-    "GBP/CHF": {
-      "close": 1.0968,
-      "position": "below_sma20_above_sma50_above_sma200",
-      "carry_bp": 377,
-      "cot": {
-        "GBP": 52.6,
-        "CHF": 24.8
-      }
-    },
     "GBP/USD": {
       "close": 1.3245,
       "position": "below_sma20_below_sma50_below_sma200",
@@ -89,21 +63,12 @@
         "GBP": 52.6
       }
     },
-    "GBP/JPY": {
-      "close": 208.247,
-      "position": "below_sma20_below_sma50_below_sma200",
-      "carry_bp": 250,
-      "cot": {
-        "GBP": 52.6,
-        "JPY": 51.3
-      }
-    },
-    "USD/CAD": {
-      "close": 1.4139,
+    "USD/CHF": {
+      "close": 0.8283,
       "position": "above_sma20_above_sma50_above_sma200",
-      "carry_bp": 158,
+      "carry_bp": 392,
       "cot": {
-        "CAD": 28.1
+        "CHF": 24.8
       }
     },
     "CHF/JPY": {
@@ -115,6 +80,76 @@
         "JPY": 51.3
       }
     },
+    "USD/JPY": {
+      "close": 157.26,
+      "position": "above_sma20_below_sma50_below_sma200",
+      "carry_bp": 265,
+      "cot": {
+        "JPY": 51.3
+      }
+    },
+    "EUR/AUD": {
+      "close": 1.6212,
+      "position": "above_sma20_below_sma50_below_sma200",
+      "carry_bp": -191,
+      "cot": {
+        "EUR": 37.3,
+        "AUD": 74.5
+      }
+    },
+    "CAD/JPY": {
+      "close": 111.178,
+      "position": "below_sma20_below_sma50_below_sma200",
+      "carry_bp": 107,
+      "cot": {
+        "CAD": 28.1,
+        "JPY": 51.3
+      }
+    },
+    "NZD/JPY": {
+      "close": 89.035,
+      "position": "below_sma20_below_sma50_below_sma200",
+      "carry_bp": 152,
+      "cot": {
+        "NZD": 43.3,
+        "JPY": 51.3
+      }
+    },
+    "EUR/JPY": {
+      "close": 179.13,
+      "position": "below_sma20_below_sma50_below_sma200",
+      "carry_bp": 121,
+      "cot": {
+        "EUR": 37.3,
+        "JPY": 51.3
+      }
+    },
+    "AUD/NZD": {
+      "close": 1.2385,
+      "position": "above_sma20_above_sma50_above_sma200",
+      "carry_bp": 160,
+      "cot": {
+        "AUD": 74.5,
+        "NZD": 43.3
+      }
+    },
+    "AUD/CAD": {
+      "close": 0.9926,
+      "position": "below_sma20_above_sma50_above_sma200",
+      "carry_bp": 205,
+      "cot": {
+        "AUD": 74.5,
+        "CAD": 28.1
+      }
+    },
+    "USD/CAD": {
+      "close": 1.4139,
+      "position": "above_sma20_above_sma50_above_sma200",
+      "carry_bp": 158,
+      "cot": {
+        "CAD": 28.1
+      }
+    },
     "EUR/USD": {
       "close": 1.1395,
       "position": "below_sma20_below_sma50_below_sma200",
@@ -123,12 +158,13 @@
         "EUR": 37.3
       }
     },
-    "USD/JPY": {
-      "close": 157.26,
-      "position": "above_sma20_below_sma50_below_sma200",
-      "carry_bp": 265,
+    "EUR/GBP": {
+      "close": 0.86,
+      "position": "above_sma20_above_sma50_below_sma200",
+      "carry_bp": -129,
       "cot": {
-        "JPY": 51.3
+        "EUR": 37.3,
+        "GBP": 52.6
       }
     },
     "NZD/USD": {
@@ -157,69 +193,6 @@
         "CHF": 24.8
       }
     },
-    "EUR/CAD": {
-      "close": 1.6104,
-      "position": "above_sma20_above_sma50_above_sma200",
-      "carry_bp": 14,
-      "cot": {
-        "EUR": 37.3,
-        "CAD": 28.1
-      }
-    },
-    "CAD/JPY": {
-      "close": 111.178,
-      "position": "below_sma20_below_sma50_below_sma200",
-      "carry_bp": 107,
-      "cot": {
-        "CAD": 28.1,
-        "JPY": 51.3
-      }
-    },
-    "CAD/CHF": {
-      "close": 0.5856,
-      "position": "below_sma20_above_sma50_above_sma200",
-      "carry_bp": 234,
-      "cot": {
-        "CAD": 28.1,
-        "CHF": 24.8
-      }
-    },
-    "NZD/JPY": {
-      "close": 89.035,
-      "position": "below_sma20_below_sma50_below_sma200",
-      "carry_bp": 152,
-      "cot": {
-        "NZD": 43.3,
-        "JPY": 51.3
-      }
-    },
-    "EUR/JPY": {
-      "close": 179.13,
-      "position": "below_sma20_below_sma50_below_sma200",
-      "carry_bp": 121,
-      "cot": {
-        "EUR": 37.3,
-        "JPY": 51.3
-      }
-    },
-    "EUR/GBP": {
-      "close": 0.86,
-      "position": "above_sma20_above_sma50_below_sma200",
-      "carry_bp": -129,
-      "cot": {
-        "EUR": 37.3,
-        "GBP": 52.6
-      }
-    },
-    "EUR/NZD": {
-      "close": 2.0094,
-      "position": "above_sma20_above_sma50_above_sma200",
-      "carry_bp": -31,
-      "cot": {
-        "EUR": 37.3,
-        "NZD": 43.3
-      }
-    },
     "GBP/CAD": {
       "close": 1.8722,
       "position": "above_sma20_below_sma50_above_sma200",
@@ -235,6 +208,33 @@
       "carry_bp": 98,
       "cot": {
         "GBP": 52.6,
+        "NZD": 43.3
+      }
+    },
+    "EUR/CAD": {
+      "close": 1.6104,
+      "position": "above_sma20_above_sma50_above_sma200",
+      "carry_bp": 14,
+      "cot": {
+        "EUR": 37.3,
+        "CAD": 28.1
+      }
+    },
+    "CAD/CHF": {
+      "close": 0.5856,
+      "position": "below_sma20_above_sma50_above_sma200",
+      "carry_bp": 234,
+      "cot": {
+        "CAD": 28.1,
+        "CHF": 24.8
+      }
+    },
+    "EUR/NZD": {
+      "close": 2.0094,
+      "position": "above_sma20_above_sma50_above_sma200",
+      "carry_bp": -31,
+      "cot": {
+        "EUR": 37.3,
         "NZD": 43.3
       }
     },
