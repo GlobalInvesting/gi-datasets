@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28T04:54:15Z",
+  "generated_at": "2026-09-28T06:09:56Z",
   "week_of": "2026-09-28",
-  "ai_complete": false,
+  "ai_complete": true,
   "view": {
     "headline": "Broad-based USD strength into the AUD central bank decision on 29 Sep",
-    "summary": "The US dollar gained against all 9 G10 peers last week, with AUD the weakest (-1.39%) and JPY the most resilient (-0.26%). Cross-asset, the DXY moved +0.82% while the US 2Y yield changed +16.0bp to 4.85%. Bond volatility diverged from equity volatility, with the MOVE index at +19.05% on the week against +0.41% for the VIX. The week ahead is anchored by: the AUD central bank meets on 29 Sep with 100% hike priced in OIS. Other high-impact releases: USD ADP Nonfarm Employment Change (Wed 30 Sep); USD Unemployment Rate (Fri 02 Oct); USD Nonfarm Payrolls (Fri 02 Oct). Further gains in front-end US yields would extend the dollar bid, whereas a retracement in yields or a downside surprise in the US data would ease it.",
-    "source": "deterministic"
+    "summary": "The US dollar dominated cross-asset flows as the DXY advanced +0.82% alongside sharp upward adjustments in US yields, where the US 2Y rose +16.00bp to 4.85% and the US 10Y gained +18.60bp to 5.18%, leaving all G10 peers lower against the dollar led by AUD (-1.39%) and GBP (-1.12%). The upcoming docket is anchored by the RBA Interest Rate Decision on 2026-09-29, followed by US Core PCE Price Index releases alongside UK GDP on 2026-09-30, and concluded by US Nonfarm Payrolls on 2026-10-02. Stronger US labor data alongside restrictive RBA guidance would reinforce the dollar's yield advantage and pressure G10 high-beta currencies, whereas downside surprises in US payrolls coupled with firmer Japanese inflation metrics would reverse the move.",
+    "source": "engine-ai-primary"
   },
   "order": [
     "AUD/JPY",
@@ -20,9 +20,9 @@
   ],
   "pairs": {
     "AUD/JPY": {
-      "paragraph": "AUD/JPY closed at 110.400 (-1.22% on the week), below its SMA20 and SMA50 and SMA200. The overnight OIS differential is 312bp in favour of AUD. The 2Y yield spread (AUD minus JPY) stands at 312bp, +10bp over the last 20 sessions. CFTC leveraged funds are 74.5% long AUD, the 81st percentile of its 52-week range (net 55,684 contracts, -3,615 on the week). The AUD central bank meets on 29 Sep with 100% hike priced in OIS. A close above SMA200 at 111.265 would ease the current setup, whereas a break below 20D low at 109.666 would extend it.",
-      "source": "deterministic",
-      "updated": "2026-09-28T04:54:15Z",
+      "paragraph": "AUD/JPY is in focus given the AUD central bank meeting on 29 Sep with a 100% hike priced, a 1W move of -1.22%, JPY leveraged-fund positioning at the 98th percentile, and an OIS carry gap of 312bp, closing at 110.400 positioned below its SMA20 of 111.620, SMA50 of 112.449, and SMA200 of 111.265. The OIS overnight carry differential stands at 312bp favouring AUD. Leveraged funds hold AUD at 74.5% long (81st percentile) while JPY positions are 51.3% long (98th percentile), alongside 60% retail longs. The calendar features the RBA Interest Rate Decision on 2026-09-29 with 100% hike priced, followed by JPY Retail Sales on 2026-09-29 and Tokyo CPI excl. Food and Energy on 2026-10-01. A reclaim of resistance at the SMA200 of 111.265 would reinforce the bullish rate advantage, while a break below the 20D low of 109.666 would invalidate the carry-driven support structure.",
+      "source": "engine-ai-primary",
+      "updated": "2026-09-28T06:09:56Z",
       "close": 110.4,
       "asof": "2026-09-25",
       "week_pct": -1.22,
@@ -106,9 +106,9 @@
       ]
     },
     "AUD/USD": {
-      "paragraph": "AUD/USD closed at 0.7028 (-1.39% on the week), above its SMA200, below its SMA20 and SMA50. The overnight OIS differential is 47bp in favour of AUD. The 2Y yield spread (AUD minus USD) stands at 19bp, -29bp over the last 20 sessions. CFTC leveraged funds are 74.5% long AUD, the 81st percentile of its 52-week range (net 55,684 contracts, -3,615 on the week). 1M implied volatility is 6.91% against 6.4% realised over 20 sessions and the 1M 25-delta risk reversal at -0.93. The AUD central bank meets on 29 Sep with 100% hike priced in OIS. A close above SMA50 at 0.7096 would ease the current setup, whereas a break below SMA200 at 0.7026 would extend it.",
-      "source": "deterministic",
-      "updated": "2026-09-28T04:54:15Z",
+      "paragraph": "AUD/USD commands focus with the AUD central bank 29 Sep meeting carrying a 100% hike priced, a 1W decline of -1.39%, and spot testing the SMA200, closing at 0.7028 above the SMA200 of 0.7026 but below the SMA20 of 0.7141 and SMA50 of 0.7096. Overnight OIS carry favours AUD by 47bp, leveraged funds sit at 74.5% long (81st percentile), retail is 74% long, 1M implied volatility is 6.91%, and the 1M 25-delta risk reversal sits at -0.93. The US 5Y yield decomposition indicates nominal yields at 5.03% with a 5D change of nominal +25bp = real +24bp + breakeven +1bp, showing the advance was real-yield-led. Ahead of the RBA decision, US ADP Nonfarm Employment on 2026-09-30, and US Nonfarm Payrolls on 2026-10-02, holding above support at the SMA200 of 0.7026 and 20D low of 0.7007 would reinforce base-building, whereas a breakdown through 0.7007 would invalidate the technical floor.",
+      "source": "engine-ai-primary",
+      "updated": "2026-09-28T06:09:56Z",
       "close": 0.7028,
       "asof": "2026-09-25",
       "week_pct": -1.39,
@@ -191,9 +191,9 @@
       ]
     },
     "GBP/JPY": {
-      "paragraph": "GBP/JPY closed at 208.247 (-0.90% on the week), below its SMA20 and SMA50 and SMA200. The overnight OIS differential is 250bp in favour of GBP. The 2Y yield spread (GBP minus JPY) stands at 287bp, +19bp over the last 20 sessions. CFTC leveraged funds are 52.6% long GBP, the 8th percentile of its 52-week range (net 6,519 contracts, -12,179 on the week). A close above SMA20 at 210.164 would ease the current setup, whereas a break below 20D low at 207.083 would extend it.",
-      "source": "deterministic",
-      "updated": "2026-09-28T04:54:15Z",
+      "paragraph": "GBP/JPY is in focus after a 1W move of -0.90% with GBP leveraged-fund positioning at the 8th percentile, JPY leveraged-fund positioning at the 98th percentile, and an OIS carry gap of 250bp, closing at 208.247 below its SMA20 of 210.164, SMA50 of 213.537, and SMA200 of 213.115. The overnight OIS carry differential stands at 250bp in favour of GBP. Positioning exposes a marked divergence: CFTC leveraged funds are 52.6% long GBP (8th percentile) against 51.3% long JPY (98th percentile), while retail sits 74% long. Volatility conditions reflect cross-asset divergence, with VIX at the 8th percentile and MOVE at the 96th percentile of their respective trailing years, highlighting bond vol pricing stress while equity vol stays calm. Catalyst risk includes JPY Retail Sales on 2026-09-29 and GBP GDP on 2026-09-30. Pushing above resistance at the SMA20 of 210.164 would reinforce a recovery against extreme JPY positioning, whereas a drop through support at the 20D low of 207.083 would invalidate the setup and open the 52W low of 199.059.",
+      "source": "engine-ai-primary",
+      "updated": "2026-09-28T06:09:56Z",
       "close": 208.247,
       "asof": "2026-09-25",
       "week_pct": -0.9,
@@ -320,8 +320,8 @@
     {
       "key": "brent",
       "label": "Brent",
-      "level": 99.0,
-      "chg": -1.34,
+      "level": 99.26,
+      "chg": -1.08,
       "unit": "pct",
       "asof": "2026-09-28"
     },
