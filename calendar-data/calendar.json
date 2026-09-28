@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-28T08:03:16Z",
-  "generatedAt": "2026-09-28T08:03:16Z",
+  "lastUpdate": "2026-09-28T08:05:18Z",
+  "generatedAt": "2026-09-28T08:05:18Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1757,6 +1757,11 @@
       "n": 2,
       "mean": 0.45,
       "std": 0.070711
+    },
+    "EUR/austria unicredit bank manufacturing pmi": {
+      "n": 2,
+      "mean": 2.3,
+      "std": 1.555635
     },
     "EUR/ecb m3 money supply yoy": {
       "n": 2,
@@ -66330,7 +66335,7 @@
       "flag": "🇪🇺",
       "event": "Austria UniCredit Bank Manufacturing PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "54.9",
       "forecast": "53.7",
       "previous": "54.4"
     },
