@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-28T14:19:14Z",
+  "generatedAt": "2026-09-28T18:13:47Z",
   "scriptVersion": "1.7",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 194,
+  "aliasCount": 195,
   "aliases": [
     {
       "currency": "AUD",
@@ -1144,6 +1144,38 @@
     },
     {
       "currency": "JPY",
+      "primary_title": "Japan CPI excl. Food and Energy y/y",
+      "secondary_title": "Japan Inflation Rate Ex-Food and Energy YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-09-17",
+          "forecast_primary": 1.6,
+          "forecast_secondary": 1.9,
+          "actual_primary": 1.9,
+          "actual_secondary": 1.9,
+          "previous_primary": 1.9,
+          "previous_secondary": 1.9,
+          "actual_secondary_raw": "1.9%",
+          "forecast_secondary_raw": "1.9%",
+          "previous_secondary_raw": "1.9%"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-17",
+          "forecast_primary": 1.6,
+          "forecast_yahoo": null,
+          "actual_primary": 1.9,
+          "actual_yahoo": 1.9,
+          "previous_primary": 1.9,
+          "previous_yahoo": 1.9,
+          "actual_yahoo_raw": "1.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.9"
+        }
+      },
+      "yahoo_title": "CPI, Overall Nationwide"
+    },
+    {
+      "currency": "JPY",
       "primary_title": "Japan Core CPI y/y",
       "secondary_title": "Japan Core Inflation Rate YoY",
       "evidence": {
@@ -1151,7 +1183,7 @@
           "dateISO": "2026-09-17",
           "forecast_primary": 2.2,
           "forecast_secondary": 1.8,
-          "actual_primary": 1.8,
+          "actual_primary": 1.7,
           "actual_secondary": 1.7,
           "previous_primary": 1.8,
           "previous_secondary": 1.8,
@@ -1163,7 +1195,7 @@
           "dateISO": "2026-09-17",
           "forecast_primary": 2.2,
           "forecast_yahoo": null,
-          "actual_primary": 1.8,
+          "actual_primary": 1.7,
           "actual_yahoo": 1.7,
           "previous_primary": 1.8,
           "previous_yahoo": 1.8,
@@ -1947,15 +1979,28 @@
           "dateISO": "2026-09-28",
           "forecast_primary": 7.2,
           "forecast_secondary": 1.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 9.8,
+          "actual_secondary": 9.8,
           "previous_primary": 11.6,
           "previous_secondary": 11.6,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "9.8",
           "forecast_secondary_raw": "1",
           "previous_secondary_raw": "11.6"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-28",
+          "forecast_primary": 7.2,
+          "forecast_yahoo": null,
+          "actual_primary": 9.8,
+          "actual_yahoo": 9.8,
+          "previous_primary": 11.6,
+          "previous_yahoo": 11.6,
+          "actual_yahoo_raw": "9.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "11.6"
         }
-      }
+      },
+      "yahoo_title": "Dallas Fed Mfg Bus Idx*"
     },
     {
       "currency": "USD",
@@ -1966,7 +2011,7 @@
           "dateISO": "2026-09-28",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": null,
+          "actual_primary": 4.11,
           "actual_secondary": null,
           "previous_primary": 4.015,
           "previous_secondary": 3.98,
@@ -2271,10 +2316,10 @@
           "forecast_primary": null,
           "forecast_secondary": 4.0999,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": 4.11,
           "previous_primary": 3.98,
           "previous_secondary": 4.015,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.110%",
           "forecast_secondary_raw": "4.0999%",
           "previous_secondary_raw": "4.015%"
         }
@@ -3745,20 +3790,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "Japan CPI excl. Food and Energy y/y",
-      "yahoo_title": "CPI, Core Nationwide YY",
+      "primary_title": "Japan CPI y/y",
+      "yahoo_title": "CPI, Overall Nationwide",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-17",
-          "forecast_primary": 1.6,
+          "forecast_primary": 2.1,
           "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 1.7,
-          "previous_primary": 1.8,
-          "previous_yahoo": 1.8,
-          "actual_yahoo_raw": "1.7",
+          "actual_primary": 1.9,
+          "actual_yahoo": 1.9,
+          "previous_primary": 1.9,
+          "previous_yahoo": 1.9,
+          "actual_yahoo_raw": "1.9",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.8"
+          "previous_yahoo_raw": "1.9"
         }
       }
     },
