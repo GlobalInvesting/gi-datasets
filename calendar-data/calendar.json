@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-28T05:59:04Z",
-  "generatedAt": "2026-09-28T05:59:04Z",
+  "lastUpdate": "2026-09-28T06:01:24Z",
+  "generatedAt": "2026-09-28T06:01:24Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1784,9 +1784,14 @@
       "std": 2.828427
     },
     "NOK/retail sales mom": {
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.950438
+    },
+    "NOK/retail sales yoy": {
       "n": 2,
-      "mean": -0.4,
-      "std": 0.707107
+      "mean": 1.2,
+      "std": 1.555635
     },
     "SEK/retail sales mom": {
       "n": 2,
@@ -66266,7 +66271,7 @@
       "flag": "🇳🇴",
       "event": "Norway Retail Sales m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "-0.4%",
       "previous": "-0.7%"
     },
@@ -66279,7 +66284,7 @@
       "flag": "🇳🇴",
       "event": "Norway Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.0%",
       "forecast": "-3.3%",
       "previous": "-2.0%"
     },
