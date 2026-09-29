@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-09-29T18:09:06Z",
+  "generated_at": "2026-09-29T21:01:14Z",
   "signals": [
     {
-      "time": "18:08",
+      "time": "20:58",
       "priority": "critical",
-      "title": "CHF/JPY — G10 Bilateral Theme + Monetary Divergence",
-      "text": "CHF/JPY trades around 188.52 as JPY dominance accelerates across all G10 crosses while CHF encounters broad-based selling. The G10 strength scorecard ranks JPY as the strongest currency (+1.245% average vs peers) and CHF as the weakest (-0.730% average), creating a 1.975% leader-to-laggard spread across G10 pairs. SNB holds at 0.00%. The pair currently trades below its model fair value of 195.84 (z = -1.92σ), indicating that structural downside momentum is overriding historical valuation baselines. Trade bias: Bearish CHF/JPY; structural G10 divergence and rate differentials continue to press the cross lower. Catalyst: Japan Retail Sales and Tankan survey releases at 23:50 UTC. Risk: A sharp rebound in global risk appetite compresses JPY cross gains.",
+      "title": "CHF/JPY — G10 Bilateral Theme + Carry Repricing",
+      "text": "CHF/JPY trades down to 188.58 as JPY gains an average of +1.198% across 7 pairs while CHF sheds −0.733% across 6 pairs over the trailing week, generating a 1.931% G10 leader-to-laggard divergence. The policy rate differential of SNB 0.00% vs BoJ 1.25% gives JPY a 125bp carry advantage over CHF, while the 25d risk reversals show a pronounced EUR/JPY put skew at −2.63 and USD/JPY at −2.61, signaling substantial options demand for downside yen-cross protection. In CFTC positioning, JPY leveraged funds net long stands at +4,472 (52-week percentile 98, z +2.66), reflecting extreme institutional positioning despite a WoW liquidation of −15,597 contracts, whereas CHF spec net short sits in the lower decile at −18,620 (52-week percentile 2, z −2.30). Cross-asset bond volatility remains elevated with the MOVE index at 106.6 (98th percentile of its trailing year) against a quiescent VIX at 16.0 (27th percentile), reflecting bond-market pricing of policy divergence that equity volatility has yet to register. Spot CHF/JPY now trades well below its BEER fair-value estimate of 195.84 (model z −1.92σ), underscoring the structural pressure on the cross. Trade bias: Bearish CHF/JPY; policy rate spread and G10 divergence favor continued JPY outperformance. Catalyst: BoJ Summary of Opinions and Tankan survey due at 23:50 UTC. Risk: Spot recovery and daily close above 190.50 invalidate the near-term downside structure.",
       "evidence": [
-        "JPY 1W avg: +1.245% (n=7)",
-        "CHF 1W avg: -0.730% (n=6)",
-        "G10 spread: 1.975%"
+        "JPY 1W avg: +1.198% (n=7)",
+        "CHF 1W avg: -0.733% (n=6)",
+        "G10 spread: 1.931%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:05",
+      "time": "20:54",
       "priority": "warning",
-      "title": "USD/CAD — Retail Extreme + US Real Yields",
-      "text": "USD/CAD trades at 1.4184, positioned above its SMA20/50/200 cluster (1.3943/1.3949/1.3843). Retail sentiment displays a massive short bias with 94% of traders short against 6% long, creating an institutional vs retail divergence setup where retail is fading the dominant uptrend. This price action is supported by US 5Y yields rising +25bp over 5 sessions to 5.03% (FRED, as of Sep 24), a move driven almost entirely by real yields (+24bp real vs +1bp breakeven). CFTC data shows leveraged funds net short CAD at -49,123 contracts, aligning institutional positioning with the USD carry advantage (Fed 4.00% vs BoC 2.25% — +175bp spread). Trade bias: Long USD/CAD; extreme retail short positioning and US real yield support favor continued upside. Catalyst: US Core PCE and GDP data at 12:30 UTC on Sep 30. Risk: Canadian trade retaliation risks escalate rapidly to drag on USD sentiment.",
+      "title": "USD/JPY — Options Skew + Carry Tension",
+      "text": "USD/JPY trades at 157.28, holding between its rising 20-day SMA at 156.28 and resistance at the 50-day and 200-day SMA cluster near 158.49/158.45. The cash overnight spread of SOFR 3.90% vs TONA 1.23% preserves a 267bp carry advantage that structurally underpins the base currency. However, 1-month 25-delta risk reversals exhibit an acute downside put skew of −2.61, demonstrating heavy demand for downside strike protection against potential official pushback near recent highs. CFTC positioning shows leveraged funds holding +4,472 net long JPY contracts at the 98th percentile of their 52-week range (z +2.66), even as speculative accounts trimmed −15,597 contracts WoW. Simultaneously, 1-month implied volatility sits at 9.2% versus realized 30-day volatility of 10.1%, printing a negative vol risk premium of −1.0% that highlights options mispricing relative to historical movement. Trade bias: Range-bound USD/JPY; carry advantage competes against persistent options market hedging. Catalyst: BoJ Summary of Opinions and Tankan release at 23:50 UTC. Risk: Sustained break above the 158.50 moving average barrier forces downside hedge unwinds.",
       "evidence": [
-        "Retail USD/CAD: 94% short",
-        "US 5Y real yield Δ: +24bp (FRED Sep 24)",
-        "Fed 4.00% vs BoC 2.25% — +175bp"
+        "Fed SOFR 3.90% vs BoJ TONA 1.23% — +267bp",
+        "USD/JPY 25d RR: -2.61",
+        "JPY COT LF net: +4,472 (pctl 98, z +2.66)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:03",
+      "time": "20:50",
       "priority": "warning",
-      "title": "USD/JPY — Carry Support vs Volatility Compression",
-      "text": "USD/JPY trades at 157.28, holding above its SMA20 at 156.28 while remaining below its SMA50/200 cluster at 158.49/158.45. Fed policy at 4.00% vs BoJ at 1.25% provides a +267bp OIS carry advantage (SOFR 3.90% vs TONA 1.23%) that continues to anchor upside interest despite broad JPY weekly strength. 1M ATM implied volatility sits at 9.2% against 30-day historical volatility of 10.1%, generating a -1.0% volatility risk premium that reflects unusual options market complacency. Options market participants are paying for downside hedge protection, as evidenced by a 25d Risk Reversal of -2.61 (Saxo Bank, 1M tenor), even as CFTC leveraged fund JPY positioning reflects a historically stretched long (pctl 98, z +2.66). Trade bias: Long USD/JPY; substantial carry advantage defends lower bounds while VIX remains contained at 16.3. Catalyst: BoJ Summary of Opinions release at 23:50 UTC. Risk: Spot advances toward 160.00, escalating official intervention warnings.",
+      "title": "AUD/USD — Technical Compression Ahead of Asia Event Risk",
+      "text": "AUD/USD trades at 0.6990, slipping below its 20-day SMA (0.7134), 50-day SMA (0.7096), and 200-day SMA (0.7028) to enter an intraday technical breakdown posture. Cash yields show RBA cash rate at 4.60% vs Fed funds at 4.00%, offering a nominal 60bp carry advantage in favor of AUD (AONIA 4.35% vs SOFR 3.90% gives a 45bp net carry advantage). CFTC leveraged funds hold a net long position of +55,684 contracts (74.5% long, 52-week percentile 81, z +0.92), although net length stalled with a WoW reduction of −3,615 contracts as price action deteriorated. That institutional length contrasts with retail positioning, where retail accounts remain 77% net long, leaving positioning one-sided. Australian data remains solid with domestic ESI at +11.0, but markets confront imminent Asian macro catalysts spanning Australian CPI and Chinese manufacturing PMIs. Trade bias: Neutral/bearish AUD/USD; technical loss of the 200-day SMA at 0.7028 weighs against carry support. Catalyst: Australia August CPI indicator previewed at 4.0% along with China official PMIs during the Asia session. Risk: An upside CPI print above 4.2% sparks an institutional short squeeze back through 0.7030.",
       "evidence": [
-        "USD/JPY OIS spread: +267bp (SOFR vs TONA)",
-        "USD/JPY IV 9.2% vs HV30 10.1% — VRP -1.0%",
-        "25d RR: -2.61 (Saxo 1M tenor)"
+        "RBA 4.6% vs Fed 4.0% — -60bp AUD carry premium",
+        "AUD COT LF net: +55,684 (pctl 81, z +0.92)",
+        "AUD/USD SMA cluster: 0.7028-0.7134"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "17:58",
+      "time": "20:45",
       "priority": "info",
-      "title": "EUR/USD — Positioning Exhaustion + Macro Drag",
-      "text": "EUR/USD trades at 1.1333, remaining below its SMA20/50/200 technical cluster (1.1526/1.1538/1.1623). CFTC Leveraged Funds hold a net short position of -58,805 contracts (long%=37.3%), falling into the 19th percentile of its 52-week range following a WoW outflow of -7,450 contracts. Policy rates favor USD via a +135bp differential (Fed 4.00% vs ECB 2.65%), while SOFR (3.90%) vs €STR (2.44%) sets a +146bp OIS carry advantage for the dollar. Saxo 1M options data shows IV at 5.8% against HV30 at 4.5% (+1.4% VRP) with a 25d Risk Reversal of -0.65, indicating moderate put skew pricing for further euro weakness. Trade bias: Bearish EUR/USD; technical placement below all major SMAs and carry headwinds constrain upside. Catalyst: Germany CPI at 12:00 UTC and Eurozone S&P Global Manufacturing PMI at 08:00 UTC on Oct 1. Risk: Eurozone inflation prints above expectations, forcing a hawkish ECB repricing.",
+      "title": "USD/CAD — Positioning Divergence + Crude Breakdown",
+      "text": "USD/CAD trades at 1.4189, extending gains above its 20-day, 50-day, and 200-day SMA cluster situated between 1.3844 and 1.3949. Front-end monetary divergence remains stark with Fed policy at 4.00% vs BoC at 2.25%, producing a 175bp nominal carry spread (SOFR 3.90% vs CORRA 2.30% provides a +160bp carry advantage to the US dollar). CFTC leveraged funds carry a substantial net short CAD exposure of −49,123 contracts (52-week percentile 69, z +0.69) with net selling accelerating by −7,719 contracts WoW. This speculative bearishness directly diverges from Retail sentiment data retail sentiment, where retail accounts are positioned 94% net short the pair (only 6% long), establishing an acute positioning imbalance. Downside pressure on the Canadian dollar is amplified by a 4.04% intraday slide in WTI crude oil prices to $88.90 per barrel, eroding terms-of-trade backing for CAD. Trade bias: Bullish USD/CAD; rate spread and energy price decline reinforce trend continuation over contrarian retail positioning. Catalyst: US ADP employment and Core PCE releases at 12:15-12:30 UTC. Risk: Sharp crude oil rebound above $92.00 triggers immediate profit-taking on institutional CAD shorts.",
       "evidence": [
-        "EUR COT LF net: -58,805 (pctl 19)",
-        "Fed 4.0% vs ECB 2.65% — +135bp",
-        "EUR/USD: 1.1333 (below SMA20/50/200)"
+        "Fed 4.0% vs BoC 2.25% — +175bp",
+        "Retail sentiment: 94% short USD/CAD",
+        "CAD COT LF net: -49,123 (WoW -7,719)"
       ],
       "_source": "engine-ai-primary"
     }
