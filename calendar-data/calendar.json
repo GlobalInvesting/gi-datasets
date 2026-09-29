@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T14:29:24Z",
-  "generatedAt": "2026-09-29T14:29:24Z",
+  "lastUpdate": "2026-09-29T14:31:32Z",
+  "generatedAt": "2026-09-29T14:31:32Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2122,6 +2122,16 @@
       "n": 2,
       "mean": -0.05,
       "std": 0.070711
+    },
+    "USD/dallas fed services revenues": {
+      "n": 2,
+      "mean": -3.1,
+      "std": 7.778175
+    },
+    "USD/dallas fed services business activity": {
+      "n": 2,
+      "mean": -0.8,
+      "std": 1.555635
     },
     "NZD/gdt price index": {
       "n": 2,
@@ -67973,7 +67983,7 @@
       "flag": "🇺🇸",
       "event": "Dallas Fed Services Revenues",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.9",
       "forecast": "7.7",
       "previous": "6.6"
     },
@@ -67986,7 +67996,7 @@
       "flag": "🇺🇸",
       "event": "Dallas Fed Services Business Activity",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.8",
       "forecast": "0.1",
       "previous": "4.2"
     },
