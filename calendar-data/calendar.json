@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T12:29:16Z",
-  "generatedAt": "2026-09-29T12:29:16Z",
+  "lastUpdate": "2026-09-29T12:31:32Z",
+  "generatedAt": "2026-09-29T12:31:32Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1314,9 +1314,9 @@
       "std": 0.282843
     },
     "CAD/gdp mom": {
-      "n": 3,
-      "mean": 0.1,
-      "std": 0.1
+      "n": 4,
+      "mean": 0.075,
+      "std": 0.095743
     },
     "USD/chicago pmi": {
       "n": 2,
@@ -1952,6 +1952,11 @@
       "n": 2,
       "mean": 0.4,
       "std": 0.565685
+    },
+    "CAD/gdp yoy": {
+      "n": 2,
+      "mean": 0.45,
+      "std": 0.494975
     },
     "USD/michigan consumer expectations": {
       "n": 3,
@@ -67439,7 +67444,7 @@
       "flag": "🇨🇦",
       "event": "Canada GDP m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.0%",
       "previous": "0.3%"
     },
@@ -67452,7 +67457,7 @@
       "flag": "🇨🇦",
       "event": "Canada GDP y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.4%",
       "forecast": "1.3%",
       "previous": "2.0%"
     },
