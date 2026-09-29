@@ -188,7 +188,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     concurrency:
-      group: update-bond-yields
+      group: extended-data-writers
       cancel-in-progress: false
     permissions:
       contents: write
@@ -445,7 +445,7 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     concurrency:
-      group: update-inflation-expectations
+      group: extended-data-writers
       cancel-in-progress: false
   fetch-bank-research:
     name: Fetch Bank Research (private)
@@ -1086,5 +1086,5 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     concurrency:
-      group: update-extended-data
+      group: extended-data-writers
       cancel-in-progress: false
