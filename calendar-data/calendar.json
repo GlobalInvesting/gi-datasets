@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T08:29:09Z",
-  "generatedAt": "2026-09-29T08:29:09Z",
+  "lastUpdate": "2026-09-29T08:31:28Z",
+  "generatedAt": "2026-09-29T08:31:28Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1952,6 +1952,31 @@
       "n": 2,
       "mean": 0.15,
       "std": 1.909188
+    },
+    "GBP/boe consumer credit mom": {
+      "n": 2,
+      "mean": 0.4175,
+      "std": 0.185969
+    },
+    "GBP/boe m4 money supply mom": {
+      "n": 2,
+      "mean": -0.35,
+      "std": 0.636396
+    },
+    "GBP/boe mortgage approvals": {
+      "n": 2,
+      "mean": -2.733,
+      "std": 2.764788
+    },
+    "GBP/boe mortgage lending mom": {
+      "n": 2,
+      "mean": -0.913,
+      "std": 0.659024
+    },
+    "GBP/boe net lending to individuals mom": {
+      "n": 2,
+      "mean": -0.3145,
+      "std": 1.690692
     },
     "EUR/italy cpi mom": {
       "n": 2,
@@ -67037,7 +67062,7 @@
       "flag": "🇬🇧",
       "event": "BoE Consumer Credit m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "2.464B",
       "forecast": "1.915B",
       "previous": "2.006B"
     },
@@ -67050,7 +67075,7 @@
       "flag": "🇬🇧",
       "event": "BoE M4 Money Supply m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "0.3%",
       "previous": "-0.3%"
     },
@@ -67063,7 +67088,7 @@
       "flag": "🇬🇧",
       "event": "BoE Mortgage Approvals",
       "impact": "low",
-      "actual": null,
+      "actual": "54.918K",
       "forecast": "55.696K",
       "previous": "56.053K"
     },
@@ -67076,7 +67101,7 @@
       "flag": "🇬🇧",
       "event": "BoE Mortgage Lending m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "4.410B",
       "forecast": "4.857B",
       "previous": "4.292B"
     },
@@ -67089,7 +67114,7 @@
       "flag": "🇬🇧",
       "event": "BoE Net Lending to Individuals m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "6.874B",
       "forecast": "5.993B",
       "previous": "6.298B"
     },
