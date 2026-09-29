@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T14:01:35Z",
-  "generatedAt": "2026-09-29T14:01:35Z",
+  "lastUpdate": "2026-09-29T14:03:20Z",
+  "generatedAt": "2026-09-29T14:03:20Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1652,6 +1652,11 @@
       "n": 2,
       "mean": 0.45,
       "std": 0.070711
+    },
+    "USD/cb consumer confidence index": {
+      "n": 2,
+      "mean": -4.95,
+      "std": 3.606245
     },
     "USD/richmond fed services revenues": {
       "n": 2,
@@ -67942,7 +67947,7 @@
       "flag": "🇺🇸",
       "event": "United States CB Consumer Confidence Index",
       "impact": "high",
-      "actual": null,
+      "actual": "81.9",
       "forecast": "89.4",
       "previous": "89.4"
     },
