@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T06:59:04Z",
-  "generatedAt": "2026-09-29T06:59:04Z",
+  "lastUpdate": "2026-09-29T07:01:31Z",
+  "generatedAt": "2026-09-29T07:01:31Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1014,9 +1014,9 @@
       "std": 1.414214
     },
     "EUR/spain retail sales yoy": {
-      "n": 3,
-      "mean": -1.0,
-      "std": 0.34641
+      "n": 4,
+      "mean": -1.075,
+      "std": 0.320156
     },
     "EUR/france unemployment benefit claims": {
       "n": 2,
@@ -2037,6 +2037,21 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.636396
+    },
+    "EUR/spain cpi mom": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.141421
+    },
+    "EUR/spain cpi yoy": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.141421
+    },
+    "EUR/spain hicp mom": {
+      "n": 2,
+      "mean": -0.25,
+      "std": 0.494975
     },
     "EUR/industrial production yoy": {
       "n": 2,
@@ -66815,7 +66830,7 @@
       "flag": "🇪🇺",
       "event": "Spain CPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.5%",
       "previous": "0.7%"
     },
@@ -66828,7 +66843,7 @@
       "flag": "🇪🇺",
       "event": "Spain CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.9%",
       "forecast": "4.7%",
       "previous": "4.3%"
     },
@@ -66841,7 +66856,7 @@
       "flag": "🇪🇺",
       "event": "Spain HICP m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "1.2%",
       "previous": "0.7%"
     },
@@ -66867,7 +66882,7 @@
       "flag": "🇪🇺",
       "event": "Spain Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.4%",
       "forecast": "0.9%",
       "previous": "-0.3%"
     },
@@ -66880,7 +66895,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "109.3",
       "forecast": "106.2",
       "previous": "107.4"
     },
@@ -66893,7 +66908,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Manufacturing Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "106.3",
       "forecast": "103.3",
       "previous": "103.8"
     },
@@ -66906,7 +66921,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "102.2",
       "forecast": "103.3",
       "previous": "95.8"
     },
@@ -66919,7 +66934,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Inflation Expectations",
       "impact": "medium",
-      "actual": null,
+      "actual": "6.3%",
       "forecast": "6.2%",
       "previous": "7.0%"
     },
@@ -66932,7 +66947,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Economic Tendency Indicator",
       "impact": "low",
-      "actual": null,
+      "actual": "107.1",
       "forecast": "104.4",
       "previous": "103.7"
     },
