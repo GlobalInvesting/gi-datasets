@@ -368,8 +368,10 @@ jobs:
       contents: write
   update-inflation-expectations:
     name: Update Inflation Expectations (private)
-    needs: gate
-    if: needs.gate.outputs.active == 'true' && ((github.event_name == 'workflow_dispatch' && (inputs.only == 'all' || inputs.only == 'update-inflation-expectations')) || (github.event_name == 'schedule' && contains(fromJSON('["0 7 * * 3"]'), github.event.schedule)))
+    needs:
+    - gate
+    - update-bond-yields
+    if: ${{ !cancelled() && needs.gate.outputs.active == 'true' && ((github.event_name == 'workflow_dispatch' && (inputs.only == 'all' || inputs.only == 'update-inflation-expectations')) || (github.event_name == 'schedule' && contains(fromJSON('["0 7 * * 3"]'), github.event.schedule))) }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -1050,8 +1052,10 @@ jobs:
       cancel-in-progress: false
   update-extended-data:
     name: Update Extended Data v14.1
-    needs: gate
-    if: needs.gate.outputs.active == 'true' && ((github.event_name == 'workflow_dispatch' && (inputs.only == 'all' || inputs.only == 'update-extended-data')) || (github.event_name == 'schedule' && contains(fromJSON('["0 6 * * *"]'), github.event.schedule)))
+    needs:
+    - gate
+    - update-inflation-expectations
+    if: ${{ !cancelled() && needs.gate.outputs.active == 'true' && ((github.event_name == 'workflow_dispatch' && (inputs.only == 'all' || inputs.only == 'update-extended-data')) || (github.event_name == 'schedule' && contains(fromJSON('["0 6 * * *"]'), github.event.schedule))) }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
