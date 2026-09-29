@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T10:05:17Z",
-  "generatedAt": "2026-09-29T10:05:17Z",
+  "lastUpdate": "2026-09-29T10:07:28Z",
+  "generatedAt": "2026-09-29T10:07:28Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1933,10 +1933,20 @@
       "mean": 0.2,
       "std": 0.424264
     },
+    "EUR/latvia retail sales yoy": {
+      "n": 2,
+      "mean": 0.25,
+      "std": 4.17193
+    },
     "EUR/greece total credit yoy": {
       "n": 2,
       "mean": -0.7,
       "std": 1.131371
+    },
+    "EUR/latvia retail sales mom": {
+      "n": 2,
+      "mean": 1.5,
+      "std": 1.697056
     },
     "CAD/gdp growth rate qoq": {
       "n": 2,
@@ -67377,7 +67387,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.5%",
       "forecast": "6.2%",
       "previous": "7.0%"
     },
@@ -67390,7 +67400,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.4%",
       "forecast": "-1.7%",
       "previous": "2.5%"
     },
