@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T12:59:28Z",
-  "generatedAt": "2026-09-29T12:59:28Z",
+  "lastUpdate": "2026-09-29T13:01:38Z",
+  "generatedAt": "2026-09-29T13:01:38Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1622,6 +1622,21 @@
       "n": 2,
       "mean": -0.65,
       "std": 2.899138
+    },
+    "USD/hpi mom": {
+      "n": 2,
+      "mean": -0.0,
+      "std": 0.141421
+    },
+    "USD/hpi yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.070711
+    },
+    "USD/hpi": {
+      "n": 2,
+      "mean": 0.7,
+      "std": 0.141421
     },
     "USD/richmond fed services revenues": {
       "n": 2,
@@ -67470,7 +67485,7 @@
       "flag": "🇺🇸",
       "event": "United States HPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.2%",
       "previous": "0.0%"
     },
@@ -67483,7 +67498,7 @@
       "flag": "🇺🇸",
       "event": "United States HPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "2.4%",
       "previous": "2.3%"
     },
@@ -67496,7 +67511,7 @@
       "flag": "🇺🇸",
       "event": "United States HPI",
       "impact": "low",
-      "actual": null,
+      "actual": "443.5",
       "forecast": "442.9",
       "previous": "442.5"
     },
