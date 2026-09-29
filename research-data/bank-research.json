@@ -1,16 +1,49 @@
 {
-  "updated_utc": "2026-09-29T08:20:45.563421+00:00",
-  "updated_label": "08:20 UTC",
+  "updated_utc": "2026-09-29T10:42:35.644155+00:00",
+  "updated_label": "10:42 UTC",
   "total": 39,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
     "Saxo",
     "UBS"
   ],
   "items": [
+    {
+      "id": "8fe9edac3435",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "RBA stays focused on inflation, signals more tightening if needed",
+      "excerpt": "ASIA/PACIFIC: The Reserve Bank of Australia has delivered a hawkish 25bp hike and signalled little comfort with the inflation outlook, stressing that demand continues to outstrip supply. The message was clear: policy will stay restrictive for longer, and additional tightening cannot be ruled…",
+      "author": "",
+      "url": "https://think.ing.com/snaps/rba-stays-focused-on-inflation-signals-more-tightening-if-needed/",
+      "currencies": [
+        "AUD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790671020000,
+      "published": "2026-09-29T08:37:00+00:00"
+    },
+    {
+      "id": "48ada0e7b630",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "The German housing market’s weakness is showing up everywhere except in prices",
+      "excerpt": "EUROPE: Higher mortgage rates are back. Housing affordability is deteriorating. Demand for mortgage loans is weakening. Yet, German house prices continue to edge…",
+      "author": "",
+      "url": "https://think.ing.com/articles/the-german-housing-markets-weakness-is-showing-up-everywhere-except-in-prices/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790670600000,
+      "published": "2026-09-29T08:30:00+00:00"
+    },
     {
       "id": "53fa2b7c7568",
       "bank": "ING",
@@ -86,23 +119,6 @@
       "category": "macro",
       "ts": 1790662080000,
       "published": "2026-09-29T06:08:00+00:00"
-    },
-    {
-      "id": "4368bd4c91ea",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "Focus Turns to US Job Openings",
-      "excerpt": "In focus today In the euro area, focus turns to the September flash inflation print for Spain which will give the first indication of where the euro area data on Friday lands. We expect a modest rise in headline due to higher energy costs and a small increase in core inflation. We also receive the [&#8230;] The post Focus Turns to US Job Openings appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655692-focus-turns-to-us-job-openings/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790661433000,
-      "published": "2026-09-29T05:57:13+00:00"
     },
     {
       "id": "f35a0ed8ba53",
@@ -292,41 +308,6 @@
       "published": "2026-09-28T07:00:00+00:00"
     },
     {
-      "id": "41165814ada8",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: Data back in the driver’s seat this week",
-      "excerpt": "Markets will look for fresh evidence of a hot US economy from this week as September figures start to flow in. Upside surprises in jobs data could take rate hike pricing for the October FOMC above 20bp. It’s not our baseline though, and we expect some stabilisation with modest downside risks for USD in the coming days. We expect a hawkish hike by the RBA…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-data-back-in-drivers-seat-this-week/",
-      "currencies": [
-        "USD",
-        "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790576520000,
-      "published": "2026-09-28T06:22:00+00:00"
-    },
-    {
-      "id": "5adc9e033a3e",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Has Europe fully digested the new geoeconomic realities - and does it have the energy to cope with them",
-      "excerpt": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the Annual Dinner of the Society of Professional Economists, London, 22 September 2026.",
-      "author": "Joachim Nagel",
-      "url": "https://www.bis.org/speeches/20260928-has-europe-fully-digested-new-geoeconomic-realities-and-does-it-have-energy-cope-them",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790553600000,
-      "published": "2026-09-28T00:00:00+00:00"
-    },
-    {
       "id": "c0ff4d52e584",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -418,6 +399,23 @@
       "url": "https://www.bis.org/speeches/20260928-discount-window-modernization-and-treasury-market-functioning",
       "currencies": [
         "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790553600000,
+      "published": "2026-09-28T00:00:00+00:00"
+    },
+    {
+      "id": "5adc9e033a3e",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Has Europe fully digested the new geoeconomic realities - and does it have the energy to cope with them",
+      "excerpt": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the Annual Dinner of the Society of Professional Economists, London, 22 September 2026.",
+      "author": "Joachim Nagel",
+      "url": "https://www.bis.org/speeches/20260928-has-europe-fully-digested-new-geoeconomic-realities-and-does-it-have-energy-cope-them",
+      "currencies": [
+        "EUR"
       ],
       "pairs": [],
       "category": "macro",
@@ -569,23 +567,6 @@
       "published": "2026-09-24T16:31:38+00:00"
     },
     {
-      "id": "e65864e1e5c6",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Opening remarks - panel session on economics of innovation",
-      "excerpt": "Opening remarks by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the panel session on economics of innovation, at the Central Bank of Ireland conference “Trust and innovation – the future of finance\", Dublin, 18 September 2026.",
-      "author": "Joachim Nagel",
-      "url": "https://www.bis.org/speeches/20260924-opening-remarks-panel-session-economics-innovation",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790208000000,
-      "published": "2026-09-24T00:00:00+00:00"
-    },
-    {
       "id": "4a713375fe12",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -612,6 +593,23 @@
       "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at “Hofburg im Dialog – economy, europe, resilience”, Vienna, 14 September 2026.",
       "author": "Christine Lagarde",
       "url": "https://www.bis.org/speeches/20260924-new-age-capital-growth-sovereignty-and-ai",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790208000000,
+      "published": "2026-09-24T00:00:00+00:00"
+    },
+    {
+      "id": "ce336a25e073",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Finance for Europe's future - getting the foundations right",
+      "excerpt": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the Eurofi Financial Forum Gala Dinner, Dublin, 17 September 2026.",
+      "author": "Gabriel Makhlouf",
+      "url": "https://www.bis.org/speeches/20260924-finance-europes-future-getting-foundations-right",
       "currencies": [
         "EUR"
       ],
