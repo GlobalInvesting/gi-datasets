@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-29T08:59:22Z",
-  "generatedAt": "2026-09-29T08:59:22Z",
+  "lastUpdate": "2026-09-29T09:01:41Z",
+  "generatedAt": "2026-09-29T09:01:41Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1883,10 +1883,35 @@
       "mean": 1.35,
       "std": 0.494975
     },
-    "EUR/consumer confidence index": {
+    "EUR/business climate indicator": {
       "n": 2,
-      "mean": -0.95,
-      "std": 1.343503
+      "mean": 0.05,
+      "std": 0.127279
+    },
+    "EUR/industrial confidence indicator": {
+      "n": 2,
+      "mean": 1.7,
+      "std": 0.282843
+    },
+    "EUR/services sentiment indicator": {
+      "n": 2,
+      "mean": 0.65,
+      "std": 1.626346
+    },
+    "EUR/economic sentiment indicator": {
+      "n": 2,
+      "mean": 0.5,
+      "std": 1.414214
+    },
+    "EUR/consumer confidence index": {
+      "n": 3,
+      "mean": -0.633333,
+      "std": 1.096966
+    },
+    "EUR/consumer price expectations": {
+      "n": 2,
+      "mean": 5.9,
+      "std": 3.818377
     },
     "EUR/greece total credit yoy": {
       "n": 2,
@@ -67163,7 +67188,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Business Climate Indicator",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.06",
       "forecast": "-0.20",
       "previous": "-0.23"
     },
@@ -67176,7 +67201,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Industrial Confidence Indicator",
       "impact": "low",
-      "actual": null,
+      "actual": "-3.8",
       "forecast": "-5.7",
       "previous": "-5.3"
     },
@@ -67189,7 +67214,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Services Sentiment Indicator",
       "impact": "low",
-      "actual": null,
+      "actual": "6.1",
       "forecast": "6.6",
       "previous": "5.8"
     },
@@ -67202,7 +67227,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Economic Sentiment Indicator",
       "impact": "medium",
-      "actual": null,
+      "actual": "97.9",
       "forecast": "98.4",
       "previous": "98.4"
     },
@@ -67215,7 +67240,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Consumer Confidence Index",
       "impact": "low",
-      "actual": null,
+      "actual": "-16.5",
       "forecast": "-16.5",
       "previous": "-16.5"
     },
@@ -67228,7 +67253,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Consumer Price Expectations",
       "impact": "high",
-      "actual": null,
+      "actual": "35.2",
       "forecast": "32.0",
       "previous": "33.0"
     },
