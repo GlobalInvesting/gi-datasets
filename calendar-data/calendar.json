@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T06:44:00Z",
-  "generatedAt": "2026-09-30T06:44:00Z",
+  "lastUpdate": "2026-09-30T06:46:20Z",
+  "generatedAt": "2026-09-30T06:46:20Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1809,9 +1809,9 @@
       "std": 34.648232
     },
     "EUR/france ppi mom": {
-      "n": 2,
-      "mean": 0.45,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.666667,
+      "std": 0.378594
     },
     "EUR/austria unicredit bank manufacturing pmi": {
       "n": 2,
@@ -1899,24 +1899,29 @@
       "std": 1.343503
     },
     "EUR/france cpi mom": {
-      "n": 2,
-      "mean": 0.2,
-      "std": 0.282843
+      "n": 3,
+      "mean": -0.1,
+      "std": 0.556776
     },
     "EUR/france cpi yoy": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.166667,
+      "std": 0.208167
     },
     "EUR/france hicp mom": {
-      "n": 2,
-      "mean": 0.25,
-      "std": 0.494975
+      "n": 3,
+      "mean": -0.133333,
+      "std": 0.750555
     },
     "EUR/france hicp yoy": {
+      "n": 3,
+      "mean": 0.166667,
+      "std": 0.251661
+    },
+    "EUR/france consumer spending mom": {
       "n": 2,
-      "mean": 0.05,
-      "std": 0.212132
+      "mean": 0.0,
+      "std": 0.707107
     },
     "EUR/slovakia consumer confidence": {
       "n": 2,
@@ -68511,7 +68516,7 @@
       "flag": "🇪🇺",
       "event": "France CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-0.3%",
       "forecast": "0.4%",
       "previous": "0.7%"
     },
@@ -68524,7 +68529,7 @@
       "flag": "🇪🇺",
       "event": "France CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.0%",
       "forecast": "2.6%",
       "previous": "2.4%"
     },
@@ -68537,7 +68542,7 @@
       "flag": "🇪🇺",
       "event": "France HICP m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-0.4%",
       "forecast": "0.5%",
       "previous": "0.7%"
     },
@@ -68550,7 +68555,7 @@
       "flag": "🇪🇺",
       "event": "France HICP y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.4%",
       "forecast": "3.0%",
       "previous": "2.6%"
     },
@@ -68563,7 +68568,7 @@
       "flag": "🇪🇺",
       "event": "France Consumer Spending m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-0.5%",
       "forecast": "0.0%",
       "previous": "0.5%"
     },
@@ -68576,7 +68581,7 @@
       "flag": "🇪🇺",
       "event": "France PPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "1.0%",
       "forecast": "-0.1%",
       "previous": "1.1%"
     },
