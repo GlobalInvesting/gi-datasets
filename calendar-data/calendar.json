@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T06:00:51Z",
-  "generatedAt": "2026-09-30T06:00:51Z",
+  "lastUpdate": "2026-09-30T06:02:19Z",
+  "generatedAt": "2026-09-30T06:02:19Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1358,6 +1358,16 @@
       "mean": 0.0,
       "std": 0.0
     },
+    "GBP/gdp growth rate qoq": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
+    "GBP/business investment qoq": {
+      "n": 2,
+      "mean": 1.15,
+      "std": 1.484924
+    },
     "EUR/finland inflation rate mom": {
       "n": 2,
       "mean": 0.05,
@@ -1879,9 +1889,14 @@
       "std": 1.555635
     },
     "SEK/retail sales mom": {
+      "n": 3,
+      "mean": -0.133333,
+      "std": 1.101514
+    },
+    "SEK/retail sales yoy": {
       "n": 2,
-      "mean": -0.5,
-      "std": 1.272792
+      "mean": 1.35,
+      "std": 1.343503
     },
     "EUR/france cpi mom": {
       "n": 2,
@@ -68379,7 +68394,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Business Investment q/q",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.8%",
       "forecast": "1.7%",
       "previous": "1.7%"
     },
@@ -68392,7 +68407,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Business Investment y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "0.8%",
       "previous": "0.8%"
     },
@@ -68405,7 +68420,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Current Account",
       "impact": "medium",
-      "actual": null,
+      "actual": "-19.932B",
       "forecast": "-22.160B",
       "previous": "-22.134B"
     },
@@ -68418,7 +68433,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom GDP q/q",
       "impact": "high",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.4%",
       "previous": "0.4%"
     },
@@ -68431,7 +68446,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom GDP y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "1.4%",
       "forecast": "1.2%",
       "previous": "1.2%"
     },
@@ -68470,7 +68485,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Retail Sales m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.8%",
       "forecast": "0.2%",
       "previous": "-0.2%"
     },
@@ -68483,7 +68498,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "6.9%",
       "forecast": "6.5%",
       "previous": "6.2%"
     },
