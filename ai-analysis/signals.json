@@ -1,42 +1,64 @@
 {
-  "generated_at": "2026-09-30T12:01:25Z",
+  "generated_at": "2026-09-30T18:03:02Z",
   "signals": [
     {
-      "time": "12:00",
+      "time": "18:01",
       "priority": "critical",
-      "title": "CHF/JPY — G10 Bilateral Theme + Monetary Divergence",
-      "text": "CHF/JPY exhibits the largest G10 performance gap this week, with JPY averaging +1.299% across 7 pairs while CHF lags at -0.910%, generating a 2.209% spread. OIS rates show TONA at 1.2270% against SARON at -0.0400%, giving JPY a 127bp carry advantage over CHF. Spot sits at 188.150, trading below its fair-value model anchor while options market skew reflects heavy hedging demand via a -2.63 25d risk reversal on EUR/JPY. Negative real yields in Japan (-1.45%) and Switzerland (-1.24%) highlight broad policy accommodation, but the 125bp SNB-BoJ policy rate spread favors continued CHF underperformance against JPY. Trade bias: Short CHF/JPY, exploiting the G10 bilateral divergence and carry gap. Catalyst: BoJ Tankan survey and Tokyo CPI releases at 23:30/23:50 UTC. Risk: A sudden surge in global equity volatility that forces broader cross-yen unwinds.",
+      "title": "JPY/NOK — G10 Bilateral Theme + Carry Divergence",
+      "text": "JPY leads G10 performance with a 1W average gain of +1.296% across 7 pairs, while NOK lags at −0.872% across 2 pairs, generating an extreme 2.168% leader-to-laggard spread. The bilateral cross trades with an extreme rate differential where Norges Bank holds at 4.50% against the BoJ at 1.25%, giving NOK a +325bp nominal policy rate advantage over JPY. Despite this massive carry deficit, JPY continues to outperform due to aggressive short-covering across YEN crosses. JPY COT LF net sits at +4,472 contracts (pctl 98, z +2.66), reflecting hyper-crowded speculative long positioning following a massive 4W net flow of +86,091 contracts. The MOVE index trades at the 98th percentile of its trailing-year distribution while VIX sits at the 23rd percentile, signaling severe bond-market volatility and central bank policy repricing that equity markets have not yet discounted. Trade bias: Bullish JPY/NOK, momentum-driven bilateral divergence overriding carry deficits. Catalyst: BoJ Tankan survey release at 23:50 UTC. Risk: VIX spike above 25 triggers chaotic cross-asset deleveraging that compresses the G10 spread below 1.20%.",
       "evidence": [
-        "JPY 1W avg: +1.299% (n=7)",
-        "CHF 1W avg: -0.910% (n=6)",
-        "G10 spread: 2.209%"
+        "JPY 1W avg: +1.296% (n=7)",
+        "NOK 1W avg: -0.872% (n=2)",
+        "G10 spread: 2.168%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "11:57",
+      "time": "17:58",
       "priority": "warning",
-      "title": "USD/CAD — Retail Divergence + Real Yield Support",
-      "text": "USD/CAD trades at 1.4183, holding firmly above its SMA20/50/200 cluster (SMA20 at 1.3958). Retail sentiment stands at an extreme 95% short, directly opposing CFTC positioning where leveraged funds hold -49,123 net short contracts in CAD (28.1% long). US 5Y yields have expanded +23bp over 5D (FRED, as of Sep 28), fully driven by real yields (+23bp real, +0bp breakeven), while the SOFR-CORRA OIS spread provides a +160bp carry advantage to the US dollar. The 175bp Fed-BoC rate differential (Fed 4.00% vs BoC 2.25%) continues to anchor upward momentum despite retail attempts to fade the trend. Trade bias: Long USD/CAD, supported by real yield expansion and institutional vs retail positioning divergence. Catalyst: US Core PCE and GDP releases at 12:30 UTC. Risk: A downside surprise in US Core PCE that compresses short-term US real yield premiums.",
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "11:55",
-      "priority": "warning",
-      "title": "USD/JPY — Carry Support vs Options Downside Protection",
-      "text": "USD/JPY trades at 157.04, holding above its SMA20 (156.13) but remaining below the SMA50/200 resistance cluster at 158.38/158.46. 160.00 remains the key level that has previously triggered verbal intervention warnings from Japanese officials. The 267bp OIS SOFR-TONA differential (Fed 4.00% vs BoJ 1.25%) provides structural carry support, yet 1M ATM implied volatility sits at 9.2% against 30-day realized volatility of 10.1% (-1.0% VRP), signaling unusually low options pricing alongside a heavy -2.61 25d risk reversal put skew. COT data shows JPY leveraged fund positioning at +4,472 net long (98th 52-week percentile, z=+2.66), reflecting a crowded speculative position susceptible to unwinds if US yields ease. Trade bias: Bullish USD/JPY above 156.13, carry-driven while VIX remains contained at 16.1. Catalyst: US PCE data at 12:30 UTC followed by BoJ Tankan at 23:50 UTC. Risk: A sustained spot break above 160.00 that escalates Ministry of Finance intervention risk.",
+      "title": "USD/JPY — Carry Support vs Options Skew",
+      "text": "USD/JPY trades at 157.31, holding above its SMA20 of 156.13 but below the SMA50/200 cluster at 158.38/158.46. SOFR at 3.90% vs TONA at 1.23% creates a +267bp OIS carry differential favoring USD, maintaining structural upward pressure on the pair. However, FX options reflect acute downside hedging demand, with 1M 25d risk reversals printing at −2.61, a strong put skew that directly contrasts with flat speculative futures positioning where CFTC LF net sits at +4,472 contracts. US 5Y yields have expanded +23bp over 5 sessions to 5.06% (FRED, as of Sep 28), entirely driven by real yields (+23bp) while breakevens remained flat (+0bp). 160.00 remains the key psychological watch level that has previously triggered Ministry of Finance verbal intervention warnings. Trade bias: Long USD/JPY, carry-supported above SMA20. Catalyst: BoJ Summary of Opinions release at 23:50 UTC. Risk: Spot break below SMA20 at 156.13 invalidates the bullish setup and accelerates options put demand.",
       "evidence": [
-        "SOFR vs TONA spread: +267bp",
-        "USD/JPY 25d RR: -2.61",
-        "JPY COT LF net pctl: 98th"
+        "USD/JPY OIS Spread: +267bp",
+        "USDJPY 25d RR: -2.61",
+        "USD/JPY: 157.31"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "11:52",
+      "time": "17:56",
       "priority": "warning",
-      "title": "GBP/USD — Macro Downtrend + Support Cluster Test",
-      "text": "GBP/USD trades at 1.3289, holding below its SMA20/50/200 technical cluster (SMA20 at 1.3411, SMA50 at 1.3460). Revised UK Q2 GDP printed at 0.5% q/q (0.4% expected), but sell-side research from Brown Brothers Harriman notes that upcoming fiscal tightening risks driving dovish Bank of England repricing. The Fed's 4.00% policy rate vs the BoE's 3.75% maintains a +25bp rate gap favoring the dollar (+17bp on an OIS SOFR-SONIA basis), limiting cable upside. 1M implied volatility runs at 6.3% against 4.6% 30-day realized volatility (+1.7% VRP), indicating that options markets are paying a moderate premium for downside protection as the pair tests multi-month lows. Trade bias: Bearish GBP/USD while spot remains suppressed below the moving average cluster. Catalyst: BoE Governor Bailey speech at 08:00 UTC tomorrow. Risk: A dovish US PCE print at 12:30 UTC that triggers a sharp short-covering rebound in cable.",
+      "title": "NZD/USD — COT vs OIS Divergence + Retail Extreme",
+      "text": "NZD/USD trades at 0.5635, situated below its SMA20/50/200 cluster at 0.5764/0.5836/0.5852. CFTC data shows Leveraged Funds net short −5,216 contracts, whereas OIS market pricing maintains an explicit hawkish bias toward a RBNZ rate hike at the October 28 meeting. Retail positioning has reached an extreme 92% long / 8% short, creating a stark contrarian setup where retail traders are fighting both the broader technical downtrend and institutional positioning. BEER-model fair value indicates NZD/USD is statistically cheap at z = −1.54σ relative to its model fair value of 0.5758. The divergence between speculative futures shorts and hawkish OIS pricing sets up an asymmetric short-squeeze scenario if economic data forces spec short covering. Trade bias: Bullish NZD/USD, contrarian squeeze setup against crowded spec shorts and retail long extreme. Catalyst: RBNZ rate decision on 28 Oct — hike bias priced. Risk: Break below key technical support at 0.5600 invalidates the fair-value mean-reversion thesis.",
+      "evidence": [
+        "NZD COT LF net: -5,216",
+        "Retail Sentiment: 92% Long",
+        "BEER Model Misvaluation: -1.54σ"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "17:53",
+      "priority": "warning",
+      "title": "EUR/USD — Option Volatility Premium vs Stalling Flows",
+      "text": "EUR/USD trades at 1.1339, positioned below its SMA20/50/200 cluster at 1.1514/1.1536/1.1620. 1M implied volatility sits at 8.5% against 30-day realized volatility of 4.4%, generating an elevated Vol Risk Premium of +4.1% that reflects intense hedging demand relative to actual spot movement. The 25d risk reversal displays a mild put skew of −0.65, signaling that options markets are paying up for downside EUR protection. CFTC Leveraged Funds are net short −58,805 contracts (pctl 19, z −1.01), with WoW flows extending shorts by another −7,450 contracts as institutional accounts fade European growth prospects. SOFR at 3.90% vs €STR at 2.44% generates a +146bp OIS carry advantage in favor of USD, anchoring spot below key moving averages. Trade bias: Bearish EUR/USD, driven by elevated options volatility protection and downside yield carry spreads. Catalyst: Euro Area CPI release at 09:00 UTC. Risk: EUR ESI strength (+16.4) triggers a surprise upside inflation reading that forces hawkish ECB repricing.",
+      "evidence": [
+        "EUR/USD VRP: +4.1%",
+        "EUR/USD OIS Spread: +146bp",
+        "EUR COT LF net: -58,805"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "17:48",
+      "priority": "info",
+      "title": "USD/CAD — Yield Differential + Retail Divergence",
+      "text": "USD/CAD trades at 1.4223, maintaining a strong bullish position above its SMA20/50/200 cluster at 1.3958/1.3951/1.3846. SOFR at 3.90% vs CORRA at 2.30% provides a +160bp OIS carry spread supporting the US Dollar. Retail sentiment data community data shows retail sentiment at an extreme 6% long / 94% short, presenting a massive contrarian signal that favors continued USD/CAD upside as retail accounts attempt to top-tick the trend. CFTC Leveraged Funds remain net short CAD at −49,123 contracts (pctl 69, z +0.69), aligning with institutional USD preference despite CAD ESI reading a positive +13.6. WTI crude oil gains (+1.72% to $90.90) provide marginal underlying support for CAD but fail to offset the widening short-end interest rate differentials. Trade bias: Long USD/CAD, supported by rate carry and contrarian retail positioning. Catalyst: US ISM Manufacturing PMI release at 14:00 UTC. Risk: WTI crude oil rally above $95.00 per barrel compresses Canadian trade deficits and triggers CAD short covering.",
+      "evidence": [
+        "USD/CAD OIS Spread: +160bp",
+        "Retail Sentiment: 94% Short",
+        "CAD COT LF net: -49,123"
+      ],
       "_source": "engine-ai-primary"
     }
   ]
