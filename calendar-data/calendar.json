@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T09:08:53Z",
-  "generatedAt": "2026-09-30T09:08:53Z",
+  "lastUpdate": "2026-09-30T09:10:58Z",
+  "generatedAt": "2026-09-30T09:10:58Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1024,9 +1024,9 @@
       "std": 2.292299
     },
     "EUR/greece unemployment rate": {
-      "n": 2,
-      "mean": -0.2,
-      "std": 0.282843
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.503322
     },
     "USD/fed interest rate decision": {
       "n": 2,
@@ -1269,9 +1269,9 @@
       "std": 0.287228
     },
     "EUR/greece retail sales yoy": {
-      "n": 2,
-      "mean": 0.5,
-      "std": 4.666905
+      "n": 3,
+      "mean": 1.733333,
+      "std": 3.931073
     },
     "EUR/italy inflation rate yoy": {
       "n": 2,
@@ -1983,6 +1983,21 @@
       "mean": 1.35,
       "std": 0.494975
     },
+    "EUR/croatia retail sales yoy": {
+      "n": 2,
+      "mean": 1.8,
+      "std": 2.404163
+    },
+    "EUR/croatia retail sales mom": {
+      "n": 2,
+      "mean": 1.65,
+      "std": 0.636396
+    },
+    "EUR/greece ppi yoy": {
+      "n": 2,
+      "mean": 2.9,
+      "std": 0.0
+    },
     "EUR/business climate indicator": {
       "n": 2,
       "mean": 0.05,
@@ -2262,6 +2277,11 @@
       "n": 2,
       "mean": 1.4,
       "std": 0.848528
+    },
+    "EUR/croatia industrial production yoy": {
+      "n": 2,
+      "mean": 1.15,
+      "std": 3.464823
     },
     "EUR/ppi mom": {
       "n": 2,
@@ -68837,7 +68857,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Industrial Production YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "6.5%",
       "previous": "7.2%"
     },
@@ -68863,7 +68883,7 @@
       "flag": "🇪🇺",
       "event": "Greece PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "14.9%",
       "forecast": "12.0%",
       "previous": "11.8%"
     },
@@ -68876,7 +68896,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "-0.6%",
       "previous": "1.4%"
     },
@@ -68889,7 +68909,7 @@
       "flag": "🇪🇺",
       "event": "Greece Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "1.0%",
       "previous": "1.9%"
     },
@@ -68902,7 +68922,7 @@
       "flag": "🇪🇺",
       "event": "Greece Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "7.4%",
       "forecast": "8.0%",
       "previous": "7.9%"
     },
@@ -68915,7 +68935,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "3.0%",
       "previous": "3.6%"
     },
