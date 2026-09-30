@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T01:30:31Z",
-  "generatedAt": "2026-09-30T01:30:31Z",
+  "lastUpdate": "2026-09-30T01:31:55Z",
+  "generatedAt": "2026-09-30T01:31:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2067,6 +2067,11 @@
       "n": 2,
       "mean": 0.15,
       "std": 1.909188
+    },
+    "AUD/building approvals mom": {
+      "n": 2,
+      "mean": -5.2,
+      "std": 6.363961
     },
     "GBP/boe consumer credit mom": {
       "n": 2,
@@ -68120,7 +68125,7 @@
       "flag": "🇦🇺",
       "event": "Australia Building Approvals m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-6.1%",
       "forecast": "3.6%",
       "previous": "-3.6%"
     },
@@ -68133,7 +68138,7 @@
       "flag": "🇦🇺",
       "event": "Australia Private House Approvals m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "3.7%",
       "forecast": null,
       "previous": "-4.2%"
     },
@@ -68146,7 +68151,7 @@
       "flag": "🇦🇺",
       "event": "RBA Housing Credit m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": null,
       "previous": "0.5%"
     },
@@ -68159,7 +68164,7 @@
       "flag": "🇦🇺",
       "event": "RBA Private Sector Credit m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.8%",
       "previous": "0.6%"
     },
