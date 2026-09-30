@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T02:05:47Z",
+  "generated_at": "2026-09-30T23:52:21Z",
   "script_version": "1.0",
   "methodology": "Walk-forward, no-lookahead export of the same server-side BEER ridge regression the live Fair Value panel uses (compute_fair_value.py). Each computed row's fair_value/z_score used only data available up to and including that row's own date -- never later data. Rows before a pair reaches 60 usable business days show raw inputs only (model_status=insufficient_history); a regression that fails or has zero residual variance on a given window shows model_status=regression_failed. No value in this export is estimated or interpolated -- every spot/rate_diff/stress/ca_diff/tb_diff/prod_diff figure is the same real, dated input the live panel logs.",
   "min_rows_for_regression": 60,
