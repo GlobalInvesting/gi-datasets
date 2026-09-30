@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T08:03:28Z",
-  "generatedAt": "2026-09-30T08:03:28Z",
+  "lastUpdate": "2026-09-30T08:05:00Z",
+  "generatedAt": "2026-09-30T08:05:00Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1239,19 +1239,19 @@
       "std": 0.005657
     },
     "EUR/italy consumer confidence": {
-      "n": 2,
-      "mean": 0.9,
-      "std": 1.131371
+      "n": 3,
+      "mean": -0.966667,
+      "std": 3.330666
     },
     "EUR/italy business confidence": {
-      "n": 2,
-      "mean": 1.3,
-      "std": 0.848528
+      "n": 3,
+      "mean": 2.1,
+      "std": 1.509967
     },
     "EUR/spain current account": {
-      "n": 2,
-      "mean": -1.2585,
-      "std": 1.98202
+      "n": 3,
+      "mean": -0.617,
+      "std": 1.78851
     },
     "EUR/inflation rate mom": {
       "n": 5,
@@ -1942,6 +1942,16 @@
       "n": 2,
       "mean": -6.3,
       "std": 14.990664
+    },
+    "EUR/germany unemployment n.s.a.": {
+      "n": 2,
+      "mean": 0.0155,
+      "std": 0.002121
+    },
+    "EUR/germany unemployment": {
+      "n": 2,
+      "mean": -0.0125,
+      "std": 0.010607
     },
     "EUR/italy industrial sales mom": {
       "n": 2,
@@ -68669,7 +68679,7 @@
       "flag": "🇪🇺",
       "event": "Germany Unemployment n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "2.994M",
       "forecast": "3.008M",
       "previous": "3.061M"
     },
@@ -68682,7 +68692,7 @@
       "flag": "🇪🇺",
       "event": "Germany Unemployment",
       "impact": "medium",
-      "actual": null,
+      "actual": "3.012M",
       "forecast": "2.992M",
       "previous": "2.996M"
     },
@@ -68721,7 +68731,7 @@
       "flag": "🇪🇺",
       "event": "Italy Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "91.9",
       "forecast": "88.2",
       "previous": "89.9"
     },
@@ -68734,7 +68744,7 @@
       "flag": "🇪🇺",
       "event": "Italy Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "91.2",
       "forecast": "95.9",
       "previous": "94.5"
     },
@@ -68747,7 +68757,7 @@
       "flag": "🇪🇺",
       "event": "Spain Current Account",
       "impact": "low",
-      "actual": null,
+      "actual": "5.910B",
       "forecast": "5.244B",
       "previous": "2.410B"
     },
