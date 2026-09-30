@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:40:27Z",
+  "generated_at": "2026-09-30T13:42:21Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -11526,20 +11526,6 @@
       "vendor": "calendar-primary"
     },
     {
-      "title": "Belgium Current Account",
-      "currency": "EUR",
-      "dateISO": "2026-09-30",
-      "timeUTC": "13:00",
-      "timeMode": "exact",
-      "impact": "low",
-      "forecast": "-4120M",
-      "previous": "-179M",
-      "actual": "1674M",
-      "released": true,
-      "actualComputed": false,
-      "vendor": "calendar-primary"
-    },
-    {
       "title": "SNB Quarterly Bulletin",
       "currency": "CHF",
       "dateISO": "2026-09-30",
@@ -11550,6 +11536,20 @@
       "previous": null,
       "actual": null,
       "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "Belgium Current Account",
+      "currency": "EUR",
+      "dateISO": "2026-09-30",
+      "timeUTC": "13:20",
+      "timeMode": "exact",
+      "impact": "low",
+      "forecast": "-4120M",
+      "previous": "1626M",
+      "actual": "1674M",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
