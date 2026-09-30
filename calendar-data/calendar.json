@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T10:08:52Z",
-  "generatedAt": "2026-09-30T10:08:52Z",
+  "lastUpdate": "2026-09-30T10:11:08Z",
+  "generatedAt": "2026-09-30T10:11:08Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2053,6 +2053,21 @@
       "mean": 0.25,
       "std": 4.17193
     },
+    "EUR/portugal retail sales mom": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 0.848528
+    },
+    "EUR/ireland retail sales yoy": {
+      "n": 2,
+      "mean": 2.05,
+      "std": 0.353553
+    },
+    "EUR/ireland retail sales mom": {
+      "n": 2,
+      "mean": 1.05,
+      "std": 0.070711
+    },
     "EUR/greece total credit yoy": {
       "n": 2,
       "mean": -0.7,
@@ -2062,6 +2077,11 @@
       "n": 2,
       "mean": 1.5,
       "std": 1.697056
+    },
+    "EUR/portugal retail sales yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.494975
     },
     "CAD/gdp growth rate qoq": {
       "n": 2,
@@ -2132,6 +2152,21 @@
       "n": 2,
       "mean": 0.55,
       "std": 1.626346
+    },
+    "EUR/portugal inflation rate yoy prel": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.070711
+    },
+    "EUR/portugal unemployment rate": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/portugal inflation rate mom prel": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.141421
     },
     "EUR/germany cpi mom": {
       "n": 2,
@@ -2267,6 +2302,11 @@
       "n": 3,
       "mean": 1.633333,
       "std": 0.378594
+    },
+    "EUR/ireland unemployment rate": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.0
     },
     "JPY/au jibun bank services pmi": {
       "n": 2,
@@ -69031,7 +69071,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.7%",
       "forecast": "-0.3%",
       "previous": "0.0%"
     },
@@ -69044,7 +69084,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "4.3%",
       "forecast": "2.0%",
       "previous": "2.2%"
     },
@@ -69057,9 +69097,9 @@
       "flag": "🇪🇺",
       "event": "Ireland Unemployment Rate",
       "impact": "low",
-      "actual": null,
-      "forecast": "5.10%",
-      "previous": "5.00%"
+      "actual": "5.0%",
+      "forecast": "5.1%",
+      "previous": "5.0%"
     },
     {
       "date": "30 Sep",
@@ -69070,7 +69110,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "5.7%",
       "forecast": "5.7%",
       "previous": "5.7%"
     },
@@ -69083,7 +69123,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "-0.4%",
       "previous": "1.3%"
     },
@@ -69096,7 +69136,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "2.4%",
       "forecast": "2.6%",
       "previous": "3.0%"
     },
@@ -69109,7 +69149,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Inflation Rate YoY Prel",
       "impact": "low",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.4%",
       "previous": "3.3%"
     },
@@ -69122,9 +69162,9 @@
       "flag": "🇪🇺",
       "event": "Portugal Inflation Rate MoM Prel",
       "impact": "low",
-      "actual": null,
-      "forecast": "1%",
-      "previous": "0%"
+      "actual": "1.2%",
+      "forecast": "1.0%",
+      "previous": "0.0%"
     },
     {
       "date": "30 Sep",
