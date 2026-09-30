@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T07:06:33Z",
-  "generatedAt": "2026-09-30T07:06:33Z",
+  "lastUpdate": "2026-09-30T07:10:56Z",
+  "generatedAt": "2026-09-30T07:10:56Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1923,10 +1923,20 @@
       "mean": 0.0,
       "std": 0.707107
     },
+    "EUR/austria ppi mom": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.636396
+    },
     "EUR/slovakia consumer confidence": {
       "n": 2,
       "mean": 1.05,
       "std": 1.767767
+    },
+    "EUR/austria ppi yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.636396
     },
     "EUR/slovakia business confidence": {
       "n": 2,
@@ -68594,7 +68604,7 @@
       "flag": "🇪🇺",
       "event": "Austria PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "4.6%",
       "forecast": "4.0%",
       "previous": "3.3%"
     },
@@ -68607,7 +68617,7 @@
       "flag": "🇪🇺",
       "event": "Austria PPI MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.4%",
       "previous": "0.3%"
     },
