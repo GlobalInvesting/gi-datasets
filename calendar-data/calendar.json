@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T09:38:52Z",
-  "generatedAt": "2026-09-30T09:38:52Z",
+  "lastUpdate": "2026-09-30T09:40:52Z",
+  "generatedAt": "2026-09-30T09:40:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2127,6 +2127,11 @@
       "n": 2,
       "mean": -0.1,
       "std": 0.282843
+    },
+    "EUR/belgium ppi yoy": {
+      "n": 2,
+      "mean": 0.55,
+      "std": 1.626346
     },
     "EUR/germany cpi mom": {
       "n": 2,
@@ -69000,7 +69005,7 @@
       "flag": "🇪🇺",
       "event": "Belgium PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "11.1%",
       "forecast": "9.4%",
       "previous": "9.0%"
     },
