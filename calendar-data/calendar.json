@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T12:17:15Z",
-  "generatedAt": "2026-09-30T12:17:15Z",
+  "lastUpdate": "2026-09-30T12:20:57Z",
+  "generatedAt": "2026-09-30T12:20:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2307,6 +2307,11 @@
       "n": 2,
       "mean": 0.1,
       "std": 0.0
+    },
+    "USD/adp nonfarm employment change": {
+      "n": 2,
+      "mean": 36.5,
+      "std": 17.67767
     },
     "JPY/au jibun bank services pmi": {
       "n": 2,
@@ -69227,7 +69232,7 @@
       "flag": "🇺🇸",
       "event": "United States ADP Nonfarm Employment Change",
       "impact": "high",
-      "actual": null,
+      "actual": "90K",
       "forecast": "41K",
       "previous": "38K"
     },
