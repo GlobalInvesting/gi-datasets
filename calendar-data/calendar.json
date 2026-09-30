@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T21:46:49Z",
-  "generatedAt": "2026-09-30T21:46:49Z",
+  "lastUpdate": "2026-09-30T21:48:42Z",
+  "generatedAt": "2026-09-30T21:48:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2317,6 +2317,11 @@
       "n": 2,
       "mean": 0.4,
       "std": 0.141421
+    },
+    "NZD/building consents mom": {
+      "n": 2,
+      "mean": -0.2,
+      "std": 7.071068
     },
     "EUR/italy ppi mom": {
       "n": 3,
@@ -70418,7 +70423,7 @@
       "flag": "🇳🇿",
       "event": "New Zealand Building Consents m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "5.6%",
       "forecast": "0.8%",
       "previous": "-4.3%"
     },
