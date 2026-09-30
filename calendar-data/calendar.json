@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-09-30T05:08:58Z",
-  "generatedAt": "2026-09-30T05:08:58Z",
+  "lastUpdate": "2026-09-30T05:10:09Z",
+  "generatedAt": "2026-09-30T05:10:09Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1743,6 +1743,11 @@
       "mean": 0.2878,
       "std": 0.529265
     },
+    "EUR/estonia retail sales yoy": {
+      "n": 2,
+      "mean": 3.0,
+      "std": 2.969848
+    },
     "EUR/finland business confidence": {
       "n": 2,
       "mean": -2.0,
@@ -1752,6 +1757,11 @@
       "n": 2,
       "mean": 0.4,
       "std": 3.676955
+    },
+    "EUR/estonia retail sales mom": {
+      "n": 2,
+      "mean": 0.75,
+      "std": 2.616295
     },
     "EUR/lithuania industrial production yoy": {
       "n": 2,
@@ -1852,6 +1862,11 @@
       "n": 2,
       "mean": 0.95,
       "std": 0.070711
+    },
+    "EUR/finland gdp yoy": {
+      "n": 2,
+      "mean": 0.5,
+      "std": 0.989949
     },
     "NOK/retail sales mom": {
       "n": 3,
@@ -68208,7 +68223,7 @@
       "flag": "🇪🇺",
       "event": "Finland GDP YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "2.3%",
       "forecast": "1.1%",
       "previous": "1.4%"
     },
@@ -68221,7 +68236,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.4%",
       "forecast": "-0.3%",
       "previous": "2.8%"
     },
@@ -68273,7 +68288,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "6.1%",
       "forecast": "5.2%",
       "previous": "4.1%"
     },
