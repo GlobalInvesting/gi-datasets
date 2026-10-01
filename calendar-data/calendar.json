@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T05:12:52Z",
-  "generatedAt": "2026-10-01T05:12:52Z",
+  "lastUpdate": "2026-10-01T05:14:46Z",
+  "generatedAt": "2026-10-01T05:14:46Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2242,6 +2242,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.636396
+    },
+    "EUR/netherlands nevi manufacturing pmi": {
+      "n": 2,
+      "mean": 0.55,
+      "std": 2.05061
     },
     "GBP/boe consumer credit mom": {
       "n": 2,
@@ -70432,7 +70437,7 @@
       "flag": "🇪🇺",
       "event": "Netherlands NEVI Manufacturing PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "55.6",
       "forecast": "53.6",
       "previous": "53.8"
     },
