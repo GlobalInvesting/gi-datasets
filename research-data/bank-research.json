@@ -1,16 +1,75 @@
 {
-  "updated_utc": "2026-10-01T05:58:55.155247+00:00",
-  "updated_label": "05:58 UTC",
+  "updated_utc": "2026-10-01T08:20:44.174769+00:00",
+  "updated_label": "08:20 UTC",
   "total": 38,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
     "Saxo",
-    "TD",
     "UBS"
   ],
   "items": [
+    {
+      "id": "e14a072cff47",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Dollar is on a roll",
+      "excerpt": "The dollar remains very well bid and the DXY dollar index is close to the highs of the year. Yesterday's softer-than-expected August US PCE inflation data barely put a dent in Fed tightening expectations, perhaps because US activity data continues to come in on the encouraging side. EUR/USD is testing the lows of the year and looks…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1790836800000,
+      "published": "2026-10-01T06:40:00+00:00"
+    },
+    {
+      "id": "be1401db54c4",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "Inflation Surprises From Europe and the US",
+      "excerpt": "In focus today In the US, the manufacturing ISM is released. Early indicators have sent mixed signals on manufacturing activity. Flash manufacturing PMIs came in strong last week, while regional Fed PMIs showed some moderation. Central bankers will be active today with the ECB&#8217;s Lagarde and Schnabel and the Fed&#8217;s Barkin and Williams giving speeches. [&#8230;] The post Inflation Surprises From Europe and the US appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655978-inflation-surprises-from-europe-and-the-us/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790835532000,
+      "published": "2026-10-01T06:18:52+00:00"
+    },
+    {
+      "id": "600be764a2bd",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take - Chip rally lifts Tokyo as long yields stay high - 01 October 2026",
+      "excerpt": "Market drivers and catalysts Macro : Inflation cooled more than forecast while German prices climbed to a two year high Equities : Asian chipmakers surged after a strong memory outlook while Wall Street closed a weak September Volatility : Equity fear gauges edged higher while bond market volatility did the larger moving Digital Assets: Tokens held steady while listed miners sold off ahead of a busy approval month Commodities : Oil slips on rising Middle East supply; gold steadies after softer PCE print Fixed Income : US yield curve steepened as long yield test highs. France s long dated yields continue to spiral higher. Currencies : USD firm despite soft PCE inflation data. USDJPY rebounds sharply on BoJ meeting minutes. Macr o The US August PCE inflation data came in softer than…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---chip-rally-lifts-tokyo-as-long-yields-stay-high---01-october-2026-01102026",
+      "currencies": [
+        "USD",
+        "JPY",
+        "CHF"
+      ],
+      "pairs": [
+        "USD/JPY"
+      ],
+      "category": "trade_idea",
+      "ts": 1790835180000,
+      "published": "2026-10-01T06:13:00+00:00"
+    },
     {
       "id": "f99ceae48232",
       "bank": "Saxo",
@@ -63,21 +122,6 @@
       "category": "macro",
       "ts": 1790804075000,
       "published": "2026-09-30T21:34:35+00:00"
-    },
-    {
-      "id": "98b7f1c346bf",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "U.S. Consumer Spending Regains Momentum in August",
-      "excerpt": "Personal income advanced by a modest 0.2% month-over-month (m/m) in August, below market expectations for a 0.5% gain. After adjusting for inflation, taxes, and transfers, real disposable personal income growth was flat. Consumer spending rose by 0.9% m/m, roughly in line with expectations. Higher prices – especially for gas – accounted for some of the [&#8230;] The post U.S. Consumer Spending Regains Momentum in August appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/655910-u-s-consumer-spending-regains-momentum-in-august/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790776410000,
-      "published": "2026-09-30T13:53:30+00:00"
     },
     {
       "id": "9c63460d9972",
@@ -234,21 +278,21 @@
       "published": "2026-09-30T06:32:00+00:00"
     },
     {
-      "id": "0e189529ae36",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: October Fed hike remains very data dependent",
-      "excerpt": "Pricing for an October Fed hike dropped to just below 50% after soft US consumer sentiment and JOLTS yesterday. Expect more front-end rate action today with PCE and ADP releases. However, the slump in long-dated bonds will keep heavily affecting FX. For now, it argues against any material dollar…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-october-fed-hike-remains-very-data-dependent/",
+      "id": "71d1424495e0",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
+      "author": "Christine Lagarde",
+      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
       "currencies": [
-        "USD"
+        "EUR"
       ],
       "pairs": [],
       "category": "macro",
-      "ts": 1790749500000,
-      "published": "2026-09-30T06:25:00+00:00"
+      "ts": 1790726400000,
+      "published": "2026-09-30T00:00:00+00:00"
     },
     {
       "id": "44305195728e",
@@ -262,23 +306,6 @@
       "currencies": [
         "EUR",
         "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790726400000,
-      "published": "2026-09-30T00:00:00+00:00"
-    },
-    {
-      "id": "71d1424495e0",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
-      "author": "Christine Lagarde",
-      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
-      "currencies": [
-        "EUR"
       ],
       "pairs": [],
       "category": "macro",
@@ -492,40 +519,6 @@
       "published": "2026-09-28T11:55:00+00:00"
     },
     {
-      "id": "4198587cb7d8",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Gold’s real-yield divergence faces a sterner test",
-      "excerpt": "Key Points: Gold s resilience is being tested as surging US real yields, a stronger dollar and a technical break below USD 4,230 trigger renewed selling. US 10-year real yields have reached an 18-year high near 2.85%, sharply increasing the opportunity cost of holding non-yielding gold. ETF and non-interest rate sensitive demand remain the key counterweight, as investors weigh near-term rate pressure against longer-term fiscal and financial risks from persistently high borrowing costs In our latest precious metal update, we wrote that Gold faces a bond-market stress test as yields continue to rise . How much longer can the divergence between gold investment demand and US real yields continue? Today s price action suggests the relationship is facing an increasingly severe test. Gold…",
-      "author": "Ole Hansen",
-      "url": "https://www.home.saxo/content/articles/commodities/golds-real-yield-divergence-faces-a-sterner-test-28092026",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "technical",
-      "ts": 1790582400000,
-      "published": "2026-09-28T08:00:00+00:00"
-    },
-    {
-      "id": "5adc9e033a3e",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Has Europe fully digested the new geoeconomic realities - and does it have the energy to cope with them",
-      "excerpt": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the Annual Dinner of the Society of Professional Economists, London, 22 September 2026.",
-      "author": "Joachim Nagel",
-      "url": "https://www.bis.org/speeches/20260928-has-europe-fully-digested-new-geoeconomic-realities-and-does-it-have-energy-cope-them",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790553600000,
-      "published": "2026-09-28T00:00:00+00:00"
-    },
-    {
       "id": "c0ff4d52e584",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -569,6 +562,21 @@
       "currencies": [
         "CHF"
       ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790553600000,
+      "published": "2026-09-28T00:00:00+00:00"
+    },
+    {
+      "id": "3fb27a8e4508",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening remarks “Trust and innovation - the future of finance\"",
+      "excerpt": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the Central Bank of Ireland Conference “Trust and innovation - the future of finance\", Dublin, 18 September 2026.",
+      "author": "Gabriel Makhlouf",
+      "url": "https://www.bis.org/speeches/20260928-opening-remarks-trust-and-innovation-future-finance",
+      "currencies": [],
       "pairs": [],
       "category": "macro",
       "ts": 1790553600000,
