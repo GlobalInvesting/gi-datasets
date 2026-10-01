@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T07:42:43Z",
-  "generatedAt": "2026-10-01T07:42:43Z",
+  "lastUpdate": "2026-10-01T07:44:49Z",
+  "generatedAt": "2026-10-01T07:44:49Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1259,9 +1259,9 @@
       "std": 0.340343
     },
     "EUR/austria unemployment rate": {
-      "n": 2,
-      "mean": -0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.057735
     },
     "CHF/procure.ch manufacturing pmi": {
       "n": 3,
@@ -2257,6 +2257,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 1.343503
+    },
+    "EUR/austria unemployed persons": {
+      "n": 2,
+      "mean": -1.0,
+      "std": 11.879394
     },
     "GBP/boe consumer credit mom": {
       "n": 2,
@@ -70603,9 +70608,9 @@
       "flag": "🇪🇺",
       "event": "Austria Unemployment Rate",
       "impact": "low",
-      "actual": null,
-      "forecast": "7.10%",
-      "previous": "7.20%"
+      "actual": "7.1%",
+      "forecast": "7.1%",
+      "previous": "7.2%"
     },
     {
       "date": "1 Oct",
@@ -70616,7 +70621,7 @@
       "flag": "🇪🇺",
       "event": "Austria Unemployed Persons",
       "impact": "low",
-      "actual": null,
+      "actual": "306.6K",
       "forecast": "314.0K",
       "previous": "311.4K"
     },
