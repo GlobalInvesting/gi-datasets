@@ -57,6 +57,8 @@ jobs:
       run: pip install requests --break-system-packages
     - name: Create output directories
       run: mkdir -p current-account-data fair-value-data
+    - name: Run fair value regression tests
+      run: python3 private-scripts/test_compute_fair_value.py
     - name: Fetch current account / GDP
       if: ${{ inputs.refresh_inputs }}
       env:
@@ -90,17 +92,19 @@ jobs:
         a = json.load(open('/tmp/summary_before.json'))['pairs']
         b = json.load(open('fair-value-data/summary.json'))['pairs']
         flagged = 0
-        print('pair      z_before  z_after   identifiable  lambda')
+        print('pair      z_before  z_after   identifiable  lambda      status')
         for k in sorted(b):
             za, zb = a.get(k, {}).get('z'), b[k].get('z')
             ia, ib = a.get(k, {}).get('identifiable'), b[k].get('identifiable')
             big = za is not None and zb is not None and abs(za - zb) > 1
             odd = zb is not None and abs(zb) > 4
-            if big or odd or ia != ib:
+            held = b[k].get('error') or ('excluded ' + ','.join(b[k]['excluded_inputs']) if b[k].get('excluded_inputs') else None)
+            if big or odd or ia != ib or held:
                 flagged += 1
-                print('%-8s %8s %8s   %s -> %s   %s -> %s' % (k, za, zb, ia, ib, a.get(k, {}).get('lambda'), b[k].get('lambda')))
+                print('%-8s %8s %8s   %s -> %s   %s -> %s   %s' % (k, za, zb, ia, ib, a.get(k, {}).get('lambda'), b[k].get('lambda'), held or 'ok'))
         print('pairs flagged: %d of %d' % (flagged, len(b)))
         print('identifiable before/after: %d / %d' % (sum(1 for v in a.values() if v.get('identifiable')), sum(1 for v in b.values() if v.get('identifiable'))))
+        print('re-fitted without one input: %d  |  withheld (out_of_support): %d' % (sum(1 for v in b.values() if v.get('excluded_inputs')), sum(1 for v in b.values() if v.get('error') == 'out_of_support')))
         PY
     - name: Display summary
       if: always()
