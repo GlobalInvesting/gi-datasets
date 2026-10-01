@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-01T13:44:50Z",
+  "generatedAt": "2026-10-01T17:05:49Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 195,
+  "aliasCount": 199,
   "aliases": [
     {
       "currency": "JPY",
@@ -731,21 +731,8 @@
           "actual_secondary_raw": "-0.1%",
           "forecast_secondary_raw": "0.0%",
           "previous_secondary_raw": "-0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-17",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.1,
-          "actual_yahoo": -0.1,
-          "previous_primary": -0.1,
-          "previous_yahoo": -0.1,
-          "actual_yahoo_raw": "-0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.1"
         }
-      },
-      "yahoo_title": "New Housing Price Index*"
+      }
     },
     {
       "currency": "USD",
@@ -1348,21 +1335,8 @@
           "actual_secondary_raw": "20",
           "forecast_secondary_raw": "9",
           "previous_secondary_raw": "17"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-24",
-          "forecast_primary": 20.0,
-          "forecast_yahoo": null,
-          "actual_primary": 20.0,
-          "actual_yahoo": 20.0,
-          "previous_primary": 17.0,
-          "previous_yahoo": 17.0,
-          "actual_yahoo_raw": "20",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "17"
         }
-      },
-      "yahoo_title": "KC Fed Manufacturing*"
+      }
     },
     {
       "currency": "USD",
@@ -2349,7 +2323,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 0.1,
           "forecast_secondary": 0.1,
-          "actual_primary": null,
+          "actual_primary": -0.2,
           "actual_secondary": -0.2,
           "previous_primary": 0.2,
           "previous_secondary": 0.2,
@@ -2361,7 +2335,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 0.1,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": -0.2,
           "actual_yahoo": -0.2,
           "previous_primary": 0.2,
           "previous_yahoo": 0.2,
@@ -2381,7 +2355,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 2.1,
           "forecast_secondary": 1.5,
-          "actual_primary": null,
+          "actual_primary": 0.8,
           "actual_secondary": 0.8,
           "previous_primary": 1.6,
           "previous_secondary": 1.6,
@@ -2393,7 +2367,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 2.1,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 0.8,
           "actual_yahoo": 0.8,
           "previous_primary": 1.6,
           "previous_yahoo": 1.6,
@@ -2407,17 +2381,17 @@
     {
       "currency": "USD",
       "primary_title": "United States Wholesale Inventories m/m",
-      "secondary_title": "United States Wholesale Inventories MoM Adv",
+      "secondary_title": "United States Wholesale Inventories MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 0.9,
+          "dateISO": "2026-10-08",
+          "forecast_primary": 0.7,
           "forecast_secondary": 0.7,
-          "actual_primary": 0.7,
-          "actual_secondary": 0.7,
-          "previous_primary": 1.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
           "previous_secondary": 1.3,
-          "actual_secondary_raw": "0.7%",
+          "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.7%",
           "previous_secondary_raw": "1.3%"
         }
@@ -2822,8 +2796,21 @@
           "actual_secondary_raw": "24",
           "forecast_secondary_raw": "23",
           "previous_secondary_raw": "22"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 26.0,
+          "forecast_yahoo": null,
+          "actual_primary": 24.0,
+          "actual_yahoo": 24.0,
+          "previous_primary": 22.0,
+          "previous_yahoo": 22.0,
+          "actual_yahoo_raw": "24",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "22"
         }
-      }
+      },
+      "yahoo_title": "Tankan Big Mf Idx"
     },
     {
       "currency": "JPY",
@@ -2948,11 +2935,11 @@
           "dateISO": "2026-10-01",
           "forecast_primary": 52.6,
           "forecast_secondary": 57.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 55.9,
+          "actual_secondary": 55.9,
           "previous_primary": 53.9,
           "previous_secondary": 53.9,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "55.9",
           "forecast_secondary_raw": "57",
           "previous_secondary_raw": "53.9"
         }
@@ -2967,34 +2954,28 @@
           "dateISO": "2026-10-01",
           "forecast_primary": 76.3,
           "forecast_secondary": 71.3,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 77.9,
+          "actual_secondary": 77.9,
           "previous_primary": 71.1,
           "previous_secondary": 71.1,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "77.9",
           "forecast_secondary_raw": "71.3",
           "previous_secondary_raw": "71.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Construction Spending m/m",
-      "secondary_title": "United States Construction Spending MoM",
-      "evidence": {
-        "secondary": {
+        },
+        "yahoo": {
           "dateISO": "2026-10-01",
-          "forecast_primary": -0.3,
-          "forecast_secondary": -0.3,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": -0.5,
-          "previous_secondary": -0.5,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.3%",
-          "previous_secondary_raw": "-0.5%"
+          "forecast_primary": 76.3,
+          "forecast_yahoo": null,
+          "actual_primary": 77.9,
+          "actual_yahoo": 77.9,
+          "previous_primary": 71.1,
+          "previous_yahoo": 71.1,
+          "actual_yahoo_raw": "77.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "71.1"
         }
-      }
+      },
+      "yahoo_title": "ISM Mfg Prices Paid"
     },
     {
       "currency": "JPY",
@@ -3644,25 +3625,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "United States CB Leading Economic Index m/m",
-      "yahoo_title": "Leading Index Chg MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.1,
-          "actual_yahoo": -0.1,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "-0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "Richmond Fed Services Revenues",
       "yahoo_title": "Rich Fed, Services Index",
       "evidence": {
@@ -4062,6 +4024,25 @@
     },
     {
       "currency": "USD",
+      "primary_title": "United States Personal Spending m/m",
+      "yahoo_title": "Construction Spending MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": 0.2,
+          "previous_yahoo": -0.5,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.5"
+        }
+      }
+    },
+    {
+      "currency": "USD",
       "primary_title": "United States Personal Income m/m",
       "yahoo_title": "Personal Income MM*",
       "evidence": {
@@ -4099,21 +4080,40 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States EIA Refinery Utilization Rate Change",
-      "yahoo_title": "EIA Wkly Refn Util*",
+      "currency": "NZD",
+      "primary_title": "New Zealand Building Consents m/m",
+      "yahoo_title": "Building Consents",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": null,
+          "forecast_primary": 0.8,
           "forecast_yahoo": null,
-          "actual_primary": -1.5,
-          "actual_yahoo": -1.5,
-          "previous_primary": -2.8,
-          "previous_yahoo": -2.8,
-          "actual_yahoo_raw": "-1.5",
+          "actual_primary": 5.6,
+          "actual_yahoo": 5.6,
+          "previous_primary": -4.3,
+          "previous_yahoo": -4.3,
+          "actual_yahoo_raw": "5.6",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-2.8"
+          "previous_yahoo_raw": "-4.3"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
+      "yahoo_title": "Tankan Small Non-Mf Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 16.0,
+          "forecast_yahoo": null,
+          "actual_primary": 15.0,
+          "actual_yahoo": 15.0,
+          "previous_primary": 15.0,
+          "previous_yahoo": 15.0,
+          "actual_yahoo_raw": "15",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "15"
         }
       }
     },
@@ -4209,6 +4209,82 @@
           "actual_yahoo_raw": "55.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "57.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing PMI",
+      "yahoo_title": "ISM Manufacturing PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 56.0,
+          "forecast_yahoo": null,
+          "actual_primary": 54.5,
+          "actual_yahoo": 54.5,
+          "previous_primary": 54.6,
+          "previous_yahoo": 54.6,
+          "actual_yahoo_raw": "54.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "54.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing Employment",
+      "yahoo_title": "ISM Manuf Employment Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 52.0,
+          "forecast_yahoo": null,
+          "actual_primary": 52.7,
+          "actual_yahoo": 52.7,
+          "previous_primary": 51.2,
+          "previous_yahoo": 51.2,
+          "actual_yahoo_raw": "52.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "51.2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing New Orders",
+      "yahoo_title": "ISM Manuf New Orders Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 56.4,
+          "forecast_yahoo": null,
+          "actual_primary": 55.3,
+          "actual_yahoo": 55.3,
+          "previous_primary": 53.7,
+          "previous_yahoo": 53.7,
+          "actual_yahoo_raw": "55.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "53.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Construction Spending m/m",
+      "yahoo_title": "Construction Spending MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": -0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": -0.5,
+          "previous_yahoo": -0.5,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.5"
         }
       }
     },
