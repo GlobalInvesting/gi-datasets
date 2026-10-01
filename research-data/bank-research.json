@@ -1,15 +1,53 @@
 {
-  "updated_utc": "2026-10-01T12:20:48.809787+00:00",
-  "updated_label": "12:20 UTC",
-  "total": 36,
+  "updated_utc": "2026-10-01T15:28:19.581316+00:00",
+  "updated_label": "15:28 UTC",
+  "total": 37,
   "sources": [
     "BIS",
     "CME",
     "ING",
     "Saxo",
+    "TD",
     "UBS"
   ],
   "items": [
+    {
+      "id": "2b09ff95304b",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "ISM Manufacturing Holds Firm as Demand Improves and Price Pressures Intensify",
+      "excerpt": "The headline manufacturing PMI edged down 0.1 point to 54.5 in September, but remained in expansion for a ninth consecutive month. ISM indicated that the reading was consistent with annualized real GDP growth of 2.4%. The September release points to firmer demand beneath the stable headline. New orders rose 1.6 points to 55.3 and backlogs [&#8230;] The post ISM Manufacturing Holds Firm as Demand Improves and Price Pressures Intensify appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656084-ism-manufacturing-holds-firm-as-demand-improves-and-price-pressures-intensify/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790867327000,
+      "published": "2026-10-01T15:08:47+00:00"
+    },
+    {
+      "id": "b15588fc0154",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Fiscal troubles for the euro may only be starting",
+      "excerpt": "History suggests that the euro’s correlation with eurozone spread widening can pick up rapidly. Today’s budget announcement in France leaves OATs at risk of further underperformance, and a so far resilient EUR/USD may be looking at material downside risks if things don’t improve. EUR/CHF is facing similar depreciation…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fiscal-troubles-for-the-euro-may-only-be-starting/",
+      "currencies": [
+        "USD",
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [
+        "EUR/USD",
+        "EUR/CHF"
+      ],
+      "category": "macro",
+      "ts": 1790863440000,
+      "published": "2026-10-01T14:04:00+00:00"
+    },
     {
       "id": "2b85a10c35e9",
       "bank": "ING",
@@ -222,23 +260,6 @@
       "category": "macro",
       "ts": 1790770800000,
       "published": "2026-09-30T12:20:00+00:00"
-    },
-    {
-      "id": "d8fc845da260",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Energy shock sends Italian inflation sharply higher",
-      "excerpt": "EUROPE: Italian headline inflation jumped above 4% in September, but the underlying picture remains considerably softer. This is still very much an energy story, with additional support from unprocessed food, another volatile component – a combination which will be increasingly felt by…",
-      "author": "",
-      "url": "https://think.ing.com/snaps/italian-inflation-accelerates-sharply-in-september/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "technical",
-      "ts": 1790766300000,
-      "published": "2026-09-30T11:05:00+00:00"
     },
     {
       "id": "d6fc8f645cda",
@@ -486,40 +507,6 @@
       "published": "2026-09-28T21:34:46+00:00"
     },
     {
-      "id": "b7b26cfbd161",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Discount window modernization and treasury market functioning",
-      "excerpt": "Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the 2026 US Treasury Market Conference, organised by the Federal Reserve Bank of New York, New York City, 22 September 2026.",
-      "author": "Philip N Jefferson",
-      "url": "https://www.bis.org/speeches/20260928-discount-window-modernization-and-treasury-market-functioning",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790553600000,
-      "published": "2026-09-28T00:00:00+00:00"
-    },
-    {
-      "id": "5adc9e033a3e",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Has Europe fully digested the new geoeconomic realities - and does it have the energy to cope with them",
-      "excerpt": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the Annual Dinner of the Society of Professional Economists, London, 22 September 2026.",
-      "author": "Joachim Nagel",
-      "url": "https://www.bis.org/speeches/20260928-has-europe-fully-digested-new-geoeconomic-realities-and-does-it-have-energy-cope-them",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790553600000,
-      "published": "2026-09-28T00:00:00+00:00"
-    },
-    {
       "id": "c0ff4d52e584",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -546,6 +533,38 @@
       "currencies": [
         "EUR"
       ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790553600000,
+      "published": "2026-09-28T00:00:00+00:00"
+    },
+    {
+      "id": "1070e81286a3",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Artificial intelligence - the new frontiers of risk",
+      "excerpt": "Speech by Mr Denis Beau, First Deputy Governor of the Bank of France, to the Association des avocats en droit boursier, Paris, 9 September 2026.",
+      "author": "Denis Beau",
+      "url": "https://www.bis.org/speeches/20260928-artificial-intelligence-new-frontiers-risk",
+      "currencies": [
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790553600000,
+      "published": "2026-09-28T00:00:00+00:00"
+    },
+    {
+      "id": "3fb27a8e4508",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening remarks “Trust and innovation - the future of finance\"",
+      "excerpt": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the Central Bank of Ireland Conference “Trust and innovation - the future of finance\", Dublin, 18 September 2026.",
+      "author": "Gabriel Makhlouf",
+      "url": "https://www.bis.org/speeches/20260928-opening-remarks-trust-and-innovation-future-finance",
+      "currencies": [],
       "pairs": [],
       "category": "macro",
       "ts": 1790553600000,
