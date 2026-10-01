@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T01:43:43Z",
+  "generated_at": "2026-10-01T01:46:47Z",
   "script_version": "1.0",
-  "methodology": "Walk-forward, no-lookahead export of the same server-side BEER ridge regression the live Fair Value panel uses (compute_fair_value.py). Each computed row's fair_value/z_score used only data available up to and including that row's own date -- never later data. Rows before a pair reaches 60 usable business days show raw inputs only (model_status=insufficient_history); a regression that fails or has zero residual variance on a given window shows model_status=regression_failed; a row whose inputs lie materially outside the region the trailing window was fitted on (hidden extrapolation) shows model_status=out_of_support and carries no fair_value/z_score. No value in this export is estimated or interpolated -- every spot/rate_diff/stress/ca_diff/tb_diff/prod_diff figure is the same real, dated input the live panel logs.",
+  "methodology": "Walk-forward, no-lookahead export of the same server-side BEER ridge regression the live Fair Value panel uses (compute_fair_value.py). Each computed row's fair_value/z_score used only data available up to and including that row's own date -- never later data. Rows before a pair reaches 60 usable business days show raw inputs only (model_status=insufficient_history); a regression that fails or has zero residual variance on a given window shows model_status=regression_failed; a row whose inputs lie materially outside the region the trailing window was fitted on (hidden extrapolation) is re-fitted without the one input that causes it (model_status=computed_reduced, fit=Regularized), or, if no single exclusion restores support, shows model_status=out_of_support and carries no fair_value/z_score. No value in this export is estimated or interpolated -- every spot/rate_diff/stress/ca_diff/tb_diff/prod_diff figure is the same real, dated input the live panel logs.",
   "min_rows_for_regression": 60,
   "rolling_window": 60,
   "feature_keys": [
@@ -12,7 +12,7 @@
     "prod_diff"
   ],
   "pairs_exported": 32,
-  "total_computed_rows_all_pairs": 750,
+  "total_computed_rows_all_pairs": 768,
   "pairs": {
     "eurusd": {
       "totalRows": 83,
@@ -23,7 +23,7 @@
     },
     "gbpusd": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -37,7 +37,7 @@
     },
     "audusd": {
       "totalRows": 83,
-      "computedRows": 22,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -51,28 +51,28 @@
     },
     "usdcad": {
       "totalRows": 83,
-      "computedRows": 22,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
-      "firstComputedDate": "2026-08-28"
+      "firstComputedDate": "2026-08-27"
     },
     "nzdusd": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
     },
     "usdnok": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
     },
     "usdsek": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -86,7 +86,7 @@
     },
     "eursek": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -114,7 +114,7 @@
     },
     "eurcad": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -135,17 +135,17 @@
     },
     "gbpchf": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
     },
     "gbpcad": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
-      "firstComputedDate": "2026-08-28"
+      "firstComputedDate": "2026-08-27"
     },
     "audjpy": {
       "totalRows": 83,
@@ -156,7 +156,7 @@
     },
     "audnzd": {
       "totalRows": 83,
-      "computedRows": 22,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -198,7 +198,7 @@
     },
     "gbpaud": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
@@ -212,21 +212,21 @@
     },
     "audcad": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
     },
     "cadchf": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
     },
     "nzdcad": {
       "totalRows": 83,
-      "computedRows": 23,
+      "computedRows": 24,
       "firstDate": "2026-06-03",
       "lastDate": "2026-09-30",
       "firstComputedDate": "2026-08-27"
