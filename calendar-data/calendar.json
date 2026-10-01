@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T06:44:48Z",
-  "generatedAt": "2026-10-01T06:44:48Z",
+  "lastUpdate": "2026-10-01T06:46:45Z",
+  "generatedAt": "2026-10-01T06:46:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2252,6 +2252,11 @@
       "n": 2,
       "mean": -0.85,
       "std": 1.202082
+    },
+    "SEK/silf/swedbank manufacturing pmi": {
+      "n": 2,
+      "mean": 0.55,
+      "std": 1.343503
     },
     "GBP/boe consumer credit mom": {
       "n": 2,
@@ -70533,7 +70538,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Silf/Swedbank Manufacturing PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "58.1",
       "forecast": "56.6",
       "previous": "56.1"
     },
