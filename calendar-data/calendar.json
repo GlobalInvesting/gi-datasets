@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T06:31:00Z",
-  "generatedAt": "2026-10-01T06:31:00Z",
+  "lastUpdate": "2026-10-01T06:32:51Z",
+  "generatedAt": "2026-10-01T06:32:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1154,9 +1154,9 @@
       "std": 0.424264
     },
     "CHF/retail sales yoy": {
-      "n": 3,
-      "mean": 0.366667,
-      "std": 1.833939
+      "n": 4,
+      "mean": 0.675,
+      "std": 1.619413
     },
     "EUR/france inflation rate yoy": {
       "n": 2,
@@ -1249,14 +1249,14 @@
       "std": 2.614702
     },
     "CHF/inflation rate yoy": {
-      "n": 3,
-      "mean": 0.3,
-      "std": 0.3
+      "n": 4,
+      "mean": 0.225,
+      "std": 0.287228
     },
     "CHF/inflation rate mom": {
-      "n": 3,
-      "mean": 0.266667,
-      "std": 0.23094
+      "n": 4,
+      "mean": 0.125,
+      "std": 0.340343
     },
     "EUR/austria unemployment rate": {
       "n": 2,
@@ -2247,6 +2247,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 2.05061
+    },
+    "AUD/rba index of commodity prices yoy": {
+      "n": 2,
+      "mean": -0.85,
+      "std": 1.202082
     },
     "GBP/boe consumer credit mom": {
       "n": 2,
@@ -70476,7 +70481,7 @@
       "flag": "🇦🇺",
       "event": "RBA Index of Commodity Prices y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "15.5%",
       "forecast": "17.2%",
       "previous": "15.5%"
     },
@@ -70489,7 +70494,7 @@
       "flag": "🇨🇭",
       "event": "Switzerland CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.3%",
       "previous": "0.4%"
     },
@@ -70502,7 +70507,7 @@
       "flag": "🇨🇭",
       "event": "Switzerland CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.0%",
       "forecast": "1.0%",
       "previous": "0.8%"
     },
@@ -70515,7 +70520,7 @@
       "flag": "🇨🇭",
       "event": "Switzerland Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "1.6%",
       "previous": "2.3%"
     },
