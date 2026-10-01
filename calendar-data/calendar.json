@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T14:00:59Z",
-  "generatedAt": "2026-10-01T14:00:59Z",
+  "lastUpdate": "2026-10-01T14:02:54Z",
+  "generatedAt": "2026-10-01T14:02:54Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1269,14 +1269,14 @@
       "std": 4.505922
     },
     "USD/ism manufacturing employment": {
-      "n": 2,
-      "mean": -0.55,
-      "std": 5.020458
+      "n": 3,
+      "mean": -0.133333,
+      "std": 3.622614
     },
     "USD/ism manufacturing pmi": {
-      "n": 2,
-      "mean": 0.5,
-      "std": 1.555635
+      "n": 3,
+      "mean": -0.166667,
+      "std": 1.594783
     },
     "EUR/spain unemployment change": {
       "n": 2,
@@ -2377,6 +2377,16 @@
       "n": 2,
       "mean": 0.45,
       "std": 1.06066
+    },
+    "USD/ism manufacturing prices paid": {
+      "n": 2,
+      "mean": 4.6,
+      "std": 4.242641
+    },
+    "USD/ism manufacturing new orders": {
+      "n": 2,
+      "mean": -3.05,
+      "std": 2.757716
     },
     "USD/dallas fed services revenues": {
       "n": 2,
@@ -71148,7 +71158,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Manufacturing PMI",
       "impact": "high",
-      "actual": null,
+      "actual": "54.5",
       "forecast": "56.0",
       "previous": "54.6"
     },
@@ -71161,7 +71171,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Manufacturing Prices Paid",
       "impact": "high",
-      "actual": null,
+      "actual": "77.9",
       "forecast": "76.3",
       "previous": "71.1"
     },
@@ -71174,7 +71184,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Manufacturing Employment",
       "impact": "medium",
-      "actual": null,
+      "actual": "52.7",
       "forecast": "52.0",
       "previous": "51.2"
     },
@@ -71187,7 +71197,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Manufacturing New Orders",
       "impact": "low",
-      "actual": null,
+      "actual": "55.3",
       "forecast": "56.4",
       "previous": "53.7"
     },
