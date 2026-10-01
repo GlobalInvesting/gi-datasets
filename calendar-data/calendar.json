@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T01:30:58Z",
-  "generatedAt": "2026-10-01T01:30:58Z",
+  "lastUpdate": "2026-10-01T01:32:48Z",
+  "generatedAt": "2026-10-01T01:32:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2357,6 +2357,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.919239
+    },
+    "AUD/trade balance": {
+      "n": 2,
+      "mean": 1.1635,
+      "std": 0.598919
     },
     "EUR/france s&p global composite pmi": {
       "n": 2,
@@ -70370,7 +70375,7 @@
       "flag": "🇦🇺",
       "event": "Australia Exports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "3.7%",
       "forecast": null,
       "previous": "-3.3%"
     },
@@ -70383,7 +70388,7 @@
       "flag": "🇦🇺",
       "event": "Australia Imports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "5.8%",
       "forecast": null,
       "previous": "-2.5%"
     },
@@ -70396,7 +70401,7 @@
       "flag": "🇦🇺",
       "event": "Australia Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.495B",
       "forecast": "-0.245B",
       "previous": "1.923B"
     },
