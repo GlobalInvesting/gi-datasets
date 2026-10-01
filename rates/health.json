@@ -1,76 +1,76 @@
 {
-  "runTimestamp": "2026-09-30T23:52:10.998948Z",
-  "runDate": "2026-09-30",
+  "runTimestamp": "2026-10-01T00:24:46.490679Z",
+  "runDate": "2026-10-01",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
-      "status": "ok",
+      "status": "fallback",
       "rate": "4.00",
-      "source": "NYFed-EFFR",
-      "date": "2026-09-29",
+      "source": "NYFed-EFFR (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "EUR": {
-      "status": "ok",
+      "status": "fallback",
       "rate": "2.65",
-      "source": "ECB-SDMX",
-      "date": "2026-09-16",
+      "source": "ECB-SDMX (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "GBP": {
-      "status": "ok",
+      "status": "fallback",
       "rate": "3.75",
-      "source": "BoE-CSV",
-      "date": "2026-09-29",
+      "source": "BoE-CSV (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "JPY": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "1.25",
-      "source": "cached-file",
-      "date": "2026-09-01",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "CAD": {
-      "status": "ok",
+      "status": "fallback",
       "rate": "2.25",
-      "source": "BoC-Valet",
-      "date": "2026-09-23",
+      "source": "BoC-Valet (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "AUD": {
-      "status": "ok",
+      "status": "fallback",
       "rate": "4.6",
-      "source": "ff-calendar-actual",
-      "date": "2026-09-29",
+      "source": "ff-calendar-actual (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "CHF": {
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "issues": []
     },
     "NZD": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "2.75",
-      "source": "cached-file",
-      "date": "2026-09-01",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "NOK": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "4.5",
-      "source": "cached-file",
-      "date": "2026-09-01",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-10-01",
       "issues": []
     },
     "SEK": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "1.75",
-      "source": "cached-file",
-      "date": "2026-09-01",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-10-01",
       "issues": []
     }
   },
