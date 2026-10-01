@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-01T00:44:15Z",
+  "generatedAt": "2026-10-01T13:44:50Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 189,
+  "aliasCount": 195,
   "aliases": [
     {
       "currency": "JPY",
@@ -1525,13 +1525,13 @@
         "secondary": {
           "dateISO": "2026-10-09",
           "forecast_primary": 42.6,
-          "forecast_secondary": null,
+          "forecast_secondary": 46.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 46.3,
           "previous_secondary": 46.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "46.5",
           "previous_secondary_raw": "46.3"
         },
         "yahoo": {
@@ -1557,13 +1557,13 @@
         "secondary": {
           "dateISO": "2026-10-09",
           "forecast_primary": 49.7,
-          "forecast_secondary": null,
+          "forecast_secondary": 51.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 50.9,
           "previous_secondary": 50.9,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "51",
           "previous_secondary_raw": "50.9"
         },
         "yahoo": {
@@ -1589,13 +1589,13 @@
         "secondary": {
           "dateISO": "2026-10-09",
           "forecast_primary": 4.3,
-          "forecast_secondary": null,
+          "forecast_secondary": 4.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "4.7%",
           "previous_secondary_raw": "4.6%"
         }
       }
@@ -1608,13 +1608,13 @@
         "secondary": {
           "dateISO": "2026-10-09",
           "forecast_primary": 3.3,
-          "forecast_secondary": null,
+          "forecast_secondary": 3.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 3.4,
           "previous_secondary": 3.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "3.5%",
           "previous_secondary_raw": "3.4%"
         },
         "yahoo": {
@@ -2346,18 +2346,31 @@
       "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-01",
+          "dateISO": "2026-10-02",
           "forecast_primary": 0.1,
           "forecast_secondary": 0.1,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": -0.2,
           "previous_primary": 0.2,
           "previous_secondary": 0.2,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-0.2%",
           "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "0.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": -0.2,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "-0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
         }
-      }
+      },
+      "yahoo_title": "Nationwide house price mm*"
     },
     {
       "currency": "GBP",
@@ -2365,18 +2378,31 @@
       "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-01",
+          "dateISO": "2026-10-02",
           "forecast_primary": 2.1,
           "forecast_secondary": 1.5,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": 0.8,
           "previous_primary": 1.6,
           "previous_secondary": 1.6,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "0.8%",
           "forecast_secondary_raw": "1.5%",
           "previous_secondary_raw": "1.6%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 0.8,
+          "previous_primary": 1.6,
+          "previous_yahoo": 1.6,
+          "actual_yahoo_raw": "0.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.6"
         }
-      }
+      },
+      "yahoo_title": "Nationwide house price yy*"
     },
     {
       "currency": "USD",
@@ -2865,13 +2891,13 @@
           "dateISO": "2026-10-01",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 3.7,
+          "actual_secondary": 3.7,
           "previous_primary": -3.3,
-          "previous_secondary": -3.3,
-          "actual_secondary_raw": null,
+          "previous_secondary": -3.6,
+          "actual_secondary_raw": "3.7%",
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-3.3%"
+          "previous_secondary_raw": "-3.6%"
         }
       }
     },
@@ -2884,13 +2910,13 @@
           "dateISO": "2026-10-01",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 5.8,
+          "actual_secondary": 5.8,
           "previous_primary": -2.5,
-          "previous_secondary": -2.5,
-          "actual_secondary_raw": null,
+          "previous_secondary": -2.4,
+          "actual_secondary_raw": "5.8%",
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-2.5%"
+          "previous_secondary_raw": "-2.4%"
         }
       }
     },
@@ -2903,13 +2929,13 @@
           "dateISO": "2026-10-01",
           "forecast_primary": 17.2,
           "forecast_secondary": 15.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 15.5,
+          "actual_secondary": 15.5,
           "previous_primary": 15.5,
-          "previous_secondary": 15.5,
-          "actual_secondary_raw": null,
+          "previous_secondary": 16.2,
+          "actual_secondary_raw": "15.5%",
           "forecast_secondary_raw": "15%",
-          "previous_secondary_raw": "15.5%"
+          "previous_secondary_raw": "16.2%"
         }
       }
     },
@@ -3415,13 +3441,13 @@
         "secondary": {
           "dateISO": "2026-10-08",
           "forecast_primary": 46.9,
-          "forecast_secondary": null,
+          "forecast_secondary": 46.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 46.4,
           "previous_secondary": 46.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "46.1",
           "previous_secondary_raw": "46.4"
         }
       }
@@ -3434,13 +3460,13 @@
         "secondary": {
           "dateISO": "2026-10-08",
           "forecast_primary": 47.5,
-          "forecast_secondary": null,
+          "forecast_secondary": 48.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 48.3,
           "previous_secondary": 48.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "48",
           "previous_secondary_raw": "48.3"
         }
       }
@@ -3453,13 +3479,13 @@
         "secondary": {
           "dateISO": "2026-10-08",
           "forecast_primary": -2.1,
-          "forecast_secondary": null,
+          "forecast_secondary": -2.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -3.6,
           "previous_secondary": -3.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "-2.0%",
           "previous_secondary_raw": "-3.6%"
         }
       }
@@ -3472,13 +3498,13 @@
         "secondary": {
           "dateISO": "2026-10-08",
           "forecast_primary": 4.6,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.5,
           "previous_secondary": 0.5,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.5%"
         }
       }
@@ -3491,13 +3517,13 @@
         "secondary": {
           "dateISO": "2026-10-09",
           "forecast_primary": null,
-          "forecast_secondary": null,
+          "forecast_secondary": 61.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 64.7,
           "previous_secondary": 64.7,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "61.0%",
           "previous_secondary_raw": "64.7%"
         }
       }
@@ -4016,6 +4042,25 @@
       }
     },
     {
+      "currency": "EUR",
+      "primary_title": "Germany Unemployment Rate",
+      "yahoo_title": "Unemployment Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 6.4,
+          "forecast_yahoo": null,
+          "actual_primary": 6.4,
+          "actual_yahoo": 6.4,
+          "previous_primary": 6.4,
+          "previous_yahoo": 6.4,
+          "actual_yahoo_raw": "6.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "6.4"
+        }
+      }
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Personal Income m/m",
       "yahoo_title": "Personal Income MM*",
@@ -4069,6 +4114,101 @@
           "actual_yahoo_raw": "-1.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-2.8"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland CPI m/m",
+      "yahoo_title": "CPI MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
+          "actual_yahoo": 0.0,
+          "previous_primary": 0.4,
+          "previous_yahoo": 0.4,
+          "actual_yahoo_raw": "0",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.4"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland CPI y/y",
+      "yahoo_title": "CPI YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 1.0,
+          "actual_yahoo": 1.0,
+          "previous_primary": 0.8,
+          "previous_yahoo": 0.8,
+          "actual_yahoo_raw": "1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Silf/Swedbank Manufacturing PMI",
+      "yahoo_title": "PMI Manufacturing Sect",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 56.6,
+          "forecast_yahoo": null,
+          "actual_primary": 58.1,
+          "actual_yahoo": 58.1,
+          "previous_primary": 56.1,
+          "previous_yahoo": 56.1,
+          "actual_yahoo_raw": "58.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "56.1"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland Retail Sales y/y",
+      "yahoo_title": "Retail Sales YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 1.6,
+          "forecast_yahoo": null,
+          "actual_primary": 3.2,
+          "actual_yahoo": 3.2,
+          "previous_primary": 2.3,
+          "previous_yahoo": 2.3,
+          "actual_yahoo_raw": "3.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.3"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland procure.ch Manufacturing PMI",
+      "yahoo_title": "Manufacturing PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": 52.2,
+          "forecast_yahoo": null,
+          "actual_primary": 55.3,
+          "actual_yahoo": 55.3,
+          "previous_primary": 57.1,
+          "previous_yahoo": 57.1,
+          "actual_yahoo_raw": "55.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "57.1"
         }
       }
     },
