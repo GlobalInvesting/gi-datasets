@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-01T23:50:48Z",
-  "generatedAt": "2026-10-01T23:50:48Z",
+  "lastUpdate": "2026-10-01T23:52:42Z",
+  "generatedAt": "2026-10-01T23:52:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2417,6 +2417,11 @@
       "n": 2,
       "mean": -0.2,
       "std": 7.071068
+    },
+    "JPY/boj monetary base yoy": {
+      "n": 2,
+      "mean": -0.8,
+      "std": 0.565685
     },
     "EUR/italy ppi mom": {
       "n": 3,
@@ -71515,7 +71520,7 @@
       "flag": "🇯🇵",
       "event": "BoJ Monetary Base y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "-15.2%",
       "forecast": "-14.8%",
       "previous": "-15.7%"
     },
