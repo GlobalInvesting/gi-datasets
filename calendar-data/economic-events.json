@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:26:19Z",
+  "generated_at": "2026-10-02T18:28:15Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -9258,6 +9258,34 @@
       "vendor": "calendar-primary"
     },
     {
+      "title": "United Kingdom Nationwide HPI m/m",
+      "currency": "GBP",
+      "dateISO": "2026-09-30",
+      "timeUTC": "06:00",
+      "timeMode": "exact",
+      "impact": "medium",
+      "forecast": "0.1%",
+      "previous": "0.2%",
+      "actual": null,
+      "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "United Kingdom Nationwide HPI y/y",
+      "currency": "GBP",
+      "dateISO": "2026-09-30",
+      "timeUTC": "06:00",
+      "timeMode": "exact",
+      "impact": "medium",
+      "forecast": "2.1%",
+      "previous": "1.6%",
+      "actual": null,
+      "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
       "title": "France CPI m/m",
       "currency": "EUR",
       "dateISO": "2026-09-30",
@@ -10714,6 +10742,34 @@
       "vendor": "calendar-primary"
     },
     {
+      "title": "United Kingdom Nationwide HPI m/m",
+      "currency": "GBP",
+      "dateISO": "2026-10-01",
+      "timeUTC": "06:00",
+      "timeMode": "exact",
+      "impact": "medium",
+      "forecast": "0.1%",
+      "previous": "0.2%",
+      "actual": null,
+      "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "United Kingdom Nationwide HPI y/y",
+      "currency": "GBP",
+      "dateISO": "2026-10-01",
+      "timeUTC": "06:00",
+      "timeMode": "exact",
+      "impact": "medium",
+      "forecast": "2.1%",
+      "previous": "1.6%",
+      "actual": null,
+      "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
       "title": "Switzerland CPI m/m",
       "currency": "CHF",
       "dateISO": "2026-10-01",
@@ -12094,8 +12150,8 @@
       "impact": "medium",
       "forecast": null,
       "previous": "455",
-      "actual": null,
-      "released": false,
+      "actual": "456",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
@@ -12108,8 +12164,8 @@
       "impact": "medium",
       "forecast": null,
       "previous": "599",
-      "actual": null,
-      "released": false,
+      "actual": "598",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
@@ -15383,7 +15439,7 @@
       "timeMode": "exact",
       "impact": "medium",
       "forecast": null,
-      "previous": null,
+      "previous": "456",
       "actual": null,
       "released": false,
       "actualComputed": false,
@@ -15397,7 +15453,7 @@
       "timeMode": "exact",
       "impact": "medium",
       "forecast": null,
-      "previous": null,
+      "previous": "598",
       "actual": null,
       "released": false,
       "actualComputed": false,
