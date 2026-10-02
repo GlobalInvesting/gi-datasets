@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T07:58:47Z",
-  "generatedAt": "2026-10-02T07:58:47Z",
+  "lastUpdate": "2026-10-02T08:00:57Z",
+  "generatedAt": "2026-10-02T08:00:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1982,6 +1982,16 @@
       "n": 2,
       "mean": 1.75,
       "std": 0.919239
+    },
+    "NOK/nav unemployment rate n.s.a.": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.212132
+    },
+    "NOK/nav unemployment change": {
+      "n": 2,
+      "mean": -14.6135,
+      "std": 0.325976
     },
     "EUR/portugal business confidence": {
       "n": 2,
@@ -71583,7 +71593,7 @@
       "flag": "🇳🇴",
       "event": "Norway NAV Unemployment Rate n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "2.0%",
       "forecast": "2.1%",
       "previous": "2.1%"
     },
@@ -71596,7 +71606,7 @@
       "flag": "🇳🇴",
       "event": "Norway NAV Unemployment Change",
       "impact": "low",
-      "actual": null,
+      "actual": "79.516K",
       "forecast": "65.133K",
       "previous": "80.064K"
     },
