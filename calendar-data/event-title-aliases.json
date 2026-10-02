@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T01:02:19Z",
+  "generatedAt": "2026-10-02T12:59:44Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 196,
+  "aliasCount": 199,
   "aliases": [
     {
       "currency": "JPY",
@@ -502,11 +502,11 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 2.4,
           "forecast_secondary": 2.6,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.5,
+          "actual_secondary": 2.5,
           "previous_primary": 2.4,
           "previous_secondary": 2.4,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "2.5%",
           "forecast_secondary_raw": "2.6%",
           "previous_secondary_raw": "2.4%"
         }
@@ -521,11 +521,11 @@
           "dateISO": "2026-10-02",
           "forecast_primary": null,
           "forecast_secondary": 104.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 104.3,
+          "actual_secondary": 104.3,
           "previous_primary": 103.69,
           "previous_secondary": 103.69,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "104.3",
           "forecast_secondary_raw": "104.1",
           "previous_secondary_raw": "103.69"
         }
@@ -864,21 +864,8 @@
           "actual_secondary_raw": "0.5%",
           "forecast_secondary_raw": "-0.1%",
           "previous_secondary_raw": "-0.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": 0.9,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 1.0,
-          "previous_yahoo": -0.5,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.5"
         }
-      },
-      "yahoo_title": "Retail Sales MM"
+      }
     },
     {
       "currency": "GBP",
@@ -896,21 +883,8 @@
           "actual_secondary_raw": "2.4%",
           "forecast_secondary_raw": "2.0%",
           "previous_secondary_raw": "1.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": 1.5,
-          "forecast_yahoo": null,
-          "actual_primary": 2.4,
-          "actual_yahoo": 2.4,
-          "previous_primary": 4.2,
-          "previous_yahoo": 1.6,
-          "actual_yahoo_raw": "2.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.6"
         }
-      },
-      "yahoo_title": "Retail Sales YY"
+      }
     },
     {
       "currency": "EUR",
@@ -978,7 +952,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": 452.0,
+          "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 455.0,
           "previous_secondary": 455.0,
@@ -997,7 +971,7 @@
           "dateISO": "2026-10-02",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": 595.0,
+          "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 599.0,
           "previous_secondary": 599.0,
@@ -2732,8 +2706,21 @@
           "actual_secondary_raw": "11.3%",
           "forecast_secondary_raw": "5.0%",
           "previous_secondary_raw": "11.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 13.8,
+          "forecast_yahoo": null,
+          "actual_primary": 11.3,
+          "actual_yahoo": 11.3,
+          "previous_primary": 11.5,
+          "previous_yahoo": 11.5,
+          "actual_yahoo_raw": "11.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "11.5"
         }
-      }
+      },
+      "yahoo_title": "Tankan All Big Capex Est"
     },
     {
       "currency": "JPY",
@@ -2815,8 +2802,21 @@
           "actual_secondary_raw": "30",
           "forecast_secondary_raw": "23",
           "previous_secondary_raw": "28"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 28.0,
+          "forecast_yahoo": null,
+          "actual_primary": 30.0,
+          "actual_yahoo": 30.0,
+          "previous_primary": 28.0,
+          "previous_yahoo": 28.0,
+          "actual_yahoo_raw": "30",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "28"
         }
-      }
+      },
+      "yahoo_title": "Tankan big non-mf outlook DI"
     },
     {
       "currency": "JPY",
@@ -2866,8 +2866,21 @@
           "actual_secondary_raw": "14",
           "forecast_secondary_raw": "10",
           "previous_secondary_raw": "9"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 14.0,
+          "actual_yahoo": 14.0,
+          "previous_primary": 9.0,
+          "previous_yahoo": 9.0,
+          "actual_yahoo_raw": "14",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "9"
         }
-      }
+      },
+      "yahoo_title": "Tankan Small Mf Idx"
     },
     {
       "currency": "AUD",
@@ -3037,15 +3050,28 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 0.3,
           "forecast_secondary": 0.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.1,
+          "actual_secondary": 0.1,
           "previous_primary": 0.3,
           "previous_secondary": 0.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "0.1%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.1,
+          "actual_yahoo": 0.1,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
         }
-      }
+      },
+      "yahoo_title": "Average Earnings MM"
     },
     {
       "currency": "USD",
@@ -3056,11 +3082,11 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 3.3,
           "forecast_secondary": 3.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 3.0,
+          "actual_secondary": 3.0,
           "previous_primary": 3.1,
           "previous_secondary": 3.1,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "3%",
           "forecast_secondary_raw": "3.1%",
           "previous_secondary_raw": "3.1%"
         }
@@ -3075,11 +3101,11 @@
           "dateISO": "2026-10-02",
           "forecast_primary": 7.5,
           "forecast_secondary": 7.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 7.6,
+          "actual_secondary": 7.6,
           "previous_primary": 7.7,
           "previous_secondary": 7.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "7.6%",
           "forecast_secondary_raw": "7.7%",
           "previous_secondary_raw": "7.7%"
         }
@@ -3169,13 +3195,13 @@
         "secondary": {
           "dateISO": "2026-10-05",
           "forecast_primary": 37.0,
-          "forecast_secondary": 34.0,
+          "forecast_secondary": 35.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 35.5,
           "previous_secondary": 35.5,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "34",
+          "forecast_secondary_raw": "35.7",
           "previous_secondary_raw": "35.5"
         }
       }
@@ -4241,6 +4267,63 @@
           "actual_yahoo_raw": "2.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.4"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway NAV Unemployment Rate n.s.a.",
+      "yahoo_title": "Reg'd Unemployment NSA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 2.1,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Unemployment Rate",
+      "yahoo_title": "Unemployment Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 4.1,
+          "forecast_yahoo": null,
+          "actual_primary": 4.2,
+          "actual_yahoo": 4.2,
+          "previous_primary": 4.1,
+          "previous_yahoo": 4.1,
+          "actual_yahoo_raw": "4.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "4.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Average Weekly Hours",
+      "yahoo_title": "Average Workweek Hrs",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 34.3,
+          "forecast_yahoo": null,
+          "actual_primary": 34.4,
+          "actual_yahoo": 34.4,
+          "previous_primary": 34.4,
+          "previous_yahoo": 34.4,
+          "actual_yahoo_raw": "34.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "34.4"
         }
       }
     },
