@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T12:30:54Z",
-  "generatedAt": "2026-10-02T12:30:54Z",
+  "lastUpdate": "2026-10-02T12:32:51Z",
+  "generatedAt": "2026-10-02T12:32:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2537,6 +2537,31 @@
       "n": 2,
       "mean": 49.0,
       "std": 101.823376
+    },
+    "USD/average weekly hours": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.0
+    },
+    "USD/government payrolls": {
+      "n": 2,
+      "mean": 7.5,
+      "std": 34.648232
+    },
+    "USD/private nonfarm payrolls": {
+      "n": 2,
+      "mean": 38.0,
+      "std": 57.982756
+    },
+    "USD/u6 unemployment rate": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.0
+    },
+    "USD/manufacturing payrolls": {
+      "n": 2,
+      "mean": 14.0,
+      "std": 7.071068
     },
     "EUR/belgium new car registrations yoy": {
       "n": 2,
@@ -71865,7 +71890,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Weekly Hours",
       "impact": "low",
-      "actual": null,
+      "actual": "34.4",
       "forecast": "34.3",
       "previous": "34.4"
     },
@@ -71878,7 +71903,7 @@
       "flag": "🇺🇸",
       "event": "United States Government Payrolls",
       "impact": "low",
-      "actual": null,
+      "actual": "-17K",
       "forecast": "0K",
       "previous": "35K"
     },
@@ -71891,7 +71916,7 @@
       "flag": "🇺🇸",
       "event": "United States Private Nonfarm Payrolls",
       "impact": "medium",
-      "actual": null,
+      "actual": "46K",
       "forecast": "49K",
       "previous": "127K"
     },
@@ -71904,7 +71929,7 @@
       "flag": "🇺🇸",
       "event": "United States U6 Unemployment Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "7.6%",
       "forecast": "7.5%",
       "previous": "7.7%"
     },
@@ -71917,7 +71942,7 @@
       "flag": "🇺🇸",
       "event": "United States Manufacturing Payrolls",
       "impact": "low",
-      "actual": null,
+      "actual": "9K",
       "forecast": "0K",
       "previous": "16K"
     },
