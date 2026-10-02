@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:19:54Z",
+  "generatedAt": "2026-10-02T19:25:29Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -949,16 +949,16 @@
       "secondary_title": "United States Baker Hughes Oil Rig Count",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-02",
+          "dateISO": "2026-10-09",
           "forecast_primary": null,
           "forecast_secondary": null,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": 455.0,
-          "previous_secondary": 455.0,
+          "previous_primary": 456.0,
+          "previous_secondary": 456.0,
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "455"
+          "previous_secondary_raw": "456"
         }
       }
     },
@@ -968,16 +968,16 @@
       "secondary_title": "United States Baker Hughes Total Rigs Count",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-02",
+          "dateISO": "2026-10-09",
           "forecast_primary": null,
           "forecast_secondary": null,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": 599.0,
-          "previous_secondary": 599.0,
+          "previous_primary": 598.0,
+          "previous_secondary": 598.0,
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "599"
+          "previous_secondary_raw": "598"
         }
       }
     },
@@ -2211,6 +2211,70 @@
       "yahoo_title": "GDP YY"
     },
     {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI m/m",
+      "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.1,
+          "forecast_secondary": 0.1,
+          "actual_primary": -0.2,
+          "actual_secondary": -0.2,
+          "previous_primary": 0.2,
+          "previous_secondary": 0.2,
+          "actual_secondary_raw": "-0.2%",
+          "forecast_secondary_raw": "0.1%",
+          "previous_secondary_raw": "0.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": -0.2,
+          "actual_yahoo": -0.2,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "-0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
+        }
+      },
+      "yahoo_title": "Nationwide house price mm*"
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI y/y",
+      "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_secondary": 1.5,
+          "actual_primary": 0.8,
+          "actual_secondary": 0.8,
+          "previous_primary": 1.6,
+          "previous_secondary": 1.6,
+          "actual_secondary_raw": "0.8%",
+          "forecast_secondary_raw": "1.5%",
+          "previous_secondary_raw": "1.6%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.8,
+          "actual_yahoo": 0.8,
+          "previous_primary": 1.6,
+          "previous_yahoo": 1.6,
+          "actual_yahoo_raw": "0.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.6"
+        }
+      },
+      "yahoo_title": "Nationwide house price yy*"
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Wholesale Inventories m/m",
       "secondary_title": "United States Wholesale Inventories MoM",
@@ -2924,70 +2988,6 @@
           "previous_secondary_raw": "-15.7%"
         }
       }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Nationwide HPI m/m",
-      "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 0.1,
-          "forecast_secondary": 0.1,
-          "actual_primary": -0.2,
-          "actual_secondary": -0.2,
-          "previous_primary": 0.2,
-          "previous_secondary": 0.2,
-          "actual_secondary_raw": "-0.2%",
-          "forecast_secondary_raw": "0.1%",
-          "previous_secondary_raw": "0.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.2,
-          "actual_yahoo": -0.2,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "-0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      },
-      "yahoo_title": "Nationwide house price mm*"
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Nationwide HPI y/y",
-      "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 2.1,
-          "forecast_secondary": 1.5,
-          "actual_primary": 0.8,
-          "actual_secondary": 0.8,
-          "previous_primary": 1.6,
-          "previous_secondary": 1.6,
-          "actual_secondary_raw": "0.8%",
-          "forecast_secondary_raw": "1.5%",
-          "previous_secondary_raw": "1.6%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 2.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": 1.6,
-          "previous_yahoo": 1.6,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.6"
-        }
-      },
-      "yahoo_title": "Nationwide house price yy*"
     },
     {
       "currency": "USD",
@@ -4018,20 +4018,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
-      "yahoo_title": "Tankan Small Non-Mf Idx",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": 16.0,
+          "forecast_primary": 8.0,
           "forecast_yahoo": null,
-          "actual_primary": 15.0,
-          "actual_yahoo": 15.0,
-          "previous_primary": 15.0,
-          "previous_yahoo": 15.0,
-          "actual_yahoo_raw": "15",
+          "actual_primary": 10.0,
+          "actual_yahoo": 10.0,
+          "previous_primary": 8.0,
+          "previous_yahoo": 8.0,
+          "actual_yahoo_raw": "10",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "15"
+          "previous_yahoo_raw": "8"
         }
       }
     },
