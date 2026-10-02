@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T07:01:07Z",
-  "generatedAt": "2026-10-02T07:01:07Z",
+  "lastUpdate": "2026-10-02T07:02:47Z",
+  "generatedAt": "2026-10-02T07:02:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1254,9 +1254,9 @@
       "std": 1.594783
     },
     "EUR/spain unemployment change": {
-      "n": 2,
-      "mean": -46.72,
-      "std": 9.786358
+      "n": 3,
+      "mean": -36.726667,
+      "std": 18.640991
     },
     "EUR/italy retail sales yoy": {
       "n": 3,
@@ -2287,6 +2287,16 @@
       "n": 2,
       "mean": 0.55,
       "std": 1.343503
+    },
+    "EUR/austria inflation rate mom prel": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.212132
+    },
+    "EUR/austria inflation rate yoy prel": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.212132
     },
     "EUR/austria unemployed persons": {
       "n": 2,
@@ -71498,7 +71508,7 @@
       "flag": "🇪🇺",
       "event": "Austria Inflation Rate YoY Prel",
       "impact": "low",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.6%",
       "previous": "3.2%"
     },
@@ -71511,7 +71521,7 @@
       "flag": "🇪🇺",
       "event": "Austria Inflation Rate MoM Prel",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.6%"
     },
@@ -71524,7 +71534,7 @@
       "flag": "🇪🇺",
       "event": "Spain Unemployment Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "23.587K",
       "forecast": "6.847K",
       "previous": "44.419K"
     },
