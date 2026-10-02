@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:20:59Z",
+  "generated_at": "2026-10-02T02:11:16Z",
   "script_version": "1.0",
   "methodology": "Walk-forward, no-lookahead export of the same server-side BEER ridge regression the live Fair Value panel uses (compute_fair_value.py). Each computed row's fair_value/z_score used only data available up to and including that row's own date -- never later data. Rows before a pair reaches 60 usable business days show raw inputs only (model_status=insufficient_history); a regression that fails or has zero residual variance on a given window shows model_status=regression_failed; a row whose inputs lie materially outside the region the trailing window was fitted on (hidden extrapolation) is re-fitted without the one input that causes it (model_status=computed_reduced, fit=Regularized), or, if no single exclusion restores support, shows model_status=out_of_support and carries no fair_value/z_score. No value in this export is estimated or interpolated -- every spot/rate_diff/stress/ca_diff/tb_diff/prod_diff figure is the same real, dated input the live panel logs.",
   "min_rows_for_regression": 60,
@@ -12,230 +12,230 @@
     "prod_diff"
   ],
   "pairs_exported": 32,
-  "total_computed_rows_all_pairs": 800,
+  "total_computed_rows_all_pairs": 832,
   "pairs": {
     "eurusd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpusd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "usdjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "audusd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "usdchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "usdcad": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "nzdusd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "usdnok": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "usdsek": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurnok": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eursek": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurgbp": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurcad": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "euraud": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpcad": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "audjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "audnzd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "audchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "cadjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "chfjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "nzdjpy": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "eurnzd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpaud": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "gbpnzd": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "audcad": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "cadchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "nzdcad": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     },
     "nzdchf": {
-      "totalRows": 84,
-      "computedRows": 25,
+      "totalRows": 85,
+      "computedRows": 26,
       "firstDate": "2026-06-03",
-      "lastDate": "2026-10-01",
+      "lastDate": "2026-10-02",
       "firstComputedDate": "2026-08-27"
     }
   }
