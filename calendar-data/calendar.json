@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T22:00:57Z",
-  "generatedAt": "2026-10-02T22:00:57Z",
+  "lastUpdate": "2026-10-02T22:02:50Z",
+  "generatedAt": "2026-10-02T22:02:50Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,14 +9,14 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-02",
   "rangeTo": "2026-10-16",
-  "totalEvents": 6015,
+  "totalEvents": 6016,
   "currencyCounts": {
     "AUD": 356,
     "JPY": 423,
     "CHF": 162,
     "EUR": 1714,
     "GBP": 587,
-    "USD": 1875,
+    "USD": 1876,
     "CAD": 349,
     "NZD": 152,
     "SEK": 245,
@@ -24,7 +24,7 @@
   },
   "impactCounts": {
     "high": 1691,
-    "medium": 2471,
+    "medium": 2472,
     "low": 1853
   },
   "surpriseStats": {
@@ -74474,6 +74474,19 @@
       "currency": "GBP",
       "flag": "🇬🇧",
       "event": "BoE Bank Liabilities Survey",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "8 Oct",
+      "dateISO": "2026-10-08",
+      "timeUTC": "08:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Fed Governor Waller Speech",
       "impact": "medium",
       "actual": null,
       "forecast": null,
