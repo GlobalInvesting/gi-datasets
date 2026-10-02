@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T12:59:44Z",
+  "generatedAt": "2026-10-02T16:19:54Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 199,
+  "aliasCount": 198,
   "aliases": [
     {
       "currency": "JPY",
@@ -1423,21 +1423,8 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "48.6",
           "previous_secondary_raw": "48.1"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 47.8,
-          "forecast_yahoo": null,
-          "actual_primary": 48.1,
-          "actual_yahoo": 48.1,
-          "previous_primary": 47.8,
-          "previous_yahoo": 47.8,
-          "actual_yahoo_raw": "48.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "47.8"
         }
-      },
-      "yahoo_title": "U Mich Sentiment Final*"
+      }
     },
     {
       "currency": "USD",
@@ -1455,21 +1442,8 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "46.5",
           "previous_secondary_raw": "46.3"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 45.8,
-          "forecast_yahoo": null,
-          "actual_primary": 46.3,
-          "actual_yahoo": 46.3,
-          "previous_primary": 45.8,
-          "previous_yahoo": 45.8,
-          "actual_yahoo_raw": "46.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "45.8"
         }
-      },
-      "yahoo_title": "U Mich Expectations Final*"
+      }
     },
     {
       "currency": "USD",
@@ -1487,21 +1461,8 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "51",
           "previous_secondary_raw": "50.9"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 50.9,
-          "forecast_yahoo": null,
-          "actual_primary": 50.9,
-          "actual_yahoo": 50.9,
-          "previous_primary": 50.9,
-          "previous_yahoo": 50.9,
-          "actual_yahoo_raw": "50.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "50.9"
         }
-      },
-      "yahoo_title": "U Mich Conditions Final*"
+      }
     },
     {
       "currency": "USD",
@@ -1538,21 +1499,8 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "3.5%",
           "previous_secondary_raw": "3.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 3.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.4,
-          "actual_yahoo": 3.4,
-          "previous_primary": 3.4,
-          "previous_yahoo": 3.4,
-          "actual_yahoo_raw": "3.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.4"
         }
-      },
-      "yahoo_title": "U Mich 5-Yr Inf Final*"
+      }
     },
     {
       "currency": "USD",
@@ -2261,70 +2209,6 @@
         }
       },
       "yahoo_title": "GDP YY"
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Nationwide HPI m/m",
-      "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 0.1,
-          "forecast_secondary": 0.1,
-          "actual_primary": -0.2,
-          "actual_secondary": -0.2,
-          "previous_primary": 0.2,
-          "previous_secondary": 0.2,
-          "actual_secondary_raw": "-0.2%",
-          "forecast_secondary_raw": "0.1%",
-          "previous_secondary_raw": "0.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.2,
-          "actual_yahoo": -0.2,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "-0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      },
-      "yahoo_title": "Nationwide house price mm*"
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Nationwide HPI y/y",
-      "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 2.1,
-          "forecast_secondary": 1.5,
-          "actual_primary": 0.8,
-          "actual_secondary": 0.8,
-          "previous_primary": 1.6,
-          "previous_secondary": 1.6,
-          "actual_secondary_raw": "0.8%",
-          "forecast_secondary_raw": "1.5%",
-          "previous_secondary_raw": "1.6%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 2.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": 1.6,
-          "previous_yahoo": 1.6,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.6"
-        }
-      },
-      "yahoo_title": "Nationwide house price yy*"
     },
     {
       "currency": "USD",
@@ -3042,6 +2926,70 @@
       }
     },
     {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI m/m",
+      "secondary_title": "United Kingdom Nationwide Housing Prices MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.1,
+          "forecast_secondary": 0.1,
+          "actual_primary": -0.2,
+          "actual_secondary": -0.2,
+          "previous_primary": 0.2,
+          "previous_secondary": 0.2,
+          "actual_secondary_raw": "-0.2%",
+          "forecast_secondary_raw": "0.1%",
+          "previous_secondary_raw": "0.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": -0.2,
+          "actual_yahoo": -0.2,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "-0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
+        }
+      },
+      "yahoo_title": "Nationwide house price mm*"
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Nationwide HPI y/y",
+      "secondary_title": "United Kingdom Nationwide Housing Prices YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_secondary": 1.5,
+          "actual_primary": 0.8,
+          "actual_secondary": 0.8,
+          "previous_primary": 1.6,
+          "previous_secondary": 1.6,
+          "actual_secondary_raw": "0.8%",
+          "forecast_secondary_raw": "1.5%",
+          "previous_secondary_raw": "1.6%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.8,
+          "actual_yahoo": 0.8,
+          "previous_primary": 1.6,
+          "previous_yahoo": 1.6,
+          "actual_yahoo_raw": "0.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.6"
+        }
+      },
+      "yahoo_title": "Nationwide house price yy*"
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Average Hourly Earnings m/m",
       "secondary_title": "United States Average Hourly Earnings MoM",
@@ -3120,15 +3068,28 @@
           "dateISO": "2026-10-02",
           "forecast_primary": -0.2,
           "forecast_secondary": 0.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.1,
+          "actual_secondary": 0.1,
           "previous_primary": 0.9,
-          "previous_secondary": 0.9,
-          "actual_secondary_raw": null,
+          "previous_secondary": 0.8,
+          "actual_secondary_raw": "0.1%",
           "forecast_secondary_raw": "0.0%",
-          "previous_secondary_raw": "0.9%"
+          "previous_secondary_raw": "0.8%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": -0.2,
+          "forecast_yahoo": null,
+          "actual_primary": 0.1,
+          "actual_yahoo": 0.1,
+          "previous_primary": 0.9,
+          "previous_yahoo": 0.9,
+          "actual_yahoo_raw": "0.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.9"
         }
-      }
+      },
+      "yahoo_title": "Factory Orders MM"
     },
     {
       "currency": "USD",
@@ -3139,15 +3100,28 @@
           "dateISO": "2026-10-02",
           "forecast_primary": -0.1,
           "forecast_secondary": 0.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.3,
+          "actual_secondary": 0.3,
           "previous_primary": 0.6,
-          "previous_secondary": 0.6,
-          "actual_secondary_raw": null,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": "0.3%",
           "forecast_secondary_raw": "0.2%",
-          "previous_secondary_raw": "0.6%"
+          "previous_secondary_raw": "0.7%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": -0.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.3,
+          "actual_yahoo": 0.3,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
         }
-      }
+      },
+      "yahoo_title": "Factory Ex-Transp MM"
     },
     {
       "currency": "AUD",
@@ -3207,25 +3181,6 @@
       }
     },
     {
-      "currency": "GBP",
-      "primary_title": "United Kingdom New Car Registrations y/y",
-      "secondary_title": "United Kingdom New Car Sales YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": null,
-          "forecast_secondary": 12.0,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 13.7,
-          "previous_secondary": 13.7,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "12.0%",
-          "previous_secondary_raw": "13.7%"
-        }
-      }
-    },
-    {
       "currency": "EUR",
       "primary_title": "Euro Area PPI m/m",
       "secondary_title": "Euro Area PPI MoM",
@@ -3233,13 +3188,13 @@
         "secondary": {
           "dateISO": "2026-10-05",
           "forecast_primary": 0.0,
-          "forecast_secondary": 0.9,
+          "forecast_secondary": 2.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.6,
           "previous_secondary": 1.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.9%",
+          "forecast_secondary_raw": "2.0%",
           "previous_secondary_raw": "1.6%"
         }
       }
@@ -3252,13 +3207,13 @@
         "secondary": {
           "dateISO": "2026-10-05",
           "forecast_primary": 6.6,
-          "forecast_secondary": 7.1,
+          "forecast_secondary": 8.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 5.8,
           "previous_secondary": 5.8,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "7.1%",
+          "forecast_secondary_raw": "8.3%",
           "previous_secondary_raw": "5.8%"
         }
       }
@@ -3328,13 +3283,13 @@
         "secondary": {
           "dateISO": "2026-10-06",
           "forecast_primary": -0.1,
-          "forecast_secondary": -0.4,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -0.6,
           "previous_secondary": -0.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.4%",
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "-0.6%"
         }
       }
@@ -3347,13 +3302,13 @@
         "secondary": {
           "dateISO": "2026-10-06",
           "forecast_primary": 1.2,
-          "forecast_secondary": 0.1,
+          "forecast_secondary": 0.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.6,
           "previous_secondary": 0.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.1%",
+          "forecast_secondary_raw": "0.5%",
           "previous_secondary_raw": "0.6%"
         }
       }
@@ -3366,13 +3321,13 @@
         "secondary": {
           "dateISO": "2026-10-06",
           "forecast_primary": 56.2,
-          "forecast_secondary": 53.0,
+          "forecast_secondary": 65.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 64.3,
           "previous_secondary": 64.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "53",
+          "forecast_secondary_raw": "65",
           "previous_secondary_raw": "64.3"
         }
       }
