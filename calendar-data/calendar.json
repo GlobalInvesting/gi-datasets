@@ -1,58 +1,33 @@
 {
-  "lastUpdate": "2026-10-01T23:58:43Z",
-  "generatedAt": "2026-10-01T23:58:43Z",
+  "lastUpdate": "2026-10-02T00:00:20Z",
+  "generatedAt": "2026-10-02T00:00:20Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-10-01",
+  "rangeFrom": "2025-10-02",
   "rangeTo": "2026-10-15",
-  "totalEvents": 5942,
+  "totalEvents": 5926,
   "currencyCounts": {
-    "EUR": 1687,
-    "GBP": 585,
-    "CHF": 164,
-    "USD": 1844,
     "AUD": 355,
     "JPY": 416,
+    "CHF": 161,
+    "EUR": 1682,
+    "GBP": 583,
+    "USD": 1838,
     "CAD": 345,
     "NZD": 150,
     "SEK": 244,
     "NOK": 152
   },
   "impactCounts": {
-    "medium": 2448,
-    "high": 1697,
+    "high": 1690,
+    "medium": 2439,
     "low": 1797
   },
   "surpriseStats": {
-    "EUR/france industrial production mom": {
-      "n": 3,
-      "mean": -0.133333,
-      "std": 0.404145
-    },
-    "EUR/italy retail sales mom": {
-      "n": 4,
-      "mean": 0.15,
-      "std": 0.818535
-    },
-    "EUR/italy retail sales yoy": {
-      "n": 4,
-      "mean": -0.5,
-      "std": 1.870829
-    },
-    "GBP/dmp 1y cpi expectations": {
-      "n": 2,
-      "mean": -0.3,
-      "std": 0.141421
-    },
-    "EUR/spain consumer confidence": {
-      "n": 2,
-      "mean": 0.95,
-      "std": 1.767767
-    },
     "EUR/germany factory orders mom": {
       "n": 4,
       "mean": 1.325,
@@ -1283,6 +1258,16 @@
       "mean": -46.72,
       "std": 9.786358
     },
+    "EUR/italy retail sales yoy": {
+      "n": 3,
+      "mean": -0.8,
+      "std": 2.170253
+    },
+    "EUR/italy retail sales mom": {
+      "n": 3,
+      "mean": 0.166667,
+      "std": 1.001665
+    },
     "USD/factory orders mom": {
       "n": 3,
       "mean": 0.266667,
@@ -1292,6 +1277,11 @@
       "n": 4,
       "mean": -0.0805,
       "std": 0.096532
+    },
+    "EUR/france industrial production mom": {
+      "n": 2,
+      "mean": -0.35,
+      "std": 0.212132
     },
     "USD/adp employment change": {
       "n": 3,
@@ -2535,198 +2525,6 @@
     }
   },
   "events": [
-    {
-      "currency": "EUR",
-      "event": "Inflation Rate YoY",
-      "dateISO": "2025-10-01",
-      "actual": "3.3%",
-      "forecast": "2.8",
-      "previous": "2.8",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "04:30"
-    },
-    {
-      "currency": "GBP",
-      "event": "Nationwide Housing Prices YoY",
-      "dateISO": "2025-10-01",
-      "actual": "2.2%",
-      "forecast": "1.8",
-      "previous": "2.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "06:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "Nationwide Housing Prices MoM",
-      "dateISO": "2025-10-01",
-      "actual": "0.5%",
-      "forecast": "0.2",
-      "previous": "-0.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "06:00"
-    },
-    {
-      "currency": "CHF",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-10-01",
-      "actual": "-0.2%",
-      "forecast": "-0.3",
-      "previous": "-0.4",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "06:30"
-    },
-    {
-      "currency": "CHF",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-10-01",
-      "actual": "-0.2%",
-      "forecast": "0.5",
-      "previous": "0.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "06:30"
-    },
-    {
-      "currency": "CHF",
-      "event": "procure.ch Manufacturing PMI",
-      "dateISO": "2025-10-01",
-      "actual": "46.3",
-      "forecast": "48.0",
-      "previous": "49.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:30"
-    },
-    {
-      "currency": "EUR",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-10-01",
-      "actual": "7%",
-      "forecast": "6.8",
-      "previous": "7.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:30"
-    },
-    {
-      "currency": "EUR",
-      "event": "Core Inflation Rate YoY",
-      "dateISO": "2025-10-01",
-      "actual": "2.3%",
-      "forecast": "2.3",
-      "previous": "2.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Inflation Rate MoM",
-      "dateISO": "2025-10-01",
-      "actual": "0.1%",
-      "forecast": "0.1",
-      "previous": "0.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "CPI",
-      "dateISO": "2025-10-01",
-      "actual": "129.42",
-      "forecast": "129.4",
-      "previous": "129.31",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "USD",
-      "event": "MBA 30-Year Mortgage Rate",
-      "dateISO": "2025-10-01",
-      "actual": "6.46%",
-      "forecast": "",
-      "previous": "6.34",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "11:00"
-    },
-    {
-      "currency": "USD",
-      "event": "ADP Employment Change",
-      "dateISO": "2025-10-01",
-      "actual": "-32K",
-      "forecast": "50.0",
-      "previous": "-3.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:15"
-    },
-    {
-      "currency": "USD",
-      "event": "ISM Manufacturing Employment",
-      "dateISO": "2025-10-01",
-      "actual": "45.3",
-      "forecast": "44.0",
-      "previous": "43.8",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:00"
-    },
-    {
-      "currency": "USD",
-      "event": "ISM Manufacturing PMI",
-      "dateISO": "2025-10-01",
-      "actual": "49.1",
-      "forecast": "49.0",
-      "previous": "48.7",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "14:00"
-    },
-    {
-      "currency": "USD",
-      "event": "EIA Gasoline Stocks Change",
-      "dateISO": "2025-10-01",
-      "actual": "4.125M",
-      "forecast": "0.5",
-      "previous": "-1.081",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:30"
-    },
-    {
-      "currency": "USD",
-      "event": "EIA Crude Oil Stocks Change",
-      "dateISO": "2025-10-01",
-      "actual": "1.792M",
-      "forecast": "1.5",
-      "previous": "-0.607",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:30"
-    },
     {
       "currency": "AUD",
       "event": "Balance of Trade",
