@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-02T05:53:19Z",
+  "generated_at": "2026-10-02T07:01:36Z",
   "signals": [
     {
-      "time": "05:51",
+      "time": "06:58",
       "priority": "critical",
       "title": "AUD/JPY — G10 Bilateral Theme + Tokyo CPI Repricing",
-      "text": "The G10 scorecard flags JPY as the week's dominant leader at +1.134% across 7 pairs, while AUD sits as the sole laggard at −0.817% across 4 pairs, creating an extreme bilateral spread of 1.950%. Spot AUD/JPY trades at 109.46, pressured after September Tokyo Core CPI printed hot at 2.7% year-on-year against 1.9% expected, forcing a repricing of BoJ policy tightening expectations. This nominal outperformance directly defies the +335bp policy rate carry advantage favoring AUD from RBA at 4.6% vs BoJ at 1.25% (OIS differential +337bp). A MOVE index reading of 108.1 signals elevated bond market volatility that continues to encourage rapid carry de-risking into JPY. AUD/USD trading below its SMA20/50/200 cluster at 0.6933 confirms broader Australian dollar technical deterioration. Trade bias: Bearish AUD/JPY; bond market volatility and Tokyo inflation repricing outweigh carry support. Catalyst: BoJ meeting 30 Oct — hold market bias priced. Risk: Broad cross-asset risk-on rally resumes and suppresses bond volatility, reasserting the 335bp carry advantage.",
+      "text": "AUD/JPY trades at 109.467 as the G10 Currency Strength Scorecard registers a 1.954% leader-to-laggard divergence over the 1W window. JPY leads the G10 complex with a 1W average gain of +1.109% across 7 pairs following the hotter-than-forecast Tokyo Core CPI print of 2.7% year-over-year against 1.9% expected. AUD lags the entire G10 board with a 1W average decline of -0.845% across 4 pairs, despite RBA at 4.6% vs BoJ 1.25% offering a +335bp nominal carry advantage and AONIA 4.60% vs TONA 1.23% giving a +337bp OIS spread. JPY COT Leveraged Funds positioning sits at net long +4,472 contracts (pctl 98, z +2.66), indicating stretched speculative long positioning in the yen even as Tokyo rate volatility accelerates. With AUD/USD below its SMA20/50/200 cluster at 0.6933, the massive carry premium in AUD/JPY is failing to insulate the cross against JPY strength. Trade bias: Bearish AUD/JPY; yen macro repricing overrides the +335bp carry buffer. Catalyst: next BoJ meeting on 30 Oct — hold priced. Risk: JPY Leveraged Funds long unwind from 98th percentile relieves cross pressure.",
       "evidence": [
-        "JPY 1W avg: +1.134% (n=7)",
-        "AUD 1W avg: -0.817% (n=4)",
-        "G10 spread: 1.950%"
+        "JPY 1W avg: +1.109% (n=7)",
+        "AUD 1W avg: -0.845% (n=4)",
+        "G10 spread: 1.954%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "05:48",
+      "time": "06:55",
       "priority": "critical",
-      "title": "USD/JPY — Options Downside Skew + Tokyo CPI",
-      "text": "USD/JPY trades at 157.81, holding below its SMA50 at 158.15 and SMA200 at 158.48 while remaining above the SMA20 at 156.18. The 25-delta risk reversal sits at −2.60 vol, showing an aggressive put skew where the options market prices premium downside protection despite a +275bp Fed-BoJ carry advantage (Fed 4.00% vs BoJ 1.25%). Tokyo Core CPI accelerated to 2.7% versus 2.4% projected, reinforcing front-end rate support for the yen and prompting Asian official commentary on yield volatility. Meanwhile, USD/JPY 1M ATM implied volatility trades at 9.2% against 30-day realized volatility of 9.8%, yielding a negative volatility risk premium of −0.7% that indicates option pricing complacency ahead of high-impact US macro prints. CFTC data shows JPY leveraged funds net long +4,472 contracts at the 98th percentile of the 52-week range (z = +2.66), reflecting institutional positioning crowded in favor of yen strength. Trade bias: Bearish USD/JPY, downside protection demand dominates into technical resistance. Catalyst: US Nonfarm Payrolls at 12:30 UTC — forecast 52K. Risk: US NFP delivers a major upside beat, lifting US yields and forcing a squeeze back through the SMA200 at 158.48.",
+      "title": "USD/JPY — Options Downside Skew + CPI Driver",
+      "text": "USD/JPY prints at 157.78, holding below its SMA50 at 158.15 and SMA200 at 158.48 while remaining above the SMA20 at 156.18. Saxo Bank 25d Risk Reversals trade at an extreme -2.60 put skew, reflecting substantial options market demand for downside protection despite a +275bp Fed-BoJ policy rate spread (Fed 4.00% vs BoJ 1.25%) and a +267bp SOFR-TONA carry advantage. JPY COT Leveraged Funds positioning shows a crowded long profile at net +4,472 contracts with a 52-week percentile of 98 (z +2.66), even after a WoW reduction of 15,597 contracts. Spot is under pressure following the Tokyo Core CPI upside surprise of 2.7% versus 1.9% consensus, which reinforces policy tightening expectations in Tokyo. Trade bias: Bearish USD/JPY; extreme put skew and domestic inflation support JPY over the USD carry gap. Catalyst: US Nonfarm Payrolls at 12:30 UTC — forecast 52K. Risk: A sharp US jobs beat sends US 2Y yields higher, expanding the 295bp US-JP 2Y yield advantage and forcing put coverage.",
       "evidence": [
-        "USD/JPY 25d RR: -2.60 vol",
-        "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "JPY COT pctl(52w): 98 (z: +2.66)"
+        "USDJPY 25d RR: -2.60",
+        "JPY COT LF net: +4,472 (pctl 98, z +2.66)",
+        "Fed 4.00% vs BoJ 1.25% — 275bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "05:45",
+      "time": "06:52",
       "priority": "warning",
-      "title": "EUR/USD — Rates Divergence + Elevated Volatility Premium",
-      "text": "EUR/USD trades at 1.1252, down 1.08% over the past week and positioned below its SMA20 (1.1482), SMA50 (1.1532), and SMA200 (1.1615). The policy rate differential of Fed 4.00% vs ECB 2.65% delivers a +135bp carry advantage favoring USD (+146bp via OIS), while Germany-US 2-year yield spreads widened 43bp in USD's favor over the past five sessions to −182bp. US 5-year yields widened 23bp over 5 sessions to 5.06% (FRED, as of Sep 29) led by a 21bp rise in real yields. Options markets display elevated stress with EUR/USD 1M ATM implied volatility at 6.5% against 30-day realized volatility of 3.8%, generating a +2.7% volatility risk premium alongside a 25-delta risk reversal put skew of −1.01. Retail positioning is heavily skewed long at 88%, contradicting institutional leveraged fund positioning which holds net short −58,805 contracts. Trade bias: Bearish EUR/USD; real yield expansion and structural carry deficit cap spot upside. Catalyst: Euro Area CPI y/y at 09:00 UTC — forecast 3.0%. Risk: Eurozone headline inflation prints significantly above forecast, forcing hawkish ECB repricing ahead of the October 29 meeting.",
+      "title": "EUR/USD — Rate Divergence + Retail Positioning Skew",
+      "text": "EUR/USD trades at 1.1263, trapped in a deterministic downtrend below its SMA20 (1.1482), SMA50 (1.1532), and SMA200 (1.1615). Fed 4.00% (hiking) vs ECB 2.65% (hiking) provides a +135bp carry advantage favoring the dollar, reinforced by SOFR 3.90% vs ESTR 2.44% delivering a +146bp OIS differential. The 2Y yield spread between Germany and the US sits at -182bp, having widened by 43bp over the last 5 sessions in the dollar's favor. CFTC data shows Leveraged Funds net short EUR at -58,805 contracts (WoW -7,450), while retail sentiment on Retail sentiment data is positioned 87% long versus 13% short. This clear divergence between institutional accumulation of shorts and extreme retail contrarian longs highlights capitulation risk for retail longs if support fails. Trade bias: Bearish EUR/USD; persistent rate spread widening and retail overhang keep rallies capped. Catalyst: Euro Area CPI y/y at 09:00 UTC — forecast 3.0%. Risk: Eurozone core inflation beats significantly, forcing an ECB hawkish pivot and closing the rate spread.",
       "evidence": [
         "Fed 4.00% vs ECB 2.65% — 135bp",
-        "EUR/USD VRP: +2.7% (IV 6.5% vs HV30 3.8%)",
-        "DE-US 2Y spread 5D Δ: -43bp"
+        "EUR retail sentiment: 87% long",
+        "EUR COT LF net: -58,805 (WoW -7,450)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "05:42",
+      "time": "06:47",
       "priority": "warning",
-      "title": "GBP/USD — Carry Compression + Hedging Demand",
-      "text": "GBP/USD trades at 1.3211, testing below its SMA20 (1.3383) and converging SMA50/SMA200 cluster at 1.3455/1.3447. CFTC positioning shows leveraged funds cut net long exposure by 12,179 contracts WoW to +6,519, sitting at the 8th percentile of its 52-week range (z = −1.66) and marking rapid institutional liquidation. The policy spread of Fed 4.00% vs BoE 3.75% provides a +25bp carry advantage to USD (+17bp in OIS space), amplified by UK-US 2Y yield spreads moving 31bp in USD's favor over five sessions to −24bp. The options market reflects heightened protection costs, with 1M ATM implied volatility at 6.6% versus realized volatility of 4.2%, creating an elevated volatility risk premium of +2.4% alongside a 25-delta risk reversal put skew of −1.01. This combination confirms institutional hedging against further Cable downside rather than buying into trend dips. Trade bias: Bearish GBP/USD; institutional positioning liquidation and yield spread compression leave spot vulnerable. Catalyst: US Nonfarm Payrolls at 12:30 UTC — forecast 52K. Risk: BoE policy repricing turns aggressively hawkish following upcoming UK housing data, driving a recovery back above the SMA20 at 1.3383.",
+      "title": "GBP/USD — Elevated Vol Premium + Real-Yield Drag",
+      "text": "GBP/USD changes hands at 1.3217, trading beneath its SMA20 (1.3383), SMA50 (1.3455), and SMA200 (1.3447). Saxo Bank options analytics report 1M ATM implied volatility at 6.6% against a 30-day realized volatility of 4.2%, establishing an elevated Vol Risk Premium of +2.4% that points to heavy downside hedging demand. The rate backdrop is unfavorable for sterling, with BoE at 3.75% on hold vs Fed 4.00% hiking (+25bp spread favoring USD) and the UK-US 2Y yield spread shifting 31bp in the dollar's favor over the past 5 sessions to -24bp. FRED yield decomposition shows US 5Y nominal yields rose 23bp over 5 days (as of Sep 29), led almost entirely by real yields rising 21bp with breakevens adding only 2bp. Furthermore, GBP speculative positioning shows Leveraged Funds shedding 12,179 contracts WoW to +6,519 net (pctl 8, z -1.66), reflecting aggressive long liquidation. Trade bias: Bearish GBP/USD; elevated options hedging and real yield pressure keep downside open toward 1.3150. Catalyst: US Nonfarm Payrolls at 12:30 UTC — forecast 52K. Risk: US average hourly earnings miss sharply, triggering a broad USD pullback across G10.",
       "evidence": [
-        "GBP COT pctl(52w): 8 (z: -1.66)",
-        "Fed 4.00% vs BoE 3.75% — 25bp",
-        "GBP/USD VRP: +2.4% (IV 6.6% vs HV30 4.2%)"
+        "GBP/USD IV 6.6% vs HV30 4.2% — VRP +2.4%",
+        "GBP COT LF net: +6,519 (pctl 8, z -1.66)",
+        "Fed 4.00% vs BoE 3.75% — 25bp"
       ],
       "_source": "engine-ai-primary"
     }
