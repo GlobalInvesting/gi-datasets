@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T13:58:55Z",
-  "generatedAt": "2026-10-02T13:58:55Z",
+  "lastUpdate": "2026-10-02T14:01:03Z",
+  "generatedAt": "2026-10-02T14:01:03Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1269,9 +1269,9 @@
       "std": 0.828654
     },
     "USD/factory orders mom": {
-      "n": 3,
-      "mean": 0.266667,
-      "std": 0.750555
+      "n": 4,
+      "mean": 0.275,
+      "std": 0.613052
     },
     "USD/jolts job openings": {
       "n": 4,
@@ -1704,9 +1704,9 @@
       "std": 0.424264
     },
     "USD/nondefense capital goods shipments excl. aircraft mom": {
-      "n": 3,
-      "mean": 0.166667,
-      "std": 0.351188
+      "n": 4,
+      "mean": 0.1,
+      "std": 0.316228
     },
     "USD/real pce mom": {
       "n": 2,
@@ -2507,6 +2507,11 @@
       "n": 2,
       "mean": 36.5,
       "std": 17.67767
+    },
+    "USD/factory orders excl. transportation mom": {
+      "n": 2,
+      "mean": 0.5,
+      "std": 0.141421
     },
     "JPY/au jibun bank services pmi": {
       "n": 2,
@@ -72138,7 +72143,7 @@
       "flag": "🇺🇸",
       "event": "United States Factory Orders m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "-0.2%",
       "previous": "0.9%"
     },
@@ -72151,7 +72156,7 @@
       "flag": "🇺🇸",
       "event": "United States Factory Orders excl. Transportation m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "-0.1%",
       "previous": "0.6%"
     },
@@ -72164,7 +72169,7 @@
       "flag": "🇺🇸",
       "event": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.6%",
       "previous": "0.6%"
     },
