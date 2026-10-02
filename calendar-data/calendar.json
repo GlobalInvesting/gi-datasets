@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T09:00:57Z",
-  "generatedAt": "2026-10-02T09:00:57Z",
+  "lastUpdate": "2026-10-02T09:02:56Z",
+  "generatedAt": "2026-10-02T09:02:56Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1174,9 +1174,9 @@
       "std": 1.78851
     },
     "EUR/inflation rate mom": {
-      "n": 5,
-      "mean": -0.68,
-      "std": 1.843095
+      "n": 6,
+      "mean": -0.733333,
+      "std": 1.653683
     },
     "EUR/core inflation rate yoy": {
       "n": 2,
@@ -1184,9 +1184,9 @@
       "std": 0.141421
     },
     "EUR/inflation rate yoy": {
-      "n": 4,
-      "mean": 0.025,
-      "std": 0.287228
+      "n": 5,
+      "mean": 0.0,
+      "std": 0.254951
     },
     "EUR/greece retail sales yoy": {
       "n": 3,
@@ -2352,6 +2352,16 @@
       "n": 2,
       "mean": -0.3145,
       "std": 1.690692
+    },
+    "EUR/croatia inflation rate mom prel": {
+      "n": 2,
+      "mean": 0.25,
+      "std": 0.353553
+    },
+    "EUR/croatia inflation rate yoy prel": {
+      "n": 2,
+      "mean": 0.3,
+      "std": 0.424264
     },
     "EUR/italy cpi mom": {
       "n": 3,
@@ -71619,7 +71629,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Inflation Rate MoM Prel",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.4%",
       "previous": "0.4%"
     },
@@ -71632,7 +71642,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Inflation Rate YoY Prel",
       "impact": "low",
-      "actual": null,
+      "actual": "4.7%",
       "forecast": "4.1%",
       "previous": "4.2%"
     },
@@ -71658,7 +71668,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "4.2%",
       "previous": "0.4%"
     },
@@ -71684,7 +71694,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "2.9%",
       "forecast": "3.0%",
       "previous": "3.2%"
     },
@@ -71723,7 +71733,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI",
       "impact": "low",
-      "actual": null,
+      "actual": "104.30",
       "forecast": null,
       "previous": "103.69"
     },
@@ -71736,7 +71746,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI",
       "impact": "medium",
-      "actual": null,
+      "actual": "103.30",
       "forecast": null,
       "previous": "103.06"
     },
