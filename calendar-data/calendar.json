@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-02T12:28:50Z",
-  "generatedAt": "2026-10-02T12:28:50Z",
+  "lastUpdate": "2026-10-02T12:30:54Z",
+  "generatedAt": "2026-10-02T12:30:54Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1304,19 +1304,19 @@
       "std": 0.212132
     },
     "USD/average hourly earnings yoy": {
-      "n": 3,
-      "mean": -0.166667,
-      "std": 0.23094
+      "n": 4,
+      "mean": -0.2,
+      "std": 0.2
     },
     "USD/average hourly earnings mom": {
-      "n": 3,
-      "mean": -0.033333,
-      "std": 0.152753
+      "n": 4,
+      "mean": -0.075,
+      "std": 0.15
     },
     "USD/participation rate": {
-      "n": 2,
-      "mean": 0.0,
-      "std": 0.282843
+      "n": 3,
+      "mean": 0.033333,
+      "std": 0.208167
     },
     "USD/non farm payrolls": {
       "n": 2,
@@ -1329,9 +1329,9 @@
       "std": 91.923882
     },
     "USD/unemployment rate": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.0,
+      "std": 0.1
     },
     "NOK/ppi yoy": {
       "n": 2,
@@ -2532,6 +2532,11 @@
       "n": 2,
       "mean": -0.25,
       "std": 0.070711
+    },
+    "USD/nonfarm payrolls": {
+      "n": 2,
+      "mean": 49.0,
+      "std": 101.823376
     },
     "EUR/belgium new car registrations yoy": {
       "n": 2,
@@ -71795,7 +71800,7 @@
       "flag": "🇺🇸",
       "event": "United States Unemployment Rate",
       "impact": "high",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "4.1%",
       "previous": "4.1%"
     },
@@ -71808,7 +71813,7 @@
       "flag": "🇺🇸",
       "event": "United States Nonfarm Payrolls",
       "impact": "high",
-      "actual": null,
+      "actual": "29K",
       "forecast": "52K",
       "previous": "162K"
     },
@@ -71821,7 +71826,7 @@
       "flag": "🇺🇸",
       "event": "United States Participation Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "61.8%",
       "forecast": "61.7%",
       "previous": "61.6%"
     },
@@ -71834,7 +71839,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Hourly Earnings m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -71847,7 +71852,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Hourly Earnings y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "3.0%",
       "forecast": "3.3%",
       "previous": "3.1%"
     },
