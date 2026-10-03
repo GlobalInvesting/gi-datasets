@@ -1,7 +1,7 @@
 {
   "rates": {
     "USD": 3.87,
-    "EUR": 2.65,
+    "EUR": 2.442,
     "GBP": 3.7329,
     "JPY": 1.226,
     "AUD": 4.6,
@@ -13,7 +13,7 @@
   },
   "sources": {
     "USD": "SOFR",
-    "EUR": "policy-fallback",
+    "EUR": "ESTR",
     "GBP": "SONIA",
     "JPY": "TONA",
     "AUD": "AONIA",
@@ -35,5 +35,5 @@
     "NOK": "2026-10-01",
     "SEK": "2026-10-01"
   },
-  "updated": "2026-10-03T01:56:37Z"
+  "updated": "2026-10-03T23:20:54Z"
 }
