@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T00:39:38Z",
+  "generatedAt": "2026-10-03T11:53:50Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 201,
+  "aliasCount": 199,
   "aliases": [
     {
       "currency": "JPY",
@@ -2654,8 +2654,21 @@
           "actual_secondary_raw": "11.3%",
           "forecast_secondary_raw": "5.0%",
           "previous_secondary_raw": "11.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 13.8,
+          "forecast_yahoo": null,
+          "actual_primary": 11.3,
+          "actual_yahoo": 11.3,
+          "previous_primary": 11.5,
+          "previous_yahoo": 11.5,
+          "actual_yahoo_raw": "11.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "11.5"
         }
-      }
+      },
+      "yahoo_title": "Tankan All Big Capex Est"
     },
     {
       "currency": "JPY",
@@ -2801,8 +2814,21 @@
           "actual_secondary_raw": "14",
           "forecast_secondary_raw": "10",
           "previous_secondary_raw": "9"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 14.0,
+          "actual_yahoo": 14.0,
+          "previous_primary": 9.0,
+          "previous_yahoo": 9.0,
+          "actual_yahoo_raw": "14",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "9"
         }
-      }
+      },
+      "yahoo_title": "Tankan Small Mf Idx"
     },
     {
       "currency": "AUD",
@@ -4006,44 +4032,6 @@
           "actual_yahoo_raw": "5.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-4.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 3.0,
-          "forecast_yahoo": null,
-          "actual_primary": 12.0,
-          "actual_yahoo": 12.0,
-          "previous_primary": 2.0,
-          "previous_yahoo": 2.0,
-          "actual_yahoo_raw": "12",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 8.0,
-          "forecast_yahoo": null,
-          "actual_primary": 10.0,
-          "actual_yahoo": 10.0,
-          "previous_primary": 8.0,
-          "previous_yahoo": 8.0,
-          "actual_yahoo_raw": "10",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "8"
         }
       }
     },
