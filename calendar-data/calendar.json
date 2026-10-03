@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026-10-02T23:58:44Z",
-  "generatedAt": "2026-10-02T23:58:44Z",
+  "lastUpdate": "2026-10-03T00:01:01Z",
+  "generatedAt": "2026-10-03T00:01:01Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-10-02",
+  "rangeFrom": "2025-10-03",
   "rangeTo": "2026-10-16",
-  "totalEvents": 6016,
+  "totalEvents": 5996,
   "currencyCounts": {
-    "AUD": 356,
-    "JPY": 423,
-    "CHF": 162,
-    "EUR": 1714,
-    "GBP": 587,
-    "USD": 1876,
+    "EUR": 1710,
+    "USD": 1875,
+    "CHF": 161,
+    "AUD": 355,
+    "JPY": 421,
+    "GBP": 576,
     "CAD": 349,
     "NZD": 152,
     "SEK": 245,
     "NOK": 152
   },
   "impactCounts": {
-    "high": 1691,
-    "medium": 2472,
-    "low": 1853
+    "medium": 2463,
+    "high": 1684,
+    "low": 1849
   },
   "surpriseStats": {
     "EUR/germany factory orders mom": {
@@ -404,9 +404,9 @@
       "std": 0.141421
     },
     "GBP/industrial production mom": {
-      "n": 3,
-      "mean": -0.133333,
-      "std": 0.378594
+      "n": 2,
+      "mean": -0.35,
+      "std": 0.070711
     },
     "GBP/goods trade balance": {
       "n": 2,
@@ -419,14 +419,14 @@
       "std": 2.552655
     },
     "GBP/manufacturing production mom": {
-      "n": 3,
-      "mean": 0.366667,
-      "std": 0.702377
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.424264
     },
     "GBP/gdp mom": {
-      "n": 3,
-      "mean": 0.233333,
-      "std": 0.208167
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.212132
     },
     "EUR/balance of trade": {
       "n": 3,
@@ -2655,90 +2655,6 @@
     }
   },
   "events": [
-    {
-      "currency": "AUD",
-      "event": "Balance of Trade",
-      "dateISO": "2025-10-02",
-      "actual": "A$1.825B",
-      "forecast": "6.2",
-      "previous": "6.612",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "01:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Consumer Confidence",
-      "dateISO": "2025-10-02",
-      "actual": "35.3",
-      "forecast": "35.2",
-      "previous": "34.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "05:00"
-    },
-    {
-      "currency": "CHF",
-      "event": "Inflation Rate YoY",
-      "dateISO": "2025-10-02",
-      "actual": "0.2%",
-      "forecast": "0.3",
-      "previous": "0.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "06:30"
-    },
-    {
-      "currency": "EUR",
-      "event": "Unemployment Change",
-      "dateISO": "2025-10-02",
-      "actual": "-4.8K",
-      "forecast": "15.4",
-      "previous": "21.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-10-02",
-      "actual": "6%",
-      "forecast": "6.0",
-      "previous": "5.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "08:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "DMP 1Y CPI Expectations",
-      "dateISO": "2025-10-02",
-      "actual": "3.5%",
-      "forecast": "",
-      "previous": "3.4",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "08:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-10-02",
-      "actual": "2.6%",
-      "forecast": "2.4",
-      "previous": "2.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
     {
       "currency": "EUR",
       "event": "Industrial Production MoM",
@@ -56455,136 +56371,6 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Construction Output m/m",
-      "impact": "low",
-      "actual": "0.1",
-      "forecast": "-0.3%",
-      "previous": "-0.1%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Construction Output y/y",
-      "impact": "low",
-      "actual": "-2.5",
-      "forecast": "-1.4%",
-      "previous": "-2.3%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Industrial Production m/m",
-      "impact": "medium",
-      "actual": "0.2",
-      "forecast": "-0.1%",
-      "previous": "-0.2%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Industrial Production y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "-0.2%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Manufacturing Production m/m",
-      "impact": "medium",
-      "actual": "0.9",
-      "forecast": "-0.2%",
-      "previous": "-0.5%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Manufacturing Production y/y",
-      "impact": "low",
-      "actual": "2.6",
-      "forecast": "0.0%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Trade Balance",
-      "impact": "medium",
-      "actual": "-20.97",
-      "forecast": "-22.037B",
-      "previous": "-23.007B"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Trade Balance Non-EU",
-      "impact": "medium",
-      "actual": "-9.66",
-      "forecast": "-4.324B",
-      "previous": "-10.448B"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom GDP m/m",
-      "impact": "high",
-      "actual": "0.4",
-      "forecast": "0.0%",
-      "previous": "0.3%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom GDP 3m/3m",
-      "impact": "medium",
-      "actual": "0.4",
-      "forecast": null,
-      "previous": "0.4%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
       "event": "United Kingdom Index of Services",
       "impact": "low",
       "actual": "0.6%",
@@ -56790,19 +56576,6 @@
       "date": "11 Sep",
       "dateISO": "2026-09-11",
       "timeUTC": "14:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB President Lagarde Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "14:00",
       "country": "USD",
       "currency": "USD",
       "flag": "🇺🇸",
@@ -56876,32 +56649,6 @@
       "actual": "0.2%",
       "forecast": "0.3%",
       "previous": "0.3%"
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "16:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "United States WASDE Report",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "11 Sep",
-      "dateISO": "2026-09-11",
-      "timeUTC": "17:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Lane Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "11 Sep",
