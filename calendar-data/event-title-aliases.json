@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T11:53:50Z",
+  "generatedAt": "2026-10-03T14:47:58Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 199,
+  "aliasCount": 200,
   "aliases": [
     {
       "currency": "JPY",
@@ -3504,6 +3504,25 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Existing Home Sales m/m",
+      "secondary_title": "United States Existing Home Sales MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-13",
+          "forecast_primary": -2.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -2.0,
+          "previous_secondary": -2.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-2%"
+        }
+      }
+    },
+    {
       "currency": "NZD",
       "primary_title": "New Zealand Current Account - GDP Ratio",
       "yahoo_title": "Current Account/GDP",
@@ -4037,20 +4056,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
-      "yahoo_title": "Tankan Small Non-Mf Idx",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": 16.0,
+          "forecast_primary": 8.0,
           "forecast_yahoo": null,
-          "actual_primary": 15.0,
-          "actual_yahoo": 15.0,
-          "previous_primary": 15.0,
-          "previous_yahoo": 15.0,
-          "actual_yahoo_raw": "15",
+          "actual_primary": 10.0,
+          "actual_yahoo": 10.0,
+          "previous_primary": 8.0,
+          "previous_yahoo": 8.0,
+          "actual_yahoo_raw": "10",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "15"
+          "previous_yahoo_raw": "8"
         }
       }
     },
