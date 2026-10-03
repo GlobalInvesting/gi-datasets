@@ -1,4 +1,4 @@
-name: Update OHLC Chart Data — v2.4 (private scripts)
+name: Update OHLC Chart Data — v2.5 (private scripts)
 
 
 on:
@@ -85,6 +85,13 @@ jobs:
           SITE_DIR: .
         run: python3 private-scripts/compute_risk_composite.py
 
+      - name: Fetch OFR Financial Stress Index (D1 finalization run only)
+        if: github.event.schedule == '30 1 * * 2-6' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        env:
+          SITE_DIR: .
+        run: python3 private-scripts/fetch_ofr_fsi.py
+
       - name: Display summary
         if: always()
         run: |
@@ -133,6 +140,9 @@ jobs:
           if [ -d risk-composite-data ] && [ "$(ls -A risk-composite-data 2>/dev/null)" ]; then
             cp -r risk-composite-data/ /tmp/risk_composite_fresh/
           fi
+          if [ -d ofr-fsi-data ] && [ "$(ls -A ofr-fsi-data 2>/dev/null)" ]; then
+            cp -r ofr-fsi-data/ /tmp/ofr_fsi_fresh/
+          fi
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
 
           for i in 1 2 3 4 5; do
@@ -155,6 +165,11 @@ jobs:
               mkdir -p risk-composite-data
               cp -r /tmp/risk_composite_fresh/. risk-composite-data/
               git add risk-composite-data/
+            fi
+            if [ -d /tmp/ofr_fsi_fresh ]; then
+              mkdir -p ofr-fsi-data
+              cp -r /tmp/ofr_fsi_fresh/. ofr-fsi-data/
+              git add ofr-fsi-data/
             fi
             if git diff --quiet && git diff --staged --quiet; then
               echo "No changes vs remote HEAD — skipping commit."
