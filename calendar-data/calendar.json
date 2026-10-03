@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-03T00:16:44Z",
-  "generatedAt": "2026-10-03T00:16:44Z",
+  "lastUpdate": "2026-10-03T00:18:48Z",
+  "generatedAt": "2026-10-03T00:18:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-03",
   "rangeTo": "2026-10-16",
-  "totalEvents": 5996,
+  "totalEvents": 5997,
   "currencyCounts": {
-    "EUR": 1710,
+    "EUR": 1711,
     "USD": 1875,
     "CHF": 161,
     "AUD": 355,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 2463,
     "high": 1684,
-    "low": 1849
+    "low": 1850
   },
   "surpriseStats": {
     "EUR/germany factory orders mom": {
@@ -72351,7 +72351,7 @@
       "event": "Estonia Industrial Production YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "2.2%",
+      "forecast": "2.4%",
       "previous": "2.3%"
     },
     {
@@ -73180,11 +73180,24 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Austria RAGB Auction",
+      "event": "Austria RAGB 2025-2032 Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.792%"
+    },
+    {
+      "date": "6 Oct",
+      "dateISO": "2026-10-06",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria RAGB 2012-2062 Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.868%"
     },
     {
       "date": "6 Oct",
@@ -75321,6 +75334,19 @@
     {
       "date": "12 Oct",
       "dateISO": "2026-10-12",
+      "timeUTC": "04:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": "8.1B",
+      "previous": "10.91B"
+    },
+    {
+      "date": "12 Oct",
+      "dateISO": "2026-10-12",
       "timeUTC": "05:00",
       "country": "EUR",
       "currency": "EUR",
@@ -75445,7 +75471,7 @@
       "event": "Netherlands Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.1%",
+      "forecast": "0.0%",
       "previous": "0.3%"
     },
     {
@@ -75458,7 +75484,7 @@
       "event": "Netherlands Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": "3.5%",
+      "forecast": "3.4%",
       "previous": "3.3%"
     },
     {
@@ -75614,8 +75640,8 @@
       "event": "Portugal Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": "0%"
+      "forecast": "1.2%",
+      "previous": "0.0%"
     },
     {
       "date": "13 Oct",
@@ -75828,19 +75854,6 @@
     {
       "date": "14 Oct",
       "dateISO": "2026-10-14",
-      "timeUTC": "04:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Netherlands Balance of Trade",
-      "impact": "low",
-      "actual": null,
-      "forecast": "8.1B",
-      "previous": "10.91B"
-    },
-    {
-      "date": "14 Oct",
-      "dateISO": "2026-10-14",
       "timeUTC": "05:00",
       "country": "EUR",
       "currency": "EUR",
@@ -75848,7 +75861,7 @@
       "event": "Finland Harmonised Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "2.6%",
       "previous": "2.4%"
     },
     {
@@ -75861,7 +75874,7 @@
       "event": "Finland Harmonised Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.6%",
       "previous": "-0.3%"
     },
     {
@@ -75874,7 +75887,7 @@
       "event": "Finland Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.3%",
+      "forecast": "0.6%",
       "previous": "-0.2%"
     },
     {
@@ -75887,7 +75900,7 @@
       "event": "Finland Inflation Rate YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "2.2%",
+      "forecast": "2.5%",
       "previous": "2.2%"
     },
     {
@@ -76862,7 +76875,7 @@
       "event": "Croatia Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.9%",
       "previous": "0.4%"
     },
     {
@@ -76875,7 +76888,7 @@
       "event": "Croatia Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "4.7%",
       "previous": "4.2%"
     },
     {
@@ -77551,7 +77564,7 @@
       "event": "Austria Harmonised Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.6%",
       "previous": "0.5%"
     },
     {
@@ -77564,7 +77577,7 @@
       "event": "Austria Harmonised Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.5%",
       "previous": "2.9%"
     },
     {
@@ -77590,7 +77603,7 @@
       "event": "Austria Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.6%",
       "previous": "3.2%"
     },
     {
@@ -77603,7 +77616,7 @@
       "event": "Austria Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.2%",
       "previous": "0.6%"
     },
     {
