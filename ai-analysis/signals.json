@@ -1,55 +1,69 @@
 {
-  "generated_at": "2026-10-02T21:00:52Z",
+  "generated_at": "2026-10-03T21:00:50Z",
   "signals": [
     {
-      "time": "19:32",
+      "time": "20:57",
       "priority": "critical",
-      "title": "EUR/JPY — G10 Bilateral Theme + French Fiscal Turmoil",
-      "text": "EUR/JPY closed Friday at 177.55 under heavy bilateral pressure as JPY led G10 with a 1W average of +1.076% across 7 pairs while EUR lagged at -0.696% across 9 pairs, generating a critical 1.772% spread. The move is reinforced by French 2027 budget turmoil widening peripheral debt risk, driving EUR/JPY risk reversals to an extreme put skew of -2.42 against a net short EUR leveraged funds positioning of -58.8k contracts. The BoJ meeting on 30 Oct is the catalyst that determines whether Japanese yield support persists against the 121bp OIS carry advantage of the euro. Trade bias: Bearish EUR/JPY into the open; bilateral momentum and European sovereign spread stress override the +121bp EUR carry cushion. Catalyst: BoJ meeting on 30 Oct. Risk: A rebound above the 178.50 zone or sudden easing of French sovereign spread concerns.",
+      "title": "EUR/JPY — G10 Bilateral Theme + Yield Disadvantage",
+      "text": "EUR Leveraged Funds net short of -82.4k contracts (6th percentile, z=-1.65) anchors broad downside as JPY emerges as the week's strongest G10 currency against the laggard euro. JPY 1W avg +1.043% (n=7) versus EUR -0.720% (n=9) creates an extreme 1.763% leader-laggard spread, with heavy EUR/JPY options downside demand reflected in a -2.42 25-delta risk reversal skew. The Tokyo session open and Japan Services PMI are the catalysts resolving downside follow-through into the 30 Oct BoJ meeting. Trade bias: Bearish EUR/JPY on open. Catalyst: Tokyo session open and Japan au Jibun Bank Services PMI (00:30 UTC). Risk: EUR/JPY rebound above the 178.50 zone invalidated by hawkish ECB commentary.",
       "evidence": [
-        "JPY 1W avg: +1.076% (n=7)",
-        "EUR 1W avg: -0.696% (n=9)",
-        "G10 spread: 1.772%",
+        "JPY 1W avg: +1.043% (n=7)",
+        "EUR 1W avg: -0.720% (n=9)",
+        "G10 spread: 1.763%",
+        "EUR COT lev_net: -82,445 (pctl 6)",
         "EUR/JPY 25d RR: -2.42"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "20:57",
+      "priority": "critical",
+      "title": "EUR/USD — Soft US Payrolls vs Extreme Net-Short Crowding",
+      "text": "EUR COT Leveraged Funds net short of -82.4k contracts (pctl 6, z=-1.65) confronts sharp US rate repricing after Friday's weak 29k non-farm payrolls print. Downside momentum halted at 1.1257 Friday close as Fed October rate hike pricing collapsed, challenging the USD OIS carry advantage of +122bp. The Sydney and Tokyo liquidity return is the catalyst determining whether short-covering squeezes EUR/USD back toward its 20-day SMA at 1.1464 ahead of the 28 Oct FOMC meeting. Trade bias: Bullish squeeze on EUR/USD into the open. Catalyst: Sydney/Tokyo open followed by Euro Area Services PMI at 08:00 UTC. Risk: Spot break below Friday closing low near 1.1240 accelerates the multi-month downtrend.",
+      "evidence": [
+        "EUR COT lev_net: -82,445 (long 34.0%, pctl 6)",
+        "EUR/USD Friday close: 1.1257",
+        "OIS carry: +122bp favors USD",
+        "US Sep Payrolls missed expectations (29k jobs report)"
       ],
       "_source": "engine-ai-primary"
     },
     {
       "time": "18:06",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Leveraged Shorts + Post-NFP Repricing",
-      "text": "EUR COT LF short -58.8k (37.3% long, z=-1.01) creates short-squeeze risk after EUR/USD closed Friday at 1.1254 following the 29k US payroll miss that eliminated October Fed hike pricing. Downside momentum in the pair is stalling as US 2Y spreads against Germany widened 43bp in EUR's favor over 5 sessions, setting up an unwind against retail traders who sit 87% long. The Fed meeting on 28 Oct determines whether the policy pause becomes entrenched. Trade bias: Bullish EUR/USD mean-reversion into the open; collapsing Fed hike odds force an unwind of crowded leveraged shorts. Catalyst: Fed meeting on 28 Oct. Risk: Spot breaking below the 1.1200 psychological handle on renewed European political contagion.",
+      "title": "USD/CAD — Extreme Short Positioning vs Divergent Rate Bets",
+      "text": "CAD COT Leveraged Funds net short of -72.5k contracts (23.8% long) sets up elevated short-covering risk as spot holds extended at Friday's 1.4245 close. Fed holds at 4.00%. US ISM Non-Manufacturing PMI on Monday is the catalyst testing USD/CAD resilience ahead of the 28 Oct BoC meeting. Trade bias: Bearish USD/CAD on carry compression and technical exhaustion above SMA200 (1.3854). Catalyst: US ISM Non-Manufacturing PMI (14:00 UTC). Risk: Break and hold above 1.4300 triggered by fresh risk-off crude liquidation.",
       "evidence": [
-        "EUR COT LF net: -58,805",
-        "US Sep Payrolls: +29k vs expected",
-        "EUR/USD retail: 87% long / 13% short",
-        "DE-US 2Y 5D Δ: -43bp"
+        "CAD COT lev_net: -72,519 (23.8% long)",
+        "USD/CAD Friday close: 1.4247",
+        "Retail sentiment: 95% short USD/CAD",
+        "OIS carry: +157bp favors USD"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "19:30",
+      "time": "18:03",
       "priority": "warning",
-      "title": "AUD/USD — Crowded Long Positioning + Carry Floor",
-      "text": "AUD COT LF long +55.7k (74.5% long, 81st percentile) creates crowded-long unwind risk after AUD/USD closed Friday at 0.6958 below all major daily moving averages. Downward pressure from broader commodity softness conflicts with the positive 70bp AONIA-over-SOFR carry buffer and an RBA policy rate at 4.60%. The RBA meeting on 3 Nov is the catalyst that determines whether policy divergence can defend the pair against speculative liquidation. Trade bias: Bearish AUD/USD into the open; heavy speculative length leaves spot vulnerable despite the 70bp yield advantage. Catalyst: RBA meeting on 3 Nov. Risk: Spot reclaiming the SMA200 at 0.7032 on broad dollar liquidation.",
+      "title": "AUD/USD — Crowded Leveraged Long Unwind Risk",
+      "text": "AUD COT Leveraged Funds net long of +55.1k contracts (72.3% long, pctl 79) faces severe liquidation risk following Friday's close at 0.6957 below all key daily moving averages. Despite a 73bp OIS carry advantage favoring AUD (AONIA 4.60% vs SOFR 3.87%), spot remains suppressed beneath the 20-day SMA (0.7089) as AUD 1W performance dropped -0.581% across G10. The Sydney open and Australia S&P Global Services PMI serve as the catalyst to test support ahead of the 3 Nov RBA meeting. Trade bias: Bearish AUD/USD toward 0.6900 on long liquidation. Catalyst: Australia S&P Global Services PMI at 22:00 UTC. Risk: Rebound above the 0.7033 200-day SMA invalidates the downside unwind.",
       "evidence": [
-        "AUD COT LF net: +55,684 (74.5% long)",
-        "OIS carry differential: -70bp (favors AUD)",
-        "AUD/USD technical position: below SMA20/50/200",
-        "AUD 1W avg: -0.578% (n=4)"
+        "AUD COT lev_net: +55,114 (72.3% long)",
+        "AUD/USD Friday close: 0.6957",
+        "SMA positioning: below SMA20 (0.7089), SMA50 (0.7094), SMA200 (0.7033)",
+        "OIS carry: -73bp (favors AUD)"
       ],
       "_source": "engine-ai-primary"
     },
     {
       "time": "15:56",
       "priority": "info",
-      "title": "USD/CAD — Extreme Speculative Shorts vs BoC Rate Path",
-      "text": "CAD COT LF short -49.1k (28.1% long) sets up short-squeeze risk after USD/CAD closed Friday at 1.4255 with retail sentiment reaching an extreme 95% short. The pair's rally into technical resistance above the 200-day moving average faces domestic macro resilience reflected in Canada's positive ESI of +15.6, despite a 159bp SOFR-CORRA carry drag. The BoC meeting on 28 Oct resolves whether Canadian rate hike pricing will accelerate the short covering. Trade bias: Bearish USD/CAD into the open; extreme retail short positioning and solid domestic data cap further upside momentum. Catalyst: BoC meeting on 28 Oct. Risk: Spot breaking cleanly above 1.4300 resistance driven by ongoing crude oil declines.",
+      "title": "GBP/USD — Gilt-Treasury Yield Support vs Short Crowding",
+      "text": "GBP Leveraged Funds net short of -5.4k contracts sits at the 2nd percentile (z=-2.34), creating immediate squeeze conditions after Friday's rally to 1.3240. The 10-year UK gilt yield closed at 5.38% (+10bp over US 10Y Treasuries), supporting GBP resilience as Fed rate hike bets abate following the weak US jobs release. The UK S&P Global Services PMI is the catalyst testing upside momentum ahead of the 5 Nov BoE meeting. Trade bias: Bullish GBP/USD on open. Catalyst: UK S&P Global/CIPS Services PMI at 08:30 UTC. Risk: Decline below 1.3200 driven by UK fiscal concerns.",
       "evidence": [
-        "CAD COT LF net: -49,123 (28.1% long)",
-        "USD/CAD retail: 5% long / 95% short",
-        "Canada ESI: +15.6",
-        "OIS carry differential: +159bp (favors USD)"
+        "GBP COT lev_net: -5,377 (pctl 2, z=-2.34)",
+        "GBP/USD Friday close: 1.3240",
+        "UK-US 10Y spread: +10bp favors GBP",
+        "GBP 1W avg: +0.370% (n=4)"
       ],
       "_source": "engine-ai-primary"
     }
