@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T08:50:34Z",
+  "updated": "2026-10-03T08:55:38Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -204,37 +204,37 @@
       "pct1w_date": "2026-09-25"
     },
     "btc": {
-      "close": 84616.97,
+      "close": 84627.89,
       "prev_close": 84506.336,
-      "chg": 110.634,
-      "pct": 0.1309,
+      "chg": 121.554,
+      "pct": 0.1438,
       "high": 84713.72,
       "low": 84434.45,
       "open": 84506.336,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791017433,
+      "market_time": 1791017739,
       "source": "quote-pipeline-primary",
-      "pct1w": 0.6926,
+      "pct1w": 0.7056,
       "pct1w_date": "2026-09-25",
       "session_high": 87177.99,
       "session_low": 83853.23
     },
     "eth": {
-      "close": 2682.4,
+      "close": 2683.69,
       "prev_close": 2668.2031,
-      "chg": 14.1969,
-      "pct": 0.5321,
+      "chg": 15.4869,
+      "pct": 0.5804,
       "high": 2683.031,
       "low": 2665.54,
       "open": 2668.2031,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791017433,
+      "market_time": 1791017736,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.3002,
+      "pct1w": -0.2522,
       "pct1w_date": "2026-09-25",
       "session_high": 2769.17,
       "session_low": 2650.64
@@ -1854,14 +1854,14 @@
     {
       "a": "AUD/USD",
       "b": "Gold",
-      "corr30": 0.511,
+      "corr30": 0.504,
       "n30": 30,
-      "corr": 0.507,
+      "corr": 0.504,
       "n": 60,
-      "corr90": 0.577,
+      "corr90": 0.575,
       "n90": 90,
       "norm": 0.554,
-      "z_score": -0.24,
+      "z_score": -0.28,
       "std": 0.2519,
       "n_indep": 8,
       "band15hi": 0.763,
@@ -2091,7 +2091,7 @@
         0.599,
         0.589,
         0.536,
-        0.511
+        0.504
       ],
       "hist_dates": [
         "2025-11-19",
@@ -2321,7 +2321,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.6907,
+      "coint_p": 0.6935,
       "coint_n": 252
     },
     {
@@ -3740,7 +3740,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.6922,
+      "coint_p": 0.692,
       "coint_n": 252
     },
     {
@@ -5634,14 +5634,14 @@
     {
       "a": "GBP/USD",
       "b": "Gold",
-      "corr30": 0.271,
+      "corr30": 0.262,
       "n30": 30,
-      "corr": 0.416,
+      "corr": 0.413,
       "n": 60,
-      "corr90": 0.439,
+      "corr90": 0.436,
       "n90": 90,
       "norm": 0.412,
-      "z_score": -0.7,
+      "z_score": -0.75,
       "std": 0.2268,
       "n_indep": 8,
       "band15hi": 0.651,
@@ -5871,7 +5871,7 @@
         0.479,
         0.465,
         0.301,
-        0.271
+        0.262
       ],
       "hist_dates": [
         "2025-11-19",
@@ -6098,10 +6098,10 @@
         "2026-10-01",
         "2026-10-02"
       ],
-      "spread_z": -1.79,
+      "spread_z": -1.76,
       "signal": "long_a_short_b",
       "beta": 0.088,
-      "coint_p": 0.0494,
+      "coint_p": 0.0489,
       "coint_n": 252
     },
     {
@@ -6580,14 +6580,14 @@
     {
       "a": "Gold",
       "b": "DXY",
-      "corr30": -0.435,
+      "corr30": -0.43,
       "n30": 30,
-      "corr": -0.536,
+      "corr": -0.534,
       "n": 60,
-      "corr90": -0.566,
+      "corr90": -0.565,
       "n90": 90,
       "norm": -0.469,
-      "z_score": 0.15,
+      "z_score": 0.18,
       "std": 0.2743,
       "n_indep": 8,
       "band15hi": -0.097,
@@ -6817,7 +6817,7 @@
         -0.627,
         -0.636,
         -0.451,
-        -0.435
+        -0.43
       ],
       "hist_dates": [
         "2025-11-19",
@@ -7047,7 +7047,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.1421,
+      "coint_p": 0.1396,
       "coint_n": 252
     }
   ],
