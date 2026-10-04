@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T23:59:11Z",
+  "generatedAt": "2026-10-04T12:44:43Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 202,
+  "aliasCount": 206,
   "aliases": [
     {
       "currency": "JPY",
@@ -461,16 +461,16 @@
       "secondary_title": "Canada Building Permits MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-16",
-          "forecast_primary": 11.6,
-          "forecast_secondary": -5.6,
-          "actual_primary": -17.3,
-          "actual_secondary": -17.3,
-          "previous_primary": 18.5,
-          "previous_secondary": 18.3,
-          "actual_secondary_raw": "-17.3%",
-          "forecast_secondary_raw": "-5.6%",
-          "previous_secondary_raw": "18.3%"
+          "dateISO": "2026-10-14",
+          "forecast_primary": -13.0,
+          "forecast_secondary": 2.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -17.3,
+          "previous_secondary": -17.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.7%",
+          "previous_secondary_raw": "-17.3%"
         }
       }
     },
@@ -2686,21 +2686,8 @@
           "actual_secondary_raw": "21",
           "forecast_secondary_raw": "18",
           "previous_secondary_raw": "17"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 16.0,
-          "forecast_yahoo": null,
-          "actual_primary": 21.0,
-          "actual_yahoo": 21.0,
-          "previous_primary": 17.0,
-          "previous_yahoo": 17.0,
-          "actual_yahoo_raw": "21",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "17"
         }
-      },
-      "yahoo_title": "Tankan Big Mf Outlook DI"
+      }
     },
     {
       "currency": "JPY",
@@ -2782,8 +2769,21 @@
           "actual_secondary_raw": "35",
           "forecast_secondary_raw": "35",
           "previous_secondary_raw": "37"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 38.0,
+          "forecast_yahoo": null,
+          "actual_primary": 35.0,
+          "actual_yahoo": 35.0,
+          "previous_primary": 37.0,
+          "previous_yahoo": 37.0,
+          "actual_yahoo_raw": "35",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "37"
         }
-      }
+      },
+      "yahoo_title": "Tankan Big Non-Mf Idx"
     },
     {
       "currency": "JPY",
@@ -3497,6 +3497,82 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Core CPI m/m",
+      "secondary_title": "United States Core Inflation Rate MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 0.2,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.3,
+          "previous_secondary": 0.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
+          "previous_secondary_raw": "0.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core CPI y/y",
+      "secondary_title": "United States Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 2.3,
+          "forecast_secondary": 2.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.4,
+          "previous_secondary": 2.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.5%",
+          "previous_secondary_raw": "2.4%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core CPI n.s.a. m/m",
+      "secondary_title": "United States Core Inflation Rate MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": null,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.3,
+          "previous_secondary": 0.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
+          "previous_secondary_raw": "0.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CPI",
+      "secondary_title": "United States CPI s.a",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 334.918,
+          "forecast_secondary": 335.8,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 334.131,
+          "previous_secondary": 334.131,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "335.8",
+          "previous_secondary_raw": "334.131"
+        }
+      }
+    },
+    {
       "currency": "NZD",
       "primary_title": "New Zealand Current Account - GDP Ratio",
       "yahoo_title": "Current Account/GDP",
@@ -4068,20 +4144,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
-      "yahoo_title": "Tankan Small Non-Mf Idx",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": 16.0,
+          "forecast_primary": 8.0,
           "forecast_yahoo": null,
-          "actual_primary": 15.0,
-          "actual_yahoo": 15.0,
-          "previous_primary": 15.0,
-          "previous_yahoo": 15.0,
-          "actual_yahoo_raw": "15",
+          "actual_primary": 10.0,
+          "actual_yahoo": 10.0,
+          "previous_primary": 8.0,
+          "previous_yahoo": 8.0,
+          "actual_yahoo_raw": "10",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "15"
+          "previous_yahoo_raw": "8"
         }
       }
     },
