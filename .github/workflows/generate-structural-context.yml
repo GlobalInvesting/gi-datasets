@@ -4,6 +4,7 @@ on:
   repository_dispatch:
     types: [trigger-structural-context]
   schedule:
+    - cron: '0 0 * * 1'
     - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
@@ -100,8 +101,8 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "Manual trigger — forcing regeneration (--force)"
             python ../engine/scripts/generate_narrative_signals.py --mode structural --force
-          elif [ "$DAY_OF_WEEK" = "1" ]; then
-            echo "Monday scheduled run — forcing weekly regeneration (--force)"
+          elif [ "$DAY_OF_WEEK" = "1" ] && [ "$(date -u +%H)" -lt 3 ]; then
+            echo "Monday 00:00 UTC run (Sunday 21:00 Montevideo) — forcing weekly regeneration (--force)"
             python ../engine/scripts/generate_narrative_signals.py --mode structural --force
           else
             python ../engine/scripts/generate_narrative_signals.py --mode structural
