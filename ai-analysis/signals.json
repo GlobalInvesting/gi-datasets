@@ -1,69 +1,51 @@
 {
-  "generated_at": "2026-10-03T21:00:50Z",
+  "generated_at": "2026-10-04T21:01:27Z",
   "signals": [
     {
-      "time": "20:57",
+      "time": "21:01",
       "priority": "critical",
-      "title": "EUR/JPY — G10 Bilateral Theme + Yield Disadvantage",
-      "text": "EUR Leveraged Funds net short of -82.4k contracts (6th percentile, z=-1.65) anchors broad downside as JPY emerges as the week's strongest G10 currency against the laggard euro. JPY 1W avg +1.043% (n=7) versus EUR -0.720% (n=9) creates an extreme 1.763% leader-laggard spread, with heavy EUR/JPY options downside demand reflected in a -2.42 25-delta risk reversal skew. The Tokyo session open and Japan Services PMI are the catalysts resolving downside follow-through into the 30 Oct BoJ meeting. Trade bias: Bearish EUR/JPY on open. Catalyst: Tokyo session open and Japan au Jibun Bank Services PMI (00:30 UTC). Risk: EUR/JPY rebound above the 178.50 zone invalidated by hawkish ECB commentary.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical Shock",
+      "text": "The 1W G10 scorecard flags a 2.160% leader-to-laggard divergence, with JPY leading at +1.343% across 7 pairs while AUD lags at −0.817% across 4 pairs. Escalating geopolitical disruption in the Strait of Hormuz, marked by maritime incidents and Iranian closure statements, drives heavy downside pressure across risk-sensitive crosses. AUD/JPY trades at 109.255, breaking beneath its BEER model fair value of 111.99 (z = −1.58σ). The pair completely defies the underlying carry structure, where RBA at 4.6% vs BoJ at 1.25% provides a +335bp nominal premium (+337bp on an OIS basis via AONIA 4.60% vs TONA 1.23%). AUD positioning shows speculative length at +55,114 contracts (79th percentile), leaving the pair exposed to further unwinds as geopolitical conflict overrides nominal carry. Trade bias: Bearish AUD/JPY; geopolitical flight overrides carry support. Catalyst: Australia S&P Global Services PMI at 22:00 UTC. Risk: Strait of Hormuz tensions de-escalate swiftly, restoring focus to the +335bp carry advantage.",
       "evidence": [
-        "JPY 1W avg: +1.043% (n=7)",
-        "EUR 1W avg: -0.720% (n=9)",
-        "G10 spread: 1.763%",
-        "EUR COT lev_net: -82,445 (pctl 6)",
-        "EUR/JPY 25d RR: -2.42"
+        "JPY 1W avg: +1.343% (n=7)",
+        "AUD 1W avg: -0.817% (n=4)",
+        "G10 spread: 2.160%"
       ],
       "_source": "engine-ai-primary"
     },
     {
       "time": "20:57",
-      "priority": "critical",
-      "title": "EUR/USD — Soft US Payrolls vs Extreme Net-Short Crowding",
-      "text": "EUR COT Leveraged Funds net short of -82.4k contracts (pctl 6, z=-1.65) confronts sharp US rate repricing after Friday's weak 29k non-farm payrolls print. Downside momentum halted at 1.1257 Friday close as Fed October rate hike pricing collapsed, challenging the USD OIS carry advantage of +122bp. The Sydney and Tokyo liquidity return is the catalyst determining whether short-covering squeezes EUR/USD back toward its 20-day SMA at 1.1464 ahead of the 28 Oct FOMC meeting. Trade bias: Bullish squeeze on EUR/USD into the open. Catalyst: Sydney/Tokyo open followed by Euro Area Services PMI at 08:00 UTC. Risk: Spot break below Friday closing low near 1.1240 accelerates the multi-month downtrend.",
-      "evidence": [
-        "EUR COT lev_net: -82,445 (long 34.0%, pctl 6)",
-        "EUR/USD Friday close: 1.1257",
-        "OIS carry: +122bp favors USD",
-        "US Sep Payrolls missed expectations (29k jobs report)"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "18:06",
       "priority": "warning",
-      "title": "USD/CAD — Extreme Short Positioning vs Divergent Rate Bets",
-      "text": "CAD COT Leveraged Funds net short of -72.5k contracts (23.8% long) sets up elevated short-covering risk as spot holds extended at Friday's 1.4245 close. Fed holds at 4.00%. US ISM Non-Manufacturing PMI on Monday is the catalyst testing USD/CAD resilience ahead of the 28 Oct BoC meeting. Trade bias: Bearish USD/CAD on carry compression and technical exhaustion above SMA200 (1.3854). Catalyst: US ISM Non-Manufacturing PMI (14:00 UTC). Risk: Break and hold above 1.4300 triggered by fresh risk-off crude liquidation.",
+      "title": "EUR/USD — Positioning + Vol Skew + Retail Divergence",
+      "text": "EUR/USD trades at 1.12570, pinned firmly below its SMA20 (1.1464), SMA50 (1.1530), and SMA200 (1.1613) cluster. Leveraged funds are net short −82,445 contracts (CFTC, week ending Sep 29), sitting at the 6th percentile of their 52-week range (z = −1.65σ) following a WoW reduction of −23,640 contracts. Concurrently, retail traders hold an extreme contrarian stance at 87% long vs 13% short, diverging completely from institutional positioning. Options markets reflect heavy downside hedging, with 1M 25d risk reversals at −1.53 put skew and 1M ATM implied volatility at 6.9% against HV30 of 3.8% (VRP +3.2%). A Fed at 4.00% vs ECB at 2.65% maintains a +135bp carry spread (+143bp via SOFR 3.87% vs €STR 2.44%) favoring USD. Trade bias: Bearish EUR/USD; institutional shorts and options skew reinforce retail squeeze vulnerability. Catalyst: Germany Factory Orders at 06:00 UTC. Risk: Retail longs capitulate while ECB rhetoric turns hawkish, sparking an institutional short-covering squeeze above the 1.1464 SMA20.",
       "evidence": [
-        "CAD COT lev_net: -72,519 (23.8% long)",
-        "USD/CAD Friday close: 1.4247",
-        "Retail sentiment: 95% short USD/CAD",
-        "OIS carry: +157bp favors USD"
+        "EUR LF net: -82,445 (pctl 6, z -1.65)",
+        "EUR/USD 25d RR: -1.53",
+        "EUR/USD Retail: 87% long"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:03",
+      "time": "20:54",
       "priority": "warning",
-      "title": "AUD/USD — Crowded Leveraged Long Unwind Risk",
-      "text": "AUD COT Leveraged Funds net long of +55.1k contracts (72.3% long, pctl 79) faces severe liquidation risk following Friday's close at 0.6957 below all key daily moving averages. Despite a 73bp OIS carry advantage favoring AUD (AONIA 4.60% vs SOFR 3.87%), spot remains suppressed beneath the 20-day SMA (0.7089) as AUD 1W performance dropped -0.581% across G10. The Sydney open and Australia S&P Global Services PMI serve as the catalyst to test support ahead of the 3 Nov RBA meeting. Trade bias: Bearish AUD/USD toward 0.6900 on long liquidation. Catalyst: Australia S&P Global Services PMI at 22:00 UTC. Risk: Rebound above the 0.7033 200-day SMA invalidates the downside unwind.",
+      "title": "GBP/USD — Macro Rates Driver + Options Vol Premium",
+      "text": "GBP/USD trades at 1.32400, holding below its moving-average cluster of SMA20 at 1.3370 and SMA50 at 1.3454. US 5Y yields rose +47bp over 20D (FRED, as of Oct 01), driven almost entirely by real yields (+46bp real vs +1bp breakeven), while UK 2Y yield spreads vs US contracted −31bp over 5D to −24bp. The Fed at 4.00% maintains a +25bp nominal policy rate advantage at 3.75% (+14bp via SOFR 3.87% vs SONIA 3.73%). Options pricing reflects an elevated vol premium with 1M IV at 6.7% vs HV30 at 4.1% (VRP +2.6%), while 25d risk reversals maintain a −1.18 put skew. CFTC data confirms speculative accounts trimmed net exposure by −11,896 contracts WoW to −5,377 (2nd percentile, z = −2.34σ). Trade bias: Bearish GBP/USD; US real-yield expansion and negative UK spread momentum cap recoveries. Catalyst: UK S&P Global/CIPS Services PMI at 08:30 UTC. Risk: BoE MPC Member Mann delivers a hawkish rate shock, driving spot back through the 1.3370 SMA20 resistance.",
       "evidence": [
-        "AUD COT lev_net: +55,114 (72.3% long)",
-        "AUD/USD Friday close: 0.6957",
-        "SMA positioning: below SMA20 (0.7089), SMA50 (0.7094), SMA200 (0.7033)",
-        "OIS carry: -73bp (favors AUD)"
+        "Fed 4.00% vs BoE 3.75% — 25bp",
+        "US 5Y 20D: real +46bp, breakeven +1bp",
+        "GBP/USD IV: 6.7% vs HV30: 4.1% (VRP +2.6%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "15:56",
+      "time": "20:48",
       "priority": "info",
-      "title": "GBP/USD — Gilt-Treasury Yield Support vs Short Crowding",
-      "text": "GBP Leveraged Funds net short of -5.4k contracts sits at the 2nd percentile (z=-2.34), creating immediate squeeze conditions after Friday's rally to 1.3240. The 10-year UK gilt yield closed at 5.38% (+10bp over US 10Y Treasuries), supporting GBP resilience as Fed rate hike bets abate following the weak US jobs release. The UK S&P Global Services PMI is the catalyst testing upside momentum ahead of the 5 Nov BoE meeting. Trade bias: Bullish GBP/USD on open. Catalyst: UK S&P Global/CIPS Services PMI at 08:30 UTC. Risk: Decline below 1.3200 driven by UK fiscal concerns.",
+      "title": "USD/JPY — Cross-Asset Vol Divergence + Carry Structure",
+      "text": "USD/JPY trades at 157.830, holding above its SMA20 at 156.26 while remaining below its SMA50 at 158.02. The cross-asset volatility landscape displays a stark disconnect: the MOVE index sits at 107.3, in the 98th percentile of its trailing year, while equity VIX prints at 15.3 (normal volatility, 15th percentile), signaling that rates markets are pricing acute policy uncertainty that equities have yet to reflect. Fed policy at 4.00% vs BoJ at 1.25% provides a +275bp rate buffer (+264bp via SOFR 3.87% vs TONA 1.23%), keeping spot elevated despite 25d risk reversals printing an aggressive put skew of −2.36. CFTC JPY net positioning sits at −16,809 contracts (96th percentile, z = +1.83σ), showing specs have sharply reduced short exposure over the past month. 160.00 remains the key level that has previously triggered BoJ verbal warnings, with official intervention risk escalating on any sustained break above that threshold. Trade bias: Neutral USD/JPY; wide rate carry competes with heightened bond-market volatility and options put skew. Catalyst: Japan 10-Year JGB Auction at 03:35 UTC. Risk: US rates drop sharply following US ISM services data, collapsing the carry cushion below the 156.26 SMA20.",
       "evidence": [
-        "GBP COT lev_net: -5,377 (pctl 2, z=-2.34)",
-        "GBP/USD Friday close: 1.3240",
-        "UK-US 10Y spread: +10bp favors GBP",
-        "GBP 1W avg: +0.370% (n=4)"
+        "MOVE 98th pctl vs VIX 15th pctl",
+        "Fed 4.00% vs BoJ 1.25% — 275bp",
+        "USD/JPY 25d RR: -2.36"
       ],
       "_source": "engine-ai-primary"
     }
