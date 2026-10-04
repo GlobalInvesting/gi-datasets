@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T06:05:31Z",
+  "updated": "2026-10-04T06:10:31Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,10 +35,10 @@
       "pct1w_date": "2026-09-25"
     },
     "gold": {
-      "close": 4137.5076,
+      "close": 4137.5761,
       "prev_close": 4137.6115,
-      "chg": -0.1039,
-      "pct": -0.0025,
+      "chg": -0.0354,
+      "pct": -0.0009,
       "source": "twelve_data",
       "high": 4259.0,
       "low": 4154.0,
@@ -144,12 +144,12 @@
     },
     "us2y": {
       "close": 4.78,
-      "prev_close": 4.88,
-      "chg": -0.1,
-      "pct": -2.0492,
+      "prev_close": 3.982,
+      "chg": 0.011,
+      "pct": 0.2762,
       "source": "quote-pipeline-primary",
       "sourceDate": "2026-10-01",
-      "prevSourceDate": "2026-09-30"
+      "prevSourceDate": null
     },
     "us5y": {
       "close": 5.055,
@@ -200,37 +200,37 @@
       "pct1w_date": "2026-09-25"
     },
     "btc": {
-      "close": 84911.04,
+      "close": 84912.02,
       "prev_close": 84742.47,
-      "chg": 168.57,
-      "pct": 0.1989,
-      "high": 84915.9,
+      "chg": 169.55,
+      "pct": 0.2001,
+      "high": 84916.484,
       "low": 84707.32,
       "open": 84742.47,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791093929,
+      "market_time": 1791094230,
       "source": "quote-pipeline-primary",
-      "pct1w": 1.0426,
+      "pct1w": 1.0437,
       "pct1w_date": "2026-09-25",
       "session_high": 85020.0,
       "session_low": 84539.65
     },
     "eth": {
-      "close": 2694.63,
+      "close": 2694.5,
       "prev_close": 2686.836,
-      "chg": 7.794,
-      "pct": 0.2901,
+      "chg": 7.664,
+      "pct": 0.2852,
       "high": 2696.3955,
       "low": 2686.836,
       "open": 2686.836,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791093931,
+      "market_time": 1791094230,
       "source": "quote-pipeline-primary",
-      "pct1w": 0.1544,
+      "pct1w": 0.1496,
       "pct1w_date": "2026-09-25",
       "session_high": 2697.19,
       "session_low": 2677.1
