@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T20:35:54.930Z",
+  "updated": "2026-10-05T20:45:57.806Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -37,7 +37,7 @@
       "stale": false
     },
     "gold": {
-      "close": 4168.7,
+      "close": 4166.7,
       "prev_close": null,
       "chg": null,
       "pct": null,
@@ -47,14 +47,14 @@
       "bid": 4166,
       "ask": 4166.1,
       "market_state": null,
-      "market_time": 1791231947,
+      "market_time": 1791232545,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 0.0937,
       "pct1w_date": "2026-10-02",
       "stale": false
     },
     "wti": {
-      "close": 89.18,
+      "close": 89.24,
       "prev_close": null,
       "chg": null,
       "pct": null,
@@ -64,7 +64,7 @@
       "bid": 89.35,
       "ask": 89.36,
       "market_state": null,
-      "market_time": 1791231953,
+      "market_time": 1791232548,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": -1.9098,
       "pct1w_date": "2026-10-02",
@@ -122,7 +122,7 @@
       "stale": false
     },
     "dxy": {
-      "close": 102.144,
+      "close": 102.145,
       "prev_close": null,
       "chg": null,
       "pct": null,
@@ -132,7 +132,7 @@
       "bid": null,
       "ask": null,
       "market_state": null,
-      "market_time": 1791231952,
+      "market_time": 1791232550,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 0.2129,
       "pct1w_date": "2026-10-02",
@@ -216,17 +216,17 @@
       "stale": false
     },
     "btc": {
-      "close": 85738.84,
+      "close": 85793.69,
       "prev_close": 86480.3046875,
-      "chg": -741.4646875000035,
-      "pct": -0.8573798279033769,
+      "chg": -686.6146874999977,
+      "pct": -0.7939549819824375,
       "high": 86929.66,
       "low": 85098.8,
       "open": 86513.38,
       "bid": null,
       "ask": null,
       "market_state": null,
-      "market_time": 1791232548,
+      "market_time": 1791233154,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 1.4901,
       "pct1w_date": "2026-10-02",
@@ -235,17 +235,17 @@
       "stale": false
     },
     "eth": {
-      "close": 2712.15,
+      "close": 2714,
       "prev_close": 2726.509033203125,
-      "chg": -14.359033203124909,
-      "pct": -0.5266453559574603,
+      "chg": -12.509033203125,
+      "pct": -0.4587930225350945,
       "high": 2735.62,
       "low": 2683.869,
       "open": 2726.724,
       "bid": null,
       "ask": null,
       "market_state": null,
-      "market_time": 1791232549,
+      "market_time": 1791233155,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 1.6172,
       "pct1w_date": "2026-10-02",
@@ -264,7 +264,7 @@
       "bid": null,
       "ask": null,
       "market_state": null,
-      "market_time": 1791232550,
+      "market_time": 1791233157,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 0.8716,
       "pct1w_date": "2026-10-02",
@@ -1250,7 +1250,7 @@
       "pct1m_date": "2026-09-04"
     },
     "silver": {
-      "close": 61.43,
+      "close": 61.37,
       "prev_close": null,
       "chg": null,
       "pct": null,
@@ -1260,7 +1260,7 @@
       "bid": 61.4,
       "ask": 61.41,
       "market_state": null,
-      "market_time": 1791231902,
+      "market_time": 1791232533,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": 2.3809,
       "pct1w_date": "2026-10-02",
@@ -1276,7 +1276,7 @@
       "stale": false
     },
     "brent": {
-      "close": 100.21,
+      "close": 100.2,
       "prev_close": null,
       "chg": null,
       "pct": null,
@@ -1286,7 +1286,7 @@
       "bid": 100.41,
       "ask": 100.42,
       "market_state": null,
-      "market_time": 1791231933,
+      "market_time": 1791232399,
       "source": "Yahoo Finance chart API (CF Worker direct-commit fallback — GitHub Actions unavailable)",
       "pct1w": -1.78,
       "pct1w_date": "2026-10-02",
@@ -7294,7 +7294,7 @@
     }
   },
   "direct_commit_partial": {
-    "at": "2026-10-05T20:35:54.930Z",
+    "at": "2026-10-05T20:45:57.806Z",
     "symbols_refreshed": [
       "vix",
       "spx",
