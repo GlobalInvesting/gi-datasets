@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T00:20:49Z",
-  "generatedAt": "2026-10-05T00:20:49Z",
+  "lastUpdate": "2026-10-05T00:22:47Z",
+  "generatedAt": "2026-10-05T00:22:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2527,6 +2527,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.919239
+    },
+    "NZD/anz commodity price index mom": {
+      "n": 2,
+      "mean": -0.0,
+      "std": 0.565685
     },
     "AUD/trade balance": {
       "n": 2,
@@ -72197,7 +72202,7 @@
       "flag": "🇳🇿",
       "event": "New Zealand ANZ Commodity Price Index m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.2%",
       "previous": "-0.4%"
     },
