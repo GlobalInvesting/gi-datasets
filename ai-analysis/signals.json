@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-05T00:01:21Z",
+  "generated_at": "2026-10-05T05:54:13Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "05:51",
       "priority": "critical",
-      "title": "EUR/JPY — G10 Bilateral Theme + Geopolitical Tension",
-      "text": "The G10 scorecard flags JPY as the weekly leader at +1.098% across 7 pairs against EUR as the laggard at −0.678% across 9 pairs, generating a 1.776% leader-to-laggard divergence. EUR/JPY trades at 177.517 while testing negative BEER model valuation at z=−1.95σ. Middle East escalation headlines and Strait of Hormuz transit disruptions layer risk-off pressure on top of heavy EUR positioning, despite the ECB 2.65% vs BoJ 1.25% +140bp carry advantage favoring EUR. Options confirm pronounced downside hedging with EUR/JPY 25-delta risk reversals printing an extreme put skew of −2.42. Trade bias: Bearish EUR/JPY, downside momentum reinforced by geopolitical safe-haven flow. Catalyst: Germany Factory Orders release at 06:00 UTC. Risk: Strait of Hormuz de-escalation headline relieves geopolitical risk premia and forces short-covering.",
+      "title": "EUR/USD — Sovereign Debt Strain + Positioning Washout",
+      "text": "EUR/USD trades at 1.1193, slicing through the psychological 1.1200 handle and languishing well below its SMA20 at 1.1464, SMA50 at 1.1530, and SMA200 at 1.1613. Escalating French sovereign debt concerns drive European yield spread divergence as Bund 10Y yields sit at 3.45%, lagging US 10Y at 5.26% by -181bp. CFTC Leveraged Funds hold net short EUR positions of -82,445 contracts (6th percentile, z -1.65), shedding an aggressive -23,640 contracts WoW. Options markets reflect intense downside protection demand with 25d RR at -1.53 put skew, while 1M ATM IV of 6.9% prints a 2.9pt premium over 4.0% HV30. In stark contrast, retail traders sit 88% net long on Retail sentiment data, creating an acute institutional-versus-retail divergence that risks further capitulation. Trade bias: Bearish EUR/USD; debt stress and short momentum dominate. Catalyst: Eurozone Services PMI at 08:00 UTC. Risk: Retail capitulation completes and short-covering triggers a rebound back through 1.1250.",
       "evidence": [
-        "JPY 1W avg: +1.098% (n=7)",
-        "EUR 1W avg: -0.678% (n=9)",
-        "G10 spread: 1.776%"
+        "EUR COT LF net: -82,445 (pctl 6, WoW -23,640)",
+        "EUR/USD 25d RR: -1.53 put skew (IV 6.9% vs HV30 4.0%)",
+        "EUR/USD retail sentiment: 88% long vs 12% short"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:55",
-      "priority": "critical",
-      "title": "EUR/USD — Positioning + Vol + Retail Divergence",
-      "text": "EUR/USD trades at 1.1256, positioned below its SMA20 at 1.1464, SMA50 at 1.1530, and SMA200 at 1.1613. CFTC data shows leveraged funds net short EUR at −82,445 contracts (week ending Sep 29) sitting at the 6th percentile (z=−1.65), while retail sentiment shows an extreme 87% long positioning on Retail sentiment data. This stark institutional short versus retail long divergence indicates severe retail trapped-long exposure. Implied volatility trades at 6.9% against 30-day realized volatility of 3.9%, generating an elevated vol risk premium of +3.1% alongside a 25-delta risk reversal put skew of −1.53. Fed policy rate of 4.00% vs ECB at 2.65% maintains a +135bp carry advantage in favor of the dollar, while US 5Y yields rose +47bp over 20D (FRED, as of Oct 01) driven by real yields (+46bp real vs +1bp breakeven). Trade bias: Bearish EUR/USD, structural policy divergence and institutional flow dominate. Catalyst: Euro Area Composite PMI release at 08:00 UTC. Risk: Leveraged funds trigger short-covering above the SMA20 at 1.1464.",
-      "evidence": [
-        "EUR LF net: -82,445 (pctl 6, z -1.65)",
-        "Retail sentiment: 87% long",
-        "Fed 4.00% vs ECB 2.65% — +135bp"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "23:51",
+      "time": "05:48",
       "priority": "warning",
-      "title": "USD/CAD — Retail Extreme + Policy Spread",
-      "text": "USD/CAD trades at 1.4254, holding above its SMA20 (1.4019), SMA50 (1.3960), and SMA200 (1.3854) cluster. Retail sentiment data retail sentiment displays an extreme 95% short positioning, heavily fading the bullish spot trend. Leveraged funds hold CAD net short at −72,519 contracts after a WoW reduction of −23,396 contracts, demonstrating that retail is positioned directly against both trend momentum and broader institutional positioning. Macro carry structurally anchors the move, with the Fed at 4.00% vs BoC at 2.25% offering a +175bp policy rate advantage in favor of USD. Trade bias: Bullish USD/CAD, persistent carry divergence alongside contrarian retail short exposure. Catalyst: Canada Trade Balance and Ivey PMI releases at 12:30/14:00 UTC. Risk: WTI crude spikes sharply above $95/bbl on Hormuz disruption, driving CAD recovery.",
+      "title": "USD/JPY — Carry Support vs BoJ Verbal Intervention",
+      "text": "USD/JPY trades at 158.01, holding above its SMA20 of 156.26 while running directly into resistance near the SMA50 at 158.02 and SMA200 at 158.48. OIS SOFR at 3.87% versus TONA at 1.23% preserves a decisive +264bp carry advantage favoring the dollar. Asian session headlines confirm Japanese authorities are toughening verbal warnings as spot tests 158.00, keeping traders mindful that 160.00 remains the key level that has historically provoked coordinated MoF intervention. In the options space, 25d RR trades at an extreme -2.36 put skew, demonstrating heavy institutional demand for downside JPY calls against sudden intervention risk despite JPY net short positioning sitting at -16,809 contracts. With VIX at 15.3, broader risk sentiment remains calm and carry flows keep the structural floor intact. Trade bias: Long USD/JPY, carry-supported while holding below intervention thresholds. Catalyst: Japan 10Y JGB Auction at 03:35 UTC. Risk: BoJ or MoF steps in with physical intervention, forcing a rapid liquidation toward the 156.00 zone.",
       "evidence": [
-        "Retail sentiment: 95% short",
-        "CAD LF net: -72,519 (WoW -23,396)",
-        "Fed 4.00% vs BoC 2.25% — +175bp"
+        "Fed 4.00% vs BoJ 1.25% — 275bp (OIS SOFR vs TONA +264bp)",
+        "USD/JPY: 158.01 (SMA50 resistance at 158.02)",
+        "USDJPY 25d RR: -2.36 put skew (Saxo 1M indicative)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:47",
+      "time": "05:44",
       "priority": "warning",
-      "title": "USD/JPY — Carry Premium vs Options Downside Skew",
-      "text": "USD/JPY prints at 157.78, holding above its SMA20 at 156.26 while remaining below its SMA50 at 158.02. A 275bp Fed-BoJ policy rate spread (Fed 4.00% vs BoJ 1.25%) keeps carry structurally favorable toward USD while VIX remains contained at 15.3 (normal volatility). However, 25-delta risk reversals print an extreme downside put skew of −2.36, indicating substantial options demand hedging a downward decline. Cross-asset signals show MOVE at the 98th percentile of its trailing year versus VIX at the 15th percentile, reflecting elevated bond market interest rate volatility that has not yet fed into equity stress. Trade bias: Long USD/JPY, carry support intact while holding below overhead resistance. Catalyst: Japan Services PMI at 00:30 UTC and 10Y JGB Auction at 03:35 UTC. Risk: Sustained break below SMA20 at 156.26 accompanied by equity risk-off escalation.",
+      "title": "USD/CAD — Crude War Premium vs Retail Positioning Asymmetry",
+      "text": "USD/CAD prints at 1.4280, maintaining an intact bullish posture above its rising SMA20 at 1.4019, SMA50 at 1.3960, and SMA200 at 1.3854. WTI crude trades at $90.2 per barrel following wide $9 geopolitical swings tied to Middle East tensions, layering a substantial geopolitical war premium into energy markets. However, the policy differential heavily counters energy support, as Fed SOFR at 3.87% versus BoC CORRA at 2.30% provides a +157bp carry cushion in favor of the US dollar. Leveraged funds expanded CAD net shorts by -23,396 contracts WoW to -72,519 contracts, whereas retail traders hold an extreme contrarian stance at 96% short on Retail sentiment data. This leaves retail exposed to upside continuation as US real yields anchor cross-border capital flows. Trade bias: Bullish USD/CAD; policy divergence and retail short squeeze override oil tailwinds. Catalyst: US ISM Non-Manufacturing PMI at 14:00 UTC. Risk: Crude spikes sharply higher on physical shipping disruptions, compressing USD/CAD toward 1.4150.",
       "evidence": [
-        "Fed 4.00% vs BoJ 1.25% — +275bp",
-        "USD/JPY 25d RR: -2.36 (put skew)",
-        "MOVE 107.3 (pctl 98) vs VIX 15.3 (pctl 15)"
+        "Fed 4.00% vs BoC 2.25% — 175bp (OIS SOFR vs CORRA +157bp)",
+        "USD/CAD retail sentiment: 96% short vs 4% long",
+        "CAD COT LF net: -72,519 (WoW -23,396)"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "05:39",
+      "priority": "info",
+      "title": "GBP/USD — G10 Rates Divergence vs Cross-Asset Vol Tension",
+      "text": "GBP/USD holds at 1.3207, trading beneath its key moving-average cluster featuring the SMA20 at 1.3370, SMA200 at 1.3446, and SMA50 at 1.3454. The MOVE index sits at 107.3, marking the 98th percentile of its trailing-year range, while VIX prints at 15.3, located at the 15th percentile of its own annual distribution. This acute divergence highlights rate volatility running elevated as fixed income markets reprice central bank trajectories while equity volatility stays subdued. BoE at 3.75% versus Fed at 4.00% delivers a 25bp nominal policy differential in favor of the dollar, though UK 10Y gilt yields at 5.38% command a +12bp spread over US 10Y at 5.26%. Leveraged funds trimmed GBP short exposure to -5,377 contracts, but persistent UK sovereign fiscal scrutiny continues to cap recovery rallies into moving average resistance. Trade bias: Neutral/bearish GBP/USD; rate volatility and moving average resistance constrain upside. Catalyst: UK S&P Global Services PMI at 08:30 UTC. Risk: US ISM Services prints a major contraction miss, driving dollar yields lower and releasing GBP/USD toward 1.3350.",
+      "evidence": [
+        "MOVE 107.3 (98th percentile) vs VIX 15.3 (15th percentile)",
+        "Fed 4.00% vs BoE 3.75% — 25bp (UK-US 10Y spread +12bp)",
+        "GBP/USD: 1.3207 (SMA20 resistance at 1.3370)"
       ],
       "_source": "engine-ai-primary"
     }
