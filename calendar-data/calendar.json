@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-04T23:59:23Z",
-  "generatedAt": "2026-10-04T23:59:23Z",
+  "lastUpdate": "2026-10-05T00:01:07Z",
+  "generatedAt": "2026-10-05T00:01:07Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -8,61 +8,26 @@
   "errorMessage": null,
   "fetchErrors": [],
   "rangeFrom": "2025-10-06",
-  "rangeTo": "2026-10-18",
-  "totalEvents": 5993,
+  "rangeTo": "2026-10-19",
+  "totalEvents": 6009,
   "currencyCounts": {
     "CHF": 163,
-    "EUR": 1701,
+    "EUR": 1707,
     "AUD": 355,
-    "JPY": 421,
+    "JPY": 422,
     "GBP": 576,
-    "CAD": 349,
-    "USD": 1874,
-    "NZD": 157,
+    "CAD": 357,
+    "USD": 1877,
+    "NZD": 155,
     "SEK": 245,
     "NOK": 152
   },
   "impactCounts": {
     "high": 1677,
-    "medium": 2462,
-    "low": 1854
+    "medium": 2467,
+    "low": 1865
   },
   "surpriseStats": {
-    "EUR/germany factory orders mom": {
-      "n": 4,
-      "mean": 1.325,
-      "std": 1.45
-    },
-    "CHF/unemployment rate": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 0.152753
-    },
-    "EUR/retail sales mom": {
-      "n": 4,
-      "mean": -0.45,
-      "std": 0.331662
-    },
-    "EUR/retail sales yoy": {
-      "n": 4,
-      "mean": -0.35,
-      "std": 0.264575
-    },
-    "USD/ism services pmi": {
-      "n": 3,
-      "mean": 0.233333,
-      "std": 0.776745
-    },
-    "JPY/household spending yoy": {
-      "n": 4,
-      "mean": -1.5,
-      "std": 2.654556
-    },
-    "JPY/household spending mom": {
-      "n": 4,
-      "mean": 0.325,
-      "std": 3.629853
-    },
     "EUR/germany industrial production mom": {
       "n": 4,
       "mean": -0.275,
@@ -1288,15 +1253,50 @@
       "mean": 2.0,
       "std": 34.82815
     },
+    "USD/ism services pmi": {
+      "n": 2,
+      "mean": 0.35,
+      "std": 1.06066
+    },
     "AUD/balance of trade": {
       "n": 3,
       "mean": 1.458333,
       "std": 1.368483
     },
+    "EUR/germany factory orders mom": {
+      "n": 3,
+      "mean": 1.533333,
+      "std": 1.70098
+    },
+    "CHF/unemployment rate": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/retail sales yoy": {
+      "n": 3,
+      "mean": -0.466667,
+      "std": 0.152753
+    },
+    "EUR/retail sales mom": {
+      "n": 3,
+      "mean": -0.566667,
+      "std": 0.288675
+    },
     "USD/nonfarm productivity qoq": {
       "n": 2,
       "mean": 0.4,
       "std": 0.565685
+    },
+    "JPY/household spending yoy": {
+      "n": 3,
+      "mean": -2.7,
+      "std": 1.389244
+    },
+    "JPY/household spending mom": {
+      "n": 3,
+      "mean": -0.333333,
+      "std": 4.142865
     },
     "USD/u-6 unemployment rate": {
       "n": 3,
@@ -56857,19 +56857,6 @@
     {
       "date": "13 Sep",
       "dateISO": "2026-09-13",
-      "timeUTC": "22:30",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
-      "event": "New Zealand BusinessNZ Services Index",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "50.6"
-    },
-    {
-      "date": "13 Sep",
-      "dateISO": "2026-09-13",
       "timeUTC": "22:45",
       "country": "NZD",
       "currency": "NZD",
@@ -56879,19 +56866,6 @@
       "actual": "0.5%",
       "forecast": "0.3%",
       "previous": "-0.1%"
-    },
-    {
-      "date": "13 Sep",
-      "dateISO": "2026-09-13",
-      "timeUTC": "22:45",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
-      "event": "New Zealand Net Permanent & Long-Term Migration",
-      "impact": "low",
-      "actual": null,
-      "forecast": "1.735K",
-      "previous": "1.610K"
     },
     {
       "date": "13 Sep",
@@ -78316,6 +78290,240 @@
       "actual": null,
       "forecast": "-5.830B",
       "previous": "-5.442B"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "04:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Tertiary Industry Activity Index m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.1%",
+      "previous": "0.4%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands 3-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands 6-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.1%",
+      "previous": "-0.1%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.7%",
+      "previous": "3.0%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Core CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.3%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "2.1%",
+      "previous": "2.4%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Common CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.5%",
+      "previous": "2.6%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Median CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.0%",
+      "previous": "2.0%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Trimmed CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.9%",
+      "previous": "1.9%"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 3-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 6-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "12:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 12-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States NAHB Housing Market Index",
+      "impact": "low",
+      "actual": null,
+      "forecast": "36",
+      "previous": "32"
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "15:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "BoC Business Outlook Survey",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "15:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 3-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "15:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 6-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Oct",
+      "dateISO": "2026-10-19",
+      "timeUTC": "22:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain Trade Balance",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-5.840B",
+      "previous": "-5.224B"
     }
   ]
 }
