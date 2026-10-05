@@ -55,6 +55,23 @@ jobs:
           today = datetime.now(timezone.utc).date()
           print('true' if gen_date == today else 'false')
           " 2>/dev/null || echo "false")
+              if [ "$SAME_DAY" = "true" ] && [ -f "site/ai-analysis/weekly-outlook.json" ]; then
+                WEEKLY_DUE=$(python3 -c "
+          import json
+          from datetime import datetime, timedelta, timezone
+          now = datetime.now(timezone.utc)
+          monday = (now.date() - timedelta(days=now.weekday())).isoformat()
+          try:
+              wk = str(json.load(open('site/ai-analysis/weekly-outlook.json')).get('week_of', ''))
+          except Exception:
+              wk = ''
+          print('true' if wk < monday else 'false')
+          " 2>/dev/null || echo "false")
+                if [ "$WEEKLY_DUE" = "true" ]; then
+                  echo "Weekly Outlook edition is older than the current week — not skipping despite the same-day run."
+                  SAME_DAY=false
+                fi
+              fi
               if [ "$SAME_DAY" = "true" ]; then
                 echo "site/ai-analysis/currency-catalysts.json was already generated today (UTC, ${GENERATED_AT}) — a sibling trigger already completed this cycle. Skipping the rest of this run."
                 SKIP=true
