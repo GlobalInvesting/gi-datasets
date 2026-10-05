@@ -1,15 +1,31 @@
 {
-  "updated_utc": "2026-10-05T08:20:47.252984+00:00",
-  "updated_label": "08:20 UTC",
-  "total": 30,
+  "updated_utc": "2026-10-05T12:20:44.060098+00:00",
+  "updated_label": "12:20 UTC",
+  "total": 29,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "9f9b5127cebe",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "COT update: Surging yields drive dollar buying and commodity selling",
+      "excerpt": "Our weekly Commitment of Traders update returns highlighting future positions and changes made by hedge funds and other speculators across commodities and forex during the week to last Tuesday, 29 September 2026 Key points: The Commitment of Traders update highlights futures positions and changes made by hedge funds and other speculators across commodities and forex during the week to last Tuesday, 29 September 2026. Dollar longs rebuilt rapidly : The aggregate USD long against eight IMM futures jumped 39% to USD 25.3 billion, up from just USD 6 billion two weeks earlier. Broad commodity selling continued : Managed money were net sellers in 18 of 25 major commodity futures as rising Treasury yields and dollar strength drove another 2.1% Bloomberg Commodity Index decline. Gold investors…",
+      "author": "Ole Hansen",
+      "url": "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-29-sept-2026-05102026",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1791189000000,
+      "published": "2026-10-05T08:30:00+00:00"
+    },
     {
       "id": "d89f946ab7f8",
       "bank": "ING",
@@ -29,23 +45,6 @@
       "category": "macro",
       "ts": 1791183000000,
       "published": "2026-10-05T06:50:00+00:00"
-    },
-    {
-      "id": "d2aeb1e48bcd",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "European Debt Markets Under Pressure",
-      "excerpt": "In focus today Bond spreads in Europe remain a key focus this week after the French government yield spread to Germany widened to the highest levels since 2011 on Friday. From the US, we get the ISM Service index for September. The flash Service PMI data was very strong, so we will keep an eye [&#8230;] The post European Debt Markets Under Pressure appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656395-european-debt-markets-under-pressure/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791182060000,
-      "published": "2026-10-05T06:34:20+00:00"
     },
     {
       "id": "89c0c448490e",
@@ -386,23 +385,21 @@
       "published": "2026-09-30T21:34:35+00:00"
     },
     {
-      "id": "d6fc8f645cda",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "id": "71d1424495e0",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
       "series": "",
-      "title": "Market Quick Take - Fed’s Williams comments caps treasury yields, Micron earnings on tap - 30 September 2026",
-      "excerpt": "Market drivers and catalysts Macro : Hiring demand cooled to a five-month low while Japanese output slipped again Equities : Wall Street fell for a second day with yields higher, though Asia found its footing Volatility : Equity fear gauges held steady while bond market volatility did the real moving Digital Assets: Tokens and miners drifted lower while the exchange sector won a clearing licence Commodities : Crude eased after Saudi flows resumed while bullion and silver rebounded. Flat September for BCOM index Fixed Income : Fed s Williams caps yields with dovish comments Currencies : US dollar rally tamed slightly by Fed rhetoric. JPY strength returns. Macr o NY Fed President John Williams pushed back against expectations for an imminent follow-up Fed hike , saying there is no urgency…",
-      "author": "Saxo Bank",
-      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---feds-williams-comments-caps-treasury-yields-micron-earnings-on-tap---30-september-2026-30092026",
+      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
+      "author": "Christine Lagarde",
+      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
       "currencies": [
-        "USD",
-        "JPY",
-        "AUD"
+        "EUR"
       ],
       "pairs": [],
-      "category": "trade_idea",
-      "ts": 1790749920000,
-      "published": "2026-09-30T06:32:00+00:00"
+      "category": "macro",
+      "ts": 1790726400000,
+      "published": "2026-09-30T00:00:00+00:00"
     },
     {
       "id": "44305195728e",
@@ -416,23 +413,6 @@
       "currencies": [
         "EUR",
         "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790726400000,
-      "published": "2026-09-30T00:00:00+00:00"
-    },
-    {
-      "id": "71d1424495e0",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
-      "author": "Christine Lagarde",
-      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
-      "currencies": [
-        "EUR"
       ],
       "pairs": [],
       "category": "macro",
@@ -457,6 +437,23 @@
       "category": "technical",
       "ts": 1790717264000,
       "published": "2026-09-29T21:27:44+00:00"
+    },
+    {
+      "id": "94794f2fd358",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Introductory remarks by the Governing Board, Swiss National Bank news conference",
+      "excerpt": "Introductory remarks by Mr Martin Schlegel, Chairman of the Governing Board of the SNB, Mr Antoine Martin, Vice Chairman of the Governing Board of the SNB, and Ms Petra Tschudin, Member of the Governing Board of the SNB, at the Media News Conference of the Swiss National Bank, Berne, 24 September 2026.",
+      "author": "Petra Tschudin",
+      "url": "https://www.bis.org/speeches/20260929-introductory-remarks-governing-board-swiss-national-bank-news-conference",
+      "currencies": [
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790640000000,
+      "published": "2026-09-29T00:00:00+00:00"
     },
     {
       "id": "07f43ff18712",
@@ -503,23 +500,6 @@
       "url": "https://www.bis.org/speeches/20260929-update-ai-and-economy",
       "currencies": [
         "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "94794f2fd358",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Introductory remarks by the Governing Board, Swiss National Bank news conference",
-      "excerpt": "Introductory remarks by Mr Martin Schlegel, Chairman of the Governing Board of the SNB, Mr Antoine Martin, Vice Chairman of the Governing Board of the SNB, and Ms Petra Tschudin, Member of the Governing Board of the SNB, at the Media News Conference of the Swiss National Bank, Berne, 24 September 2026.",
-      "author": "Petra Tschudin",
-      "url": "https://www.bis.org/speeches/20260929-introductory-remarks-governing-board-swiss-national-bank-news-conference",
-      "currencies": [
-        "CHF"
       ],
       "pairs": [],
       "category": "macro",
