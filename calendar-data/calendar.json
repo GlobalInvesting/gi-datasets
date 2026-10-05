@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T05:08:40Z",
-  "generatedAt": "2026-10-05T05:08:40Z",
+  "lastUpdate": "2026-10-05T05:10:41Z",
+  "generatedAt": "2026-10-05T05:10:41Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2572,6 +2572,16 @@
       "n": 2,
       "mean": -0.25,
       "std": 0.070711
+    },
+    "EUR/estonia industrial production yoy": {
+      "n": 2,
+      "mean": 4.05,
+      "std": 2.757716
+    },
+    "EUR/estonia industrial production mom": {
+      "n": 2,
+      "mean": 2.05,
+      "std": 3.181981
     },
     "USD/nonfarm payrolls": {
       "n": 2,
@@ -72259,9 +72269,9 @@
       "flag": "🇪🇺",
       "event": "Estonia Industrial Production YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "4.5%",
       "forecast": "2.4%",
-      "previous": "2.3%"
+      "previous": "2.2%"
     },
     {
       "date": "5 Oct",
@@ -72272,7 +72282,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Industrial Production MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "-0.1%",
       "previous": "0.9%"
     },
