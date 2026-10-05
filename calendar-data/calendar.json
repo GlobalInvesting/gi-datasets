@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T06:36:39Z",
-  "generatedAt": "2026-10-05T06:36:39Z",
+  "lastUpdate": "2026-10-05T06:38:36Z",
+  "generatedAt": "2026-10-05T06:38:36Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2542,6 +2542,11 @@
       "n": 2,
       "mean": 1.1635,
       "std": 0.598919
+    },
+    "SEK/silf/swedbank services pmi": {
+      "n": 2,
+      "mean": 1.55,
+      "std": 2.757716
     },
     "EUR/france s&p global composite pmi": {
       "n": 2,
@@ -72308,7 +72313,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Silf/Swedbank Services PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "57.4",
       "forecast": "57.8",
       "previous": "55.8"
     },
@@ -72321,7 +72326,7 @@
       "flag": "🇸🇪",
       "event": "Sweden Silf/Swedbank Composite PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "57.6",
       "forecast": null,
       "previous": "55.9"
     },
