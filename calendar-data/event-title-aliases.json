@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-05T19:26:38Z",
+  "generatedAt": "2026-10-05T21:32:29Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 221,
+  "aliasCount": 218,
   "aliases": [
     {
       "currency": "JPY",
@@ -2641,8 +2641,21 @@
           "actual_secondary_raw": "11.3%",
           "forecast_secondary_raw": "5.0%",
           "previous_secondary_raw": "11.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 13.8,
+          "forecast_yahoo": null,
+          "actual_primary": 11.3,
+          "actual_yahoo": 11.3,
+          "previous_primary": 11.5,
+          "previous_yahoo": 11.5,
+          "actual_yahoo_raw": "11.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "11.5"
         }
-      }
+      },
+      "yahoo_title": "Tankan All Big Capex Est"
     },
     {
       "currency": "JPY",
@@ -2660,8 +2673,21 @@
           "actual_secondary_raw": "21",
           "forecast_secondary_raw": "18",
           "previous_secondary_raw": "17"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 16.0,
+          "forecast_yahoo": null,
+          "actual_primary": 21.0,
+          "actual_yahoo": 21.0,
+          "previous_primary": 17.0,
+          "previous_yahoo": 17.0,
+          "actual_yahoo_raw": "21",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "17"
         }
-      }
+      },
+      "yahoo_title": "Tankan Big Mf Outlook DI"
     },
     {
       "currency": "JPY",
@@ -2711,8 +2737,21 @@
           "actual_secondary_raw": "30",
           "forecast_secondary_raw": "23",
           "previous_secondary_raw": "28"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 28.0,
+          "forecast_yahoo": null,
+          "actual_primary": 30.0,
+          "actual_yahoo": 30.0,
+          "previous_primary": 28.0,
+          "previous_yahoo": 28.0,
+          "actual_yahoo_raw": "30",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "28"
         }
-      }
+      },
+      "yahoo_title": "Tankan big non-mf outlook DI"
     },
     {
       "currency": "JPY",
@@ -4221,63 +4260,6 @@
           "actual_yahoo_raw": "5.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-4.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small All Industry Capex",
-      "yahoo_title": "Tankan All Sm Capex Est",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": -2.4,
-          "forecast_yahoo": null,
-          "actual_primary": -4.7,
-          "actual_yahoo": -4.7,
-          "previous_primary": -8.3,
-          "previous_yahoo": -8.3,
-          "actual_yahoo_raw": "-4.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-8.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 3.0,
-          "forecast_yahoo": null,
-          "actual_primary": 12.0,
-          "actual_yahoo": 12.0,
-          "previous_primary": 2.0,
-          "previous_yahoo": 2.0,
-          "actual_yahoo_raw": "12",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 8.0,
-          "forecast_yahoo": null,
-          "actual_primary": 10.0,
-          "actual_yahoo": 10.0,
-          "previous_primary": 8.0,
-          "previous_yahoo": 8.0,
-          "actual_yahoo_raw": "10",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "8"
         }
       }
     },
