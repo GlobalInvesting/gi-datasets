@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-04T18:14:01Z",
+  "generatedAt": "2026-10-05T00:05:45Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 206,
   "aliases": [
     {
       "currency": "JPY",
@@ -3132,11 +3132,11 @@
           "dateISO": "2026-10-04",
           "forecast_primary": 51.9,
           "forecast_secondary": 51.4,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 51.9,
+          "actual_secondary": 51.9,
           "previous_primary": 53.2,
           "previous_secondary": 53.2,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "51.9",
           "forecast_secondary_raw": "51.4",
           "previous_secondary_raw": "53.2"
         }
@@ -3151,11 +3151,11 @@
           "dateISO": "2026-10-04",
           "forecast_primary": null,
           "forecast_secondary": 50.8,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 51.3,
+          "actual_secondary": 51.3,
           "previous_primary": 52.7,
           "previous_secondary": 52.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "51.3",
           "forecast_secondary_raw": "50.8",
           "previous_secondary_raw": "52.7"
         }
@@ -3595,6 +3595,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "335.8",
           "previous_secondary_raw": "334.131"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core Machinery Orders m/m",
+      "secondary_title": "Japan Machinery Orders MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 1.3,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -3.7,
+          "previous_secondary": -3.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-3.7%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core Machinery Orders y/y",
+      "secondary_title": "Japan Machinery Orders YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 15.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 11.2,
+          "previous_secondary": 11.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "11.2%"
         }
       }
     },
@@ -4132,20 +4170,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Mf Outlook DI",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
+      "yahoo_title": "Tankan Small Non-Mf Idx",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": 3.0,
+          "forecast_primary": 16.0,
           "forecast_yahoo": null,
-          "actual_primary": 12.0,
-          "actual_yahoo": 12.0,
-          "previous_primary": 2.0,
-          "previous_yahoo": 2.0,
-          "actual_yahoo_raw": "12",
+          "actual_primary": 15.0,
+          "actual_yahoo": 15.0,
+          "previous_primary": 15.0,
+          "previous_yahoo": 15.0,
+          "actual_yahoo_raw": "15",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2"
+          "previous_yahoo_raw": "15"
         }
       }
     },
