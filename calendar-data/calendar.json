@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T13:58:48Z",
-  "generatedAt": "2026-10-05T13:58:48Z",
+  "lastUpdate": "2026-10-05T14:01:00Z",
+  "generatedAt": "2026-10-05T14:01:00Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2657,6 +2657,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.636396
+    },
+    "USD/cb employment trends index": {
+      "n": 2,
+      "mean": 0.205,
+      "std": 1.845549
     },
     "EUR/spain cpi mom": {
       "n": 2,
@@ -72790,7 +72795,7 @@
       "flag": "🇺🇸",
       "event": "United States CB Employment Trends Index",
       "impact": "low",
-      "actual": null,
+      "actual": "107.56",
       "forecast": "108.66",
       "previous": "108.53"
     },
