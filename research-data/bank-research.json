@@ -1,14 +1,13 @@
 {
-  "updated_utc": "2026-10-05T00:20:42.163444+00:00",
-  "updated_label": "00:20 UTC",
-  "total": 31,
+  "updated_utc": "2026-10-05T04:20:41.543969+00:00",
+  "updated_label": "04:20 UTC",
+  "total": 30,
   "sources": [
     "BIS",
     "CME",
     "ING",
     "Saxo",
-    "TD",
-    "Wells Fargo"
+    "TD"
   ],
   "items": [
     {
@@ -25,21 +24,6 @@
       "category": "macro",
       "ts": 1790995850000,
       "published": "2026-10-03T02:50:50+00:00"
-    },
-    {
-      "id": "0578542a259e",
-      "bank": "Wells Fargo",
-      "bank_full": "Wells Fargo Securities",
-      "series": "",
-      "title": "Economics Week Ahead",
-      "excerpt": "In the U.S., the September ISM Services index is expected to ease modestly while continuing to signal expansion, with particular attention on whether price pressures remain elevated. In Canada, the labor market likely rebounded in September, although broader trends still point to a cooling pace of employment growth. Elsewhere, we expect the Reserve Bank of [&#8230;] The post Economics Week Ahead appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656261-economics-week-ahead-27/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790995660000,
-      "published": "2026-10-03T02:47:40+00:00"
     },
     {
       "id": "43c989009857",
@@ -387,23 +371,6 @@
       "published": "2026-09-30T06:32:00+00:00"
     },
     {
-      "id": "71d1424495e0",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
-      "author": "Christine Lagarde",
-      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790726400000,
-      "published": "2026-09-30T00:00:00+00:00"
-    },
-    {
       "id": "44305195728e",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -415,6 +382,23 @@
       "currencies": [
         "EUR",
         "AUD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790726400000,
+      "published": "2026-09-30T00:00:00+00:00"
+    },
+    {
+      "id": "71d1424495e0",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
+      "author": "Christine Lagarde",
+      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
+      "currencies": [
+        "EUR"
       ],
       "pairs": [],
       "category": "macro",
