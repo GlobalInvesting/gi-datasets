@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-10-05T18:20:51.624346+00:00",
-  "updated_label": "18:20 UTC",
-  "total": 50,
+  "updated_utc": "2026-10-05T18:31:13.080181+00:00",
+  "updated_label": "18:31 UTC",
+  "total": 51,
   "total_high": 34,
   "total_med": 5,
   "sources_active": [
@@ -13,13 +13,62 @@
     "ForexLive",
     "InvestMacro",
     "InvestingLive",
+    "Nasdaq FX",
     "RTT News"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 50
+    "en": 51
   },
   "articles": [
+    {
+      "id": "a930d2775447",
+      "cur": "JPY",
+      "impact": "low",
+      "title": "Japanese Yen weakens as wide yield gap supports US Dollar",
+      "expand": "The Japanese Yen (JPY) remains on the back foot against the US Dollar (USD) on Monday as the wide yield differential continues to favour the Greenback, while broader structural headwinds weigh on the Japanese currency. At the time of writing, USD/JPY trades around 158.10, up 0.17% on the day.",
+      "source": "FXStreet",
+      "link": "https://www.fxstreet.com/news/japanese-yen-weakens-as-wide-yield-gap-supports-us-dollar-202610051826",
+      "time": "18:26",
+      "ts": 1791224783000,
+      "featured": false,
+      "lang": "en",
+      "date": "05 Oct",
+      "datetime": "2026-10-05T18:26:23+00:00",
+      "recent": true
+    },
+    {
+      "id": "f96316a5dd16",
+      "cur": "AUD",
+      "impact": "med",
+      "title": "Australian Dollar Price Forecast: Technical bounce in place?",
+      "expand": "The Australian Dollar (AUD) has gathered extra pace in quite a positive start to the week, prompting AUD/USD to build on Friday’s decent advance and extend its bull run to the proximity of the critical 0.7000 barrier.",
+      "source": "FXStreet",
+      "link": "https://www.fxstreet.com/analysis/australian-dollar-price-forecast-technical-bounce-in-place-202610051821",
+      "time": "18:21",
+      "ts": 1791224460000,
+      "featured": false,
+      "lang": "en",
+      "date": "05 Oct",
+      "datetime": "2026-10-05T18:21:00+00:00",
+      "recent": true
+    },
+    {
+      "id": "b5ccc71f11d3",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Stocks Settle Higher as Fed Rate Hike Concerns Ease",
+      "expand": "The S P 500 Index ($SPX ) (SPY ) closed up by +0.73% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.49%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up +1.00%. December E-mini S P futures (ESZ26 ) rose +0.73%, and December E-mini...",
+      "source": "Nasdaq FX",
+      "link": "https://www.nasdaq.com/articles/stocks-settle-higher-fed-rate-hike-concerns-ease",
+      "time": "18:12",
+      "ts": 1791223978000,
+      "featured": true,
+      "lang": "en",
+      "date": "05 Oct",
+      "datetime": "2026-10-05T18:12:58+00:00",
+      "recent": true
+    },
     {
       "id": "8a63ae5884e3",
       "cur": "USD",
@@ -357,22 +406,6 @@
       "recent": true
     },
     {
-      "id": "de3cc5e7acb9",
-      "cur": "USD",
-      "impact": "high",
-      "title": "Deutsche Bank: September Jobs Data Still Points to a Stable Labour Market - FJElite",
-      "expand": "September payrolls disappointed, with headline employment rising 29K and private payrolls 46K, alongside 60K of downward revisions to the previous two months. Average hourly earnings also slowed to 0.1% month-on-month, although labour-income growth remained relatively firm at an annualised 4.2%, still supportive of consumer spending. The household survey was more encouraging. The unemployment rate edged only slightly higher to 4.175%, while the U-6 rate fell to 7.6%, employment rose by 406K and labour-force participation climbed to 61.8%, its highest since May. Prime-age participation and empl...",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9791843/Deutsche-Bank-September-Jobs-Data-Still-Points-to-a-Stable-Labour-Market---FJElite.aspx?xy=rss",
-      "time": "12:30",
-      "ts": 1791203423000,
-      "featured": true,
-      "lang": "en",
-      "date": "05 Oct",
-      "datetime": "2026-10-05T12:30:23+00:00",
-      "recent": true
-    },
-    {
       "id": "ee163f6d02ed",
       "cur": "EUR",
       "impact": "high",
@@ -382,7 +415,7 @@
       "link": "https://www.fxstreet.com/news/oil-crude-forecasts-signal-inflation-surprises-ahead-societe-generale-202610051230",
       "time": "12:30",
       "ts": 1791203412000,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "date": "05 Oct",
       "datetime": "2026-10-05T12:30:12+00:00",
@@ -398,7 +431,7 @@
       "link": "https://investinglive.com/technical-analysis/morning-kickstart-dollar-firms-stock-futures-slip-ahead-of-ism-services/",
       "time": "12:27",
       "ts": 1791203253000,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "date": "05 Oct",
       "datetime": "2026-10-05T12:27:33+00:00",
@@ -466,22 +499,6 @@
       "lang": "en",
       "date": "05 Oct",
       "datetime": "2026-10-05T11:04:43+00:00",
-      "recent": true
-    },
-    {
-      "id": "23e80b073ab3",
-      "cur": "CHF",
-      "impact": "med",
-      "title": "USD/CHF Price Forecast: Holds below 0.8320 as the Swissie withstands bonds selloff",
-      "expand": "The Swiss Franc (CHF) has retraced previous losses on Monday and trades practically flat against the US Dollar (USD), hardly affected by the bond market turmoil that has crushed investors’ appètite for risk.",
-      "source": "FXStreet",
-      "link": "https://www.fxstreet.com/news/usd-chf-price-forecast-holds-below-08320-as-the-swissie-withstands-bonds-selloff-202610051051",
-      "time": "10:51",
-      "ts": 1791197485000,
-      "featured": false,
-      "lang": "en",
-      "date": "05 Oct",
-      "datetime": "2026-10-05T10:51:25+00:00",
       "recent": true
     },
     {
