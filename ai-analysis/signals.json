@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T23:59:52Z",
+  "generated_at": "2026-10-05T00:01:21Z",
   "signals": [
     {
       "time": "23:58",
       "priority": "critical",
       "title": "EUR/JPY — G10 Bilateral Theme + Geopolitical Tension",
-      "text": "EUR/JPY trades at 177.52, pressured by broad-based JPY outperformance against persistent EUR weakness. Across the G10 currency strength scorecard, JPY leads with a 1W average of +1.098% across 7 pairs, while EUR lags at -0.678% across 9 pairs, opening a 1.776% bilateral spread. Tensions around the Strait of Hormuz and Middle East military developments amplify demand for JPY despite its carry disadvantage, while European sovereign fiscal concerns spotlighted by French political risk maintain pressure on EUR. Options markets reflect acute downside hedging, with 1M 25d risk reversals at -2.42 indicating an extreme base put skew. Technical alignment confirms the downtrend as EUR trades below its SMA20 (1.1464), SMA50 (1.1530), and SMA200 (1.1613) cluster. Trade bias: Bearish EUR/JPY; broad G10 divergence and options skew reinforce downside pressure. Catalyst: ECB Lane and Schnabel speeches on 5 Oct. Risk: De-escalation headlines in the Middle East compress the 1.776% G10 spread and spur carry re-engagement.",
+      "text": "The G10 scorecard flags JPY as the weekly leader at +1.098% across 7 pairs against EUR as the laggard at −0.678% across 9 pairs, generating a 1.776% leader-to-laggard divergence. EUR/JPY trades at 177.517 while testing negative BEER model valuation at z=−1.95σ. Middle East escalation headlines and Strait of Hormuz transit disruptions layer risk-off pressure on top of heavy EUR positioning, despite the ECB 2.65% vs BoJ 1.25% +140bp carry advantage favoring EUR. Options confirm pronounced downside hedging with EUR/JPY 25-delta risk reversals printing an extreme put skew of −2.42. Trade bias: Bearish EUR/JPY, downside momentum reinforced by geopolitical safe-haven flow. Catalyst: Germany Factory Orders release at 06:00 UTC. Risk: Strait of Hormuz de-escalation headline relieves geopolitical risk premia and forces short-covering.",
       "evidence": [
         "JPY 1W avg: +1.098% (n=7)",
         "EUR 1W avg: -0.678% (n=9)",
@@ -15,37 +15,37 @@
     },
     {
       "time": "23:55",
-      "priority": "warning",
-      "title": "USD/JPY — Carry vs Geopolitical Risk",
-      "text": "USD/JPY trades at 157.78, holding above its SMA20 at 156.26 while remaining capped below the SMA50 at 158.02 and SMA200 at 158.48. OIS carry firmly supports the dollar, where Fed SOFR at 3.87% vs BoJ TONA at 1.23% generates a +264bp carry advantage in favor of USD. However, Middle East conflict headlines and Strait of Hormuz transit disruptions introduce intervention and safe-haven friction, reflected in a pronounced 1M 25d risk reversal put skew of -2.36. 160.00 remains the key level that has previously triggered BoJ verbal warnings, with official intervention risk rising on a sustained break above 160. Leveraged funds JPY net positioning sits at -16,809 (pctl 96, z +1.83), reflecting an extended position relative to its 52-week distribution that leaves shorts vulnerable to geopolitical escalations. Trade bias: Long USD/JPY, carry-supported while VIX at 15.3 indicates contained cross-asset equity volatility. Catalyst: US ISM Services PMI on 5 Oct. Risk: VIX breaking sharply higher alongside direct transit blockades forces carry liquidation toward 156.00.",
+      "priority": "critical",
+      "title": "EUR/USD — Positioning + Vol + Retail Divergence",
+      "text": "EUR/USD trades at 1.1256, positioned below its SMA20 at 1.1464, SMA50 at 1.1530, and SMA200 at 1.1613. CFTC data shows leveraged funds net short EUR at −82,445 contracts (week ending Sep 29) sitting at the 6th percentile (z=−1.65), while retail sentiment shows an extreme 87% long positioning on Retail sentiment data. This stark institutional short versus retail long divergence indicates severe retail trapped-long exposure. Implied volatility trades at 6.9% against 30-day realized volatility of 3.9%, generating an elevated vol risk premium of +3.1% alongside a 25-delta risk reversal put skew of −1.53. Fed policy rate of 4.00% vs ECB at 2.65% maintains a +135bp carry advantage in favor of the dollar, while US 5Y yields rose +47bp over 20D (FRED, as of Oct 01) driven by real yields (+46bp real vs +1bp breakeven). Trade bias: Bearish EUR/USD, structural policy divergence and institutional flow dominate. Catalyst: Euro Area Composite PMI release at 08:00 UTC. Risk: Leveraged funds trigger short-covering above the SMA20 at 1.1464.",
       "evidence": [
-        "Fed SOFR 3.87% vs BoJ TONA 1.23% — +264bp",
-        "USD/JPY 25d RR: -2.36 put skew",
-        "JPY COT LF net: -16,809 (pctl 96, z +1.83)"
+        "EUR LF net: -82,445 (pctl 6, z -1.65)",
+        "Retail sentiment: 87% long",
+        "Fed 4.00% vs ECB 2.65% — +135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:53",
+      "time": "23:51",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Vol Premium Divergence",
-      "text": "EUR/USD trades at 1.1256, pinned below its falling daily SMA20 at 1.1464, SMA50 at 1.1530, and SMA200 at 1.1613. CFTC data shows institutional Leveraged Funds hold net short -82,445 contracts (pctl 6, z -1.65), standing in the lower decile of its 52-week range following a WoW liquidation of -23,640 contracts. In contrast, retail positioning is heavily loaded long at 87%, creating an acute institutional-versus-retail divergence. Options volatility confirms defensive positioning: 1M ATM IV trades at 6.9% against HV30 of 3.9%, establishing an elevated +3.1% vol risk premium alongside a -1.53 risk reversal put skew. Fundamental carry differentials underpin USD strength, with Fed SOFR at 3.87% vs ECB €STR at 2.44% providing a +143bp yield advantage to the dollar. Trade bias: Bearish EUR/USD; institutional trend and rate spread override retail positioning. Catalyst: Germany Factory Orders and Eurozone Services PMI on 5 Oct. Risk: Retail capitulation rally triggered by unexpected ECB hawkish rhetoric above 1.1464.",
+      "title": "USD/CAD — Retail Extreme + Policy Spread",
+      "text": "USD/CAD trades at 1.4254, holding above its SMA20 (1.4019), SMA50 (1.3960), and SMA200 (1.3854) cluster. Retail sentiment data retail sentiment displays an extreme 95% short positioning, heavily fading the bullish spot trend. Leveraged funds hold CAD net short at −72,519 contracts after a WoW reduction of −23,396 contracts, demonstrating that retail is positioned directly against both trend momentum and broader institutional positioning. Macro carry structurally anchors the move, with the Fed at 4.00% vs BoC at 2.25% offering a +175bp policy rate advantage in favor of USD. Trade bias: Bullish USD/CAD, persistent carry divergence alongside contrarian retail short exposure. Catalyst: Canada Trade Balance and Ivey PMI releases at 12:30/14:00 UTC. Risk: WTI crude spikes sharply above $95/bbl on Hormuz disruption, driving CAD recovery.",
       "evidence": [
-        "EUR COT LF net: -82,445 (pctl 6, z -1.65)",
-        "EUR/USD retail: 87% long",
-        "EUR/USD VRP: +3.1% (IV 6.9% vs HV30 3.9%)"
+        "Retail sentiment: 95% short",
+        "CAD LF net: -72,519 (WoW -23,396)",
+        "Fed 4.00% vs BoC 2.25% — +175bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:50",
+      "time": "23:47",
       "priority": "warning",
-      "title": "AUD/USD — Carry vs Macro Deterioration",
-      "text": "AUD/USD trades at 0.6953, remaining technically suppressed below its SMA20 (0.7089), SMA50 (0.7094), and SMA200 (0.7033). Australia's Services PMI slowed to 51.9 with renewing job cuts, while Treasurer Chalmers warned of severe economic fallout and surging borrowing costs from Middle East conflict escalation. While RBA AONIA at 4.60% vs Fed SOFR at 3.87% provides a -73bp carry advantage supporting the Australian dollar, cross-asset bond volatility reflected in the MOVE index at 107.3 (98th percentile of its trailing year) signals sovereign debt turbulence that disproportionately penalizes high-beta currencies. Leveraged funds maintain net long +55,114 contracts (pctl 79), but recent flow stalled with WoW delta of -570 contracts as upside momentum faded. Options markets price elevated hedging demand, with 1M IV at 8.1% vs HV30 of 5.9% delivering a +2.2% vol risk premium. Trade bias: Bearish AUD/USD; global growth and yield-curve stress overpower the nominal carry premium. Catalyst: RBA meeting on 3 Nov — hold expected. Risk: Commodity price surges driven by supply bottlenecks pushing spot back through the 0.7033 SMA200 barrier.",
+      "title": "USD/JPY — Carry Premium vs Options Downside Skew",
+      "text": "USD/JPY prints at 157.78, holding above its SMA20 at 156.26 while remaining below its SMA50 at 158.02. A 275bp Fed-BoJ policy rate spread (Fed 4.00% vs BoJ 1.25%) keeps carry structurally favorable toward USD while VIX remains contained at 15.3 (normal volatility). However, 25-delta risk reversals print an extreme downside put skew of −2.36, indicating substantial options demand hedging a downward decline. Cross-asset signals show MOVE at the 98th percentile of its trailing year versus VIX at the 15th percentile, reflecting elevated bond market interest rate volatility that has not yet fed into equity stress. Trade bias: Long USD/JPY, carry support intact while holding below overhead resistance. Catalyst: Japan Services PMI at 00:30 UTC and 10Y JGB Auction at 03:35 UTC. Risk: Sustained break below SMA20 at 156.26 accompanied by equity risk-off escalation.",
       "evidence": [
-        "RBA AONIA 4.60% vs Fed SOFR 3.87% — -73bp carry favors AUD",
-        "MOVE index: 107.3 (98th percentile)",
-        "AUD/USD VRP: +2.2% (IV 8.1% vs HV30 5.9%)"
+        "Fed 4.00% vs BoJ 1.25% — +275bp",
+        "USD/JPY 25d RR: -2.36 (put skew)",
+        "MOVE 107.3 (pctl 98) vs VIX 15.3 (pctl 15)"
       ],
       "_source": "engine-ai-primary"
     }
