@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T05:02:05Z",
-  "generatedAt": "2026-10-05T05:02:05Z",
+  "lastUpdate": "2026-10-05T05:02:45Z",
+  "generatedAt": "2026-10-05T05:02:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2277,6 +2277,11 @@
       "n": 2,
       "mean": -0.15,
       "std": 0.636396
+    },
+    "JPY/consumer confidence index": {
+      "n": 2,
+      "mean": -1.45,
+      "std": 0.212132
     },
     "EUR/inflation rate yoy flash": {
       "n": 2,
@@ -72280,7 +72285,7 @@
       "flag": "🇯🇵",
       "event": "Japan Consumer Confidence Index",
       "impact": "low",
-      "actual": null,
+      "actual": "35.4",
       "forecast": "37.0",
       "previous": "35.5"
     },
