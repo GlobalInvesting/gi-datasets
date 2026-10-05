@@ -1,15 +1,71 @@
 {
-  "updated_utc": "2026-10-05T05:44:43.594906+00:00",
-  "updated_label": "05:44 UTC",
+  "updated_utc": "2026-10-05T08:20:47.252984+00:00",
+  "updated_label": "08:20 UTC",
   "total": 30,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
-    "Saxo",
-    "TD"
+    "Saxo"
   ],
   "items": [
+    {
+      "id": "d89f946ab7f8",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Euro repriced for fiscal woes",
+      "excerpt": "Independent euro weakness is the dominant story in FX markets as investors adjust positions for French fiscal risk. With the ECB tightening cycle far more vulnerable to repricing than the Fed's, EUR/USD looks set to remain under pressure. Elsewhere, Brazilian asset markets are expected to rally today after Sunday's election…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-euro-repriced-for-fiscal-woes/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1791183000000,
+      "published": "2026-10-05T06:50:00+00:00"
+    },
+    {
+      "id": "d2aeb1e48bcd",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "European Debt Markets Under Pressure",
+      "excerpt": "In focus today Bond spreads in Europe remain a key focus this week after the French government yield spread to Germany widened to the highest levels since 2011 on Friday. From the US, we get the ISM Service index for September. The flash Service PMI data was very strong, so we will keep an eye [&#8230;] The post European Debt Markets Under Pressure appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656395-european-debt-markets-under-pressure/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791182060000,
+      "published": "2026-10-05T06:34:20+00:00"
+    },
+    {
+      "id": "89c0c448490e",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take – Weak euro in focus - 05 October 2026",
+      "excerpt": "Market drivers and catalysts Macro : Soft jobs print cooled hike expectations; political and fiscal turmoil in the Eurozone Equities : Chipmakers carried the technology benchmark to a fresh high on narrow breadth Volatility : One day pricing collapsed once the week's biggest event had cleared the calendar Digital Assets: Tokens held steady over the weekend while listed exchanges lagged the mining names Commodities : Strong dollar weighs on gold; limited price impact from G7 oil and fuel release Fixed Income : US long end yields remain near multi-decade highs while French spreads widen further Currencies : Euro falls to a new cycle low amid Eurozone turmoil and French debt concerns Macr o US Jobs Miss: September non-farm payrolls came in at just 29,000, well below the 84,000 consensus…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take--weak-euro-in-focus---05-october-2026-05102026",
+      "currencies": [
+        "USD",
+        "EUR",
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1791181140000,
+      "published": "2026-10-05T06:19:00+00:00"
+    },
     {
       "id": "d92281f5c2fe",
       "bank": "Saxo",
@@ -24,21 +80,6 @@
       "category": "macro",
       "ts": 1791174600000,
       "published": "2026-10-05T04:30:00+00:00"
-    },
-    {
-      "id": "cabcdd135c54",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "The Weekly Bottom Line: Hot and Cold",
-      "excerpt": "Our summary of recent economic events and what to expect in the weeks ahead. Canadian Highlights Monthly GDP momentum remains solid, pointing to annualized growth of 1.8% in Q3. Downside risks remain concentrated in the fourth quarter. While tariff-related front-running could flatter August activity, it will also result in some giveback in the months that [&#8230;] The post The Weekly Bottom Line: Hot and Cold appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656269-the-weekly-bottom-line-hot-and-cold/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790995850000,
-      "published": "2026-10-03T02:50:50+00:00"
     },
     {
       "id": "43c989009857",
@@ -253,28 +294,6 @@
       "published": "2026-10-01T21:20:14+00:00"
     },
     {
-      "id": "b15588fc0154",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Fiscal troubles for the euro may only be starting",
-      "excerpt": "History suggests that the euro’s correlation with eurozone spread widening can pick up rapidly. Today’s budget announcement in France leaves OATs at risk of further underperformance, and a so far resilient EUR/USD may be looking at material downside risks if things don’t improve. EUR/CHF is facing similar depreciation…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fiscal-troubles-for-the-euro-may-only-be-starting/",
-      "currencies": [
-        "USD",
-        "EUR",
-        "CHF"
-      ],
-      "pairs": [
-        "EUR/USD",
-        "EUR/CHF"
-      ],
-      "category": "macro",
-      "ts": 1790863440000,
-      "published": "2026-10-01T14:04:00+00:00"
-    },
-    {
       "id": "0137d5822858",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -440,21 +459,38 @@
       "published": "2026-09-29T21:27:44+00:00"
     },
     {
-      "id": "e1ffe98e4d84",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "id": "07f43ff18712",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
       "series": "",
-      "title": "TLT: naming your price on long-term bonds – and being paid to wait",
-      "excerpt": "Anyone who has bought long-dated government bonds since 2020 has probably lost money on them. Selling a cash-secured put on TLT is a way of naming the price at which you would be willing to try again and being paid while you wait. With a bond fund, choosing what you pay is the same as choosing what you earn. Long-dated government bonds have been falling since 2020. TLT, the iShares 20+ Year Treasury Bond ETF, closed at USD 78.62 on 28 September 2026, less than half its 2020 peak. The 30-year US Treasury yield closed at 5.55% and the 10-year at 5.24%, after the Federal Reserve raised its target range to 3.75 4.00% on 16 September (Source: Saxo, SaxoTraderGo and the Federal Reserve , as of 28 September 2026). Past performance is not indicative of future results. Plenty of investors have…",
-      "author": "Koen Hoorelbeke",
-      "url": "https://www.home.saxo/content/articles/options/tlt-naming-your-price-on-long-term-bonds--and-being-paid-to-wait-29092026",
+      "title": "Quantitative tightening - the next chapter",
+      "excerpt": "Speech by Sir David Ramsden, Deputy Governor for Markets and Banking of the Bank of England, at the Bank of England, co-hosted by the Money, Macro and Finance Society, London, 28 September 2026.",
+      "author": "David Ramsden",
+      "url": "https://www.bis.org/speeches/20260929-quantitative-tightening-next-chapter",
       "currencies": [
-        "USD"
+        "GBP"
       ],
       "pairs": [],
-      "category": "trade_idea",
-      "ts": 1790708400000,
-      "published": "2026-09-29T19:00:00+00:00"
+      "category": "macro",
+      "ts": 1790640000000,
+      "published": "2026-09-29T00:00:00+00:00"
+    },
+    {
+      "id": "80ed9218529b",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening speech - 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS)",
+      "excerpt": "Opening speech by Mr Leonardo Badea, First Deputy Governor of the National Bank of Romania, at the 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS), Bucharest, 30 July 2026.",
+      "author": "Leonardo Badea",
+      "url": "https://www.bis.org/speeches/20260928-opening-speech-12th-edition-ermas-conference",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790640000000,
+      "published": "2026-09-29T00:00:00+00:00"
     },
     {
       "id": "1057d63826f6",
@@ -484,40 +520,6 @@
       "url": "https://www.bis.org/speeches/20260929-introductory-remarks-governing-board-swiss-national-bank-news-conference",
       "currencies": [
         "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "07f43ff18712",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Quantitative tightening - the next chapter",
-      "excerpt": "Speech by Sir David Ramsden, Deputy Governor for Markets and Banking of the Bank of England, at the Bank of England, co-hosted by the Money, Macro and Finance Society, London, 28 September 2026.",
-      "author": "David Ramsden",
-      "url": "https://www.bis.org/speeches/20260929-quantitative-tightening-next-chapter",
-      "currencies": [
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "80ed9218529b",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Opening speech - 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS)",
-      "excerpt": "Opening speech by Mr Leonardo Badea, First Deputy Governor of the National Bank of Romania, at the 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS), Bucharest, 30 July 2026.",
-      "author": "Leonardo Badea",
-      "url": "https://www.bis.org/speeches/20260928-opening-speech-12th-edition-ermas-conference",
-      "currencies": [
-        "CAD"
       ],
       "pairs": [],
       "category": "macro",
