@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T23:33:45Z",
+  "updated_at": "2026-10-06T00:38:47Z",
   "source": "Daily-close OHLC pipeline \u00b7 SMA20/50/200",
   "levels": {
     "USD": {
@@ -13,8 +13,8 @@
     },
     "EUR": {
       "pair": "EUR/USD",
-      "close": 1.1222,
-      "sma20": 1.1443,
+      "close": 1.1227,
+      "sma20": 1.1444,
       "sma50": 1.1527,
       "sma200": 1.161,
       "position": "below_sma20_below_sma50_below_sma200",
@@ -22,25 +22,25 @@
     },
     "GBP": {
       "pair": "GBP/USD",
-      "close": 1.3222,
+      "close": 1.3224,
       "sma20": 1.3354,
       "sma50": 1.3452,
-      "sma200": 1.3444,
+      "sma200": 1.3445,
       "position": "below_sma20_below_sma50_below_sma200",
       "asof": "2026-10-05"
     },
     "JPY": {
       "pair": "USD/JPY",
-      "close": 157.99,
+      "close": 157.87,
       "sma20": 156.44,
       "sma50": 157.91,
       "sma200": 158.49,
-      "position": "above_sma20_above_sma50_below_sma200",
+      "position": "above_sma20_below_sma50_below_sma200",
       "asof": "2026-10-05"
     },
     "AUD": {
       "pair": "AUD/USD",
-      "close": 0.6973,
+      "close": 0.6975,
       "sma20": 0.7076,
       "sma50": 0.7093,
       "sma200": 0.7034,
@@ -49,7 +49,7 @@
     },
     "CAD": {
       "pair": "USD/CAD",
-      "close": 1.4262,
+      "close": 1.4259,
       "sma20": 1.4042,
       "sma50": 1.3962,
       "sma200": 1.3857,
@@ -58,7 +58,7 @@
     },
     "CHF": {
       "pair": "USD/CHF",
-      "close": 0.8307,
+      "close": 0.8303,
       "sma20": 0.8234,
       "sma50": 0.8144,
       "sma200": 0.7959,
@@ -67,7 +67,7 @@
     },
     "NZD": {
       "pair": "NZD/USD",
-      "close": 0.56,
+      "close": 0.5602,
       "sma20": 0.5712,
       "sma50": 0.5822,
       "sma200": 0.5847,
@@ -76,7 +76,7 @@
     },
     "NOK": {
       "pair": "USD/NOK",
-      "close": 9.591,
+      "close": 9.583,
       "sma20": 9.439,
       "sma50": 9.427,
       "sma200": 9.557,
@@ -85,7 +85,7 @@
     },
     "SEK": {
       "pair": "USD/SEK",
-      "close": 10.038,
+      "close": 10.033,
       "sma20": 9.85,
       "sma50": 9.662,
       "sma200": 9.396,
