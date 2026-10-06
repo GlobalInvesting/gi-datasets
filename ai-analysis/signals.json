@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-06T00:03:11Z",
+  "generated_at": "2026-10-06T06:36:44Z",
   "signals": [
     {
-      "time": "23:55",
+      "time": "06:31",
       "priority": "critical",
-      "title": "USD/JPY — Options Skew Divergence + Carry",
-      "text": "USD/JPY trades at 157.93, positioned above its SMA20 (156.44) and SMA50 (157.91) while holding below the SMA200 at 158.49. The pair is supported by a substantial carry advantage, with SOFR at 3.88% versus TONA at 1.23%, delivering a +265bp differential in favor of the dollar. In the options space, 25d risk reversals print at -2.32 (Saxo Bank, 1M tenor, indicative mid), marking an extreme put skew alongside an IV of 9.2% versus HV30 of 9.8% (VRP of -0.7%). While CFTC speculative accounts remain net short JPY at -16,809 contracts (pctl 96, z +1.83), the pronounced options put skew demonstrates that institutional desks are paying a premium for downside hedges against potential official intervention as price tests the upper 157 handle. This creates an asymmetric setup where carry sustains the spot grind higher while tail-risk protection remains heavily bid ahead of 160.00. Trade bias: Long USD/JPY, carry-supported with downside options hedging. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct. Risk: sustained push above 158.49 SMA200 accelerating verbal or physical intervention warnings.",
+      "title": "USD/JPY — Carry Support vs Downside Skew",
+      "text": "USD/JPY trades at 158.24, holding above its SMA20 of 156.44 while testing the SMA50 and SMA200 band between 157.91 and 158.49. OIS SOFR at 3.88% against TONA at 1.23% preserves a +265bp carry premium supporting the dollar, even as BoJ Governor Ueda stated this morning that the price trend is approaching 2% and business sentiment remains favorable. Speculative JPY positioning sits crowded with Leveraged Funds net short at −16,809 contracts, placing it in the 96th percentile of its 52-week range (z = +1.83). However, options pricing exhibits an asymmetric downside hedge: 1M 25-delta risk reversals print at −2.32 for USD/JPY and −2.60 for EUR/JPY, pointing to aggressive institutional demand for JPY call protection. With the 160.00 watch level overhead previously provoking official rhetoric, any sustained move toward 160 elevates intervention risk despite Ueda's remarks. Trade bias: Bullish USD/JPY, carry-supported while holding above 157.90. Catalyst: BoJ rate decision on 30 Oct. Risk: Spot closes below the 156.44 20-day moving average, unravelling leveraged short JPY hedges.",
       "evidence": [
-        "Fed SOFR 3.88% vs BoJ TONA 1.23% — 265bp",
-        "USD/JPY 25d RR: -2.32 (strong put skew)",
-        "USD/JPY: 157.93"
+        "OIS carry: SOFR 3.88% vs TONA 1.23% (+265bp)",
+        "25d RR: USDJPY -2.32 (strong put skew)",
+        "JPY CFTC: LF net -16,809 (pctl 96, z +1.83)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:51",
+      "time": "06:28",
       "priority": "warning",
-      "title": "EUR/AUD — G10 Bilateral Theme + Carry",
-      "text": "The G10 currency strength scorecard flags an active bilateral divergence: AUD leads the G10 complex with a 1W average of +0.671% across 4 pairs, whereas EUR lags at -0.350% across 9 pairs, generating a 1.021% spread. This performance gap is reinforced by monetary policy divergence, with RBA at 4.60% (hiking) versus ECB at 2.65% (hiking), establishing a 195bp carry advantage for the Australian dollar. Technicals reflect persistent euro headwinds as EUR/USD at 1.1222 trades well below its SMA20 (1.1443), SMA50 (1.1527), and SMA200 (1.1610). Furthermore, CFTC data highlights structural selling in the euro, with leveraged funds net short -82,445 contracts (pctl 6, z -1.65, WoW -23,640) while AUD positioning remains net long +55,114 contracts (pctl 79). Trade bias: Short EUR/AUD; wide yield spread and institutional positioning favor ongoing AUD outperformance. Catalyst: next ECB meeting (mkt: 100% hold priced) on 29 Oct. Risk: scorecard spread compresses below 0.80% as European growth data stabilizes.",
+      "title": "EUR/AUD — G10 Bilateral Theme + Monetary Divergence",
+      "text": "The G10 scorecard displays an active bilateral theme with weekly performance showing AUD up +0.697% across 4 pairs against EUR declining −0.331% across 9 pairs, generating a 1.028% spread. Policy settings reinforce this cross-currency divergence: the RBA policy rate sits at 4.60% (HIKING) compared to the ECB at 2.65% (HIKING), delivering a 195bp nominal differential and favoring the Australian dollar on cash rates. Germany Factory Orders contracted sharply this morning by −10.6% MoM versus 3.7% expected, adding domestic macro drag across the eurozone. Speculative positioning reflects this split, with EUR leveraged net short at −82,445 contracts (6th percentile, z = −1.65) while AUD runs net long at +55,114 contracts (79th percentile). On spot, EUR/USD languishes at 1.1211 below its entire SMA20/50/200 stack, leaving EUR crosses vulnerable to persistent carry funding. Trade bias: Bearish EUR/AUD, capitalizing on the persistent rate spread and G10 thematic divergence. Catalyst: ECB meeting on 29 Oct. Risk: G10 scorecard spread compresses below 0.80%, signaling exhaustion in AUD relative outperformance.",
       "evidence": [
-        "AUD 1W avg: +0.671% (n=4)",
-        "EUR 1W avg: -0.350% (n=9)",
-        "G10 spread: 1.021%"
+        "G10 spread: 1.028%",
+        "AUD 1W avg: +0.697% (n=4)",
+        "EUR 1W avg: -0.331% (n=9)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:48",
+      "time": "06:24",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Elevated Vol Premium",
-      "text": "EUR/USD trades at 1.1222, remaining pinned below its SMA20 (1.1443), SMA50 (1.1527), and SMA200 (1.1610) moving-average cluster. CFTC data shows leveraged funds net short -82,445 contracts (week ending 29 Sep), placing speculative exposure in the 6th percentile of its 52-week range with a z-score of -1.65 after weekly selling of -23,640 contracts. Concurrently, retail sentiment shows an extreme 86% long positioning, directly diverging from the institutional trend. In options, 1M ATM implied volatility sits at 7.0% against 30-day realized volatility of 3.9%, generating an elevated vol risk premium of +3.1% alongside a 25d risk reversal of -1.34. The rates backdrop also anchors dollar strength, with the US 5Y yield climbing +47bp over 20D (FRED, as of Oct 01) driven by real yields (+46bp real vs +1bp breakeven), while the Fed 4.00% vs ECB 2.65% 135bp spread maintains downward pressure. Trade bias: Bearish EUR/USD; institutional short crowding and real-rate expansion dominate despite contrarian retail positioning. Catalyst: Germany Factory Orders at 06:00 UTC. Risk: leveraged fund short-covering triggers a technical rebound back toward the 1.1443 SMA20.",
+      "title": "EUR/USD — Macro Divergence + Vol Risk Premium",
+      "text": "EUR/USD trades at 1.1211, positioned below its SMA20 (1.1444), SMA50 (1.1527), and SMA200 (1.1610) moving average cluster. The Fed policy rate of 4.00% versus ECB 2.65% establishes a 135bp rate spread favoring the dollar, confirmed by a +144bp SOFR-to-€STR OIS advantage. In sovereign debt markets, the 10Y DE-US yield spread stands wide at −183bp, while the German 2Y spread against the US narrowed 19bp in the USD's favor over the past 5 sessions to −177bp. Options markets reflect heavy downside hedging: EUR/USD 1M ATM implied volatility trades at 7.0% against 30-day realized volatility of 3.9%, generating an elevated Vol Risk Premium of +3.1%. Furthermore, the 20-day US 5Y yield change shows nominal yields up +47bp (FRED, as of 2026-10-01) driven almost entirely by real yields (+46bp), sustaining fundamental pressure on the pair. Trade bias: Bearish EUR/USD, driven by yield divergence and clean technical breakdown. Catalyst: ECB meeting on 29 Oct. Risk: Spot recovers and closes above the 1.1444 20-day moving average.",
       "evidence": [
-        "EUR COT LF net: -82,445 (pctl 6, z -1.65)",
-        "EUR/USD IV 7.0% vs HV30 3.9% — VRP +3.1%",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "Fed 4.00% vs ECB 2.65% — 135bp",
+        "VRP: IV 7.0% vs HV30 3.9% (+3.1%)",
+        "DE 2Y spread vs US: -177bp (5D Δ -19bp)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:44",
+      "time": "06:20",
       "priority": "warning",
-      "title": "GBP/USD — Positioning Extreme + Rate Divergence",
-      "text": "GBP/USD sits at 1.3221, trading below its technical cluster of SMA20 (1.3354), SMA50 (1.3452), and SMA200 (1.3444). CFTC positioning reveals aggressive speculative liquidation, with leveraged funds net short -5,377 contracts following a WoW delta of -11,896 and a 4W drop of -52,881 contracts, pushing exposure down to the 2nd percentile of its 52-week range (z -2.34). Cross-asset signals highlight macro cross-currents, with MOVE at the 100th percentile of its trailing year versus VIX at the 19th, reflecting fixed-income volatility around central bank paths while equity markets remain complacent. The carry landscape continues to lean toward the dollar, as Fed SOFR at 3.88% versus BoE SONIA at 3.73% delivers a +15bp spread in USD favor, accompanied by the Fed at 4.00% versus BoE at 3.75% (+25bp policy spread). Options markets show an elevated vol risk premium with 1M IV at 6.8% versus HV30 of 4.4% (VRP +2.3%) and a 25d risk reversal of -0.98. Trade bias: Bearish GBP/USD, pressured by multi-week spec selling and US yield leadership. Catalyst: BoE MPC Member Mann speech at 08:30 UTC. Risk: a sharp recovery across UK 2Y yields closing the 1.3354 SMA20 gap.",
+      "title": "GBP/USD — Crowded Spec Shorts vs Rate Anchor",
+      "text": "GBP/USD trades at 1.3208, pinned below its downward-sloping SMA20 (1.3354), SMA50 (1.3452), and SMA200 (1.3445) moving averages. CFTC data shows institutional speculative positioning heavily skewed, with Leveraged Funds net short −5,377 contracts following a WoW drop of −11,896 contracts, sinking positioning to the 2nd percentile of its 52-week range (z = −2.34). However, cross-asset fixed income metrics limit immediate downside acceleration: BoE at 3.75% versus Fed at 4.00% creates a modest 25bp policy spread, while UK 10Y gilts at 5.43% maintain an 11bp yield premium over 10Y US Treasuries (5.32%). Furthermore, the MOVE index sits at the 100th percentile of its trailing year (113.6) while the VIX remains subdued at the 19th percentile (15.5), indicating acute central bank interest-rate uncertainty priced into bonds that could spark abrupt short covering in rates-sensitive currencies. Trade bias: Neutral GBP/USD, constrained by multi-timeframe moving average resistance but protected by stretched spec short positioning. Catalyst: BoE MPC Member Mann speech today at 08:30 UTC. Risk: Spot closes decisively below 1.3150, prompting a momentum breakdown despite oversold COT metrics.",
       "evidence": [
-        "GBP COT LF net: -5,377 (pctl 2, z -2.34)",
-        "MOVE percentile: 100th vs VIX: 19th",
-        "Fed SOFR 3.88% vs BoE SONIA 3.73% — 15bp"
+        "GBP CFTC: LF net -5,377 (pctl 2, z -2.34)",
+        "UK 10Y vs US 10Y: +11bp spread",
+        "MOVE index: 113.6 (100th percentile)"
       ],
       "_source": "engine-ai-primary"
     }
