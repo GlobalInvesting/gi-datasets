@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-06T16:53:23Z",
+  "generatedAt": "2026-10-06T19:37:14Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 220,
+  "aliasCount": 221,
   "aliases": [
     {
       "currency": "JPY",
@@ -2646,21 +2646,8 @@
           "actual_secondary_raw": "35",
           "forecast_secondary_raw": "35",
           "previous_secondary_raw": "37"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 38.0,
-          "forecast_yahoo": null,
-          "actual_primary": 35.0,
-          "actual_yahoo": 35.0,
-          "previous_primary": 37.0,
-          "previous_yahoo": 37.0,
-          "actual_yahoo_raw": "35",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "37"
         }
-      },
-      "yahoo_title": "Tankan Big Non-Mf Idx"
+      }
     },
     {
       "currency": "JPY",
@@ -4149,20 +4136,39 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
-      "yahoo_title": "Tankan Small Non-Mf Idx",
+      "primary_title": "BoJ Tankan Small All Industry Capex",
+      "yahoo_title": "Tankan All Sm Capex Est",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": 16.0,
+          "forecast_primary": -2.4,
           "forecast_yahoo": null,
-          "actual_primary": 15.0,
-          "actual_yahoo": 15.0,
-          "previous_primary": 15.0,
-          "previous_yahoo": 15.0,
-          "actual_yahoo_raw": "15",
+          "actual_primary": -4.7,
+          "actual_yahoo": -4.7,
+          "previous_primary": -8.3,
+          "previous_yahoo": -8.3,
+          "actual_yahoo_raw": "-4.7",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "15"
+          "previous_yahoo_raw": "-8.3"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 8.0,
+          "forecast_yahoo": null,
+          "actual_primary": 10.0,
+          "actual_yahoo": 10.0,
+          "previous_primary": 8.0,
+          "previous_yahoo": 8.0,
+          "actual_yahoo_raw": "10",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "8"
         }
       }
     },
