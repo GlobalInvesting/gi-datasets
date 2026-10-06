@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-06T10:22:49Z",
-  "generatedAt": "2026-10-06T10:22:49Z",
+  "lastUpdate": "2026-10-06T10:24:49Z",
+  "generatedAt": "2026-10-06T10:24:49Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2602,6 +2602,16 @@
       "n": 2,
       "mean": -737.4,
       "std": 787.575533
+    },
+    "EUR/latvia industrial production yoy": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 1.484924
+    },
+    "EUR/latvia industrial production mom": {
+      "n": 2,
+      "mean": -0.2,
+      "std": 0.141421
     },
     "USD/nonfarm payrolls": {
       "n": 2,
@@ -73505,7 +73515,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Industrial Production MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.4%",
       "previous": "0.1%"
     },
@@ -73518,7 +73528,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Industrial Production YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "-0.8%",
       "previous": "-0.2%"
     },
