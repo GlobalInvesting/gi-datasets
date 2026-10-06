@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:46:20Z",
+  "generated_at": "2026-10-06T15:48:19Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -12296,20 +12296,6 @@
       "vendor": "calendar-primary"
     },
     {
-      "title": "New Zealand GDT Price Index",
-      "currency": "NZD",
-      "dateISO": "2026-10-06",
-      "timeUTC": "14:00",
-      "timeMode": "tentative",
-      "impact": "low",
-      "forecast": "-0.2%",
-      "previous": "-1.1%",
-      "actual": null,
-      "released": false,
-      "actualComputed": false,
-      "vendor": "calendar-primary"
-    },
-    {
       "title": "Canada Ivey PMI",
       "currency": "CAD",
       "dateISO": "2026-10-06",
@@ -12348,6 +12334,20 @@
       "previous": null,
       "actual": null,
       "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "New Zealand GDT Price Index",
+      "currency": "NZD",
+      "dateISO": "2026-10-06",
+      "timeUTC": "15:46",
+      "timeMode": "tentative",
+      "impact": "low",
+      "forecast": "-0.2%",
+      "previous": "-1.1%",
+      "actual": "1.2%",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
