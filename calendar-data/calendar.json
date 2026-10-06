@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-05T23:59:17Z",
-  "generatedAt": "2026-10-05T23:59:17Z",
+  "lastUpdate": "2026-10-06T00:01:08Z",
+  "generatedAt": "2026-10-06T00:01:08Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -8,86 +8,26 @@
   "errorMessage": null,
   "fetchErrors": [],
   "rangeFrom": "2025-10-06",
-  "rangeTo": "2026-10-19",
-  "totalEvents": 6036,
+  "rangeTo": "2026-10-20",
+  "totalEvents": 6071,
   "currencyCounts": {
-    "CHF": 164,
-    "EUR": 1712,
+    "CHF": 167,
+    "EUR": 1726,
     "AUD": 358,
-    "JPY": 425,
-    "GBP": 582,
+    "JPY": 429,
+    "GBP": 588,
     "CAD": 359,
-    "USD": 1884,
-    "NZD": 155,
+    "USD": 1891,
+    "NZD": 156,
     "SEK": 245,
     "NOK": 152
   },
   "impactCounts": {
-    "high": 1680,
-    "medium": 2471,
-    "low": 1885
+    "high": 1678,
+    "medium": 2485,
+    "low": 1908
   },
   "surpriseStats": {
-    "EUR/germany industrial production mom": {
-      "n": 4,
-      "mean": -0.275,
-      "std": 0.84212
-    },
-    "GBP/halifax house price index mom": {
-      "n": 2,
-      "mean": 0.0,
-      "std": 0.141421
-    },
-    "GBP/halifax house price index yoy": {
-      "n": 2,
-      "mean": -0.0,
-      "std": 0.424264
-    },
-    "EUR/france balance of trade": {
-      "n": 2,
-      "mean": -0.5,
-      "std": 1.697056
-    },
-    "CAD/balance of trade": {
-      "n": 3,
-      "mean": -0.21,
-      "std": 2.281644
-    },
-    "USD/balance of trade": {
-      "n": 3,
-      "mean": 0.666667,
-      "std": 0.873689
-    },
-    "USD/imports": {
-      "n": 2,
-      "mean": 2.15,
-      "std": 1.202082
-    },
-    "USD/exports": {
-      "n": 2,
-      "mean": 3.2,
-      "std": 0.707107
-    },
-    "CAD/ivey pmi s.a": {
-      "n": 4,
-      "mean": 4.4,
-      "std": 7.316192
-    },
-    "USD/consumer inflation expectations": {
-      "n": 2,
-      "mean": 0.15,
-      "std": 0.494975
-    },
-    "USD/api crude oil stock change": {
-      "n": 8,
-      "mean": 3.56325,
-      "std": 3.373774
-    },
-    "JPY/current account": {
-      "n": 2,
-      "mean": -2353.166,
-      "std": 2494.907483
-    },
     "AUD/private house approvals mom": {
       "n": 4,
       "mean": -0.95,
@@ -307,6 +247,11 @@
       "n": 2,
       "mean": 63.0,
       "std": 58.972706
+    },
+    "USD/api crude oil stock change": {
+      "n": 7,
+      "mean": 3.915,
+      "std": 3.482041
     },
     "JPY/machinery orders mom": {
       "n": 2,
@@ -1233,6 +1178,16 @@
       "mean": 0.1,
       "std": 0.828654
     },
+    "CAD/balance of trade": {
+      "n": 2,
+      "mean": -0.985,
+      "std": 2.609224
+    },
+    "USD/balance of trade": {
+      "n": 2,
+      "mean": 0.55,
+      "std": 1.202082
+    },
     "USD/factory orders mom": {
       "n": 5,
       "mean": 0.24,
@@ -1298,6 +1253,11 @@
       "mean": -0.333333,
       "std": 4.142865
     },
+    "EUR/germany industrial production mom": {
+      "n": 3,
+      "mean": -0.6,
+      "std": 0.655744
+    },
     "USD/u-6 unemployment rate": {
       "n": 3,
       "mean": 0.133333,
@@ -1332,6 +1292,11 @@
       "n": 3,
       "mean": 0.0,
       "std": 0.1
+    },
+    "CAD/ivey pmi s.a": {
+      "n": 3,
+      "mean": 6.833333,
+      "std": 6.690541
     },
     "NOK/ppi yoy": {
       "n": 2,
@@ -57218,19 +57183,6 @@
     {
       "date": "14 Sep",
       "dateISO": "2026-09-14",
-      "timeUTC": "09:15",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Schnabel Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "14 Sep",
-      "dateISO": "2026-09-14",
       "timeUTC": "12:30",
       "country": "CAD",
       "currency": "CAD",
@@ -57374,19 +57326,6 @@
     {
       "date": "14 Sep",
       "dateISO": "2026-09-14",
-      "timeUTC": "15:15",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB President Lagarde Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "14 Sep",
-      "dateISO": "2026-09-14",
       "timeUTC": "15:30",
       "country": "USD",
       "currency": "USD",
@@ -57409,19 +57348,6 @@
       "actual": "4.060%",
       "forecast": null,
       "previous": "3.890%"
-    },
-    {
-      "date": "14 Sep",
-      "dateISO": "2026-09-14",
-      "timeUTC": "15:35",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB President Lagarde Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "14 Sep",
@@ -78968,6 +78894,500 @@
       "actual": null,
       "forecast": "-5.840B",
       "previous": "-5.224B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "05:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "9.40%",
+      "previous": "9.10%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "05:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Estonia PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.5%",
+      "previous": "3.3%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "05:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Estonia PPI MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.7%",
+      "previous": "1.4%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "Switzerland Exports",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "19.828B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "Switzerland Imports",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "15.474B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "Switzerland Trade Balance",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany PPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.6%",
+      "previous": "1.6%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany PPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.4%",
+      "previous": "3.7%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Average Weekly Earnings, Regular Pay y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.5%",
+      "previous": "3.4%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Average Weekly Earnings, Total Pay y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "4.5%",
+      "previous": "4.3%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Unemployment Rate",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "4.8%",
+      "previous": "4.9%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Claimant Count Change",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "15.8K",
+      "previous": "6.7K"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Employment Change 3-months",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "82K",
+      "previous": "147K"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovakia Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-890.0M",
+      "previous": "-1035.3M"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": "36.0B",
+      "previous": "27.6B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Current Account n.s.a.",
+      "impact": "low",
+      "actual": null,
+      "forecast": "15.2B",
+      "previous": "36.5B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Construction Output m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.4%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Construction Output y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.6%",
+      "previous": "-2.0%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:05",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany ZEW Economic Sentiment Indicator",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "25.8",
+      "previous": "34.7"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:05",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany ZEW Economic Situation",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-41.0",
+      "previous": "-47.1"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:05",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area ZEW Economic Sentiment Indicator",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom 10-Year Treasury Gilt Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "5.383%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "8.0%",
+      "previous": "7.2%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal PPI MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.4%",
+      "previous": "0.8%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovakia Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "5.1%",
+      "previous": "5.2%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "10:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1050.0M",
+      "previous": "827.7M"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Housing Starts",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.468M",
+      "previous": "1.275M"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Building Permits",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.441M",
+      "previous": "1.394M"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Housing Starts m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-14.0%",
+      "previous": "-2.6%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Building Permits m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.2%",
+      "previous": "-2.7%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "14:00",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand GDT Price Index",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Pending Home Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.9%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Pending Home Sales y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.7%",
+      "previous": "-4.7%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Pending Home Sales Index",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "71.2"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Adjusted Trade Balance",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-845.8B",
+      "previous": "-840.6B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Trade Balance",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-689.6B",
+      "previous": "-1105.6B"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Imports y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "35.4%",
+      "previous": "28.0%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Exports y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "11.0%",
+      "previous": "19.3%"
     }
   ]
 }
