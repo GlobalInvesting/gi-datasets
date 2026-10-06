@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-10-05T20:21:03.851488+00:00",
-  "updated_label": "20:21 UTC",
-  "total": 32,
+  "updated_utc": "2026-10-06T00:20:47.120911+00:00",
+  "updated_label": "00:20 UTC",
+  "total": 28,
   "sources": [
     "BIS",
     "CME",
@@ -9,6 +9,43 @@
     "Saxo"
   ],
   "items": [
+    {
+      "id": "37a898c01f1d",
+      "bank": "CME",
+      "bank_full": "CME Group FX",
+      "series": "",
+      "title": "Euro futures hit 1.5-year lows on strong U.S. economic data.",
+      "excerpt": "Dan Deming analyzes the latest price action in the FX markets, highlighting the Euro's decline to a 1.5-year low. Euro futures face continued selling pressure, dropping in nine of the last 11 sessions, driven by robust U.S. economic data. Deming notes that solid GDP and ISM figures reinforce the strength of the U.S. economy, supporting the dollar in a higher interest rate environment. This dollar strength is creating broad headwinds across the currency complex, with the British Pound and Australian Dollar seeing pronounced weakness, while the Japanese Yen and Canadian Dollar post more modest losses.",
+      "author": "CME Group",
+      "url": "https://www.cmegroup.com/videos/2026/10/05/euro-futures-hit-1-5-year-lows-on-strong-u-s-economic-data-10-.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
+      "currencies": [
+        "USD",
+        "EUR",
+        "GBP",
+        "JPY"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791234124000,
+      "published": "2026-10-05T21:02:04+00:00"
+    },
+    {
+      "id": "0b12971d33b3",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Rates Spark: Repricing the ECB path",
+      "excerpt": "Turmoil in European government bond markets could trigger a further dovish repricing for the European Central Bank, especially as second-round inflation risks seem limited. Fiscal plans from Le Pen could ease French government bond spreads if they contain credible measures to tackle the…",
+      "author": "",
+      "url": "https://think.ing.com/articles/rates-spark-repricing-the-ecb-path/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791216120000,
+      "published": "2026-10-05T16:02:00+00:00"
+    },
     {
       "id": "26bef6037c56",
       "bank": "ING",
@@ -282,26 +319,6 @@
       "published": "2026-10-02T09:10:00+00:00"
     },
     {
-      "id": "8e0fb4187378",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: Tipping point",
-      "excerpt": "Markets reached a point of inflection yesterday, where the sell-off in French debt broke the narrative of ever-higher short-term market interest rates. This questions whether central banks are about to extend into policy error territory with tightening cycles. If that is the case, the ECB has less cause to tighten than the Fed, and EUR/USD can stay…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-tipping-point/",
-      "currencies": [
-        "USD",
-        "EUR"
-      ],
-      "pairs": [
-        "EUR/USD"
-      ],
-      "category": "macro",
-      "ts": 1790923200000,
-      "published": "2026-10-02T06:40:00+00:00"
-    },
-    {
       "id": "aec1eca08a30",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -488,92 +505,6 @@
       "category": "technical",
       "ts": 1790717264000,
       "published": "2026-09-29T21:27:44+00:00"
-    },
-    {
-      "id": "1057d63826f6",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "An update on AI and the economy",
-      "excerpt": "Opening keynote by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the Oakland Tech Week, cohosted by the Kapor Center, Oakland, California, 28 September 2026.",
-      "author": "Lisa D Cook",
-      "url": "https://www.bis.org/speeches/20260929-update-ai-and-economy",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "94794f2fd358",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Introductory remarks by the Governing Board, Swiss National Bank news conference",
-      "excerpt": "Introductory remarks by Mr Martin Schlegel, Chairman of the Governing Board of the SNB, Mr Antoine Martin, Vice Chairman of the Governing Board of the SNB, and Ms Petra Tschudin, Member of the Governing Board of the SNB, at the Media News Conference of the Swiss National Bank, Berne, 24 September 2026.",
-      "author": "Petra Tschudin",
-      "url": "https://www.bis.org/speeches/20260929-introductory-remarks-governing-board-swiss-national-bank-news-conference",
-      "currencies": [
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "07f43ff18712",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Quantitative tightening - the next chapter",
-      "excerpt": "Speech by Sir David Ramsden, Deputy Governor for Markets and Banking of the Bank of England, at the Bank of England, co-hosted by the Money, Macro and Finance Society, London, 28 September 2026.",
-      "author": "David Ramsden",
-      "url": "https://www.bis.org/speeches/20260929-quantitative-tightening-next-chapter",
-      "currencies": [
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "80ed9218529b",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Opening speech - 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS)",
-      "excerpt": "Opening speech by Mr Leonardo Badea, First Deputy Governor of the National Bank of Romania, at the 12th edition of the Annual Scientific Conference of the Romanian Academic Economists from Abroad (ERMAS), Bucharest, 30 July 2026.",
-      "author": "Leonardo Badea",
-      "url": "https://www.bis.org/speeches/20260928-opening-speech-12th-edition-ermas-conference",
-      "currencies": [
-        "CAD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790640000000,
-      "published": "2026-09-29T00:00:00+00:00"
-    },
-    {
-      "id": "8cd03d081aef",
-      "bank": "CME",
-      "bank_full": "CME Group FX",
-      "series": "",
-      "title": "Euro futures drop to lowest level since mid-July as dollar gains.",
-      "excerpt": "Euro futures traded lower, reaching 1.1350 before closing near 1.1365, marking the lowest level since mid-July. The decline was driven by U.S. dollar strength following rising inflation expectations and shifting Federal Reserve rate hike expectations. The euro has fallen approximately 3% since its August peak above 1.17. Meanwhile, option-derived volatility increased alongside the market decline, as measured by the CVOL index. Speculators expanded their net short positions last week, extending a continuous net short posture in euro futures since late June.",
-      "author": "CME Group",
-      "url": "https://www.cmegroup.com/videos/2026/09/28/euro-futures-drop-to-lowest-level-since-mid-july-as-dollar-gains.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
-      "currencies": [
-        "USD",
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1790631286000,
-      "published": "2026-09-28T21:34:46+00:00"
     }
   ]
 }
