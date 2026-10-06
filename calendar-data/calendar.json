@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-06T23:30:50Z",
-  "generatedAt": "2026-10-06T23:30:50Z",
+  "lastUpdate": "2026-10-06T23:32:40Z",
+  "generatedAt": "2026-10-06T23:32:40Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2698,10 +2698,20 @@
       "mean": 1.1,
       "std": 0.989949
     },
-    "JPY/overtime pay yoy": {
+    "JPY/labor cash earnings yoy": {
       "n": 2,
-      "mean": 0.55,
-      "std": 0.636396
+      "mean": 1.95,
+      "std": 1.343503
+    },
+    "JPY/overtime pay yoy": {
+      "n": 3,
+      "mean": 1.266667,
+      "std": 1.320353
+    },
+    "JPY/real wage yoy": {
+      "n": 2,
+      "mean": 2.3,
+      "std": 1.131371
     },
     "USD/cb employment trends index": {
       "n": 2,
@@ -73994,7 +74004,7 @@
       "flag": "🇯🇵",
       "event": "Japan Labor Cash Earnings y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "2.8%",
       "previous": "4.7%"
     },
@@ -74007,7 +74017,7 @@
       "flag": "🇯🇵",
       "event": "Japan Overtime Pay y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "2.5%",
       "previous": "3.1%"
     },
@@ -74020,7 +74030,7 @@
       "flag": "🇯🇵",
       "event": "Japan Real Wage y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.5%",
       "forecast": "0.0%",
       "previous": "2.4%"
     },
