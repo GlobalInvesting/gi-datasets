@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-06T12:28:47Z",
-  "generatedAt": "2026-10-06T12:28:47Z",
+  "lastUpdate": "2026-10-06T12:30:59Z",
+  "generatedAt": "2026-10-06T12:30:59Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2557,6 +2557,16 @@
       "n": 2,
       "mean": -0.25,
       "std": 0.070711
+    },
+    "CAD/trade balance": {
+      "n": 2,
+      "mean": 2.054,
+      "std": 7.235117
+    },
+    "USD/trade balance": {
+      "n": 2,
+      "mean": -18.4315,
+      "std": 7.955658
     },
     "USD/s&p global services pmi": {
       "n": 2,
@@ -73606,7 +73616,7 @@
       "flag": "🇨🇦",
       "event": "Canada Imports",
       "impact": "low",
-      "actual": null,
+      "actual": "73.710B",
       "forecast": null,
       "previous": "75.368B"
     },
@@ -73619,7 +73629,7 @@
       "flag": "🇨🇦",
       "event": "Canada Exports",
       "impact": "low",
-      "actual": null,
+      "actual": "77.909B",
       "forecast": null,
       "previous": "76.137B"
     },
@@ -73632,7 +73642,7 @@
       "flag": "🇨🇦",
       "event": "Canada Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.199B",
       "forecast": "-2.971B",
       "previous": "0.769B"
     },
@@ -73645,7 +73655,7 @@
       "flag": "🇺🇸",
       "event": "United States Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "-105.572B",
       "forecast": "-81.515B",
       "previous": "-88.576B"
     },
@@ -73658,7 +73668,7 @@
       "flag": "🇺🇸",
       "event": "United States Exports",
       "impact": "medium",
-      "actual": null,
+      "actual": "315.182B",
       "forecast": null,
       "previous": "310.723B"
     },
@@ -73671,7 +73681,7 @@
       "flag": "🇺🇸",
       "event": "United States Imports",
       "impact": "medium",
-      "actual": null,
+      "actual": "420.754B",
       "forecast": null,
       "previous": "399.299B"
     },
