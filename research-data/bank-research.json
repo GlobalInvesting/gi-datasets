@@ -1,14 +1,91 @@
 {
-  "updated_utc": "2026-10-06T04:20:41.839541+00:00",
-  "updated_label": "04:20 UTC",
-  "total": 27,
+  "updated_utc": "2026-10-06T08:20:44.640224+00:00",
+  "updated_label": "08:20 UTC",
+  "total": 28,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "974fbfa146ed",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: French risk keeps harming ECB hawks",
+      "excerpt": "Alongside a direct – albeit so far relatively contained – build-up of fiscal premium, the euro continues to suffer from an unwinding of ECB rate hike expectations due to French bond turbulence. Risks remain firmly on the downside for EUR/USD. Elsewhere, markets will seek clarity on a November hike from Bank of England speakers this…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-french-risk-keeps-harming-ecb-hawks/",
+      "currencies": [
+        "USD",
+        "EUR",
+        "GBP"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1791269100000,
+      "published": "2026-10-06T06:45:00+00:00"
+    },
+    {
+      "id": "f5e5d22f373e",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "Europe in Focus as French and Spanish Politics Drive Sentiment",
+      "excerpt": "In focus today There are no tier-1 releases today. Focus will remain on developments in the European markets and geopolitical developments in the Middle East. In France, the key issue in the coming days will be whether the Socialists and Marine Le Pen&#8217;s National Rally (NR) signal they are willing to topple the government over [&#8230;] The post Europe in Focus as French and Spanish Politics Drive Sentiment appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/656536-europe-in-focus-as-french-and-spanish-politics-drive-sentiment/",
+      "currencies": [
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791267542000,
+      "published": "2026-10-06T06:19:02+00:00"
+    },
+    {
+      "id": "62eec756e78f",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take – Bond yields hit 24-year highs, euro slides, and Nasdaq sets a record - 06 October 2026",
+      "excerpt": "Market drivers and catalysts Macro : European political strain, renewed bond selloff and record-high Nasdaq frame an otherwise quiet data day Equities : Technology carried Wall Street to another record while Korean chipmakers went the other way Volatility : One day pricing collapsed while rates volatility jumped ahead of the minutes and auctions Digital Assets: Tokens drifted lower while listed exchanges and treasury companies attracted buyers Commodities : Sugar hits 2024 high; gold tests support, oil holds above USD 100 Fixed Income : Long-dated US treasuries post highest daily close in over 24 years. Currencies : USD strength eases, euro rebounds Macr o Australia s October Westpac Consumer Confidence survey out with a reading of 80.4, a sharp reversal lower from the 88.9 reading in…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take--bond-yields-hit-24-year-highs-euro-slides-and-nasdaq-sets-a-record---06-october-2026-06102026",
+      "currencies": [
+        "USD",
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1791267480000,
+      "published": "2026-10-06T06:18:00+00:00"
+    },
+    {
+      "id": "60b60f45193a",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "The FX Trader: Pressure on Euro eases, for the moment at least.",
+      "excerpt": "But issues dogging France are here to stay for a while yet. Euro pushed to new lows, but French bonds stabilize. The pressure on France s sovereign debt saw a climax (for now) on Friday as the spread of French 10yr OATs to the German 10yr Bunds widened to a peak of 159 basis points before easing back lower to where it started the day closer to 140 basis points. At one point Friday, France s 10-year yield just missed the round 5% level, trading to a high of 4.995%. On Monday, the spread widened to 150 basis points before dropping back to below 140 basis points by late in the day and the pressure on the euro likewise peaked and retreated Monday. It s worth noting that the spike unfolded on the days ahead of and the actual day of the unveiling of the government s proposed 2027 budget…",
+      "author": "John J. Hardy",
+      "url": "https://www.home.saxo/content/articles/forex/the-fx-trader-pressure-on-euro-eases-for-the-moment-at-least-06102026",
+      "currencies": [
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791264300000,
+      "published": "2026-10-06T05:25:00+00:00"
+    },
     {
       "id": "37a898c01f1d",
       "bank": "CME",
@@ -135,23 +212,6 @@
       "published": "2026-10-05T04:30:00+00:00"
     },
     {
-      "id": "116bbe0b17a4",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Unwavering dedication",
-      "excerpt": "Remarks by Mr John C Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, at the University at Buffalo, Buffalo, New York, 29 September 2026.",
-      "author": "John C Williams",
-      "url": "https://www.bis.org/speeches/20261005-unwavering-dedication",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791158400000,
-      "published": "2026-10-05T00:00:00+00:00"
-    },
-    {
       "id": "814280e01c1c",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -179,6 +239,23 @@
       "url": "https://www.bis.org/speeches/20261005-launch-women-entrepreneurs-we-finance-code-albania",
       "currencies": [
         "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791158400000,
+      "published": "2026-10-05T00:00:00+00:00"
+    },
+    {
+      "id": "116bbe0b17a4",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Unwavering dedication",
+      "excerpt": "Remarks by Mr John C Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, at the University at Buffalo, Buffalo, New York, 29 September 2026.",
+      "author": "John C Williams",
+      "url": "https://www.bis.org/speeches/20261005-unwavering-dedication",
+      "currencies": [
+        "USD"
       ],
       "pairs": [],
       "category": "macro",
@@ -285,23 +362,6 @@
       "published": "2026-10-02T10:21:00+00:00"
     },
     {
-      "id": "f20133619965",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Eurozone inflation soars to 3.8% in September",
-      "excerpt": "EUROPE: The increase from 3.2% marks the fastest jump since March, the first month of the Middle East war. While it’s still mainly driven by energy prices, broader inflationary pressures are mounting as energy prices are expected to stay…",
-      "author": "",
-      "url": "https://think.ing.com/snaps/eurozone-inflation-soared-to-38-in-september/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790933640000,
-      "published": "2026-10-02T09:34:00+00:00"
-    },
-    {
       "id": "aec1eca08a30",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -383,41 +443,6 @@
       "published": "2026-10-01T06:13:00+00:00"
     },
     {
-      "id": "f99ceae48232",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Q4 Outlook for Traders: Three tests for the wall of worry.",
-      "excerpt": "One of the lessons markets have delivered repeatedly in recent years is that an impressive backdrop of risks does not deliver logical market outcomes. The Iran war produced the largest disruption to global energy supplies in decades. Long-term government bond yields have pushed to levels not seen in many years, while the extraordinary AI investment boom has reached a scale that increasingly invites difficult questions about how the spending will eventually generate adequate returns. And yet global equities, outside of some spectacular volatility in the most crowded parts of the AI trade, have again shown an extraordinary ability to climb the proverbial wall of worry. That resilience deserves respect. Investors have been conditioned by years of buying market weakness, while enormous…",
-      "author": "John J. Hardy",
-      "url": "https://www.home.saxo/content/articles/quarterly-outlook/q4-outlook-for-traders-01102026",
-      "currencies": [
-        "CAD"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1790811000000,
-      "published": "2026-09-30T23:30:00+00:00"
-    },
-    {
-      "id": "18fb01ab148c",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Q4 Outlook for Investors: Raise the bar",
-      "excerpt": "Our Q4 base case is a volatile upward grind, but with much greater dispersion beneath the index. Key points: AI meets expensive money: AI spending can remain strong, but higher funding costs, rapid obsolescence and rising reinvestment needs will increasingly separate companies that can comfortably finance the AI race from those spending simply to stay competitive. Inflation needs more than one hedge: Oil is only part of the risk. El Ni o, fiscal spending and the AI infrastructure buildout could also keep pressure on food, power, commodities and bond yields. Bonds are competitive again: With the US 10-year Treasury yield around 5%, investors no longer need to rely as heavily on equities for returns. They should assess whether recent strong stock-market gains have pushed portfolios away…",
-      "author": "Charu Chanana",
-      "url": "https://www.home.saxo/content/articles/quarterly-outlook/q4-outlook-for-investors-01102026",
-      "currencies": [
-        "USD",
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790810100000,
-      "published": "2026-09-30T23:15:00+00:00"
-    },
-    {
       "id": "2a5e5d0ec319",
       "bank": "CME",
       "bank_full": "CME Group FX",
@@ -436,23 +461,6 @@
       "published": "2026-09-30T21:34:35+00:00"
     },
     {
-      "id": "71d1424495e0",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
-      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
-      "author": "Christine Lagarde",
-      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1790726400000,
-      "published": "2026-09-30T00:00:00+00:00"
-    },
-    {
       "id": "44305195728e",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -464,6 +472,23 @@
       "currencies": [
         "EUR",
         "AUD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1790726400000,
+      "published": "2026-09-30T00:00:00+00:00"
+    },
+    {
+      "id": "71d1424495e0",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "excerpt": "Speech by Ms Christine Lagarde, President of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 28 September 2026.",
+      "author": "Christine Lagarde",
+      "url": "https://www.bis.org/speeches/20260930-hearing-committee-economic-and-monetary-affairs-european-parliament",
+      "currencies": [
+        "EUR"
       ],
       "pairs": [],
       "category": "macro",
