@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-06T06:00:56Z",
-  "generatedAt": "2026-10-06T06:00:56Z",
+  "lastUpdate": "2026-10-06T06:04:24Z",
+  "generatedAt": "2026-10-06T06:04:24Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1219,9 +1219,9 @@
       "std": 1.368483
     },
     "EUR/germany factory orders mom": {
-      "n": 3,
-      "mean": 1.533333,
-      "std": 1.70098
+      "n": 4,
+      "mean": -2.425,
+      "std": 8.037568
     },
     "CHF/unemployment rate": {
       "n": 2,
@@ -2582,6 +2582,11 @@
       "n": 2,
       "mean": 2.05,
       "std": 3.181981
+    },
+    "EUR/germany factory orders yoy": {
+      "n": 2,
+      "mean": 0.4,
+      "std": 21.778889
     },
     "EUR/slovenia balance of trade": {
       "n": 2,
@@ -73210,7 +73215,7 @@
       "flag": "🇪🇺",
       "event": "Germany Factory Orders m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-10.6%",
       "forecast": "3.7%",
       "previous": "2.5%"
     },
@@ -73223,7 +73228,7 @@
       "flag": "🇪🇺",
       "event": "Germany Factory Orders y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.7%",
       "forecast": "17.7%",
       "previous": "13.1%"
     },
