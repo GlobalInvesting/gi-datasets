@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-06T13:30:55Z",
+  "generatedAt": "2026-10-06T16:53:23Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 224,
+  "aliasCount": 220,
   "aliases": [
     {
       "currency": "JPY",
@@ -946,21 +946,8 @@
           "actual_secondary_raw": "-2",
           "forecast_secondary_raw": "3",
           "previous_secondary_raw": "4"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-22",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -2.0,
-          "actual_yahoo": -2.0,
-          "previous_primary": null,
-          "previous_yahoo": 4.0,
-          "actual_yahoo_raw": "-2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4"
         }
-      },
-      "yahoo_title": "Rich Fed Comp. Index"
+      }
     },
     {
       "currency": "USD",
@@ -978,21 +965,8 @@
           "actual_secondary_raw": "-5",
           "forecast_secondary_raw": "9",
           "previous_secondary_raw": "11"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-22",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -5.0,
-          "actual_yahoo": -5.0,
-          "previous_primary": 11.0,
-          "previous_yahoo": 11.0,
-          "actual_yahoo_raw": "-5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "11"
         }
-      },
-      "yahoo_title": "Rich Fed Mfg Shipments"
+      }
     },
     {
       "currency": "EUR",
@@ -1181,21 +1155,8 @@
           "actual_secondary_raw": "6.4%",
           "forecast_secondary_raw": "3.2%",
           "previous_secondary_raw": "-4.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-24",
-          "forecast_primary": -2.2,
-          "forecast_yahoo": null,
-          "actual_primary": 6.4,
-          "actual_yahoo": 6.4,
-          "previous_primary": -10.5,
-          "previous_yahoo": -10.5,
-          "actual_yahoo_raw": "6.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-10.5"
         }
-      },
-      "yahoo_title": "New Home Sales Chg MM"
+      }
     },
     {
       "currency": "USD",
@@ -1727,21 +1688,8 @@
           "actual_secondary_raw": "-0.9",
           "forecast_secondary_raw": "2",
           "previous_secondary_raw": "6.6"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 7.7,
-          "forecast_yahoo": null,
-          "actual_primary": -0.9,
-          "actual_yahoo": -0.9,
-          "previous_primary": 6.6,
-          "previous_yahoo": 6.6,
-          "actual_yahoo_raw": "-0.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.6"
         }
-      },
-      "yahoo_title": "Dallas Fed Services Revenues*"
+      }
     },
     {
       "currency": "USD",
@@ -2602,8 +2550,21 @@
           "actual_secondary_raw": "21",
           "forecast_secondary_raw": "18",
           "previous_secondary_raw": "17"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 16.0,
+          "forecast_yahoo": null,
+          "actual_primary": 21.0,
+          "actual_yahoo": 21.0,
+          "previous_primary": 17.0,
+          "previous_yahoo": 17.0,
+          "actual_yahoo_raw": "21",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "17"
         }
-      }
+      },
+      "yahoo_title": "Tankan Big Mf Outlook DI"
     },
     {
       "currency": "JPY",
@@ -2717,8 +2678,21 @@
           "actual_secondary_raw": "14",
           "forecast_secondary_raw": "10",
           "previous_secondary_raw": "9"
+        },
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 14.0,
+          "actual_yahoo": 14.0,
+          "previous_primary": 9.0,
+          "previous_yahoo": 9.0,
+          "actual_yahoo_raw": "14",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "9"
         }
-      }
+      },
+      "yahoo_title": "Tankan Small Mf Idx"
     },
     {
       "currency": "AUD",
@@ -3257,15 +3231,28 @@
           "dateISO": "2026-10-06",
           "forecast_primary": 56.2,
           "forecast_secondary": 65.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 58.2,
+          "actual_secondary": 58.2,
           "previous_primary": 64.3,
           "previous_secondary": 64.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "58.2",
           "forecast_secondary_raw": "65",
           "previous_secondary_raw": "64.3"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-06",
+          "forecast_primary": 56.2,
+          "forecast_yahoo": null,
+          "actual_primary": 58.2,
+          "actual_yahoo": 58.2,
+          "previous_primary": 64.3,
+          "previous_yahoo": 64.3,
+          "actual_yahoo_raw": "58.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "64.3"
         }
-      }
+      },
+      "yahoo_title": "Ivey PMI SA"
     },
     {
       "currency": "JPY",
@@ -3819,44 +3806,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "Chicago Fed National Activity Index",
-      "yahoo_title": "Rich Fed, Services Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-21",
-          "forecast_primary": 0.01,
-          "forecast_yahoo": null,
-          "actual_primary": -0.04,
-          "actual_yahoo": 0.0,
-          "previous_primary": -0.08,
-          "previous_yahoo": -8.0,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-8"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Richmond Fed Services Revenues",
-      "yahoo_title": "Rich Fed, Services Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-22",
-          "forecast_primary": -13.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": -8.0,
-          "previous_yahoo": -8.0,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-8"
-        }
-      }
-    },
-    {
       "currency": "NOK",
       "primary_title": "Norway Unemployment Rate",
       "yahoo_title": "Key Policy Rate",
@@ -3967,25 +3916,6 @@
           "actual_yahoo_raw": "102.2",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "98"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States CB Consumer Confidence Index",
-      "yahoo_title": "Consumer Confidence*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 89.4,
-          "forecast_yahoo": null,
-          "actual_primary": 81.9,
-          "actual_yahoo": 81.9,
-          "previous_primary": 89.4,
-          "previous_yahoo": 89.4,
-          "actual_yahoo_raw": "81.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "89.4"
         }
       }
     },
@@ -4219,58 +4149,20 @@
     },
     {
       "currency": "JPY",
-      "primary_title": "BoJ Tankan Small All Industry Capex",
-      "yahoo_title": "Tankan All Sm Capex Est",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Index",
+      "yahoo_title": "Tankan Small Non-Mf Idx",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-09-30",
-          "forecast_primary": -2.4,
+          "forecast_primary": 16.0,
           "forecast_yahoo": null,
-          "actual_primary": -4.7,
-          "actual_yahoo": -4.7,
-          "previous_primary": -8.3,
-          "previous_yahoo": -8.3,
-          "actual_yahoo_raw": "-4.7",
+          "actual_primary": 15.0,
+          "actual_yahoo": 15.0,
+          "previous_primary": 15.0,
+          "previous_yahoo": 15.0,
+          "actual_yahoo_raw": "15",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-8.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 3.0,
-          "forecast_yahoo": null,
-          "actual_primary": 12.0,
-          "actual_yahoo": 12.0,
-          "previous_primary": 2.0,
-          "previous_yahoo": 2.0,
-          "actual_yahoo_raw": "12",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
-      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 8.0,
-          "forecast_yahoo": null,
-          "actual_primary": 10.0,
-          "actual_yahoo": 10.0,
-          "previous_primary": 8.0,
-          "previous_yahoo": 8.0,
-          "actual_yahoo_raw": "10",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "8"
+          "previous_yahoo_raw": "15"
         }
       }
     },
@@ -4708,6 +4600,25 @@
           "actual_yahoo_raw": "1.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "1.6"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Ivey PMI n.s.a.",
+      "yahoo_title": "Ivey PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-06",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 61.9,
+          "actual_yahoo": 61.9,
+          "previous_primary": 62.7,
+          "previous_yahoo": 62.7,
+          "actual_yahoo_raw": "61.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "62.7"
         }
       }
     },
