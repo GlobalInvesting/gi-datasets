@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-07T05:24:41Z",
-  "generatedAt": "2026-10-07T05:24:41Z",
+  "lastUpdate": "2026-10-07T05:26:45Z",
+  "generatedAt": "2026-10-07T05:26:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2662,6 +2662,16 @@
       "n": 2,
       "mean": 2.75,
       "std": 1.06066
+    },
+    "EUR/estonia inflation rate mom": {
+      "n": 2,
+      "mean": 0.25,
+      "std": 0.636396
+    },
+    "EUR/estonia inflation rate yoy": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 0.707107
     },
     "CHF/unemployment rate n.s.a.": {
       "n": 2,
@@ -74055,7 +74065,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.2%",
       "previous": "0.4%"
     },
@@ -74068,7 +74078,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.5%",
       "forecast": "2.8%",
       "previous": "1.5%"
     },
