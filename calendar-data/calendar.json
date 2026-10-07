@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-07T06:44:44Z",
-  "generatedAt": "2026-10-07T06:44:44Z",
+  "lastUpdate": "2026-10-07T06:46:51Z",
+  "generatedAt": "2026-10-07T06:46:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2752,6 +2752,11 @@
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "EUR/france trade balance": {
+      "n": 2,
+      "mean": -1.193,
+      "std": 0.486489
     },
     "USD/cb employment trends index": {
       "n": 2,
@@ -74241,7 +74246,7 @@
       "flag": "🇪🇺",
       "event": "France Exports",
       "impact": "low",
-      "actual": null,
+      "actual": "54.176B",
       "forecast": null,
       "previous": "54.677B"
     },
@@ -74254,7 +74259,7 @@
       "flag": "🇪🇺",
       "event": "France Imports",
       "impact": "low",
-      "actual": null,
+      "actual": "60.298B",
       "forecast": null,
       "previous": "61.346B"
     },
@@ -74267,7 +74272,7 @@
       "flag": "🇪🇺",
       "event": "France Trade Balance",
       "impact": "low",
-      "actual": null,
+      "actual": "-6.122B",
       "forecast": "-4.585B",
       "previous": "-6.669B"
     },
