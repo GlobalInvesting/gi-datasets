@@ -1,78 +1,33 @@
 {
-  "lastUpdate": "2026-10-06T23:59:43Z",
-  "generatedAt": "2026-10-06T23:59:43Z",
+  "lastUpdate": "2026-10-07T00:01:04Z",
+  "generatedAt": "2026-10-07T00:01:04Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-10-06",
-  "rangeTo": "2026-10-20",
-  "totalEvents": 6087,
+  "rangeFrom": "2025-10-07",
+  "rangeTo": "2026-10-21",
+  "totalEvents": 6122,
   "currencyCounts": {
-    "CHF": 167,
-    "EUR": 1730,
-    "AUD": 361,
-    "JPY": 430,
-    "GBP": 590,
+    "EUR": 1734,
+    "GBP": 610,
     "CAD": 360,
-    "USD": 1896,
-    "NZD": 156,
+    "USD": 1907,
+    "JPY": 430,
+    "NZD": 159,
+    "CHF": 166,
+    "AUD": 359,
     "SEK": 245,
     "NOK": 152
   },
   "impactCounts": {
-    "high": 1680,
-    "medium": 2491,
-    "low": 1916
+    "medium": 2494,
+    "high": 1678,
+    "low": 1950
   },
   "surpriseStats": {
-    "AUD/private house approvals mom": {
-      "n": 4,
-      "mean": -0.95,
-      "std": 2.909181
-    },
-    "NZD/rbnz interest rate decision": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 0.0
-    },
-    "SEK/cpif mom": {
-      "n": 4,
-      "mean": -0.15,
-      "std": 0.341565
-    },
-    "SEK/cpif yoy": {
-      "n": 4,
-      "mean": -0.0,
-      "std": 0.11547
-    },
-    "EUR/france current account": {
-      "n": 3,
-      "mean": -0.066667,
-      "std": 2.478575
-    },
-    "USD/eia gasoline stocks change": {
-      "n": 13,
-      "mean": 0.084462,
-      "std": 1.434402
-    },
-    "USD/eia crude oil stocks change": {
-      "n": 13,
-      "mean": 0.332,
-      "std": 7.782059
-    },
-    "NZD/business nz pmi": {
-      "n": 2,
-      "mean": 3.3,
-      "std": 10.46518
-    },
-    "GBP/rics house price balance": {
-      "n": 2,
-      "mean": -1.0,
-      "std": 2.828427
-    },
     "EUR/germany balance of trade": {
       "n": 2,
       "mean": 1.15,
@@ -297,6 +252,16 @@
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "USD/eia gasoline stocks change": {
+      "n": 12,
+      "mean": 0.116833,
+      "std": 1.493216
+    },
+    "USD/eia crude oil stocks change": {
+      "n": 12,
+      "mean": -0.090167,
+      "std": 7.971097
     },
     "AUD/consumer inflation expectations": {
       "n": 2,
@@ -858,6 +823,11 @@
       "mean": 10.7,
       "std": 8.641759
     },
+    "AUD/private house approvals mom": {
+      "n": 3,
+      "mean": -1.266667,
+      "std": 3.477547
+    },
     "AUD/building permits mom": {
       "n": 2,
       "mean": 4.7,
@@ -1223,6 +1193,16 @@
       "mean": -2.425,
       "std": 8.037568
     },
+    "SEK/cpif mom": {
+      "n": 3,
+      "mean": -0.2,
+      "std": 0.4
+    },
+    "SEK/cpif yoy": {
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.11547
+    },
     "CHF/unemployment rate": {
       "n": 3,
       "mean": -0.033333,
@@ -1257,6 +1237,11 @@
       "n": 3,
       "mean": -0.6,
       "std": 0.655744
+    },
+    "EUR/france current account": {
+      "n": 2,
+      "mean": -0.95,
+      "std": 2.757716
     },
     "USD/u-6 unemployment rate": {
       "n": 3,
@@ -2453,6 +2438,11 @@
       "mean": -0.2,
       "std": 7.071068
     },
+    "NZD/rbnz interest rate decision": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
     "JPY/boj monetary base yoy": {
       "n": 2,
       "mean": -0.8,
@@ -2785,90 +2775,6 @@
     }
   },
   "events": [
-    {
-      "currency": "CHF",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-10-06",
-      "actual": "2.8%",
-      "forecast": "2.7",
-      "previous": "2.8",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-10-06",
-      "actual": "0.1%",
-      "forecast": "0.1",
-      "previous": "-0.4",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-10-06",
-      "actual": "1%",
-      "forecast": "2.0",
-      "previous": "2.1",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "AUD",
-      "event": "Westpac Consumer Confidence Index",
-      "dateISO": "2025-10-06",
-      "actual": "92.1",
-      "forecast": "97.8",
-      "previous": "95.4",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
-    {
-      "currency": "AUD",
-      "event": "Westpac Consumer Confidence Change",
-      "dateISO": "2025-10-06",
-      "actual": "-3.5%",
-      "forecast": "3.2",
-      "previous": "-3.1",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Household Spending YoY",
-      "dateISO": "2025-10-06",
-      "actual": "2.3%",
-      "forecast": "1.2",
-      "previous": "1.4",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Household Spending MoM",
-      "dateISO": "2025-10-06",
-      "actual": "0.6%",
-      "forecast": "0.1",
-      "previous": "1.7",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
     {
       "currency": "EUR",
       "event": "Factory Orders MoM",
@@ -57600,19 +57506,6 @@
       "previous": "6.7K"
     },
     {
-      "date": "15 Sep",
-      "dateISO": "2026-09-15",
-      "timeUTC": "06:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Employment Change 3-months",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "82K",
-      "previous": "147K"
-    },
-    {
       "date": "2026-09-15",
       "dateISO": "2026-09-15",
       "timeUTC": "06:00",
@@ -58051,19 +57944,6 @@
     {
       "date": "15 Sep",
       "dateISO": "2026-09-15",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany Bbk Monthly Report",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "15 Sep",
-      "dateISO": "2026-09-15",
       "timeUTC": "10:20",
       "country": "EUR",
       "currency": "EUR",
@@ -58209,19 +58089,6 @@
       "actual": "-1.1%",
       "forecast": "-0.7%",
       "previous": "0.9%"
-    },
-    {
-      "date": "15 Sep",
-      "dateISO": "2026-09-15",
-      "timeUTC": "17:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Schnabel Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "15 Sep",
@@ -79701,6 +79568,591 @@
       "actual": null,
       "forecast": "11.0%",
       "previous": "19.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "02:00",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "RBNZ Credit Card Spending y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.0%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Input m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.8%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Input y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.6%",
+      "previous": "6.1%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Output m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.0%",
+      "previous": "0.7%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Output y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.6%",
+      "previous": "3.7%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core PPI Output m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.1%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core PPI Output y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.2%",
+      "previous": "2.7%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.1%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPI y/y",
+      "impact": "high",
+      "actual": null,
+      "forecast": "2.7%",
+      "previous": "3.1%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.4%",
+      "previous": "2.6%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core RPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.0%",
+      "previous": "0.6%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core RPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.8%",
+      "previous": "3.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom RPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.6%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom RPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.9%",
+      "previous": "3.4%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Public Sector Net Borrowing",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.224B",
+      "previous": "15.989B"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Public Sector Net Cash Requirement",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-15.673B",
+      "previous": "15.227B"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPIH y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.1%",
+      "previous": "3.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPIH m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.4%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core CPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "143.6"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CPIH",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "143.4"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Greece Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.0B",
+      "previous": "0.218B"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "08:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.9%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "08:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom HPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.1%",
+      "previous": "2.0%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Belgium Consumer Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-11",
+      "previous": "-10"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Croatia Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.4%",
+      "previous": "3.4%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "09:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Greece 26-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "2.58%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Latvia PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.1%",
+      "previous": "2.6%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.4%",
+      "previous": "4.4%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Latvia PPI MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.6%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Crude Oil Stocks Change",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Cushing Crude Oil Stocks Change",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Crude Oil Imports Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Distillate Fuel Production Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Distillates Stocks Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Gasoline Production Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Heating Oil Stocks Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Gasoline Stocks Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Refinery Crude Oil Daily Inputs Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Refinery Utilization Rate Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "17:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 20-Year Bond Auction",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "5.420%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "21:45",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand CPI q/q",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.4%",
+      "previous": "1.5%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "21:45",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "5.1%",
+      "previous": "4.1%"
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Foreign Bond Investment",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "21 Oct",
+      "dateISO": "2026-10-21",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Foreign Investment in Japan Stocks",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     }
   ]
 }
