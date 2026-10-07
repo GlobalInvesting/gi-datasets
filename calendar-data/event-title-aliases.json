@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T13:43:17Z",
+  "generatedAt": "2026-10-07T17:30:10Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -3477,25 +3477,6 @@
       }
     },
     {
-      "currency": "GBP",
-      "primary_title": "United Kingdom NIESR GDP Estimate",
-      "secondary_title": "United Kingdom GDP 3-Month Avg",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 0.5,
-          "forecast_secondary": 0.5,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 0.5,
-          "previous_secondary": 0.4,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.5%",
-          "previous_secondary_raw": "0.4%"
-        }
-      }
-    },
-    {
       "currency": "USD",
       "primary_title": "United States PPI m/m",
       "secondary_title": "United States PPI MoM",
@@ -4081,6 +4062,25 @@
           "actual_yahoo_raw": "12",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Tankan Small Non-Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Non-Mf Outlook DI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 8.0,
+          "forecast_yahoo": null,
+          "actual_primary": 10.0,
+          "actual_yahoo": 10.0,
+          "previous_primary": 8.0,
+          "previous_yahoo": 8.0,
+          "actual_yahoo_raw": "10",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "8"
         }
       }
     },
