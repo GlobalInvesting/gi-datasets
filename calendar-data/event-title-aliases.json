@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-07T00:57:03Z",
+  "generatedAt": "2026-10-07T13:43:17Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 216,
+  "aliasCount": 220,
   "aliases": [
     {
       "currency": "GBP",
@@ -203,13 +203,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": 0.4,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.8,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.7,
           "previous_secondary": 0.7,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.8%",
           "previous_secondary_raw": "0.7%"
         }
       }
@@ -222,13 +222,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": 9.5,
-          "forecast_secondary": 6.5,
+          "forecast_secondary": 7.9,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 7.0,
           "previous_secondary": 7.0,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "6.5%",
+          "forecast_secondary_raw": "7.9%",
           "previous_secondary_raw": "7.0%"
         }
       }
@@ -241,13 +241,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": 3.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.6,
           "previous_secondary": 0.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.7%",
           "previous_secondary_raw": "0.6%"
         }
       }
@@ -260,13 +260,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": 8.3,
-          "forecast_secondary": null,
+          "forecast_secondary": 9.4,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 8.6,
           "previous_secondary": 8.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "9.4%",
           "previous_secondary_raw": "8.6%"
         }
       }
@@ -425,13 +425,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 33.5,
-          "forecast_secondary": null,
+          "forecast_secondary": 31.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 37.8,
           "previous_secondary": 37.8,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "31",
           "previous_secondary_raw": "37.8"
         }
       }
@@ -748,13 +748,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": 1.2,
-          "forecast_secondary": 0.6,
+          "forecast_secondary": 1.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.4,
           "previous_secondary": 1.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.6%",
+          "forecast_secondary_raw": "1.0%",
           "previous_secondary_raw": "1.4%"
         }
       }
@@ -1313,11 +1313,11 @@
           "dateISO": "2026-10-07",
           "forecast_primary": 120.4,
           "forecast_secondary": 119.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 118.7,
+          "actual_secondary": 118.7,
           "previous_primary": 120.6,
           "previous_secondary": 120.6,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "118.7",
           "forecast_secondary_raw": "119.7",
           "previous_secondary_raw": "120.6"
         }
@@ -1332,13 +1332,13 @@
           "dateISO": "2026-10-07",
           "forecast_primary": 117.6,
           "forecast_secondary": 117.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 118.0,
+          "actual_secondary": 118.0,
           "previous_primary": 117.7,
-          "previous_secondary": 117.7,
-          "actual_secondary_raw": null,
+          "previous_secondary": 117.6,
+          "actual_secondary_raw": "118.0",
           "forecast_secondary_raw": "117.5",
-          "previous_secondary_raw": "117.7"
+          "previous_secondary_raw": "117.6"
         }
       }
     },
@@ -2046,18 +2046,18 @@
     {
       "currency": "USD",
       "primary_title": "United States Retail Inventories m/m",
-      "secondary_title": "United States Retail Inventories Ex Autos MoM Adv",
+      "secondary_title": "United States Business Inventories MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 0.8,
-          "forecast_secondary": 0.4,
-          "actual_primary": 0.3,
-          "actual_secondary": 0.1,
-          "previous_primary": 0.8,
+          "dateISO": "2026-10-15",
+          "forecast_primary": 0.3,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.3,
           "previous_secondary": 0.8,
-          "actual_secondary_raw": "0.1%",
-          "forecast_secondary_raw": "0.4%",
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.8%"
         }
       }
@@ -3332,13 +3332,13 @@
         "secondary": {
           "dateISO": "2026-10-13",
           "forecast_primary": -2.4,
-          "forecast_secondary": null,
+          "forecast_secondary": -0.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -2.0,
           "previous_secondary": -2.0,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "-0.3%",
           "previous_secondary_raw": "-2%"
         }
       }
@@ -3351,13 +3351,13 @@
         "secondary": {
           "dateISO": "2026-10-14",
           "forecast_primary": 0.2,
-          "forecast_secondary": 0.3,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.3,
           "previous_secondary": 0.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.3%",
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
         }
       }
@@ -3370,13 +3370,13 @@
         "secondary": {
           "dateISO": "2026-10-14",
           "forecast_primary": 2.3,
-          "forecast_secondary": 2.5,
+          "forecast_secondary": 2.4,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 2.4,
           "previous_secondary": 2.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "2.5%",
+          "forecast_secondary_raw": "2.4%",
           "previous_secondary_raw": "2.4%"
         }
       }
@@ -3389,13 +3389,13 @@
         "secondary": {
           "dateISO": "2026-10-14",
           "forecast_primary": null,
-          "forecast_secondary": 0.3,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.3,
           "previous_secondary": 0.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.3%",
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
         }
       }
@@ -3522,13 +3522,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 0.4,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.2,
           "previous_secondary": 0.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.2%"
         }
       }
@@ -3560,13 +3560,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 4.4,
-          "forecast_secondary": 4.3,
+          "forecast_secondary": 4.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "4.3%",
+          "forecast_secondary_raw": "4.7%",
           "previous_secondary_raw": "4.6%"
         }
       }
@@ -3579,13 +3579,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": -1.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 1.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -0.4,
           "previous_secondary": -0.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "1.1%",
           "previous_secondary_raw": "-0.4%"
         }
       }
@@ -3617,13 +3617,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 13.9,
-          "forecast_secondary": null,
+          "forecast_secondary": 7.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 7.6,
           "previous_secondary": 7.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "7",
           "previous_secondary_raw": "7.60"
         }
       }
@@ -3636,13 +3636,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": -0.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.0,
           "previous_secondary": 0.0,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "0%"
         }
       }
@@ -3655,13 +3655,13 @@
         "secondary": {
           "dateISO": "2026-10-16",
           "forecast_primary": -0.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -0.3,
           "previous_secondary": -0.3,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "-0.3%"
         }
       }
@@ -3777,25 +3777,6 @@
           "actual_yahoo_raw": "4.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "4.25"
-        }
-      }
-    },
-    {
-      "currency": "NOK",
-      "primary_title": "Norway Retail Sales m/m",
-      "yahoo_title": "Retail Sales Ex. Auto",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-28",
-          "forecast_primary": -0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 0.6,
-          "actual_yahoo": 0.6,
-          "previous_primary": -0.7,
-          "previous_yahoo": -0.7,
-          "actual_yahoo_raw": "0.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.7"
         }
       }
     },
@@ -4062,6 +4043,44 @@
           "actual_yahoo_raw": "5.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-4.3"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Tankan Small All Industry Capex",
+      "yahoo_title": "Tankan All Sm Capex Est",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": -2.4,
+          "forecast_yahoo": null,
+          "actual_primary": -4.7,
+          "actual_yahoo": -4.7,
+          "previous_primary": -8.3,
+          "previous_yahoo": -8.3,
+          "actual_yahoo_raw": "-4.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-8.3"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Tankan Small Manufacturing Outlook",
+      "yahoo_title": "Tankan Sm Mf Outlook DI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-09-30",
+          "forecast_primary": 3.0,
+          "forecast_yahoo": null,
+          "actual_primary": 12.0,
+          "actual_yahoo": 12.0,
+          "previous_primary": 2.0,
+          "previous_yahoo": 2.0,
+          "actual_yahoo_raw": "12",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2"
         }
       }
     },
@@ -4556,6 +4575,63 @@
           "actual_yahoo_raw": "-8.7",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-16.6"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Coincident Index m/m",
+      "yahoo_title": "Coincident Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-07",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": -1.9,
+          "actual_yahoo": -1.9,
+          "previous_primary": 1.7,
+          "previous_yahoo": 1.7,
+          "actual_yahoo_raw": "-1.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.7"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Leading Index m/m",
+      "yahoo_title": "Leading Indicator*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-07",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 0.4,
+          "actual_yahoo": 0.4,
+          "previous_primary": 1.5,
+          "previous_yahoo": 1.5,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.5"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Manufacturing Production m/m",
+      "yahoo_title": "Manufacturing Output MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-07",
+          "forecast_primary": 0.5,
+          "forecast_yahoo": null,
+          "actual_primary": -0.4,
+          "actual_yahoo": -0.4,
+          "previous_primary": 0.7,
+          "previous_yahoo": 0.7,
+          "actual_yahoo_raw": "-0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.7"
         }
       }
     },
