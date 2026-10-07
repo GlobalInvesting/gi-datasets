@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-07T22:04:48Z",
-  "generatedAt": "2026-10-07T22:04:48Z",
+  "lastUpdate": "2026-10-07T22:06:56Z",
+  "generatedAt": "2026-10-07T22:06:56Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,10 +9,10 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-07",
   "rangeTo": "2026-10-21",
-  "totalEvents": 6151,
+  "totalEvents": 6152,
   "currencyCounts": {
     "EUR": 1735,
-    "GBP": 615,
+    "GBP": 616,
     "CAD": 361,
     "USD": 1920,
     "JPY": 436,
@@ -24,7 +24,7 @@
   },
   "impactCounts": {
     "medium": 2498,
-    "high": 1678,
+    "high": 1679,
     "low": 1975
   },
   "surpriseStats": {
@@ -75237,6 +75237,19 @@
       "flag": "🇪🇺",
       "event": "ECB Monetary Policy Meeting Accounts",
       "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "8 Oct",
+      "dateISO": "2026-10-08",
+      "timeUTC": "12:15",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Governor Bailey Speech",
+      "impact": "high",
       "actual": null,
       "forecast": null,
       "previous": null
