@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T06:00:55Z",
-  "generatedAt": "2026-10-08T06:00:55Z",
+  "lastUpdate": "2026-10-08T06:02:48Z",
+  "generatedAt": "2026-10-08T06:02:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1214,9 +1214,9 @@
       "std": 1.40594
     },
     "EUR/germany exports mom": {
-      "n": 2,
-      "mean": -0.45,
-      "std": 1.626346
+      "n": 3,
+      "mean": -0.833333,
+      "std": 1.327906
     },
     "EUR/france current account": {
       "n": 2,
@@ -2782,6 +2782,21 @@
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "EUR/germany imports mom": {
+      "n": 2,
+      "mean": -3.2,
+      "std": 2.262742
+    },
+    "EUR/germany trade balance": {
+      "n": 2,
+      "mean": 3.85,
+      "std": 1.626346
+    },
+    "EUR/germany trade balance n.s.a.": {
+      "n": 2,
+      "mean": 1.95,
+      "std": 6.858936
     },
     "EUR/france trade balance": {
       "n": 2,
@@ -74887,7 +74902,7 @@
       "flag": "🇪🇺",
       "event": "Germany Exports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.8%",
       "forecast": "0.8%",
       "previous": "-0.8%"
     },
@@ -74900,7 +74915,7 @@
       "flag": "🇪🇺",
       "event": "Germany Imports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "2.5%",
       "previous": "-5.7%"
     },
@@ -74913,7 +74928,7 @@
       "flag": "🇪🇺",
       "event": "Germany Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "19.5B",
       "forecast": "16.8B",
       "previous": "21.3B"
     },
@@ -74926,7 +74941,7 @@
       "flag": "🇪🇺",
       "event": "Germany Trade Balance n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "15.0B",
       "forecast": "17.9B",
       "previous": "22.2B"
     },
