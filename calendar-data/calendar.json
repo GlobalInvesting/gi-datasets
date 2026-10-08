@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T09:26:46Z",
-  "generatedAt": "2026-10-08T09:26:46Z",
+  "lastUpdate": "2026-10-08T09:28:50Z",
+  "generatedAt": "2026-10-08T09:28:50Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2743,6 +2743,11 @@
       "mean": 1.1,
       "std": 0.989949
     },
+    "EUR/greece balance of trade": {
+      "n": 2,
+      "mean": 0.4,
+      "std": 0.848528
+    },
     "GBP/bba mortgage rate": {
       "n": 2,
       "mean": -0.02,
@@ -2852,6 +2857,11 @@
       "n": 2,
       "mean": -0.5,
       "std": 0.565685
+    },
+    "EUR/croatia ppi yoy": {
+      "n": 2,
+      "mean": 1.85,
+      "std": 0.212132
     },
     "GBP/average weekly earnings, regular pay yoy": {
       "n": 2,
@@ -75026,7 +75036,7 @@
       "flag": "🇪🇺",
       "event": "Croatia PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "8.6%",
       "forecast": "6.6%",
       "previous": "6.2%"
     },
@@ -75039,7 +75049,7 @@
       "flag": "🇪🇺",
       "event": "Greece Balance of Trade",
       "impact": "low",
-      "actual": null,
+      "actual": "-2.2B",
       "forecast": "-3.2B",
       "previous": "-3.1B"
     },
