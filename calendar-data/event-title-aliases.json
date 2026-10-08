@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-08T01:12:55Z",
+  "generatedAt": "2026-10-08T13:51:43Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 207,
+  "aliasCount": 202,
   "aliases": [
     {
       "currency": "EUR",
@@ -1054,21 +1054,8 @@
           "actual_secondary_raw": "0.4%",
           "forecast_secondary_raw": "-0.1%",
           "previous_secondary_raw": "-0.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": -0.3,
-          "previous_yahoo": -0.3,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.3"
         }
-      },
-      "yahoo_title": "M4 Money Supply"
+      }
     },
     {
       "currency": "EUR",
@@ -1793,21 +1780,8 @@
           "actual_secondary_raw": "3%",
           "forecast_secondary_raw": "3.4%",
           "previous_secondary_raw": "3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 3.3,
-          "forecast_yahoo": null,
-          "actual_primary": 3.0,
-          "actual_yahoo": 3.0,
-          "previous_primary": 3.3,
-          "previous_yahoo": 3.3,
-          "actual_yahoo_raw": "3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.3"
         }
-      },
-      "yahoo_title": "Core PCE Price Index YY*"
+      }
     },
     {
       "currency": "USD",
@@ -1825,21 +1799,8 @@
           "actual_secondary_raw": "3.4%",
           "forecast_secondary_raw": "3.8%",
           "previous_secondary_raw": "3.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 4.2,
-          "forecast_yahoo": null,
-          "actual_primary": 3.4,
-          "actual_yahoo": 3.4,
-          "previous_primary": 3.7,
-          "previous_yahoo": 3.7,
-          "actual_yahoo_raw": "3.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.7"
         }
-      },
-      "yahoo_title": "PCE Price Index YY *"
+      }
     },
     {
       "currency": "USD",
@@ -1857,21 +1818,8 @@
           "actual_secondary_raw": "0.6%",
           "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.6,
-          "actual_yahoo": 0.6,
-          "previous_primary": 0.0,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "0.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
         }
-      },
-      "yahoo_title": "Personal Consump Real MM*"
+      }
     },
     {
       "currency": "USD",
@@ -2623,21 +2571,8 @@
           "actual_secondary_raw": "35.4",
           "forecast_secondary_raw": "35.7",
           "previous_secondary_raw": "35.5"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": 37.0,
-          "forecast_yahoo": null,
-          "actual_primary": 35.4,
-          "actual_yahoo": 35.4,
-          "previous_primary": 35.5,
-          "previous_yahoo": 35.5,
-          "actual_yahoo_raw": "35.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "35.5"
         }
-      },
-      "yahoo_title": "Consumer Confid. Index*"
+      }
     },
     {
       "currency": "EUR",
@@ -2896,7 +2831,7 @@
           "dateISO": "2026-10-08",
           "forecast_primary": 4.5,
           "forecast_secondary": 5.0,
-          "actual_primary": null,
+          "actual_primary": 5.3,
           "actual_secondary": 5.3,
           "previous_primary": 4.9,
           "previous_secondary": 4.9,
@@ -2915,15 +2850,28 @@
           "dateISO": "2026-10-08",
           "forecast_primary": 46.9,
           "forecast_secondary": 46.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 47.0,
+          "actual_secondary": 47.0,
           "previous_primary": 46.4,
           "previous_secondary": 46.4,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "47.0",
           "forecast_secondary_raw": "46.1",
           "previous_secondary_raw": "46.4"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 46.9,
+          "forecast_yahoo": null,
+          "actual_primary": 47.0,
+          "actual_yahoo": 47.0,
+          "previous_primary": 46.4,
+          "previous_yahoo": 46.4,
+          "actual_yahoo_raw": "47",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "46.4"
         }
-      }
+      },
+      "yahoo_title": "Economy Watchers Poll SA*"
     },
     {
       "currency": "JPY",
@@ -2934,11 +2882,11 @@
           "dateISO": "2026-10-08",
           "forecast_primary": 47.5,
           "forecast_secondary": 48.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 47.4,
+          "actual_secondary": 47.4,
           "previous_primary": 48.3,
           "previous_secondary": 48.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "47.4",
           "forecast_secondary_raw": "48",
           "previous_secondary_raw": "48.3"
         }
@@ -3553,44 +3501,6 @@
       }
     },
     {
-      "currency": "SEK",
-      "primary_title": "Sweden Manufacturing Confidence",
-      "yahoo_title": "Manufacturing Confidence*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 103.3,
-          "forecast_yahoo": null,
-          "actual_primary": 106.3,
-          "actual_yahoo": 106.3,
-          "previous_primary": 103.8,
-          "previous_yahoo": 107.1,
-          "actual_yahoo_raw": "106.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "107.1"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Consumer Confidence",
-      "yahoo_title": "Consumer Confidence SA*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 103.3,
-          "forecast_yahoo": null,
-          "actual_primary": 102.2,
-          "actual_yahoo": 102.2,
-          "previous_primary": 95.8,
-          "previous_yahoo": 98.0,
-          "actual_yahoo_raw": "102.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "98"
-        }
-      }
-    },
-    {
       "currency": "JPY",
       "primary_title": "Japan Industrial Production Forecast 1-month Ahead m/m",
       "yahoo_title": "IP Forecast 1 Mth Ahead",
@@ -3648,44 +3558,6 @@
       }
     },
     {
-      "currency": "SEK",
-      "primary_title": "Sweden Retail Sales m/m",
-      "yahoo_title": "Retail Sales MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": -0.2,
-          "previous_yahoo": -0.2,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.2"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Retail Sales y/y",
-      "yahoo_title": "Retail Sales YY*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 6.5,
-          "forecast_yahoo": null,
-          "actual_primary": 6.9,
-          "actual_yahoo": 6.9,
-          "previous_primary": 6.2,
-          "previous_yahoo": 6.2,
-          "actual_yahoo_raw": "6.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.2"
-        }
-      }
-    },
-    {
       "currency": "EUR",
       "primary_title": "Germany Unemployment Rate",
       "yahoo_title": "Unemployment Rate",
@@ -3720,25 +3592,6 @@
           "actual_yahoo_raw": "0.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Personal Income m/m",
-      "yahoo_title": "Personal Income MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
         }
       }
     },
