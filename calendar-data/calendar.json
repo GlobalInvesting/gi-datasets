@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T14:01:01Z",
-  "generatedAt": "2026-10-08T14:01:01Z",
+  "lastUpdate": "2026-10-08T14:02:55Z",
+  "generatedAt": "2026-10-08T14:02:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -704,9 +704,9 @@
       "std": 14.5664
     },
     "USD/wholesale inventories mom": {
-      "n": 5,
-      "mean": 0.48,
-      "std": 0.712039
+      "n": 6,
+      "mean": 0.366667,
+      "std": 0.694742
     },
     "USD/goods trade balance": {
       "n": 3,
@@ -2892,6 +2892,11 @@
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "USD/wholesale sales mom": {
+      "n": 2,
+      "mean": 0.85,
+      "std": 0.494975
     },
     "GBP/average weekly earnings, regular pay yoy": {
       "n": 2,
@@ -75317,7 +75322,7 @@
       "flag": "🇺🇸",
       "event": "United States Wholesale Inventories m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.7%",
       "previous": "0.7%"
     },
@@ -75330,7 +75335,7 @@
       "flag": "🇺🇸",
       "event": "United States Wholesale Sales m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "1.8%",
       "forecast": "0.6%",
       "previous": "0.8%"
     },
