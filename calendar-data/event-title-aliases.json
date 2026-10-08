@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-08T13:51:43Z",
+  "generatedAt": "2026-10-08T17:29:10Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 202,
+  "aliasCount": 203,
   "aliases": [
     {
       "currency": "EUR",
@@ -290,16 +290,16 @@
       "secondary_title": "United States 17-Week Bill Auction",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-17",
+          "dateISO": "2026-10-08",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": 3.92,
-          "actual_secondary": 4.03,
-          "previous_primary": 3.845,
-          "previous_secondary": 3.895,
-          "actual_secondary_raw": "4.030%",
+          "actual_primary": 4.105,
+          "actual_secondary": 4.105,
+          "previous_primary": 3.99,
+          "previous_secondary": 4.115,
+          "actual_secondary_raw": "4.105%",
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "3.895%"
+          "previous_secondary_raw": "4.115%"
         }
       }
     },
@@ -1716,15 +1716,28 @@
           "dateISO": "2026-10-08",
           "forecast_primary": 0.7,
           "forecast_secondary": 0.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.5,
+          "actual_secondary": 0.5,
           "previous_primary": 0.7,
-          "previous_secondary": 1.3,
-          "actual_secondary_raw": null,
+          "previous_secondary": 1.4,
+          "actual_secondary_raw": "0.5%",
           "forecast_secondary_raw": "0.7%",
-          "previous_secondary_raw": "1.3%"
+          "previous_secondary_raw": "1.4%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 0.7,
+          "forecast_yahoo": null,
+          "actual_primary": 0.5,
+          "actual_yahoo": 0.5,
+          "previous_primary": 0.7,
+          "previous_yahoo": 0.7,
+          "actual_yahoo_raw": "0.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.7"
         }
-      }
+      },
+      "yahoo_title": "Wholesale Invt(y), R MM"
     },
     {
       "currency": "USD",
@@ -3090,13 +3103,13 @@
         "secondary": {
           "dateISO": "2026-10-14",
           "forecast_primary": 1.3,
-          "forecast_secondary": null,
+          "forecast_secondary": 2.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -3.7,
           "previous_secondary": -3.7,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "-3.7%"
         }
       }
@@ -3109,13 +3122,13 @@
         "secondary": {
           "dateISO": "2026-10-14",
           "forecast_primary": 15.5,
-          "forecast_secondary": null,
+          "forecast_secondary": 8.9,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 11.2,
           "previous_secondary": 11.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "8.9%",
           "previous_secondary_raw": "11.2%"
         }
       }
@@ -3128,13 +3141,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": -1.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.5,
           "previous_secondary": 0.5,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.5%"
         }
       }
@@ -4238,6 +4251,25 @@
           "actual_yahoo_raw": "-0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Wholesale Sales m/m",
+      "yahoo_title": "Wholesale Sales MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-08",
+          "forecast_primary": 0.6,
+          "forecast_yahoo": null,
+          "actual_primary": 1.8,
+          "actual_yahoo": 1.8,
+          "previous_primary": 0.8,
+          "previous_yahoo": 0.8,
+          "actual_yahoo_raw": "1.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.8"
         }
       }
     },
