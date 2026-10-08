@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T10:26:52Z",
-  "generatedAt": "2026-10-08T10:26:52Z",
+  "lastUpdate": "2026-10-08T10:28:46Z",
+  "generatedAt": "2026-10-08T10:28:46Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2823,6 +2823,16 @@
       "mean": 684.4,
       "std": 443.497373
     },
+    "EUR/latvia inflation rate yoy": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/latvia inflation rate mom": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.0
+    },
     "USD/cb employment trends index": {
       "n": 2,
       "mean": 0.205,
@@ -2862,6 +2872,26 @@
       "n": 2,
       "mean": 1.85,
       "std": 0.212132
+    },
+    "EUR/ireland inflation rate mom": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.141421
+    },
+    "EUR/ireland inflation rate yoy": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.141421
+    },
+    "EUR/ireland harmonised inflation rate yoy final": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/ireland harmonised inflation rate mom final": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
     },
     "GBP/average weekly earnings, regular pay yoy": {
       "n": 2,
@@ -75062,7 +75092,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "4.1%",
       "forecast": "4.1%",
       "previous": "3.7%"
     },
@@ -75075,7 +75105,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.2%",
       "forecast": "3.3%",
       "previous": "3.2%"
     },
@@ -75088,7 +75118,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Harmonised Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.6%"
     },
@@ -75101,7 +75131,7 @@
       "flag": "🇪🇺",
       "event": "Latvia Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -75114,7 +75144,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Harmonised Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "3.9%",
       "previous": "3.4%"
     },
@@ -75127,7 +75157,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.7%"
     },
