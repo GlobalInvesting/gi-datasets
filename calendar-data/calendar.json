@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T05:26:45Z",
-  "generatedAt": "2026-10-08T05:26:45Z",
+  "lastUpdate": "2026-10-08T05:28:45Z",
+  "generatedAt": "2026-10-08T05:28:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2807,6 +2807,11 @@
       "n": 2,
       "mean": 0.65,
       "std": 0.212132
+    },
+    "EUR/finland industrial production yoy": {
+      "n": 2,
+      "mean": -1.1,
+      "std": 2.687006
     },
     "EUR/spain industrial production yoy": {
       "n": 2,
@@ -74804,9 +74809,9 @@
       "flag": "🇪🇺",
       "event": "Finland Industrial Production YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "0.8%",
       "forecast": "3.8%",
-      "previous": "4.5%"
+      "previous": "4.6%"
     },
     {
       "date": "8 Oct",
