@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-08T17:29:10Z",
+  "generatedAt": "2026-10-08T20:01:15Z",
   "scriptVersion": "1.8",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 203,
+  "aliasCount": 214,
   "aliases": [
     {
       "currency": "EUR",
@@ -2944,6 +2944,101 @@
       }
     },
     {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI m/m",
+      "secondary_title": "Norway Core Inflation Rate MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 0.1,
+          "forecast_secondary": 0.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.5,
+          "previous_secondary": -0.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.1%",
+          "previous_secondary_raw": "-0.5%"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI y/y",
+      "secondary_title": "Norway Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 2.7,
+          "forecast_secondary": 3.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.0,
+          "previous_secondary": 3.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "3.0%",
+          "previous_secondary_raw": "3%"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway PPI y/y",
+      "secondary_title": "Norway PPI YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 39.4,
+          "forecast_secondary": 34.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 30.1,
+          "previous_secondary": 30.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "34.0%",
+          "previous_secondary_raw": "30.1%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Industrial Production m/m",
+      "secondary_title": "Sweden Industrial Production MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 3.7,
+          "forecast_secondary": 1.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -3.6,
+          "previous_secondary": -3.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.5%",
+          "previous_secondary_raw": "-3.6%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Industrial New Orders y/y",
+      "secondary_title": "Sweden New Orders YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": -1.8,
+          "forecast_secondary": -2.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.5,
+          "previous_secondary": -0.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-2.0%",
+          "previous_secondary_raw": "-0.5%"
+        }
+      }
+    },
+    {
       "currency": "JPY",
       "primary_title": "Japan Machine Tool Orders y/y",
       "secondary_title": "Japan Machine Tool Orders YoY",
@@ -2997,6 +3092,82 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "-0.3%",
           "previous_secondary_raw": "-2%"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Visitor Arrivals y/y",
+      "secondary_title": "New Zealand Visitor Arrivals YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-13",
+          "forecast_primary": 5.1,
+          "forecast_secondary": 4.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 8.5,
+          "previous_secondary": 8.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "4.3%",
+          "previous_secondary_raw": "8.5%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden CPIF y/y",
+      "secondary_title": "Sweden CPIF YoY Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 0.8,
+          "forecast_secondary": 1.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.5%",
+          "previous_secondary_raw": "0.7%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Household Consumption m/m",
+      "secondary_title": "Sweden Household Consumption YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": null,
+          "forecast_secondary": 3.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 4.0,
+          "previous_secondary": 4.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "3.7%",
+          "previous_secondary_raw": "4%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Household Consumption y/y",
+      "secondary_title": "Sweden Household Consumption MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": null,
+          "forecast_secondary": -0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.3%",
+          "previous_secondary_raw": "0.7%"
         }
       }
     },
@@ -3339,6 +3510,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "7",
           "previous_secondary_raw": "7.60"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Electronic Card Retail Sales m/m",
+      "secondary_title": "New Zealand Electronic Retail Card Spending MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": 1.3,
+          "forecast_secondary": -0.6,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.9,
+          "previous_secondary": -0.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.6%",
+          "previous_secondary_raw": "-0.9%"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Electronic Card Retail Sales y/y",
+      "secondary_title": "New Zealand Electronic Retail Card Spending YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": 1.7,
+          "forecast_secondary": -0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.2,
+          "previous_secondary": 0.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.4%",
+          "previous_secondary_raw": "0.2%"
         }
       }
     },
