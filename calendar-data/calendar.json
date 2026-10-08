@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-08T06:26:47Z",
-  "generatedAt": "2026-10-08T06:26:47Z",
+  "lastUpdate": "2026-10-08T06:28:46Z",
+  "generatedAt": "2026-10-08T06:28:46Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2783,6 +2783,16 @@
       "mean": 0.0,
       "std": 0.0
     },
+    "EUR/lithuania inflation rate yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.636396
+    },
+    "EUR/lithuania inflation rate mom": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.494975
+    },
     "EUR/germany imports mom": {
       "n": 2,
       "mean": -3.2,
@@ -2817,6 +2827,11 @@
       "n": 2,
       "mean": 0.45,
       "std": 0.919239
+    },
+    "EUR/finland balance of trade": {
+      "n": 2,
+      "mean": -1.235,
+      "std": 0.997021
     },
     "AUD/mi inflation expectations": {
       "n": 2,
@@ -74863,9 +74878,9 @@
       "flag": "🇪🇺",
       "event": "Finland Balance of Trade",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.15B",
       "forecast": "-0.62B",
-      "previous": "-0.74B"
+      "previous": "-0.69B"
     },
     {
       "date": "8 Oct",
@@ -74876,7 +74891,7 @@
       "flag": "🇪🇺",
       "event": "Lithuania Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "6.7%",
       "forecast": "6.1%",
       "previous": "6.1%"
     },
@@ -74889,7 +74904,7 @@
       "flag": "🇪🇺",
       "event": "Lithuania Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "1.0%",
       "forecast": "0.7%",
       "previous": "-0.1%"
     },
