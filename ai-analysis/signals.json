@@ -1,51 +1,66 @@
 {
-  "generated_at": "2026-10-09T18:26:14Z",
+  "generated_at": "2026-10-09T21:00:55Z",
   "signals": [
     {
-      "time": "18:25",
+      "time": "20:36",
       "priority": "critical",
-      "title": "NOK/EUR — G10 Bilateral Theme + Monetary Divergence",
-      "text": "NOK leads G10 performance with a 1W average gain of +0.934% across 2 pairs, while EUR lags at −0.641% across 9 pairs, establishing an extreme 1.576% leader-to-laggard spread. Norges Bank policy rate sits at 4.5% against the ECB at 2.65%, providing a +185bp nominal policy buffer and a +152bp real rate advantage favoring NOK. French sovereign fiscal pressure highlighted by Rabobank reinforces structural EUR selling against high-yielding European currencies. The pair reflects durable policy and macro divergence rather than transitory flows. Trade bias: Short EUR/NOK; policy rate differential favors continued downside drift. Catalyst: ECB meeting 29 Oct — market pricing hold. Risk: Escalation in risk-off sentiment causing liquidity-driven liquidation of long NOK cross positions.",
+      "title": "EUR/AUD — G10 Bilateral Theme + Policy Divergence",
+      "text": "EUR/AUD closed Friday at 1.6031; severe G10 divergence favors extended downside toward 1.5900. AUD 1W average gain of +0.981% across 4 pairs contrasts with EUR's laggard drop of -0.663% across 9 pairs (1.643% spread), while the AONIA vs €STR carry gap delivers +216bp in AUD's favor alongside RBA-ECB real policy rate divergence (+0.60% vs +0.30%). The ECB meeting on 29 Oct determines whether policy divergence widens further. Trade bias: Bearish EUR/AUD into the Sydney open. Catalyst: Sydney session open at 21:00 UTC followed by the ECB meeting on 29 Oct. Risk: RBA dovish pivot or a break back above the 1.6200 handle invalidates the downside bias.",
       "evidence": [
-        "NOK 1W avg: +0.934% (n=2)",
-        "EUR 1W avg: -0.641% (n=9)",
-        "G10 spread: 1.576%"
+        "AUD 1W avg: +0.981% (n=4)",
+        "EUR 1W avg: -0.663% (n=9)",
+        "G10 spread: 1.643%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:21",
+      "time": "20:36",
       "priority": "warning",
-      "title": "USD/JPY — Carry Premium vs Intervention Watch",
-      "text": "USD/JPY trades at 158.24, holding above its SMA20 at 157.04 and SMA50 at 157.65 while testing resistance beneath the SMA200 at 158.51. The SOFR-TONA OIS differential of +265bp provides strong fundamental support for long USD carry trades. However, options markets show defensive positioning, with 25d risk reversals at −1.88 indicating strong demand for downside JPY puts despite VIX printing at 14.9. Furthermore, JPY speculative positioning shows leveraged funds net short −16,809 with a 52-week percentile of 96 and z-score of +1.83, confirming crowded positioning vulnerability. The 160.00 level remains the critical threshold that has previously prompted official intervention warnings. Trade bias: Long USD/JPY; carry advantage sustains upward drift while VIX remains low. Catalyst: BoJ meeting 30 Oct — market bias hold. Risk: A sustained push above 160.00 triggering direct FX intervention by the Ministry of Finance.",
+      "title": "EUR/USD — COT Short Crowding + Fed-ECB Carry Divergence",
+      "text": "EUR COT LF net short stands at -82.4k contracts (52-week percentile 6, z=-1.65) after shedding -23.6k on the week, creating heavy trend-following downside pressure toward 1.1150 following Friday's close at 1.1206. Widening SOFR-€STR rate differentials (+144bp in USD's favor) reinforce dollar strength as US 10-year yields hold at 5.244% in a bear flattener regime. The Fed meeting on 28 Oct is the catalyst that resolves the policy spread into late month. Trade bias: Bearish EUR/USD into the open. Catalyst: next Fed meeting (mkt: 41% hike priced) on 28 Oct. Risk: Short-covering squeeze pushing spot above the 20-day SMA at 1.1384.",
       "evidence": [
-        "USD/JPY: 158.24",
-        "USD/JPY 25d RR: -1.88",
-        "SOFR 3.88% vs TONA 1.23% — +265bp"
+        "EUR COT LF net: -82,445 (pctl 6, z=-1.65)",
+        "EUR/USD Friday close: 1.1206",
+        "OIS carry: SOFR 3.88% vs ESTR 2.44% (+144bp favoring USD)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:18",
+      "time": "20:04",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Crowding + Volatility Hedging",
-      "text": "EUR/USD trades at 1.1202, remaining pinned below its SMA20 at 1.1384, SMA50 at 1.1513, and SMA200 at 1.1602. Leveraged funds hold a net short position of −82,445 contracts with a 52-week percentile of 6 and z-score of −1.65, demonstrating stretched institutional short positioning. Options markets reflect acute protection demand, with 1M ATM implied volatility at 6.5% against 30-day realized volatility of 4.2%, generating an elevated vol risk premium of +2.3%. The SOFR-ESTR carry differential of +144bp structurally favors USD and caps spot advances into moving average resistance clusters. US 5Y yields rose +46bp over 20D (FRED, as of Oct 06) with real yields adding +49bp, underscoring real-yield support for the greenback. Trade bias: Bearish EUR/USD; persistent carry drag and technical moving average resistance restrict upside. Catalyst: ECB meeting 29 Oct — market bias hold. Risk: Rapid short covering by leveraged funds lifting spot through SMA20 resistance at 1.1384.",
+      "title": "USD/CAD — Employment Shock + Retail Asymmetry Squeeze",
+      "text": "CAD COT LF net short of -72.5k contracts expanded by -23.4k WoW, establishing upside continuation risk toward 1.4350 following Friday's 1.4255 close. The unexpectedly steep loss of 68.3k Canadian jobs compounds a +159bp SOFR-CORRA carry disadvantage against the USD, while retail positioning remains heavily short at 96% creating contrarian squeeze conditions. The BoC meeting on 28 Oct is the catalyst that resolves the policy trajectory. Trade bias: Bullish USD/CAD into the open. Catalyst: next BoC meeting (mkt: 47% hike priced) on 28 Oct. Risk: Spot failure below the 20-day SMA support at 1.4105.",
       "evidence": [
-        "EUR LF net: -82,445 (pctl 6, z -1.65)",
-        "EUR/USD IV: 6.5% vs HV30: 4.2% (VRP +2.3%)",
-        "EUR/USD: 1.1202"
+        "CAD COT LF net: -72,519 (WoW -23,396)",
+        "USD/CAD Friday close: 1.4255",
+        "Retail sentiment: 96% short USD/CAD",
+        "Canada employment: -68.3k vs +9.2k expected"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:12",
+      "time": "19:30",
+      "priority": "warning",
+      "title": "AUD/USD — Crowded Speculative Long Unwind Risk",
+      "text": "AUD COT LF net long of +55.1k contracts (72.3% long, 52-week percentile 79) presents positioning liquidation vulnerability following Friday's close at 0.6990. Despite a +72bp AONIA-SOFR carry premium favoring the Aussie, spot trades below all major daily moving averages (20-day SMA at 0.7042, 200-day SMA at 0.7039), and options 25-delta risk reversals exhibit persistent put skew (-1.04). The RBA meeting on 3 Nov determines whether the rate advantage sustains current elevation. Trade bias: Bearish AUD/USD into the Sydney open. Catalyst: Sydney open at 21:00 UTC followed by the RBA meeting on 3 Nov. Risk: Sustained close above the 200-day SMA at 0.7039.",
+      "evidence": [
+        "AUD COT LF net: +55,114 (72.3% long)",
+        "AUD/USD Friday close: 0.6990",
+        "Options 25d RR: -1.04 put skew",
+        "AUD/USD below 20-day SMA (0.7042) and 200-day SMA (0.7039)"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "16:39",
       "priority": "info",
-      "title": "USD/CAD — Employment Contraction vs Carry Support",
-      "text": "USD/CAD trades at 1.4270, positioned firmly above its SMA20 at 1.4105, SMA50 at 1.3973, and SMA200 at 1.3864. Canadian employment plunged by −68.3K against an expected −0.7K contraction, pushing the unemployment rate up to 6.5%. The SOFR-CORRA OIS differential stands at +159bp in favor of the US dollar, offering structural carry support for the pair. In the futures market, leveraged funds hold net shorts of −72,519 contracts, reinforcing CAD vulnerability despite WTI crude holding near $91.90. Sustained divergence in labor market performance and policy rates maintains upward momentum on the cross. Trade bias: Bullish USD/CAD; domestic labor softness and policy rate deficit undermine CAD resilience. Catalyst: BoC meeting 28 Oct — market bias hike. Risk: A sharp surge in crude oil prices above $95/bbl providing countervailing terms-of-trade support for CAD.",
+      "title": "USD/JPY — Carry Advantage vs Put Skew Compression",
+      "text": "USD/JPY closed Friday at 158.29, where a +265bp SOFR-TONA carry advantage runs directly against an extreme 25-delta options put skew of -1.88. Persistent Japanese economic data underperformance (ESI -15.6) and BoJ-Fed real rate divergence (-2.25% vs +1.63%) sustain upward pressure, but option hedging signals elevated intervention risk near 159.00. The BoJ meeting on 30 Oct determines whether monetary policy normalisation limits dollar momentum. Trade bias: Neutral with a bullish tilt on USD/JPY. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct. Risk: Spot break below the 20-day SMA at 157.04.",
       "evidence": [
-        "Canada Employment Change: -68.3K vs -0.7K exp",
-        "SOFR 3.88% vs CORRA 2.29% — +159bp",
-        "USD/CAD: 1.4270"
+        "USD/JPY Friday close: 158.29",
+        "Options 25d RR: -1.88 put skew",
+        "OIS carry: SOFR 3.88% vs TONA 1.23% (+265bp favoring USD)",
+        "Japan ESI: -15.6"
       ],
       "_source": "engine-ai-primary"
     }
