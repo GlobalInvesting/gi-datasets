@@ -1,83 +1,33 @@
 {
-  "lastUpdate": "2026-10-08T23:58:44Z",
-  "generatedAt": "2026-10-08T23:58:44Z",
+  "lastUpdate": "2026-10-09T00:00:58Z",
+  "generatedAt": "2026-10-09T00:00:58Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-10-08",
-  "rangeTo": "2026-10-22",
-  "totalEvents": 6182,
+  "rangeFrom": "2025-10-09",
+  "rangeTo": "2026-10-23",
+  "totalEvents": 6205,
   "currencyCounts": {
-    "NZD": 159,
     "EUR": 1736,
-    "USD": 1935,
-    "GBP": 616,
+    "NZD": 159,
     "CHF": 166,
-    "CAD": 363,
-    "AUD": 363,
-    "JPY": 444,
+    "CAD": 366,
+    "USD": 1950,
+    "GBP": 619,
+    "AUD": 364,
+    "JPY": 445,
     "SEK": 246,
     "NOK": 154
   },
   "impactCounts": {
-    "medium": 2500,
     "high": 1676,
-    "low": 2006
+    "medium": 2513,
+    "low": 2016
   },
   "surpriseStats": {
-    "NOK/inflation rate mom": {
-      "n": 2,
-      "mean": 0.0,
-      "std": 0.707107
-    },
-    "NOK/core inflation rate mom": {
-      "n": 2,
-      "mean": 0.1,
-      "std": 0.282843
-    },
-    "NOK/core inflation rate yoy": {
-      "n": 2,
-      "mean": 0.2,
-      "std": 0.141421
-    },
-    "CHF/consumer confidence": {
-      "n": 2,
-      "mean": -1.0,
-      "std": 0.0
-    },
-    "EUR/italy industrial production mom": {
-      "n": 3,
-      "mean": -0.766667,
-      "std": 0.61101
-    },
-    "CAD/unemployment rate": {
-      "n": 3,
-      "mean": 0.066667,
-      "std": 0.057735
-    },
-    "CAD/participation rate": {
-      "n": 3,
-      "mean": -0.066667,
-      "std": 0.11547
-    },
-    "CAD/full time employment chg": {
-      "n": 3,
-      "mean": -2.233333,
-      "std": 32.635614
-    },
-    "CAD/employment change": {
-      "n": 3,
-      "mean": 19.066667,
-      "std": 36.822864
-    },
-    "CAD/part time employment chg": {
-      "n": 3,
-      "mean": 4.433333,
-      "std": 24.487616
-    },
     "EUR/finland current account": {
       "n": 3,
       "mean": 0.6,
@@ -1183,6 +1133,11 @@
       "mean": -0.033333,
       "std": 0.057735
     },
+    "EUR/italy industrial production mom": {
+      "n": 2,
+      "mean": -1.1,
+      "std": 0.282843
+    },
     "EUR/retail sales yoy": {
       "n": 5,
       "mean": -0.3,
@@ -1222,6 +1177,31 @@
       "n": 2,
       "mean": -0.95,
       "std": 2.757716
+    },
+    "CAD/employment change": {
+      "n": 2,
+      "mean": 24.5,
+      "std": 50.346003
+    },
+    "CAD/unemployment rate": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
+    "CAD/participation rate": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "CAD/full time employment chg": {
+      "n": 2,
+      "mean": -11.15,
+      "std": 40.65864
+    },
+    "CAD/part time employment chg": {
+      "n": 2,
+      "mean": 10.4,
+      "std": 31.395541
     },
     "USD/u-6 unemployment rate": {
       "n": 3,
@@ -2960,78 +2940,6 @@
     }
   },
   "events": [
-    {
-      "currency": "NZD",
-      "event": "RBNZ Interest Rate Decision",
-      "dateISO": "2025-10-08",
-      "actual": "2.5%",
-      "forecast": "2.75",
-      "previous": "3.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "01:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Industrial Production MoM",
-      "dateISO": "2025-10-08",
-      "actual": "-4.3%",
-      "forecast": "-1.0",
-      "previous": "1.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "06:00"
-    },
-    {
-      "currency": "USD",
-      "event": "MBA 30-Year Mortgage Rate",
-      "dateISO": "2025-10-08",
-      "actual": "6.43%",
-      "forecast": "",
-      "previous": "6.46",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "11:00"
-    },
-    {
-      "currency": "USD",
-      "event": "EIA Gasoline Stocks Change",
-      "dateISO": "2025-10-08",
-      "actual": "-1.6M",
-      "forecast": "-1.05",
-      "previous": "4.125",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:30"
-    },
-    {
-      "currency": "USD",
-      "event": "EIA Crude Oil Stocks Change",
-      "dateISO": "2025-10-08",
-      "actual": "3.715M",
-      "forecast": "2.25",
-      "previous": "1.792",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:30"
-    },
-    {
-      "currency": "GBP",
-      "event": "RICS House Price Balance",
-      "dateISO": "2025-10-08",
-      "actual": "-15%",
-      "forecast": "-18.0",
-      "previous": "-19.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:01"
-    },
     {
       "currency": "EUR",
       "event": "Balance of Trade",
@@ -60054,19 +59962,6 @@
       "date": "17 Sep",
       "dateISO": "2026-09-17",
       "timeUTC": "07:00",
-      "country": "CHF",
-      "currency": "CHF",
-      "flag": "🇨🇭",
-      "event": "Switzerland SECO Economic Forecasts",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
-      "timeUTC": "07:00",
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
@@ -60144,19 +60039,6 @@
     {
       "date": "17 Sep",
       "dateISO": "2026-09-17",
-      "timeUTC": "07:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Lane Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
       "timeUTC": "08:00",
       "country": "NOK",
       "currency": "NOK",
@@ -60166,32 +60048,6 @@
       "actual": "0.30",
       "forecast": "0.29",
       "previous": "0.40"
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
-      "timeUTC": "08:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain 3-Year Bonos Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.079%"
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
-      "timeUTC": "08:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain 5-Year Bonos Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.255%"
     },
     {
       "date": "17 Sep",
@@ -60417,32 +60273,6 @@
       "actual": "3.796%",
       "forecast": null,
       "previous": "3.542%"
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany Bbk Monthly Report",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "17 Sep",
-      "dateISO": "2026-09-17",
-      "timeUTC": "11:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE MPC Meeting Minutes",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "17 Sep",
@@ -81168,6 +80998,461 @@
       "actual": null,
       "forecast": null,
       "previous": "0.0%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "04:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Consumer Confidence",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-34",
+      "previous": "-33"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Retail Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.9%",
+      "previous": "1.0%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Retail Sales y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.5%",
+      "previous": "4.2%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core Retail Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.1%",
+      "previous": "1.1%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "06:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core Retail Sales y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "2.2%",
+      "previous": "5.4%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "08:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia Tourist Arrivals YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.1%",
+      "previous": "6.0%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Retail Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "-0.7%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "12:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Core Retail Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.3%",
+      "previous": "-0.7%"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "13:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Belgium Business Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-13",
+      "previous": "-12.1"
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Michigan Consumer Sentiment",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Michigan Consumer Expectations",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Michigan Current Conditions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Michigan Inflation Expectations",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Michigan 5-Year Inflation Expectations",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "17:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Baker Hughes US Oil Rig Count",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "17:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Baker Hughes US Total Rig Count",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia CFTC AUD Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CFTC CAD Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "Switzerland CFTC CHF Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area CFTC EUR Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CFTC GBP Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan CFTC JPY Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand CFTC NZD Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Copper Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Silver Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Gold Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Crude Oil Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC S&P 500 Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Aluminium Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Corn Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Natural Gas Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Soybeans Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Wheat Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "19:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Nasdaq 100 Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "23 Oct",
+      "dateISO": "2026-10-23",
+      "timeUTC": "23:01",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Consumer Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "61.1"
     }
   ]
 }
