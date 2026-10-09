@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-08T21:02:18Z",
+  "generated_at": "2026-10-09T00:01:11Z",
   "signals": [
     {
-      "time": "21:00",
+      "time": "23:58",
       "priority": "critical",
-      "title": "SEK/EUR — G10 Bilateral Theme + Geopolitical Shock",
-      "text": "The G10 scorecard flags SEK as the strongest currency (+0.891% average) and EUR as the weakest (-0.549% average) across G10 pairs, generating a 1.440% leader-to-laggard spread. EUR/USD trades at 1.1217, breaking down below its SMA20/50/200 cluster at 1.1404/1.1519/1.1608 to reflect broad European currency underperformance. Middle East military actions and Hormuz mine explosions have driven WTI crude up +3.09% to $91.0/bbl, creating an acute terms-of-trade drag for energy-importing Europe. EUR COT positioning shows a deep speculative short at −82,445 contracts (6th percentile of its 52-week range, z = −1.65), which continues to expand with a WoW delta of −23,640. Options pricing reflects heavy hedging demand, with EUR/USD 1M implied volatility running at 6.7% versus 30-day realized volatility of 4.1% (a +2.6% vol risk premium). Trade bias: Bearish EUR/USD; macro terms-of-trade shock and negative G10 scorecard momentum reinforce downside. Catalyst: ECB Schnabel speech on 9 Oct and upcoming Michigan inflation expectations. Risk: Rapid geopolitical de-escalation that drives crude prices lower and triggers a squeeze on crowded EUR spec shorts.",
+      "title": "SEK/EUR — G10 Bilateral Theme + Policy Divergence",
+      "text": "SEK leads G10 performance with a 1W average gain of +0.911% across 2 pairs, while EUR lags as the weakest currency at -0.527% across 9 pairs, opening a 1.438% spread. This gap clears the critical threshold and is reinforced by real policy rate divergence, where the Riksbank maintains a +1.05% real rate against the ECB's +0.30%. The nominal carry spread sits at 90bp in EUR's favor with ECB at 2.65% vs SEK at 1.75%, yet SEK momentum persists despite negative SEK economic surprise momentum at -17.0 ESI. Downside pressure on EUR remains entrenched as spot EUR/USD holds at 1.1215 below its SMA20/50/200 cluster at 1.1384/1.1513/1.1602. Trade bias: Bearish EUR against Scandinavian peers; policy divergence and momentum favor extended euro underperformance. Catalyst: ECB Executive Board Member Schnabel Speech at 13:30 UTC. Risk: Spread compresses below 0.80% if ECB verbal defense triggers short covering across EUR crosses.",
       "evidence": [
-        "SEK 1W avg: +0.891% (n=2)",
-        "EUR 1W avg: -0.549% (n=9)",
-        "G10 spread: 1.440%"
+        "SEK 1W avg: +0.911% (n=2)",
+        "EUR 1W avg: -0.527% (n=9)",
+        "G10 spread: 1.438%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:56",
+      "time": "23:55",
       "priority": "warning",
-      "title": "USD/CAD — Retail Extreme + OIS Carry",
-      "text": "USD/CAD trades at 1.4226, holding above its SMA20/50/200 cluster at 1.4085/1.3968/1.3862. SOFR at 3.90% versus CORRA at 2.29% delivers a +161bp OIS carry advantage to the US dollar. Retail sentiment sits at an extreme 94% short / 6% long, creating a massive divergence against institutional flows where Leveraged Funds hold net short CAD at −72,519 contracts (WoW delta −23,396). Retail traders are fighting both the underlying yield differential and the established macro uptrend, creating significant upside squeeze risk. Trade bias: Long USD/CAD; carry advantage and extreme retail short positioning favor continued topside expansion. Catalyst: Canada Employment Change release on 9 Oct (12:30 UTC). Risk: A substantial positive Canadian employment report that reprices BoC rate expectations higher.",
+      "title": "EUR/USD — Crowded Spec Short vs Vol Premium",
+      "text": "EUR/USD trades at 1.1215, anchored below its falling daily moving averages with the SMA20 at 1.1384 and SMA50 at 1.1513 capping upward attempts. CFTC positioning shows Leveraged Funds net short -82,445 contracts, positioned in the 6th percentile of its 52-week range at z = -1.65 after shedding -23,640 contracts WoW. Options markets reflect intense downside hedging demand with 1M implied volatility at 6.7% against 30-day realized volatility of 4.3%, yielding an elevated vol risk premium of +2.5% alongside a 25-delta risk reversal of -1.03. Cross-asset yield dynamics remain restrictive for the pair, with the US 5Y yield climbing +46bp over the last 20 days (FRED, as of Oct 06), split into real +49bp and breakeven -3bp, confirming a real-yield-led rate impulse. Additionally, bond volatility reflects elevated monetary uncertainty with MOVE at the 95th percentile of its own trailing year while VIX sits at the 18th percentile. Trade bias: Bearish EUR/USD; persistent real yield disadvantage and heavy spec flow keep rallies contained. Catalyst: next ECB meeting (mkt: 100% hold priced) on 29 Oct — market pricing hold. Risk: Stretched short positioning triggers a short squeeze above the 20-day SMA at 1.1384.",
       "evidence": [
-        "USD/CAD: 1.4226",
-        "Retail sentiment: 94% short",
-        "OIS carry spread: +161bp USD"
+        "EUR LF net: -82,445 (pctl 6, z -1.65)",
+        "EUR/USD VRP: +2.5% (IV 6.7% vs HV30 4.3%)",
+        "US 5Y 20D: nominal +46bp (real +49bp, breakeven -3bp)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:54",
+      "time": "23:53",
       "priority": "warning",
-      "title": "USD/JPY — Carry Differential + Options Volatility Skew",
-      "text": "USD/JPY sits at 157.90, holding above its SMA20 and SMA50 at 156.87 and 157.69. SOFR at 3.90% versus TONA at 1.23% provides a +267bp carry advantage to USD, keeping the pair structurally supported despite verbal warnings surrounding the 160.00 intervention threshold. Saxo 25d risk reversals show a strong put skew of −1.82, while 1M implied volatility trades at 8.0% against 30-day realized volatility of 9.9% (a −1.9% negative vol risk premium). The options market is pricing downside crash protection even as low implied volatility reflects compressed spot ranges. Leveraged Funds hold a net short JPY position of −16,809 contracts, though this represents the 96th percentile of its 52-week range following a prior 4-week buildup. Trade bias: Long USD/JPY; structural OIS carry dominance intact while spot holds below intervention triggers. Catalyst: Japan Household Spending data on 8 Oct (23:30 UTC). Risk: VIX breaking above 25 or direct MoF currency intervention forcing a sudden unwind of JPY carry.",
+      "title": "USD/JPY — Crowded Carry vs Options Downside Skew",
+      "text": "USD/JPY trades at 158.06, holding above its SMA20 at 157.04 and SMA50 at 157.65 while resting just below the SMA200 at 158.46. The pair is supported by a substantial carry cushion, with Fed SOFR at 3.88% vs BoJ TONA at 1.23% delivering a +265bp carry spread in favor of USD. However, CFTC Leveraged Funds hold net short JPY at -16,809 contracts at the 96th percentile of their 52-week distribution (z = +1.83), reflecting an extreme positioning profile after a -21,281 contract WoW reduction. Saxo Bank 1M 25-delta risk reversals trade at -1.82, displaying an aggressive put skew that indicates the options market is paying up heavily for downside protection despite spot stability. Furthermore, implied volatility at 8.0% trades below 30-day realized volatility at 9.9%, establishing a negative vol risk premium of -1.9% that signals complacency in spot pricing even as 160.00 stands as the barrier historically associated with official verbal intervention. Trade bias: Long USD/JPY; structural rate differential supports spot while VIX remains contained at 15.4. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct — market pricing hold. Risk: Break below the 50-day SMA at 157.65 prompts sudden unwind of crowded spec carry positions.",
       "evidence": [
-        "USD/JPY: 157.90",
-        "OIS carry spread: +267bp USD",
-        "25d RR (Saxo, 1M): -1.82"
+        "SOFR 3.88% vs TONA 1.23% — +265bp",
+        "JPY LF net: -16,809 (pctl 96, z +1.83)",
+        "USDJPY 25d RR: -1.82"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:50",
-      "priority": "warning",
-      "title": "GBP/USD — COT Positioning Extreme + Cross-Asset Divergence",
-      "text": "GBP/USD trades at 1.3231, capped below its moving average cluster (SMA20 1.3324, SMA50 1.3449, SMA200 1.3442). CFTC data reveals Leveraged Funds net short GBP at −5,377 contracts, representing the 2nd percentile of its 52-week range (z = −2.34) following a WoW liquidation of −11,896 contracts. Cross-asset signals show MOVE at the 94th percentile of its trailing-year range (100.7) while VIX sits at the 20th percentile (15.6), highlighting that fixed income markets are pricing elevated central bank policy uncertainty that has not yet hit equity volatility. A +14bp UK 10Y yield premium over US 10Y gilts provides mild structural support, but technical resistance keeps downside risks active. Trade bias: Bearish GBP/USD; heavy speculative short position and rate volatility favor selling rallies below technical resistance. Catalyst: Upcoming BoE policy meeting on 5 Nov (hike bias active). Risk: CFTC short-covering rally pushing price back through the 1.3324 SMA20 resistance.",
+      "time": "23:48",
+      "priority": "info",
+      "title": "USD/CAD — Carry Advantage + Retail Sentiment Divergence",
+      "text": "USD/CAD trades at 1.4224, firmly positioned above its moving average stack with SMA20 at 1.4105, SMA50 at 1.3973, and SMA200 at 1.3865. The US dollar maintains a policy carry advantage via Fed at 4.00% vs BoC at 2.25%, generating a +175bp nominal spread alongside a +159bp SOFR-CORRA benchmark differential. Retail sentiment data retail sentiment registers an extreme divergence with 94% short vs 6% long, contrasting with speculative accounts where Leveraged Funds hold net short CAD positioning of -72,519 contracts. While retail positioning attempts to fade the uptrend, institutional momentum and rate spreads continue to support the US dollar. Canada 10Y yields trade at a -131bp discount to US 10Y, limiting domestic policy transmission ahead of domestic employment figures. Trade bias: Bullish USD/CAD; rate carry advantage and retail short skew reinforce trend continuation. Catalyst: Canada Employment Change release at 12:30 UTC. Risk: Canadian labor market adds substantial jobs, prompting BoC hike repricing and a break below 1.4105.",
       "evidence": [
-        "GBP COT LF pctl: 2 (z=-2.34)",
-        "MOVE vs VIX pctl: 94th vs 20th",
-        "GBP/USD: 1.3231"
+        "Fed 4.0% vs BoC 2.25% — +175bp",
+        "Retail sentiment: 94% short / 6% long",
+        "USD/CAD: 1.4224 (SMA20 1.4105)"
       ],
       "_source": "engine-ai-primary"
     }
