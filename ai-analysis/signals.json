@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-09T00:01:11Z",
+  "generated_at": "2026-10-09T06:21:21Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "06:18",
       "priority": "critical",
-      "title": "SEK/EUR — G10 Bilateral Theme + Policy Divergence",
-      "text": "SEK leads G10 performance with a 1W average gain of +0.911% across 2 pairs, while EUR lags as the weakest currency at -0.527% across 9 pairs, opening a 1.438% spread. This gap clears the critical threshold and is reinforced by real policy rate divergence, where the Riksbank maintains a +1.05% real rate against the ECB's +0.30%. The nominal carry spread sits at 90bp in EUR's favor with ECB at 2.65% vs SEK at 1.75%, yet SEK momentum persists despite negative SEK economic surprise momentum at -17.0 ESI. Downside pressure on EUR remains entrenched as spot EUR/USD holds at 1.1215 below its SMA20/50/200 cluster at 1.1384/1.1513/1.1602. Trade bias: Bearish EUR against Scandinavian peers; policy divergence and momentum favor extended euro underperformance. Catalyst: ECB Executive Board Member Schnabel Speech at 13:30 UTC. Risk: Spread compresses below 0.80% if ECB verbal defense triggers short covering across EUR crosses.",
+      "title": "SEK/EUR — G10 Bilateral Theme + Monetary Divergence",
+      "text": "The G10 scorecard shows SEK as the top performer with a 1W average of +1.018% across 2 pairs, while EUR lags the entire group at −0.510% across 9 pairs, opening an extreme spread of 1.528%. Riksbank policy stands at 1.75% with a market hike bias, contrasting with the ECB at 2.65% where market pricing looks for a hold at the upcoming 29 Oct meeting. Bilateral momentum widens sharply despite the 90bp nominal policy deficit for SEK, indicating aggressive repricing in the cross. German and Spanish labor prints surprised to the upside, but Lagarde jawboning unwarranted yields has failed to stem broad euro weakness. Trade bias: Long SEK/EUR; bilateral momentum and diverging monetary expectations reinforce the trend. Catalyst: next ECB meeting (mkt: 100% hold priced) on 29 Oct — market pricing hold. Risk: G10 weekly spread compresses below 0.80% as rate differentials reassert dominance over cross flows.",
       "evidence": [
-        "SEK 1W avg: +0.911% (n=2)",
-        "EUR 1W avg: -0.527% (n=9)",
-        "G10 spread: 1.438%"
+        "SEK 1W avg: +1.018% (n=2)",
+        "EUR 1W avg: -0.510% (n=9)",
+        "G10 spread: 1.528%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:55",
+      "time": "06:15",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Spec Short vs Vol Premium",
-      "text": "EUR/USD trades at 1.1215, anchored below its falling daily moving averages with the SMA20 at 1.1384 and SMA50 at 1.1513 capping upward attempts. CFTC positioning shows Leveraged Funds net short -82,445 contracts, positioned in the 6th percentile of its 52-week range at z = -1.65 after shedding -23,640 contracts WoW. Options markets reflect intense downside hedging demand with 1M implied volatility at 6.7% against 30-day realized volatility of 4.3%, yielding an elevated vol risk premium of +2.5% alongside a 25-delta risk reversal of -1.03. Cross-asset yield dynamics remain restrictive for the pair, with the US 5Y yield climbing +46bp over the last 20 days (FRED, as of Oct 06), split into real +49bp and breakeven -3bp, confirming a real-yield-led rate impulse. Additionally, bond volatility reflects elevated monetary uncertainty with MOVE at the 95th percentile of its own trailing year while VIX sits at the 18th percentile. Trade bias: Bearish EUR/USD; persistent real yield disadvantage and heavy spec flow keep rallies contained. Catalyst: next ECB meeting (mkt: 100% hold priced) on 29 Oct — market pricing hold. Risk: Stretched short positioning triggers a short squeeze above the 20-day SMA at 1.1384.",
+      "title": "EUR/USD — Crowded Spec Short + Elevated Vol Premium",
+      "text": "EUR/USD trades at 1.1230, pinned below its SMA20 at 1.1384 and SMA50 at 1.1513 in a confirmed bearish alignment. CFTC positioning shows Leveraged Funds net short −82,445 contracts (week ending Sep 29) at the 6th percentile of its 52-week range (z = −1.65), reflecting stretched institutional short participation after a 23,640 contract WoW extension. Meanwhile, 1M ATM implied volatility sits at 6.7% against 30-day realized volatility of 4.3%, yielding an elevated vol risk premium of +2.4%. Options markets are aggressively pricing downside hedging demand even as the short side becomes crowded. Fed at 4.00% vs ECB at 2.65% maintains a 135bp carry advantage favoring the dollar. Trade bias: Bearish EUR/USD; macro carry and technical trend point lower while elevated VRP reflects persistent tail-risk hedging. Catalyst: US Michigan Inflation Expectations today at 14:00 UTC. Risk: A squeeze through the SMA20 at 1.1384 triggers an unwinding of extended spec short positions.",
       "evidence": [
         "EUR LF net: -82,445 (pctl 6, z -1.65)",
-        "EUR/USD VRP: +2.5% (IV 6.7% vs HV30 4.3%)",
-        "US 5Y 20D: nominal +46bp (real +49bp, breakeven -3bp)"
+        "EUR/USD VRP: +2.4% (IV 6.7% vs HV30 4.3%)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:53",
+      "time": "06:12",
       "priority": "warning",
-      "title": "USD/JPY — Crowded Carry vs Options Downside Skew",
-      "text": "USD/JPY trades at 158.06, holding above its SMA20 at 157.04 and SMA50 at 157.65 while resting just below the SMA200 at 158.46. The pair is supported by a substantial carry cushion, with Fed SOFR at 3.88% vs BoJ TONA at 1.23% delivering a +265bp carry spread in favor of USD. However, CFTC Leveraged Funds hold net short JPY at -16,809 contracts at the 96th percentile of their 52-week distribution (z = +1.83), reflecting an extreme positioning profile after a -21,281 contract WoW reduction. Saxo Bank 1M 25-delta risk reversals trade at -1.82, displaying an aggressive put skew that indicates the options market is paying up heavily for downside protection despite spot stability. Furthermore, implied volatility at 8.0% trades below 30-day realized volatility at 9.9%, establishing a negative vol risk premium of -1.9% that signals complacency in spot pricing even as 160.00 stands as the barrier historically associated with official verbal intervention. Trade bias: Long USD/JPY; structural rate differential supports spot while VIX remains contained at 15.4. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct — market pricing hold. Risk: Break below the 50-day SMA at 157.65 prompts sudden unwind of crowded spec carry positions.",
+      "title": "USD/JPY — Carry Premium vs Options Downside Skew",
+      "text": "USD/JPY prints at 158.16, holding above the SMA20 at 157.04 and SMA50 at 157.65 while resting just below the SMA200 at 158.51. A 275bp policy rate advantage (Fed 4.00% vs BoJ 1.25%) keeps carry trades bid across Asian hours, yet the options desk registers a strong put skew with the 25-delta risk reversal at −1.82. MOVE index runs at the 94th percentile of its trailing year while VIX sits at the 18th percentile (15.4), showing rate volatility pricing policy tension that equity markets ignore. JPY positioning remains historically stretched at the 96th percentile (z = +1.83), reflecting rapid net adjustments. 160.00 remains the key psychological barrier where verbal and official intervention sensitivity sharpens. Trade bias: Bullish USD/JPY; steady rate carry dominates spot while vol skew prices downside tail risk. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct — market pricing hold. Risk: Spot break above 160.00 prompts direct official intervention, collapsing carry spreads.",
       "evidence": [
-        "SOFR 3.88% vs TONA 1.23% — +265bp",
-        "JPY LF net: -16,809 (pctl 96, z +1.83)",
-        "USDJPY 25d RR: -1.82"
+        "Fed 4.00% vs BoJ 1.25% — 275bp",
+        "USDJPY 25d RR: -1.82",
+        "MOVE: 94th pctl vs VIX: 18th pctl"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:48",
+      "time": "06:08",
       "priority": "info",
-      "title": "USD/CAD — Carry Advantage + Retail Sentiment Divergence",
-      "text": "USD/CAD trades at 1.4224, firmly positioned above its moving average stack with SMA20 at 1.4105, SMA50 at 1.3973, and SMA200 at 1.3865. The US dollar maintains a policy carry advantage via Fed at 4.00% vs BoC at 2.25%, generating a +175bp nominal spread alongside a +159bp SOFR-CORRA benchmark differential. Retail sentiment data retail sentiment registers an extreme divergence with 94% short vs 6% long, contrasting with speculative accounts where Leveraged Funds hold net short CAD positioning of -72,519 contracts. While retail positioning attempts to fade the uptrend, institutional momentum and rate spreads continue to support the US dollar. Canada 10Y yields trade at a -131bp discount to US 10Y, limiting domestic policy transmission ahead of domestic employment figures. Trade bias: Bullish USD/CAD; rate carry advantage and retail short skew reinforce trend continuation. Catalyst: Canada Employment Change release at 12:30 UTC. Risk: Canadian labor market adds substantial jobs, prompting BoC hike repricing and a break below 1.4105.",
+      "title": "USD/CAD — Extreme Retail Short vs Technical Moving Average Stack",
+      "text": "USD/CAD trades at 1.4215, trading cleanly above its SMA20 (1.4105), SMA50 (1.3973), and SMA200 (1.3864). Retail sentiment data sentiment reveals retail traders are 94% short against 6% long, an extreme retail imbalance that diverges from institutional positioning where CFTC Leveraged Funds are net short −72,519 contracts at the 35th percentile. Fed policy at 4.00% vs BoC at 2.25% provides a +175bp carry premium supporting the dollar, with the US 5Y yield decomposition showing a 46bp 20-day expansion driven by real yields (+49bp, FRED, as of Oct 06). Retail short concentration creates an asymmetric squeeze environment if spot challenges multi-month highs. Trade bias: Bullish USD/CAD; technical moving average stack and retail contrarian fade favor further upside. Catalyst: Canada Employment Change today at 12:30 UTC — forecast -0.7k. Risk: Canadian employment delivers a sharp positive surprise, prompting immediate BoC hike pricing and spot reversal below 1.4105.",
       "evidence": [
-        "Fed 4.0% vs BoC 2.25% — +175bp",
-        "Retail sentiment: 94% short / 6% long",
-        "USD/CAD: 1.4224 (SMA20 1.4105)"
+        "USD/CAD Retail: 94% short",
+        "Fed 4.00% vs BoC 2.25% — 175bp",
+        "CAD LF net: -72,519 (pctl 35)"
       ],
       "_source": "engine-ai-primary"
     }
