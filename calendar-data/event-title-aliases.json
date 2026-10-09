@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:36:46Z",
+  "generatedAt": "2026-10-09T17:07:48Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -129,10 +129,10 @@
           "forecast_primary": null,
           "forecast_secondary": null,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": 462.0,
           "previous_primary": 456.0,
           "previous_secondary": 456.0,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "462",
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "456"
         }
@@ -148,10 +148,10 @@
           "forecast_primary": null,
           "forecast_secondary": null,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": 603.0,
           "previous_primary": 598.0,
           "previous_secondary": 598.0,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "603",
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "598"
         }
@@ -527,15 +527,28 @@
           "dateISO": "2026-10-09",
           "forecast_primary": 44.7,
           "forecast_secondary": 47.9,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 46.3,
+          "actual_secondary": 46.3,
           "previous_primary": 48.1,
           "previous_secondary": 48.1,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "46.3",
           "forecast_secondary_raw": "47.9",
           "previous_secondary_raw": "48.1"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 44.7,
+          "forecast_yahoo": null,
+          "actual_primary": 46.3,
+          "actual_yahoo": 46.3,
+          "previous_primary": 48.1,
+          "previous_yahoo": 48.1,
+          "actual_yahoo_raw": "46.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "48.1"
         }
-      }
+      },
+      "yahoo_title": "U Mich Sentiment Prelim"
     },
     {
       "currency": "USD",
@@ -546,15 +559,28 @@
           "dateISO": "2026-10-09",
           "forecast_primary": 42.6,
           "forecast_secondary": 46.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 47.3,
+          "actual_secondary": 47.3,
           "previous_primary": 46.3,
           "previous_secondary": 46.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "47.3",
           "forecast_secondary_raw": "46.1",
           "previous_secondary_raw": "46.3"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 42.6,
+          "forecast_yahoo": null,
+          "actual_primary": 47.3,
+          "actual_yahoo": 47.3,
+          "previous_primary": 46.3,
+          "previous_yahoo": 46.3,
+          "actual_yahoo_raw": "47.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "46.3"
         }
-      }
+      },
+      "yahoo_title": "U Mich Expectations Prelim"
     },
     {
       "currency": "USD",
@@ -565,15 +591,28 @@
           "dateISO": "2026-10-09",
           "forecast_primary": 49.7,
           "forecast_secondary": 50.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 44.7,
+          "actual_secondary": 44.7,
           "previous_primary": 50.9,
           "previous_secondary": 50.9,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "44.7",
           "forecast_secondary_raw": "50.7",
           "previous_secondary_raw": "50.9"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 49.7,
+          "forecast_yahoo": null,
+          "actual_primary": 44.7,
+          "actual_yahoo": 44.7,
+          "previous_primary": 50.9,
+          "previous_yahoo": 50.9,
+          "actual_yahoo_raw": "44.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "50.9"
         }
-      }
+      },
+      "yahoo_title": "U Mich Conditions Prelim"
     },
     {
       "currency": "USD",
@@ -584,11 +623,11 @@
           "dateISO": "2026-10-09",
           "forecast_primary": 4.3,
           "forecast_secondary": 4.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 4.7,
+          "actual_secondary": 4.7,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.7%",
           "forecast_secondary_raw": "4.7%",
           "previous_secondary_raw": "4.6%"
         }
@@ -603,15 +642,28 @@
           "dateISO": "2026-10-09",
           "forecast_primary": 3.3,
           "forecast_secondary": 3.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 3.5,
+          "actual_secondary": 3.5,
           "previous_primary": 3.4,
           "previous_secondary": 3.4,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "3.5%",
           "forecast_secondary_raw": "3.5%",
           "previous_secondary_raw": "3.4%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 3.3,
+          "forecast_yahoo": null,
+          "actual_primary": 3.5,
+          "actual_yahoo": 3.5,
+          "previous_primary": 3.4,
+          "previous_yahoo": 3.4,
+          "actual_yahoo_raw": "3.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.4"
         }
-      }
+      },
+      "yahoo_title": "U Mich 5-Yr Inf Prelim"
     },
     {
       "currency": "USD",
@@ -1570,21 +1622,8 @@
           "actual_secondary_raw": "58.8",
           "forecast_secondary_raw": "46.9",
           "previous_secondary_raw": "47.1"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-30",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 58.8,
-          "actual_yahoo": 58.8,
-          "previous_primary": null,
-          "previous_yahoo": 47.1,
-          "actual_yahoo_raw": "58.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "47.1"
         }
-      },
-      "yahoo_title": "Chicago PMI*"
+      }
     },
     {
       "currency": "AUD",
@@ -4064,7 +4103,7 @@
           "dateISO": "2026-10-09",
           "forecast_primary": -1.8,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 5.1,
           "actual_yahoo": 5.1,
           "previous_primary": -0.5,
           "previous_yahoo": -0.5,
