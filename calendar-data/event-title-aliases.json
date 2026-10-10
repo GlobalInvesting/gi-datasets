@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-10T01:08:35Z",
+  "generatedAt": "2026-10-10T12:53:11Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 197,
+  "aliasCount": 200,
   "aliases": [
     {
       "currency": "EUR",
@@ -760,16 +760,16 @@
       "secondary_title": "United Kingdom Treasury Gilt 2036 Auction",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-29",
+          "dateISO": "2026-10-20",
           "forecast_primary": null,
           "forecast_secondary": null,
-          "actual_primary": 5.383,
-          "actual_secondary": 5.383,
-          "previous_primary": 5.155,
-          "previous_secondary": 5.155,
-          "actual_secondary_raw": "5.383%",
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 5.383,
+          "previous_secondary": 5.383,
+          "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "5.155%"
+          "previous_secondary_raw": "5.383%"
         }
       }
     },
@@ -3274,6 +3274,63 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "2.0%",
           "previous_secondary_raw": "1.9%"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area Construction Output y/y",
+      "secondary_title": "Euro Area Construction Output YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": -0.6,
+          "forecast_secondary": -2.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -2.0,
+          "previous_secondary": -2.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-2.3%",
+          "previous_secondary_raw": "-2%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Building Permits",
+      "secondary_title": "United States Building Permits Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": null,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.36M",
+          "previous_secondary_raw": null
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Housing Starts m/m",
+      "secondary_title": "United States Housing Starts MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": -14.0,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -2.6,
+          "previous_secondary": -2.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-2.6%"
         }
       }
     },
