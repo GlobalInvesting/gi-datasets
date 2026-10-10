@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T08:25:36Z",
+  "updated": "2026-10-10T08:30:35Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -39,7 +39,7 @@
       "prev_close": 4157.0,
       "chg": 59.3,
       "pct": 1.4265,
-      "high": 4233.7,
+      "high": 4232.7,
       "low": 4156.1,
       "open": 4159.7,
       "bid": 4216.0,
@@ -55,7 +55,7 @@
       "prev_close": 91.49,
       "chg": 0.36,
       "pct": 0.3935,
-      "high": 92.17,
+      "high": 92.16,
       "low": 90.01,
       "open": 91.29,
       "bid": 91.3,
@@ -204,40 +204,40 @@
       "pct1w_date": "2026-10-02"
     },
     "btc": {
-      "close": 82792.15,
+      "close": 82749.1,
       "prev_close": 82554.984,
-      "chg": 237.166,
-      "pct": 0.2873,
+      "chg": 194.116,
+      "pct": 0.2351,
       "high": 82782.695,
       "low": 82475.2,
       "open": 82554.984,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791620735,
+      "market_time": 1791621035,
       "source": "quote-pipeline-primary",
-      "pct1w": -2.0179,
+      "pct1w": -2.0688,
       "pct1w_date": "2026-10-02",
-      "session_high": 83431.1,
-      "session_low": 82198.47
+      "session_high": 83452.99,
+      "session_low": 82198.5
     },
     "eth": {
-      "close": 2493.07,
+      "close": 2491.95,
       "prev_close": 2485.51,
-      "chg": 7.56,
-      "pct": 0.3042,
+      "chg": 6.44,
+      "pct": 0.2591,
       "high": 2496.396,
       "low": 2484.8176,
       "open": 2485.51,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791620729,
+      "market_time": 1791621032,
       "source": "quote-pipeline-primary",
-      "pct1w": -6.5619,
+      "pct1w": -6.6039,
       "pct1w_date": "2026-10-02",
-      "session_high": 2517.59,
-      "session_low": 2472.4
+      "session_high": 2514.97,
+      "session_low": 2472.42
     },
     "nasdaq": {
       "close": 30883.148,
@@ -666,7 +666,7 @@
       "session_low": 209.506,
       "prev_bar": {
         "time": "2026-10-09",
-        "open": 208.843,
+        "open": 208.778,
         "high": 209.738,
         "low": 208.396,
         "close": 209.46
@@ -3283,11 +3283,11 @@
     {
       "a": "USD/CAD",
       "b": "WTI Oil",
-      "corr30": -0.2,
+      "corr30": -0.199,
       "n30": 30,
-      "corr": -0.247,
+      "corr": -0.246,
       "n": 60,
-      "corr90": -0.27,
+      "corr90": -0.269,
       "n90": 90,
       "norm": -0.13,
       "z_score": -0.23,
@@ -3523,7 +3523,7 @@
         -0.138,
         -0.185,
         -0.216,
-        -0.2
+        -0.199
       ],
       "hist_dates": [
         "2025-11-26",
@@ -3753,7 +3753,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.7165,
+      "coint_p": 0.7167,
       "coint_n": 252
     },
     {
