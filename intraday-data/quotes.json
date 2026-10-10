@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T05:35:26Z",
+  "updated": "2026-10-10T05:40:36Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -39,7 +39,7 @@
       "prev_close": 4157.0,
       "chg": 59.3,
       "pct": 1.4265,
-      "high": 4233.7,
+      "high": 4232.7,
       "low": 4156.1,
       "open": 4159.7,
       "bid": 4216.0,
@@ -55,7 +55,7 @@
       "prev_close": 91.49,
       "chg": 0.36,
       "pct": 0.3935,
-      "high": 92.17,
+      "high": 92.16,
       "low": 90.01,
       "open": 91.29,
       "bid": 91.3,
@@ -204,40 +204,40 @@
       "pct1w_date": "2026-10-02"
     },
     "btc": {
-      "close": 82640.0,
+      "close": 82707.6,
       "prev_close": 82554.984,
-      "chg": 85.016,
-      "pct": 0.103,
-      "high": 82653.055,
+      "chg": 152.616,
+      "pct": 0.1849,
+      "high": 82683.58,
       "low": 82475.2,
       "open": 82554.984,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791610528,
+      "market_time": 1791610838,
       "source": "quote-pipeline-primary",
-      "pct1w": -2.198,
+      "pct1w": -2.118,
       "pct1w_date": "2026-10-02",
-      "session_high": 83431.1,
-      "session_low": 82198.47
+      "session_high": 83452.99,
+      "session_low": 82198.5
     },
     "eth": {
-      "close": 2493.44,
+      "close": 2495.78,
       "prev_close": 2485.51,
-      "chg": 7.93,
-      "pct": 0.319,
-      "high": 2495.0894,
+      "chg": 10.27,
+      "pct": 0.4132,
+      "high": 2495.6782,
       "low": 2484.8176,
       "open": 2485.51,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791610526,
+      "market_time": 1791610835,
       "source": "quote-pipeline-primary",
-      "pct1w": -6.548,
+      "pct1w": -6.4603,
       "pct1w_date": "2026-10-02",
-      "session_high": 2517.59,
-      "session_low": 2472.4
+      "session_high": 2514.97,
+      "session_low": 2472.42
     },
     "nasdaq": {
       "close": 30883.148,
@@ -666,7 +666,7 @@
       "session_low": 209.506,
       "prev_bar": {
         "time": "2026-10-09",
-        "open": 208.843,
+        "open": 208.778,
         "high": 209.738,
         "low": 208.396,
         "close": 209.46
@@ -1245,7 +1245,7 @@
         "open": 59.46,
         "high": 61.46,
         "low": 59.45,
-        "close": 61.11
+        "close": 61.048
       }
     },
     "brent": {
@@ -1855,14 +1855,14 @@
     {
       "a": "AUD/USD",
       "b": "Gold",
-      "corr30": 0.519,
+      "corr30": 0.518,
       "n30": 30,
       "corr": 0.504,
       "n": 60,
       "corr90": 0.574,
       "n90": 90,
       "norm": 0.56,
-      "z_score": -0.23,
+      "z_score": -0.24,
       "norm60": 0.571,
       "z_score60": -0.73,
       "n_indep60": 4,
@@ -2095,7 +2095,7 @@
         0.471,
         0.474,
         0.496,
-        0.519
+        0.518
       ],
       "hist_dates": [
         "2025-11-26",
@@ -2325,7 +2325,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.8404,
+      "coint_p": 0.841,
       "coint_n": 252
     },
     {
@@ -5663,7 +5663,7 @@
       "n30": 30,
       "corr": 0.426,
       "n": 60,
-      "corr90": 0.444,
+      "corr90": 0.445,
       "n90": 90,
       "norm": 0.415,
       "z_score": -0.62,
@@ -6129,7 +6129,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.0538,
+      "coint_p": 0.0536,
       "coint_n": 252
     },
     {
@@ -6611,14 +6611,14 @@
     {
       "a": "Gold",
       "b": "DXY",
-      "corr30": -0.464,
+      "corr30": -0.465,
       "n30": 30,
       "corr": -0.531,
       "n": 60,
       "corr90": -0.563,
       "n90": 90,
       "norm": -0.477,
-      "z_score": 0.06,
+      "z_score": 0.05,
       "norm60": -0.485,
       "z_score60": -0.33,
       "n_indep60": 4,
@@ -6851,7 +6851,7 @@
         -0.469,
         -0.477,
         -0.482,
-        -0.464
+        -0.465
       ],
       "hist_dates": [
         "2025-11-26",
@@ -7081,7 +7081,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.241,
+      "coint_p": 0.2395,
       "coint_n": 252
     }
   ],
