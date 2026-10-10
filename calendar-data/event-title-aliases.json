@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-10T12:53:11Z",
+  "generatedAt": "2026-10-10T15:55:44Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 200,
+  "aliasCount": 202,
   "aliases": [
     {
       "currency": "EUR",
@@ -3331,6 +3331,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "-2.6%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Pending Home Sales m/m",
+      "secondary_title": "United States Pending Home Sales MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": -0.9,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.3,
+          "previous_secondary": 0.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Pending Home Sales y/y",
+      "secondary_title": "United States Pending Home Sales YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": 0.7,
+          "forecast_secondary": 1.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -4.7,
+          "previous_secondary": -4.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.0%",
+          "previous_secondary_raw": "-4.7%"
         }
       }
     },
