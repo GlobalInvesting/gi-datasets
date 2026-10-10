@@ -1,162 +1,10 @@
 {
-  "generatedAt": "2026-10-09T19:35:47Z",
+  "generatedAt": "2026-10-10T01:08:35Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 201,
+  "aliasCount": 197,
   "aliases": [
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Interest Rate Decision",
-      "secondary_title": "Japan BoJ Interest Rate Decision",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": null,
-          "forecast_secondary": 1.25,
-          "actual_primary": 1.25,
-          "actual_secondary": 1.25,
-          "previous_primary": 1.0,
-          "previous_secondary": 1.0,
-          "actual_secondary_raw": "1.25%",
-          "forecast_secondary_raw": "1.25%",
-          "previous_secondary_raw": "1%"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales m/m",
-      "secondary_title": "United Kingdom Retail Sales MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": 0.9,
-          "forecast_secondary": -0.1,
-          "actual_primary": 0.5,
-          "actual_secondary": 0.5,
-          "previous_primary": 1.0,
-          "previous_secondary": -0.5,
-          "actual_secondary_raw": "0.5%",
-          "forecast_secondary_raw": "-0.1%",
-          "previous_secondary_raw": "-0.5%"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales y/y",
-      "secondary_title": "United Kingdom Retail Sales YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": 1.5,
-          "forecast_secondary": 2.0,
-          "actual_primary": 2.4,
-          "actual_secondary": 2.4,
-          "previous_primary": 4.2,
-          "previous_secondary": 1.2,
-          "actual_secondary_raw": "2.4%",
-          "forecast_secondary_raw": "2.0%",
-          "previous_secondary_raw": "1.2%"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Construction Output y/y",
-      "secondary_title": "Euro Area Construction Output YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-18",
-          "forecast_primary": -0.1,
-          "forecast_secondary": -1.0,
-          "actual_primary": -2.0,
-          "actual_secondary": -2.0,
-          "previous_primary": -0.7,
-          "previous_secondary": -1.4,
-          "actual_secondary_raw": "-2%",
-          "forecast_secondary_raw": "-1.0%",
-          "previous_secondary_raw": "-1.4%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Fed Capacity Utilization Rate",
-      "secondary_title": "United States Capacity Utilization",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 76.2,
-          "forecast_secondary": 76.5,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 76.3,
-          "previous_secondary": 76.3,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "76.5%",
-          "previous_secondary_raw": "76.3%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Fed Industrial Production y/y",
-      "secondary_title": "United States Industrial Production YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 1.2,
-          "forecast_secondary": 1.0,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 1.4,
-          "previous_secondary": 1.4,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1.0%",
-          "previous_secondary_raw": "1.4%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Baker Hughes US Oil Rig Count",
-      "secondary_title": "United States Baker Hughes Oil Rig Count",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 462.0,
-          "actual_secondary": 462.0,
-          "previous_primary": 456.0,
-          "previous_secondary": 456.0,
-          "actual_secondary_raw": "462",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "456"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Baker Hughes US Total Rig Count",
-      "secondary_title": "United States Baker Hughes Total Rigs Count",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 603.0,
-          "actual_secondary": 603.0,
-          "previous_primary": 598.0,
-          "previous_secondary": 598.0,
-          "actual_secondary_raw": "603",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "598"
-        }
-      }
-    },
     {
       "currency": "EUR",
       "primary_title": "Euro Area Consumer Confidence Index",
@@ -664,6 +512,44 @@
         }
       },
       "yahoo_title": "U Mich 5-Yr Inf Prelim"
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Baker Hughes US Oil Rig Count",
+      "secondary_title": "United States Baker Hughes Oil Rig Count",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 462.0,
+          "actual_secondary": 462.0,
+          "previous_primary": 456.0,
+          "previous_secondary": 456.0,
+          "actual_secondary_raw": "462",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "456"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Baker Hughes US Total Rig Count",
+      "secondary_title": "United States Baker Hughes Total Rigs Count",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 603.0,
+          "actual_secondary": 603.0,
+          "previous_primary": 598.0,
+          "previous_secondary": 598.0,
+          "actual_secondary_raw": "603",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "598"
+        }
+      }
     },
     {
       "currency": "USD",
@@ -3222,6 +3108,25 @@
     },
     {
       "currency": "USD",
+      "primary_title": "Fed Capacity Utilization Rate",
+      "secondary_title": "United States Capacity Utilization",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": 76.2,
+          "forecast_secondary": 76.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 76.3,
+          "previous_secondary": 76.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "76.5%",
+          "previous_secondary_raw": "76.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
       "primary_title": "Fed Manufacturing Production m/m",
       "secondary_title": "United States Manufacturing Production MoM",
       "evidence": {
@@ -3236,6 +3141,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "-0.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Fed Industrial Production y/y",
+      "secondary_title": "United States Industrial Production YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": 1.2,
+          "forecast_secondary": 1.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.4,
+          "previous_secondary": 1.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.0%",
+          "previous_secondary_raw": "1.4%"
         }
       }
     },
