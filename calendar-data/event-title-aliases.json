@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-10T18:44:00Z",
+  "generatedAt": "2026-10-11T00:22:07Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 202,
+  "aliasCount": 204,
   "aliases": [
     {
       "currency": "EUR",
@@ -3369,6 +3369,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.0%",
           "previous_secondary_raw": "-4.7%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Imports y/y",
+      "secondary_title": "Japan Imports YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": 35.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 28.0,
+          "previous_secondary": 28.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "28%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Exports y/y",
+      "secondary_title": "Japan Exports YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-20",
+          "forecast_primary": 11.0,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 19.3,
+          "previous_secondary": 19.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "19.3%"
         }
       }
     },
