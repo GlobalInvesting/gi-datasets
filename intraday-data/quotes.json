@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T19:30:39Z",
+  "updated": "2026-10-11T19:31:57Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,10 +35,10 @@
       "pct1w_date": "2026-10-02"
     },
     "gold": {
-      "close": 4195.8928,
+      "close": 4195.8035,
       "prev_close": 4195.8042,
-      "chg": 0.0886,
-      "pct": 0.0021,
+      "chg": -0.0007,
+      "pct": -0.0,
       "source": "twelve_data",
       "high": 4233.7,
       "low": 4156.1,
@@ -200,37 +200,37 @@
       "pct1w_date": "2026-10-02"
     },
     "btc": {
-      "close": 83611.49,
+      "close": 83626.43,
       "prev_close": 82911.77,
-      "chg": 699.72,
-      "pct": 0.8439,
+      "chg": 714.66,
+      "pct": 0.862,
       "high": 84026.18,
       "low": 82744.375,
       "open": 82911.77,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791747040,
+      "market_time": 1791747116,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.0482,
+      "pct1w": -1.0305,
       "pct1w_date": "2026-10-02",
       "session_high": 84110.55,
       "session_low": 82715.5
     },
     "eth": {
-      "close": 2532.8,
+      "close": 2533.42,
       "prev_close": 2503.9854,
-      "chg": 28.8146,
-      "pct": 1.1507,
+      "chg": 29.4346,
+      "pct": 1.1755,
       "high": 2550.4124,
       "low": 2496.0332,
       "open": 2503.9854,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791747044,
+      "market_time": 1791747119,
       "source": "quote-pipeline-primary",
-      "pct1w": -5.0728,
+      "pct1w": -5.0496,
       "pct1w_date": "2026-10-02",
       "session_high": 2551.57,
       "session_low": 2495.26
@@ -449,6 +449,13 @@
       "source": "quote-pipeline-primary",
       "pct1w": 0.2152,
       "pct1w_date": "2026-10-02",
+      "prev_bar": {
+        "time": "2026-10-09",
+        "open": 1.42232,
+        "high": 1.42987,
+        "low": 1.4204,
+        "close": 1.42528
+      },
       "hv30": 3.9,
       "hv10": 3.5,
       "pct1m": 3.0046,
@@ -509,19 +516,19 @@
       "pct1m_date": "2026-09-11"
     },
     "eurjpy": {
-      "close": 176.844,
+      "close": 176.805,
       "prev_close": 176.818,
-      "chg": 0.026,
-      "pct": 0.0147,
+      "chg": -0.013,
+      "pct": -0.0074,
       "high": 177.1,
       "low": 176.734,
       "open": 177.1,
       "bid": 177.1,
       "ask": 177.5,
       "market_state": "CLOSED",
-      "market_time": 1791747031,
+      "market_time": 1791747121,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.4397,
+      "pct1w": -0.4616,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -531,8 +538,8 @@
         "close": 177.306
       },
       "hv30": 8.45,
-      "hv10": 5.77,
-      "pct1m": -1.399,
+      "hv10": 5.78,
+      "pct1m": -1.4118,
       "pct1m_date": "2026-09-11"
     },
     "eurchf": {
@@ -617,19 +624,19 @@
       "pct1m_date": "2026-09-11"
     },
     "gbpjpy": {
-      "close": 208.947,
+      "close": 208.902,
       "prev_close": 208.73,
-      "chg": 0.217,
-      "pct": 0.104,
+      "chg": 0.172,
+      "pct": 0.0824,
       "high": 209.005,
-      "low": 208.947,
+      "low": 208.902,
       "open": 208.951,
       "bid": 209.506,
       "ask": 209.516,
       "market_state": "CLOSED",
-      "market_time": 1791746995,
+      "market_time": 1791747105,
       "source": "quote-pipeline-primary",
-      "pct1w": 0.2572,
+      "pct1w": 0.2356,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -639,8 +646,8 @@
         "close": 209.46
       },
       "hv30": 8.57,
-      "hv10": 6.02,
-      "pct1m": 0.1299,
+      "hv10": 6.03,
+      "pct1m": 0.1083,
       "pct1m_date": "2026-09-11"
     },
     "gbpchf": {
@@ -752,19 +759,19 @@
       "pct1m_date": "2026-09-11"
     },
     "audchf": {
-      "close": 0.5771,
+      "close": 0.5774,
       "prev_close": 0.5781,
-      "chg": -0.001,
-      "pct": -0.1661,
+      "chg": -0.0007,
+      "pct": -0.1176,
       "high": 0.5796,
       "low": 0.5769,
       "open": 0.5796,
       "bid": 0.5796,
       "ask": 0.5803,
       "market_state": "CLOSED",
-      "market_time": 1791747031,
+      "market_time": 1791747124,
       "source": "quote-pipeline-primary",
-      "pct1w": 0.2817,
+      "pct1w": 0.3303,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -789,7 +796,7 @@
       "bid": 111.009,
       "ask": 111.059,
       "market_state": "CLOSED",
-      "market_time": 1791746980,
+      "market_time": 1791747085,
       "source": "quote-pipeline-primary",
       "pct1w": -0.2963,
       "pct1w_date": "2026-10-02",
@@ -806,19 +813,19 @@
       "pct1m_date": "2026-09-11"
     },
     "chfjpy": {
-      "close": 189.551,
+      "close": 189.559,
       "prev_close": 189.621,
-      "chg": -0.07,
-      "pct": -0.0369,
+      "chg": -0.062,
+      "pct": -0.0327,
       "high": 190.306,
       "low": 189.551,
       "open": 189.966,
       "bid": 190.653,
       "ask": 190.658,
       "market_state": "CLOSED",
-      "market_time": 1791747004,
+      "market_time": 1791747124,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.2912,
+      "pct1w": -0.287,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -828,8 +835,8 @@
         "close": 190.616
       },
       "hv30": 8.94,
-      "hv10": 7.27,
-      "pct1m": -0.1894,
+      "hv10": 7.28,
+      "pct1m": -0.2067,
       "pct1m_date": "2026-09-11"
     },
     "nzdjpy": {
@@ -1022,19 +1029,19 @@
       "pct1m_date": "2026-09-11"
     },
     "nzdchf": {
-      "close": 0.4638,
+      "close": 0.4641,
       "prev_close": 0.4652,
-      "chg": -0.0014,
-      "pct": -0.2988,
+      "chg": -0.0011,
+      "pct": -0.23,
       "high": 0.4656,
       "low": 0.4626,
       "open": 0.4656,
       "bid": 0.4656,
       "ask": 0.466,
       "market_state": "CLOSED",
-      "market_time": 1791747031,
+      "market_time": 1791747124,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.2731,
+      "pct1w": -0.2043,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -1044,8 +1051,8 @@
         "close": 0.46592
       },
       "hv30": 5.75,
-      "hv10": 7.52,
-      "pct1m": -1.6546,
+      "hv10": 7.54,
+      "pct1m": -1.6716,
       "pct1m_date": "2026-09-11"
     },
     "usdnok": {
@@ -1059,7 +1066,7 @@
       "bid": 9.5555,
       "ask": 9.5635,
       "market_state": "CLOSED",
-      "market_time": 1791747031,
+      "market_time": 1791747121,
       "source": "quote-pipeline-primary",
       "pct1w": -0.7822,
       "pct1w_date": "2026-10-02",
@@ -1103,19 +1110,19 @@
       "pct1m_date": "2026-09-11"
     },
     "eurnok": {
-      "close": 10.7041,
+      "close": 10.6921,
       "prev_close": 10.7167,
-      "chg": -0.0126,
-      "pct": -0.1175,
-      "high": 10.7533,
-      "low": 10.6987,
-      "open": 10.7187,
+      "chg": -0.0246,
+      "pct": -0.2295,
+      "high": 10.6921,
+      "low": 10.6921,
+      "open": 10.6921,
       "bid": 10.70411,
       "ask": 10.70911,
       "market_state": "CLOSED",
-      "market_time": 1791581367,
+      "market_time": 1791747089,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.1892,
+      "pct1w": -1.3001,
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
@@ -1124,9 +1131,9 @@
         "low": 10.69865,
         "close": 10.70427
       },
-      "hv30": 4.29,
-      "hv10": 5.12,
-      "pct1m": -0.5653,
+      "hv30": 4.33,
+      "hv10": 4.91,
+      "pct1m": -0.6769,
       "pct1m_date": "2026-09-11"
     },
     "eursek": {
@@ -1303,7 +1310,7 @@
     "nzdchf": 5.75,
     "usdnok": 5.43,
     "usdsek": 6.29,
-    "eurnok": 4.29,
+    "eurnok": 4.33,
     "eursek": 4.38
   },
   "correlations": [
