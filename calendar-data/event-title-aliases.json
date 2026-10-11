@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-11T00:22:07Z",
+  "generatedAt": "2026-10-11T13:16:58Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 209,
   "aliases": [
     {
       "currency": "EUR",
@@ -3411,6 +3411,120 @@
       }
     },
     {
+      "currency": "GBP",
+      "primary_title": "United Kingdom PPI Input y/y",
+      "secondary_title": "United Kingdom PPI Input YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 2.6,
+          "forecast_secondary": 6.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 6.1,
+          "previous_secondary": 6.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "6.4%",
+          "previous_secondary_raw": "6.1%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom PPI Output m/m",
+      "secondary_title": "United Kingdom PPI Output MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 0.0,
+          "forecast_secondary": 0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.4%",
+          "previous_secondary_raw": "0.7%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom PPI Output y/y",
+      "secondary_title": "United Kingdom PPI Output YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 3.6,
+          "forecast_secondary": 4.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.7,
+          "previous_secondary": 3.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "4.0%",
+          "previous_secondary_raw": "3.7%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Core PPI Output y/y",
+      "secondary_title": "United Kingdom PPI Core Output YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 3.2,
+          "forecast_secondary": 2.8,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.7,
+          "previous_secondary": 2.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.8%",
+          "previous_secondary_raw": "2.7%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Core CPI y/y",
+      "secondary_title": "United Kingdom Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 2.4,
+          "forecast_secondary": 2.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.6,
+          "previous_secondary": 2.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.7%",
+          "previous_secondary_raw": "2.6%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Core RPI y/y",
+      "secondary_title": "United Kingdom PPI Core Output YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 2.8,
+          "forecast_secondary": 2.8,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.3,
+          "previous_secondary": 2.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.8%",
+          "previous_secondary_raw": "2.7%"
+        }
+      }
+    },
+    {
       "currency": "NOK",
       "primary_title": "Norway Unemployment Rate",
       "yahoo_title": "Key Policy Rate",
@@ -3654,25 +3768,6 @@
           "actual_yahoo_raw": "58.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "56.1"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland Retail Sales y/y",
-      "yahoo_title": "Retail Sales YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 1.6,
-          "forecast_yahoo": null,
-          "actual_primary": 3.2,
-          "actual_yahoo": 3.2,
-          "previous_primary": 2.3,
-          "previous_yahoo": 2.3,
-          "actual_yahoo_raw": "3.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.3"
         }
       }
     },
