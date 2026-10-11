@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T06:25:26Z",
+  "updated": "2026-10-11T06:30:38Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,12 +35,12 @@
       "pct1w_date": "2026-10-02"
     },
     "gold": {
-      "close": 4195.8065,
+      "close": 4195.79,
       "prev_close": 4195.8042,
-      "chg": 0.0023,
-      "pct": 0.0001,
+      "chg": -0.0142,
+      "pct": -0.0003,
       "source": "twelve_data",
-      "high": 4232.7,
+      "high": 4233.7,
       "low": 4156.1,
       "open": 4159.7,
       "market_state": "REGULAR",
@@ -51,7 +51,7 @@
       "prev_close": 91.49,
       "chg": 0.36,
       "pct": 0.3935,
-      "high": 92.16,
+      "high": 92.17,
       "low": 90.01,
       "open": 91.29,
       "bid": 91.3,
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-10-02"
     },
     "btc": {
-      "close": 82955.38,
+      "close": 82985.89,
       "prev_close": 82911.77,
-      "chg": 43.61,
-      "pct": 0.0526,
+      "chg": 74.12,
+      "pct": 0.0894,
       "high": 83043.38,
       "low": 82744.375,
       "open": 82911.77,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791699930,
+      "market_time": 1791700238,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.8247,
+      "pct1w": -1.7886,
       "pct1w_date": "2026-10-02",
-      "session_high": 83093.39,
+      "session_high": 83091.04,
       "session_low": 82560.04
     },
     "eth": {
-      "close": 2501.11,
+      "close": 2501.7,
       "prev_close": 2503.9854,
-      "chg": -2.8754,
-      "pct": -0.1148,
+      "chg": -2.2854,
+      "pct": -0.0913,
       "high": 2510.3591,
       "low": 2497.5217,
       "open": 2503.9854,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1791699927,
+      "market_time": 1791700230,
       "source": "quote-pipeline-primary",
-      "pct1w": -6.2606,
+      "pct1w": -6.2384,
       "pct1w_date": "2026-10-02",
-      "session_high": 2516.81,
-      "session_low": 2489.62
+      "session_high": 2517.0,
+      "session_low": 2489.61
     },
     "nasdaq": {
       "close": 30883.148,
@@ -640,7 +640,7 @@
       "pct1w_date": "2026-10-02",
       "prev_bar": {
         "time": "2026-10-09",
-        "open": 208.778,
+        "open": 208.843,
         "high": 209.738,
         "low": 208.396,
         "close": 209.46
