@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-12T22:11:01Z",
+  "generatedAt": "2026-10-13T02:41:19Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 202,
+  "aliasCount": 206,
   "aliases": [
     {
       "currency": "EUR",
@@ -2487,15 +2487,28 @@
           "dateISO": "2026-10-12",
           "forecast_primary": 5.4,
           "forecast_secondary": 5.4,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 5.3,
+          "actual_secondary": 5.3,
           "previous_primary": 5.4,
-          "previous_secondary": 5.4,
-          "actual_secondary_raw": null,
+          "previous_secondary": 5.3,
+          "actual_secondary_raw": "5.3%",
           "forecast_secondary_raw": "5.4%",
-          "previous_secondary_raw": "5.4%"
+          "previous_secondary_raw": "5.3%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-12",
+          "forecast_primary": 5.4,
+          "forecast_yahoo": null,
+          "actual_primary": 5.3,
+          "actual_yahoo": 5.3,
+          "previous_primary": 5.4,
+          "previous_yahoo": 5.4,
+          "actual_yahoo_raw": "5.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "5.4"
         }
-      }
+      },
+      "yahoo_title": "Bank Lending YY"
     },
     {
       "currency": "USD",
@@ -3505,6 +3518,44 @@
       }
     },
     {
+      "currency": "JPY",
+      "primary_title": "Japan CPI excl. Food and Energy y/y",
+      "secondary_title": "Japan Inflation Rate Ex-Food and Energy YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": 1.8,
+          "forecast_secondary": 2.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.9,
+          "previous_secondary": 1.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2%",
+          "previous_secondary_raw": "1.9%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core CPI y/y",
+      "secondary_title": "Japan Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": 1.4,
+          "forecast_secondary": 1.9,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.7,
+          "previous_secondary": 1.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.9%",
+          "previous_secondary_raw": "1.7%"
+        }
+      }
+    },
+    {
       "currency": "NOK",
       "primary_title": "Norway Unemployment Rate",
       "yahoo_title": "Key Policy Rate",
@@ -4128,6 +4179,44 @@
           "actual_yahoo_raw": "64.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "65"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Corporate Goods Price Index m/m",
+      "yahoo_title": "Corp Goods Price MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-12",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": -0.3,
+          "actual_yahoo": -0.3,
+          "previous_primary": -0.2,
+          "previous_yahoo": -0.2,
+          "actual_yahoo_raw": "-0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.2"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Corporate Goods Price Index y/y",
+      "yahoo_title": "Corp Goods Price YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-12",
+          "forecast_primary": 7.8,
+          "forecast_yahoo": null,
+          "actual_primary": 6.8,
+          "actual_yahoo": 6.8,
+          "previous_primary": 7.6,
+          "previous_yahoo": 7.6,
+          "actual_yahoo_raw": "6.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "7.6"
         }
       }
     },
