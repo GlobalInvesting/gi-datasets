@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-13T23:49:01Z",
-  "generatedAt": "2026-10-13T23:49:01Z",
+  "lastUpdate": "2026-10-13T23:52:44Z",
+  "generatedAt": "2026-10-13T23:52:44Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2802,6 +2802,16 @@
       "n": 2,
       "mean": 2.135,
       "std": 6.569022
+    },
+    "JPY/boj m2 money stock yoy": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 0.282843
+    },
+    "JPY/boj l money stock yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
     },
     "EUR/netherlands household consumption yoy": {
       "n": 2,
@@ -76803,7 +76813,7 @@
       "flag": "🇯🇵",
       "event": "BoJ M2 Money Stock y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "2.0%",
       "forecast": "1.6%",
       "previous": "2.0%"
     },
@@ -76816,7 +76826,7 @@
       "flag": "🇯🇵",
       "event": "BoJ M3 Money Stock y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.2%",
       "forecast": null,
       "previous": "1.2%"
     },
@@ -76829,7 +76839,7 @@
       "flag": "🇯🇵",
       "event": "BoJ L Money Stock y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "4.3%",
       "forecast": "4.2%",
       "previous": "4.4%"
     },
