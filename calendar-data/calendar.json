@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-12T23:52:44Z",
-  "generatedAt": "2026-10-12T23:52:44Z",
+  "lastUpdate": "2026-10-13T00:00:52Z",
+  "generatedAt": "2026-10-13T00:00:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -8,101 +8,26 @@
   "errorMessage": null,
   "fetchErrors": [],
   "rangeFrom": "2025-10-13",
-  "rangeTo": "2026-10-26",
-  "totalEvents": 6228,
+  "rangeTo": "2026-10-27",
+  "totalEvents": 6269,
   "currencyCounts": {
-    "EUR": 1744,
-    "GBP": 617,
+    "EUR": 1757,
+    "GBP": 618,
     "AUD": 364,
-    "USD": 1962,
-    "JPY": 452,
+    "USD": 1983,
+    "JPY": 454,
     "CAD": 364,
     "NZD": 158,
     "CHF": 165,
-    "SEK": 248,
+    "SEK": 252,
     "NOK": 154
   },
   "impactCounts": {
-    "medium": 2508,
-    "high": 1671,
-    "low": 2049
+    "medium": 2517,
+    "high": 1673,
+    "low": 2079
   },
   "surpriseStats": {
-    "AUD/westpac consumer confidence index": {
-      "n": 5,
-      "mean": 0.58,
-      "std": 4.007119
-    },
-    "AUD/westpac consumer confidence change": {
-      "n": 5,
-      "mean": 0.7,
-      "std": 4.781213
-    },
-    "AUD/nab business confidence": {
-      "n": 3,
-      "mean": 2.333333,
-      "std": 4.041452
-    },
-    "EUR/germany wholesale prices yoy": {
-      "n": 2,
-      "mean": -0.7,
-      "std": 0.848528
-    },
-    "EUR/germany wholesale prices mom": {
-      "n": 2,
-      "mean": -0.7,
-      "std": 0.707107
-    },
-    "USD/core inflation rate mom": {
-      "n": 2,
-      "mean": -0.1,
-      "std": 0.141421
-    },
-    "USD/cpi": {
-      "n": 3,
-      "mean": 0.537333,
-      "std": 1.675685
-    },
-    "USD/inflation rate yoy": {
-      "n": 3,
-      "mean": 0.133333,
-      "std": 0.51316
-    },
-    "USD/inflation rate mom": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 0.351188
-    },
-    "USD/core inflation rate yoy": {
-      "n": 2,
-      "mean": -0.1,
-      "std": 0.141421
-    },
-    "USD/cpi s.a": {
-      "n": 2,
-      "mean": -0.611,
-      "std": 1.161069
-    },
-    "USD/net long-term tic flows": {
-      "n": 2,
-      "mean": 63.0,
-      "std": 58.972706
-    },
-    "USD/api crude oil stock change": {
-      "n": 7,
-      "mean": 3.915,
-      "std": 3.482041
-    },
-    "JPY/machinery orders mom": {
-      "n": 2,
-      "mean": -3.15,
-      "std": 7.141778
-    },
-    "JPY/machinery orders yoy": {
-      "n": 2,
-      "mean": -4.35,
-      "std": 14.778532
-    },
     "NOK/balance of trade": {
       "n": 2,
       "mean": 16.6,
@@ -417,6 +342,11 @@
       "n": 2,
       "mean": 6.25,
       "std": 2.899138
+    },
+    "USD/api crude oil stock change": {
+      "n": 6,
+      "mean": 4.126833,
+      "std": 3.764651
     },
     "JPY/exports yoy": {
       "n": 3,
@@ -1248,6 +1178,11 @@
       "mean": 0.55,
       "std": 0.070711
     },
+    "AUD/nab business confidence": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
     "AUD/rba interest rate decision": {
       "n": 2,
       "mean": 0.0,
@@ -1272,6 +1207,21 @@
       "n": 2,
       "mean": 3.9,
       "std": 6.363961
+    },
+    "USD/inflation rate mom": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 0.282843
+    },
+    "USD/cpi": {
+      "n": 2,
+      "mean": 1.181,
+      "std": 1.769181
+    },
+    "USD/inflation rate yoy": {
+      "n": 2,
+      "mean": 0.35,
+      "std": 0.494975
     },
     "GBP/rics house price balance": {
       "n": 2,
@@ -1332,6 +1282,16 @@
       "n": 2,
       "mean": -0.05,
       "std": 0.212132
+    },
+    "AUD/westpac consumer confidence index": {
+      "n": 4,
+      "mean": 0.4,
+      "std": 4.603622
+    },
+    "AUD/westpac consumer confidence change": {
+      "n": 4,
+      "mean": 0.475,
+      "std": 5.490219
     },
     "EUR/portugal ppi mom": {
       "n": 2,
@@ -61912,19 +61872,6 @@
     {
       "date": "21 Sep",
       "dateISO": "2026-09-21",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany Bbk Monthly Report",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "21 Sep",
-      "dateISO": "2026-09-21",
       "timeUTC": "12:30",
       "country": "USD",
       "currency": "USD",
@@ -61987,19 +61934,6 @@
       "actual": "3.161%",
       "forecast": null,
       "previous": "3.208%"
-    },
-    {
-      "date": "21 Sep",
-      "dateISO": "2026-09-21",
-      "timeUTC": "15:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB President Lagarde Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "21 Sep",
@@ -81825,6 +81759,565 @@
       "actual": null,
       "forecast": "3.6%",
       "previous": "3.7%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "05:00",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "BoJ Trimmed Mean Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "2.1%",
+      "previous": "2.2%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "05:00",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "BoJ Weighted Median Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.5%",
+      "previous": "1.5%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland Business Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1",
+      "previous": "3"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland Consumer Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-4.9"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Lithuania Retail Sales YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.8%",
+      "previous": "3.7%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:00",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Goods Trade Balance",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-5.1B",
+      "previous": "-11.9B"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:00",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Households Loans y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.4%",
+      "previous": "3.3%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:00",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Non-Financial Corporations Loans y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.9%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:00",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden M3 Money Supply y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.3%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "07:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France Consumer Confidence Index",
+      "impact": "low",
+      "actual": null,
+      "forecast": "84",
+      "previous": "86"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "9.78%",
+      "previous": "9.87%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB M3 Money Supply y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.1%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Households Loans y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.0%",
+      "previous": "3.1%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Non-Financial Corporations Loans y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.4%",
+      "previous": "4.2%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Private Sector Loans y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.5%",
+      "previous": "4.3%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Bank Lending Survey",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "09:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Greece 13-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria ATB Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany 2-Year Note Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.10%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom 5-Year Treasury Gilt Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Greece Total Credit YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.6%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Durable Goods Orders m/m",
+      "impact": "high",
+      "actual": null,
+      "forecast": "0.7%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core Durable Goods Orders m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.0%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Durable Goods Orders excl. Defense m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.4%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Nondefense Capital Goods Orders excl. Aircraft m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.8%",
+      "previous": "1.6%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "12:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.8%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States HPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.1%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States HPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.6%",
+      "previous": "2.6%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States HPI",
+      "impact": "low",
+      "actual": null,
+      "forecast": "444.4",
+      "previous": "443.5"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States S&P/CS HPI Composite-20 y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States S&P/CS HPI Composite-20 n.s.a. m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "13:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States S&P/CS HPI Composite-20 s.a. m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States New Home Sales",
+      "impact": "high",
+      "actual": null,
+      "forecast": "0.708M",
+      "previous": "0.684M"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States New Home Sales m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-1.4%",
+      "previous": "6.4%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CB Consumer Confidence Index",
+      "impact": "high",
+      "actual": null,
+      "forecast": "81.5",
+      "previous": "81.9"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Richmond Fed Manufacturing Index",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-1",
+      "previous": "-2"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Richmond Fed Manufacturing Shipments",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-5"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Richmond Fed Services Revenues",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-3",
+      "previous": "0"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Dallas Fed Services Revenues",
+      "impact": "low",
+      "actual": null,
+      "forecast": "5.4",
+      "previous": "-0.9"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "14:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Dallas Fed Services Business Activity",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-2.9",
+      "previous": "-1.8"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "15:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 52-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "4.400%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "17:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 5-Year Note Auction",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "5.033%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "23:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France Jobseekers Total",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3104.4K",
+      "previous": "3081.7K"
     }
   ]
 }
