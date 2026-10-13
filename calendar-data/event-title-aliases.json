@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-13T02:41:19Z",
+  "generatedAt": "2026-10-13T14:28:41Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 206,
+  "aliasCount": 205,
   "aliases": [
     {
       "currency": "EUR",
@@ -586,21 +586,8 @@
           "actual_secondary_raw": "4.6%",
           "forecast_secondary_raw": "4.6%",
           "previous_secondary_raw": "4.35%"
-        },
-        "yahoo": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 4.6,
-          "actual_yahoo": 4.6,
-          "previous_primary": 4.35,
-          "previous_yahoo": 4.35,
-          "actual_yahoo_raw": "4.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.35"
         }
-      },
-      "yahoo_title": "RBA Cash Rate"
+      }
     },
     {
       "currency": "JPY",
@@ -2519,15 +2506,28 @@
           "dateISO": "2026-10-13",
           "forecast_primary": -2.4,
           "forecast_secondary": -0.3,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 1.5,
+          "actual_secondary": 1.5,
           "previous_primary": -2.0,
-          "previous_secondary": -2.0,
-          "actual_secondary_raw": null,
+          "previous_secondary": -3.2,
+          "actual_secondary_raw": "1.5%",
           "forecast_secondary_raw": "-0.3%",
-          "previous_secondary_raw": "-2%"
+          "previous_secondary_raw": "-3.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-13",
+          "forecast_primary": -2.4,
+          "forecast_yahoo": null,
+          "actual_primary": 1.5,
+          "actual_yahoo": 1.5,
+          "previous_primary": -2.0,
+          "previous_yahoo": -2.0,
+          "actual_yahoo_raw": "1.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-2"
         }
-      }
+      },
+      "yahoo_title": "Exist. Home Sales % Chg"
     },
     {
       "currency": "USD",
@@ -2803,13 +2803,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 4.8,
-          "forecast_secondary": 5.9,
+          "forecast_secondary": 5.4,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 5.4,
           "previous_secondary": 5.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "5.9%",
+          "forecast_secondary_raw": "5.4%",
           "previous_secondary_raw": "5.4%"
         }
       }
@@ -2822,13 +2822,13 @@
         "secondary": {
           "dateISO": "2026-10-15",
           "forecast_primary": 4.4,
-          "forecast_secondary": 4.7,
+          "forecast_secondary": 4.6,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "4.7%",
+          "forecast_secondary_raw": "4.6%",
           "previous_secondary_raw": "4.6%"
         }
       }
@@ -3518,6 +3518,25 @@
       }
     },
     {
+      "currency": "CAD",
+      "primary_title": "Canada New Housing Price Index m/m",
+      "secondary_title": "Canada New Housing Price Index MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": -0.1,
+          "forecast_secondary": 0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.1,
+          "previous_secondary": -0.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.4%",
+          "previous_secondary_raw": "-0.1%"
+        }
+      }
+    },
+    {
       "currency": "JPY",
       "primary_title": "Japan CPI excl. Food and Energy y/y",
       "secondary_title": "Japan Inflation Rate Ex-Food and Energy YoY",
@@ -3704,44 +3723,6 @@
           "actual_yahoo_raw": "15",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "15"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland CPI m/m",
-      "yahoo_title": "CPI MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland CPI y/y",
-      "yahoo_title": "CPI YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 1.0,
-          "forecast_yahoo": null,
-          "actual_primary": 1.0,
-          "actual_yahoo": 1.0,
-          "previous_primary": 0.8,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
         }
       }
     },
