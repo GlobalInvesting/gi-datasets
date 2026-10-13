@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-12T21:01:13Z",
+  "generated_at": "2026-10-13T00:01:33Z",
   "signals": [
     {
-      "time": "20:58",
+      "time": "23:58",
       "priority": "critical",
-      "title": "EUR/USD — Macro Divergence + Vol Risk Premium",
-      "text": "EUR/USD trades at 1.1158, pinned below its descending SMA20/50/200 cluster at 1.1364, 1.1506, and 1.1599. The rate backdrop firmly anchors downside pressure as the Fed policy rate at 4.00% maintains a 135bp nominal premium over the ECB at 2.65%, reinforced by SOFR at 3.87% holding a +143bp OIS advantage over €STR at 2.44%. Geopolitical escalation following Strait of Hormuz transit strikes pushed WTI crude to $93.2, compounding energy-import costs for the eurozone. Options markets show heightened demand for downside protection, with EUR/USD 1M ATM implied volatility printing at 6.5% against 30-day realized volatility of 4.2%, creating an elevated vol risk premium of +2.3%. Leveraged funds sit heavily short EUR at net -84,775 contracts, sitting in the 4th percentile of the trailing 52-week range with a z-score of -1.64. Trade bias: Bearish EUR/USD; monetary divergence and energy terms-of-trade shock reinforce trend continuation. Catalyst: Germany CPI at 06:00 UTC followed by US CPI at 12:30 UTC. Risk: US headline CPI prints materially below the 3.5% consensus, prompting an aggressive unwind of stretched leveraged euro short positions.",
+      "title": "EUR/USD — Hawkish Fed Rhetoric + Vol Premium",
+      "text": "EUR/USD trades at 1.1164, breaking to fresh 2026 lows below its SMA20 at 1.1344 and SMA50 at 1.1499. Multiple Fed speakers including Cleveland Fed President Hammack backed further tightening, reinforcing policy divergence as Fed at 4.00% maintains a 135bp carry advantage over ECB at 2.65% with OIS SOFR vs €STR spread at +143bp. Leveraged funds sit net short EUR by -84,775 contracts at the 4th percentile of the 52-week range (z -1.64), yet retail remains heavily counter-trend at 88% long. Options markets exhibit elevated demand for tail protection, with EUR/USD 1M IV at 6.5% against HV30 of 4.1%, generating a notable +2.4% vol risk premium. US 5Y yields rose +24bp over 20D (FRED, as of Oct 08) led entirely by real yields (+33bp real vs -9bp breakeven), strengthening nominal and real carry support for the dollar. Trade bias: Bearish EUR/USD; macro carry advantage and real yield momentum favor continued downside grind. Catalyst: US CPI release today at 12:30 UTC. Risk: US headline CPI prints materially below the 3.5% consensus forecast, compressing the USD yield advantage.",
       "evidence": [
-        "Fed 4.00% vs ECB 2.65% — +135bp",
-        "EUR/USD VRP: +2.3% (IV 6.5% vs HV30 4.2%)",
-        "EUR COT LF net: -84,775 (pctl 4, z -1.64)"
+        "Fed 4.00% vs ECB 2.65% — +135bp carry",
+        "EUR COT LF net: -84,775 (pctl 4, z -1.64)",
+        "EUR/USD VRP: +2.4% (IV 6.5% vs HV30 4.1%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:55",
+      "time": "23:55",
       "priority": "critical",
-      "title": "USD/JPY — Carry Premium vs Options Downside Skew",
-      "text": "USD/JPY prints at 158.63, maintaining position above its SMA20 and SMA50 at 157.27 and 157.67 while testing the SMA200 at 158.47. The carry foundation remains structural as Fed SOFR at 3.87% commands a +264bp OIS spread over BoJ TONA at 1.23%, with the nominal policy spread at 275bp favoring the dollar. However, the options market exhibits significant asymmetric pricing, where the 25-delta risk reversal trades at -1.86, showing elevated demand for dollar downside protection despite spot strength. Implied volatility at 7.8% sits 2.0 percentage points below 30-day realized volatility of 9.8%, indicating complacency in standard ATM option pricing even as intervention risk mounts. Desk positioning remains stretched with JPY leveraged fund net positioning at -30,379 contracts, representing the 90th percentile of its 52-week distribution after a weekly reduction of 13,570 contracts. Trade bias: Long USD/JPY; wide policy carry differential drives spot higher toward intervention thresholds. Catalyst: BoJ Policy Board meeting on 30 Oct. Risk: Spot tests above 160.00 trigger physical Ministry of Finance FX intervention, provoking an abrupt unwind of crowded carry longs.",
+      "title": "USD/JPY — Carry Support vs Intervention Risk",
+      "text": "USD/JPY prints at 158.51, holding above its SMA20 (157.49), SMA50 (157.70), and SMA200 (158.53). A 275bp policy rate gap between Fed at 4.00% and BoJ at 1.25% (OIS SOFR vs TONA at +264bp) sustains persistent carry demand despite Brent crude climbing above $107/bbl. JPY speculative positioning reflects crowded carry shorts with Leveraged Funds net short -30,379 contracts at the 90th percentile of its 52-week range. Options pricing shows extreme protection skew with 25d Risk Reversals at -1.86, demonstrating institutional demand for downside JPY calls against official action. With spot at 158.51, 160.00 remains the key level that has previously triggered Ministry of Finance intervention, and intervention risk rises on a sustained break above 160.00. Trade bias: Long USD/JPY; structural rate differential dominates price action while spot trades below intervention friction. Catalyst: US CPI today at 12:30 UTC. Risk: Spot breaks above 160.00 and prompts direct Ministry of Finance foreign exchange intervention.",
       "evidence": [
-        "Fed 4.00% vs BoJ 1.25% — +275bp",
-        "USD/JPY 25d RR: -1.86 (strong put skew)",
-        "USD/JPY VRP: -2.0% (IV 7.8% vs HV30 9.8%)"
+        "Fed 4.00% vs BoJ 1.25% — +275bp carry",
+        "USD/JPY 25d RR: -1.86 (indicative mid)",
+        "JPY COT LF net: -30,379 (pctl 90, z +1.34)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:51",
+      "time": "23:52",
       "priority": "warning",
-      "title": "USD/CAD — Macro Divergence + Retail Sentiment Extreme",
-      "text": "USD/CAD trades at 1.4282, extending gains above its SMA20, SMA50, and SMA200 moving average cluster at 1.4124, 1.3977, and 1.3867. Macro policy divergence strongly favors the greenback as Fed policy at 4.00% maintains a 175bp spread over the Bank of Canada at 2.25%, with overnight index swaps establishing a +159bp SOFR-over-CORRA differential. Severe macro divergence is reinforced by recent Canadian labor market deterioration, where September employment contracted by 68,300 against expectations of a 9,200 gain. CFTC positioning shows leveraged funds heavily short CAD at net -82,720 contracts, yet retail traders on Retail sentiment data stand at 96% short versus 4% long, marking an extreme retail short posture that directly opposes the institutional trend. This retail positioning leaves market participants vulnerable to capitulation as spot clears local highs. Trade bias: Bullish USD/CAD; policy spread and Canadian macro deceleration maintain upside momentum. Catalyst: Bank of Canada rate decision on 28 Oct. Risk: WTI crude extends its rally through $100/bbl, reversing Canada terms-of-trade weakness.",
+      "title": "USD/CAD — Employment Shock Repricing + Retail Divergence",
+      "text": "USD/CAD trades at 1.4274, positioned above its SMA20 (1.4143) and SMA50 (1.3982). A severe Canadian labor market contraction showing a net loss of 68,300 jobs against expectations of a 9,200 gain widened macroeconomic divergence against a resilient US economy. Fed at 4.00% holds a 175bp policy premium over BoC at 2.25%, with OIS SOFR vs CORRA spread standing at +159bp. Leveraged Funds extended net short CAD positioning by -10,201 contracts WoW to -82,720 contracts, while retail traders remain trapped at 96% short. Retail positioning diverges sharply from institutional net short flows, creating ongoing capitulation risk as spot tests higher. Trade bias: Bullish USD/CAD; labor divergence and +175bp carry differential support upward trend continuation. Catalyst: Canada Building Permits release today at 12:30 UTC. Risk: Crude oil rallies significantly above current levels, improving Canada's terms of trade and supporting CAD cross flows.",
       "evidence": [
-        "Fed 4.00% vs BoC 2.25% — +175bp",
-        "USD/CAD Retail Sentiment: 96% short / 4% long",
+        "Fed 4.00% vs BoC 2.25% — +175bp carry",
+        "Retail sentiment: 96% short (Myfxbook)",
         "CAD COT LF net: -82,720 (WoW -10,201)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:46",
+      "time": "23:48",
       "priority": "warning",
-      "title": "AUD/USD — Carry Advantage vs Cross-Asset Volatility Divergence",
-      "text": "AUD/USD prints at 0.6961, hovering beneath its SMA20 at 0.7033 and SMA200 at 0.7040. RBA holds at 4.6%. Cross-asset volatility, however, displays a sharp divergence as MOVE prints at 98.5, sitting at the 94th percentile of its trailing-year range, while VIX trades subdued at 15.2, sitting in its 15th percentile. This divergence reflects elevated interest rate and fixed income uncertainty that equity options have yet to price. Speculative positioning shows leveraged funds long AUD at net +48,911 contracts, but net length contracted by 6,203 contracts WoW as broader risk sentiment softened amid commodity supply headlines. Trade bias: Neutral/range AUD/USD; supportive cash carry countered by bond volatility spillovers. Catalyst: Reserve Bank of Australia meeting minutes at 20:29 UTC. Risk: US 5Y real yields break higher following US CPI, compressing rate differentials and breaking spot below key 0.6900 chart support.",
+      "title": "AUD/USD — Rate Support vs Commodity Headwind",
+      "text": "AUD/USD trades at 0.6959, trading below its SMA20 (0.7024) and SMA200 (0.7041) after retreating from the 0.7000 psychological handle. The pair benefits from an underlying carry premium with RBA at 4.60% vs Fed at 4.00% delivering a 60bp advantage to AUD (OIS AONIA vs SOFR spread at -73bp favoring AUD). Leveraged funds maintain net long positioning of +48,911 contracts, but trimmed exposure by -6,203 contracts WoW as energy market escalation and geopolitical tensions supported the US dollar. Cross-asset volatility signals caution, with MOVE index at the 94th percentile of its trailing year while VIX sits at the 15th percentile, indicating bond volatility is pricing rate uncertainty that broader markets have not absorbed. The immediate resistance cluster at 0.7024/0.7041 caps recovery attempts until risk sentiment stabilizes. Trade bias: Neutral AUD/USD; supportive 60bp rate advantage balanced by commodity shock dollar demand. Catalyst: US CPI release today at 12:30 UTC. Risk: Broad risk-off sentiment accelerates, triggering an unwind of AUD speculative long positioning.",
       "evidence": [
-        "RBA 4.60% vs Fed 4.00% — -60bp AUD carry premium",
-        "MOVE 94th pctl vs VIX 15th pctl (bond-equity divergence)",
-        "AUD COT LF net: +48,911 (WoW -6,203)"
+        "RBA 4.60% vs Fed 4.00% — -60bp carry (favors AUD)",
+        "AUD COT LF net: +48,911 (WoW -6,203)",
+        "AUD/USD SMA20/200: 0.7024/0.7041"
       ],
       "_source": "engine-ai-primary"
     }
