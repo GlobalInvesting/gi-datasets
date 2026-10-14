@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-14T23:22:14Z",
-  "generatedAt": "2026-10-14T23:22:14Z",
+  "lastUpdate": "2026-10-14T23:50:48Z",
+  "generatedAt": "2026-10-14T23:50:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3107,6 +3107,16 @@
       "n": 3,
       "mean": 0.066667,
       "std": 0.057735
+    },
+    "JPY/core machinery orders mom": {
+      "n": 2,
+      "mean": 4.0,
+      "std": 0.141421
+    },
+    "JPY/core machinery orders yoy": {
+      "n": 2,
+      "mean": 5.35,
+      "std": 3.181981
     },
     "AUD/westpac leading index mom": {
       "n": 2,
@@ -77742,7 +77752,7 @@
       "flag": "🇯🇵",
       "event": "Japan Core Machinery Orders m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "1.3%",
       "previous": "-3.7%"
     },
@@ -77755,7 +77765,7 @@
       "flag": "🇯🇵",
       "event": "Japan Core Machinery Orders y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "18.6%",
       "forecast": "15.5%",
       "previous": "11.2%"
     },
