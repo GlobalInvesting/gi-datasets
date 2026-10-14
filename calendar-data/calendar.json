@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-14T14:34:39Z",
-  "generatedAt": "2026-10-14T14:34:39Z",
+  "lastUpdate": "2026-10-14T15:02:54Z",
+  "generatedAt": "2026-10-14T15:02:54Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2957,6 +2957,11 @@
       "n": 2,
       "mean": -0.05,
       "std": 0.919239
+    },
+    "USD/cleveland fed median cpi mom": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
     },
     "NZD/visitor arrivals mom": {
       "n": 2,
@@ -77537,7 +77542,7 @@
       "flag": "🇺🇸",
       "event": "Cleveland Fed Median CPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.2%"
     },
