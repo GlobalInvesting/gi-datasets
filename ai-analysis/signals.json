@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-14T00:01:31Z",
+  "generated_at": "2026-10-14T05:06:45Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "05:03",
       "priority": "critical",
-      "title": "USD/JPY — Options Downside Skew + BoJ Leaning",
-      "text": "USD/JPY trades at 158.33, holding below its SMA200 at 158.48 while remaining above the SMA20/50 cluster at 157.65/157.71. Leveraged funds hold net short JPY at -30,379 contracts with pctl(52w) at 90 and a WoW reduction of -13,570 contracts, pointing to stretched short positioning vulnerable to squeezes. The options market heavily discounts upside follow-through: USD/JPY 1M 25d RR sits at -1.80, demonstrating strong put skew and demand for downside protection. Implied volatility at 7.9% runs below 30-day realized volatility of 9.7%, generating a negative vol risk premium of -1.8% that signals complacency in spot pricing. While headline flow indicates the BoJ leans against an immediate rate hike, the 264bp OIS carry advantage favors USD, anchoring the pair until US CPI prints. Trade bias: Bearish USD/JPY, downside protection demand dominates despite carry support. Catalyst: US CPI report on 14 Oct. Risk: Core CPI beats expectations, forcing carry continuation toward 160.00.",
+      "title": "USD/JPY — Options Downside Skew vs Carry",
+      "text": "USD/JPY prints at 158.14, holding above its SMA20 and SMA50 cluster at 157.65/157.71 while capped below the SMA200 at 158.54. The 264bp OIS carry advantage favors USD via SOFR 3.87% over TONA 1.23%, sustaining long carry positioning alongside JPY speculative net shorts of −30,379 contracts. Options markets present an acute divergence, with 25-delta risk reversals printing a heavy put skew at −1.80 alongside an inverted vol risk premium where 1M ATM implied vol at 7.9% sits 1.8 points below 30-day realized volatility of 9.7%. This divergence indicates institutional accounts are aggressively accumulating downside hedges against intervention risk while spot grinds higher. A sustained breakout above the 160.00 threshold raises official intervention risk substantially. Trade bias: Neutral/fading USD/JPY on rallies; downside options skew warns against chasing carry near key resistance. Catalyst: US CPI release today at 12:30 UTC. Risk: US CPI prints substantially above expectations, accelerating spot through 160.00 and forcing options hedges to liquidate.",
       "evidence": [
-        "USD/JPY 25d RR: -1.80 (strong put skew)",
-        "USD/JPY VRP: -1.8% (IV 7.9% vs HV30 9.7%)",
-        "JPY COT LF net: -30,379 (pctl 90, WoW -13,570)"
+        "USD/JPY 25d RR: -1.80",
+        "OIS carry: SOFR 3.87% vs TONA 1.23% — +264bp",
+        "USD/JPY VRP: IV 7.9% vs HV30 9.7% (-1.8%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:55",
+      "time": "04:59",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Squeeze + Vol Premium",
-      "text": "EUR/USD trades at 1.1204, pinned below its downward-sloping SMA20 at 1.1327 and SMA50 at 1.1492. Leveraged funds hold net short EUR at -84,775 contracts, sitting at the 4th percentile of its 52-week range with a z-score of -1.64, representing a crowded speculative short. Options show elevated hedging demand with 1M implied volatility at 6.5% against 30-day realized volatility of 4.2%, creating a notable +2.3% vol risk premium. Retail positioning stands at 85% long, directly diverging from institutional CFTC net short positioning and creating two-way liquidation risk. Fed 4.00% vs ECB 2.65% maintains a 135bp policy rate advantage favoring USD, alongside a +143bp OIS carry spread. Trade bias: Bearish EUR/USD, policy divergence and retail extreme outweigh stretched spec shorts. Catalyst: US CPI release on 14 Oct. Risk: US core CPI prints at 0.1% or lower, triggering a short squeeze through SMA20 resistance at 1.1327.",
+      "title": "EUR/USD — Positioning Exhaustion + Elevated Vol Premium",
+      "text": "EUR/USD trades at 1.1212, positioned below its SMA20 at 1.1327 and SMA50 at 1.1492. Speculative positioning is stretched short with leveraged funds holding net −84,775 contracts, sitting in the 4th percentile of the 52-week historical distribution at z = −1.64 standard deviations. Hedging activity is expanding ahead of North American data, with 1M implied volatility at 6.5% running 2.2 points above 30-day realized volatility of 4.3%, signaling elevated options demand. Rates maintain a structural drag on the single currency, with Fed policy at 4.00% vs ECB at 2.65% yielding a 135bp nominal advantage for the dollar. Stretched short positioning against elevated options premium leaves the pair primed for a short-covering squeeze if dollar catalysts falter. Trade bias: Long EUR/USD on dips; oversold institutional positioning creates asymmetric upside squeeze vulnerability. Catalyst: US CPI report today at 12:30 UTC. Risk: US core inflation accelerates above forecast, validating existing short positioning and breaking spot toward 1.1150.",
       "evidence": [
         "EUR COT LF net: -84,775 (pctl 4, z -1.64)",
-        "EUR/USD VRP: +2.3% (IV 6.5% vs HV30 4.2%)",
-        "Retail sentiment: 85% long vs CFTC institutional short"
+        "EUR/USD VRP: IV 6.5% vs HV30 4.3% (+2.2%)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:53",
+      "time": "04:55",
       "priority": "warning",
-      "title": "NOK — G10 Outperformance + Restrictive Stance",
-      "text": "The G10 Currency Strength Scorecard registers NOK as the weekly outperformer with a 1W average gain of +0.535% across 2 pairs, exceeding the +0.50% threshold. Norges Bank policy rate sits at 4.5% with inflation expectations at 2.68%, producing a real policy rate of +1.82%, the most restrictive stance across the G10 complex. USD/NOK trades at 9.517, breaking below its SMA20 of 9.524 while holding above the SMA50 at 9.426. WTI crude oil advances +0.78% to $94.9, adding terms-of-trade support to the domestic currency. Domestic data confirms the trend, with the Economic Surprise Index showing a positive bias of +13.1. Trade bias: Bullish NOK, sustained by G10 outperformance and high real policy yields. Catalyst: Norges Bank meeting on 5 Nov. Risk: WTI crude drops below $90.0, undermining terms of trade.",
+      "title": "NOK/EUR — G10 Bilateral Theme + Monetary Divergence",
+      "text": "NOK leads G10 performance over the 1-week window with a +0.760% average gain across 2 pairs, while EUR lags as the weakest peer at −0.298% across 9 pairs, generating a bilateral spread of 1.058%. Norges Bank policy at 4.50% carries a 185bp nominal policy rate premium over the ECB deposit rate at 2.65%, providing steady yield support to the Scandinavian currency. Domestic macroeconomic performance reinforces this spread, as the Economic Surprise Index for NOK prints at +13.1, supported by WTI crude stability at $94.7 per barrel. While EUR/NOK screens structurally cheap at z = −2.50 standard deviations below model fair value of 10.8514, fundamental momentum and yield differentials favor continued Norwegian outperformance. Trade bias: Long NOK/EUR; cross-rate yield advantage and macro momentum favor persistent divergence. Catalyst: Euro Area Industrial Production release today at 09:00 UTC. Risk: Sharp crude oil sell-off weakens NOK terms of trade and compresses the G10 performance spread below 0.80%.",
       "evidence": [
-        "NOK 1W avg: +0.535% (n=2)",
-        "NOK real policy rate: +1.82% (policy 4.5% minus infl 2.68%)",
-        "USD/NOK spot: 9.517 below SMA20 9.524"
+        "NOK 1W avg: +0.760% (n=2)",
+        "EUR 1W avg: -0.298% (n=9)",
+        "G10 spread: 1.058%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "23:48",
+      "time": "04:48",
       "priority": "info",
-      "title": "GBP/USD — Technical Compression + Yield Divergence",
-      "text": "GBP/USD trades at 1.3258, compressed tightly against its SMA20 at 1.3269, while remaining below the SMA50 and SMA200 cluster at 1.3431/1.3439. CFTC leveraged funds hold a modest net long position of +6,063 contracts, though 52-week percentile sits at 8 with z-score at -1.48, reflecting a recent large-scale liquidation over the past 4 weeks (-34,298 contracts). The 2Y sovereign yield spread vs US widened +26bp over the last 5 sessions to +2bp, providing short-term support to sterling. Fed 4.00% vs BoE 3.75% maintains a narrow 25bp policy rate advantage for the USD, mirrored by a +14bp OIS carry spread. MOVE Index at the 94th percentile vs VIX at the 16th percentile highlights rate market uncertainty that limits directional momentum. Trade bias: Neutral/range GBP/USD, technical compression between 1.3200 support and 1.3270 resistance. Catalyst: UK GDP m/m release at 06:00 UTC on 14 Oct. Risk: UK GDP contracts sharply, breaking range support at 1.3200.",
+      "title": "GBP/USD — Technical Resistance at Moving Average Cluster",
+      "text": "GBP/USD trades at 1.3275, testing immediate technical resistance defined by the descending SMA20 at 1.3269, while remaining trapped below the major SMA50 and SMA200 cluster at 1.3431/1.3437. Rates markets provide minimal traction, with the OIS SONIA at 3.73% trailing SOFR at 3.87% by 14bp, while 2Y sovereign yield spreads between the UK and US remain flat at 0bp. CFTC speculative positioning shows leveraged funds holding a modest net long of +6,063 contracts after adding +11,440 contracts on the week, though 52-week percentile rank remains low at 8. Cross-asset signals warrant caution as MOVE bond volatility sits at the 94th percentile of its trailing year while VIX trades at the 15th percentile, reflecting underlying fixed income repricing risks. Without a clear yield incentive, spot remains constrained by upper technical boundaries. Trade bias: Bearish GBP/USD on rallies; overhead moving-average structure caps near-term upside. Catalyst: UK GDP m/m release today at 06:00 UTC. Risk: UK GDP delivers a substantial upside beat while BoE speakers signal immediate tightening, driving a clean technical break above 1.3300.",
       "evidence": [
-        "UK-US 2Y spread 5D change: +26bp to +2bp",
-        "GBP COT LF net: +6,063 (pctl 8, z -1.48)",
-        "Fed 4.00% vs BoE 3.75% — 25bp carry favors USD"
+        "GBP/USD SMA20: 1.3269 (Spot: 1.3275)",
+        "OIS carry: SOFR 3.87% vs SONIA 3.73% — +14bp",
+        "MOVE pctl: 94th vs VIX pctl: 15th"
       ],
       "_source": "engine-ai-primary"
     }
