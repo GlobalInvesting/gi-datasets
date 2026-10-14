@@ -1,67 +1,10 @@
 {
-  "generatedAt": "2026-10-13T20:17:35Z",
+  "generatedAt": "2026-10-14T00:30:19Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 205,
+  "aliasCount": 202,
   "aliases": [
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Consumer Confidence Index",
-      "secondary_title": "Euro Area Consumer Confidence Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": -16.5,
-          "forecast_secondary": -16.5,
-          "actual_primary": -16.5,
-          "actual_secondary": -16.5,
-          "previous_primary": -16.5,
-          "previous_secondary": -15.5,
-          "actual_secondary_raw": "-16.5",
-          "forecast_secondary_raw": "-16.5",
-          "previous_secondary_raw": "-15.5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Richmond Fed Manufacturing Index",
-      "secondary_title": "United States Richmond Fed Manufacturing Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-22",
-          "forecast_primary": null,
-          "forecast_secondary": 3.0,
-          "actual_primary": -2.0,
-          "actual_secondary": -2.0,
-          "previous_primary": null,
-          "previous_secondary": 4.0,
-          "actual_secondary_raw": "-2",
-          "forecast_secondary_raw": "3",
-          "previous_secondary_raw": "4"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Richmond Fed Manufacturing Shipments",
-      "secondary_title": "United States Richmond Fed Manufacturing Shipments Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-22",
-          "forecast_primary": null,
-          "forecast_secondary": 9.0,
-          "actual_primary": -5.0,
-          "actual_secondary": -5.0,
-          "previous_primary": 11.0,
-          "previous_secondary": 11.0,
-          "actual_secondary_raw": "-5",
-          "forecast_secondary_raw": "9",
-          "previous_secondary_raw": "11"
-        }
-      }
-    },
     {
       "currency": "EUR",
       "primary_title": "Euro Area S&P Global Manufacturing PMI",
@@ -700,6 +643,25 @@
           "actual_secondary_raw": "97.9",
           "forecast_secondary_raw": "98.5",
           "previous_secondary_raw": "98.4"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area Consumer Confidence Index",
+      "secondary_title": "Euro Area Consumer Confidence Flash",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": -17.9,
+          "forecast_secondary": -17.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -16.5,
+          "previous_secondary": -16.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-17",
+          "previous_secondary_raw": "-16.5"
         }
       }
     },
@@ -3944,25 +3906,6 @@
           "actual_yahoo_raw": "61.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "62.7"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Ai Group Manufacturing Index",
-      "yahoo_title": "AIG Manufacturing Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-06",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -8.7,
-          "actual_yahoo": -8.7,
-          "previous_primary": -16.6,
-          "previous_yahoo": -16.6,
-          "actual_yahoo_raw": "-8.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-16.6"
         }
       }
     },
