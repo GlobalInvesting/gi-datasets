@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-14T15:21:04Z",
+  "generatedAt": "2026-10-14T18:45:30Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 203,
+  "aliasCount": 204,
   "aliases": [
     {
       "currency": "EUR",
@@ -2467,6 +2467,25 @@
     },
     {
       "currency": "USD",
+      "primary_title": "United States 6-Month Bill Auction",
+      "secondary_title": "United States 17-Week Bill Auction",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-13",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 4.2,
+          "actual_secondary": 4.195,
+          "previous_primary": 4.165,
+          "previous_secondary": 4.105,
+          "actual_secondary_raw": "4.195%",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "4.105%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
       "primary_title": "United States Core CPI m/m",
       "secondary_title": "United States Core Inflation Rate MoM",
       "evidence": {
@@ -3532,13 +3551,13 @@
         "secondary": {
           "dateISO": "2026-10-22",
           "forecast_primary": 1.8,
-          "forecast_secondary": 2.0,
+          "forecast_secondary": 1.9,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.9,
           "previous_secondary": 1.9,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "2%",
+          "forecast_secondary_raw": "1.9%",
           "previous_secondary_raw": "1.9%"
         }
       }
@@ -3551,13 +3570,13 @@
         "secondary": {
           "dateISO": "2026-10-22",
           "forecast_primary": 1.4,
-          "forecast_secondary": 1.9,
+          "forecast_secondary": 1.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.7,
           "previous_secondary": 1.7,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1.9%",
+          "forecast_secondary_raw": "1.7%",
           "previous_secondary_raw": "1.7%"
         }
       }
