@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T00:30:19Z",
+  "generatedAt": "2026-10-14T12:14:14Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -3663,6 +3663,25 @@
       }
     },
     {
+      "currency": "NOK",
+      "primary_title": "Norway NAV Unemployment Rate n.s.a.",
+      "yahoo_title": "Reg'd Unemployment NSA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-02",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 2.1,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Unemployment Rate",
       "yahoo_title": "Unemployment Rate",
@@ -3697,25 +3716,6 @@
           "actual_yahoo_raw": "34.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "34.4"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Silf/Swedbank Services PMI",
-      "yahoo_title": "PMI Services*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": 57.8,
-          "forecast_yahoo": null,
-          "actual_primary": 57.4,
-          "actual_yahoo": 57.4,
-          "previous_primary": 55.8,
-          "previous_yahoo": 55.8,
-          "actual_yahoo_raw": "57.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "55.8"
         }
       }
     },
