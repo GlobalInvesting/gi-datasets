@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-14T07:08:58Z",
+  "generated_at": "2026-10-14T12:05:21Z",
   "signals": [
     {
-      "time": "07:01",
+      "time": "11:58",
       "priority": "critical",
-      "title": "USD/JPY — Carry vs Options Downside Skew",
-      "text": "USD/JPY trades at 158.26, holding above its SMA20 and SMA50 at 157.65 and 157.71 while capped below the SMA200 at 158.54. The SOFR-TONA carry spread of +264bp structurally favors USD longs, with Fed at 4.00% vs BoJ at 1.25% providing a 275bp policy gap. However, the options market exhibits acute downside hedging demand, with 25d risk reversals printing at -1.80 alongside a negative vol risk premium of -1.8% as ATM IV runs at 7.9% against HV30 of 9.7%. This heavy put skew signals aggressive hedging against sudden sharp pullbacks, while 160.00 remains the key level that has previously triggered BoJ verbal warnings. JPY CFTC positioning shows Leveraged Funds net short -30,379 contracts at the 90th percentile of its 52-week range, leaving the carry trade historically crowded. Trade bias: Long USD/JPY; elevated carry return sustains the trend while below-normal options vol requires downside vigilance. Catalyst: US CPI release today at 12:30 UTC. Risk: US CPI prints materially below forecast, triggering a rapid options-led unwind through the 157.65 moving-average support.",
+      "title": "NOK/JPY — G10 Bilateral Theme + Carry",
+      "text": "NOK leads G10 performance over the past week with an average gain of +0.927% across two pairs, while JPY lags as the weakest currency at -0.371% across seven pairs. That produces a 1.297% leader-to-laggard spread, well above the 1.20% critical threshold. The fundamental divergence is anchored by monetary policy: Norges Bank policy rate sits at 4.5% against the Bank of Japan at 1.25%, creating a 325bp nominal policy spread and a restrictive Norwegian real rate of +1.82% versus Japan's -2.25%. Macro data reinforces the bilateral gap, with Norway's Economic Surprise Index at +13.1 contrasting against Japan's -11.3. WTI crude trading firmly at $95.8 adds persistent terms-of-trade support to the krone while compounding imported energy drag on the yen. Trade bias: Long NOK/JPY, backed by wide policy rate spread and divergent macro surprises. Catalyst: Norges Bank meeting 5 Nov. Risk: Sharp risk-off shock unwinding cross carry trades.",
       "evidence": [
+        "NOK 1W avg: +0.927% (n=2)",
+        "JPY 1W avg: -0.371% (n=7)",
+        "G10 spread: 1.297%"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "11:55",
+      "priority": "critical",
+      "title": "USD/JPY — Carry Premium vs Options Skew",
+      "text": "USD/JPY trades at 158.44, holding above its SMA20 at 157.65 and SMA50 at 157.71 while testing the descending SMA200 at 158.48. OIS benchmarks show SOFR at 3.87% against TONA at 1.23%, delivering a +264bp carry advantage that structurally underpins spot demand. However, the options market displays intense hedging against a downside move, with 1M 25-delta risk reversals printing at -1.80, a strong put skew. Simultaneously, options implied volatility trades at 7.9% versus 30-day realized volatility of 9.7%, generating a negative volatility risk premium of -1.8%. That negative premium alongside extreme put skew indicates acute complacency in unhedged spot alongside institutional demand for downside tail protection. With 160.00 serving as the historical threshold for official Japanese verbal warnings, intervention sensitivity rises sharply on any sustained breakout above current resistance. Trade bias: Long USD/JPY, carry-supported above moving averages while capping upside expectations ahead of 160.00. Catalyst: US CPI release today at 12:30 UTC. Risk: Core CPI printing below consensus, triggering immediate carry liquidation toward 157.65.",
+      "evidence": [
+        "SOFR 3.87% vs TONA 1.23% — +264bp",
         "USD/JPY 25d RR: -1.80 (strong put skew)",
-        "SOFR vs TONA: +264bp",
-        "JPY COT LF net: -30,379 (pctl 90)"
+        "USD/JPY VRP: -1.8% (IV 7.9% vs HV30 9.7%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:58",
+      "time": "11:51",
       "priority": "warning",
-      "title": "NOK/JPY — G10 Bilateral Theme + Energy Bias",
-      "text": "NOK leads the G10 strength scorecard with a 1-week average gain of +0.729% across 2 pairs, while JPY anchors the bottom with a 1-week average decline of -0.313% across 7 pairs. This produces a bilateral divergence spread of 1.042%, triggering the G10 bilateral theme threshold. The outperformance is fundamentally anchored by monetary divergence, as Norges Bank holds a restrictive real policy rate of +1.82% at 4.5% against the BoJ's negative real rate of -2.25% at 1.25%. Geopolitical supply frictions reflected in elevated energy prices continue to bolster the petroleum-linked Krone while penalizing Japan's terms of trade. Furthermore, retail positioning on NOK/JPY sits at an extreme 93% short, presenting contrarian fuel for extension. Trade bias: Bullish NOK/JPY; policy rate divergence and retail short imbalance support outperformance. Catalyst: Norges Bank policy meeting 5 Nov. Risk: Broad equity market downturn compresses high-beta cross carry, prompting swift JPY short covering.",
-      "evidence": [
-        "NOK 1W avg: +0.729% (n=2)",
-        "JPY 1W avg: -0.313% (n=7)",
-        "G10 spread: 1.042%"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "06:56",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded Short vs Elevated Vol Premium",
-      "text": "EUR/USD trades at 1.1212, depressed below its descending SMA20, SMA50, and SMA200 cluster at 1.1327, 1.1492, and 1.1594. CFTC data reveals Leveraged Funds net short EUR by -84,775 contracts, resting at the 4th percentile of its 52-week distribution with a z-score of -1.64, signaling an oversold, crowded short base. In the options space, 1-month ATM IV of 6.5% trades 2.2 points above HV30 of 4.3%, indicating an elevated vol risk premium as traders pay up for tail protection into key event risk. The fundamental backdrop remains anchored by SOFR-€STR carry of +143bp in favor of USD, with Fed at 4.00% vs ECB at 2.65%. Trade bias: Bearish EUR/USD; strong structural USD carry dominance limits topside momentum, though crowded positioning warns against chasing breakdowns. Catalyst: US CPI release today at 12:30 UTC. Risk: US headline inflation undershoots consensus, inducing an aggressive short-covering squeeze toward the SMA20 resistance at 1.1327.",
+      "title": "EUR/USD — Crowded Short + Vol Premium",
+      "text": "EUR/USD trades at 1.1198, remaining pinned below its SMA20 at 1.1327, SMA50 at 1.1492, and SMA200 at 1.1597. CFTC positioning shows leveraged funds holding net short -84,775 contracts, sitting at the 4th percentile of the 52-week range with a z-score of -1.64. In the options space, 1M implied volatility trades at 6.5% against 30-day realized volatility of 4.2%, creating an elevated volatility risk premium of +2.3%. Rates drivers remain heavily tilted in the greenback's favor, with Fed at 4.00% versus ECB at 2.65% for a 135bp policy rate advantage, while the 20-day US 5-year yield move shows nominal +24bp with real yields contributing +33bp. This crowded speculative short setup leaves the pair vulnerable to sharp short-covering if macro data misses expectations. Trade bias: Bearish EUR/USD, constrained by heavy real-yield headwinds but cautious on downside chasing into crowded shorts. Catalyst: US CPI release today at 12:30 UTC. Risk: Hot US core inflation print re-establishing aggressive downside momentum below 1.1150.",
       "evidence": [
         "EUR COT LF net: -84,775 (pctl 4, z -1.64)",
-        "EUR/USD VRP: +2.2% (IV 6.5% vs HV30 4.3%)",
-        "SOFR vs €STR: +143bp"
+        "EUR/USD VRP: +2.3% (IV 6.5% vs HV30 4.2%)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:53",
+      "time": "11:47",
       "priority": "warning",
-      "title": "GBP/USD — CB Rhetoric vs OIS Rate Spread",
-      "text": "GBP/USD trades at 1.3270, struggling below its SMA20 of 1.3269, SMA50 of 1.3431, and SMA200 of 1.3437. Bank of England Chief Economist Huw Pill struck a cautious tone today, expressing scepticism regarding market expectations for four rate hikes over the coming year. This pushback against hawkish terminal pricing arrives while the cross-market rates backdrop already heavily favors the greenback, with US 5Y yields up 24bp over the past 20 sessions led by real yields adding 33bp according to FRED data. The SOFR-SONIA spread offers a modest +14bp USD carry advantage, while the policy rate differential shows Fed at 4.00% vs BoE at 3.75%. Options skew remains defensive with GBP/USD 25d risk reversals at -0.77, reflecting ongoing put preference. Trade bias: Bearish GBP/USD; central bank rate pushback combined with US real yield strength caps topside progress. Catalyst: US CPI release today at 12:30 UTC. Risk: UK growth or inflation prints re-accelerate sharply, forcing BoE hawks to reassert multi-hike guidance.",
+      "title": "AUD/USD — Carry Advantage + Headline Repricing",
+      "text": "AUD/USD trades at 0.7010, testing resistance directly below its SMA20 at 0.7016, SMA200 at 0.7040, and SMA50 at 0.7089. Fresh headline flow highlights Australian dollar strength fueled by market speculation over potential Reserve Bank of Australia tightening, with RBA at 4.60% against the Fed at 4.00% providing a 60bp cash carry advantage and an overnight AONIA-SOFR spread of +73bp in Australia's favor. Leveraged fund positioning reflects institutional demand with net long +48,911 contracts, representing 70.3% long open interest, yet weekly flow contracted by 6,203 contracts. Cross-asset volatility reveals the MOVE index elevated at 101.1, the 94th percentile of its trailing year, while VIX sits at 15.3, the 18th percentile. This divergence shows fixed-income markets pricing central bank path divergence that equity volatility has not reflected. Trade bias: Bullish AUD/USD, supported by positive carry and policy rate premium. Catalyst: Australia Employment Report tomorrow at 00:30 UTC. Risk: Australia unemployment rate rising unexpectedly, dampening RBA rate expectations.",
       "evidence": [
-        "Fed 4.00% vs BoE 3.75% — 25bp",
-        "US 5Y 20D: nominal +24bp (real +33bp, FRED Oct 8)",
-        "BoE MPC Pill headline: sceptical on 4 hikes"
+        "RBA 4.60% vs Fed 4.00% — -60bp AUD carry premium",
+        "AUD COT LF net: +48,911 (long% 70.3%)",
+        "MOVE percentile: 94th vs VIX: 18th"
       ],
       "_source": "engine-ai-primary"
     }
