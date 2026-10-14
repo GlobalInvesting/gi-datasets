@@ -1,15 +1,85 @@
 {
-  "updated_utc": "2026-10-14T04:56:52.802622+00:00",
-  "updated_label": "04:56 UTC",
-  "total": 37,
+  "updated_utc": "2026-10-14T08:20:47.169402+00:00",
+  "updated_label": "08:20 UTC",
+  "total": 38,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
     "Saxo",
     "TD"
   ],
   "items": [
+    {
+      "id": "9b1465a625f3",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "MAS holds rates steady, but we are not convinced the tightening cycle is over",
+      "excerpt": "ASIA/PACIFIC: The Monetary Authority of Singapore left policy unchanged today. While a lower 2026 inflation forecast and a more balanced assessment of inflation risks point to a less hawkish stance, strong growth and lingering upside inflation risks suggest the tightening cycle may not be over…",
+      "author": "",
+      "url": "https://think.ing.com/articles/mas-holds-steady-but-we-are-not-yet-convinced-the-tightening-cycle-is-over/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791961200000,
+      "published": "2026-10-14T07:00:00+00:00"
+    },
+    {
+      "id": "c5363b3ab370",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take - Chip stocks steady in Asia before US inflation - 14 October 2026",
+      "excerpt": "Market drivers and catalysts Macro : Fed s Williams pointed to one more increase this year and none after that Equities : Chipmakers fell for a sixth session before Asian memory names steadied overnight Volatility : One-day index volatility repriced sharply higher from a very low base before inflation Digital Assets : Tokens firmed with Asian equities while the ether funds extended their outflow run Commodities : Oil rebounds on Middle East attacks; gold steadies ahead of US CPI Fixed Income : Yields steady ahead of US September CPI report Currencies : USD strength continues to fade, especially versus smaller DM currencies Macro New York Federal Reserve President John Williams said one more increase this year is appropriate but that no further tightening should be needed in 2027 , while…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---chip-stocks-steady-in-asia-before-us-inflation---14-october-2026-14102026",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791960360000,
+      "published": "2026-10-14T06:46:00+00:00"
+    },
+    {
+      "id": "d648442d2bdb",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Hot inflation to strengthen dollar floor",
+      "excerpt": "We expect MoM US CPI to be 0.1pp higher than consensus in both headline (0.7%) and core (0.3%) today. While that shouldn’t be enough for markets to price in 50%+ chances of an October Fed hike, it can reinforce expectations of further tightening down the road and, by extension, the dollar’s floor. EUR/USD may retest recent lows before any…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-hot-inflation-to-strengthen-dollar-floor/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1791960300000,
+      "published": "2026-10-14T06:45:00+00:00"
+    },
+    {
+      "id": "dc7be586a2ba",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "US CPI in Focus Ahead of October FOMC Meeting",
+      "excerpt": "In focus today In the US, the most important data release of the week will be the September CPI, released this afternoon. We forecast headline inflation at 0.5% m/m SA, 3.6% y/y (prior: 0.6% m/m, 3.4% y/y) and core inflation at 0.2% m/m SA, 2.5% y/y (prior: 0.3% m/m, 2.4% y/y), with energy prices being [&#8230;] The post US CPI in Focus Ahead of October FOMC Meeting appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/657429-us-cpi-in-focus-ahead-of-october-fomc-meeting/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791957535000,
+      "published": "2026-10-14T05:58:55+00:00"
+    },
     {
       "id": "c5590412e8a0",
       "bank": "ING",
@@ -202,6 +272,40 @@
       "published": "2026-10-13T06:40:00+00:00"
     },
     {
+      "id": "a8f671fb4563",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Modernizing the regulatory and supervisory landscape",
+      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St Louis, Missouri, 6 October 2026.",
+      "author": "Michelle W Bowman",
+      "url": "https://www.bis.org/speeches/20261013-modernizing-regulatory-and-supervisory-landscape",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791849600000,
+      "published": "2026-10-13T00:00:00+00:00"
+    },
+    {
+      "id": "1c5e3814f841",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Investing through uncertainty - financing Europe's future",
+      "excerpt": "Closing keynote speech by Ms Clara Raposo, Vice-Governor of the Banco de Portugal, at the 8th Edition of the Capital Markets Seminar “Financing Europe”, organised by the European Commission (EC), European Investment Bank (EIB) and the European Stability Mechanism (ESM), Luxembourg, 1 October 2026.",
+      "author": "Clara Raposo",
+      "url": "https://www.bis.org/speeches/20261013-investing-through-uncertainty-financing-europes-future",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791849600000,
+      "published": "2026-10-13T00:00:00+00:00"
+    },
+    {
       "id": "77c782e09571",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -251,40 +355,6 @@
       "published": "2026-10-13T00:00:00+00:00"
     },
     {
-      "id": "a8f671fb4563",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Modernizing the regulatory and supervisory landscape",
-      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the 2026 Community Banking Research Conference, sponsored by the Federal Reserve System, the Conference of State Bank Supervisors, and the Federal Deposit Insurance Corporation, St Louis, Missouri, 6 October 2026.",
-      "author": "Michelle W Bowman",
-      "url": "https://www.bis.org/speeches/20261013-modernizing-regulatory-and-supervisory-landscape",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791849600000,
-      "published": "2026-10-13T00:00:00+00:00"
-    },
-    {
-      "id": "1c5e3814f841",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Investing through uncertainty - financing Europe's future",
-      "excerpt": "Closing keynote speech by Ms Clara Raposo, Vice-Governor of the Banco de Portugal, at the 8th Edition of the Capital Markets Seminar “Financing Europe”, organised by the European Commission (EC), European Investment Bank (EIB) and the European Stability Mechanism (ESM), Luxembourg, 1 October 2026.",
-      "author": "Clara Raposo",
-      "url": "https://www.bis.org/speeches/20261013-investing-through-uncertainty-financing-europes-future",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791849600000,
-      "published": "2026-10-13T00:00:00+00:00"
-    },
-    {
       "id": "769946e13241",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -321,44 +391,6 @@
       "category": "trade_idea",
       "ts": 1791802200000,
       "published": "2026-10-12T10:50:00+00:00"
-    },
-    {
-      "id": "fcf50f14e482",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "G10 FX Talking: Independent euro weakness in play",
-      "excerpt": "EUROPE: At a time when US economic growth appears 'solid' and the Fed is intent on tightening policy, French budget unrest has only served to soften an already weak EUR/USD. We now think it can stay pressured at the lower end of a 1.10-15 range over the next three to six months. The biggest threat to the dollar probably comes from any new White House policy…",
-      "author": "",
-      "url": "https://think.ing.com/articles/g10-fx-talking-october-2026/",
-      "currencies": [
-        "USD",
-        "EUR"
-      ],
-      "pairs": [
-        "EUR/USD"
-      ],
-      "category": "macro",
-      "ts": 1791802080000,
-      "published": "2026-10-12T10:48:00+00:00"
-    },
-    {
-      "id": "fc5e23180587",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "EMEA FX Talking: External headwinds up against local stories",
-      "excerpt": "CENTRAL AND EASTERN EUROPE: Like many emerging market currencies, those in the EMEA region have been hit by higher US Treasury yields and the stronger dollar. Yet the domestic stories look constructive for many, and a combination of some local rate hikes as well as light foreign positioning (ex Hungary) can insulate these currencies from the global bond market…",
-      "author": "",
-      "url": "https://think.ing.com/articles/emea-fx-talking-october-2026/",
-      "currencies": [
-        "USD",
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1791802020000,
-      "published": "2026-10-12T10:47:00+00:00"
     },
     {
       "id": "db4aa6dc6501",
@@ -533,23 +565,6 @@
       "category": "macro",
       "ts": 1791454260000,
       "published": "2026-10-08T10:11:00+00:00"
-    },
-    {
-      "id": "649ed25471f4",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Gold caught between surging bond yields and rising fiscal concerns",
-      "excerpt": "Key Points: Macro headwinds intensify: In the last month, a 3% dollar rally and a 50-basis-point surge in US Treasury yields have pressured gold, pushing real yields towards 3%. ETF demand defies falling prices: Gold ETF holdings have climbed to a four-year high, highlighting the divide between short-term traders and strategic investors. Rising yields fuel fiscal concerns: Higher borrowing costs increase debt-servicing pressures, potentially strengthening gold's appeal as protection against sovereign debt risks. Gold's resilience faces further tests: Near-term downside risks persist, but continued investment demand could support a recovery once the dollar and real yields stabilise. Gold continues to attract buyers despite facing some of its strongest macroeconomic headwinds in years.…",
-      "author": "Ole Hansen",
-      "url": "https://www.home.saxo/content/articles/commodities/gold-caught-between-surging-bond-yields-and-rising-fiscal-concerns-08102026",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1791452700000,
-      "published": "2026-10-08T09:45:00+00:00"
     },
     {
       "id": "c9c049da7040",
