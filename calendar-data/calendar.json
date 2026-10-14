@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-14T12:32:44Z",
-  "generatedAt": "2026-10-14T12:32:44Z",
+  "lastUpdate": "2026-10-14T12:44:49Z",
+  "generatedAt": "2026-10-14T12:44:49Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,11 +9,11 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-14",
   "rangeTo": "2026-10-28",
-  "totalEvents": 6335,
+  "totalEvents": 6340,
   "currencyCounts": {
     "AUD": 373,
     "GBP": 621,
-    "EUR": 1771,
+    "EUR": 1776,
     "USD": 2008,
     "JPY": 460,
     "CAD": 367,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "high": 1678,
     "medium": 2534,
-    "low": 2123
+    "low": 2128
   },
   "surpriseStats": {
     "AUD/consumer inflation expectations": {
@@ -1174,9 +1174,9 @@
       "std": 0.023094
     },
     "EUR/finland current account": {
-      "n": 2,
-      "mean": 0.4,
-      "std": 3.959798
+      "n": 3,
+      "mean": 0.166667,
+      "std": 2.829016
     },
     "JPY/machine tool orders yoy": {
       "n": 2,
@@ -1234,9 +1234,9 @@
       "std": 0.212132
     },
     "EUR/finland inflation rate mom": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.057735
     },
     "EUR/finland harmonised inflation rate mom": {
       "n": 2,
@@ -2738,6 +2738,16 @@
       "mean": 0.0,
       "std": 0.0
     },
+    "EUR/netherlands inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "EUR/netherlands inflation rate mom": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
     "EUR/lithuania inflation rate yoy": {
       "n": 2,
       "mean": 0.15,
@@ -2848,6 +2858,11 @@
       "mean": -6.1,
       "std": 18.384776
     },
+    "EUR/slovakia construction output yoy": {
+      "n": 2,
+      "mean": -2.6,
+      "std": 5.939697
+    },
     "EUR/spain industrial production yoy": {
       "n": 2,
       "mean": -0.5,
@@ -2863,6 +2878,11 @@
       "mean": 1.85,
       "std": 0.212132
     },
+    "EUR/portugal inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
     "EUR/ireland inflation rate mom": {
       "n": 2,
       "mean": 0.1,
@@ -2872,6 +2892,11 @@
       "n": 2,
       "mean": 0.1,
       "std": 0.141421
+    },
+    "EUR/portugal inflation rate mom final": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
     },
     "EUR/ireland harmonised inflation rate yoy final": {
       "n": 2,
@@ -2897,6 +2922,11 @@
       "n": 2,
       "mean": 0.0,
       "std": 1.414214
+    },
+    "EUR/latvia current account": {
+      "n": 2,
+      "mean": 120.0,
+      "std": 137.178716
     },
     "EUR/germany current account n.s.a.": {
       "n": 2,
@@ -2937,6 +2967,26 @@
       "n": 2,
       "mean": 0.45,
       "std": 3.464823
+    },
+    "EUR/finland harmonised inflation rate mom final": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.0
+    },
+    "EUR/finland inflation rate yoy": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.141421
+    },
+    "EUR/finland harmonised inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
+    "EUR/lithuania current account": {
+      "n": 2,
+      "mean": -92.55,
+      "std": 267.922759
     },
     "EUR/germany wholesale price index mom": {
       "n": 2,
@@ -2987,6 +3037,16 @@
       "n": 2,
       "mean": 0.7,
       "std": 0.424264
+    },
+    "EUR/ireland residential property prices yoy": {
+      "n": 2,
+      "mean": -0.0,
+      "std": 0.141421
+    },
+    "EUR/ireland residential property prices mom": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.070711
     },
     "CAD/building permits mom": {
       "n": 3,
@@ -76310,7 +76370,7 @@
       "impact": "low",
       "actual": null,
       "forecast": "50.2",
-      "previous": "50.7"
+      "previous": null
     },
     {
       "date": "2026-10-13",
@@ -76335,7 +76395,7 @@
       "flag": "🇪🇺",
       "event": "Netherlands Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.0%",
       "previous": "0.3%"
     },
@@ -76348,7 +76408,7 @@
       "flag": "🇪🇺",
       "event": "Netherlands Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.4%",
       "forecast": "3.4%",
       "previous": "3.3%"
     },
@@ -76361,9 +76421,9 @@
       "flag": "🇪🇺",
       "event": "Finland Current Account",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.9B",
       "forecast": "-0.6B",
-      "previous": "-0.2B"
+      "previous": "0.0B"
     },
     {
       "date": "13 Oct",
@@ -76426,7 +76486,7 @@
       "flag": "🇪🇺",
       "event": "Slovakia Construction Output YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "-4.8%",
       "forecast": "2.0%",
       "previous": "2.3%"
     },
@@ -76489,9 +76549,22 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland Residential Property Prices YoY",
+      "impact": "low",
+      "actual": "5.1%",
+      "forecast": "5.2%",
+      "previous": "5.4%"
+    },
+    {
+      "date": "13 Oct",
+      "dateISO": "2026-10-13",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Portugal Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "1.2%",
       "forecast": "1.2%",
       "previous": "0.0%"
     },
@@ -76502,9 +76575,22 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland Residential Property Prices MoM",
+      "impact": "low",
+      "actual": "0.7%",
+      "forecast": "0.6%",
+      "previous": "0.6%"
+    },
+    {
+      "date": "13 Oct",
+      "dateISO": "2026-10-13",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Portugal Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.6%",
       "previous": "3.3%"
     },
@@ -76517,9 +76603,9 @@
       "flag": "🇪🇺",
       "event": "Belgium Short TC Auction",
       "impact": "low",
-      "actual": null,
+      "actual": "2.670%",
       "forecast": null,
-      "previous": null
+      "previous": "2.657%"
     },
     {
       "date": "13 Oct",
@@ -76530,9 +76616,9 @@
       "flag": "🇪🇺",
       "event": "Belgium Long TC Auction",
       "impact": "low",
-      "actual": null,
+      "actual": "3.183%",
       "forecast": null,
-      "previous": null
+      "previous": "3.092%"
     },
     {
       "date": "2026-10-13",
@@ -76573,6 +76659,32 @@
       "actual": "4.24%",
       "forecast": null,
       "previous": "3.98%"
+    },
+    {
+      "date": "13 Oct",
+      "dateISO": "2026-10-13",
+      "timeUTC": "10:20",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland 7-Month RFTB Auction",
+      "impact": "low",
+      "actual": "2.87%",
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "13 Oct",
+      "dateISO": "2026-10-13",
+      "timeUTC": "10:20",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland 10-Month RFTB Auction",
+      "impact": "low",
+      "actual": "3.03%",
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "13 Oct",
@@ -76835,7 +76947,7 @@
       "flag": "🇪🇺",
       "event": "Finland Harmonised Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "2.7%",
       "forecast": "2.6%",
       "previous": "2.4%"
     },
@@ -76848,7 +76960,7 @@
       "flag": "🇪🇺",
       "event": "Finland Harmonised Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.6%",
       "previous": "-0.3%"
     },
@@ -76861,7 +76973,7 @@
       "flag": "🇪🇺",
       "event": "Finland Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.6%",
       "previous": "-0.2%"
     },
@@ -76874,7 +76986,7 @@
       "flag": "🇪🇺",
       "event": "Finland Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "2.5%",
       "forecast": "2.5%",
       "previous": "2.2%"
     },
@@ -77030,7 +77142,7 @@
       "flag": "🇪🇺",
       "event": "Lithuania Current Account",
       "impact": "low",
-      "actual": null,
+      "actual": "456.9M",
       "forecast": "360.0M",
       "previous": "88.0M"
     },
@@ -77095,9 +77207,9 @@
       "flag": "🇪🇺",
       "event": "Latvia Current Account",
       "impact": "low",
-      "actual": null,
-      "forecast": "-130.0M",
-      "previous": "-155.0M"
+      "actual": "-107M",
+      "forecast": "-130M",
+      "previous": "-155M"
     },
     {
       "date": "14 Oct",
@@ -77129,6 +77241,32 @@
       "date": "14 Oct",
       "dateISO": "2026-10-14",
       "timeUTC": "09:40",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal 2036 OT Auction",
+      "impact": "low",
+      "actual": "3.897%",
+      "forecast": null,
+      "previous": "3.439%"
+    },
+    {
+      "date": "14 Oct",
+      "dateISO": "2026-10-14",
+      "timeUTC": "09:40",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal 2052 OT Auction",
+      "impact": "low",
+      "actual": "4.316%",
+      "forecast": null,
+      "previous": "3.780%"
+    },
+    {
+      "date": "14 Oct",
+      "dateISO": "2026-10-14",
+      "timeUTC": "09:40",
       "country": "USD",
       "currency": "USD",
       "flag": "🇺🇸",
@@ -77150,32 +77288,6 @@
       "actual": "3.80%",
       "forecast": null,
       "previous": "3.80%"
-    },
-    {
-      "date": "14 Oct",
-      "dateISO": "2026-10-14",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Residential Property Prices YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "5.2%",
-      "previous": "5.5%"
-    },
-    {
-      "date": "14 Oct",
-      "dateISO": "2026-10-14",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Residential Property Prices MoM",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.6%",
-      "previous": "0.8%"
     },
     {
       "date": "14 Oct",
@@ -77868,7 +77980,7 @@
       "event": "Slovakia Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.3%",
+      "forecast": "0.2%",
       "previous": "0.0%"
     },
     {
@@ -78052,19 +78164,6 @@
       "actual": null,
       "forecast": "4.6%",
       "previous": "4.2%"
-    },
-    {
-      "date": "15 Oct",
-      "dateISO": "2026-10-15",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Balance of Trade",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.9B",
-      "previous": "5.3B"
     },
     {
       "date": "15 Oct",
@@ -78739,7 +78838,7 @@
       "event": "Slovakia Harmonised Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.3%",
+      "forecast": "0.2%",
       "previous": "0.0%"
     },
     {
@@ -78778,7 +78877,7 @@
       "event": "Slovakia Harmonised Inflation Rate YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "3.2%",
+      "forecast": "3.1%",
       "previous": "3.1%"
     },
     {
@@ -79014,6 +79113,19 @@
       "actual": null,
       "forecast": null,
       "previous": "103.30"
+    },
+    {
+      "date": "16 Oct",
+      "dateISO": "2026-10-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.9B",
+      "previous": "5.3B"
     },
     {
       "date": "16 Oct",
@@ -79598,7 +79710,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.530%"
     },
     {
       "date": "19 Oct",
@@ -79611,7 +79723,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.740%"
     },
     {
       "date": "19 Oct",
@@ -80132,6 +80244,19 @@
       "actual": null,
       "forecast": "5.1%",
       "previous": "5.2%"
+    },
+    {
+      "date": "20 Oct",
+      "dateISO": "2026-10-20",
+      "timeUTC": "10:20",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland RFGB Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "20 Oct",
@@ -80663,7 +80788,7 @@
       "event": "Latvia PPI YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "3.1%",
+      "forecast": "2.9%",
       "previous": "2.6%"
     },
     {
@@ -80689,7 +80814,7 @@
       "event": "Latvia PPI MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.6%",
+      "forecast": "0.4%",
       "previous": "0.5%"
     },
     {
@@ -80890,6 +81015,19 @@
     {
       "date": "22 Oct",
       "dateISO": "2026-10-22",
+      "timeUTC": "04:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Consumer Confidence",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-34",
+      "previous": "-33"
+    },
+    {
+      "date": "22 Oct",
+      "dateISO": "2026-10-22",
       "timeUTC": "06:00",
       "country": "NOK",
       "currency": "NOK",
@@ -80938,32 +81076,6 @@
       "actual": null,
       "forecast": "-24",
       "previous": "-23"
-    },
-    {
-      "date": "22 Oct",
-      "dateISO": "2026-10-22",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Wholesale Prices YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "7.4%",
-      "previous": "6.5%"
-    },
-    {
-      "date": "22 Oct",
-      "dateISO": "2026-10-22",
-      "timeUTC": "10:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Wholesale Prices MoM",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.5%",
-      "previous": "-0.8%"
     },
     {
       "date": "22 Oct",
@@ -81237,19 +81349,6 @@
       "actual": null,
       "forecast": null,
       "previous": "0.0%"
-    },
-    {
-      "date": "23 Oct",
-      "dateISO": "2026-10-23",
-      "timeUTC": "04:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Netherlands Consumer Confidence",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "-34",
-      "previous": "-33"
     },
     {
       "date": "23 Oct",
@@ -81690,7 +81789,7 @@
       "event": "Ireland Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "60",
       "previous": "61.1"
     },
     {
@@ -81703,7 +81802,7 @@
       "event": "Finland Export Prices YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "8.5%",
+      "forecast": "8.6%",
       "previous": "8.7%"
     },
     {
@@ -81729,7 +81828,7 @@
       "event": "Finland Import Prices YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "7.5%",
+      "forecast": "8.2%",
       "previous": "7.6%"
     },
     {
@@ -82054,7 +82153,7 @@
       "event": "Finland Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "-6",
       "previous": "-4.9"
     },
     {
@@ -82067,7 +82166,7 @@
       "event": "Lithuania Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "4.8%",
+      "forecast": "3.8%",
       "previous": "3.7%"
     },
     {
@@ -82224,7 +82323,33 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.38%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Wholesale Prices YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "7.4%",
+      "previous": "6.5%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Wholesale Prices MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.5%",
+      "previous": "-0.8%"
     },
     {
       "date": "27 Oct",
@@ -82691,7 +82816,7 @@
       "event": "Lithuania Industrial Production MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.4%",
       "previous": "0.2%"
     },
     {
@@ -82704,7 +82829,7 @@
       "event": "Lithuania Industrial Production YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "1.9%",
+      "forecast": "4.4%",
       "previous": "4.8%"
     },
     {
@@ -82808,7 +82933,7 @@
       "event": "Austria UniCredit Bank Manufacturing PMI",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "54",
       "previous": "54.9"
     },
     {
@@ -82860,7 +82985,7 @@
       "event": "Slovenia Retail Sales MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.2%",
       "previous": "1.0%"
     },
     {
@@ -82964,7 +83089,7 @@
       "event": "Ireland GDP Growth Rate QoQ Prel",
       "impact": "low",
       "actual": null,
-      "forecast": "-0.9%",
+      "forecast": "-3.9%",
       "previous": "10.2%"
     },
     {
