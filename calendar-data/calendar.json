@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T06:02:42Z",
-  "generatedAt": "2026-10-15T06:02:42Z",
+  "lastUpdate": "2026-10-15T06:32:43Z",
+  "generatedAt": "2026-10-15T06:32:43Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3072,6 +3072,16 @@
       "n": 2,
       "mean": 0.05,
       "std": 0.070711
+    },
+    "CHF/ppi mom": {
+      "n": 2,
+      "mean": 0.65,
+      "std": 0.353553
+    },
+    "CHF/ppi yoy": {
+      "n": 2,
+      "mean": 0.25,
+      "std": 0.777817
     },
     "EUR/lithuania current account": {
       "n": 2,
@@ -78058,7 +78068,7 @@
       "flag": "🇨🇭",
       "event": "Switzerland PPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "-0.1%",
       "previous": "0.7%"
     },
@@ -78071,7 +78081,7 @@
       "flag": "🇨🇭",
       "event": "Switzerland PPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.2%",
       "forecast": "0.1%",
       "previous": "-0.7%"
     },
