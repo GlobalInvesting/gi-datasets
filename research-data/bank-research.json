@@ -1,14 +1,30 @@
 {
-  "updated_utc": "2026-10-15T13:27:37.629141+00:00",
-  "updated_label": "13:27 UTC",
-  "total": 33,
+  "updated_utc": "2026-10-15T16:20:46.410726+00:00",
+  "updated_label": "16:20 UTC",
+  "total": 34,
   "sources": [
     "BIS",
     "CME",
     "ING",
-    "Saxo"
+    "Saxo",
+    "TD"
   ],
   "items": [
+    {
+      "id": "0cab5c89f56c",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "U.S. Retail Sales Rise in September, but Gas Prices Do the Heavy Lifting",
+      "excerpt": "Retail and food services sales advanced by 0.8% m/m in September, following an unexpectedly strong gain in the prior month. Adjusted for inflation, sales volumes rose by just 0.1%. The headline gain was heavily driven by an outsized jump in sales at gasoline stations as gas prices rose by over 6% on the month. Meanwhile, [&#8230;] The post U.S. Retail Sales Rise in September, but Gas Prices Do the Heavy Lifting appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/657653-u-s-retail-sales-rise-in-september-but-gas-prices-do-the-heavy-lifting/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792071691000,
+      "published": "2026-10-15T13:41:31+00:00"
+    },
     {
       "id": "64fcf61e821c",
       "bank": "ING",
@@ -426,23 +442,6 @@
       "published": "2026-10-13T06:40:00+00:00"
     },
     {
-      "id": "77c782e09571",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Money in the digital age - digital euro, tokenisation and the role of central banks",
-      "excerpt": "Speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the MNI Connect Webcast, Frankfurt am Main, 6 October 2026.",
-      "author": "Piero Cipollone",
-      "url": "https://www.bis.org/speeches/20261013-money-digital-age-digital-euro-tokenisation-and-role-central-banks",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791849600000,
-      "published": "2026-10-13T00:00:00+00:00"
-    },
-    {
       "id": "0d3df833c88b",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -500,6 +499,23 @@
       "excerpt": "Closing keynote speech by Ms Clara Raposo, Vice-Governor of the Banco de Portugal, at the 8th Edition of the Capital Markets Seminar “Financing Europe”, organised by the European Commission (EC), European Investment Bank (EIB) and the European Stability Mechanism (ESM), Luxembourg, 1 October 2026.",
       "author": "Clara Raposo",
       "url": "https://www.bis.org/speeches/20261013-investing-through-uncertainty-financing-europes-future",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1791849600000,
+      "published": "2026-10-13T00:00:00+00:00"
+    },
+    {
+      "id": "77c782e09571",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Money in the digital age - digital euro, tokenisation and the role of central banks",
+      "excerpt": "Speech by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the MNI Connect Webcast, Frankfurt am Main, 6 October 2026.",
+      "author": "Piero Cipollone",
+      "url": "https://www.bis.org/speeches/20261013-money-digital-age-digital-euro-tokenisation-and-role-central-banks",
       "currencies": [
         "EUR"
       ],
