@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T04:44:45Z",
-  "generatedAt": "2026-10-15T04:44:45Z",
+  "lastUpdate": "2026-10-15T06:02:42Z",
+  "generatedAt": "2026-10-15T06:02:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1118,10 +1118,25 @@
       "mean": -0.55,
       "std": 0.494975
     },
+    "GBP/gdp mom": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 0.141421
+    },
+    "GBP/manufacturing production mom": {
+      "n": 2,
+      "mean": 0.55,
+      "std": 1.202082
+    },
     "GBP/gdp growth rate qoq": {
       "n": 2,
       "mean": 0.05,
       "std": 0.070711
+    },
+    "GBP/industrial production mom": {
+      "n": 2,
+      "mean": 0.3,
+      "std": 0.848528
     },
     "GBP/business investment qoq": {
       "n": 2,
@@ -2988,6 +3003,11 @@
       "mean": 0.105,
       "std": 0.13435
     },
+    "GBP/index of services": {
+      "n": 2,
+      "mean": 0.5,
+      "std": 0.282843
+    },
     "EUR/latvia current account": {
       "n": 2,
       "mean": 120.0,
@@ -3077,6 +3097,11 @@
       "n": 2,
       "mean": -0.6,
       "std": 0.0
+    },
+    "NOK/goods trade balance": {
+      "n": 2,
+      "mean": 30.0605,
+      "std": 4.820347
     },
     "EUR/spain cpi mom": {
       "n": 3,
@@ -77877,9 +77902,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Construction Output m/m",
       "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "0.1%"
+      "actual": "-0.2%",
+      "forecast": "-0.3%",
+      "previous": "-0.1%"
     },
     {
       "date": "15 Oct",
@@ -77890,9 +77915,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Construction Output y/y",
       "impact": "low",
-      "actual": null,
-      "forecast": "-1.1%",
-      "previous": "-1.0%"
+      "actual": "-1.8%",
+      "forecast": "-1.4%",
+      "previous": "-2.3%"
     },
     {
       "date": "15 Oct",
@@ -77903,9 +77928,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Industrial Production m/m",
       "impact": "medium",
-      "actual": null,
-      "forecast": "-1.7%",
-      "previous": "0.0%"
+      "actual": "0.8%",
+      "forecast": "-0.1%",
+      "previous": "-0.2%"
     },
     {
       "date": "15 Oct",
@@ -77916,8 +77941,8 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Industrial Production y/y",
       "impact": "low",
-      "actual": null,
-      "forecast": "0.7%",
+      "actual": "1.6%",
+      "forecast": "0.0%",
       "previous": "-0.2%"
     },
     {
@@ -77929,9 +77954,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Manufacturing Production m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.2%",
       "forecast": "-0.2%",
-      "previous": "0.4%"
+      "previous": "-0.5%"
     },
     {
       "date": "15 Oct",
@@ -77942,9 +77967,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Manufacturing Production y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.0%",
       "forecast": "0.0%",
-      "previous": "1.0%"
+      "previous": "0.5%"
     },
     {
       "date": "15 Oct",
@@ -77955,9 +77980,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Trade Balance",
       "impact": "medium",
-      "actual": null,
-      "forecast": "-28.734B",
-      "previous": "-26.046B"
+      "actual": "-18.007B",
+      "forecast": "-22.037B",
+      "previous": "-23.007B"
     },
     {
       "date": "15 Oct",
@@ -77968,9 +77993,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Trade Balance Non-EU",
       "impact": "medium",
-      "actual": null,
-      "forecast": "-8.781B",
-      "previous": "-13.050B"
+      "actual": "-5.287B",
+      "forecast": "-4.324B",
+      "previous": "-10.448B"
     },
     {
       "date": "15 Oct",
@@ -77981,9 +78006,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom GDP m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.0%",
-      "previous": "-0.1%"
+      "previous": "0.3%"
     },
     {
       "date": "15 Oct",
@@ -77994,9 +78019,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom GDP 3m/3m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": null,
-      "previous": "0.7%"
+      "previous": "0.4%"
     },
     {
       "date": "15 Oct",
@@ -78007,7 +78032,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Index of Services",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.2%",
       "previous": "0.6%"
     },
@@ -78020,7 +78045,7 @@
       "flag": "🇳🇴",
       "event": "Norway Goods Trade Balance",
       "impact": "low",
-      "actual": null,
+      "actual": "105.028B",
       "forecast": "78.376B",
       "previous": "100.440B"
     },
