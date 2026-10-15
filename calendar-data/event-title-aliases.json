@@ -1,124 +1,10 @@
 {
-  "generatedAt": "2026-10-14T18:45:30Z",
+  "generatedAt": "2026-10-15T00:02:05Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 203,
   "aliases": [
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Manufacturing PMI",
-      "secondary_title": "Euro Area S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": 52.7,
-          "actual_primary": 52.9,
-          "actual_secondary": 52.9,
-          "previous_primary": null,
-          "previous_secondary": 52.7,
-          "actual_secondary_raw": "52.9",
-          "forecast_secondary_raw": "52.7",
-          "previous_secondary_raw": "52.7"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Services PMI",
-      "secondary_title": "Euro Area S&P Global Services PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": null,
-          "forecast_secondary": 53.0,
-          "actual_primary": 53.0,
-          "actual_secondary": 53.0,
-          "previous_primary": null,
-          "previous_secondary": 51.6,
-          "actual_secondary_raw": "53.0",
-          "forecast_secondary_raw": "53",
-          "previous_secondary_raw": "51.6"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Composite PMI",
-      "secondary_title": "Euro Area S&P Global Composite PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": null,
-          "forecast_secondary": 53.1,
-          "actual_primary": 53.1,
-          "actual_secondary": 53.1,
-          "previous_primary": null,
-          "previous_secondary": 52.0,
-          "actual_secondary_raw": "53.1",
-          "forecast_secondary_raw": "53.1",
-          "previous_secondary_raw": "52.0"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom S&P Global/CIPS Manufacturing PMI",
-      "secondary_title": "United Kingdom S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": 52.0,
-          "actual_primary": 52.0,
-          "actual_secondary": 51.9,
-          "previous_primary": null,
-          "previous_secondary": 51.7,
-          "actual_secondary_raw": "51.9",
-          "forecast_secondary_raw": "52",
-          "previous_secondary_raw": "51.7"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom S&P Global/CIPS Services PMI",
-      "secondary_title": "United Kingdom S&P Global Services PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": null,
-          "forecast_secondary": 51.7,
-          "actual_primary": 52.1,
-          "actual_secondary": 52.1,
-          "previous_primary": null,
-          "previous_secondary": 52.5,
-          "actual_secondary_raw": "52.1",
-          "forecast_secondary_raw": "51.7",
-          "previous_secondary_raw": "52.5"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom S&P Global/CIPS Composite PMI",
-      "secondary_title": "United Kingdom S&P Global Composite PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": null,
-          "forecast_secondary": 51.7,
-          "actual_primary": 52.0,
-          "actual_secondary": 52.0,
-          "previous_primary": null,
-          "previous_secondary": 52.5,
-          "actual_secondary_raw": "52.0",
-          "forecast_secondary_raw": "51.7",
-          "previous_secondary_raw": "52.5"
-        }
-      }
-    },
     {
       "currency": "JPY",
       "primary_title": "Japan au Jibun Bank Manufacturing PMI",
@@ -1703,6 +1589,44 @@
       }
     },
     {
+      "currency": "EUR",
+      "primary_title": "Euro Area S&P Global Manufacturing PMI",
+      "secondary_title": "Euro Area S&P Global Manufacturing PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": null,
+          "forecast_secondary": 52.7,
+          "actual_primary": 52.9,
+          "actual_secondary": 52.9,
+          "previous_primary": null,
+          "previous_secondary": 52.7,
+          "actual_secondary_raw": "52.9",
+          "forecast_secondary_raw": "52.7",
+          "previous_secondary_raw": "52.7"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom S&P Global/CIPS Manufacturing PMI",
+      "secondary_title": "United Kingdom S&P Global Manufacturing PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-01",
+          "forecast_primary": null,
+          "forecast_secondary": 52.0,
+          "actual_primary": 52.0,
+          "actual_secondary": 51.9,
+          "previous_primary": null,
+          "previous_secondary": 51.7,
+          "actual_secondary_raw": "51.9",
+          "forecast_secondary_raw": "52",
+          "previous_secondary_raw": "51.7"
+        }
+      }
+    },
+    {
       "currency": "USD",
       "primary_title": "United States S&P Global Manufacturing PMI",
       "secondary_title": "United States S&P Global Manufacturing PMI Final",
@@ -1978,6 +1902,82 @@
           "actual_secondary_raw": "35.4",
           "forecast_secondary_raw": "35.7",
           "previous_secondary_raw": "35.5"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area S&P Global Services PMI",
+      "secondary_title": "Euro Area S&P Global Services PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-05",
+          "forecast_primary": null,
+          "forecast_secondary": 53.0,
+          "actual_primary": 53.0,
+          "actual_secondary": 53.0,
+          "previous_primary": null,
+          "previous_secondary": 51.6,
+          "actual_secondary_raw": "53.0",
+          "forecast_secondary_raw": "53",
+          "previous_secondary_raw": "51.6"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area S&P Global Composite PMI",
+      "secondary_title": "Euro Area S&P Global Composite PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-05",
+          "forecast_primary": null,
+          "forecast_secondary": 53.1,
+          "actual_primary": 53.1,
+          "actual_secondary": 53.1,
+          "previous_primary": null,
+          "previous_secondary": 52.0,
+          "actual_secondary_raw": "53.1",
+          "forecast_secondary_raw": "53.1",
+          "previous_secondary_raw": "52.0"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom S&P Global/CIPS Services PMI",
+      "secondary_title": "United Kingdom S&P Global Services PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-05",
+          "forecast_primary": null,
+          "forecast_secondary": 51.7,
+          "actual_primary": 52.1,
+          "actual_secondary": 52.1,
+          "previous_primary": null,
+          "previous_secondary": 52.5,
+          "actual_secondary_raw": "52.1",
+          "forecast_secondary_raw": "51.7",
+          "previous_secondary_raw": "52.5"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom S&P Global/CIPS Composite PMI",
+      "secondary_title": "United Kingdom S&P Global Composite PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-05",
+          "forecast_primary": null,
+          "forecast_secondary": 51.7,
+          "actual_primary": 52.0,
+          "actual_secondary": 52.0,
+          "previous_primary": null,
+          "previous_secondary": 52.5,
+          "actual_secondary_raw": "52.0",
+          "forecast_secondary_raw": "51.7",
+          "previous_secondary_raw": "52.5"
         }
       }
     },
@@ -2640,15 +2640,28 @@
           "dateISO": "2026-10-14",
           "forecast_primary": 1.3,
           "forecast_secondary": 2.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 5.2,
+          "actual_secondary": 5.2,
           "previous_primary": -3.7,
           "previous_secondary": -3.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "5.2%",
           "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "-3.7%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 1.3,
+          "forecast_yahoo": null,
+          "actual_primary": 5.2,
+          "actual_yahoo": 5.2,
+          "previous_primary": -3.7,
+          "previous_yahoo": -3.7,
+          "actual_yahoo_raw": "5.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-3.7"
         }
-      }
+      },
+      "yahoo_title": "Machinery Orders MM *"
     },
     {
       "currency": "JPY",
@@ -2659,15 +2672,28 @@
           "dateISO": "2026-10-14",
           "forecast_primary": 15.5,
           "forecast_secondary": 15.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 18.6,
+          "actual_secondary": 18.6,
           "previous_primary": 11.2,
           "previous_secondary": 11.2,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "18.6%",
           "forecast_secondary_raw": "15.1%",
           "previous_secondary_raw": "11.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 15.5,
+          "forecast_yahoo": null,
+          "actual_primary": 18.6,
+          "actual_yahoo": 18.6,
+          "previous_primary": 11.2,
+          "previous_yahoo": 11.2,
+          "actual_yahoo_raw": "18.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "11.2"
         }
-      }
+      },
+      "yahoo_title": "Machinery Orders YY *"
     },
     {
       "currency": "JPY",
@@ -3578,25 +3604,6 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.7%",
           "previous_secondary_raw": "1.7%"
-        }
-      }
-    },
-    {
-      "currency": "NOK",
-      "primary_title": "Norway Unemployment Rate",
-      "yahoo_title": "Key Policy Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-09-23",
-          "forecast_primary": 4.1,
-          "forecast_yahoo": null,
-          "actual_primary": 4.5,
-          "actual_yahoo": 4.5,
-          "previous_primary": 4.2,
-          "previous_yahoo": 4.25,
-          "actual_yahoo_raw": "4.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.25"
         }
       }
     },
