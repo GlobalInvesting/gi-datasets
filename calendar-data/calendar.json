@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T12:00:57Z",
-  "generatedAt": "2026-10-15T12:00:57Z",
+  "lastUpdate": "2026-10-15T12:32:43Z",
+  "generatedAt": "2026-10-15T12:32:43Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -279,14 +279,14 @@
       "std": 0.083845
     },
     "USD/initial jobless claims": {
-      "n": 12,
-      "mean": 2.666667,
-      "std": 9.518722
+      "n": 13,
+      "mean": 1.923077,
+      "std": 9.499663
     },
     "USD/continuing jobless claims": {
-      "n": 12,
-      "mean": 3.585917,
-      "std": 9.48059
+      "n": 13,
+      "mean": 3.310231,
+      "std": 9.131237
     },
     "EUR/consumer confidence": {
       "n": 2,
@@ -354,9 +354,9 @@
       "std": 0.1
     },
     "CAD/manufacturing sales mom": {
-      "n": 4,
-      "mean": 0.05,
-      "std": 0.866025
+      "n": 5,
+      "mean": 0.56,
+      "std": 1.364918
     },
     "USD/new home sales mom": {
       "n": 5,
@@ -1164,14 +1164,14 @@
       "std": 0.350714
     },
     "USD/ppi mom": {
-      "n": 2,
-      "mean": 0.25,
-      "std": 0.636396
+      "n": 3,
+      "mean": 0.6,
+      "std": 0.754983
     },
     "USD/core ppi mom": {
-      "n": 2,
-      "mean": -0.25,
-      "std": 0.212132
+      "n": 3,
+      "mean": -0.066667,
+      "std": 0.351188
     },
     "EUR/finland inflation rate mom": {
       "n": 3,
@@ -1374,14 +1374,14 @@
       "std": 0.0
     },
     "USD/philadelphia fed manufacturing index": {
-      "n": 4,
-      "mean": 18.8,
-      "std": 13.653083
+      "n": 5,
+      "mean": 12.52,
+      "std": 18.357478
     },
     "USD/philadelphia fed employment": {
-      "n": 2,
-      "mean": 12.25,
-      "std": 20.435386
+      "n": 3,
+      "mean": 9.466667,
+      "std": 15.232969
     },
     "USD/cb leading economic index mom": {
       "n": 2,
@@ -1769,9 +1769,9 @@
       "std": 0.650641
     },
     "USD/initial jobless claims 4-week average": {
-      "n": 7,
-      "mean": 0.404,
-      "std": 1.363292
+      "n": 8,
+      "mean": 0.512375,
+      "std": 1.298852
     },
     "USD/eia natural gas storage change": {
       "n": 7,
@@ -2998,6 +2998,11 @@
       "mean": 0.0,
       "std": 0.0
     },
+    "USD/ppi yoy": {
+      "n": 2,
+      "mean": 1.7,
+      "std": 0.282843
+    },
     "USD/wholesale sales mom": {
       "n": 2,
       "mean": 0.85,
@@ -3242,6 +3247,26 @@
       "n": 2,
       "mean": -0.15,
       "std": 0.070711
+    },
+    "USD/philadelphia fed business conditions": {
+      "n": 2,
+      "mean": -12.15,
+      "std": 14.63711
+    },
+    "USD/philadelphia fed prices paid": {
+      "n": 2,
+      "mean": -1.55,
+      "std": 1.626346
+    },
+    "USD/philadelphia fed new orders": {
+      "n": 2,
+      "mean": -12.3,
+      "std": 18.101934
+    },
+    "USD/philadelphia fed capex index": {
+      "n": 2,
+      "mean": -4.7,
+      "std": 4.101219
     },
     "EUR/construction output yoy": {
       "n": 2,
@@ -78708,7 +78733,7 @@
       "flag": "🇨🇦",
       "event": "Canada Manufacturing Sales m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "1.5%",
       "forecast": "-1.1%",
       "previous": "-0.4%"
     },
@@ -78799,7 +78824,7 @@
       "flag": "🇺🇸",
       "event": "United States PPI m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "1.3%",
       "forecast": "0.0%",
       "previous": "0.4%"
     },
@@ -78812,7 +78837,7 @@
       "flag": "🇺🇸",
       "event": "United States Core PPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.4%",
       "previous": "0.2%"
     },
@@ -78825,7 +78850,7 @@
       "flag": "🇺🇸",
       "event": "United States PPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "6.3%",
       "forecast": "4.8%",
       "previous": "5.4%"
     },
@@ -78851,7 +78876,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed Manufacturing Index",
       "impact": "high",
-      "actual": null,
+      "actual": "20.9",
       "forecast": "33.5",
       "previous": "37.8"
     },
@@ -78864,7 +78889,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed Employment",
       "impact": "medium",
-      "actual": null,
+      "actual": "9.1",
       "forecast": "5.2",
       "previous": "11.8"
     },
@@ -78877,7 +78902,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed Business Conditions",
       "impact": "low",
-      "actual": null,
+      "actual": "33.0",
       "forecast": "55.5",
       "previous": "52.9"
     },
@@ -78890,7 +78915,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed Prices Paid",
       "impact": "low",
-      "actual": null,
+      "actual": "43.2",
       "forecast": "45.9",
       "previous": "48.6"
     },
@@ -78903,7 +78928,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed New Orders",
       "impact": "low",
-      "actual": null,
+      "actual": "4.3",
       "forecast": "29.4",
       "previous": "29.2"
     },
@@ -78916,7 +78941,7 @@
       "flag": "🇺🇸",
       "event": "Philadelphia Fed Capex Index",
       "impact": "low",
-      "actual": null,
+      "actual": "34.9",
       "forecast": "42.5",
       "previous": "37.1"
     },
@@ -78942,7 +78967,7 @@
       "flag": "🇺🇸",
       "event": "United States Initial Jobless Claims",
       "impact": "high",
-      "actual": null,
+      "actual": "199K",
       "forecast": "192K",
       "previous": "197K"
     },
@@ -78955,7 +78980,7 @@
       "flag": "🇺🇸",
       "event": "United States Continuing Jobless Claims",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.710M",
       "forecast": "1.712M",
       "previous": "1.716M"
     },
@@ -78968,7 +78993,7 @@
       "flag": "🇺🇸",
       "event": "United States Initial Jobless Claims 4-Week Average",
       "impact": "low",
-      "actual": null,
+      "actual": "198.500K",
       "forecast": "199.771K",
       "previous": "198.000K"
     },
@@ -81738,8 +81763,8 @@
       "event": "United States Initial Jobless Claims",
       "impact": "high",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "198K",
+      "previous": "199K"
     },
     {
       "date": "22 Oct",
@@ -81751,8 +81776,8 @@
       "event": "United States Continuing Jobless Claims",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "1.723M",
+      "previous": "1.710M"
     },
     {
       "date": "22 Oct",
@@ -81765,7 +81790,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "198.500K"
     },
     {
       "date": "22 Oct",
