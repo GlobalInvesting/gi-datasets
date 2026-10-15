@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T00:30:50Z",
-  "generatedAt": "2026-10-15T00:30:50Z",
+  "lastUpdate": "2026-10-15T00:32:34Z",
+  "generatedAt": "2026-10-15T00:32:34Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -229,14 +229,14 @@
       "std": 8.051317
     },
     "AUD/unemployment rate": {
-      "n": 3,
+      "n": 4,
       "mean": -0.1,
-      "std": 0.1
+      "std": 0.08165
     },
     "AUD/employment change": {
-      "n": 3,
-      "mean": 8.066667,
-      "std": 54.384403
+      "n": 4,
+      "mean": -7.275,
+      "std": 53.974462
     },
     "EUR/netherlands consumer confidence": {
       "n": 3,
@@ -3137,6 +3137,11 @@
       "n": 2,
       "mean": -1.45,
       "std": 0.636396
+    },
+    "AUD/participation rate": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.353553
     },
     "JPY/construction orders yoy": {
       "n": 2,
@@ -77711,7 +77716,7 @@
       "flag": "🇦🇺",
       "event": "Australia Employment Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "-39.3K",
       "forecast": "14.0K",
       "previous": "39.5K"
     },
@@ -77724,7 +77729,7 @@
       "flag": "🇦🇺",
       "event": "Australia Full-Time Employment Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "34.4K",
       "forecast": null,
       "previous": "-6.3K"
     },
@@ -77737,7 +77742,7 @@
       "flag": "🇦🇺",
       "event": "Australia Participation Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "66.8%",
       "forecast": "67.0%",
       "previous": "67.1%"
     },
@@ -77750,7 +77755,7 @@
       "flag": "🇦🇺",
       "event": "Australia Unemployment Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.7%",
       "forecast": "4.6%",
       "previous": "4.6%"
     },
