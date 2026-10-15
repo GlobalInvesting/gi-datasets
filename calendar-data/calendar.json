@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T09:19:18Z",
-  "generatedAt": "2026-10-15T09:19:18Z",
+  "lastUpdate": "2026-10-15T09:30:52Z",
+  "generatedAt": "2026-10-15T09:30:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3152,6 +3152,16 @@
       "n": 3,
       "mean": 0.066667,
       "std": 0.057735
+    },
+    "EUR/croatia inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
+    "EUR/croatia inflation rate mom final": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
     },
     "JPY/core machinery orders mom": {
       "n": 2,
@@ -78270,7 +78280,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.9%",
       "previous": "0.4%"
     },
@@ -78283,7 +78293,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "4.7%",
       "forecast": "4.7%",
       "previous": "4.2%"
     },
