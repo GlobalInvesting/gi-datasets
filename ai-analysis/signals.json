@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-15T07:01:33Z",
+  "generated_at": "2026-10-15T12:05:19Z",
   "signals": [
     {
-      "time": "06:58",
+      "time": "12:00",
       "priority": "critical",
-      "title": "AUD/USD — Employment Shock + Rate-Divergence Risk",
-      "text": "AUD/USD prints at 0.6942 following an employment shock where Australian September jobs missed sharply at −39.3k versus expectations of a 14.0k gain, lifting the unemployment rate to 4.7%. Spot trades below its SMA cluster with the SMA20 at 0.7010, SMA50 at 0.7088, and SMA200 at 0.7044, maintaining a structurally defensive technical profile. The labour market contraction severely undermines the Reserve Bank of Australia's hiking bias, directly threatening the 71bp OIS carry advantage AUD currently holds over USD via AONIA 4.60% against SOFR 3.89%. Leveraged funds entered the session net long +48,911 contracts, leaving speculative length vulnerable to liquidation if RBA tightening expectations are removed entirely. Downside pressure accelerates while the pair is held beneath the 0.7010 moving-average band. Trade bias: Bearish AUD/USD, macro divergence led by labour contraction. Catalyst: US Retail Sales at 12:30 UTC. Risk: Crowded-long liquidation triggers sharper downside acceleration through 0.6900.",
+      "title": "NOK/AUD — G10 Bilateral Theme + Jobs Shock Divergence",
+      "text": "The G10 currency scorecard shows a 1.366% weekly performance spread between leader NOK (+0.672%, n=2) and laggard AUD (-0.694%, n=4), crossing the strong-theme threshold. Divergence is reinforced by domestic fundamentals: Australian employment contracted by 39,300 in September with unemployment rising to 4.7% (a 2.45σ shock), while the Norges Bank policy rate of 4.5% yields a +1.82% real rate against Australia's -0.70%. The bilateral carry deficit of 10bp (Norges Bank 4.5% vs RBA 4.6%) is fully offset by macroeconomic growth momentum and crude firmness at $94.1/bbl. AUD/USD trades at 0.6916, sitting firmly below its SMA20/50/200 cluster (0.7010/0.7088/0.7044). Trade bias: Bearish AUD relative to European commodity FX; structural labor weakness invalidates further RBA tightening pricing. Catalyst: US Retail Sales and PPI at 12:30 UTC. Risk: Sharp commodity rebound or RBA pushback on easing pricing invalidates the cross divergence.",
       "evidence": [
-        "AU Employment: -39.3k vs 14.0k exp",
-        "OIS carry: AONIA 4.60% vs SOFR 3.89% (-71bp)",
-        "AUD COT LF net: +48,911"
+        "NOK 1W avg: +0.672% (n=2)",
+        "AUD 1W avg: -0.694% (n=4)",
+        "G10 spread: 1.366%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:55",
+      "time": "11:56",
       "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + Hawkish BoJ Rhetoric",
-      "text": "USD/JPY trades at 157.92, pinned between the SMA20/50 support zone at 157.75/157.72 and the SMA200 overhead resistance at 158.55. BoJ Policy Board Member Junko Koeda delivered explicit hawkish commentary warning against excessive caution regarding rate hikes, reinforcing policy normalization as inflation stabilizes near 2%. Options markets display pronounced downside asymmetry, with the 1-month 25-delta risk reversal printing at −1.70, reflecting elevated demand for JPY call protection. Concurrently, USD/JPY options volatility exhibits complacency with 1M IV at 7.6% versus HV30 at 9.5%, generating a −1.9pt volatility risk premium that leaves short-volatility carry structures exposed to sharp re-hedging. The Fed 4.00% versus BoJ 1.25% policy spread offers 275bp of nominal carry, yet negative real policy rates at −2.25% face structural repricing as BoJ hiking rhetoric gains traction. Trade bias: Bearish USD/JPY, downside options skew against BoJ tightening risk. Catalyst: BoJ meeting 30 Oct. Risk: Spot closes above the SMA200 at 158.55, invalidating near-term downside momentum.",
+      "title": "USD/JPY — Options Downside Skew + Vol Complacency",
+      "text": "USD/JPY spot trades at 157.90, holding above its SMA20/50 cluster at 157.75/157.72 while testing below the SMA200 at 158.55. A 266bp OIS carry premium (SOFR 3.89% vs TONA 1.23%) keeps the base bid, but options markets show asymmetric hedging. The 1M 25-delta risk reversal sits at -1.70, reflecting pronounced demand for base downside protection even as 1M ATM IV of 7.6% runs 1.9 points below HV30 of 9.5%. That negative volatility risk premium indicates implied vol complacency relative to actual trading ranges. Trade bias: Bearish USD/JPY on tactical rallies; downside options hedging signals asymmetric vulnerability despite positive carry. Catalyst: BoJ policy decision on 30 Oct — hold expected. Risk: US Retail Sales surprise sharply higher at 12:30 UTC, triggering a nominal yield extension above the SMA200 at 158.55.",
       "evidence": [
-        "25d RR: -1.70 (strong put skew)",
-        "VRP: -1.9% (IV 7.6% vs HV30 9.5%)",
-        "Fed 4.00% vs BoJ 1.25% — 275bp"
+        "USD/JPY 25d RR: -1.70 (Saxo, 1M tenor)",
+        "USD/JPY VRP: -1.9% (IV 7.6% vs HV30 9.5%)",
+        "OIS carry: SOFR 3.89% vs TONA 1.23% (+266bp)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:51",
+      "time": "11:52",
       "priority": "warning",
-      "title": "USD/CAD — Extreme Retail Short vs Bullish Technical Breakout",
-      "text": "USD/CAD trades at 1.4216, positioned comfortably above its rising SMA20 at 1.4170, SMA50 at 1.3990, and SMA200 at 1.3874 following a sustained five-week advance. Speculative leveraged funds hold a substantial net short position of −82,720 contracts, while retail sentiment on Retail sentiment data registers an extreme 94% short posture against 6% long. This institutional and retail consensus fade runs directly against robust underlying carry fundamentals, where Fed 4.00% against BoC 2.25% delivers a +175bp policy spread and a +161bp OIS advantage in favor of USD. With US real yields expanding +30bp over the 20-day window on 5Y FRED decomposition, persistent policy divergence continues to penalize CAD holders. Sustained trading above the 1.4170 technical support layer maintains pressure on short positioning toward the 1.4300 resistance ceiling. Trade bias: Bullish USD/CAD, structural carry advantage against extreme retail short positioning. Catalyst: BoC Governor Macklem speech at 21:37 UTC. Risk: Retracement back below the SMA20 at 1.4170, neutralizing the short-squeeze setup.",
+      "title": "EUR/USD — Crowded Speculative Short + CPI Repricing",
+      "text": "EUR/USD trades at 1.1211, positioned below its SMA20/50/200 structure (1.1312/1.1484/1.1592) following post-CPI dollar strength. CFTC leveraged funds positioning shows EUR net short at -84,775 contracts, sitting in the 4th percentile of its 52-week range (z = -1.64), marking an extended institutional short. Fed 4.00% (HIKING) vs ECB 2.65% (HIKING) creates a 135bp nominal policy rate spread in favor of USD, while the 20D US 5Y yield increase of +24bp (FRED, as of Oct 09) was real-yield-led (+30bp real vs -6bp breakeven). Spot is currently stretched vs model fair value (BEER z = -2.23σ at 1.1331). Trade bias: Neutral/range EUR/USD; stretched short positioning limits follow-through selling into 1.1150 support. Catalyst: US Retail Sales and PPI at 12:30 UTC. Risk: US core inflation metrics accelerate further, driving 2Y yield spreads wider and initiating a fresh leg lower.",
       "evidence": [
-        "Retail positioning: 94% short vs 6% long",
-        "Fed 4.00% vs BoC 2.25% — 175bp",
-        "CAD COT LF net: -82,720"
+        "EUR LF net: -84,775 (pctl 4, z -1.64)",
+        "Fed 4.00% vs ECB 2.65% — 135bp",
+        "BEER misvaluation: z=-2.23σ (fair value 1.1331)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:46",
+      "time": "11:47",
       "priority": "info",
-      "title": "EUR/USD — Crowded Speculative Short + Model Undervaluation",
-      "text": "EUR/USD trades at 1.1210, hovering well below its descending SMA20 at 1.1312, SMA50 at 1.1484, and SMA200 at 1.1592. CFTC speculative positioning reveals Leveraged Funds net short −84,775 contracts, sitting at the 4th percentile of its 52-week distribution with a z-score of −1.64, confirming heavily stretched bearish positioning. The terminal BEER fair value model flags the pair as significantly undervalued with a z-score of −2.23 standard deviations, contrasting spot at 1.1210 against a model fair value of 1.1331. While the Fed 4.00% versus ECB 2.65% policy rate spread provides a 135bp carry buffer supporting USD, the depletion of speculative selling momentum suggests downside exhaustion ahead of tier-1 macroeconomic data. Failure of spot to establish new session lows keeps the pair vulnerable to mean-reversion toward key resistance. Trade bias: Neutral/range EUR/USD, stretched positioning limiting fresh selling. Catalyst: Euro Area CPI at 09:00 UTC. Risk: US Retail Sales surprise tops estimates, driving spot through fresh 17-month lows below 1.1150.",
+      "title": "USD/CAD — Retail Short Extreme vs Policy Divergence",
+      "text": "USD/CAD spot trades at 1.4203, holding firmly above its SMA20/50/200 moving average cluster (1.4170/1.3990/1.3874). Retail sentiment data retail sentiment registers an extreme 93% short positioning, setting up a severe contrarian squeeze against the prevailing directional flow. Leveraged funds are heavily short CAD at -82,720 contracts (long% 21.2%), pointing in the opposite direction to retail positioning. The macro backdrop supports the spot advance, anchored by a 161bp OIS carry advantage (SOFR 3.89% vs CORRA 2.28%) and a +175bp nominal policy rate differential (Fed 4.00% vs BoC 2.25%). Trade bias: Bullish USD/CAD, supported by policy carry and potential retail capitulation. Catalyst: BoC Governor Macklem speech at 21:37 UTC. Risk: A clean break below the SMA20 anchor at 1.4170 triggered by unexpected crude strength.",
       "evidence": [
-        "EUR COT LF net: -84,775 (pctl 4, z -1.64)",
-        "BEER Fair Value: z = -2.23 (spot 1.1210 vs FV 1.1331)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "USD/CAD retail: 93% short / 7% long",
+        "CAD LF net: -82,720 (long% 21.2%)",
+        "OIS carry: SOFR 3.89% vs CORRA 2.28% (+161bp)"
       ],
       "_source": "engine-ai-primary"
     }
