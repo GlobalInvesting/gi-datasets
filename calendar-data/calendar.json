@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-15T12:32:43Z",
-  "generatedAt": "2026-10-15T12:32:43Z",
+  "lastUpdate": "2026-10-15T12:34:47Z",
+  "generatedAt": "2026-10-15T12:34:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1209,14 +1209,14 @@
       "std": 0.0
     },
     "USD/retail sales mom": {
-      "n": 3,
-      "mean": 0.233333,
-      "std": 0.832666
+      "n": 4,
+      "mean": 0.075,
+      "std": 0.75
     },
     "USD/retail sales ex autos mom": {
-      "n": 3,
-      "mean": 0.466667,
-      "std": 0.83865
+      "n": 4,
+      "mean": 0.425,
+      "std": 0.689807
     },
     "USD/retail sales control group mom": {
       "n": 2,
@@ -1224,9 +1224,9 @@
       "std": 1.272792
     },
     "USD/retail sales yoy": {
-      "n": 3,
-      "mean": 0.933333,
-      "std": 1.778576
+      "n": 4,
+      "mean": 0.425,
+      "std": 1.77271
     },
     "USD/retail sales ex gas/autos mom": {
       "n": 2,
@@ -3003,6 +3003,11 @@
       "mean": 1.7,
       "std": 0.282843
     },
+    "USD/core ppi yoy": {
+      "n": 2,
+      "mean": 0.35,
+      "std": 0.353553
+    },
     "USD/wholesale sales mom": {
       "n": 2,
       "mean": 0.85,
@@ -3203,6 +3208,11 @@
       "mean": 0.05,
       "std": 0.070711
     },
+    "CAD/wholesale trade mom": {
+      "n": 2,
+      "mean": -0.5,
+      "std": 1.979899
+    },
     "JPY/core machinery orders mom": {
       "n": 2,
       "mean": 4.0,
@@ -3242,6 +3252,16 @@
       "n": 4,
       "mean": -3.175,
       "std": 21.941038
+    },
+    "USD/retail control mom": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.636396
+    },
+    "USD/retail sales excl. autos and gas mom": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 1.131371
     },
     "SEK/registered unemployment rate": {
       "n": 2,
@@ -78746,7 +78766,7 @@
       "flag": "🇨🇦",
       "event": "Canada Wholesale Trade m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-1.6%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -78759,7 +78779,7 @@
       "flag": "🇺🇸",
       "event": "United States Retail Sales m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.8%",
       "forecast": "1.2%",
       "previous": "1.2%"
     },
@@ -78772,7 +78792,7 @@
       "flag": "🇺🇸",
       "event": "United States Core Retail Sales m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.9%",
       "forecast": "0.6%",
       "previous": "1.4%"
     },
@@ -78785,7 +78805,7 @@
       "flag": "🇺🇸",
       "event": "United States Retail Control m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.5%",
       "previous": "1.4%"
     },
@@ -78798,7 +78818,7 @@
       "flag": "🇺🇸",
       "event": "United States Retail Sales excl. Autos and Gas m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.9%",
       "previous": "1.2%"
     },
@@ -78811,7 +78831,7 @@
       "flag": "🇺🇸",
       "event": "United States Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "6.3%",
       "forecast": "7.4%",
       "previous": "6.0%"
     },
@@ -78863,7 +78883,7 @@
       "flag": "🇺🇸",
       "event": "United States Core PPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "5.0%",
       "forecast": "4.4%",
       "previous": "4.6%"
     },
@@ -81789,7 +81809,7 @@
       "event": "United States Initial Jobless Claims 4-Week Average",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "200.123K",
       "previous": "198.500K"
     },
     {
