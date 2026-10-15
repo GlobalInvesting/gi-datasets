@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T18:26:01Z",
+  "generatedAt": "2026-10-15T23:46:34Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 211,
+  "aliasCount": 214,
   "aliases": [
     {
       "currency": "JPY",
@@ -4585,6 +4585,63 @@
           "actual_yahoo_raw": "0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Electronic Card Retail Sales m/m",
+      "yahoo_title": "Elec Card Retail Sale MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": 1.3,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": -0.4,
+          "previous_primary": -0.9,
+          "previous_yahoo": -0.9,
+          "actual_yahoo_raw": "-0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.9"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Electronic Card Retail Sales y/y",
+      "yahoo_title": "Elec Card Retail Sale YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": 1.7,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 0.9,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Food Price Index m/m",
+      "yahoo_title": "Food Price Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": -0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
+          "actual_yahoo": 0.0,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
         }
       }
     },
