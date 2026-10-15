@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-14T21:00:56Z",
+  "generated_at": "2026-10-15T00:00:25Z",
   "signals": [
     {
-      "time": "21:00",
+      "time": "23:55",
       "priority": "critical",
-      "title": "EUR/USD — Macro Catalyst + Vol Premium + Retail Divergence",
-      "text": "EUR/USD trades at 1.1159, pinned below its SMA20 at 1.1327 and SMA50 at 1.1492 following a hot US September CPI print of 3.7% versus 3.6% expected. Fed policy rate at 4.00% (HIKING) versus ECB at 2.65% (HIKING) maintains a +135bp carry advantage favoring the dollar, with the OIS spread running +143bp. Options show ATM IV at 6.1% against HV30 of 4.0%, generating an elevated +2.2% vol risk premium that reflects sustained downside hedging demand rather than realized chop. Concurrently, retail positioning sits at an extreme 87% long, directly diverging from institutional COT leveraged funds holding net short -84,775 contracts (4th percentile of the 52-week range, z -1.64). This combination flags capitulation risk among retail longs as institutional momentum and rates reinforce the downward trajectory. Trade bias: Bearish EUR/USD; macro carry and spec short positioning dominate. Catalyst: Euro Area CPI final print on 15 Oct — 2.9% expected. Risk: Euro Area inflation accelerates sharply, forcing ECB terminal pricing higher and squeezing stretched institutional shorts.",
+      "title": "EUR/USD — Macro Tightening + Positioning Divergence",
+      "text": "US headline September CPI printed at 3.7% year-over-year versus 3.6% expected, reigniting Federal Reserve hike pricing ahead of the 28 October FOMC. In policy terms, Fed at 4.00% (HIKING) versus ECB at 2.65% (HIKING) maintains a 135bp nominal policy spread and a +145bp SOFR/€STR carry advantage favoring USD. Intraday price action holds EUR/USD down at 1.1198, tracking well below its SMA20 (1.1312), SMA50 (1.1484), and SMA200 (1.1595) moving average stack. CFTC data shows institutional leveraged funds heavily short EUR at net -84,775 contracts (pctl 4, z -1.64), while retail accounts sit heavily long at 87% on Retail sentiment data, creating an acute positioning divergence vulnerable to further downside liquidation. Macro rate differentials and institutional momentum firmly favor USD extension across the curve. Trade bias: Bearish EUR/USD; macro carry spread and institutional short trend suppress spot rallies. Catalyst: Euro Area final CPI release on 15 October at 09:00 UTC. Risk: US Retail Sales print below forecast on 15 October, stalling USD upside momentum.",
       "evidence": [
         "Fed 4.00% vs ECB 2.65% — 135bp",
-        "US Sep CPI: 3.7% vs 3.6% exp",
-        "EUR/USD VRP: +2.2% (IV 6.1% vs HV30 4.0%)"
+        "EUR LF net: -84,775 (pctl 4, z -1.64)",
+        "Retail: 87% Long / 13% Short"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:56",
+      "time": "23:52",
       "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + Technical Level",
-      "text": "USD/JPY prints at 158.33, holding below its daily SMA200 at 158.48 while remaining above the SMA20/50 cluster at 157.65/157.71. A +275bp policy rate gap (Fed 4.00% vs BoJ 1.25%) and a +264bp OIS carry advantage continue to support spot on dips. However, the 1-month 25d risk reversal reflects an extreme put skew at -1.70, showing market participants are aggressively bidding downside protection despite positive carry. Realized volatility sits at 9.7% against ATM IV of 7.6% (VRP -2.1%), highlighting options complacency in the face of elevated technical supply near the 160.00 psychological ceiling. A sustained push toward 160.00 elevates policy friction, where previous verbal warnings emerged. Trade bias: Neutral/range USD/JPY; wide carry cushioned by heavy options downside demand. Catalyst: BoJ meeting 30 Oct — hold expected. Risk: US yields advance further, pushing spot firmly through the SMA200 at 158.48 and exposing 160.00.",
+      "title": "USD/JPY — Carry Premium + Options Downside Skew",
+      "text": "USD/JPY trades at 157.90, positioned above its SMA20 at 157.75 and SMA50 at 157.72, while holding below the 200-day moving average at 158.49. Nominal central bank policy rates of Fed 4.00% versus BoJ 1.25% establish a +275bp policy advantage for the dollar, reinforced by a +266bp SOFR versus TONA carry spread. Despite this structural carry buffer, the options market exhibits acute caution with 1-month 25-delta Risk Reversals printing at -1.70, reflecting elevated demand for JPY call and USD put downside protection. In parallel, implied volatility trades at 7.6% against a 30-day realized volatility of 9.5%, leaving a negative Vol Risk Premium of -1.9% that signals compressed volatility pricing ahead of the 160.00 watch level. While the carry return keeps the pair structurally supported, intervention vigilance caps unhedged upside participation. Trade bias: Neutral/range USD/JPY; steady carry returns offset by pronounced options downside hedging. Catalyst: BoJ policy decision on 30 October. Risk: USD/JPY clears and holds above 158.50 on accelerating momentum, invalidating the options put skew.",
       "evidence": [
-        "USD/JPY 25d RR: -1.70 put skew",
         "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "USD/JPY: 158.33 vs SMA200 158.48"
+        "USD/JPY 25d RR: -1.70",
+        "VRP: -1.9% (IV 7.6% vs HV30 9.5%)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:52",
+      "time": "23:50",
       "priority": "warning",
       "title": "NOK/EUR — G10 Bilateral Theme + Monetary Divergence",
-      "text": "The G10 Currency Strength Scorecard registers an active bilateral theme, with NOK leading at +0.741% across 2 pairs and EUR lagging at -0.387% across 9 pairs, generating a 1.128% spread. Norges Bank policy rate at 4.50% (HIKING) versus ECB at 2.65% (HIKING) provides a +185bp carry buffer that underpins relative outperformance. That rate differential is reinforced by a supportive economic surprise backdrop, where NOK ESI sits at +13.1 alongside firm front-month energy pricing with WTI crude holding at $95.10. Meanwhile, EUR sentiment suffers from German and Spanish unemployment beats adding domestic labor drag to ECB rate-pause expectations. Trade bias: Long NOK/EUR; rate spread and growth surprise gap favor trend extension. Catalyst: ECB meeting 29 Oct — hold bias priced. Risk: WTI crude drops sharply, undermining the terms-of-trade premium supporting NOK.",
+      "text": "Weekly G10 currency performance establishes NOK as the primary outperformer with an average gain of +0.792% across two pairs, while EUR lags the complex at -0.271% across nine pairs, producing a bilateral spread of 1.063%. Norges Bank maintains an aggressive policy setting at 4.50% (HIKING) against ECB at 2.65% (HIKING), yielding a substantial 185bp policy differential in favor of the krone. Macro fundamentals reinforce the divergence as Norway exhibits a restrictive real policy rate of +1.82% backed by a +13.1 Economic Surprise Index reading, contrasting with the softer European economic backdrop. EUR/NOK spot trading at 10.6233 sits notably discounted against its BEER fair-value model benchmark of 10.8463 (z -2.76σ), reflecting acute market misvaluation. The combination of G10 relative strength and wide interest-rate support keeps NOK bid against European crosses. Trade bias: Bullish NOK against EUR; weekly performance leadership underpinned by 185bp carry buffer. Catalyst: Euro Area Industrial Production print on 15 October at 09:00 UTC. Risk: Sharp decline in crude prices below $90/bbl, eroding NOK terms of trade support.",
       "evidence": [
-        "NOK 1W avg: +0.741% (n=2)",
-        "EUR 1W avg: -0.387% (n=9)",
-        "G10 spread: 1.128%"
+        "NOK 1W avg: +0.792% (n=2)",
+        "EUR 1W avg: -0.271% (n=9)",
+        "G10 spread: 1.063%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:47",
-      "priority": "info",
-      "title": "AUD/USD — Event-Risk Compression + Technical Resistance",
-      "text": "AUD/USD trades at 0.6974, stationed below its SMA20 (0.7016), SMA50 (0.7089), and SMA200 (0.7040) resistance band. RBA policy rate at 4.60% (HIKING) versus Fed 4.00% (HIKING) yields a 60bp carry advantage in favor of AUD, matched by a -73bp OIS spread. CFTC data shows institutional leveraged funds hold net long positioning of +48,911 contracts (70.3% long), but momentum is decelerating after a WoW liquidation of -6,203 contracts. Intraday trading is compressed ahead of domestic employment data, with Australian unemployment forecast at 4.6% on a 14.0k headline employment gain. Trade bias: Neutral AUD/USD; carry advantage balanced by moving-average resistance overhead. Catalyst: Australia Employment Report at 00:30 UTC — 14.0K gain forecast. Risk: Australian employment posts a sharp upside surprise, pushing spot through the SMA200 at 0.7040.",
+      "time": "23:45",
+      "priority": "warning",
+      "title": "AUD/USD — Technical Compression Ahead of Labour Print",
+      "text": "AUD/USD trades at 0.6980, compressed below its critical moving average confluence with SMA20 at 0.7010, SMA50 at 0.7088, and SMA200 at 0.7042. RBA policy at 4.60% (HIKING) versus Fed 4.00% (HIKING) maintains an active 60bp nominal carry premium for the Australian dollar, reflected in a -71bp SOFR/AONIA spread. Leveraged funds hold net long positioning of +48,911 contracts, though a WoW reduction of -6,203 contracts highlights momentum consolidation at the upper percentile band (pctl 67, z +0.58). Options market skew mirrors this tactical caution, with 1-month 25-delta Risk Reversals printing at -0.85 put skew while ATM implied volatility at 7.1% runs +1.1% over HV30 at 6.0%. Technical compression below 0.7000 leaves spot price highly sensitive to near-term domestic employment shocks. Trade bias: Neutral/range AUD/USD; technical overhead resistance counters structural carry advantage. Catalyst: Australia Employment Change report on 15 October at 00:30 UTC. Risk: Australia unemployment rate prints higher than 4.6%, breaking spot below 0.6950 support.",
       "evidence": [
-        "Fed 4.00% vs RBA 4.6% — -60bp",
-        "AUD COT LF net: +48,911 (WoW -6,203)",
-        "AUD/USD: 0.6974 vs SMA20 0.7016"
+        "RBA 4.60% vs Fed 4.00% — -60bp",
+        "AUD LF net: +48,911 (WoW -6,203)",
+        "AUD/USD 25d RR: -0.85"
       ],
       "_source": "engine-ai-primary"
     }
