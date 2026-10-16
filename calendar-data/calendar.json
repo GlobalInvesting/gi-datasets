@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T10:00:36Z",
-  "generatedAt": "2026-10-16T10:00:36Z",
+  "lastUpdate": "2026-10-16T10:02:44Z",
+  "generatedAt": "2026-10-16T10:02:44Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3197,6 +3197,11 @@
       "n": 3,
       "mean": 0.066667,
       "std": 0.057735
+    },
+    "EUR/italy trade balance": {
+      "n": 2,
+      "mean": -1.2785,
+      "std": 1.969292
     },
     "EUR/croatia inflation rate yoy final": {
       "n": 2,
@@ -80048,7 +80053,7 @@
       "flag": "🇪🇺",
       "event": "Italy Trade Balance",
       "impact": "low",
-      "actual": null,
+      "actual": "1.773B",
       "forecast": "4.444B",
       "previous": "8.240B"
     },
@@ -80061,7 +80066,7 @@
       "flag": "🇪🇺",
       "event": "Italy Trade Balance EU",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.327B",
       "forecast": null,
       "previous": "1.251B"
     },
