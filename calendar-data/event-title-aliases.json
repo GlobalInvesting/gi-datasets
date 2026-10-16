@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16T11:46:01Z",
+  "generatedAt": "2026-10-16T14:58:08Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 210,
+  "aliasCount": 208,
   "aliases": [
     {
       "currency": "USD",
@@ -291,16 +291,16 @@
       "secondary_title": "United States Dallas Fed Manufacturing Index",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-28",
-          "forecast_primary": 7.2,
-          "forecast_secondary": 1.0,
-          "actual_primary": 9.8,
-          "actual_secondary": 9.8,
-          "previous_primary": 11.6,
-          "previous_secondary": 11.6,
-          "actual_secondary_raw": "9.8",
-          "forecast_secondary_raw": "1",
-          "previous_secondary_raw": "11.6"
+          "dateISO": "2026-10-26",
+          "forecast_primary": 6.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 9.8,
+          "previous_secondary": 9.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "9.8"
         }
       }
     },
@@ -1674,21 +1674,8 @@
           "actual_secondary_raw": "0.1%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.1,
-          "actual_yahoo": 0.1,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
-          "actual_yahoo_raw": "0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
         }
-      },
-      "yahoo_title": "Average Earnings MM"
+      }
     },
     {
       "currency": "USD",
@@ -3254,15 +3241,28 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 0.4,
           "forecast_secondary": 0.8,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 1.1,
+          "actual_secondary": 1.1,
           "previous_primary": 0.7,
-          "previous_secondary": 0.7,
-          "actual_secondary_raw": null,
+          "previous_secondary": 0.5,
+          "actual_secondary_raw": "1.1%",
           "forecast_secondary_raw": "0.8%",
-          "previous_secondary_raw": "0.7%"
+          "previous_secondary_raw": "0.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": 0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 1.1,
+          "actual_yahoo": 1.1,
+          "previous_primary": 0.7,
+          "previous_yahoo": 0.7,
+          "actual_yahoo_raw": "1.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.7"
         }
-      }
+      },
+      "yahoo_title": "Import Prices MM"
     },
     {
       "currency": "USD",
@@ -3273,13 +3273,13 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 9.5,
           "forecast_secondary": 7.9,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 8.1,
+          "actual_secondary": 8.1,
           "previous_primary": 7.0,
-          "previous_secondary": 7.0,
-          "actual_secondary_raw": null,
+          "previous_secondary": 6.7,
+          "actual_secondary_raw": "8.1%",
           "forecast_secondary_raw": "7.9%",
-          "previous_secondary_raw": "7.0%"
+          "previous_secondary_raw": "6.7%"
         }
       }
     },
@@ -3292,15 +3292,28 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 3.1,
           "forecast_secondary": 0.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.2,
+          "actual_secondary": 2.2,
           "previous_primary": 0.6,
-          "previous_secondary": 0.6,
-          "actual_secondary_raw": null,
+          "previous_secondary": 1.2,
+          "actual_secondary_raw": "2.2%",
           "forecast_secondary_raw": "0.7%",
-          "previous_secondary_raw": "0.6%"
+          "previous_secondary_raw": "1.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": 3.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.2,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "2.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
         }
-      }
+      },
+      "yahoo_title": "Export Prices MM"
     },
     {
       "currency": "USD",
@@ -3311,13 +3324,13 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 8.3,
           "forecast_secondary": 9.4,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 11.6,
+          "actual_secondary": 11.6,
           "previous_primary": 8.6,
-          "previous_secondary": 8.6,
-          "actual_secondary_raw": null,
+          "previous_secondary": 9.3,
+          "actual_secondary_raw": "11.6%",
           "forecast_secondary_raw": "9.4%",
-          "previous_secondary_raw": "8.6%"
+          "previous_secondary_raw": "9.3%"
         }
       }
     },
@@ -3330,15 +3343,28 @@
           "dateISO": "2026-10-16",
           "forecast_primary": -0.1,
           "forecast_secondary": 0.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.7,
+          "actual_secondary": 0.7,
           "previous_primary": 0.0,
-          "previous_secondary": 0.0,
-          "actual_secondary_raw": null,
+          "previous_secondary": 0.1,
+          "actual_secondary_raw": "0.7%",
           "forecast_secondary_raw": "0.1%",
-          "previous_secondary_raw": "0%"
+          "previous_secondary_raw": "0.1%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": -0.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.7,
+          "actual_yahoo": 0.7,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "0.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
         }
-      }
+      },
+      "yahoo_title": "Industrial Production MM*"
     },
     {
       "currency": "USD",
@@ -3349,15 +3375,28 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 76.2,
           "forecast_secondary": 76.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 76.9,
+          "actual_secondary": 76.9,
           "previous_primary": 76.3,
-          "previous_secondary": 76.3,
-          "actual_secondary_raw": null,
+          "previous_secondary": 76.4,
+          "actual_secondary_raw": "76.9%",
           "forecast_secondary_raw": "76.5%",
-          "previous_secondary_raw": "76.3%"
+          "previous_secondary_raw": "76.4%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": 76.2,
+          "forecast_yahoo": null,
+          "actual_primary": 76.9,
+          "actual_yahoo": 76.9,
+          "previous_primary": 76.3,
+          "previous_yahoo": 76.3,
+          "actual_yahoo_raw": "76.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "76.3"
         }
-      }
+      },
+      "yahoo_title": "Capacity Utilization SA*"
     },
     {
       "currency": "USD",
@@ -3368,13 +3407,13 @@
           "dateISO": "2026-10-16",
           "forecast_primary": -0.1,
           "forecast_secondary": 0.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.3,
+          "actual_secondary": 0.3,
           "previous_primary": -0.3,
-          "previous_secondary": -0.3,
-          "actual_secondary_raw": null,
+          "previous_secondary": -0.2,
+          "actual_secondary_raw": "0.3%",
           "forecast_secondary_raw": "0.2%",
-          "previous_secondary_raw": "-0.3%"
+          "previous_secondary_raw": "-0.2%"
         }
       }
     },
@@ -3387,13 +3426,13 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 1.2,
           "forecast_secondary": 1.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.2,
+          "actual_secondary": 2.2,
           "previous_primary": 1.4,
-          "previous_secondary": 1.4,
-          "actual_secondary_raw": null,
+          "previous_secondary": 1.6,
+          "actual_secondary_raw": "2.2%",
           "forecast_secondary_raw": "1.0%",
-          "previous_secondary_raw": "1.4%"
+          "previous_secondary_raw": "1.6%"
         }
       }
     },
@@ -3855,6 +3894,44 @@
     },
     {
       "currency": "USD",
+      "primary_title": "Chicago Fed National Activity Index",
+      "secondary_title": "United States Chicago Fed National Activity Index",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-26",
+          "forecast_primary": 0.04,
+          "forecast_secondary": -0.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.04,
+          "previous_secondary": -0.04,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.1",
+          "previous_secondary_raw": "-0.04"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Services Revenues",
+      "secondary_title": "United States Chicago Fed National Activity Index",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -3.0,
+          "forecast_secondary": -0.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.0,
+          "previous_secondary": -0.04,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.1",
+          "previous_secondary_raw": "-0.04"
+        }
+      }
+    },
+    {
+      "currency": "USD",
       "primary_title": "United States Core PCE Price Index q/q",
       "yahoo_title": "Core PCE Prices Fnal",
       "evidence": {
@@ -3964,44 +4041,6 @@
           "actual_yahoo_raw": "2",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Unemployment Rate",
-      "yahoo_title": "Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 4.1,
-          "forecast_yahoo": null,
-          "actual_primary": 4.2,
-          "actual_yahoo": 4.2,
-          "previous_primary": 4.1,
-          "previous_yahoo": 4.1,
-          "actual_yahoo_raw": "4.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Average Weekly Hours",
-      "yahoo_title": "Average Workweek Hrs",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-02",
-          "forecast_primary": 34.3,
-          "forecast_yahoo": null,
-          "actual_primary": 34.4,
-          "actual_yahoo": 34.4,
-          "previous_primary": 34.4,
-          "previous_yahoo": 34.4,
-          "actual_yahoo_raw": "34.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "34.4"
         }
       }
     },
@@ -4154,44 +4193,6 @@
           "actual_yahoo_raw": "5.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.5"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Unemployment Rate",
-      "yahoo_title": "Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 6.3,
-          "forecast_yahoo": null,
-          "actual_primary": 6.5,
-          "actual_yahoo": 6.5,
-          "previous_primary": 6.4,
-          "previous_yahoo": 6.4,
-          "actual_yahoo_raw": "6.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.4"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Participation Rate",
-      "yahoo_title": "Participation Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 65.0,
-          "forecast_yahoo": null,
-          "actual_primary": 64.8,
-          "actual_yahoo": 64.8,
-          "previous_primary": 65.0,
-          "previous_yahoo": 65.0,
-          "actual_yahoo_raw": "64.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "65"
         }
       }
     },
@@ -4527,7 +4528,7 @@
           "dateISO": "2026-10-16",
           "forecast_primary": 8.5,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 8.1,
           "actual_yahoo": 8.1,
           "previous_primary": 8.5,
           "previous_yahoo": 8.5,
