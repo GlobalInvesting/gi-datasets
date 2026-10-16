@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T00:32:41Z",
-  "generatedAt": "2026-10-16T00:32:41Z",
+  "lastUpdate": "2026-10-16T07:18:40Z",
+  "generatedAt": "2026-10-16T07:18:40Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3286,6 +3286,36 @@
     "SEK/registered unemployment rate": {
       "n": 2,
       "mean": -0.15,
+      "std": 0.070711
+    },
+    "EUR/austria harmonised inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
+    "EUR/slovakia harmonised inflation rate mom": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/austria inflation rate yoy final": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "EUR/austria inflation rate mom final": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "EUR/slovakia harmonised inflation rate yoy": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
+    },
+    "EUR/austria harmonised inflation rate mom final": {
+      "n": 2,
+      "mean": 0.05,
       "std": 0.070711
     },
     "USD/philadelphia fed business conditions": {
@@ -79663,7 +79693,7 @@
       "flag": "🇪🇺",
       "event": "Austria Harmonised Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.6%",
       "previous": "0.5%"
     },
@@ -79676,7 +79706,7 @@
       "flag": "🇪🇺",
       "event": "Austria Harmonised Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.5%",
       "previous": "2.9%"
     },
@@ -79689,7 +79719,7 @@
       "flag": "🇪🇺",
       "event": "Slovakia Harmonised Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.2%",
       "previous": "0.0%"
     },
@@ -79702,7 +79732,7 @@
       "flag": "🇪🇺",
       "event": "Austria Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.6%",
       "previous": "3.2%"
     },
@@ -79715,7 +79745,7 @@
       "flag": "🇪🇺",
       "event": "Austria Inflation Rate MoM Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "0.2%",
       "previous": "0.6%"
     },
@@ -79728,7 +79758,7 @@
       "flag": "🇪🇺",
       "event": "Slovakia Harmonised Inflation Rate YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3%",
       "forecast": "3.1%",
       "previous": "3.1%"
     },
