@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T09:00:54Z",
-  "generatedAt": "2026-10-16T09:00:54Z",
+  "lastUpdate": "2026-10-16T09:02:45Z",
+  "generatedAt": "2026-10-16T09:02:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -694,9 +694,9 @@
       "std": 0.141421
     },
     "EUR/inflation rate yoy": {
-      "n": 3,
-      "mean": 0.133333,
-      "std": 0.23094
+      "n": 4,
+      "mean": 0.325,
+      "std": 0.4272
     },
     "EUR/cpi": {
       "n": 2,
@@ -2284,24 +2284,24 @@
       "std": 0.424264
     },
     "EUR/italy cpi mom": {
-      "n": 3,
-      "mean": 0.266667,
-      "std": 0.251661
+      "n": 4,
+      "mean": 0.2,
+      "std": 0.244949
     },
     "EUR/italy cpi yoy": {
-      "n": 3,
-      "mean": 0.6,
+      "n": 4,
+      "mean": 0.45,
       "std": 0.519615
     },
     "EUR/italy hicp mom": {
-      "n": 3,
-      "mean": 0.366667,
-      "std": 0.404145
+      "n": 4,
+      "mean": 0.3,
+      "std": 0.355903
     },
     "EUR/italy hicp yoy": {
-      "n": 3,
-      "mean": 0.3,
-      "std": 0.3
+      "n": 4,
+      "mean": 0.25,
+      "std": 0.264575
     },
     "EUR/core cpi mom": {
       "n": 4,
@@ -2309,9 +2309,9 @@
       "std": 0.15
     },
     "EUR/core cpi yoy": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 0.057735
+      "n": 4,
+      "mean": 0.025,
+      "std": 0.05
     },
     "EUR/cpi excl. energy and unprocessed food mom": {
       "n": 4,
@@ -3213,6 +3213,16 @@
       "mean": 0.05,
       "std": 0.070711
     },
+    "EUR/trade balance": {
+      "n": 2,
+      "mean": -2.0,
+      "std": 7.636753
+    },
+    "EUR/trade balance n.s.a.": {
+      "n": 2,
+      "mean": -2.1,
+      "std": 19.516147
+    },
     "CAD/wholesale trade mom": {
       "n": 2,
       "mean": -0.5,
@@ -3247,6 +3257,16 @@
       "n": 2,
       "mean": -0.1,
       "std": 0.141421
+    },
+    "EUR/italy cpi foi excl. tobacco mom": {
+      "n": 2,
+      "mean": -0.25,
+      "std": 0.353553
+    },
+    "EUR/italy cpi foi excl. tobacco yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.070711
     },
     "EUR/belgium harmonised inflation rate yoy final": {
       "n": 2,
@@ -3316,6 +3336,16 @@
     "EUR/austria harmonised inflation rate mom final": {
       "n": 2,
       "mean": 0.05,
+      "std": 0.070711
+    },
+    "EUR/cpi excl. tobacco mom": {
+      "n": 2,
+      "mean": -0.15,
+      "std": 0.070711
+    },
+    "EUR/cpi excl. tobacco yoy": {
+      "n": 2,
+      "mean": 0.35,
       "std": 0.070711
     },
     "USD/philadelphia fed business conditions": {
@@ -79771,7 +79801,7 @@
       "flag": "🇪🇺",
       "event": "Italy CPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.7%",
       "previous": "0.7%"
     },
@@ -79784,7 +79814,7 @@
       "flag": "🇪🇺",
       "event": "Italy CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "4.2%",
       "previous": "4.2%"
     },
@@ -79797,7 +79827,7 @@
       "flag": "🇪🇺",
       "event": "Italy HICP m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "2.1%",
       "forecast": "2.0%",
       "previous": "2.0%"
     },
@@ -79810,7 +79840,7 @@
       "flag": "🇪🇺",
       "event": "Italy HICP y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "4.1%",
       "previous": "4.1%"
     },
@@ -79823,7 +79853,7 @@
       "flag": "🇪🇺",
       "event": "Italy CPI FOI excl. Tobacco m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.6%",
       "previous": "0.6%"
     },
@@ -79836,7 +79866,7 @@
       "flag": "🇪🇺",
       "event": "Italy CPI FOI excl. Tobacco y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "4.0%",
       "forecast": "3.8%",
       "previous": "3.4%"
     },
@@ -79862,7 +79892,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": null,
       "previous": "0.6%"
     },
@@ -79875,7 +79905,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.5%",
       "forecast": "2.5%",
       "previous": "2.5%"
     },
@@ -79888,7 +79918,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "2.9%",
       "previous": "2.9%"
     },
@@ -79901,7 +79931,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "-6.8B",
       "forecast": "0.6B",
       "previous": "5.0B"
     },
@@ -79914,7 +79944,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Trade Balance n.s.a.",
       "impact": "medium",
-      "actual": null,
+      "actual": "-16.1B",
       "forecast": "-0.2B",
       "previous": "14.2B"
     },
@@ -79927,7 +79957,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Tobacco m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.8%",
       "previous": "0.4%"
     },
@@ -79940,7 +79970,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Tobacco y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "3.5%",
       "previous": "3.2%"
     },
@@ -79979,7 +80009,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI",
       "impact": "low",
-      "actual": null,
+      "actual": "104.31",
       "forecast": null,
       "previous": "104.30"
     },
@@ -79992,7 +80022,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI",
       "impact": "medium",
-      "actual": null,
+      "actual": "103.31",
       "forecast": null,
       "previous": "103.30"
     },
