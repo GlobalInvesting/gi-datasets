@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T19:32:49Z",
-  "generatedAt": "2026-10-16T19:32:49Z",
+  "lastUpdate": "2026-10-16T22:08:42Z",
+  "generatedAt": "2026-10-16T22:08:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,11 +9,11 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-16",
   "rangeTo": "2026-10-30",
-  "totalEvents": 6600,
+  "totalEvents": 6601,
   "currencyCounts": {
     "AUD": 379,
     "EUR": 1878,
-    "GBP": 634,
+    "GBP": 635,
     "CAD": 383,
     "USD": 2094,
     "NZD": 163,
@@ -24,7 +24,7 @@
   },
   "impactCounts": {
     "medium": 2596,
-    "high": 1696,
+    "high": 1697,
     "low": 2308
   },
   "surpriseStats": {
@@ -80953,6 +80953,19 @@
       "currency": "CAD",
       "flag": "🇨🇦",
       "event": "BoC Governor Macklem Speech",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "17 Oct",
+      "dateISO": "2026-10-17",
+      "timeUTC": "06:45",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Governor Bailey Speech",
       "impact": "high",
       "actual": null,
       "forecast": null,
