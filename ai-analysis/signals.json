@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-16T07:01:23Z",
+  "generated_at": "2026-10-16T12:00:50Z",
   "signals": [
     {
-      "time": "06:58",
+      "time": "12:00",
       "priority": "critical",
-      "title": "NOK/USD — G10 Bilateral Theme + Monetary Divergence",
-      "text": "NOK leads the weekly G10 scorecard up +1.128% across 2 pairs, while USD lags at −0.469% across 9 pairs, opening a 1.597% bilateral spread. Norges Bank policy rate sits at 4.5% with a +1.82% real policy rate, compared to the Fed at 4.0% with a +1.67% real policy rate. USD/NOK trades at 9.459, holding below its SMA20 of 9.530 and SMA200 of 9.536. Spot weakness persists despite retail positioning showing an extreme 100% long bias, creating conditions for contrarian acceleration lower. Trade bias: Bearish USD/NOK; policy divergence and weekly momentum favor continued Krone outperformance. Catalyst: Norges Bank policy meeting 5 Nov. Risk: Norges Bank signals an earlier easing cycle while US data surprises higher, unwinding NOK relative strength.",
+      "title": "NOK/USD — G10 Bilateral Theme + Monetary Policy",
+      "text": "NOK leads the weekly G10 performance board at +1.153% across 2 pairs, while USD lags at -0.641% across 9 pairs, establishing an outsized 1.794% leader-to-laggard bilateral spread. Norges Bank policy rate sits at 4.5% with a hiking stance against the Fed at 4.00%, delivering a +50bp policy rate advantage alongside a restrictive Norwegian real rate of +1.82% versus +1.67% for the US. USD/NOK trades at 9.459, positioned below its SMA20 of 9.530 and SMA200 of 9.539 while holding above its SMA50 at 9.425. Retail sentiment exhibits an absolute 100% long extreme, providing a contrarian setup that favors continued spot downside as long positions face liquidation pressure. A sustained technical breakdown below the SMA50 level at 9.425 clears the path toward the 9.35 handle. Trade bias: Bearish USD/NOK, supported by rate advantage and contrarian retail positioning. Catalyst: Next Norges Bank meeting on 5 Nov — hold stance anticipated. Risk: Break above the SMA20/200 resistance band at 9.530/9.539 invalidates the bearish continuation thesis.",
       "evidence": [
-        "NOK 1W avg: +1.128% (n=2)",
-        "USD 1W avg: -0.469% (n=9)",
-        "G10 spread: 1.597%"
+        "NOK 1W avg: +1.153% (n=2)",
+        "USD 1W avg: -0.641% (n=9)",
+        "G10 spread: 1.794%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:55",
+      "time": "11:57",
       "priority": "warning",
-      "title": "USD/JPY — Macro Divergence + Options Downside Skew",
-      "text": "USD/JPY trades at 157.95, holding between its SMA50 at 157.71 and SMA200 at 158.55 while 160.00 remains the key level for verbal intervention risk. Fed 4.00% vs BoJ 1.25% provides a +265bp OIS carry advantage to the dollar, yet BoJ Governor Ueda signaled underlying inflation risks overshooting 2% and reiterated intentions to keep hiking. Saxo 1M 25d risk reversals print at −1.90, reflecting pronounced put skew and institutional demand for downside protection. CFTC data shows leveraged funds holding JPY net short −30,379 contracts at the 90th percentile of its 52-week range, indicating short positioning remains stretched. Trade bias: Bearish USD/JPY; hawkish central bank messaging and elevated downside options skew outweigh baseline carry. Catalyst: BoJ rate decision 30 Oct. Risk: BoJ leaves policy unadjusted without forward guidance, allowing the +265bp carry spread to reassert upward spot momentum.",
+      "title": "EUR/USD — Macro Surge + Positioning Squeeze",
+      "text": "Eurozone September final headline CPI accelerated sharply to 3.8% year-over-year, beating the 2.9% forecast and matching the preliminary print while German and Spanish unemployment surprise metrics registered strong upside shocks. CFTC data shows leveraged funds heavily net short EUR at -84,775 contracts, sitting in the 4th percentile of its 52-week distribution with a z-score of -1.64. Spot trades at 1.1257, remaining positioned below its descending SMA20 at 1.1299 and SMA50 at 1.1478. While the OIS carry differential of +144bp favors USD through SOFR at 3.88% versus €STR at 2.44%, the combination of persistent inflation pressure and crowded short positioning generates an asymmetric squeeze setup. Trade bias: Bullish EUR/USD, driven by inflation surprise against crowded speculative shorts. Catalyst: Next ECB meeting on 29 Oct — hold bias priced. Risk: Spot failure to clear the SMA20 pivot at 1.1299 invalidates the squeeze dynamic.",
       "evidence": [
-        "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "25d RR: -1.90 put skew (Saxo, 1M tenor, indicative mid)",
-        "JPY COT LF net: -30,379 (pctl 90)"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "06:52",
-      "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Event Risk",
-      "text": "EUR/USD trades at 1.1237, positioned below its SMA20 at 1.1299 and SMA50 at 1.1478. CFTC leveraged funds hold EUR net short −84,775 contracts at the 4th percentile of the 52-week range, with z-score at −1.64 reflecting a heavily stretched short exposure. The OIS spread of +144bp favors the dollar based on SOFR 3.88% versus €STR 2.44%, yet short-covering risks dominate as selling momentum decelerates. Implied volatility runs at 6.2% against HV30 of 4.2%, establishing a +1.9% volatility risk premium ahead of immediate macroeconomic releases. Trade bias: Neutral EUR/USD; stretched speculative short exposure limits sustained downside continuation. Catalyst: Euro Area CPI y/y release at 09:00 UTC. Risk: Euro Area Core CPI falls significantly below 2.5%, validating spec shorts and resuming downward trend toward 1.1100.",
-      "evidence": [
-        "Fed 4.00% vs ECB 2.65% — 135bp",
+        "Euro Area CPI y/y: 3.8% vs 2.9% forecast",
         "EUR COT LF net: -84,775 (pctl 4, z -1.64)",
-        "EUR/USD VRP: +1.9% (IV 6.2% vs HV30 4.2%)"
+        "EUR/USD: 1.1257"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:48",
-      "priority": "info",
-      "title": "GBP/USD — Technical Compression + Rates Divergence",
-      "text": "GBP/USD trades at 1.3310, hovering directly above its SMA20 of 1.3256 but constrained beneath the SMA50/200 cluster at 1.3422/1.3435. BoE at 3.75% matches against Fed 4.00% for a modest 25bp policy rate gap, with UK-US 2Y yield spreads steady at −6bp. Governor Bailey noted subdued second-round inflation pressures despite market pricing for a November hike, checking Sterling momentum. Speculative positioning shows leveraged funds net long +6,063 contracts at the 8th percentile of the 52-week distribution, indicating institutional long participation has largely cleared out. Trade bias: Neutral/range GBP/USD; technical moving-average boundaries contain directional expansion. Catalyst: BoE meeting 5 Nov. Risk: US industrial production data triggers a broad USD breakout past technical moving averages.",
+      "time": "11:55",
+      "priority": "warning",
+      "title": "USD/JPY — Options Skew + Carry Tension",
+      "text": "USD/JPY 1-month 25-delta risk reversal prints at -1.90, indicating a severe put skew as the options market pays up aggressively for downside protection despite spot holding firm at 158.04. Intraday price trades above its SMA20 at 157.85 and SMA50 at 157.71 while remaining capped beneath its SMA200 at 158.50. The underlying SOFR-TONA carry differential of +265bp provides strong fundamental support for the pair, with the Fed at 4.00% versus BoJ at 1.25%. Leveraged funds maintain a net short JPY posture of -30,379 contracts at the 90th percentile of its 52-week range, reflecting structural positioning vulnerability if downside hedging translates into spot liquidation. Key watch remains on the 160.00 threshold, where verbal pushback has previously emerged. Trade bias: Neutral/range USD/JPY, carry bid balanced by heavy downside options hedging. Catalyst: Next BoJ meeting on 30 Oct — hold bias priced. Risk: A daily close below the SMA50 support at 157.71 accelerates put-driven selling toward 156.00.",
       "evidence": [
-        "BoE 3.75% vs Fed 4.00% — 25bp carry favor USD",
-        "GBP COT LF net: +6,063 (pctl 8)",
-        "GBP/USD SMAs: 1.3256 (SMA20) / 1.3422 (SMA50)"
+        "USD/JPY 25d RR: -1.90 (Saxo, 1M tenor, indicative mid)",
+        "Fed 4.00% vs BoJ 1.25% — 275bp",
+        "USD/JPY: 158.04"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "11:50",
+      "priority": "info",
+      "title": "GBP/USD — Technical Breakout + Growth Divergence",
+      "text": "UK monthly GDP rose 0.1% in July against expectations of a contraction, reinforcing a strong Economic Surprise Index reading of +16.2 that outpaces peers. Spot GBP/USD trades at 1.3335, breaking decisively above its SMA20 level of 1.3256 while approaching intermediate resistance at the converged SMA50 and SMA200 band around 1.3422/1.3436. Leveraged funds hold a net long GBP position of +6,063 contracts following an 11,440-contract weekly inflow, despite sitting at an extended 8th percentile over a 52-week basis with a z-score of -1.48. Implied volatility runs at 6.0% against HV30 of 5.2%, reflecting a modest 0.8% volatility risk premium that indicates orderly trend conditions. Trade bias: Bullish GBP/USD, supported by positive domestic data surprise and technical momentum. Catalyst: Next BoE meeting on 5 Nov — hike bias priced. Risk: Inability to penetrate the SMA50 resistance hurdle at 1.3422 stalls the recovery rally.",
+      "evidence": [
+        "GBP ESI: +16.2 (sustained data beat)",
+        "GBP/USD: 1.3335 vs SMA20 1.3256",
+        "BoE 3.75% vs Fed 4.00% — 25bp"
       ],
       "_source": "engine-ai-primary"
     }
