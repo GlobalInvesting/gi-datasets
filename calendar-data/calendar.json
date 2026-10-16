@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T12:16:44Z",
-  "generatedAt": "2026-10-16T12:16:44Z",
+  "lastUpdate": "2026-10-16T12:30:51Z",
+  "generatedAt": "2026-10-16T12:30:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3312,6 +3312,21 @@
       "n": 2,
       "mean": 0.1,
       "std": 1.131371
+    },
+    "USD/import price index mom": {
+      "n": 2,
+      "mean": 0.95,
+      "std": 0.353553
+    },
+    "USD/import price index yoy": {
+      "n": 2,
+      "mean": 0.7,
+      "std": 2.969848
+    },
+    "USD/export price index mom": {
+      "n": 2,
+      "mean": 0.45,
+      "std": 1.909188
     },
     "SEK/registered unemployment rate": {
       "n": 2,
@@ -80226,7 +80241,7 @@
       "flag": "🇺🇸",
       "event": "United States Import Price Index m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.1%",
       "forecast": "0.4%",
       "previous": "0.7%"
     },
@@ -80239,7 +80254,7 @@
       "flag": "🇺🇸",
       "event": "United States Import Price Index y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "8.1%",
       "forecast": "9.5%",
       "previous": "7.0%"
     },
@@ -80252,7 +80267,7 @@
       "flag": "🇺🇸",
       "event": "United States Export Price Index m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.2%",
       "forecast": "3.1%",
       "previous": "0.6%"
     },
