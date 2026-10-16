@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T10:02:44Z",
-  "generatedAt": "2026-10-16T10:02:44Z",
+  "lastUpdate": "2026-10-16T10:18:42Z",
+  "generatedAt": "2026-10-16T10:18:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3282,6 +3282,11 @@
       "n": 4,
       "mean": 0.05,
       "std": 0.8544
+    },
+    "EUR/ireland balance of trade": {
+      "n": 2,
+      "mean": -1.55,
+      "std": 0.636396
     },
     "EUR/ireland residential property prices yoy": {
       "n": 2,
@@ -80040,9 +80045,9 @@
       "flag": "🇪🇺",
       "event": "Ireland Balance of Trade",
       "impact": "low",
-      "actual": null,
+      "actual": "2.9B",
       "forecast": "4.9B",
-      "previous": "5.3B"
+      "previous": "4.7B"
     },
     {
       "date": "16 Oct",
