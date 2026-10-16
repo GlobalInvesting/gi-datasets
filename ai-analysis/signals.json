@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-10-16T16:50:11Z",
+  "generated_at": "2026-10-16T21:01:35Z",
   "signals": [
     {
-      "time": "16:40",
+      "time": "20:46",
       "priority": "critical",
-      "title": "NOK/JPY — G10 Bilateral Theme + Carry",
-      "text": "NOK/JPY trading as the standout bilateral spread in the G10 space, driven by NOK 1W outperformance at +1.188% across 2 pairs against JPY sitting as the laggard at -0.478% across 7 pairs, producing a wide 1.667% spread. The underlying carry underpinning this divergence is substantial, with NOK 10Y yields at 4.53% and the policy rate at 4.5% backed by a restrictive real rate of +1.82%, versus JPY 10Y at 2.93% and a BoJ policy rate of 1.25% with an accommodative real rate of -2.25%, delivering a strong rate advantage for the Norwegian currency. CFTC positioning shows JPY net short at -30,379 contracts with a 52-week percentile of 90 and z at +1.34σ, reflecting an entrenched speculative short that keeps the cross bid on any yield extension. Trade bias: Long NOK/JPY; structural rate differential and yield spread favor continued outperformance. Catalyst: Norway inflation and upcoming rate decisions. Risk: Broad risk-off sentiment compressing high-beta crosses and forcing a sharp JPY short-covering squeeze.",
+      "title": "NOK/USD — G10 Bilateral Theme + Fed Guidance Retreat",
+      "text": "NOK leads G10 performance while USD lags following Fed Chair Powell's refraining from forward guidance and reduced October rate hike pricing, setting up continued upside for the pair into the open. Crude oil strength (WTI at $99.0/bbl up +2.57%) reinforces NOK's terms of trade advantage while US 2Y yields fell to 4.82%. The Fed meeting on 28 Oct is the catalyst that resolves the policy path divergence. Trade bias: Bullish NOK/USD into the Sydney/Tokyo open on diverging policy expectations and oil support. Catalyst: next Fed meeting (mkt: 56% hike priced) on 28 Oct. Risk: WTI crude drops sharply back below $95/bbl or US yields rebound aggressively.",
       "evidence": [
-        "NOK 1W avg: +1.188% (n=2)",
-        "JPY 1W avg: -0.478% (n=7)",
-        "G10 spread: 1.667%"
+        "NOK 1W avg: +1.346% (n=2)",
+        "USD 1W avg: -0.597% (n=9)",
+        "G10 spread: 1.943%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "16:38",
+      "time": "19:34",
       "priority": "warning",
-      "title": "USD/JPY — Intervention-Driven Bid + Options Skew",
-      "text": "USD/JPY spot trades at 158.25, holding above its SMA20 at 157.85 and SMA50 at 157.71 while remaining below the SMA200 at 158.50. The 1M 25d risk reversal sits at -1.91, marking a strong put skew that indicates heavy options market demand for downside protection as verbal warnings accumulate. The Fed-BoJ OIS carry differential of +265bp (SOFR 3.88% vs TONA 1.23%) maintains a firm structural bid on the pair, even as officials signal discomfort with currency depreciation. CFTC speculative positioning shows JPY net short at -30,379 contracts, representing the 90th percentile of its 52-week range with a z-score of +1.34σ, confirming a crowded positioning base vulnerable to policy intervention. Trade bias: Long USD/JPY, carry-supported while monitoring intervention thresholds. Catalyst: BoJ policy meeting on 30 Oct. Risk: Coordinated intervention by authorities triggering a sudden disorderly unwind of leveraged short JPY positions.",
+      "title": "USD/CAD — Short Squeeze Risk + BoC Leadership Speech",
+      "text": "CAD COT LF short -82.7k (21.2% long) sets up an acute squeeze risk for USD/CAD after Friday's close at 1.4136, as the pair faces contrasting pull from high oil prices and SOFR-CORRA carry of +161bp favoring USD. Retail sentiment data retail positioning shows an extreme 87% short skew, leaving the pair heavily congested while markets evaluate Canadian CPI and BoC outlook. The BoC Governor Macklem speech at 21:37 UTC and BoC meeting on 28 Oct serve as the key catalysts. Trade bias: Neutral to mildly bearish USD/CAD into the open as crowded spec shorts face elevated WTI prices. Catalyst: BoC Governor Macklem speech at 21:37 UTC ahead of the BoC meeting on 28 Oct. Risk: Brent/WTI crude breaks lower or BoC signals a dovish pivot, sparking a sharp short squeeze toward 1.4250.",
       "evidence": [
-        "USD/JPY: 158.25",
+        "CAD COT LF net: -82,720 (long% 21.2%)",
+        "USD/CAD Friday close: 1.4136",
+        "OIS carry: +161bp favoring USD"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "13:50",
+      "priority": "warning",
+      "title": "USD/JPY — Options Downside Skew + BoJ Hawkish Jawboning",
+      "text": "USD/JPY closed Friday at 157.94 with 25-delta risk reversals showing extreme put skew at -1.91, signaling persistent market demand for downside protection following BoJ Ueda's warning that inflation cannot rise further. BoJ rate hike stance runs against the significant 265bp SOFR-TONA carry advantage that supports USD, keeping the market trapped between spot intervention risks and wide nominal rate gaps. The BoJ meeting on 30 Oct determines whether policy normalization accelerates to narrow the -290bp 2Y yield differential. Trade bias: Bearish USD/JPY into the weekly open targeting the 157.00 support zone. Catalyst: next BoJ meeting (mkt: 100% hold priced) on 30 Oct. Risk: US 10Y yields climb above 5.15%, driving carry-driven dollar demand back toward 159.00.",
+      "evidence": [
         "USD/JPY 25d RR: -1.91",
-        "JPY COT pctl(52w): 90"
+        "USD/JPY Friday close: 157.94",
+        "OIS carry: +265bp favoring USD"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "16:35",
+      "time": "19:30",
       "priority": "warning",
-      "title": "EUR/USD — Late-Trend Caution + BEER Misvaluation",
-      "text": "EUR/USD trades at 1.1220, positioned below its declining SMA20 at 1.1299, SMA50 at 1.1478, and SMA200 at 1.1592, reflecting a persistent medium-term downtrend. The BEER model flags EUR/USD at a z-score of -1.59σ, indicating the spot rate is cheap relative to its fair value of 1.1292. Options markets show 1M ATM implied volatility at 6.1% against an HV30 of 4.1%, generating an elevated vol risk premium of +2.0% that highlights institutional hedging demand. CFTC leveraged funds report EUR net short at -84,775 contracts, sitting at the 4th percentile of its 52w range with a z-score of -1.64σ, while retail sentiment shows a strong 77% long bias that diverges from institutional positioning. Trade bias: Neutral to bearish EUR/USD; oversold fair value status balanced against entrenched institutional shorts. Catalyst: ECB policy meeting on 29 Oct. Risk: Rapid short-covering rally if Eurozone inflation data surprises higher and forces an aggressive ECB repricing.",
+      "title": "AUD/USD — Crowded Long Positioning + Labor Slack Imbalance",
+      "text": "AUD COT LF long +48.9k (70.3% long) creates elevated long-unwind risk after AUD/USD closed Friday at 0.6947 below its SMA20 of 0.7001. AONIA-SOFR carry favors AUD by +72bp and RBA holds an effective rate of 4.60%, but domestic unemployment ticking up to 4.7% (z=+2.45σ) limits further policy tightening expectations. The RBA meeting on 3 Nov is the catalyst to validate whether the current rate advantage holds against softening domestic data. Trade bias: Bearish AUD/USD into the Sydney open as stretched leveraged longs face technical resistance. Catalyst: next RBA meeting (mkt: 100% hold priced) on 3 Nov. Risk: Broad USD weakness extends on soft Fed pricing, pushing AUD/USD back above 0.7020.",
       "evidence": [
-        "EUR/USD: 1.1220",
-        "EUR/USD BEER z: -1.59σ",
-        "EUR COT LF net: -84,775"
+        "AUD COT LF net: +48,911 (long% 70.3%)",
+        "AUD/USD Friday close: 0.6947",
+        "OIS carry: +72bp favoring AUD"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "16:30",
-      "priority": "warning",
-      "title": "USD/CAD — COT-OIS Divergence + Retail Extreme",
-      "text": "USD/CAD trades at 1.4160, holding above its SMA20 at 1.4180, SMA50 at 1.3993, and SMA387.3 for the SMA200 at 1.3873, confirming an established upward trajectory. CFTC leveraged funds maintain a net short position of -82,720 contracts, positioned at the 19th percentile of its 52w range with a z-score of -1.01σ, directly conflicting with the Fed-BoC OIS carry differential of +161bp (SOFR 3.88% vs CORRA 2.27%) favoring the US dollar. Retail sentiment registers an extreme 87% short reading, creating a sharp institutional-retail divergence where speculators are heavily fading the ongoing dollar strength. The Economic Surprise Index for Canada sits at a modest +7.3, while US data continues to outperform. Trade bias: Bullish USD/CAD, supported by positive carry and retail positioning extremes. Catalyst: BoC Governor Macklem speech and upcoming domestic inflation prints. Risk: Sharp downward correction if Canadian inflation data prints stronger than anticipated, forcing a capitulation of retail shorts.",
-      "evidence": [
-        "USD/CAD: 1.4160",
-        "CAD COT LF net: -82,720",
-        "Retail USD/CAD short: 87%"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "16:25",
+      "time": "16:00",
       "priority": "info",
-      "title": "NZD/USD — Momentum Leader + Options Skew",
-      "text": "NZD/USD trades at 0.5647, showing a 1W gain of +0.75% while remaining constrained below its SMA20 at 0.5641, SMA50 at 0.5782, and SMA200 at 0.5841. CFTC positioning shows NZD net short at -1,214 contracts, residing at the 87th percentile of its 52w range with a z-score of +1.15σ, indicating an aggressive build in speculative longs over the recent four-week window of +16,878 contracts. The RBNZ policy rate stands at 2.75% with a hawkish market bias, generating an OIS carry spread against SOFR of -125bp that weighs on the pair from a rate perspective. Retail sentiment shows a strong 83% long bias, aligning closely with speculative building and increasing the vulnerability to sudden long unwinds. Trade bias: Bearish NZD/USD, vulnerable to momentum exhaustion against moving average resistance. Catalyst: RBNZ policy meeting on 28 Oct. Risk: Continuation of aggressive speculative buying pushing spot through the SMA20 resistance and triggering short-covering.",
+      "title": "EUR/USD — Extreme Speculative Shorts + BEER Undervaluation",
+      "text": "EUR COT LF short -84.8k (34.4% long, 52w pctl 4) sets up extended short-covering pressure after EUR/USD closed Friday at 1.1241. BEER model misvaluation identifies EUR/USD as undervalued at z=-1.59σ, while the +144bp SOFR-€STR carry premium favoring USD continues to act as an overhead drag on spot. The ECB meeting on 29 Oct determines if rate hold guidance provides enough fundamental stability to force further short clearing. Trade bias: Mildly bullish EUR/USD on short-covering dynamics into the open. Catalyst: next ECB meeting (mkt: 100% hold priced) on 29 Oct. Risk: SOFR rates spike or eurozone growth data deteriorates, resuming the broader downtrend below 1.1200.",
       "evidence": [
-        "NZD/USD: 0.5647",
-        "NZD COT pctl(52w): 87",
-        "Retail NZD/USD long: 83%"
+        "EUR COT LF net: -84,775 (long% 34.4%, pctl 4)",
+        "EUR/USD Friday close: 1.1241",
+        "BEER misvaluation z: -1.59σ"
       ],
       "_source": "engine-ai-primary"
     }
