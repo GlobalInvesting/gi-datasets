@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-16T12:32:42Z",
-  "generatedAt": "2026-10-16T12:32:42Z",
+  "lastUpdate": "2026-10-16T13:16:49Z",
+  "generatedAt": "2026-10-16T13:16:49Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3432,6 +3432,26 @@
       "n": 2,
       "mean": -1.45,
       "std": 0.636396
+    },
+    "USD/fed industrial production mom": {
+      "n": 2,
+      "mean": 0.4,
+      "std": 0.565685
+    },
+    "USD/fed capacity utilization rate": {
+      "n": 2,
+      "mean": 0.45,
+      "std": 0.353553
+    },
+    "USD/fed manufacturing production mom": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.494975
+    },
+    "USD/fed industrial production yoy": {
+      "n": 2,
+      "mean": 0.75,
+      "std": 0.353553
     },
     "AUD/participation rate": {
       "n": 2,
@@ -80316,7 +80336,7 @@
       "flag": "🇺🇸",
       "event": "Fed Industrial Production m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "-0.1%",
       "previous": "0.0%"
     },
@@ -80329,7 +80349,7 @@
       "flag": "🇺🇸",
       "event": "Fed Capacity Utilization Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "76.9%",
       "forecast": "76.2%",
       "previous": "76.3%"
     },
@@ -80342,7 +80362,7 @@
       "flag": "🇺🇸",
       "event": "Fed Manufacturing Production m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "-0.1%",
       "previous": "-0.3%"
     },
@@ -80355,7 +80375,7 @@
       "flag": "🇺🇸",
       "event": "Fed Industrial Production y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.2%",
       "forecast": "1.2%",
       "previous": "1.4%"
     },
