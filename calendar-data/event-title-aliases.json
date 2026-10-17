@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-17T13:50:30Z",
+  "generatedAt": "2026-10-17T17:22:54Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 208,
+  "aliasCount": 209,
   "aliases": [
     {
       "currency": "USD",
@@ -296,16 +296,16 @@
       "secondary_title": "United States Dallas Fed Services Revenues Index",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 7.7,
-          "forecast_secondary": 2.0,
-          "actual_primary": -0.9,
-          "actual_secondary": -0.9,
-          "previous_primary": 6.6,
-          "previous_secondary": 6.6,
-          "actual_secondary_raw": "-0.9",
-          "forecast_secondary_raw": "2",
-          "previous_secondary_raw": "6.6"
+          "dateISO": "2026-10-27",
+          "forecast_primary": 5.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.9,
+          "previous_secondary": -0.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-0.9"
         }
       }
     },
@@ -315,16 +315,16 @@
       "secondary_title": "United States Dallas Fed Services Index",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-09-29",
-          "forecast_primary": 0.1,
-          "forecast_secondary": 1.0,
-          "actual_primary": -1.8,
-          "actual_secondary": -1.8,
-          "previous_primary": 4.2,
-          "previous_secondary": 4.2,
-          "actual_secondary_raw": "-1.8",
-          "forecast_secondary_raw": "1",
-          "previous_secondary_raw": "4.2"
+          "dateISO": "2026-10-27",
+          "forecast_primary": -2.9,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -1.8,
+          "previous_secondary": -1.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-1.8"
         }
       }
     },
@@ -3734,25 +3734,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "Chicago Fed National Activity Index",
-      "secondary_title": "United States Chicago Fed National Activity Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 0.04,
-          "forecast_secondary": -0.1,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": -0.04,
-          "previous_secondary": -0.04,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.1",
-          "previous_secondary_raw": "-0.04"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "United States Durable Goods Orders m/m",
       "secondary_title": "United States Durable Goods Orders MoM",
       "evidence": {
@@ -3829,20 +3810,58 @@
     },
     {
       "currency": "USD",
-      "primary_title": "Richmond Fed Services Revenues",
-      "secondary_title": "United States Chicago Fed National Activity Index",
+      "primary_title": "United States New Home Sales m/m",
+      "secondary_title": "United States New Home Sales MoM",
       "evidence": {
         "secondary": {
           "dateISO": "2026-10-27",
-          "forecast_primary": -3.0,
-          "forecast_secondary": -0.1,
+          "forecast_primary": -1.4,
+          "forecast_secondary": null,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": 0.0,
-          "previous_secondary": -0.04,
+          "previous_primary": 6.4,
+          "previous_secondary": 6.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.1",
-          "previous_secondary_raw": "-0.04"
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "6.4%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Manufacturing Index",
+      "secondary_title": "United States Richmond Fed Manufacturing Index",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -1.0,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -2.0,
+          "previous_secondary": -2.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Manufacturing Shipments",
+      "secondary_title": "United States Richmond Fed Manufacturing Shipments Index",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -5.0,
+          "previous_secondary": -5.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-5"
         }
       }
     },
