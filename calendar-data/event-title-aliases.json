@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-17T11:03:13Z",
+  "generatedAt": "2026-10-17T13:50:30Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 208,
   "aliases": [
     {
       "currency": "USD",
@@ -3748,6 +3748,82 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "-0.1",
           "previous_secondary_raw": "-0.04"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Durable Goods Orders m/m",
+      "secondary_title": "United States Durable Goods Orders MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 0.7,
+          "forecast_secondary": 0.2,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.0,
+          "previous_secondary": 0.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.2%",
+          "previous_secondary_raw": "0%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core Durable Goods Orders m/m",
+      "secondary_title": "United States Durable Goods Orders Ex Transp MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 1.0,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.3,
+          "previous_secondary": 0.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
+          "previous_secondary_raw": "0.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Durable Goods Orders excl. Defense m/m",
+      "secondary_title": "United States Durable Goods Orders ex Defense MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -0.4,
+          "forecast_secondary": 0.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.1,
+          "previous_secondary": 0.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.0%",
+          "previous_secondary_raw": "0.1%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Nondefense Capital Goods Orders excl. Aircraft m/m",
+      "secondary_title": "United States Non Defense Goods Orders Ex Air",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 0.8,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.6,
+          "previous_secondary": 1.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.6%"
         }
       }
     },
