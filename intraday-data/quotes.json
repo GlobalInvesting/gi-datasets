@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T16:35:29Z",
+  "updated": "2026-10-17T16:40:35Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -155,6 +155,22 @@
       "sourceDate": "2026-10-15",
       "prevSourceDate": null
     },
+    "us5y": {
+      "close": 4.899,
+      "prev_close": 4.899,
+      "chg": 0.0,
+      "pct": 0.0,
+      "high": null,
+      "low": null,
+      "open": null,
+      "bid": null,
+      "ask": null,
+      "market_state": "CLOSED",
+      "market_time": 1792177195,
+      "source": "quote-pipeline-primary",
+      "pct1w": -2.4298,
+      "pct1w_date": "2026-10-09"
+    },
     "us30y": {
       "close": 5.436,
       "prev_close": 5.429,
@@ -188,37 +204,37 @@
       "pct1w_date": "2026-10-09"
     },
     "btc": {
-      "close": 81165.43,
+      "close": 81180.38,
       "prev_close": 81501.61,
-      "chg": -336.18,
-      "pct": -0.4125,
+      "chg": -321.23,
+      "pct": -0.3941,
       "high": 81627.66,
-      "low": 81195.39,
+      "low": 81178.97,
       "open": 81501.61,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792254930,
+      "market_time": 1792255236,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.6729,
+      "pct1w": -1.6548,
       "pct1w_date": "2026-10-09",
       "session_high": 81720.09,
       "session_low": 80706.05
     },
     "eth": {
-      "close": 2404.01,
+      "close": 2403.48,
       "prev_close": 2419.9055,
-      "chg": -15.8955,
-      "pct": -0.6569,
+      "chg": -16.4255,
+      "pct": -0.6788,
       "high": 2436.7573,
-      "low": 2405.1733,
+      "low": 2402.3972,
       "open": 2419.9055,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792254935,
+      "market_time": 1792255234,
       "source": "quote-pipeline-primary",
-      "pct1w": -3.2801,
+      "pct1w": -3.3014,
       "pct1w_date": "2026-10-09",
       "session_high": 2438.0,
       "session_low": 2390.45
@@ -1325,15 +1341,6 @@
         "low": 51847.94141,
         "close": 51990.05078
       }
-    },
-    "us5y": {
-      "close": 4.899,
-      "prev_close": 4.899,
-      "chg": 0,
-      "pct": 0,
-      "source": "repo",
-      "stale": true,
-      "sourceDate": "2026-10-16"
     }
   },
   "hv30": {
