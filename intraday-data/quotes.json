@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T07:40:31Z",
+  "updated": "2026-10-17T07:45:35Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -39,8 +39,8 @@
       "prev_close": 4170.1,
       "chg": 11.0,
       "pct": 0.2638,
-      "high": 4220.2,
-      "low": 4167.5,
+      "high": null,
+      "low": null,
       "open": 4192.1,
       "bid": 4180.0,
       "ask": 4194.0,
@@ -204,40 +204,40 @@
       "pct1w_date": "2026-10-09"
     },
     "btc": {
-      "close": 81590.09,
+      "close": 81549.11,
       "prev_close": 81501.61,
-      "chg": 88.48,
-      "pct": 0.1086,
-      "high": 81609.33,
+      "chg": 47.5,
+      "pct": 0.0583,
+      "high": 81608.09,
       "low": 81302.65,
       "open": 81501.61,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792222830,
+      "market_time": 1792223135,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.1584,
+      "pct1w": -1.2081,
       "pct1w_date": "2026-10-09",
-      "session_high": 82813.91,
-      "session_low": 80702.34
+      "session_high": 82812.28,
+      "session_low": 80706.05
     },
     "eth": {
-      "close": 2432.34,
+      "close": 2431.0,
       "prev_close": 2419.9055,
-      "chg": 12.4345,
-      "pct": 0.5138,
-      "high": 2432.7642,
+      "chg": 11.0945,
+      "pct": 0.4585,
+      "high": 2432.956,
       "low": 2414.8032,
       "open": 2419.9055,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792222832,
+      "market_time": 1792223135,
       "source": "quote-pipeline-primary",
-      "pct1w": -2.1403,
+      "pct1w": -2.1942,
       "pct1w_date": "2026-10-09",
-      "session_high": 2490.25,
-      "session_low": 2390.35
+      "session_high": 2490.5,
+      "session_low": 2390.45
     },
     "nasdaq": {
       "close": 29187.549,
@@ -1232,8 +1232,8 @@
       "prev_close": 57.156,
       "chg": 0.149,
       "pct": 0.2607,
-      "high": 58.14,
-      "low": 57.035,
+      "high": null,
+      "low": null,
       "open": 57.635,
       "bid": 57.015,
       "ask": 57.24,
@@ -1244,10 +1244,10 @@
       "pct1w_date": "2026-10-09",
       "prev_bar": {
         "time": "2026-10-16",
-        "open": 57.63,
+        "open": 57.635,
         "high": 58.14,
         "low": 57.035,
-        "close": 57.135
+        "close": 57.305
       }
     },
     "brent": {
@@ -1270,7 +1270,7 @@
         "open": 105.9,
         "high": 110.0,
         "low": 102.31,
-        "close": 109.86
+        "close": 109.69
       }
     },
     "dax": {
