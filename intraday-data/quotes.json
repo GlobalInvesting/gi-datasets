@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T01:45:33Z",
+  "updated": "2026-10-17T01:50:35Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,12 +35,12 @@
       "pct1w_date": "2026-10-09"
     },
     "gold": {
-      "close": 4164.7251,
+      "close": 4164.6038,
       "prev_close": 4168.1657,
-      "chg": -3.4406,
-      "pct": -0.0825,
+      "chg": -3.5619,
+      "pct": -0.0855,
       "source": "twelve_data",
-      "high": 4220.2,
+      "high": 4220.3,
       "low": 4167.5,
       "open": 4192.1,
       "market_state": "REGULAR",
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-10-09"
     },
     "btc": {
-      "close": 81437.57,
+      "close": 81423.04,
       "prev_close": 81501.61,
-      "chg": -64.04,
-      "pct": -0.0786,
+      "chg": -78.57,
+      "pct": -0.0964,
       "high": 81546.89,
       "low": 81373.086,
       "open": 81501.61,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792201535,
+      "market_time": 1792201837,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.3432,
+      "pct1w": -1.3608,
       "pct1w_date": "2026-10-09",
-      "session_high": 82813.91,
-      "session_low": 80702.34
+      "session_high": 82812.28,
+      "session_low": 80706.05
     },
     "eth": {
-      "close": 2416.67,
+      "close": 2415.69,
       "prev_close": 2419.9055,
-      "chg": -3.2355,
-      "pct": -0.1337,
+      "chg": -4.2155,
+      "pct": -0.1742,
       "high": 2420.5112,
       "low": 2414.8032,
       "open": 2419.9055,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792201536,
+      "market_time": 1792201838,
       "source": "quote-pipeline-primary",
-      "pct1w": -2.7708,
+      "pct1w": -2.8102,
       "pct1w_date": "2026-10-09",
-      "session_high": 2490.25,
-      "session_low": 2390.35
+      "session_high": 2490.5,
+      "session_low": 2390.45
     },
     "nasdaq": {
       "close": 29187.549,
@@ -1240,7 +1240,7 @@
       "pct1w_date": "2026-10-09",
       "prev_bar": {
         "time": "2026-10-16",
-        "open": 57.63,
+        "open": 57.635,
         "high": 58.14,
         "low": 57.035,
         "close": 57.135
@@ -3757,25 +3757,24 @@
     {
       "a": "GBP/USD",
       "b": "FTSE 100",
-      "corr30": 0.136,
+      "corr30": 0.155,
       "n30": 30,
-      "corr": 0.169,
+      "corr": 0.151,
       "n": 60,
-      "corr90": 0.126,
+      "corr90": 0.125,
       "n90": 90,
-      "norm": 0.092,
-      "z_score": 0.24,
-      "norm60": 0.108,
-      "z_score60": 0.49,
+      "norm": 0.093,
+      "z_score": 0.34,
+      "norm60": 0.11,
+      "z_score60": 0.33,
       "n_indep60": 4,
-      "std": 0.1872,
+      "std": 0.187,
       "n_indep": 8,
-      "band15hi": 0.357,
-      "band15lo": -0.186,
-      "band25hi": 0.508,
-      "band25lo": -0.358,
+      "band15hi": 0.358,
+      "band15lo": -0.185,
+      "band25hi": 0.509,
+      "band25lo": -0.357,
       "history": [
-        -0.033,
         -0.034,
         -0.02,
         -0.015,
@@ -3997,10 +3996,10 @@
         0.132,
         0.124,
         0.067,
-        0.136
+        0.136,
+        0.155
       ],
       "hist_dates": [
-        "2025-11-27",
         "2025-11-28",
         "2025-12-01",
         "2025-12-02",
@@ -4222,12 +4221,13 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14",
-        "2026-10-15"
+        "2026-10-15",
+        "2026-10-16"
       ],
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.1168,
+      "coint_p": 0.1067,
       "coint_n": 252
     },
     {
