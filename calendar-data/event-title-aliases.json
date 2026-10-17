@@ -1,238 +1,10 @@
 {
-  "generatedAt": "2026-10-16T23:46:44Z",
+  "generatedAt": "2026-10-17T11:03:13Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 208,
+  "aliasCount": 204,
   "aliases": [
-    {
-      "currency": "USD",
-      "primary_title": "United States Durable Goods Orders m/m",
-      "secondary_title": "United States Durable Goods Orders MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": -3.4,
-          "forecast_secondary": -0.4,
-          "actual_primary": 0.0,
-          "actual_secondary": 0.0,
-          "previous_primary": 1.1,
-          "previous_secondary": 0.9,
-          "actual_secondary_raw": "0%",
-          "forecast_secondary_raw": "-0.4%",
-          "previous_secondary_raw": "0.9%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Core Durable Goods Orders m/m",
-      "secondary_title": "United States Durable Goods Orders Ex Transp MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 0.9,
-          "forecast_secondary": 0.4,
-          "actual_primary": 0.3,
-          "actual_secondary": 0.3,
-          "previous_primary": 0.4,
-          "previous_secondary": 0.7,
-          "actual_secondary_raw": "0.3%",
-          "forecast_secondary_raw": "0.4%",
-          "previous_secondary_raw": "0.7%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Durable Goods Orders excl. Defense m/m",
-      "secondary_title": "United States Durable Goods Orders ex Defense MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 0.1,
-          "forecast_secondary": -0.6,
-          "actual_primary": 0.1,
-          "actual_secondary": 0.1,
-          "previous_primary": 1.3,
-          "previous_secondary": 1.4,
-          "actual_secondary_raw": "0.1%",
-          "forecast_secondary_raw": "-0.6%",
-          "previous_secondary_raw": "1.4%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Nondefense Capital Goods Orders excl. Aircraft m/m",
-      "secondary_title": "United States Non Defense Goods Orders Ex Air",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 1.3,
-          "forecast_secondary": 0.3,
-          "actual_primary": 1.6,
-          "actual_secondary": 1.6,
-          "previous_primary": 0.2,
-          "previous_secondary": 0.6,
-          "actual_secondary_raw": "1.6%",
-          "forecast_secondary_raw": "0.3%",
-          "previous_secondary_raw": "0.6%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
-      "secondary_title": "United States Durable Goods Orders Ex Transp MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-09-25",
-          "forecast_primary": 0.4,
-          "forecast_secondary": 0.4,
-          "actual_primary": 0.6,
-          "actual_secondary": 0.3,
-          "previous_primary": 1.2,
-          "previous_secondary": 0.7,
-          "actual_secondary_raw": "0.3%",
-          "forecast_secondary_raw": "0.4%",
-          "previous_secondary_raw": "0.7%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Consumer Sentiment",
-      "secondary_title": "United States Michigan Consumer Sentiment Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 44.7,
-          "forecast_secondary": 47.9,
-          "actual_primary": 46.3,
-          "actual_secondary": 46.3,
-          "previous_primary": 48.1,
-          "previous_secondary": 48.1,
-          "actual_secondary_raw": "46.3",
-          "forecast_secondary_raw": "47.9",
-          "previous_secondary_raw": "48.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Consumer Expectations",
-      "secondary_title": "United States Michigan Consumer Expectations Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 42.6,
-          "forecast_secondary": 46.1,
-          "actual_primary": 47.3,
-          "actual_secondary": 47.3,
-          "previous_primary": 46.3,
-          "previous_secondary": 46.3,
-          "actual_secondary_raw": "47.3",
-          "forecast_secondary_raw": "46.1",
-          "previous_secondary_raw": "46.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Current Conditions",
-      "secondary_title": "United States Michigan Current Conditions Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 49.7,
-          "forecast_secondary": 50.7,
-          "actual_primary": 44.7,
-          "actual_secondary": 44.7,
-          "previous_primary": 50.9,
-          "previous_secondary": 50.9,
-          "actual_secondary_raw": "44.7",
-          "forecast_secondary_raw": "50.7",
-          "previous_secondary_raw": "50.9"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Inflation Expectations",
-      "secondary_title": "United States Michigan Inflation Expectations Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 4.3,
-          "forecast_secondary": 4.7,
-          "actual_primary": 4.7,
-          "actual_secondary": 4.7,
-          "previous_primary": 4.6,
-          "previous_secondary": 4.6,
-          "actual_secondary_raw": "4.7%",
-          "forecast_secondary_raw": "4.7%",
-          "previous_secondary_raw": "4.6%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan 5-Year Inflation Expectations",
-      "secondary_title": "United States Michigan 5 Year Inflation Expectations Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 3.3,
-          "forecast_secondary": 3.5,
-          "actual_primary": 3.5,
-          "actual_secondary": 3.5,
-          "previous_primary": 3.4,
-          "previous_secondary": 3.4,
-          "actual_secondary_raw": "3.5%",
-          "forecast_secondary_raw": "3.5%",
-          "previous_secondary_raw": "3.4%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Baker Hughes US Oil Rig Count",
-      "secondary_title": "United States Baker Hughes Oil Rig Count",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 459.0,
-          "actual_secondary": 459.0,
-          "previous_primary": null,
-          "previous_secondary": 462.0,
-          "actual_secondary_raw": "459",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "462"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Baker Hughes US Total Rig Count",
-      "secondary_title": "United States Baker Hughes Total Rigs Count",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 603.0,
-          "actual_secondary": 603.0,
-          "previous_primary": null,
-          "previous_secondary": 603.0,
-          "actual_secondary_raw": "603",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "603"
-        }
-      }
-    },
     {
       "currency": "USD",
       "primary_title": "Dallas Fed Manufacturing Index",
@@ -1702,6 +1474,44 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Baker Hughes US Oil Rig Count",
+      "secondary_title": "United States Baker Hughes Oil Rig Count",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 459.0,
+          "actual_secondary": 459.0,
+          "previous_primary": null,
+          "previous_secondary": 462.0,
+          "actual_secondary_raw": "459",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "462"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Baker Hughes US Total Rig Count",
+      "secondary_title": "United States Baker Hughes Total Rigs Count",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-16",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 603.0,
+          "actual_secondary": 603.0,
+          "previous_primary": null,
+          "previous_secondary": 603.0,
+          "actual_secondary_raw": "603",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "603"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia S&P Global Services PMI",
       "secondary_title": "Australia S&P Global Services PMI Final",
@@ -2244,6 +2054,101 @@
           "actual_secondary_raw": "60.4%",
           "forecast_secondary_raw": "61.0%",
           "previous_secondary_raw": "64.7%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Consumer Sentiment",
+      "secondary_title": "United States Michigan Consumer Sentiment Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-09",
+          "forecast_primary": 44.7,
+          "forecast_secondary": 47.9,
+          "actual_primary": 46.3,
+          "actual_secondary": 46.3,
+          "previous_primary": 48.1,
+          "previous_secondary": 48.1,
+          "actual_secondary_raw": "46.3",
+          "forecast_secondary_raw": "47.9",
+          "previous_secondary_raw": "48.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Consumer Expectations",
+      "secondary_title": "United States Michigan Consumer Expectations Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-23",
+          "forecast_primary": 47.3,
+          "forecast_secondary": 47.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 47.3,
+          "previous_secondary": 46.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "47.3",
+          "previous_secondary_raw": "46.3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Current Conditions",
+      "secondary_title": "United States Michigan Current Conditions Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-23",
+          "forecast_primary": 44.7,
+          "forecast_secondary": 44.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 44.7,
+          "previous_secondary": 50.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "44.7",
+          "previous_secondary_raw": "50.9"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Inflation Expectations",
+      "secondary_title": "United States Michigan Inflation Expectations Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-23",
+          "forecast_primary": 4.7,
+          "forecast_secondary": 4.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 4.7,
+          "previous_secondary": 4.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "4.7%",
+          "previous_secondary_raw": "4.6%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan 5-Year Inflation Expectations",
+      "secondary_title": "United States Michigan 5 Year Inflation Expectations Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-23",
+          "forecast_primary": 3.5,
+          "forecast_secondary": 3.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.5,
+          "previous_secondary": 3.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "3.5%",
+          "previous_secondary_raw": "3.4%"
         }
       }
     },
@@ -4375,6 +4280,25 @@
           "actual_yahoo_raw": "0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand BusinessNZ Manufacturing Index",
+      "yahoo_title": "Manufacturing PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-15",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 56.5,
+          "actual_yahoo": 56.5,
+          "previous_primary": null,
+          "previous_yahoo": 53.1,
+          "actual_yahoo_raw": "56.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "53.1"
         }
       }
     },
