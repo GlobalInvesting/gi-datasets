@@ -80,6 +80,22 @@ jobs:
           fi
           echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
 
+      - name: Checkout terminal frontend (esi-core.js, the single ESI implementation)
+        if: steps.guard.outputs.skip != 'true'
+        uses: actions/checkout@v6
+        with:
+          repository: GlobalInvesting/gi-frontend-app
+          token: ${{ secrets.PAT_TOKEN }}
+          path: frontend
+          sparse-checkout: |
+            assets/esi-core.js
+            scripts/esi-cli.js
+          sparse-checkout-cone-mode: false
+
+      - name: Verify Node for the shared ESI
+        if: steps.guard.outputs.skip != 'true'
+        run: node --version
+
       - name: Set up Python
         if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v6
