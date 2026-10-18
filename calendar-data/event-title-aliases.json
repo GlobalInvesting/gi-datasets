@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-17T23:20:01Z",
+  "generatedAt": "2026-10-18T11:33:43Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 209,
+  "aliasCount": 214,
   "aliases": [
     {
       "currency": "USD",
@@ -3866,6 +3866,25 @@
       }
     },
     {
+      "currency": "AUD",
+      "primary_title": "RBA Trimmed Mean CPI q/q",
+      "secondary_title": "Australia Quarterly RBA Trimmed Mean CPI QoQ",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": 0.9,
+          "forecast_secondary": 0.9,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.0,
+          "previous_secondary": 0.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.9%",
+          "previous_secondary_raw": "0.8%"
+        }
+      }
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Core PCE Price Index q/q",
       "yahoo_title": "Core PCE Prices Fnal",
@@ -4147,6 +4166,82 @@
           "actual_yahoo_raw": "6.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "7.6"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden CPI m/m",
+      "yahoo_title": "CPI MM*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 0.5,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": -0.3,
+          "previous_yahoo": 0.9,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.9"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden CPI y/y",
+      "yahoo_title": "CPI YY*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 1.1,
+          "actual_yahoo": 1.1,
+          "previous_primary": 0.3,
+          "previous_yahoo": 1.2,
+          "actual_yahoo_raw": "1.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.2"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden CPIF m/m",
+      "yahoo_title": "CPIF MM*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": -0.2,
+          "previous_yahoo": 0.9,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.9"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden CPIF y/y",
+      "yahoo_title": "CPIF YY*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-14",
+          "forecast_primary": 0.8,
+          "forecast_yahoo": null,
+          "actual_primary": 1.5,
+          "actual_yahoo": 1.5,
+          "previous_primary": 0.7,
+          "previous_yahoo": 1.5,
+          "actual_yahoo_raw": "1.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.5"
         }
       }
     },
