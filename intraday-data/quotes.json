@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T04:05:29Z",
+  "updated": "2026-10-18T04:10:32Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,12 +35,12 @@
       "pct1w_date": "2026-10-09"
     },
     "gold": {
-      "close": 4164.7609,
+      "close": 4164.6424,
       "prev_close": 4164.7179,
-      "chg": 0.043,
-      "pct": 0.001,
+      "chg": -0.0755,
+      "pct": -0.0018,
       "source": "twelve_data",
-      "high": 4220.3,
+      "high": 4220.2,
       "low": 4167.5,
       "open": 4192.1,
       "market_state": "REGULAR",
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-10-09"
     },
     "btc": {
-      "close": 81788.0,
+      "close": 81797.73,
       "prev_close": 81383.29,
-      "chg": 404.71,
-      "pct": 0.4973,
+      "chg": 414.44,
+      "pct": 0.5092,
       "high": 81893.33,
       "low": 81302.48,
       "open": 81383.29,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792296330,
+      "market_time": 1792296633,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.9187,
+      "pct1w": -0.9069,
       "pct1w_date": "2026-10-09",
-      "session_high": 81963.84,
-      "session_low": 80737.32
+      "session_high": 81969.83,
+      "session_low": 80720.0
     },
     "eth": {
-      "close": 2420.12,
+      "close": 2420.18,
       "prev_close": 2399.7751,
-      "chg": 20.3449,
-      "pct": 0.8478,
+      "chg": 20.4049,
+      "pct": 0.8503,
       "high": 2424.301,
       "low": 2395.3674,
       "open": 2399.7751,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792296325,
+      "market_time": 1792296632,
       "source": "quote-pipeline-primary",
-      "pct1w": -2.632,
+      "pct1w": -2.6296,
       "pct1w_date": "2026-10-09",
       "session_high": 2438.0,
-      "session_low": 2355.15
+      "session_low": 2356.2
     },
     "nasdaq": {
       "close": 29187.549,
@@ -1180,7 +1180,7 @@
       "pct1w_date": "2026-10-09",
       "prev_bar": {
         "time": "2026-10-16",
-        "open": 57.635,
+        "open": 57.63,
         "high": 58.14,
         "low": 57.035,
         "close": 57.305
