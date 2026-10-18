@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-18T11:33:43Z",
+  "generatedAt": "2026-10-18T14:06:12Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 214,
+  "aliasCount": 215,
   "aliases": [
     {
       "currency": "USD",
@@ -3881,6 +3881,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.9%",
           "previous_secondary_raw": "0.8%"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "BoC Interest Rate Decision",
+      "secondary_title": "Canada BoC Interest Rate Decision",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": null,
+          "forecast_secondary": 2.25,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.25,
+          "previous_secondary": 2.25,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.25%",
+          "previous_secondary_raw": "2.25%"
         }
       }
     },
