@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-18T17:27:27Z",
+  "generatedAt": "2026-10-18T23:33:09Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 215,
+  "aliasCount": 216,
   "aliases": [
     {
       "currency": "USD",
@@ -3900,6 +3900,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "2.25%",
           "previous_secondary_raw": "2.25%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Fed Interest Rate Decision",
+      "secondary_title": "United States Fed Interest Rate Decision",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": null,
+          "forecast_secondary": 4.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 4.0,
+          "previous_secondary": 4.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "4.0%",
+          "previous_secondary_raw": "4%"
         }
       }
     },
