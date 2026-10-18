@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T16:05:38Z",
+  "updated": "2026-10-18T16:10:27Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,12 +35,12 @@
       "pct1w_date": "2026-10-09"
     },
     "gold": {
-      "close": 4164.7209,
+      "close": 4164.7615,
       "prev_close": 4164.7179,
-      "chg": 0.003,
-      "pct": 0.0001,
+      "chg": 0.0436,
+      "pct": 0.001,
       "source": "twelve_data",
-      "high": 4220.2,
+      "high": 4220.3,
       "low": 4167.5,
       "open": 4192.1,
       "market_state": "REGULAR",
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-10-09"
     },
     "btc": {
-      "close": 81022.84,
+      "close": 81037.13,
       "prev_close": 81383.29,
-      "chg": -360.45,
-      "pct": -0.4429,
+      "chg": -346.16,
+      "pct": -0.4253,
       "high": 82143.93,
       "low": 80954.69,
       "open": 81383.29,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792339539,
+      "market_time": 1792339832,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.8456,
+      "pct1w": -1.8283,
       "pct1w_date": "2026-10-09",
-      "session_high": 82183.55,
-      "session_low": 80720.0
+      "session_high": 82177.83,
+      "session_low": 80737.32
     },
     "eth": {
-      "close": 2368.93,
+      "close": 2370.78,
       "prev_close": 2399.7751,
-      "chg": -30.8451,
-      "pct": -1.2853,
+      "chg": -28.9951,
+      "pct": -1.2082,
       "high": 2425.1045,
-      "low": 2371.357,
+      "low": 2371.3628,
       "open": 2399.7751,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792339543,
+      "market_time": 1792339834,
       "source": "quote-pipeline-primary",
-      "pct1w": -4.6915,
+      "pct1w": -4.6171,
       "pct1w_date": "2026-10-09",
       "session_high": 2426.76,
-      "session_low": 2356.2
+      "session_low": 2355.15
     },
     "nasdaq": {
       "close": 29187.549,
@@ -1180,7 +1180,7 @@
       "pct1w_date": "2026-10-09",
       "prev_bar": {
         "time": "2026-10-16",
-        "open": 57.63,
+        "open": 57.635,
         "high": 58.14,
         "low": 57.035,
         "close": 57.305
