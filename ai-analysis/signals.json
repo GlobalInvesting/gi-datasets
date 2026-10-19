@@ -1,51 +1,63 @@
 {
-  "generated_at": "2026-10-19T12:00:56Z",
+  "generated_at": "2026-10-19T14:46:28Z",
   "signals": [
     {
-      "time": "12:00",
+      "time": "14:38",
       "priority": "critical",
-      "title": "AUD/USD — G10 Bilateral Theme + Carry Disadvantage",
-      "text": "AUD/USD spot trades at 0.6992, testing its declining SMA20 at 0.6992 while remaining below the SMA50/200 cluster at 0.7083/0.7046 within an intact wider downtrend. In the G10 Currency Strength Scorecard over 1W, AUD leads the board with +0.903% across 4 pairs while USD lags at −0.573% across 9 pairs, generating a 1.477% bilateral spread that clears the strong-theme threshold. This spot strength occurs despite an active policy divergence where the Fed policy rate sits at 4.00% against the RBA at 4.6%, yielding a 71bp OIS carry advantage for AUD (AONIA 4.60% vs SOFR 3.89%), while COT data shows spec positioning is already net long +44,978 contracts (pctl 54, z +0.38) with momentum stalling after a WoW drop of 3,933 contracts. The move reflects short-term dollar weakness rather than clean structural trend confirmation, leaving topside progress vulnerable around the moving average band. Trade bias: Neutral/range AUD/USD; bilateral outperformance challenges structural overhead resistance. Catalyst: Fed meeting 28 Oct — hike bias priced. Risk: Sustained close above the SMA200 at 0.7046 invalidates the prevailing technical downtrend structure.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Carry",
+      "text": "AUD/JPY trades at 110.693, up 0.86% intraday, leading the G10 currency strength scorecard with a 1W average of +0.989% across four pairs against a laggard JPY averaging -0.630% across seven pairs, generating a wide 1.618% bilateral gap. RBA policy rate at 4.60% (Hiking) versus BoJ at 1.25% (Hiking) creates a substantial 335bp OIS carry differential favoring AUD, while AONIA at 4.60% against TONA at 1.23% reinforces the return advantage. Technical positioning shows AUD/USD holding below moving averages with a downtrend structure in force, yet the cross remains bid as the rate gap overrides spot momentum. Trade bias: Long AUD/JPY, carry differential driving bilateral outperformance against JPY weakness. Catalyst: Next RBA meeting on 3 Nov with 100% hold priced. Risk: Broad risk-off sentiment triggers a sharp repatriation of carry trades, compressing the 335bp spread.",
       "evidence": [
-        "AUD 1W avg: +0.903% (n=4)",
-        "USD 1W avg: -0.573% (n=9)",
-        "G10 spread: 1.477%"
+        "AUD 1W avg: +0.989% (n=4)",
+        "JPY 1W avg: -0.630% (n=7)",
+        "G10 spread: 1.618%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "11:56",
+      "time": "14:35",
       "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew vs Carry",
-      "text": "USD/JPY trades at 158.16, holding above the SMA20 and SMA50 at 157.91 and 157.71 while capped beneath the SMA200 at 158.55 within a defined 20-session consolidation box. The 25-delta risk reversal sits at an extreme −1.91 put skew (Saxo Bank, 1M tenor, indicative mid), showing institutional demand paying heavily for dollar downside and yen call protection. This defensive options posture directly contradicts spec positioning in the CFTC data, where leveraged funds hold a crowded net short JPY position of −37,820 contracts (pctl 88, z +1.08), alongside an underlying carry cushion of +266bp favoring the dollar (SOFR 3.89% vs TONA 1.23%). With VIX at 18.9 reflecting normal volatility, carry dynamics structurally support the pair, but the aggressive options skew signals acute sensitivity to intervention or policy shifts as spot trades near 158.00. Trade bias: Neutral USD/JPY; sharp put skew conflicts with underlying carry advantage. Catalyst: BoJ meeting 30 Oct — hold expected. Risk: Daily close below SMA50 at 157.71 triggers an accelerated squeeze of spec JPY shorts.",
+      "title": "USD/JPY — Crowded Carry",
+      "text": "USD/JPY trades at 158.429, up 0.28% intraday, sitting above its 20-day and 50-day moving averages at 157.91 and 157.71 while capped below the 200-day average at 158.51 inside a range-bound 20-session box. The Fed rate at 4.00% (Hiking) versus BoJ at 1.25% (Hiking) generates a 275bp OIS carry differential favoring the dollar, keeping the pair supported on dips despite geopolitical headwinds in the Strait of Hormuz. CFTC data shows JPY net short positioning at -37,820 contracts with a 52-week percentile of 88, confirming an established short base, while the 25-day risk reversal at -1.97 reflects strong put skew and elevated hedging demand for downside protection. Trade bias: Long USD/JPY, carry-supported within a tight range while VIX stays contained at 17.7. Catalyst: BoJ meeting on 30 Oct with hold priced at 100%. Risk: VIX breaks above 25, sparking a disorderly unwinding of crowded JPY shorts.",
       "evidence": [
-        "25d RR (USD/JPY): -1.91 (1M Saxo)",
-        "JPY COT LF net: -37,820 (pctl 88)",
-        "Fed 4.0% vs BoJ 1.25% — 275bp"
+        "USD/JPY: 158.429",
+        "JPY COT lev_net: -37,820",
+        "25d RR: -1.97"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "11:53",
+      "time": "14:30",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Spec Short + Vol Premium",
-      "text": "EUR/USD trades at 1.1231, positioned beneath its falling SMA20/50/200 stack at 1.1287, 1.1472, and 1.1588 in an established macro downtrend. CFTC speculative positioning reveals an extreme crowded short in EUR, with leveraged funds holding net short −92,833 contracts at the 4th percentile of the 52-week range (z −1.78) following a 4W liquidation of 41,478 contracts. Meanwhile, EUR/USD 1M ATM implied volatility sits at 6.1% against 30-day realized volatility of 4.2%, creating an elevated vol risk premium of +2.0 percentage points. The Fed policy rate at 4.00% against the ECB at 2.65% maintains a 135bp nominal yield advantage for the dollar (+145bp via SOFR-€STR OIS), but extreme spec short positioning combined with rich downside protection leaves spot susceptible to short-covering pauses. Trade bias: Bearish EUR/USD; downside structurally favored by carry but constrained by crowded spec positioning. Catalyst: ECB meeting 29 Oct — hold expected. Risk: Recovery and sustained daily close above the SMA20 at 1.1287 invalidates near-term selling pressure.",
+      "title": "NZD/USD — COT vs OIS Divergence",
+      "text": "NZD/USD trades at 0.56730, up 0.32% intraday, holding above its 20-day moving average at 0.5637 while remaining below the 50-day average at 0.5777 and 200-day average at 0.5840. RBNZ holds at 2.75%. Economic surprise index sits at -7.4 with moderate negative bias, contrasting with the upside price momentum on the latest session. Trade bias: Long NZD/USD, asymmetric squeeze setup against a persistent speculative short base. Catalyst: RBNZ meeting on 28 Oct. Risk: RBNZ adopts a softer tone, validating the short positioning and reversing recent gains.",
       "evidence": [
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD VRP: +2.0% (IV 6.1% vs HV30 4.2%)",
-        "Fed 4.0% vs ECB 2.65% — 135bp"
+        "NZD/USD: 0.56730",
+        "NZD COT lev_net: -11,802",
+        "RBNZ rate: 2.75%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "11:47",
+      "time": "14:25",
+      "priority": "warning",
+      "title": "EUR/USD — Late-Trend Caution",
+      "text": "EUR/USD trades at 1.12160, down 0.25% intraday, positioned below its 20-day, 50-day, and 200-day moving averages at 1.1287, 1.1472, and 1.1590 respectively. Implied volatility sits at 6.6% against a realized 30-day vol of 4.1%, generating an elevated volatility risk premium of +2.5% that signals strong option market demand for downside protection. The 25-day risk reversal at -0.39 indicates mild put skew, while CFTC speculative positioning shows EUR net short at -92,833 contracts at the 4th percentile of its 52-week range, reflecting extreme institutional positioning that contrasts with the spot downtrend structure. Trade bias: Neutral to range-bound EUR/USD, positioning caution as spot grinds below key moving averages. Catalyst: ECB policy meeting on 29 Oct. Risk: Eurozone inflation data surprises higher, forcing a rapid short squeeze toward the 50-day moving average.",
+      "evidence": [
+        "EUR/USD: 1.12160",
+        "EUR COT lev_net: -92,833",
+        "VRP: +2.5%"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "14:20",
       "priority": "info",
-      "title": "GBP/USD — Reversal Structure vs OIS Carry Drag",
-      "text": "GBP/USD prints at 1.3338, trading above its SMA20 at 1.3252 while remaining capped below the SMA50/200 resistance band at 1.3419/1.3435. Daily trend structure shows early reversal characteristics, marked by a bullish engulfing expansion bar and a close exceeding the prior 10-day high. However, front-end rate differentials limit topside follow-through, with BoE policy at 3.75% versus the Fed at 4.00% maintaining a modest 25bp policy spread in USD's favor (+16bp via SOFR-SONIA OIS). Leveraged funds hold a light net long posture of +13,065 contracts (pctl 21, z −0.97) after adding 7,002 contracts WoW, while UK data shows solid domestic momentum with ESI at +8.2. Upward progress remains technical in nature and requires monetary policy validation to breach the multi-month moving average ceiling. Trade bias: Neutral/mildly bullish GBP/USD; short-term momentum capped by technical resistance. Catalyst: UK CPI release 21 Oct — 2.7% y/y forecast. Risk: Rejection below the SMA20 at 1.3252 restores broad downtrend continuity.",
+      "title": "USD/CHF — Volatility Complacency",
+      "text": "USD/CHF trades at 0.82570, up 0.26% intraday, positioned below the 20-day moving average at 0.8295 but above the 50-day and 200-day averages at 0.8181 and 0.7974. Implied volatility at 7.2% against a 30-day realized vol of 5.0% produces a +2.2% volatility risk premium, reflecting robust demand for options protection despite a subdued realized vol environment. The 25-day risk reversal reads -0.74, showing mild put skew against the base currency, while CFTC speculative positioning records CHF net short at -17,400 contracts at the 4th percentile of its 52-week range. Trade bias: Bullish USD/CHF, option hedging demand supporting the pair above its 50-day moving average. Catalyst: SNB policy meeting on 10 Dec with zero rate unchanged. Risk: Safe-haven demand for CHF intensifies on geopolitical escalations, driving a break below the 50-day average.",
       "evidence": [
-        "GBP/USD: 1.3338 (SMA20 1.3252 vs SMA50 1.3419)",
-        "Fed 4.0% vs BoE 3.75% — 25bp",
-        "GBP COT LF net: +13,065 (pctl 21)"
+        "USD/CHF: 0.82570",
+        "CHF COT lev_net: -17,400",
+        "VRP: +2.2%"
       ],
       "_source": "engine-ai-primary"
     }
