@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-18T21:01:02Z",
+  "generated_at": "2026-10-19T00:01:15Z",
   "signals": [
     {
-      "time": "20:58",
+      "time": "23:58",
       "priority": "critical",
-      "title": "NOK/EUR — G10 Bilateral Theme + Strait of Hormuz Supply Shock",
-      "text": "NOK leads G10 performance over 1W with an average gain of +1.494% across 2 pairs, while EUR lags at -0.642% across 9 pairs, opening a 2.136% bilateral spread. Escalation in the Strait of Hormuz after tanker mine strikes pushes WTI crude toward $99.0/bbl, directly benefiting Norway's terms of trade. Policy fundamentals amplify the gap: Norges Bank at 4.5% versus ECB at 2.65% provides a +185bp nominal policy advantage for NOK, while 10Y sovereign yields show Norway at 4.56% against Bunds at 3.42%. Technical positioning highlights EUR underperformance, with EUR/USD trading at 1.1201 below its SMA20 at 1.1287 and SMA50 at 1.1472. Trade bias: Bullish NOK against EUR, supported by energy supply disruption and restrictive rate carry. Catalyst: Germany ZEW Economic Sentiment Indicator on 19 Oct. Risk: De-escalation along Persian Gulf transit corridors deflates crude pricing and narrows the bilateral performance spread below 0.80%.",
+      "title": "NOK/USD — G10 Bilateral Theme + Energy Disruption",
+      "text": "NOK leads the weekly G10 currency strength scorecard at +1.344% across 2 pairs, while USD anchors the bottom at −0.619% across 9 pairs, generating an outsized bilateral spread of 1.963%. The divergence is accelerated by Strait of Hormuz maritime disruption headlines after an Iranian naval mine blast, driving energy supply-risk premiums into crude exporters. Norges Bank policy rate at 4.5% versus Fed at 4.00% delivers a +50bp policy carry advantage to NOK, further reinforced by Norway's ESI outperformance at +17.2 compared to USD's +10.5. Technical positioning confirms the cross-pair momentum, with USD/NOK closing at 9.414, breaking cleanly below its SMA20 (9.530), SMA50 (9.423), and SMA200 (9.532) cluster. Retail positioning shows an absolute extreme with 100% long exposure in USD/NOK, setting up a forced capitulation squeeze into the technical breakdown. Trade bias: Bullish NOK/USD; energy supply disruption and policy spread favor continued divergence. Catalyst: Norges Bank meeting 5 Nov. Risk: De-escalation in the Persian Gulf softens crude prices and closes the bilateral gap below 0.80%.",
       "evidence": [
-        "NOK 1W avg: +1.494% (n=2)",
-        "EUR 1W avg: -0.642% (n=9)",
-        "G10 spread: 2.136%"
+        "NOK 1W avg: +1.344% (n=2)",
+        "USD 1W avg: -0.619% (n=9)",
+        "G10 spread: 1.963%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:55",
-      "priority": "warning",
-      "title": "USD/CAD — Energy Terms of Trade + Retail Divergence",
-      "text": "USD/CAD trades at 1.4125, holding below its SMA20 at 1.4188 while above its SMA50 at 1.3997. WTI holding at $99.0/bbl on Middle East shipping risk supports the Canadian dollar, even as Fed 4.00% vs BoC 2.25% maintains a +175bp nominal carry advantage for USD (+162bp on OIS SOFR-CORRA). CFTC positioning shows leveraged funds net short CAD by -89,659 contracts (15th percentile 52w, z -1.32), yet retail traders are 87% short USD/CAD, establishing a sharp positioning divergence against institutional shorts. The pair's 25d risk reversal sits at +0.18, reflecting neutral options pricing despite elevated headline risk. Downside pressure on the pair builds while crude trades near triple digits. Trade bias: Bearish USD/CAD; crude strength limits upside despite the US carry advantage. Catalyst: Canada CPI and BoC Business Outlook Survey on 19 Oct. Risk: Core inflation decelerates sharply, solidifying Bank of Canada easing expectations and triggering institutional short-covering.",
+      "time": "23:55",
+      "priority": "critical",
+      "title": "USD/JPY — Carry Support vs Downside Options Skew",
+      "text": "USD/JPY trades at 157.83, holding above its SMA20 at 157.91 and SMA50 at 157.71 while capped beneath the 200-day moving average at 158.55. Fed policy at 4.00% versus BoJ at 1.25% yields a 275bp policy spread, complemented by an overnight SOFR-TONA OIS carry differential of +266bp supporting USD long holds. However, 25-delta risk reversals print at −1.91 for the 1-month tenor, reflecting aggressive institutional demand for JPY call protection against intervention or equity contagion. CFTC Leveraged Funds hold a net short JPY position of −37,820 contracts at the 88th percentile of their 52-week range, indicating carry positioning remains crowded despite a −7,441 contract WoW reduction. With VIX at 20.0 indicating normal volatility, broad safe-haven flight is contained, leaving the downside skew primarily reflective of policy barrier sensitivity near 160.00. Trade bias: Range USD/JPY; carry persistence competes with heavy downside option hedging. Catalyst: Japan Adjusted Trade Balance at 23:50 UTC. Risk: A breach above 160.00 prompts direct MoF intervention, triggering disorderly long covering.",
       "evidence": [
-        "Retail USD/CAD: 13% long / 87% short",
-        "CAD COT LF net: -89,659 (pctl 15)",
-        "WTI Oil: $99.0"
+        "USD/JPY: 157.83",
+        "Fed 4.00% vs BoJ 1.25% — 275bp",
+        "USDJPY 25d RR: -1.91"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:52",
+      "time": "23:52",
       "priority": "warning",
-      "title": "EUR/USD — Elevated Vol Premium + Crowded Spec Short",
-      "text": "EUR/USD trades at 1.1201, positioned below its SMA20 (1.1287), SMA50 (1.1472), and SMA200 (1.1590). ATM implied volatility runs at 6.1% against 30-day realized volatility of 4.1%, generating a +2.1% vol risk premium that signals elevated downside hedging demand. CFTC data confirms speculative positioning is stretched, with leveraged funds net short EUR by -92,833 contracts (pctl 4, z -1.78), showing heavy crowd exposure. Meanwhile, Fed 4.00% vs ECB 2.65% maintains a 135bp nominal policy rate spread in favor of USD (+145bp on OIS SOFR-ESTR basis). With the US 2s10s curve in a bear steepener regime at +32.8bp, structural rate divergence continues to cap spot rallies. Trade bias: Bearish EUR/USD; high hedging demand and restrictive US carry limit corrective upside. Catalyst: ECB meeting 29 Oct. Risk: Leveraged funds trigger a short squeeze on euro-area data stabilization, driving spot above the SMA20 at 1.1287.",
+      "title": "EUR/USD — Crowded Spec Short + Vol Hedging Premium",
+      "text": "EUR/USD sits at 1.1225, pinned below its SMA20 at 1.1287, SMA50 at 1.1472, and SMA200 at 1.1588. Fed at 4.00% versus ECB at 2.65% maintains a 135bp rate spread favoring USD, while the SOFR-€STR OIS basis trades at +145bp. CFTC data shows institutional speculative positioning heavily compressed, with Leveraged Funds net short −92,833 contracts at the 4th percentile of the 52-week range with a z-score of −1.78, following a −8,058 contract WoW drop. In options, 1-month ATM implied volatility runs at 6.1% against 30-day realized volatility of 4.1%, generating an elevated Vol Risk Premium of +2.0% that signals defensive downside hedging. While German unemployment change posted a +2.96σ adverse shock, the crowded speculative short profile leaves the pair vulnerable to sharp short-covering bounces on any macroeconomic surprise. Trade bias: Bearish EUR/USD; structural carry deficit weighs against crowded short positioning. Catalyst: Germany ZEW Economic Sentiment at 09:05 UTC. Risk: Leveraged funds cover short positions aggressively, forcing a technical reclaim above the SMA20 at 1.1287.",
       "evidence": [
-        "EUR/USD VRP: +2.1% (IV 6.1% vs HV30 4.1%)",
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR/USD VRP: +2.0% (IV 6.1% vs HV30 4.1%)",
         "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "20:46",
-      "priority": "info",
-      "title": "USD/JPY — Options Downside Skew vs Carry",
-      "text": "USD/JPY trades at 157.91, holding above its SMA20 at 157.91 and SMA50 at 157.71 while below the SMA200 at 158.51. The options market displays sharp asymmetry, with 1M 25-delta risk reversals printing at -1.91, marking strong downside put demand. Leveraged funds hold a net short JPY position of -37,820 contracts (pctl 88, z +1.08), reflecting heavy reliance on the Fed 4.00% vs BoJ 1.25% carry spread (+275bp nominal, +266bp on OIS). With VIX at 20.0 (normal volatility), carry remains supportive in spot, but downside options hedging indicates acute market wariness as spot trades near the 160.00 intervention watch level. Trade bias: Neutral USD/JPY; spot carry bid constrained by heavy downside options hedging. Catalyst: Japan Tertiary Industry Activity Index at 04:30 UTC on 19 Oct. Risk: A break above the SMA200 at 158.51 triggers momentum buying toward 160.00, forcing options put skew to soften.",
+      "time": "23:48",
+      "priority": "warning",
+      "title": "USD/CAD — Energy Terms of Trade vs Inflation Event Risk",
+      "text": "USD/CAD trades at 1.4122, testing immediate support below the SMA20 at 1.4188 while remaining positioned above the SMA50 at 1.3997 and SMA200 at 1.3876. The Fed-BoC policy differential stands at 175bp with Fed at 4.00% and BoC at 2.25%, generating a +162bp SOFR-CORRA OIS carry buffer for the US dollar. WTI crude oil at $97.9/bbl amidst Persian Gulf tanker transit risks provides CAD terms-of-trade backing, aligning with CAD's +0.637% 1-week gain across G10 peers. Leveraged Funds hold CAD net short at −89,659 contracts (15th percentile, z-score −1.32), while retail traders register an extreme 86% short exposure on USD/CAD, establishing conflicting positioning dynamics. The 2-year sovereign yield spread moved −7bp over 5 days to −162bp against Canada, maintaining USD monetary advantage ahead of domestic price pressures. Trade bias: Bearish USD/CAD; elevated energy prices pressure the carry floor ahead of key inflation data. Catalyst: Canada Core CPI at 12:30 UTC. Risk: Canadian Core CPI prints below the 2.1% forecast, reviving BoC dovish easing expectations.",
       "evidence": [
-        "USD/JPY 25d RR: -1.91 (strong put skew)",
-        "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "JPY COT LF net: -37,820 (pctl 88)"
+        "Fed 4.00% vs BoC 2.25% — 175bp",
+        "CAD LF net: -89,659 (pctl 15)",
+        "WTI Crude: $97.9"
       ],
       "_source": "engine-ai-primary"
     }
