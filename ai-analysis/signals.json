@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-19T18:50:51Z",
+  "generated_at": "2026-10-19T21:02:24Z",
   "signals": [
     {
-      "time": "18:45",
+      "time": "20:58",
       "priority": "critical",
-      "title": "AUD/JPY — G10 Bilateral Theme + Carry Disadvantage",
-      "text": "AUD leads G10 performance over the rolling one-week window with a +0.899% average gain across 4 pairs, while JPY anchors the table at −0.598% across 7 pairs, generating an extreme bilateral spread of 1.497%. Spot AUD/JPY trades at 110.609, supported by a massive rate advantage where RBA at 4.60% vs BoJ at 1.25% delivers a +335bp carry premium (+337bp on an OIS basis via AONIA 4.60% vs TONA 1.23%). However, the broader AUD/USD macro trend remains locked in a structural downtrend below its 20-day moving average (0.6992), and JPY speculative positioning is already stretched short with CFTC leveraged funds net short −37,820 contracts (88th percentile of its 52-week range). Cross-asset risk remains stable with VIX at 18.3, allowing carry to dictate flow for now, but any sudden escalation in Strait of Hormuz maritime disruption risks a rapid unwind. Trade bias: Bullish AUD/JPY, carried by rate differential while equity volatility remains contained. Catalyst: Japan trade balance data at 23:50 UTC. Risk: Strait of Hormuz conflict escalation triggers broad cross-asset de-risking and forces carry liquidation.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Carry",
+      "text": "AUD outperforms all G10 peers over the 1W window with a +0.924% average across 4 pairs, while JPY anchors the performance table at −0.603% across 7 pairs. The resulting 1.527% leader-to-laggard spread triggers a critical bilateral theme alert. Carry divergence strongly underpins this cross-market flow: RBA cash rate at 4.60% (HIKING) vs BoJ at 1.25% (HIKING) delivers a +335bp nominal carry advantage to AUD, matched by a +337bp spread on the overnight CIP basis (AONIA 4.60% vs TONA 1.23%). AUD/JPY trades at 110.632, gaining +0.80% intraday as wide rate spreads maintain upside traction. However, the 25d risk reversal on AUD/USD at −1.10 and USD/JPY at −1.97 highlight persistent downside hedging demand against potential risk-off shocks. Trade bias: Bullish AUD/JPY; wide rate differential favors trend continuation. Catalyst: Japan trade balance data at 23:50 UTC. Risk: Escalation in Strait of Hormuz tensions spurs equity de-risking and disorderly carry unwinds.",
       "evidence": [
-        "AUD 1W avg: +0.899% (n=4)",
-        "JPY 1W avg: -0.598% (n=7)",
-        "G10 spread: 1.497%"
+        "AUD 1W avg: +0.924% (n=4)",
+        "JPY 1W avg: -0.603% (n=7)",
+        "G10 spread: 1.527%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:42",
-      "priority": "warning",
-      "title": "USD/JPY — Carry Premium vs Options Skew",
-      "text": "USD/JPY trades at 158.50, holding between its 50-day moving average at 157.71 and the 200-day moving average at 158.55 within a defined range-bound box. The pair retains strong structural support from a +275bp policy spread (Fed 4.00% vs BoJ 1.25%) and a +266bp OIS differential (SOFR 3.89% vs TONA 1.23%). However, the options market exhibits heavy defensive positioning, with the 1-month 25-delta risk reversal printing at −1.97, reflecting acute demand for downside puts to protect against policy intervention. CFTC leveraged funds remain net short JPY at −37,820 contracts (88th percentile), leaving the crowded long USD/JPY trade vulnerable if authorities step in. With spot holding below 160.00, intervention risk rises substantially on any sustained break above that threshold. Trade bias: Neutral USD/JPY, carry-support balanced against severe downside options skew. Catalyst: BoJ rate decision on 30 Oct. Risk: Sustained technical break above 160.00 prompts direct MoF intervention.",
+      "time": "20:55",
+      "priority": "critical",
+      "title": "USD/JPY — Geopolitical Risk + Downside Skew",
+      "text": "USD/JPY trades at 158.53, holding below its 200-day moving average at 158.55 and within a tight 20-session consolidation box. Multiple high-impact geopolitical headlines indicate heightened disruption risks in the Strait of Hormuz, yet the carry spread remains broad with Fed at 4.00% vs BoJ at 1.25% generating a 275bp advantage (266bp via SOFR-TONA). With VIX at 18.4 (normal volatility), carry sustains spot stability, though 160.00 remains the key level that has previously triggered Ministry of Finance intervention warnings. JPY leveraged funds hold a net short position of −37,820 contracts (pctl 88, z +1.08), reflecting sustained carry exposure. Crucially, the 25d risk reversal sits at −1.97, reflecting acute demand for downside puts to hedge intervention and regional escalation tail risks. Trade bias: Neutral USD/JPY; wide carry premium conflicts with elevated tail-risk hedging. Catalyst: BoJ rate decision on 30 Oct. Risk: Spot penetration above 160.00 triggers official intervention operations.",
       "evidence": [
-        "USD/JPY 25d RR: -1.97 (Saxo, 1M tenor)",
         "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "JPY COT LF net: -37,820 (pctl 88)"
+        "USD/JPY 25d RR: -1.97",
+        "VIX: 18.4 (normal volatility)"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:38",
+      "time": "20:52",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Speculative Short + Elevated Vol Premium",
-      "text": "EUR/USD trades at 1.1216, positioned below its SMA20 (1.1287), SMA50 (1.1472), and SMA200 (1.1588) inside an established macro downtrend. CFTC leveraged funds hold a heavily crowded net short position of −92,833 contracts, sitting at the 4th percentile of its 52-week range (z-score −1.78) following a WoW expansion of −8,058 contracts. At the same time, options markets price elevated tail risk: 1-month ATM implied volatility sits at 6.6% against 30-day realized volatility of 4.1%, generating a notable +2.5% volatility risk premium. While the Fed 4.00% vs ECB 2.65% policy spread (+135bp favoring USD; +145bp on OIS) structurally suppresses EUR upside, the extreme speculative short exposure leaves the pair prone to aggressive short-covering rallies if US data softens. Trade bias: Bearish EUR/USD on macro carry, constrained by positioning squeeze risk. Catalyst: ECB President Lagarde speech on 20 Oct. Risk: Leveraged funds cover short positions on a daily close above the 20-day SMA at 1.1287.",
+      "title": "EUR/USD — Positioning Exhaustion + Vol Premium",
+      "text": "EUR/USD trades at 1.1213, positioned below its SMA20 (1.1287), SMA50 (1.1472), and SMA200 (1.1588) inside an ongoing downtrend structure. Leveraged funds hold net short EUR positioning of −92,833 contracts, sitting at the 4th percentile of the 52-week range (z −1.78) after expanding net shorts by −8,058 WoW and −41,478 over 4W. Concurrently, options markets show an elevated vol risk premium: 1M ATM implied vol runs at 6.6% against a 30-day realized volatility of 4.1%, generating a +2.5% VRP. Fed policy at 4.00% vs ECB at 2.65% maintains a 135bp carry advantage favoring the dollar (145bp via SOFR-€STR). Stretched short positioning alongside elevated options hedging suggests that while macro drivers lean dollar-positive, downward momentum faces crowding limits. Trade bias: Bearish EUR/USD; structural carry favors USD while extreme short crowding slows extension. Catalyst: ECB President Lagarde speech on 20 Oct. Risk: Rebound above SMA20 at 1.1287 forces leveraged short covering.",
       "evidence": [
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR LF net: -92,833 (pctl 4, z -1.78)",
         "EUR/USD VRP: +2.5% (IV 6.6% vs HV30 4.1%)",
         "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "18:33",
-      "priority": "info",
-      "title": "USD/CAD — Short-Term Technical Reversal + Retail Divergence",
-      "text": "USD/CAD trades at 1.4107, slipping below its 20-day moving average at 1.4188 while holding above the 50-day average at 1.3997, confirming short-term reversal pressure against the broader uptrend after closing below its prior 10-day low. The move follows Canada's core CPI printing at 2.2% year-over-year alongside Q3 BoC Business Outlook Survey improvements. Speculative positioning remains stretched with CFTC leveraged funds holding net short CAD at −89,659 contracts (15th percentile), yet retail traders are heavily fading the move with 74% short positioning on Retail sentiment data. Although the Fed 4.00% vs BoC 2.25% policy rate spread (+175bp favoring USD) underpins the medium-term carry profile, the combination of technical exhaustion and institutional short-covering sets up near-term consolidation toward the 50-day average. Trade bias: Bearish USD/CAD in the short term, looking for mean reversion toward dynamic support. Catalyst: Bank of Canada interest rate decision on 28 Oct. Risk: Daily close back above the 20-day SMA at 1.4188 invalidates the pullback structure.",
+      "time": "20:48",
+      "priority": "warning",
+      "title": "NZD/USD — Positioning vs Retail Divergence",
+      "text": "NZD/USD trades at 0.5664, holding just above its 20-day moving average at 0.5637 while remaining capped under its SMA50 at 0.5777. CFTC data shows institutional leveraged funds net short −11,802 contracts after heavy net selling of −10,588 contracts WoW. In direct contrast, Retail sentiment data retail sentiment registers an extreme 87% long exposure against 13% short, creating a sharp institutional-versus-retail positioning divergence. Macro yield fundamentals support the institutional bias: the Fed at 4.00% (hiking bias) vs RBNZ at 2.75% maintains a 125bp nominal rate spread favoring USD. Furthermore, New Zealand's Economic Surprise Index stands at −7.4, indicating deteriorating macroeconomic data relative to consensus. Trade bias: Bearish NZD/USD; contrarian retail extreme long exposes spot to capitulation selling. Catalyst: RBNZ policy decision on 28 Oct. Risk: Daily close above SMA50 at 0.5777 triggers institutional short unwinds.",
       "evidence": [
-        "USD/CAD SMA cluster: SMA20 1.4188 vs spot 1.4107",
-        "CAD COT LF net: -89,659 (pctl 15)",
-        "Fed 4.00% vs BoC 2.25% — 175bp"
+        "NZD retail sentiment: 87% long",
+        "NZD LF net: -11,802 (WoW -10,588)",
+        "Fed 4.00% vs RBNZ 2.75% — 125bp"
       ],
       "_source": "engine-ai-primary"
     }
