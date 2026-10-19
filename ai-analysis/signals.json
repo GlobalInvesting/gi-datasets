@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-19T07:02:17Z",
+  "generated_at": "2026-10-19T12:00:56Z",
   "signals": [
     {
-      "time": "07:01",
+      "time": "12:00",
       "priority": "critical",
-      "title": "USD/JPY — Options Downside Hedging vs Carry",
-      "text": "USD/JPY trades at 157.96, consolidating just above its SMA20 and SMA50 at 157.91 and 157.71 while capped below the SMA200 at 158.51. The 25d risk reversal sits at -1.91, marking a severe put skew as the options market pays up aggressively for downside protection despite the spot rate holding firm. CFTC data shows leveraged funds net short JPY by -37,820 contracts (pctl 88, z +1.08), reflecting heavy speculative carry participation. A 275bp Fed-BoJ policy rate spread (Fed 4.00% vs BoJ 1.25%) supports the pair on paper, but BoJ Governor Ueda's warning that delayed hikes risk lifting yields reinforces downside sensitivity. The heavy options put skew indicates institutional hedging against a sharp carry unwind should spot fail to sustain momentum toward 160.00. Trade bias: Neutral USD/JPY; options skew flags elevated asymmetric downside risk. Catalyst: BoJ policy decision on 30 Oct. Risk: Spot clears the SMA200 at 158.51, triggering a squeeze on downside options hedges.",
+      "title": "AUD/USD — G10 Bilateral Theme + Carry Disadvantage",
+      "text": "AUD/USD spot trades at 0.6992, testing its declining SMA20 at 0.6992 while remaining below the SMA50/200 cluster at 0.7083/0.7046 within an intact wider downtrend. In the G10 Currency Strength Scorecard over 1W, AUD leads the board with +0.903% across 4 pairs while USD lags at −0.573% across 9 pairs, generating a 1.477% bilateral spread that clears the strong-theme threshold. This spot strength occurs despite an active policy divergence where the Fed policy rate sits at 4.00% against the RBA at 4.6%, yielding a 71bp OIS carry advantage for AUD (AONIA 4.60% vs SOFR 3.89%), while COT data shows spec positioning is already net long +44,978 contracts (pctl 54, z +0.38) with momentum stalling after a WoW drop of 3,933 contracts. The move reflects short-term dollar weakness rather than clean structural trend confirmation, leaving topside progress vulnerable around the moving average band. Trade bias: Neutral/range AUD/USD; bilateral outperformance challenges structural overhead resistance. Catalyst: Fed meeting 28 Oct — hike bias priced. Risk: Sustained close above the SMA200 at 0.7046 invalidates the prevailing technical downtrend structure.",
       "evidence": [
-        "USD/JPY 25d RR: -1.91 (strong put skew)",
-        "Fed 4.00% vs BoJ 1.25% — 275bp",
-        "JPY COT LF net: -37,820 (pctl 88)"
+        "AUD 1W avg: +0.903% (n=4)",
+        "USD 1W avg: -0.573% (n=9)",
+        "G10 spread: 1.477%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:57",
+      "time": "11:56",
       "priority": "warning",
-      "title": "AUD/USD — G10 Bilateral Theme + Carry Advantage",
-      "text": "AUD/USD trades at 0.6980, testing resistance near its SMA20 of 0.6992 within a broader technical downtrend below the SMA200 at 0.7044. On the G10 Currency Strength Scorecard, AUD leads the board with a 1W average gain of +0.676% across 4 pairs, while USD lags at -0.497% across 9 pairs, generating an active bilateral spread of 1.174%. The move is underpinned by RBA policy at 4.60% against the Fed at 4.00%, delivering a 60bp nominal carry advantage to AUD alongside support from China Q3 GDP beating expectations at 4.5%. However, leveraged funds hold +44,978 net long contracts (long% 67.9%), while RBA Assistant Governor Kent's recent comments questioning policy restrictiveness suggest domestic easing concerns are emerging. Trade bias: Bullish AUD/USD; bilateral outperformance and carry support momentum into moving average resistance. Catalyst: RBA meeting on 3 Nov — hold expected. Risk: A daily close below the recent low invalidates the near-term recovery structure.",
+      "title": "USD/JPY — Options Downside Skew vs Carry",
+      "text": "USD/JPY trades at 158.16, holding above the SMA20 and SMA50 at 157.91 and 157.71 while capped beneath the SMA200 at 158.55 within a defined 20-session consolidation box. The 25-delta risk reversal sits at an extreme −1.91 put skew (Saxo Bank, 1M tenor, indicative mid), showing institutional demand paying heavily for dollar downside and yen call protection. This defensive options posture directly contradicts spec positioning in the CFTC data, where leveraged funds hold a crowded net short JPY position of −37,820 contracts (pctl 88, z +1.08), alongside an underlying carry cushion of +266bp favoring the dollar (SOFR 3.89% vs TONA 1.23%). With VIX at 18.9 reflecting normal volatility, carry dynamics structurally support the pair, but the aggressive options skew signals acute sensitivity to intervention or policy shifts as spot trades near 158.00. Trade bias: Neutral USD/JPY; sharp put skew conflicts with underlying carry advantage. Catalyst: BoJ meeting 30 Oct — hold expected. Risk: Daily close below SMA50 at 157.71 triggers an accelerated squeeze of spec JPY shorts.",
       "evidence": [
-        "AUD 1W avg: +0.676% (n=4)",
-        "USD 1W avg: -0.497% (n=9)",
-        "G10 spread: 1.174%"
+        "25d RR (USD/JPY): -1.91 (1M Saxo)",
+        "JPY COT LF net: -37,820 (pctl 88)",
+        "Fed 4.0% vs BoJ 1.25% — 275bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:53",
+      "time": "11:53",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Volatility Premium",
-      "text": "EUR/USD trades at 1.1227, sitting below its moving-average cluster of SMA20 at 1.1287, SMA50 at 1.1472, and SMA200 at 1.1590. Leveraged funds maintain an extreme net short position of -92,833 contracts, sitting at the 4th percentile of its 52-week range (z -1.78) after a WoW net drop of -8,058 contracts. Options markets reflect heightened stress, with 1M ATM implied volatility at 6.1% against 30-day realized volatility of 4.1%, driving a notable volatility risk premium of +2.0%. While the Fed 4.00% vs ECB 2.65% spread provides a 135bp carry advantage to the dollar, geopolitical friction and extreme institutional short positioning create vulnerability to an aggressive short-squeeze. Trade bias: Bearish EUR/USD; macro carry favors the dollar while positioning warns of squeeze vulnerability on headline relief. Catalyst: ECB meeting on 29 Oct. Risk: Spot reclaims the SMA20 at 1.1287, forcing leveraged shorts to cover into a thin liquidity environment.",
+      "title": "EUR/USD — Crowded Spec Short + Vol Premium",
+      "text": "EUR/USD trades at 1.1231, positioned beneath its falling SMA20/50/200 stack at 1.1287, 1.1472, and 1.1588 in an established macro downtrend. CFTC speculative positioning reveals an extreme crowded short in EUR, with leveraged funds holding net short −92,833 contracts at the 4th percentile of the 52-week range (z −1.78) following a 4W liquidation of 41,478 contracts. Meanwhile, EUR/USD 1M ATM implied volatility sits at 6.1% against 30-day realized volatility of 4.2%, creating an elevated vol risk premium of +2.0 percentage points. The Fed policy rate at 4.00% against the ECB at 2.65% maintains a 135bp nominal yield advantage for the dollar (+145bp via SOFR-€STR OIS), but extreme spec short positioning combined with rich downside protection leaves spot susceptible to short-covering pauses. Trade bias: Bearish EUR/USD; downside structurally favored by carry but constrained by crowded spec positioning. Catalyst: ECB meeting 29 Oct — hold expected. Risk: Recovery and sustained daily close above the SMA20 at 1.1287 invalidates near-term selling pressure.",
       "evidence": [
         "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD VRP: +2.0% (IV 6.1% vs HV30 4.1%)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "EUR/USD VRP: +2.0% (IV 6.1% vs HV30 4.2%)",
+        "Fed 4.0% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "06:48",
-      "priority": "warning",
-      "title": "USD/CAD — COT Crowding vs Domestic CPI Risk",
-      "text": "USD/CAD trades at 1.4093, slipping below its SMA20 of 1.4188 while holding above the SMA50 at 1.3997 and SMA200 at 1.3874. Leveraged funds hold CAD net short of -89,659 contracts (long% 16.0%, pctl 15, z -1.32), showing extended institutional positioning against the Canadian dollar. The Fed-BoC rate spread of 175bp (Fed 4.00% vs BoC 2.25%) provides baseline carry support for USD/CAD, but Retail sentiment data retail sentiment is heavily one-sided with 84% short the pair, aligning with institutional CAD bears. With Canada Core CPI due today at 12:30 UTC, any upside inflation surprise threatens to spark rapid short-covering among leveraged funds, challenging USD/CAD support. Trade bias: Bearish USD/CAD; technical reversal below SMA20 and crowded short CAD positioning favor downside continuation into event risk. Catalyst: Canada CPI release today at 12:30 UTC. Risk: Core CPI misses consensus and crude oil resumes its decline, reinstating the structural 175bp carry bid toward 1.4200.",
+      "time": "11:47",
+      "priority": "info",
+      "title": "GBP/USD — Reversal Structure vs OIS Carry Drag",
+      "text": "GBP/USD prints at 1.3338, trading above its SMA20 at 1.3252 while remaining capped below the SMA50/200 resistance band at 1.3419/1.3435. Daily trend structure shows early reversal characteristics, marked by a bullish engulfing expansion bar and a close exceeding the prior 10-day high. However, front-end rate differentials limit topside follow-through, with BoE policy at 3.75% versus the Fed at 4.00% maintaining a modest 25bp policy spread in USD's favor (+16bp via SOFR-SONIA OIS). Leveraged funds hold a light net long posture of +13,065 contracts (pctl 21, z −0.97) after adding 7,002 contracts WoW, while UK data shows solid domestic momentum with ESI at +8.2. Upward progress remains technical in nature and requires monetary policy validation to breach the multi-month moving average ceiling. Trade bias: Neutral/mildly bullish GBP/USD; short-term momentum capped by technical resistance. Catalyst: UK CPI release 21 Oct — 2.7% y/y forecast. Risk: Rejection below the SMA20 at 1.3252 restores broad downtrend continuity.",
       "evidence": [
-        "CAD COT LF net: -89,659 (pctl 15, z -1.32)",
-        "Fed 4.00% vs BoC 2.25% — 175bp",
-        "USD/CAD SMA20: 1.4188"
+        "GBP/USD: 1.3338 (SMA20 1.3252 vs SMA50 1.3419)",
+        "Fed 4.0% vs BoE 3.75% — 25bp",
+        "GBP COT LF net: +13,065 (pctl 21)"
       ],
       "_source": "engine-ai-primary"
     }
