@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T13:47:57Z",
+  "generatedAt": "2026-10-19T17:04:34Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 220,
+  "aliasCount": 219,
   "aliases": [
     {
       "currency": "USD",
@@ -655,21 +655,8 @@
           "actual_secondary_raw": "0.5%",
           "forecast_secondary_raw": "0.7%",
           "previous_secondary_raw": "1.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-08",
-          "forecast_primary": 0.7,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
         }
-      },
-      "yahoo_title": "Wholesale Invt(y), R MM"
+      }
     },
     {
       "currency": "USD",
@@ -4184,44 +4171,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States CB Employment Trends Index",
-      "yahoo_title": "Employment Trends*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-05",
-          "forecast_primary": 108.66,
-          "forecast_yahoo": null,
-          "actual_primary": 107.56,
-          "actual_yahoo": 107.56,
-          "previous_primary": 108.53,
-          "previous_yahoo": 108.53,
-          "actual_yahoo_raw": "107.56",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "108.53"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Wholesale Sales m/m",
-      "yahoo_title": "Wholesale Sales MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-08",
-          "forecast_primary": 0.6,
-          "forecast_yahoo": null,
-          "actual_primary": 1.8,
-          "actual_yahoo": 1.8,
-          "previous_primary": 0.8,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "1.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
       "currency": "NOK",
       "primary_title": "Norway Core CPI m/m",
       "yahoo_title": "Core Inflation MM*",
@@ -4769,6 +4718,25 @@
           "actual_yahoo_raw": "0.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States NAHB Housing Market Index",
+      "yahoo_title": "NAHB Housing Market Indx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-19",
+          "forecast_primary": 36.0,
+          "forecast_yahoo": null,
+          "actual_primary": 29.0,
+          "actual_yahoo": 29.0,
+          "previous_primary": 32.0,
+          "previous_yahoo": 32.0,
+          "actual_yahoo_raw": "29",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "32"
         }
       }
     },
