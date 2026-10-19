@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-19T12:32:42Z",
-  "generatedAt": "2026-10-19T12:32:42Z",
+  "lastUpdate": "2026-10-19T12:34:48Z",
+  "generatedAt": "2026-10-19T12:34:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3119,6 +3119,16 @@
       "std": 0.141421
     },
     "CAD/common cpi yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
+    },
+    "CAD/median cpi yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
+    },
+    "CAD/trimmed cpi yoy": {
       "n": 2,
       "mean": 0.0,
       "std": 0.141421
@@ -81161,7 +81171,7 @@
       "flag": "🇨🇦",
       "event": "Canada Median CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.9%",
       "forecast": "2.0%",
       "previous": "2.0%"
     },
@@ -81174,7 +81184,7 @@
       "flag": "🇨🇦",
       "event": "Canada Trimmed CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.8%",
       "forecast": "1.9%",
       "previous": "1.9%"
     },
