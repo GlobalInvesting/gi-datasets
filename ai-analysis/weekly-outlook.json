@@ -1,293 +1,238 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-12T00:07:44Z",
-  "week_of": "2026-10-12",
+  "generated_at": "2026-10-19T00:08:40Z",
+  "week_of": "2026-10-19",
   "ai_complete": true,
   "view": {
-    "headline": "Mixed G10 performance against the USD ahead of JPY BoJ L Money Stock y/y",
-    "summary": "The US dollar index closed at 102.23 (+0.30% over 1W), sitting 96% of the way up its 52-week range of 95.55 to 102.53, while the terminal Risk Monitor sits in a NEUTRAL regime at +0.36σ with stress led by Rates Vol (+1.56σ) and Credit (+1.20σ, with HY OAS at 315bp as of 2026-10-08). Cross-asset divergence remains pronounced as the MOVE index registers in the 94th percentile of its own trailing year while the VIX sits in the 8th percentile, describing bond market volatility pricing stress while equity volatility stays calm. The week is framed by US CPI on 14 October alongside the BoJ L Money Stock on 13 October, UK GDP on 15 October, and a speech from BoE Governor Bailey and euro area CPI on 16 October. Stronger US consumer price prints and elevated rate volatility would reinforce dollar firmness in the upper quintile of its annual range, whereas downside US inflation surprises paired with compressed credit spreads would reverse the greenback's upward momentum.",
+    "headline": "Mixed G10 performance against the USD ahead of GBP CPI y/y",
+    "summary": "The US dollar eased over the week with DXY down -0.44% to 101.78, placing it 84% of the way up its 52-week range between 95.55 and 102.94, amid broader risk consolidation as the terminal Risk Monitor remained NEUTRAL at +0.82σ with stress led by Rates Vol (+1.89σ) and Credit (+1.64σ with HY OAS at 323bp as of 2026-10-15). G10 performance was led by commodity currencies, notably NOK (+1.45%), while AUD lagged (-0.55%) and OIS pricing for the 28 Oct RBNZ meeting shifted from 58% to 71% for a rate hike (+18bp expected). The upcoming calendar focuses on UK CPI and a speech by BoE Governor Bailey on 21 Oct, alongside US Initial Jobless Claims on 22 Oct ahead of the 28 Oct FOMC meeting where OIS prices a 53% hike probability (+12bp expected). A sustained hold above technical support clusters alongside firming front-end yields would reinforce the prevailing dollar consolidation, whereas downside momentum below recent moving averages would invalidate it.",
     "source": "engine-ai-primary"
   },
   "order": [
-    "GBP/CHF",
-    "USD/JPY",
-    "GBP/JPY"
+    "USD/CHF",
+    "AUD/CHF",
+    "EUR/AUD"
   ],
   "universe": [
-    "GBP/CHF",
-    "USD/JPY",
-    "GBP/JPY"
+    "USD/CHF",
+    "AUD/CHF",
+    "EUR/AUD"
   ],
   "pairs": {
-    "GBP/CHF": {
-      "paragraph": "GBP/CHF remains in focus with GBP and CHF leveraged-fund positioning both at the 8th percentile, a technical alignment change versus last week, and a 377bp OIS carry advantage favouring GBP. The pair closed at 1.0985 (+0.16% over 1W) and trades above its SMA50 of 1.0964 and SMA200 of 1.0706, but below its SMA20 of 1.0998. The terminal fair-value model posts a z-score of -0.97, with spot within one standard deviation of the model estimate. Leveraged funds are 52.8% long GBP (up from 47.6% last week) and 30.0% long CHF (up from 27.2%), while asset managers sit net short GBP at the 8th percentile and 25.5% long CHF at the 79th percentile. Ahead of UK monthly GDP on 15 October and a speech from BoE Governor Bailey on 16 October, a breach above SMA20 resistance at 1.0998 would reinforce upward momentum toward the 20D high at 1.1104, while a break below SMA50 support at 1.0964 would shift technical structure toward the 20D low at 1.0889.",
+    "USD/CHF": {
+      "paragraph": "USD/CHF is in focus following a -0.77% 1W decline to 0.8236, with technical alignment shifting to below the SMA20 (0.8295) while remaining above the SMA50 (0.8181) and SMA200 (0.7975). The OIS overnight carry differential stands at 393bp in favour of USD. CHF leveraged-fund long positioning fell from 30.0% to 27.1%, sitting at the 4th percentile of its 52-week range, while asset managers sit on the opposite side at the 98th percentile (29.5% long). Descriptively, the US 5Y yield closed at 4.91% on 2026-10-15, where the 5D nominal move of -12bp reflected -8bp in real yield and -4bp in breakeven inflation. A close above SMA20 resistance at 0.8295 would reinforce the broader carry setup, while a drop through SMA50 support at 0.8181 would invalidate it.",
       "source": "engine-ai-primary",
-      "updated": "2026-10-12T00:07:44Z",
-      "close": 1.0985,
-      "asof": "2026-10-09",
-      "week_pct": 0.16,
+      "updated": "2026-10-19T00:08:40Z",
+      "close": 0.8236,
+      "asof": "2026-10-16",
+      "week_pct": -0.77,
       "stance": "Above SMA50/200 · Below SMA20",
       "bias": "Mixed",
       "resistance": [
         {
           "label": "SMA20",
-          "value": 1.0998
+          "value": 0.8295
         },
         {
           "label": "20D high / 52W high",
-          "value": 1.1104
+          "value": 0.8395
         }
       ],
       "support": [
-        {
-          "label": "SMA50",
-          "value": 1.0964
-        },
         {
           "label": "20D low",
-          "value": 1.0889
-        }
-      ],
-      "carry_bp": 377,
-      "spread_2y": {
-        "bp": 453,
-        "chg_bp": 7,
-        "sessions": 20,
-        "asof": "2026-10-09"
-      },
-      "hv_20d": 5.8,
-      "iv_1m": null,
-      "rr_25d": null,
-      "valuation": {
-        "z": -0.97,
-        "zone": "within",
-        "fit": "Solid",
-        "fair_value": 1.1021,
-        "asof": "2026-10-10"
-      },
-      "vol_profile": null,
-      "reasons": [
-        "GBP leveraged-fund positioning at 8th percentile",
-        "CHF leveraged-fund positioning at 8th percentile",
-        "technical alignment changed vs last week",
-        "OIS carry gap 377bp"
-      ],
-      "deltas": [
-        "technical alignment changed from above_sma20_above_sma50_above_sma200 to below_sma20_above_sma50_above_sma200",
-        "GBP leveraged-fund long% moved from 47.6% to 52.8%",
-        "CHF leveraged-fund long% moved from 27.2% to 30.0%"
-      ],
-      "events": [
-        {
-          "date": "2026-10-15",
-          "time": "06:00",
-          "ccy": "GBP",
-          "event": "GDP m/m",
-          "forecast": "0.0%",
-          "previous": "-0.1%",
-          "impact": "high"
+          "value": 0.8183
         },
-        {
-          "date": "2026-10-16",
-          "time": "02:00",
-          "ccy": "GBP",
-          "event": "BoE Governor Bailey Speech",
-          "forecast": null,
-          "previous": null,
-          "impact": "high"
-        }
-      ],
-      "meetings": []
-    },
-    "USD/JPY": {
-      "paragraph": "USD/JPY is in focus up +0.30% over 1W to close at 158.250, testing its SMA200 resistance of 158.520 while holding above its SMA50 of 157.670 and SMA20 of 157.270. Overnight OIS carry provides a 264bp buffer favouring USD. The US 5Y yield decomposition shows nominal yields up +24bp over 20 days, split between real yields at +33bp and breakevens at -9bp, indicating a real-yield-led move. JPY leveraged-fund positioning sits at the 90th percentile, with long exposure falling from 45.0% to 40.1% on the week, while asset managers sit net long at the 83rd percentile. Terminal fair-value model z-score stands at -0.11, within one standard deviation of the model estimate. Ahead of US CPI on 14 October, a push through SMA200 resistance at 158.520 would validate technical continuation toward the 20D high of 159.036, while rejection beneath SMA50 support at 157.670 would open downside toward SMA20 support at 157.270.",
-      "source": "engine-ai-primary",
-      "updated": "2026-10-12T00:07:44Z",
-      "close": 158.25,
-      "asof": "2026-10-09",
-      "week_pct": 0.3,
-      "stance": "Above SMA20/50 · Below SMA200",
-      "bias": "Mixed",
-      "resistance": [
-        {
-          "label": "SMA200",
-          "value": 158.52
-        },
-        {
-          "label": "20D high",
-          "value": 159.036
-        }
-      ],
-      "support": [
         {
           "label": "SMA50",
-          "value": 157.67
-        },
-        {
-          "label": "SMA20",
-          "value": 157.27
+          "value": 0.8181
         }
       ],
-      "carry_bp": 264,
+      "carry_bp": 393,
       "spread_2y": {
-        "bp": 285,
-        "chg_bp": 30,
+        "bp": 460,
+        "chg_bp": 34,
         "sessions": 20,
-        "asof": "2026-10-09"
+        "asof": "2026-10-16"
       },
       "hv_20d": 6.1,
-      "iv_1m": 7.65,
-      "rr_25d": -1.88,
+      "iv_1m": 6.97,
+      "rr_25d": -0.74,
       "valuation": {
-        "z": -0.11,
+        "z": 0.1,
         "zone": "within",
         "fit": "Solid",
-        "fair_value": 158.492,
-        "asof": "2026-10-10"
+        "fair_value": 0.8231,
+        "asof": "2026-10-17"
       },
       "vol_profile": {
         "iv_term": {
-          "1W": 6.29,
-          "1M": 7.65,
-          "3M": 7.83,
-          "6M": 8.24,
-          "1Y": 8.61
+          "1W": 7.09,
+          "1M": 6.97,
+          "3M": 6.83,
+          "6M": 7.11,
+          "1Y": 7.48
         },
         "rr_term": {
-          "1W": -1.61,
-          "1M": -1.88,
-          "3M": -1.7,
-          "1Y": -0.59
+          "1W": -0.76,
+          "1M": -0.74,
+          "3M": -0.73,
+          "1Y": -0.81
         },
-        "iv_slope_1m_1y": 0.96,
-        "iv_minus_hv": 1.6,
-        "rr_slope_1m_3m": 0.18
+        "iv_slope_1m_1y": 0.51,
+        "iv_minus_hv": 0.9,
+        "rr_slope_1m_3m": 0.01
       },
       "reasons": [
-        "1W +0.30%",
-        "JPY leveraged-fund positioning at 90th percentile",
-        "testing SMA200",
-        "OIS carry gap 264bp"
+        "1W -0.77%",
+        "CHF leveraged-fund positioning at 4th percentile",
+        "technical alignment changed vs last week",
+        "OIS carry gap 393bp"
       ],
       "deltas": [
-        "JPY leveraged-fund long% moved from 45.0% to 40.1%"
+        "technical alignment changed from above_sma20_above_sma50_above_sma200 to below_sma20_above_sma50_above_sma200",
+        "CHF leveraged-fund long% moved from 30.0% to 27.1%"
       ],
       "events": [
         {
-          "date": "2026-10-14",
-          "time": "12:30",
+          "date": "2026-10-21",
+          "time": "14:30",
           "ccy": "USD",
-          "event": "CPI m/m",
-          "forecast": "0.6%",
-          "previous": "0.4%",
+          "event": "EIA Crude Oil Stocks Change",
+          "forecast": "-4.804M",
+          "previous": "-8.557M",
           "impact": "high"
         },
         {
-          "date": "2026-10-14",
+          "date": "2026-10-22",
           "time": "12:30",
           "ccy": "USD",
-          "event": "Core CPI m/m",
-          "forecast": "0.2%",
-          "previous": "0.3%",
-          "impact": "high"
-        },
-        {
-          "date": "2026-10-14",
-          "time": "12:30",
-          "ccy": "USD",
-          "event": "CPI y/y",
-          "forecast": "3.5%",
-          "previous": "3.4%",
+          "event": "Initial Jobless Claims",
+          "forecast": "198K",
+          "previous": "199K",
           "impact": "high"
         }
       ],
       "meetings": []
     },
-    "GBP/JPY": {
-      "paragraph": "GBP/JPY trades into focus with GBP leveraged funds at the 8th percentile, JPY leveraged funds at the 90th percentile, and an overnight OIS carry gap of 251bp favouring GBP. Spot closed at 209.460 (+0.24% over 1W), holding above its SMA20 of 209.076 but below its SMA50 of 211.876 and SMA200 of 213.010. OIS markets price a 93% hike (+23bp expected) for the Bank of England's 5 November meeting, while terminal fair-value model z-score registers at -1.03, where spot trades more than one standard deviation below the model estimate. Positioning reflects asset managers sitting net short GBP and net long JPY, opposing leveraged funds who are net long GBP and net short JPY. Ahead of BoJ money stock data on 13 October, UK GDP on 15 October, and Governor Bailey's speech on 16 October, holding above SMA20 support at 209.076 targets 20D high resistance at 211.278, while a drop below 209.076 exposes the 20D low at 206.872.",
+    "AUD/CHF": {
+      "paragraph": "AUD/CHF is in focus after falling -1.25% over 1W to 0.5723, with its technical alignment moving below both the SMA20 (0.5797) and SMA50 (0.5791) while holding above the SMA200 (0.5616). The OIS overnight carry differential provides 464bp in favour of AUD, supported by a 4.60% overnight rate against CHF at -0.04%. Positioning reveals institutional divergence: leveraged funds reduced AUD longs from 70.3% to 67.9% (54th percentile) while remaining net short CHF (27.1% long, 4th percentile), whereas asset managers are net short AUD at the 2nd percentile (29.6% long) and hold CHF at the 98th percentile. Reclaiming resistance at SMA50 0.5791 would reinforce the yield-advantage backdrop, whereas a break below the 20D low support at 0.5698 would invalidate the multi-month technical floor.",
       "source": "engine-ai-primary",
-      "updated": "2026-10-12T00:07:44Z",
-      "close": 209.46,
-      "asof": "2026-10-09",
-      "week_pct": 0.24,
+      "updated": "2026-10-19T00:08:40Z",
+      "close": 0.5723,
+      "asof": "2026-10-16",
+      "week_pct": -1.25,
+      "stance": "Above SMA200 · Below SMA20/50",
+      "bias": "Mixed",
+      "resistance": [
+        {
+          "label": "SMA50",
+          "value": 0.5791
+        },
+        {
+          "label": "SMA20",
+          "value": 0.5797
+        }
+      ],
+      "support": [
+        {
+          "label": "20D low",
+          "value": 0.5698
+        },
+        {
+          "label": "SMA200",
+          "value": 0.5616
+        }
+      ],
+      "carry_bp": 464,
+      "spread_2y": {
+        "bp": 465,
+        "chg_bp": 5,
+        "sessions": 20,
+        "asof": "2026-10-16"
+      },
+      "hv_20d": 7.7,
+      "iv_1m": null,
+      "rr_25d": null,
+      "valuation": {
+        "z": -0.83,
+        "zone": "within",
+        "fit": "Solid",
+        "fair_value": 0.5755,
+        "asof": "2026-10-17"
+      },
+      "vol_profile": null,
+      "reasons": [
+        "1W -1.25%",
+        "CHF leveraged-fund positioning at 4th percentile",
+        "technical alignment changed vs last week",
+        "OIS carry gap 464bp"
+      ],
+      "deltas": [
+        "technical alignment changed from below_sma20_above_sma50_above_sma200 to below_sma20_below_sma50_above_sma200",
+        "AUD leveraged-fund long% moved from 70.3% to 67.9%",
+        "CHF leveraged-fund long% moved from 30.0% to 27.1%"
+      ],
+      "events": [],
+      "meetings": []
+    },
+    "EUR/AUD": {
+      "paragraph": "EUR/AUD is in focus following a +0.94% 1W advance to 1.6179, with technical alignment shifting above the SMA20 (1.6136) while staying below the SMA50 (1.6192) and SMA200 (1.6443). The OIS overnight carry differential sits at 216bp in favour of AUD. On rates and positioning, EUR overnight OIS stands at 2.44% ahead of the 29 Oct meeting, with leveraged funds holding EUR at the 4th percentile (33.3% long) while asset managers are net long at the 2nd percentile (63.1% long); conversely, leveraged funds hold AUD at 67.9% long while asset managers sit net short at 29.6% long. A break above SMA50 resistance at 1.6192 would reinforce the cross's technical rebound, whereas slipping back below SMA20 support at 1.6136 would invalidate the recovery.",
+      "source": "engine-ai-primary",
+      "updated": "2026-10-19T00:08:40Z",
+      "close": 1.6179,
+      "asof": "2026-10-16",
+      "week_pct": 0.94,
       "stance": "Above SMA20 · Below SMA50/200",
       "bias": "Mixed",
       "resistance": [
         {
-          "label": "20D high",
-          "value": 211.278
+          "label": "SMA50",
+          "value": 1.6192
         },
         {
-          "label": "SMA50",
-          "value": 211.876
+          "label": "20D high",
+          "value": 1.6335
         }
       ],
       "support": [
         {
           "label": "SMA20",
-          "value": 209.076
+          "value": 1.6136
         },
         {
-          "label": "20D low",
-          "value": 206.872
+          "label": "20D low / 52W low",
+          "value": 1.5953
         }
       ],
-      "carry_bp": 251,
+      "carry_bp": -216,
       "spread_2y": {
-        "bp": 283,
-        "chg_bp": 8,
+        "bp": -179,
+        "chg_bp": -9,
         "sessions": 20,
-        "asof": "2026-10-09"
+        "asof": "2026-10-16"
       },
-      "hv_20d": 5.9,
+      "hv_20d": 6.5,
       "iv_1m": null,
       "rr_25d": null,
       "valuation": {
-        "z": -1.03,
-        "zone": "below",
+        "z": -0.6,
+        "zone": "within",
         "fit": "Solid",
-        "fair_value": 212.743,
-        "asof": "2026-10-10"
+        "fair_value": 1.6206,
+        "asof": "2026-10-17"
       },
       "vol_profile": null,
       "reasons": [
-        "GBP leveraged-fund positioning at 8th percentile",
-        "JPY leveraged-fund positioning at 90th percentile",
-        "OIS carry gap 251bp"
+        "1W +0.94%",
+        "EUR leveraged-fund positioning at 4th percentile",
+        "technical alignment changed vs last week"
       ],
       "deltas": [
-        "GBP leveraged-fund long% moved from 47.6% to 52.8%",
-        "JPY leveraged-fund long% moved from 45.0% to 40.1%"
+        "technical alignment changed from below_sma20_below_sma50_below_sma200 to above_sma20_below_sma50_below_sma200",
+        "AUD leveraged-fund long% moved from 70.3% to 67.9%"
       ],
-      "events": [
-        {
-          "date": "2026-10-13",
-          "time": "23:50",
-          "ccy": "JPY",
-          "event": "BoJ L Money Stock y/y",
-          "forecast": "4.2%",
-          "previous": "4.4%",
-          "impact": "high"
-        },
-        {
-          "date": "2026-10-15",
-          "time": "06:00",
-          "ccy": "GBP",
-          "event": "GDP m/m",
-          "forecast": "0.0%",
-          "previous": "-0.1%",
-          "impact": "high"
-        },
-        {
-          "date": "2026-10-16",
-          "time": "02:00",
-          "ccy": "GBP",
-          "event": "BoE Governor Bailey Speech",
-          "forecast": null,
-          "previous": null,
-          "impact": "high"
-        }
-      ],
+      "events": [],
       "meetings": []
     }
   },
@@ -295,85 +240,85 @@
     {
       "key": "dxy",
       "label": "DXY",
-      "level": 102.23,
-      "chg": 0.3,
+      "level": 101.78,
+      "chg": -0.44,
       "unit": "pct",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "us2y",
       "label": "US 2Y",
-      "level": 4.77,
-      "chg": -12.0,
+      "level": 4.82,
+      "chg": 3.0,
       "unit": "bp",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "us10y",
       "label": "US 10Y",
-      "level": 5.24,
-      "chg": -3.3,
+      "level": 5.1,
+      "chg": -13.3,
       "unit": "bp",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "vix",
       "label": "VIX",
-      "level": 14.84,
-      "chg": -3.07,
+      "level": 19.99,
+      "chg": 34.7,
       "unit": "pct",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "move",
       "label": "MOVE",
-      "level": 98.47,
-      "chg": -8.22,
+      "level": 101.1,
+      "chg": 0.4,
       "unit": "pct",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "spx",
       "label": "S&P 500",
-      "level": 7811.54,
-      "chg": 1.15,
+      "level": 7659.44,
+      "chg": -1.95,
       "unit": "pct",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     },
     {
       "key": "brent",
       "label": "Brent",
-      "level": 103.91,
-      "chg": 3.58,
+      "level": 108.8,
+      "chg": 2.02,
       "unit": "pct",
-      "asof": "2026-10-11"
+      "asof": "2026-10-18"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "level": 4216.3,
-      "chg": 1.3,
+      "level": 4181.1,
+      "chg": -0.83,
       "unit": "pct",
-      "asof": "2026-10-09"
+      "asof": "2026-10-16"
     }
   ],
   "dollar_anchor": {
-    "level": 102.23,
-    "asof": "2026-10-09",
+    "level": 101.78,
+    "asof": "2026-10-16",
     "range_low": 95.55,
-    "range_high": 102.53,
-    "range_pos_pct": 96,
+    "range_high": 102.94,
+    "range_pos_pct": 84,
     "zone": "upper_fifth",
-    "sma50": 100.09,
-    "sma200": 99.4,
-    "vs_sma50_pct": 2.14,
-    "vs_sma200_pct": 2.84
+    "sma50": 100.33,
+    "sma200": 99.49,
+    "vs_sma50_pct": 1.45,
+    "vs_sma200_pct": 2.3
   },
   "risk": {
     "regime": "NEUTRAL",
-    "composite": 0.36,
-    "asof": "2026-10-09",
-    "sessions_in_regime": 2,
+    "composite": 0.82,
+    "asof": "2026-10-16",
+    "sessions_in_regime": 7,
     "drivers": [
       "Rates Vol",
       "Credit"
@@ -381,184 +326,130 @@
     "blocks": [
       {
         "label": "Rates Vol",
-        "z": 1.56
+        "z": 1.89
       },
       {
         "label": "Credit",
-        "z": 1.2
-      },
-      {
-        "label": "FX Risk",
-        "z": 0.06
+        "z": 1.64
       },
       {
         "label": "Equity Vol",
-        "z": -0.61
+        "z": 0.99
+      },
+      {
+        "label": "FX Risk",
+        "z": 0.7
       },
       {
         "label": "Equity Trend",
-        "z": -0.89
+        "z": 0.32
       }
     ],
     "levels": {
       "vix": {
         "label": "VIX",
         "unit": "pts",
-        "asof": "2026-10-09",
-        "pctile": 8,
-        "level": 14.84
+        "asof": "2026-10-16",
+        "pctile": 82,
+        "level": 19.99
       },
       "move": {
         "label": "MOVE",
         "unit": "pts",
-        "asof": "2026-10-09",
+        "asof": "2026-10-16",
         "pctile": 94,
-        "level": 98.47
+        "level": 101.1
       },
       "hyoas": {
         "label": "HY OAS",
         "unit": "bp",
-        "asof": "2026-10-08",
-        "pctile": 91,
-        "level": 315,
-        "chg_20d": 45
+        "asof": "2026-10-15",
+        "pctile": 96,
+        "level": 323,
+        "chg_20d": 53
       },
       "igoas": {
         "label": "IG OAS",
         "unit": "bp",
-        "asof": "2026-10-08",
-        "pctile": 81,
-        "level": 82,
-        "chg_20d": 2
+        "asof": "2026-10-15",
+        "pctile": 88,
+        "level": 84,
+        "chg_20d": 6
       }
     }
   },
   "us_yields": {
     "tenor": "5Y",
-    "asof": "2026-10-08",
-    "nominal": 4.99,
-    "breakeven": 2.37,
-    "real": 2.62,
+    "asof": "2026-10-15",
+    "nominal": 4.91,
+    "breakeven": 2.33,
+    "real": 2.58,
     "windows": {
       "5": {
-        "nominal": -2,
-        "real": -3,
-        "breakeven": 1,
-        "driver": null
+        "nominal": -12,
+        "real": -8,
+        "breakeven": -4,
+        "driver": "mixed"
       },
       "20": {
-        "nominal": 24,
-        "real": 33,
-        "breakeven": -9,
-        "driver": "real-yield-led"
+        "nominal": 5,
+        "real": 7,
+        "breakeven": -2,
+        "driver": null
       }
     }
   },
   "fx_performance": [
     {
       "ccy": "NOK",
-      "pct": 0.61
-    },
-    {
-      "ccy": "AUD",
-      "pct": 0.4
+      "pct": 1.45
     },
     {
       "ccy": "SEK",
-      "pct": 0.39
-    },
-    {
-      "ccy": "GBP",
-      "pct": -0.05
+      "pct": 0.92
     },
     {
       "ccy": "CAD",
-      "pct": -0.05
-    },
-    {
-      "ccy": "NZD",
-      "pct": -0.06
+      "pct": 0.82
     },
     {
       "ccy": "CHF",
-      "pct": -0.18
+      "pct": 0.78
     },
     {
-      "ccy": "JPY",
-      "pct": -0.3
+      "ccy": "GBP",
+      "pct": 0.72
+    },
+    {
+      "ccy": "NZD",
+      "pct": 0.72
     },
     {
       "ccy": "EUR",
-      "pct": -0.45
+      "pct": 0.33
+    },
+    {
+      "ccy": "JPY",
+      "pct": 0.16
+    },
+    {
+      "ccy": "AUD",
+      "pct": -0.55
     }
   ],
   "week_ahead": [
     {
-      "date": "2026-10-13",
-      "time": "23:50",
-      "ccy": "JPY",
-      "event": "BoJ L Money Stock y/y",
-      "forecast": "4.2%",
-      "previous": "4.4%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:30",
-      "ccy": "USD",
-      "event": "CPI m/m",
-      "forecast": "0.6%",
-      "previous": "0.4%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:30",
-      "ccy": "USD",
-      "event": "Core CPI m/m",
-      "forecast": "0.2%",
-      "previous": "0.3%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:30",
-      "ccy": "USD",
-      "event": "CPI y/y",
-      "forecast": "3.5%",
-      "previous": "3.4%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:30",
-      "ccy": "USD",
-      "event": "Core CPI n.s.a. m/m",
-      "forecast": null,
-      "previous": "0.3%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:30",
-      "ccy": "USD",
-      "event": "CPI",
-      "forecast": "334.918",
-      "previous": "334.131",
-      "impact": "high"
-    },
-    {
-      "date": "2026-10-15",
+      "date": "2026-10-21",
       "time": "06:00",
       "ccy": "GBP",
-      "event": "GDP m/m",
-      "forecast": "0.0%",
-      "previous": "-0.1%",
+      "event": "CPI y/y",
+      "forecast": "2.7%",
+      "previous": "3.1%",
       "impact": "high"
     },
     {
-      "date": "2026-10-16",
-      "time": "02:00",
+      "date": "2026-10-21",
+      "time": "13:00",
       "ccy": "GBP",
       "event": "BoE Governor Bailey Speech",
       "forecast": null,
@@ -566,33 +457,42 @@
       "impact": "high"
     },
     {
-      "date": "2026-10-16",
-      "time": "09:00",
-      "ccy": "EUR",
-      "event": "CPI y/y",
-      "forecast": "2.9%",
-      "previous": "2.9%",
+      "date": "2026-10-21",
+      "time": "14:30",
+      "ccy": "USD",
+      "event": "EIA Crude Oil Stocks Change",
+      "forecast": "-4.804M",
+      "previous": "-8.557M",
+      "impact": "high"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "12:30",
+      "ccy": "USD",
+      "event": "Initial Jobless Claims",
+      "forecast": "198K",
+      "previous": "199K",
       "impact": "high"
     }
   ],
   "central_banks": [
     {
       "ccy": "USD",
-      "rate": 3.87,
+      "rate": 3.89,
       "next_meeting": "28 Oct",
       "next_meeting_iso": "2026-10-28",
-      "days_out": 16,
-      "bias": "hold",
-      "prob": null,
+      "days_out": 9,
+      "bias": "hike",
+      "prob": 53,
       "in_window": false,
-      "priced_bp": null
+      "priced_bp": 12
     },
     {
       "ccy": "EUR",
-      "rate": 2.439,
+      "rate": 2.44,
       "next_meeting": "29 Oct",
       "next_meeting_iso": "2026-10-29",
-      "days_out": 17,
+      "days_out": 10,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -600,21 +500,21 @@
     },
     {
       "ccy": "GBP",
-      "rate": 3.7326,
+      "rate": 3.7324,
       "next_meeting": "5 Nov",
       "next_meeting_iso": "2026-11-05",
-      "days_out": 24,
-      "bias": "hike",
-      "prob": 93,
+      "days_out": 17,
+      "bias": "hold",
+      "prob": null,
       "in_window": false,
-      "priced_bp": 23
+      "priced_bp": null
     },
     {
       "ccy": "JPY",
-      "rate": 1.227,
+      "rate": 1.228,
       "next_meeting": "30 Oct",
       "next_meeting_iso": "2026-10-30",
-      "days_out": 18,
+      "days_out": 11,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -625,7 +525,7 @@
       "rate": 4.6,
       "next_meeting": "3 Nov",
       "next_meeting_iso": "2026-11-03",
-      "days_out": 22,
+      "days_out": 15,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -636,29 +536,29 @@
       "rate": 2.75,
       "next_meeting": "28 Oct",
       "next_meeting_iso": "2026-10-28",
-      "days_out": 16,
+      "days_out": 9,
       "bias": "hike",
-      "prob": 58,
+      "prob": 71,
       "in_window": false,
-      "priced_bp": 15
+      "priced_bp": 18
     },
     {
       "ccy": "CAD",
-      "rate": 2.28,
+      "rate": 2.27,
       "next_meeting": "28 Oct",
       "next_meeting_iso": "2026-10-28",
-      "days_out": 16,
-      "bias": "hike",
-      "prob": 44,
+      "days_out": 9,
+      "bias": "hold",
+      "prob": null,
       "in_window": false,
-      "priced_bp": 12
+      "priced_bp": null
     },
     {
       "ccy": "CHF",
       "rate": -0.04,
       "next_meeting": "10 Dec",
       "next_meeting_iso": "2026-12-10",
-      "days_out": 59,
+      "days_out": 52,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -669,7 +569,7 @@
       "rate": 4.5,
       "next_meeting": "5 Nov",
       "next_meeting_iso": "2026-11-05",
-      "days_out": 24,
+      "days_out": 17,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -677,12 +577,12 @@
     },
     {
       "ccy": "SEK",
-      "rate": 1.633,
+      "rate": 1.643,
       "next_meeting": "10 Nov",
       "next_meeting_iso": "2026-11-10",
-      "days_out": 29,
+      "days_out": 22,
       "bias": "hike",
-      "prob": 50,
+      "prob": 42,
       "in_window": false,
       "priced_bp": null
     }
@@ -690,95 +590,97 @@
   "positioning": [
     {
       "ccy": "EUR",
-      "pct_long": 34.4,
+      "pct_long": 33.3,
       "percentile": 4,
-      "net": -84775,
-      "net_change": -2330,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 63.3,
+      "net": -92833,
+      "net_change": -8058,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 63.1,
       "am_percentile": 2,
-      "am_net": 218703,
-      "am_net_change": -26457,
+      "am_net": 214007,
+      "am_net_change": -4696,
       "am_diverges": true
     },
     {
       "ccy": "GBP",
-      "pct_long": 52.8,
-      "percentile": 8,
-      "net": 6063,
-      "net_change": 11440,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 10.1,
-      "am_percentile": 8,
-      "am_net": -142930,
-      "am_net_change": -17506,
+      "pct_long": 56.4,
+      "percentile": 21,
+      "net": 13065,
+      "net_change": 7002,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 10.2,
+      "am_percentile": 6,
+      "am_net": -145988,
+      "am_net_change": -3058,
       "am_diverges": true
     },
     {
       "ccy": "JPY",
-      "pct_long": 40.1,
-      "percentile": 90,
-      "net": -30379,
-      "net_change": -13570,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 65.6,
+      "pct_long": 38.4,
+      "percentile": 88,
+      "net": -37820,
+      "net_change": -7441,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 64.7,
       "am_percentile": 83,
-      "am_net": 68749,
-      "am_net_change": 16788,
+      "am_net": 66524,
+      "am_net_change": -2225,
       "am_diverges": true
     },
     {
       "ccy": "AUD",
-      "pct_long": 70.3,
-      "percentile": 67,
-      "net": 48911,
-      "net_change": -6203,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 31.6,
+      "pct_long": 67.9,
+      "percentile": 54,
+      "net": 44978,
+      "net_change": -3933,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 29.6,
       "am_percentile": 2,
-      "am_net": -101309,
-      "am_net_change": -28236,
+      "am_net": -116164,
+      "am_net_change": -14855,
       "am_diverges": true
     },
     {
       "ccy": "NZD",
-      "pct_long": 48.9,
-      "percentile": 87,
-      "net": -1214,
-      "net_change": 240,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 20.4,
-      "am_percentile": 65,
-      "am_net": -32534,
-      "am_net_change": -11306,
+      "pct_long": 37.4,
+      "percentile": 58,
+      "net": -11802,
+      "net_change": -10588,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 17.7,
+      "am_percentile": 31,
+      "am_net": -44139,
+      "am_net_change": -11605,
       "am_diverges": false
     },
     {
       "ccy": "CAD",
-      "pct_long": 21.2,
-      "percentile": 19,
-      "net": -82720,
-      "net_change": -10201,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 42.5,
+      "pct_long": 16.0,
+      "percentile": 15,
+      "net": -89659,
+      "net_change": -6939,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 43.5,
       "am_percentile": 46,
-      "am_net": -34236,
-      "am_net_change": -8287,
+      "am_net": -30789,
+      "am_net_change": 3447,
       "am_diverges": false
     },
     {
       "ccy": "CHF",
-      "pct_long": 30.0,
-      "percentile": 8,
-      "net": -15310,
-      "net_change": 1707,
-      "week_ending": "2026-10-06",
-      "am_pct_long": 25.5,
-      "am_percentile": 79,
-      "am_net": -37379,
-      "am_net_change": -968,
+      "pct_long": 27.1,
+      "percentile": 4,
+      "net": -17400,
+      "net_change": -2090,
+      "week_ending": "2026-10-13",
+      "am_pct_long": 29.5,
+      "am_percentile": 98,
+      "am_net": -31456,
+      "am_net_change": 5923,
       "am_diverges": false
     }
   ],
-  "changes": []
+  "changes": [
+    "NZD: OIS-priced hike probability for the 28 Oct meeting moved from 58% to 71%"
+  ]
 }
