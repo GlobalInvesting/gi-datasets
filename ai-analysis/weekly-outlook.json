@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T01:36:08Z",
+  "generated_at": "2026-10-19T01:47:19Z",
   "week_of": "2026-10-19",
   "ai_complete": false,
   "view": {
@@ -9,120 +9,106 @@
     "source": "deterministic"
   },
   "order": [
-    "GBP/USD",
+    "USD/CHF",
     "EUR/USD",
-    "USD/CAD"
+    "AUD/USD"
   ],
   "universe": [
-    "GBP/USD",
+    "USD/CHF",
     "EUR/USD",
-    "USD/CAD"
+    "AUD/USD"
   ],
   "pairs": {
-    "GBP/USD": {
-      "paragraph": "GBP/USD closed at 1.3329 (+0.72% on the week), above its SMA20, below its SMA50 and SMA200. The terminal's directional read is Bearish, medium conviction. Trend structure: counter-trend pullback inside a larger downtrend; ADX 33 (trending), -DI above +DI; bullish engulfing bar 1 session ago (body 1.2 ATR); close above the prior 10-day closing high on the latest session; latest bar trades entirely above its 20-day moving average. The overnight OIS differential is 16bp in favour of USD. The 2Y yield spread (GBP minus USD) stands at -6bp, -32bp over the last 20 sessions. CFTC leveraged funds are 56.4% long GBP, the 21st percentile of its 52-week range (net 13,065 contracts, +7,002 on the week). Asset managers are net short GBP (10.2% long) while leveraged funds are net long. The terminal fair-value model reads a z-score of +0.52: spot is within one standard deviation of the model estimate. 1M implied volatility is 5.97% against 5.8% realised over 20 sessions and the 1M 25-delta risk reversal at -0.52. A close above 20D high at 1.3400 would ease the current setup, whereas a break below SMA20 at 1.3252 would extend it.",
+    "USD/CHF": {
+      "paragraph": "USD/CHF closed at 0.8236 (-0.77% on the week), above its SMA50 and SMA200, below its SMA20. The terminal's directional read is Mixed. Technical and fundamental evidence point in opposite directions. Trend structure: reversal risk: short-term evidence has turned against the uptrend; ADX 22 (moderate trend strength), -DI above +DI; higher swing highs and lows; bearish engulfing bar 1 session ago (body 1.6 ATR); close below the prior 10-day closing low on the latest session; latest bar trades entirely below its 20-day moving average. The overnight OIS differential is 393bp in favour of USD. The 2Y yield spread (USD minus CHF) stands at 460bp, +34bp over the last 20 sessions. CFTC leveraged funds are 27.1% long CHF, the 4th percentile of its 52-week range (net -17,400 contracts, -2,090 on the week). Asset managers are net short CHF (29.5% long). The terminal fair-value model reads a z-score of +0.10: spot is within one standard deviation of the model estimate. 1M implied volatility is 6.97% against 6.1% realised over 20 sessions and the 1M 25-delta risk reversal at -0.74. A close above SMA20 at 0.8295 would ease the current setup, whereas a break below 20D low at 0.8183 would extend it.",
       "source": "deterministic",
-      "updated": "2026-10-19T01:36:08Z",
-      "close": 1.3329,
+      "updated": "2026-10-19T01:47:19Z",
+      "close": 0.8236,
       "asof": "2026-10-16",
-      "week_pct": 0.72,
-      "stance": "Above SMA20 · Below SMA50/200",
-      "bias": "Bearish",
-      "conviction": "medium",
-      "bias_state": "aligned",
+      "week_pct": -0.77,
+      "stance": "Above SMA50/200 · Below SMA20",
+      "bias": "Mixed",
+      "conviction": null,
+      "bias_state": "conflict",
       "bias_basis": [
-        "counter-trend pullback inside a larger downtrend",
-        "ADX 33 (trending), -DI above +DI",
-        "bullish engulfing bar 1 session ago (body 1.2 ATR)",
-        "close above the prior 10-day closing high on the latest session",
-        "latest bar trades entirely above its 20-day moving average",
-        "supports USD: 2Y spread -32bp over 20 sessions",
+        "reversal risk: short-term evidence has turned against the uptrend",
+        "ADX 22 (moderate trend strength), -DI above +DI",
+        "higher swing highs and lows",
+        "bearish engulfing bar 1 session ago (body 1.6 ATR)",
+        "close below the prior 10-day closing low on the latest session",
+        "latest bar trades entirely below its 20-day moving average",
+        "supports USD: overnight OIS carry 393bp in favour of USD",
+        "supports USD: 2Y spread +34bp over 20 sessions",
         "supports USD: USD 53% hike priced"
       ],
       "crowding": null,
       "sma_bias": "Mixed",
       "resistance": [
         {
-          "label": "20D high",
-          "value": 1.34
+          "label": "SMA20",
+          "value": 0.8295
         },
         {
-          "label": "SMA50",
-          "value": 1.3419
+          "label": "20D high / 52W high",
+          "value": 0.8395
         }
       ],
       "support": [
         {
-          "label": "SMA20",
-          "value": 1.3252
+          "label": "20D low",
+          "value": 0.8183
         },
         {
-          "label": "20D low",
-          "value": 1.3139
+          "label": "SMA50",
+          "value": 0.8181
         }
       ],
-      "carry_bp": -16,
+      "carry_bp": 393,
       "spread_2y": {
-        "bp": -6,
-        "chg_bp": -32,
+        "bp": 460,
+        "chg_bp": 34,
         "sessions": 20,
         "asof": "2026-10-16"
       },
-      "hv_20d": 5.8,
-      "iv_1m": 5.97,
-      "rr_25d": -0.52,
+      "hv_20d": 6.1,
+      "iv_1m": 6.97,
+      "rr_25d": -0.74,
       "valuation": {
-        "z": 0.52,
+        "z": 0.1,
         "zone": "within",
         "fit": "Solid",
-        "fair_value": 1.3286,
+        "fair_value": 0.8231,
         "asof": "2026-10-17"
       },
       "vol_profile": {
         "iv_term": {
-          "1W": 5.56,
-          "1M": 5.97,
-          "3M": 5.96,
-          "6M": 6.5,
-          "1Y": 7.19
+          "1W": 7.09,
+          "1M": 6.97,
+          "3M": 6.83,
+          "6M": 7.11,
+          "1Y": 7.48
         },
         "rr_term": {
-          "1W": -0.3,
-          "1M": -0.52,
-          "3M": -0.64,
-          "1Y": -1.02
+          "1W": -0.76,
+          "1M": -0.74,
+          "3M": -0.73,
+          "1Y": -0.81
         },
-        "iv_slope_1m_1y": 1.22,
-        "iv_minus_hv": 0.2,
-        "rr_slope_1m_3m": -0.12
+        "iv_slope_1m_1y": 0.51,
+        "iv_minus_hv": 0.9,
+        "rr_slope_1m_3m": 0.01
       },
       "reasons": [
-        "1W +0.72%",
-        "technical alignment changed vs last week"
+        "1W -0.77%",
+        "CHF leveraged-fund positioning at 4th percentile",
+        "technical alignment changed vs last week",
+        "OIS carry gap 393bp"
       ],
       "deltas": [
-        "technical alignment changed from below_sma20_below_sma50_below_sma200 to above_sma20_below_sma50_below_sma200",
-        "GBP leveraged-fund long% moved from 52.8% to 56.4%"
+        "technical alignment changed from above_sma20_above_sma50_above_sma200 to below_sma20_above_sma50_above_sma200",
+        "CHF leveraged-fund long% moved from 30.0% to 27.1%"
       ],
       "events": [
-        {
-          "date": "2026-10-21",
-          "time": "06:00",
-          "ccy": "GBP",
-          "event": "CPI y/y",
-          "forecast": "2.7%",
-          "previous": "3.1%",
-          "impact": "high"
-        },
-        {
-          "date": "2026-10-21",
-          "time": "13:00",
-          "ccy": "GBP",
-          "event": "BoE Governor Bailey Speech",
-          "forecast": null,
-          "previous": null,
-          "impact": "high"
-        },
         {
           "date": "2026-10-21",
           "time": "14:30",
@@ -131,6 +117,15 @@
           "forecast": "-4.804M",
           "previous": "-8.557M",
           "impact": "high"
+        },
+        {
+          "date": "2026-10-22",
+          "time": "12:30",
+          "ccy": "USD",
+          "event": "Initial Jobless Claims",
+          "forecast": "198K",
+          "previous": "199K",
+          "impact": "high"
         }
       ],
       "meetings": []
@@ -138,7 +133,7 @@
     "EUR/USD": {
       "paragraph": "EUR/USD closed at 1.1242 (+0.33% on the week), below its SMA20 and SMA50 and SMA200. The terminal's directional read is Bearish, high conviction. Trend structure: downtrend in force (falling 20-day average below the 200-day); ADX 52 (trending), -DI above +DI; bullish engulfing bar 1 session ago (body 1.1 ATR); latest bar trades entirely below its 20-day moving average. The overnight OIS differential is 145bp in favour of USD. The 2Y yield spread (EUR minus USD) stands at -174bp, -38bp over the last 20 sessions. CFTC leveraged funds are 33.3% long EUR, the 4th percentile of its 52-week range (net -92,833 contracts, -8,058 on the week). Asset managers are net long EUR (63.1% long) while leveraged funds are net short. Crowding risk: EUR leveraged-fund positioning at the 4th percentile of its 52-week range. The terminal fair-value model reads a z-score of -1.02: spot trades more than one standard deviation below the model estimate. 1M implied volatility is 6.14% against 5.4% realised over 20 sessions and the 1M 25-delta risk reversal at -0.21. A close above SMA20 at 1.1287 would ease the current setup, whereas a break below 20D low / 52W low at 1.1117 would extend it.",
       "source": "deterministic",
-      "updated": "2026-10-19T01:36:08Z",
+      "updated": "2026-10-19T01:47:19Z",
       "close": 1.1242,
       "asof": "2026-10-16",
       "week_pct": 0.33,
@@ -237,91 +232,87 @@
       ],
       "meetings": []
     },
-    "USD/CAD": {
-      "paragraph": "USD/CAD closed at 1.4137 (-0.81% on the week), above its SMA50 and SMA200, below its SMA20. The terminal's directional read is Bullish, medium conviction. Trend structure: counter-trend pullback inside a larger uptrend; ADX 38 (trending), +DI above -DI; higher swing highs and lows; close below the prior 10-day closing low on the latest session. The overnight OIS differential is 162bp in favour of USD. The 2Y yield spread (USD minus CAD) stands at 162bp, +39bp over the last 20 sessions. CFTC leveraged funds are 16.0% long CAD, the 15th percentile of its 52-week range (net -89,659 contracts, -6,939 on the week). Asset managers are net short CAD (43.5% long). The terminal fair-value model reads a z-score of -1.14: spot trades more than one standard deviation below the model estimate. 1M implied volatility is 4.63% against 4.2% realised over 20 sessions and the 1M 25-delta risk reversal at +0.18. A close above SMA20 at 1.4188 would ease the current setup, whereas a break below SMA50 at 1.3997 would extend it.",
+    "AUD/USD": {
+      "paragraph": "AUD/USD closed at 0.6948 (-0.55% on the week), below its SMA20 and SMA50 and SMA200. The terminal's directional read is Bearish, high conviction. Trend structure: downtrend in force (falling 20-day average below the 200-day); ADX 40 (trending), -DI above +DI; lower swing highs and lows; latest bar trades entirely below its 20-day moving average. The overnight OIS differential is 71bp in favour of AUD. The 2Y yield spread (AUD minus USD) stands at 5bp, -29bp over the last 20 sessions. CFTC leveraged funds are 67.9% long AUD, the 54th percentile of its 52-week range (net 44,978 contracts, -3,933 on the week). Asset managers are net short AUD (29.6% long) while leveraged funds are net long. The terminal fair-value model reads a z-score of -0.47: spot is within one standard deviation of the model estimate. 1M implied volatility is 7.27% against 6.3% realised over 20 sessions and the 1M 25-delta risk reversal at -1.01. A close above SMA20 at 0.6992 would ease the current setup, whereas a break below 20D low at 0.6899 would extend it.",
       "source": "deterministic",
-      "updated": "2026-10-19T01:36:08Z",
-      "close": 1.4137,
+      "updated": "2026-10-19T01:47:19Z",
+      "close": 0.6948,
       "asof": "2026-10-16",
-      "week_pct": -0.81,
-      "stance": "Above SMA50/200 · Below SMA20",
-      "bias": "Bullish",
-      "conviction": "medium",
+      "week_pct": -0.55,
+      "stance": "Below SMA20/50/200",
+      "bias": "Bearish",
+      "conviction": "high",
       "bias_state": "aligned",
       "bias_basis": [
-        "counter-trend pullback inside a larger uptrend",
-        "ADX 38 (trending), +DI above -DI",
-        "higher swing highs and lows",
-        "close below the prior 10-day closing low on the latest session",
-        "supports USD: overnight OIS carry 162bp in favour of USD",
-        "supports USD: 2Y spread +39bp over 20 sessions",
-        "supports USD: USD 53% hike priced",
-        "supports USD: fair-value z-score -1.14 (below one standard deviation)"
+        "downtrend in force (falling 20-day average below the 200-day)",
+        "ADX 40 (trending), -DI above +DI",
+        "lower swing highs and lows",
+        "latest bar trades entirely below its 20-day moving average",
+        "supports USD: 2Y spread -29bp over 20 sessions",
+        "supports USD: USD 53% hike priced"
       ],
       "crowding": null,
-      "sma_bias": "Mixed",
+      "sma_bias": "Bearish",
       "resistance": [
         {
           "label": "SMA20",
-          "value": 1.4188
+          "value": 0.6992
         },
         {
-          "label": "20D high / 52W high",
-          "value": 1.43
+          "label": "SMA200",
+          "value": 0.7046
         }
       ],
       "support": [
         {
-          "label": "SMA50",
-          "value": 1.3997
+          "label": "20D low",
+          "value": 0.6899
         },
         {
-          "label": "20D low",
-          "value": 1.3984
+          "label": "52W low",
+          "value": 0.6424
         }
       ],
-      "carry_bp": 162,
+      "carry_bp": 71,
       "spread_2y": {
-        "bp": 162,
-        "chg_bp": 39,
+        "bp": 5,
+        "chg_bp": -29,
         "sessions": 20,
         "asof": "2026-10-16"
       },
-      "hv_20d": 4.2,
-      "iv_1m": 4.63,
-      "rr_25d": 0.18,
+      "hv_20d": 6.3,
+      "iv_1m": 7.27,
+      "rr_25d": -1.01,
       "valuation": {
-        "z": -1.14,
-        "zone": "below",
+        "z": -0.47,
+        "zone": "within",
         "fit": "Solid",
-        "fair_value": 1.4233,
+        "fair_value": 0.6968,
         "asof": "2026-10-17"
       },
       "vol_profile": {
         "iv_term": {
-          "1W": 4.8,
-          "1M": 4.63,
-          "3M": 4.53,
-          "6M": 4.68,
-          "1Y": 4.95
+          "1W": 6.56,
+          "1M": 7.27,
+          "3M": 7.4,
+          "6M": 8.0,
+          "1Y": 8.66
         },
         "rr_term": {
-          "1W": 0.17,
-          "1M": 0.18,
-          "3M": 0.15,
-          "1Y": 0.04
+          "1W": -1.06,
+          "1M": -1.01,
+          "3M": -1.0,
+          "1Y": -1.14
         },
-        "iv_slope_1m_1y": 0.32,
-        "iv_minus_hv": 0.4,
-        "rr_slope_1m_3m": -0.03
+        "iv_slope_1m_1y": 1.39,
+        "iv_minus_hv": 1.0,
+        "rr_slope_1m_3m": 0.01
       },
       "reasons": [
-        "1W -0.81%",
-        "technical alignment changed vs last week"
+        "1W -0.55%"
       ],
       "deltas": [
-        "technical alignment changed from above_sma20_above_sma50_above_sma200 to below_sma20_above_sma50_above_sma200",
-        "CAD leveraged-fund long% moved from 21.2% to 16.0%"
+        "AUD leveraged-fund long% moved from 70.3% to 67.9%"
       ],
       "events": [
         {
