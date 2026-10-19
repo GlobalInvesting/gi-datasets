@@ -27,7 +27,7 @@
       "asof": "2026-10-16",
       "week_pct": -0.77,
       "stance": "Above SMA50/200 · Below SMA20",
-      "bias": "Bullish",
+      "bias": "Mixed",
       "resistance": [
         {
           "label": "SMA20",
@@ -115,17 +115,20 @@
       ],
       "meetings": [],
       "sma_bias": "Mixed",
-      "conviction": "low",
-      "bias_state": "aligned",
+      "conviction": null,
+      "bias_state": "conflict",
       "bias_basis": [
-        "counter-trend pullback inside a larger uptrend",
+        "reversal risk: short-term evidence has turned against the uptrend",
+        "ADX 22 (moderate trend strength), -DI above +DI",
         "higher swing highs and lows",
+        "bearish engulfing bar 1 session ago (body 1.6 ATR)",
+        "close below the prior 10-day closing low on the latest session",
+        "latest bar trades entirely below its 20-day moving average",
         "supports USD: overnight OIS carry 393bp in favour of USD",
         "supports USD: 2Y spread +34bp over 20 sessions",
-        "supports USD: USD 53% hike priced",
-        "crowding risk: CHF leveraged-fund positioning at the 4th percentile of its 52-week range"
+        "supports USD: USD 53% hike priced"
       ],
-      "crowding": "CHF leveraged-fund positioning at the 4th percentile of its 52-week range"
+      "crowding": null
     },
     "AUD/CHF": {
       "paragraph": "AUD/CHF is in focus after falling -1.25% over 1W to 0.5723, with its technical alignment moving below both the SMA20 (0.5797) and SMA50 (0.5791) while holding above the SMA200 (0.5616). The OIS overnight carry differential provides 464bp in favour of AUD, supported by a 4.60% overnight rate against CHF at -0.04%. Positioning reveals institutional divergence: leveraged funds reduced AUD longs from 70.3% to 67.9% (54th percentile) while remaining net short CHF (27.1% long, 4th percentile), whereas asset managers are net short AUD at the 2nd percentile (29.6% long) and hold CHF at the 98th percentile. Reclaiming resistance at SMA50 0.5791 would reinforce the yield-advantage backdrop, whereas a break below the 20D low support at 0.5698 would invalidate the multi-month technical floor.",
@@ -135,7 +138,7 @@
       "asof": "2026-10-16",
       "week_pct": -1.25,
       "stance": "Above SMA200 · Below SMA20/50",
-      "bias": "Bullish",
+      "bias": "Mixed",
       "resistance": [
         {
           "label": "SMA50",
@@ -188,14 +191,16 @@
       "events": [],
       "meetings": [],
       "sma_bias": "Mixed",
-      "conviction": "low",
-      "bias_state": "technical_led",
+      "conviction": null,
+      "bias_state": "no_edge",
       "bias_basis": [
-        "counter-trend pullback inside a larger uptrend",
-        "supports AUD: overnight OIS carry 464bp in favour of AUD",
-        "crowding risk: CHF leveraged-fund positioning at the 4th percentile of its 52-week range"
+        "reversal risk: short-term evidence has turned against the uptrend",
+        "ADX 21 (moderate trend strength), -DI above +DI",
+        "close below the prior 10-day closing low 1 session ago",
+        "latest bar trades entirely below its 20-day moving average",
+        "supports AUD: overnight OIS carry 464bp in favour of AUD"
       ],
-      "crowding": "CHF leveraged-fund positioning at the 4th percentile of its 52-week range"
+      "crowding": null
     },
     "EUR/AUD": {
       "paragraph": "EUR/AUD is in focus following a +0.94% 1W advance to 1.6179, with technical alignment shifting above the SMA20 (1.6136) while staying below the SMA50 (1.6192) and SMA200 (1.6443). The OIS overnight carry differential sits at 216bp in favour of AUD. On rates and positioning, EUR overnight OIS stands at 2.44% ahead of the 29 Oct meeting, with leveraged funds holding EUR at the 4th percentile (33.3% long) while asset managers are net long at the 2nd percentile (63.1% long); conversely, leveraged funds hold AUD at 67.9% long while asset managers sit net short at 29.6% long. A break above SMA50 resistance at 1.6192 would reinforce the cross's technical rebound, whereas slipping back below SMA20 support at 1.6136 would invalidate the recovery.",
@@ -205,7 +210,7 @@
       "asof": "2026-10-16",
       "week_pct": 0.94,
       "stance": "Above SMA20 · Below SMA50/200",
-      "bias": "Bearish",
+      "bias": "Mixed",
       "resistance": [
         {
           "label": "SMA50",
@@ -256,14 +261,16 @@
       "events": [],
       "meetings": [],
       "sma_bias": "Mixed",
-      "conviction": "low",
-      "bias_state": "technical_led",
+      "conviction": null,
+      "bias_state": "no_edge",
       "bias_basis": [
-        "counter-trend pullback inside a larger downtrend",
-        "supports AUD: overnight OIS carry 216bp in favour of AUD",
-        "crowding risk: EUR leveraged-fund positioning at the 4th percentile of its 52-week range"
+        "reversal risk: short-term evidence has turned against the downtrend",
+        "ADX 18 (weak trend strength), +DI above -DI",
+        "bullish engulfing bar 1 session ago (body 2.3 ATR)",
+        "latest bar trades entirely above its 20-day moving average",
+        "supports AUD: overnight OIS carry 216bp in favour of AUD"
       ],
-      "crowding": "EUR leveraged-fund positioning at the 4th percentile of its 52-week range"
+      "crowding": null
     }
   },
   "cross_asset": [
