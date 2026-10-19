@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-19T11:32:56Z",
-  "generatedAt": "2026-10-19T11:32:56Z",
+  "lastUpdate": "2026-10-19T12:32:42Z",
+  "generatedAt": "2026-10-19T12:32:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1164,14 +1164,14 @@
       "std": 0.212132
     },
     "CAD/inflation rate yoy": {
-      "n": 2,
-      "mean": 0.2,
-      "std": 0.141421
+      "n": 3,
+      "mean": 0.266667,
+      "std": 0.152753
     },
     "CAD/inflation rate mom": {
-      "n": 2,
-      "mean": -0.0,
-      "std": 0.141421
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.152753
     },
     "USD/ny empire state manufacturing index": {
       "n": 3,
@@ -3107,6 +3107,21 @@
       "n": 2,
       "mean": -92.55,
       "std": 267.922759
+    },
+    "CAD/core cpi mom": {
+      "n": 2,
+      "mean": -0.15,
+      "std": 0.212132
+    },
+    "CAD/core cpi yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
+    },
+    "CAD/common cpi yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
     },
     "NZD/electronic card retail sales mom": {
       "n": 2,
@@ -81081,7 +81096,7 @@
       "flag": "🇨🇦",
       "event": "Canada CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "-0.1%",
       "previous": "-0.1%"
     },
@@ -81094,7 +81109,7 @@
       "flag": "🇨🇦",
       "event": "Canada CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "2.7%",
       "previous": "3.0%"
     },
@@ -81107,7 +81122,7 @@
       "flag": "🇨🇦",
       "event": "Canada Core CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.3%",
       "previous": "0.1%"
     },
@@ -81120,7 +81135,7 @@
       "flag": "🇨🇦",
       "event": "Canada Core CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.2%",
       "forecast": "2.1%",
       "previous": "2.4%"
     },
@@ -81133,7 +81148,7 @@
       "flag": "🇨🇦",
       "event": "Canada Common CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "2.4%",
       "forecast": "2.5%",
       "previous": "2.6%"
     },
