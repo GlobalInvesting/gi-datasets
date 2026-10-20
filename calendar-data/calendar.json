@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T08:02:50Z",
-  "generatedAt": "2026-10-20T08:02:50Z",
+  "lastUpdate": "2026-10-20T08:12:47Z",
+  "generatedAt": "2026-10-20T08:12:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3537,6 +3537,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.212132
+    },
+    "EUR/spain trade balance": {
+      "n": 2,
+      "mean": -0.7995,
+      "std": 1.65958
     },
     "AUD/participation rate": {
       "n": 2,
@@ -81346,7 +81351,7 @@
       "flag": "🇪🇺",
       "event": "Spain Trade Balance",
       "impact": "low",
-      "actual": null,
+      "actual": "-7.813B",
       "forecast": "-5.840B",
       "previous": "-5.224B"
     },
