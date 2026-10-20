@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T07:12:53Z",
-  "generatedAt": "2026-10-20T07:12:53Z",
+  "lastUpdate": "2026-10-20T08:02:50Z",
+  "generatedAt": "2026-10-20T08:02:50Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1289,9 +1289,9 @@
       "std": 0.141421
     },
     "EUR/current account": {
-      "n": 2,
-      "mean": 12.35,
-      "std": 3.606245
+      "n": 3,
+      "mean": -0.866667,
+      "std": 23.033526
     },
     "EUR/portugal current account": {
       "n": 2,
@@ -3477,6 +3477,11 @@
       "n": 2,
       "mean": -335.15,
       "std": 537.613286
+    },
+    "EUR/current account n.s.a.": {
+      "n": 2,
+      "mean": 3.05,
+      "std": 14.919953
     },
     "EUR/construction output yoy": {
       "n": 2,
@@ -81536,7 +81541,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Current Account",
       "impact": "low",
-      "actual": null,
+      "actual": "8.7B",
       "forecast": "36.0B",
       "previous": "27.6B"
     },
@@ -81549,7 +81554,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Current Account n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "7.7B",
       "forecast": "15.2B",
       "previous": "36.5B"
     },
