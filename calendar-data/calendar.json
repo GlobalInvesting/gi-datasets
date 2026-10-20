@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T09:42:51Z",
-  "generatedAt": "2026-10-20T09:42:51Z",
+  "lastUpdate": "2026-10-20T10:14:45Z",
+  "generatedAt": "2026-10-20T10:14:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1184,14 +1184,14 @@
       "std": 12.869343
     },
     "EUR/portugal ppi mom": {
-      "n": 2,
-      "mean": 0.4,
-      "std": 0.141421
+      "n": 3,
+      "mean": 0.633333,
+      "std": 0.416333
     },
     "EUR/portugal ppi yoy": {
-      "n": 2,
-      "mean": 0.45,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.7,
+      "std": 0.43589
     },
     "CAD/housing starts": {
       "n": 3,
@@ -3532,6 +3532,11 @@
       "n": 2,
       "mean": 0.05,
       "std": 0.353553
+    },
+    "EUR/slovakia unemployment rate": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.0
     },
     "EUR/estonia ppi mom": {
       "n": 2,
@@ -81681,9 +81686,9 @@
       "flag": "🇪🇺",
       "event": "Portugal PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "9.2%",
       "forecast": "8.0%",
-      "previous": "7.2%"
+      "previous": "7.1%"
     },
     {
       "date": "20 Oct",
@@ -81694,9 +81699,9 @@
       "flag": "🇪🇺",
       "event": "Portugal PPI MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "1.5%",
       "forecast": "0.4%",
-      "previous": "0.8%"
+      "previous": "0.7%"
     },
     {
       "date": "20 Oct",
@@ -81707,7 +81712,7 @@
       "flag": "🇪🇺",
       "event": "Slovakia Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "5.2%",
       "forecast": "5.3%",
       "previous": "5.2%"
     },
