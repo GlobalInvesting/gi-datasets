@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T23:18:10Z",
-  "generatedAt": "2026-10-20T23:18:10Z",
+  "lastUpdate": "2026-10-20T23:50:54Z",
+  "generatedAt": "2026-10-20T23:50:54Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1299,9 +1299,9 @@
       "std": 484.632244
     },
     "JPY/exports yoy": {
-      "n": 2,
-      "mean": 0.7,
-      "std": 3.676955
+      "n": 3,
+      "mean": 2.366667,
+      "std": 3.885014
     },
     "AUD/consumer inflation expectations": {
       "n": 2,
@@ -3282,6 +3282,21 @@
       "n": 2,
       "mean": 2.85,
       "std": 12.374369
+    },
+    "JPY/adjusted trade balance": {
+      "n": 2,
+      "mean": 257.75,
+      "std": 163.978063
+    },
+    "JPY/trade balance": {
+      "n": 2,
+      "mean": -511.9,
+      "std": 940.310598
+    },
+    "JPY/imports yoy": {
+      "n": 2,
+      "mean": -9.1,
+      "std": 10.46518
     },
     "JPY/core machinery orders mom": {
       "n": 2,
@@ -82164,7 +82179,7 @@
       "flag": "🇯🇵",
       "event": "Japan Adjusted Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "-704.0B",
       "forecast": "-845.8B",
       "previous": "-840.6B"
     },
@@ -82177,7 +82192,7 @@
       "flag": "🇯🇵",
       "event": "Japan Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "-536.6B",
       "forecast": "-689.6B",
       "previous": "-1105.6B"
     },
@@ -82190,7 +82205,7 @@
       "flag": "🇯🇵",
       "event": "Japan Imports y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "18.9%",
       "forecast": "35.4%",
       "previous": "28.0%"
     },
@@ -82203,7 +82218,7 @@
       "flag": "🇯🇵",
       "event": "Japan Exports y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "16.7%",
       "forecast": "11.0%",
       "previous": "19.3%"
     },
