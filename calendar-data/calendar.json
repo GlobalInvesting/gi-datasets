@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-20T06:05:18.192Z",
-  "generatedAt": "2026-10-20T06:05:18.192Z",
+  "lastUpdate": "2026-10-20T06:05:25.871Z",
+  "generatedAt": "2026-10-20T06:05:25.871Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -81435,10 +81435,9 @@
       "flag": "🇨🇭",
       "event": "Switzerland Trade Balance",
       "impact": "low",
-      "actual": "CHF1.4B",
+      "actual": null,
       "forecast": null,
-      "previous": null,
-      "released": true
+      "previous": null
     },
     {
       "date": "20 Oct",
@@ -81501,9 +81500,10 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Unemployment Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.7%",
       "forecast": "4.8%",
-      "previous": "4.9%"
+      "previous": "4.9%",
+      "released": true
     },
     {
       "date": "20 Oct",
