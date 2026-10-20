@@ -1,16 +1,33 @@
 {
-  "updated_utc": "2026-10-19T21:05:22.653962+00:00",
-  "updated_label": "21:05 UTC",
-  "total": 40,
+  "updated_utc": "2026-10-20T00:20:53.934867+00:00",
+  "updated_label": "00:20 UTC",
+  "total": 38,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
     "Saxo",
     "TD"
   ],
   "items": [
+    {
+      "id": "cc00f265184a",
+      "bank": "CME",
+      "bank_full": "CME Group FX",
+      "series": "",
+      "title": "Euro FX futures decline as a stronger U.S. dollar snaps a 2-day rally.",
+      "excerpt": "Euro FX futures slide to start the week as a firming U.S. dollar snaps a two-day rally, pushing the euro back toward 1.12. Euro volatility rises alongside the pullback toward 18-month lows, while speculators expand their net short positions to the highest level in 10 years.",
+      "author": "CME Group",
+      "url": "https://www.cmegroup.com/videos/2026/10/19/euro-fx-futures-decline-as-a-stronger-u-s-dollar-snaps-a-2-day-.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1792443071000,
+      "published": "2026-10-19T20:51:11+00:00"
+    },
     {
       "id": "cf200cf357fa",
       "bank": "CME",
@@ -118,21 +135,6 @@
       "published": "2026-10-19T06:37:00+00:00"
     },
     {
-      "id": "0dc4ca29ee17",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "Oil and Geopolitics in Focus After Turbulent Weekend",
-      "excerpt": "In focus today This morning, we launch our AI Investment Tracker, a new monthly update on the AI investment boom. The AI build-out has become one of the most important drivers for the global economy as well as for financial markets and how it develops will be key for both investors as well as companies. [&#8230;] The post Oil and Geopolitics in Focus After Turbulent Weekend appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/657927-oil-and-geopolitics-in-focus-after-turbulent-weekend/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792389753000,
-      "published": "2026-10-19T06:02:33+00:00"
-    },
-    {
       "id": "8dc0246a8112",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -149,53 +151,6 @@
       "category": "trade_idea",
       "ts": 1792388700000,
       "published": "2026-10-19T05:45:00+00:00"
-    },
-    {
-      "id": "b41535072fd7",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Financial literacy towards an inclusive economy",
-      "excerpt": "Keynote speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the Fin Lit Expo, Colombo, 8 October 2026.",
-      "author": "",
-      "url": "https://www.bis.org/speeches/20261016-financial-literacy-towards-inclusive-economy",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792368000000,
-      "published": "2026-10-19T00:00:00+00:00"
-    },
-    {
-      "id": "db3a17fc8231",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Supervisory modernisation after Silicon Valley Bank",
-      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, 14 October 2026.",
-      "author": "Michelle W Bowman",
-      "url": "https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792368000000,
-      "published": "2026-10-19T00:00:00+00:00"
-    },
-    {
-      "id": "d9e814510158",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Partnerships for prosperity - unlocking regional potential",
-      "excerpt": "Speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the 49th Annual General Meeting of the Association of Development Financing Institutions in Asia and the Pacific (ADFIAP), Colombo, 23 September 2026.",
-      "author": "P Nandalal Weerasinghe",
-      "url": "https://www.bis.org/speeches/20261016-partnerships-prosperity-unlocking-regional-potential",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792368000000,
-      "published": "2026-10-19T00:00:00+00:00"
     },
     {
       "id": "fc2950b3b055",
@@ -293,6 +248,53 @@
       "currencies": [
         "EUR"
       ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792368000000,
+      "published": "2026-10-19T00:00:00+00:00"
+    },
+    {
+      "id": "b41535072fd7",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Financial literacy towards an inclusive economy",
+      "excerpt": "Keynote speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the Fin Lit Expo, Colombo, 8 October 2026.",
+      "author": "",
+      "url": "https://www.bis.org/speeches/20261016-financial-literacy-towards-inclusive-economy",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792368000000,
+      "published": "2026-10-19T00:00:00+00:00"
+    },
+    {
+      "id": "db3a17fc8231",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Supervisory modernisation after Silicon Valley Bank",
+      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Bangkok Economic Festival, Reinventing Bretton Woods Committee, Bangkok, 14 October 2026.",
+      "author": "Michelle W Bowman",
+      "url": "https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792368000000,
+      "published": "2026-10-19T00:00:00+00:00"
+    },
+    {
+      "id": "d9e814510158",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Partnerships for prosperity - unlocking regional potential",
+      "excerpt": "Speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the 49th Annual General Meeting of the Association of Development Financing Institutions in Asia and the Pacific (ADFIAP), Colombo, 23 September 2026.",
+      "author": "P Nandalal Weerasinghe",
+      "url": "https://www.bis.org/speeches/20261016-partnerships-prosperity-unlocking-regional-potential",
+      "currencies": [],
       "pairs": [],
       "category": "macro",
       "ts": 1792368000000,
@@ -656,40 +658,6 @@
       "category": "trade_idea",
       "ts": 1791925209000,
       "published": "2026-10-13T21:00:09+00:00"
-    },
-    {
-      "id": "86a727be5ece",
-      "bank": "CME",
-      "bank_full": "CME Group FX",
-      "series": "",
-      "title": "OPEC cuts oil demand outlook.",
-      "excerpt": "U.S. equities trade mixed as Dow futures lead the pack. Energy markets stay in focus as WTI crude edges lower following OPEC's latest monthly report, which cuts global demand forecasts and reverses expectations for China amid the U.S.-Iran conflict. In economic data, markets look ahead to tomorrow's U.S. CPI print, where core inflation will be key for expectations around the Fed's next potential move. Finally, a look at the week's economic data slate, including the Fed's Beige Book, inflation data from China, and the latest employment figures out of Australia.",
-      "author": "CME Group",
-      "url": "https://www.cmegroup.com/videos/2026/10/13/opec-cuts-oil-demand-outlook-10-13-26.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791907942000,
-      "published": "2026-10-13T16:12:22+00:00"
-    },
-    {
-      "id": "0d3df833c88b",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The signaling value of the summary of economic projections",
-      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Istanbul Economic Forum, organised by the Central Bank of the Republic of Türkiye, Istanbul, 8 October 2026.",
-      "author": "Christopher J Waller",
-      "url": "https://www.bis.org/speeches/20261013-signaling-value-summary-economic-projections",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1791849600000,
-      "published": "2026-10-13T00:00:00+00:00"
     }
   ]
 }
