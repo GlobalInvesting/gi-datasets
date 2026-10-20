@@ -1,63 +1,51 @@
 {
-  "generated_at": "2026-10-20T05:06:59Z",
+  "generated_at": "2026-10-20T07:02:40Z",
   "signals": [
     {
-      "time": "05:01",
+      "time": "06:58",
       "priority": "critical",
       "title": "NZD/USD — G10 Bilateral Theme + Carry Divergence",
-      "text": "NZD leads G10 performance with a 1W average gain of +0.866% across 4 pairs, while USD anchors the laggard board at -0.586% across 9 pairs, opening a wide 1.453% spread. Spot NZD/USD trades at 0.5678, holding above its SMA20 at 0.5635 while remaining capped well beneath the SMA50/200 cluster at 0.5773 and 0.5840. The rally runs directly against rate fundamentals: Fed policy rate at 4.00% vs RBNZ 2.75% generates a 125bp nominal carry disadvantage for NZD, reinforced by a +144bp SOFR-OCR overnight basis in USD's favor. Additionally, CFTC positioning shows NZD leveraged funds net short -11,802 contracts following a sharp WoW outflow of -10,588 contracts, while retail sentiment sits at an extreme 88% long. Disconnect between spot outperformance, negative rate differentials, and retail herd buying indicates an overextended bilateral move vulnerable to fundamental re-alignment. Trade bias: Bearish NZD/USD; rate differential and technical resistance limit upside extension. Catalyst: New Zealand Q3 CPI release at 21:45 UTC. Risk: Sharp upside inflation surprise drives aggressive RBNZ hike repricing and extends momentum through 0.5773.",
+      "text": "NZD leads the 1W G10 strength scorecard at an average of +1.065% across 4 pairs, while USD lags at −0.620% across 9 pairs, generating a critical 1.684% bilateral spread. NZD/USD trades at 0.5687, breaking above its SMA20 at 0.5635 while remaining capped by the SMA50 at 0.5773. Notably, this outperformance defies a structural carry disadvantage, as the Fed's 4.00% rate holds a 125bp nominal premium over the RBNZ's 2.75% policy rate. Speculators remain positioned against the currency with COT Leveraged Funds net short −11,802 contracts after a WoW reduction of −10,588, creating ongoing short-squeeze fuel. However, retail positioning is at an extreme 87% long, clashing with the broader institutional profile and signaling late-expansion vulnerability. Trade bias: Long NZD/USD, riding short-term bilateral momentum while above the SMA20. Catalyst: New Zealand Q3 CPI release at 21:45 UTC. Risk: New Zealand CPI prints below consensus, halting RBNZ tightening expectations and triggering a retreat below 0.5635.",
       "evidence": [
-        "NZD 1W avg: +0.866% (n=4)",
-        "USD 1W avg: -0.586% (n=9)",
-        "G10 spread: 1.453%"
+        "NZD 1W avg: +1.065% (n=4)",
+        "USD 1W avg: -0.620% (n=9)",
+        "G10 spread: 1.684%"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "04:58",
+      "time": "06:54",
       "priority": "warning",
-      "title": "USD/CAD — BoC Repricing + Speculative Crowding",
-      "text": "USD/CAD trades at 1.4078 following an intraday drop of -0.21%, breaking below the prior 10-day low and sliding beneath its SMA20 at 1.4192 toward the SMA50 at 1.4000. Spot compression is driven by money markets abruptly repricing BoC October 28 rate hike odds from 30% to 82.8% over the weekend. CFTC speculative positioning reveals CAD leveraged funds hold a heavy net short of -89,659 contracts (15th percentile 52-week, z -1.32), leaving the pair exposed to rapid short-covering flow. However, cross-rate carry still structural favors USD, with Fed at 4.00% vs BoC 2.25% providing a +175bp nominal advantage and a +162bp SOFR-CORRA spread. The aggressive squeeze into the 1.4000 psychological threshold reflects fast-money repositioning ahead of policy confirmation. Trade bias: Short USD/CAD; policy hike repricing drives short squeeze toward key support. Catalyst: BoC policy meeting on 28 Oct. Risk: BoC delivers a dovish hold and unwinds the 82.8% hike expectation, restoring the structural carry bid toward 1.4200.",
+      "title": "USD/CAD — Policy Repricing + Technical Reversal",
+      "text": "USD/CAD trades down at 1.4078 following sharp market repricing for an October 28 Bank of Canada rate hike, with market-implied odds jumping from 30% to 82.8%. Intraday price action has broken below the SMA20 at 1.4192, establishing short-term downside momentum against the wider trend while testing intermediate support above the SMA50 at 1.4000. Leveraged funds hold a heavy net short CAD position of −89,659 contracts (15th percentile of the 52-week range), leaving the pair acutely vulnerable to further short covering as domestic policy expectations shift. The Fed-BoC rate differential of 175bp (Fed 4.00% vs BoC 2.25%) still favors the dollar, but hawkish BoC pricing is compressing the spread dynamic. Trade bias: Bearish USD/CAD, supported by speculative short-squeeze flow toward 1.4000. Catalyst: BoC rate decision on 28 Oct — hike 82.8% priced. Risk: BoC leaves rates unchanged at 2.25%, precipitating rapid re-establishment of CAD shorts toward 1.4200.",
       "evidence": [
-        "CAD spec positioning: lev_net -89,659 (pctl 15)",
-        "USD/CAD carry: Fed 4.0% vs BoC 2.25% — +175bp",
-        "USD/CAD spot: 1.4078"
+        "CAD COT LF net: -89,659 (pctl 15)",
+        "BoC hike probability: 82.8%",
+        "USD/CAD SMA20: 1.4192"
       ],
       "_source": "engine-ai-primary"
     },
     {
-      "time": "04:56",
+      "time": "06:50",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Extreme + Volatility Skew",
-      "text": "EUR/USD trades at 1.1236, remaining trapped below its SMA20 at 1.1274, SMA50 at 1.1465, and SMA200 at 1.1588 in a broader structural downtrend. CFTC data shows EUR leveraged funds expanded net shorts by -8,058 contracts WoW to -92,833 contracts, sitting at the 4th percentile of the 52-week range with z at -1.78. Options markets display heightened hedging activity, with 1M ATM implied volatility at 6.6% versus HV30 of 4.1%, generating a notable +2.5% vol risk premium alongside a 25-delta risk reversal of -0.39 put skew. Macro rate differentials strongly reinforce dollar support: Fed at 4.00% vs ECB 2.65% yields a +135bp carry advantage (+144bp SOFR-€STR basis). While BEER valuation tags EUR/USD cheap at z = -1.88, persistent policy divergence and structural European headwinds keep spot capped beneath moving average resistance. Trade bias: Bearish EUR/USD; heavy short momentum and carry disadvantage dominate. Catalyst: Germany ZEW Economic Sentiment at 09:05 UTC. Risk: Decisive upside break above the SMA20 at 1.1274 triggering leveraged fund short covering.",
+      "title": "USD/JPY — Options Downside Skew + Intervention Watch",
+      "text": "USD/JPY trades at 158.15, holding just below its SMA200 at 158.51 while resting above the SMA20/50 cluster at 157.97/157.70. Implied options pricing shows elevated asymmetry, with 1M 25-delta Risk Reversals at −1.97, reflecting substantial institutional demand for downside JPY puts despite spot trading near multi-month highs. Volatility risk premium is elevated at +2.2% (IV 7.7% vs HV30 5.5%), confirming that options markets are paying up for tail protection against unexpected currency moves. The 275bp policy spread (Fed 4.00% vs BoJ 1.25%) maintains structural carry support, yet leveraged funds remain net short JPY by −37,820 contracts (88th percentile), compounding unwind velocity. Spot at 158.15 keeps the desk vigilant, as 160.00 remains the key level that has previously triggered verbal warnings and heightened intervention risk. Trade bias: Neutral/bearish USD/JPY, constrained by extreme downside options skew and intervention sensitivity. Catalyst: BoJ policy meeting on 30 Oct. Risk: BoJ reinforces an extended hold stance, driving spot through the SMA200 at 158.51 toward 160.00.",
+      "evidence": [
+        "USD/JPY 25d RR: -1.97 (Saxo 1M)",
+        "USD/JPY VRP: +2.2% (IV 7.7% vs HV30 5.5%)",
+        "Fed 4.00% vs BoJ 1.25% — 275bp"
+      ],
+      "_source": "engine-ai-primary"
+    },
+    {
+      "time": "06:42",
+      "priority": "info",
+      "title": "EUR/USD — Stretched Positioning + Volatility Premium",
+      "text": "EUR/USD trades at 1.1232, remaining well below its falling daily moving averages with the SMA20 at 1.1274, SMA50 at 1.1465, and SMA200 at 1.1588. Leveraged fund positioning sits heavily stretched with net short EUR at −92,833 contracts, corresponding to the 4th percentile of the 52-week distribution and a z-score of −1.78. Options markets reflect heightened demand for near-term hedging, with 1M IV running at 6.6% against realized HV30 of 4.1%, producing an elevated volatility risk premium of +2.5%. While the Fed's 4.00% rate vs ECB 2.65% (135bp nominal carry advantage) structurally limits sustained EUR upside, the extreme speculative short profile creates clear exhaustion risks. Spot also shows notable undervaluation against model fair value at 1.1299 (z = −1.88σ). Trade bias: Neutral EUR/USD, balancing carry headwinds against stretched spec short positioning. Catalyst: ECB President Lagarde speech at 16:30 UTC. Risk: Eurozone business sentiment deteriorates further, accelerating speculative selling toward 1.1150.",
       "evidence": [
         "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD IV vs HV30: IV 6.6% vs HV30 4.1% — VRP +2.5%",
-        "Fed 4.0% vs ECB 2.65% — +135bp"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "04:52",
-      "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + Technical Level",
-      "text": "USD/JPY trades at 158.16, hovering between its rising SMA20 at 157.97 and the SMA200 at 158.51. Even with a wide +275bp Fed-BoJ policy rate spread (Fed 4.00% vs BoJ 1.25%; +265bp SOFR-TONA basis), options markets indicate defensive positioning. The 25-delta risk reversal prints at an extreme -1.97 put skew alongside 1M ATM IV at 7.7% vs HV30 of 5.5% (VRP +2.2%), revealing substantial hedging demand against base downside. JPY leveraged funds remain net short -37,820 contracts (88th percentile 52-week, z +1.08), maintaining crowded carry positions. The 160.00 threshold remains the key level that has previously triggered official verbal warnings; intervention risk rises on a sustained break above 160.00, keeping options participants paying up for downside protection despite positive nominal carry. Trade bias: Long USD/JPY; carry advantage sustains floor above SMA20. Catalyst: Japan trade balance data at 23:50 UTC. Risk: Verbal escalation by Japanese officials toward 160.00 forcing rapid unwind of crowded speculative shorts.",
-      "evidence": [
-        "USDJPY 25d RR: -1.97 (indicative mid)",
-        "USD/JPY IV vs HV30: IV 7.7% vs HV30 5.5% — VRP +2.2%",
-        "USD/JPY carry: Fed 4.0% vs BoJ 1.25% — +275bp"
-      ],
-      "_source": "engine-ai-primary"
-    },
-    {
-      "time": "04:46",
-      "priority": "info",
-      "title": "GBP/USD — Inflation Event Risk + Technical Pivot",
-      "text": "GBP/USD trades at 1.3334, clearing its SMA20 at 1.3249 but remaining constrained below the SMA50 at 1.3414 and SMA200 at 1.3435. Spot displays short-term reversal characteristics against the prevailing downtrend following a bullish engulfing print. Leveraged funds hold net long positions of +13,065 contracts after adding +7,002 contracts WoW, though 52-week positioning percentile remains depressed at 21 (z -0.97). Rate spreads provide slight dollar backing, with Fed at 4.00% vs BoE 3.75% (+25bp carry advantage; +15bp SOFR-SONIA basis). The pair faces imminent headline re-evaluation across morning London trade, with September UK headline CPI expected at 2.7% y/y and claimant count updates testing November rate hike expectations. Trade bias: Neutral GBP/USD; technical recovery testing moving average cluster ahead of high-impact macro data. Catalyst: UK CPI release at 06:00 UTC. Risk: Softer-than-forecast UK inflation prints below 2.7% triggering aggressive BoE pause repricing toward 1.3249.",
-      "evidence": [
-        "GBP/USD spot: 1.3334",
-        "Fed 4.0% vs BoE 3.75% — +25bp",
-        "GBP COT LF net: +13,065 (WoW +7,002)"
+        "EUR/USD VRP: +2.5% (IV 6.6% vs HV30 4.1%)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary"
     }
