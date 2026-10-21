@@ -1,42 +1,44 @@
 {
-  "generated_at": "2026-10-20T23:58:14Z",
+  "generated_at": "2026-10-21T05:01:40Z",
   "signals": [
     {
-      "time": "23:55",
+      "time": "05:01",
       "priority": "critical",
-      "title": "AUD/JPY — G10 Bilateral Theme + Hawkish RBA",
-      "text": "AUD/JPY trades at 110.896, underpinned by an exceptional G10 divergence where AUD leads the weekly performance board (+1.204%, n=4) while JPY lags as the worst performer (-0.713%, n=7), creating a 1.917% spread that triggers the critical bilateral threshold. AONIA 4.60% vs TONA 1.23% provides a +337bp carry advantage to AUD, reinforced by a 335bp headline policy rate spread (RBA 4.6% vs BoJ 1.25%). The fundamental divergence widened sharply after RBA's Hauser flagged that Q3 trimmed mean inflation is tracking hotter than anticipated, solidifying tightening pressure. Meanwhile, the options market exhibits acute downside hedging via USD/JPY 25d RR at -1.93, indicating that cross-carry upside in JPY crosses faces sharp headline sensitivity. Trade bias: Long AUD/JPY, supported by strong carry and G10 thematic momentum. Catalyst: RBA meeting 3 Nov — hold priced but hawkish guidance expected. Risk: BoJ surprise rate hike or acute risk-off liquidation collapsing high-beta carry.",
+      "title": "AUD/USD — G10 Bilateral Theme + Hawkish RBA Repricing",
+      "text": "AUD/USD trades at 0.7013, holding above its SMA20 of 0.6979 while the broader technical structure shows short-term reversal evidence against the prior downtrend. On the 1W G10 Strength Scorecard, AUD leads the board at +1.246% across 4 pairs while USD anchors the bottom at -0.619% across 9 pairs, generating a critical 1.865% bilateral spread. The move gathers fresh momentum following hawkish commentary from RBA Deputy Governor Hauser warning that Australia's inflation outlook has materially worsened and putting a November rate hike directly into play. OIS carry differentials currently favor AUD by 73bp with AONIA at 4.60% against SOFR at 3.87%, further reinforcing base currency demand. Overhead resistance looms at the downward-sloping SMA50 and SMA200 cluster at 0.7049/0.7080, which leans against an immediate runaway extension. Trade bias: Bullish AUD/USD, supported by expanding policy divergence and bilateral performance leadership. Catalyst: RBA meeting 3 Nov — policy hold priced with hike risks building. Risk: Technical rejection at the SMA200 of 0.7049 forces a momentum stall prior to upcoming Australian CPI data.",
       "evidence": [
-        "AUD 1W avg: +1.204% (n=4)",
-        "JPY 1W avg: -0.713% (n=7)",
-        "G10 spread: 1.917%"
+        "AUD 1W avg: +1.246% (n=4)",
+        "USD 1W avg: -0.619% (n=9)",
+        "G10 spread: 1.865%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "AUD/JPY",
+        "verdict": "caution",
+        "pair": "AUD/USD",
         "direction": 1,
         "supports": [
           "technical regime points with the stated direction"
         ],
-        "conflicts": [],
+        "conflicts": [
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
+        ],
         "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
+          "bias": "Bearish",
+          "conviction": "low",
+          "technical_alignment": "counter_trend",
           "asof": "2026-10-20"
         }
       }
     },
     {
-      "time": "23:52",
+      "time": "04:57",
       "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + Elevated Carry",
-      "text": "USD/JPY trades at 158.30, holding above its SMA20 (158.01) and SMA50 (157.68) while testing overhead resistance at the SMA200 (158.51). A substantial carry cushion of +264bp on OIS (SOFR 3.87% vs TONA 1.23%) and +275bp in central bank policy rates (Fed 4.0% vs BoJ 1.25%) keeps the underlying bid intact. However, options demand is heavily skewed toward protecting against a sharp drop, with 25d RR printing at -1.93 (strong put skew) while IV sits at 7.2% against HV30 of 5.5% (VRP +1.7%). Geopolitical developments around the Strait of Hormuz keep event risk elevated, maintaining caution on extended upside beyond 160.00. Trade bias: Neutral/long USD/JPY; carry supports the pair but aggressive downside options hedging limits upside velocity. Catalyst: Fed meeting 28 Oct — hike bias priced. Risk: Sustained break above 160.00 triggering official MoF verbal warnings or intervention.",
+      "title": "USD/JPY — Options Downside Hedging vs Carry Compression",
+      "text": "USD/JPY trades at 158.09, pinned within a tight 20-session consolidation range between the SMA20 of 158.01 and SMA200 at 158.55. The options market displays defensive positioning, with the 1M 25-delta Risk Reversal printing an extreme put skew of -1.93, indicating elevated demand for downside JPY-call protection. This options hedging contrasts with CFTC positioning, where Leveraged Funds hold net short JPY contracts of -37,820 (88th percentile of the 52-week range), leaving the pair exposed to rapid short-covering. While the SOFR-TONA OIS carry spread of +264bp maintains fundamental support for USD longs, comments from BoJ Deputy Governor Himino highlighting low real rates reinforce market vigilance regarding tightening risks. A break of the range floor would likely accelerate options-driven hedging into spot flows. Trade bias: Range-bound USD/JPY with downside vulnerability on options skew pressures. Catalyst: BoJ meeting 30 Oct — hold expected. Risk: Sustained close above the SMA200 at 158.55 invalidates downside hedging demand and resumes carry-driven accumulation.",
       "evidence": [
-        "USD/JPY 25d RR: -1.93 (strong put skew)",
-        "SOFR 3.87% vs TONA 1.23% — +264bp",
-        "USD/JPY IV 7.2% vs HV30 5.5% (VRP +1.7%)"
+        "25d RR: -1.93 (strong put skew)",
+        "USD/JPY OIS carry: +264bp",
+        "JPY COT LF net: -37,820 (pctl 88)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -45,47 +47,47 @@
       }
     },
     {
-      "time": "23:48",
+      "time": "04:54",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Speculative Short + Elevated Vol Premium",
-      "text": "EUR/USD trades at 1.1228, remaining pinned below its SMA20 (1.1263), SMA50 (1.1459), and SMA200 (1.1586) inside a broader downtrend structure. CFTC data shows institutional speculative positioning heavily stretched short at net -92,833 contracts (pctl 4, z -1.78), reflecting a four-week liquidation of -41,478 contracts. Simultaneously, EUR/USD options reflect defensive hedging, with ATM IV at 6.6% versus HV30 of 4.1%, generating an elevated Vol Risk Premium of +2.5%. While the +143bp OIS carry advantage favors USD (SOFR 3.87% vs ESTR 2.44%), the severe speculative crowding leaves the pair vulnerable to sharp short-covering spikes on any unexpected hawkish ECB rhetoric. Trade bias: Bearish EUR/USD; structurally pressured by carry but prone to squeeze risks given extreme short positioning. Catalyst: ECB meeting 29 Oct — hold priced. Risk: Daily close above the SMA20 at 1.1263 triggering accelerated short-covering toward 1.1400.",
+      "title": "EUR/USD — Positioning Squeeze vs Elevated Vol Premium",
+      "text": "EUR/USD trades at 1.1227, remaining below its SMA20 of 1.1263 and SMA50 of 1.1459 in a broader counter-trend structure. Leveraged Funds net positioning sits severely stretched at -92,833 contracts, residing in the 4th percentile of its 52-week distribution with a z-score of -1.78. Options volatility shows 1M ATM implied volatility at 6.6% against a 30-day realized volatility of 4.1%, generating an elevated Vol Risk Premium of +2.5% that reflects significant hedging demand ahead of central bank decisions. Meanwhile, short-term US 5Y yields dropped 10bp over the last 5 sessions, driven entirely by a 10bp drop in real yields according to FRED data as of October 16. The combination of stretched institutional short positioning and a wide volatility risk premium leaves EUR/USD heavily vulnerable to an asymmetric squeeze if upcoming growth data surprises higher. Trade bias: Bullish EUR/USD squeeze, contrarian to crowded institutional shorts. Catalyst: ECB meeting 29 Oct — market pricing policy hold. Risk: Daily close below the 1.1200 handle re-engages trendline selling and invalidates positioning squeeze potential.",
       "evidence": [
         "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD IV 6.6% vs HV30 4.1% (VRP +2.5%)",
-        "SOFR 3.87% vs ESTR 2.44% — +143bp"
+        "EUR/USD VRP: +2.5% (IV 6.6% vs HV30 4.1%)",
+        "US 5Y 5D: real -10bp (FRED, Oct 16)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
+        "verdict": "conflicted",
         "pair": "EUR/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
+        "direction": 1,
+        "supports": [],
+        "conflicts": [
+          "technical regime (pullback) points against the stated direction",
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
         ],
-        "conflicts": [],
         "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
+          "bias": "Bearish",
+          "conviction": "low",
+          "technical_alignment": "aligned",
           "asof": "2026-10-20"
         }
       }
     },
     {
-      "time": "23:42",
-      "priority": "warning",
-      "title": "USD/NOK — Retail Sentiment Extreme vs Technical Downtrend",
-      "text": "USD/NOK trades at 9.403, entrenched in a clear technical downtrend trading below its SMA20 (9.527), SMA50 (9.420), and SMA200 (9.529). Retail sentiment data retail sentiment displays an extreme 100% long bias (0% short), aggressively attempting to catch the falling market against trend structure. This retail positioning directly opposes Norway's restrictive policy stance, with Norges Bank at 4.5% delivering a +1.82% real rate alongside an ESI of +17.2, reflecting persistent domestic economic outperformance. The combination of complete retail capitulation potential and falling technical averages points to continued downward momentum toward structural support. Trade bias: Bearish USD/NOK, contrarian to retail extreme and aligned with trend structure. Catalyst: Norges Bank meeting 5 Nov — hold expected. Risk: Sharp decline in crude oil prices disrupting NOK terms of trade and forcing a technical bounce above 9.530.",
+      "time": "04:48",
+      "priority": "info",
+      "title": "GBP/USD — Technical Moving Average Test Ahead of UK CPI",
+      "text": "GBP/USD is trading at 1.3373, testing critical overhead resistance directly beneath its SMA50 of 1.3412 and SMA200 of 1.3434. The intraday trend structure indicates short-term momentum turning against the downtrend, with the pair holding firmly above its SMA20 of 1.3251. Rate differentials remain tightly matched, with the BoE at 3.75% versus the Fed at 4.00%, translating to a modest 14bp SOFR-SONIA OIS advantage for the US dollar. Leveraged Funds positioning reflects moderate longs at +13,065 contracts (21st percentile of the 52-week range), leaving the currency clear of speculative crowding ahead of crucial macro catalysts. A decisive breach above the 1.3434 moving average ceiling requires direct validation from incoming inflation figures. Trade bias: Neutral GBP/USD, awaiting confirmation at the SMA200 technical boundary. Catalyst: UK CPI release at 06:00 UTC — consensus forecast at 2.7% YoY. Risk: Below-forecast UK inflation print triggers immediate technical rejection off 1.3412 resistance back toward the 1.3251 SMA20 support.",
       "evidence": [
-        "USD/NOK retail: 100% long / 0% short",
-        "NOK ESI: +17.2 (strong positive)",
-        "USD/NOK SMA20: 9.527 (price below at 9.403)"
+        "GBP/USD spot: 1.3373 vs SMA200: 1.3434",
+        "GBP/USD OIS carry: +14bp",
+        "UK CPI forecast: 2.7% y/y"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unverified",
-        "pair": "USD/NOK",
-        "direction": -1
+        "verdict": "not_directional",
+        "pair": "GBP/USD"
       }
     }
   ]
