@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-21T10:24:16Z",
-  "generatedAt": "2026-10-21T10:24:16Z",
+  "lastUpdate": "2026-10-21T11:30:57Z",
+  "generatedAt": "2026-10-21T11:30:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3588,6 +3588,16 @@
       "mean": -0.1,
       "std": 0.141421
     },
+    "EUR/latvia ppi yoy": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.424264
+    },
+    "EUR/latvia ppi mom": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.212132
+    },
     "EUR/spain trade balance": {
       "n": 2,
       "mean": -0.7995,
@@ -3602,6 +3612,11 @@
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "EUR/slovenia unemployment rate": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.070711
     },
     "AUD/participation rate": {
       "n": 2,
@@ -82420,9 +82435,9 @@
       "flag": "🇪🇺",
       "event": "Latvia PPI YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "2.9%",
-      "previous": "2.6%"
+      "previous": "2.7%"
     },
     {
       "date": "21 Oct",
@@ -82433,7 +82448,7 @@
       "flag": "🇪🇺",
       "event": "Slovenia Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "4.4%",
       "forecast": "4.4%",
       "previous": "4.4%"
     },
@@ -82446,9 +82461,9 @@
       "flag": "🇪🇺",
       "event": "Latvia PPI MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.4%",
-      "previous": "0.5%"
+      "previous": "0.6%"
     },
     {
       "date": "21 Oct",
