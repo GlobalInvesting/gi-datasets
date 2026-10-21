@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-21T09:17:18Z",
-  "generatedAt": "2026-10-21T09:17:18Z",
+  "lastUpdate": "2026-10-21T10:16:45Z",
+  "generatedAt": "2026-10-21T10:16:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3592,6 +3592,16 @@
       "n": 2,
       "mean": -0.7995,
       "std": 1.65958
+    },
+    "EUR/belgium consumer confidence": {
+      "n": 2,
+      "mean": -1.5,
+      "std": 0.707107
+    },
+    "EUR/croatia unemployment rate": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
     },
     "AUD/participation rate": {
       "n": 2,
@@ -82371,7 +82381,7 @@
       "flag": "🇪🇺",
       "event": "Belgium Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "-13",
       "forecast": "-11",
       "previous": "-10"
     },
@@ -82384,7 +82394,7 @@
       "flag": "🇪🇺",
       "event": "Croatia Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "3.4%",
       "forecast": "3.4%",
       "previous": "3.4%"
     },
@@ -82397,7 +82407,7 @@
       "flag": "🇪🇺",
       "event": "Greece 26-Week Bill Auction",
       "impact": "low",
-      "actual": null,
+      "actual": "2.64%",
       "forecast": null,
       "previous": "2.58%"
     },
