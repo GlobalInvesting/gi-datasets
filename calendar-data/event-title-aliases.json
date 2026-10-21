@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T12:11:06Z",
+  "generatedAt": "2026-10-21T15:29:02Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -3272,6 +3272,38 @@
     },
     {
       "currency": "GBP",
+      "primary_title": "United Kingdom Core PPI Output y/y",
+      "secondary_title": "United Kingdom PPI Core Output YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 3.2,
+          "forecast_secondary": 2.8,
+          "actual_primary": 2.9,
+          "actual_secondary": 2.9,
+          "previous_primary": 2.7,
+          "previous_secondary": 2.8,
+          "actual_secondary_raw": "2.9%",
+          "forecast_secondary_raw": "2.8%",
+          "previous_secondary_raw": "2.8%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 3.2,
+          "forecast_yahoo": null,
+          "actual_primary": 2.9,
+          "actual_yahoo": 2.9,
+          "previous_primary": 2.7,
+          "previous_yahoo": 2.7,
+          "actual_yahoo_raw": "2.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.7"
+        }
+      },
+      "yahoo_title": "PPI Core Output YY NSA"
+    },
+    {
+      "currency": "GBP",
       "primary_title": "United Kingdom Core CPI y/y",
       "secondary_title": "United Kingdom Core Inflation Rate YoY",
       "evidence": {
@@ -3279,7 +3311,7 @@
           "dateISO": "2026-10-21",
           "forecast_primary": 2.4,
           "forecast_secondary": 2.7,
-          "actual_primary": null,
+          "actual_primary": 2.8,
           "actual_secondary": 2.8,
           "previous_primary": 2.6,
           "previous_secondary": 2.6,
@@ -3298,47 +3330,28 @@
           "dateISO": "2026-10-21",
           "forecast_primary": 2.8,
           "forecast_secondary": 2.8,
-          "actual_primary": null,
+          "actual_primary": 2.9,
           "actual_secondary": 2.9,
           "previous_primary": 3.3,
           "previous_secondary": 2.8,
           "actual_secondary_raw": "2.9%",
           "forecast_secondary_raw": "2.8%",
           "previous_secondary_raw": "2.8%"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Core CPI m/m",
-      "secondary_title": "United Kingdom Core Inflation Rate MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 0.2,
-          "forecast_secondary": 0.1,
-          "actual_primary": null,
-          "actual_secondary": 0.2,
-          "previous_primary": 0.3,
-          "previous_secondary": 0.3,
-          "actual_secondary_raw": "0.2%",
-          "forecast_secondary_raw": "0.1%",
-          "previous_secondary_raw": "0.3%"
         },
         "yahoo": {
           "dateISO": "2026-10-21",
-          "forecast_primary": 0.2,
+          "forecast_primary": 2.8,
           "forecast_yahoo": null,
-          "actual_primary": null,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
-          "actual_yahoo_raw": "0.2",
+          "actual_primary": 2.9,
+          "actual_yahoo": 2.9,
+          "previous_primary": 3.3,
+          "previous_yahoo": 2.7,
+          "actual_yahoo_raw": "2.9",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
+          "previous_yahoo_raw": "2.7"
         }
       },
-      "yahoo_title": "PPI Core Output MM NSA"
+      "yahoo_title": "PPI Core Output YY NSA"
     },
     {
       "currency": "CAD",
@@ -3671,13 +3684,13 @@
         "secondary": {
           "dateISO": "2026-10-28",
           "forecast_primary": null,
-          "forecast_secondary": 2.25,
+          "forecast_secondary": 2.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 2.25,
           "previous_secondary": 2.25,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "2.25%",
+          "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "2.25%"
         }
       }
@@ -4064,13 +4077,13 @@
         "secondary": {
           "dateISO": "2026-10-30",
           "forecast_primary": 1.2,
-          "forecast_secondary": 1.0,
+          "forecast_secondary": 1.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.2,
           "previous_secondary": 1.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1%",
+          "forecast_secondary_raw": "1.1%",
           "previous_secondary_raw": "1.2%"
         }
       }
@@ -4628,25 +4641,6 @@
     },
     {
       "currency": "GBP",
-      "primary_title": "United Kingdom Core PPI Output y/y",
-      "yahoo_title": "PPI Core Output YY NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 3.2,
-          "forecast_yahoo": null,
-          "actual_primary": null,
-          "actual_yahoo": 2.9,
-          "previous_primary": 2.7,
-          "previous_yahoo": 2.7,
-          "actual_yahoo_raw": "2.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.7"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
       "primary_title": "United Kingdom CPI m/m",
       "yahoo_title": "CPI MM",
       "evidence": {
@@ -4654,7 +4648,7 @@
           "dateISO": "2026-10-21",
           "forecast_primary": 0.1,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 0.4,
           "actual_yahoo": 0.4,
           "previous_primary": 0.5,
           "previous_yahoo": 0.5,
@@ -4673,7 +4667,7 @@
           "dateISO": "2026-10-21",
           "forecast_primary": 2.7,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 3.5,
           "actual_yahoo": 3.5,
           "previous_primary": 3.1,
           "previous_yahoo": 3.1,
@@ -4692,13 +4686,32 @@
           "dateISO": "2026-10-21",
           "forecast_primary": 2.9,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 3.9,
           "actual_yahoo": 3.9,
           "previous_primary": 3.4,
           "previous_yahoo": 3.4,
           "actual_yahoo_raw": "3.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.4"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Core CPI m/m",
+      "yahoo_title": "PPI Core Output MM NSA",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-21",
+          "forecast_primary": 0.2,
+          "forecast_yahoo": null,
+          "actual_primary": 0.2,
+          "actual_yahoo": 0.2,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
         }
       }
     },
