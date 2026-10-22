@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-22T00:08:25Z",
+  "generatedAt": "2026-10-22T12:14:55Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 199,
+  "aliasCount": 190,
   "aliases": [
     {
       "currency": "AUD",
@@ -1321,21 +1321,8 @@
           "actual_secondary_raw": "-1.8%",
           "forecast_secondary_raw": "-2.3%",
           "previous_secondary_raw": "-1.9%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": -1.4,
-          "forecast_yahoo": null,
-          "actual_primary": -1.8,
-          "actual_yahoo": -1.8,
-          "previous_primary": -2.3,
-          "previous_yahoo": -2.5,
-          "actual_yahoo_raw": "-1.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-2.5"
         }
-      },
-      "yahoo_title": "Construction O/P Vol YY"
+      }
     },
     {
       "currency": "GBP",
@@ -1353,21 +1340,8 @@
           "actual_secondary_raw": "0.8%",
           "forecast_secondary_raw": "-0.1%",
           "previous_secondary_raw": "0.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": -0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
         }
-      },
-      "yahoo_title": "Industrial Output MM"
+      }
     },
     {
       "currency": "GBP",
@@ -1385,21 +1359,8 @@
           "actual_secondary_raw": "1.2%",
           "forecast_secondary_raw": "0.0%",
           "previous_secondary_raw": "1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": -0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 1.2,
-          "actual_yahoo": 1.2,
-          "previous_primary": -0.5,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "1.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
         }
-      },
-      "yahoo_title": "Manufacturing Output MM"
+      }
     },
     {
       "currency": "GBP",
@@ -3647,120 +3608,6 @@
       }
     },
     {
-      "currency": "JPY",
-      "primary_title": "BoJ Corporate Goods Price Index m/m",
-      "yahoo_title": "Corp Goods Price MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-12",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.3,
-          "actual_yahoo": -0.3,
-          "previous_primary": -0.2,
-          "previous_yahoo": -0.2,
-          "actual_yahoo_raw": "-0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Corporate Goods Price Index y/y",
-      "yahoo_title": "Corp Goods Price YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-12",
-          "forecast_primary": 7.8,
-          "forecast_yahoo": null,
-          "actual_primary": 6.8,
-          "actual_yahoo": 6.8,
-          "previous_primary": 7.6,
-          "previous_yahoo": 7.6,
-          "actual_yahoo_raw": "6.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "7.6"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden CPI m/m",
-      "yahoo_title": "CPI MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-14",
-          "forecast_primary": 0.5,
-          "forecast_yahoo": null,
-          "actual_primary": 0.9,
-          "actual_yahoo": 0.9,
-          "previous_primary": -0.3,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "0.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden CPI y/y",
-      "yahoo_title": "CPI YY*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-14",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 0.3,
-          "previous_yahoo": 1.2,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.2"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden CPIF m/m",
-      "yahoo_title": "CPIF MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-14",
-          "forecast_primary": 1.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.9,
-          "actual_yahoo": 0.9,
-          "previous_primary": -0.2,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "0.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden CPIF y/y",
-      "yahoo_title": "CPIF YY*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-14",
-          "forecast_primary": 0.8,
-          "forecast_yahoo": null,
-          "actual_primary": 1.5,
-          "actual_yahoo": 1.5,
-          "previous_primary": 0.7,
-          "previous_yahoo": 1.5,
-          "actual_yahoo_raw": "1.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.5"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "Australia Participation Rate",
       "yahoo_title": "Participation Rate",
@@ -3795,63 +3642,6 @@
           "actual_yahoo_raw": "4.7",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "4.6"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Construction Output m/m",
-      "yahoo_title": "Construction O/P Vol MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": -0.3,
-          "forecast_yahoo": null,
-          "actual_primary": -0.2,
-          "actual_yahoo": -0.2,
-          "previous_primary": -0.1,
-          "previous_yahoo": 0.1,
-          "actual_yahoo_raw": "-0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.1"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Industrial Production y/y",
-      "yahoo_title": "Industrial Output YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": 1.6,
-          "actual_yahoo": 1.6,
-          "previous_primary": -0.2,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "1.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Manufacturing Production y/y",
-      "yahoo_title": "Manufacturing Output YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": 3.0,
-          "actual_yahoo": 3.0,
-          "previous_primary": 0.5,
-          "previous_yahoo": 2.6,
-          "actual_yahoo_raw": "3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.6"
         }
       }
     },
