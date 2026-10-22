@@ -1,4 +1,4 @@
-name: Update OHLC Chart Data — v2.5 (private scripts)
+name: Update OHLC Chart Data — v2.6 (private scripts)
 
 
 on:
@@ -58,6 +58,7 @@ jobs:
 
       - name: Fetch credit spread OHLC — HY/IG OAS (D1 finalization run only)
         if: github.event.schedule == '30 1 * * 2-6' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
         env:
           SITE_DIR: .
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
