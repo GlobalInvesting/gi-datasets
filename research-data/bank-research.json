@@ -1,14 +1,82 @@
 {
-  "updated_utc": "2026-10-23T00:20:45.052430+00:00",
-  "updated_label": "00:20 UTC",
-  "total": 38,
+  "updated_utc": "2026-10-23T04:20:49.498484+00:00",
+  "updated_label": "04:20 UTC",
+  "total": 40,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
+    "RBC",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "6bb1b0bcfd86",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Asia week ahead: BoJ rates, China’s Fifth Plenum, Taiwan and Korea data",
+      "excerpt": "ASIA/PACIFIC: The Bank of Japan is expected to hold rates at 1.25%, while Taiwan’s economy is set to record another quarter of double-digit growth. Markets will also focus on China’s Fifth Plenum meeting and South Korea’s third-quarter GDP…",
+      "author": "",
+      "url": "https://think.ing.com/articles/asia-week-ahead-231026/",
+      "currencies": [
+        "JPY"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792721220000,
+      "published": "2026-10-23T02:07:00+00:00"
+    },
+    {
+      "id": "139aaa1ef88a",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "The Commodities Feed: Brent builds geopolitical premium as Gulf risks rise",
+      "excerpt": "Oil rallied yesterday as markets grow increasingly concerned about the risk of a renewed escalation in tensions between the US and…",
+      "author": "",
+      "url": "https://think.ing.com/articles/the-commodities-feed-brent-risk-premium-builds-with-fears-of-re-escalation/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792720080000,
+      "published": "2026-10-23T01:48:00+00:00"
+    },
+    {
+      "id": "3902198fdc01",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "Fed Preview: On Hold in October, Hiking Resumes Later",
+      "excerpt": "We expect the Federal Reserve to keep policy rates unchanged at the October meeting, in line with consensus. Markets price in a 15-25% probability of a hike. Most central FOMC members have signalled they can wait until December before hiking again, though a few see more urgency. We expect 2-3 votes for a hike. We [&#8230;] The post Fed Preview: On Hold in October, Hiking Resumes Later appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/658415-fed-preview-on-hold-in-october-hiking-resumes-later/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792719925000,
+      "published": "2026-10-23T01:45:25+00:00"
+    },
+    {
+      "id": "7d1f8d3b735a",
+      "bank": "RBC",
+      "bank_full": "RBC Financial Group",
+      "series": "",
+      "title": "The Bank of Canada at an Inflection Point: Inflation Fears Live on",
+      "excerpt": "We are now pencilling in the Bank of Canada’s first interest rate hike of 25 basis points since March 2022 on Wednesday as it faces a pivotal decision amid evolving economic conditions. But, we have very low conviction on the idea of a rate hike this soon, and it’s almost equally probable the central bank [&#8230;] The post The Bank of Canada at an Inflection Point: Inflation Fears Live on appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/658411-the-bank-of-canada-at-an-inflection-point-inflation-fears-live-on/",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792719722000,
+      "published": "2026-10-23T01:42:02+00:00"
+    },
     {
       "id": "2076aa69da64",
       "bank": "CME",
@@ -165,25 +233,6 @@
       "published": "2026-10-22T06:53:00+00:00"
     },
     {
-      "id": "5e3d59b3fd64",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: Defensive rotation in play",
-      "excerpt": "It looks like markets are going through a subtle regime shift. Higher energy prices no longer mean higher rates forever; instead, the long end is starting to express a little more fear about growth. The upcoming US midterms may also be playing a role. It looks like there is some defensive rotation underway into the Swiss franc, the yen and…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-defensive-rotation-in-play/",
-      "currencies": [
-        "GBP",
-        "JPY",
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792651800000,
-      "published": "2026-10-22T06:50:00+00:00"
-    },
-    {
       "id": "deaed065692a",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -205,23 +254,6 @@
       "category": "macro",
       "ts": 1792650900000,
       "published": "2026-10-22T06:35:00+00:00"
-    },
-    {
-      "id": "43c0b44f4f7c",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "ECB caught in the French drama",
-      "excerpt": "EUROPE: The European Central Bank meeting on 29 October is not expected to result in an interest rate hike. Instead, the French crisis is increasingly eroding the need for additional rate…",
-      "author": "",
-      "url": "https://think.ing.com/articles/ecb-caught-in-the-french-drama/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792637460000,
-      "published": "2026-10-22T02:51:00+00:00"
     },
     {
       "id": "9b040c22763a",
@@ -595,21 +627,6 @@
       "published": "2026-10-19T06:37:00+00:00"
     },
     {
-      "id": "d9e814510158",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Partnerships for prosperity - unlocking regional potential",
-      "excerpt": "Speech by Dr P Nandalal Weerasinghe, Governor of the Central Bank of Sri Lanka, at the 49th Annual General Meeting of the Association of Development Financing Institutions in Asia and the Pacific (ADFIAP), Colombo, 23 September 2026.",
-      "author": "P Nandalal Weerasinghe",
-      "url": "https://www.bis.org/speeches/20261016-partnerships-prosperity-unlocking-regional-potential",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1792368000000,
-      "published": "2026-10-19T00:00:00+00:00"
-    },
-    {
       "id": "db3a17fc8231",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -620,6 +637,24 @@
       "url": "https://www.bis.org/speeches/20261019-supervisory-modernisation-after-silicon-valley-bank",
       "currencies": [
         "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1792368000000,
+      "published": "2026-10-19T00:00:00+00:00"
+    },
+    {
+      "id": "bd567b944ded",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Ensuring resilience in the face of uncertainty",
+      "excerpt": "Keynote speech by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the ECB-Bank of England Conference on supervising climate risk in a non-linear world, Frankfurt am Main, 14 October 2026.",
+      "author": "Frank Elderson",
+      "url": "https://www.bis.org/speeches/20261016-ensuring-resilience-face-uncertainty",
+      "currencies": [
+        "EUR",
+        "GBP"
       ],
       "pairs": [],
       "category": "macro",
