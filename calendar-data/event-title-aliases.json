@@ -1,48 +1,10 @@
 {
-  "generatedAt": "2026-10-22T18:40:35Z",
+  "generatedAt": "2026-10-23T00:05:16Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 191,
+  "aliasCount": 184,
   "aliases": [
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Exports m/m",
-      "secondary_title": "Australia Exports MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 3.7,
-          "actual_secondary": 3.7,
-          "previous_primary": -3.3,
-          "previous_secondary": -3.6,
-          "actual_secondary_raw": "3.7%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-3.6%"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Imports m/m",
-      "secondary_title": "Australia Imports MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 5.8,
-          "actual_secondary": 5.8,
-          "previous_primary": -2.5,
-          "previous_secondary": -2.4,
-          "actual_secondary_raw": "5.8%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-2.4%"
-        }
-      }
-    },
     {
       "currency": "GBP",
       "primary_title": "United Kingdom Nationwide HPI m/m",
@@ -78,139 +40,6 @@
           "actual_secondary_raw": "0.8%",
           "forecast_secondary_raw": "1.5%",
           "previous_secondary_raw": "1.6%"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "RBA Index of Commodity Prices y/y",
-      "secondary_title": "Australia Commodity Prices YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 17.2,
-          "forecast_secondary": 15.0,
-          "actual_primary": 15.5,
-          "actual_secondary": 15.5,
-          "previous_primary": 15.5,
-          "previous_secondary": 16.2,
-          "actual_secondary_raw": "15.5%",
-          "forecast_secondary_raw": "15%",
-          "previous_secondary_raw": "16.2%"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Manufacturing PMI",
-      "secondary_title": "Euro Area S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": 52.7,
-          "actual_primary": 52.9,
-          "actual_secondary": 52.9,
-          "previous_primary": null,
-          "previous_secondary": 52.7,
-          "actual_secondary_raw": "52.9",
-          "forecast_secondary_raw": "52.7",
-          "previous_secondary_raw": "52.7"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom S&P Global/CIPS Manufacturing PMI",
-      "secondary_title": "United Kingdom S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": null,
-          "forecast_secondary": 52.0,
-          "actual_primary": 52.0,
-          "actual_secondary": 51.9,
-          "previous_primary": null,
-          "previous_secondary": 51.7,
-          "actual_secondary_raw": "51.9",
-          "forecast_secondary_raw": "52",
-          "previous_secondary_raw": "51.7"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States S&P Global Manufacturing PMI",
-      "secondary_title": "United States S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 52.6,
-          "forecast_secondary": 57.0,
-          "actual_primary": 55.9,
-          "actual_secondary": 55.9,
-          "previous_primary": 53.9,
-          "previous_secondary": 53.9,
-          "actual_secondary_raw": "55.9",
-          "forecast_secondary_raw": "57",
-          "previous_secondary_raw": "53.9"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States ISM Manufacturing Prices Paid",
-      "secondary_title": "United States ISM Manufacturing Prices",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": 76.3,
-          "forecast_secondary": 71.3,
-          "actual_primary": 77.9,
-          "actual_secondary": 77.9,
-          "previous_primary": 71.1,
-          "previous_secondary": 71.1,
-          "actual_secondary_raw": "77.9",
-          "forecast_secondary_raw": "71.3",
-          "previous_secondary_raw": "71.1"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Jobs to Applicants Ratio",
-      "secondary_title": "Japan Jobs/applications ratio",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 1.18,
-          "forecast_secondary": 1.18,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 1.18,
-          "previous_secondary": 1.18,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1.18",
-          "previous_secondary_raw": "1.18"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Monetary Base y/y",
-      "secondary_title": "Japan Monetary Base YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-01",
-          "forecast_primary": -14.8,
-          "forecast_secondary": -16.0,
-          "actual_primary": -15.2,
-          "actual_secondary": -15.2,
-          "previous_primary": -15.7,
-          "previous_secondary": -15.7,
-          "actual_secondary_raw": "-15.2%",
-          "forecast_secondary_raw": "-16.0%",
-          "previous_secondary_raw": "-15.7%"
         }
       }
     },
@@ -2704,15 +2533,28 @@
           "dateISO": "2026-10-22",
           "forecast_primary": 1.8,
           "forecast_secondary": 2.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.4,
+          "actual_secondary": 2.4,
           "previous_primary": 1.9,
           "previous_secondary": 1.9,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "2.4%",
           "forecast_secondary_raw": "2.0%",
           "previous_secondary_raw": "1.9%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": 1.8,
+          "forecast_yahoo": null,
+          "actual_primary": 2.4,
+          "actual_yahoo": 2.1,
+          "previous_primary": 1.9,
+          "previous_yahoo": 1.9,
+          "actual_yahoo_raw": "2.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.9"
         }
-      }
+      },
+      "yahoo_title": "CPI, Overall Nationwide"
     },
     {
       "currency": "JPY",
@@ -2723,15 +2565,28 @@
           "dateISO": "2026-10-22",
           "forecast_primary": 1.4,
           "forecast_secondary": 2.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.2,
+          "actual_secondary": 2.1,
           "previous_primary": 1.7,
           "previous_secondary": 1.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "2.1%",
           "forecast_secondary_raw": "2.0%",
           "previous_secondary_raw": "1.7%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": 1.4,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.1,
+          "previous_primary": 1.7,
+          "previous_yahoo": 1.7,
+          "actual_yahoo_raw": "2.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.7"
         }
-      }
+      },
+      "yahoo_title": "CPI, Core Nationwide YY"
     },
     {
       "currency": "GBP",
@@ -3380,6 +3235,25 @@
       }
     },
     {
+      "currency": "JPY",
+      "primary_title": "Japan Jobs to Applicants Ratio",
+      "secondary_title": "Japan Jobs/applications ratio",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-10-29",
+          "forecast_primary": 1.18,
+          "forecast_secondary": 1.18,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.18,
+          "previous_secondary": 1.18,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.18",
+          "previous_secondary_raw": "1.18"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia PPI q/q",
       "secondary_title": "Australia PPI QoQ",
@@ -3685,25 +3559,6 @@
     },
     {
       "currency": "NZD",
-      "primary_title": "New Zealand BusinessNZ Manufacturing Index",
-      "yahoo_title": "Manufacturing PMI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 56.5,
-          "actual_yahoo": 56.5,
-          "previous_primary": null,
-          "previous_yahoo": 53.1,
-          "actual_yahoo_raw": "56.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "53.1"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
       "primary_title": "New Zealand Food Price Index m/m",
       "yahoo_title": "Food Price Index",
       "evidence": {
@@ -3984,6 +3839,44 @@
           "actual_yahoo_raw": "0",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.1"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom GfK Consumer Confidence",
+      "yahoo_title": "GfK/NIM Consumer Confidence",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": -12.0,
+          "forecast_yahoo": null,
+          "actual_primary": -24.0,
+          "actual_yahoo": -24.0,
+          "previous_primary": -13.0,
+          "previous_yahoo": -13.0,
+          "actual_yahoo_raw": "-24",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-13"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan CPI y/y",
+      "yahoo_title": "CPI, Overall Nationwide",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-22",
+          "forecast_primary": 1.9,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.1,
+          "previous_primary": 1.9,
+          "previous_yahoo": 1.9,
+          "actual_yahoo_raw": "2.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.9"
         }
       }
     },
