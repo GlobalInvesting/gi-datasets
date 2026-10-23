@@ -1,96 +1,81 @@
 {
-  "generated_at": "2026-10-23T07:02:54Z",
+  "generated_at": "2026-10-23T12:06:56Z",
   "signals": [
     {
-      "time": "07:01",
+      "time": "11:58",
       "priority": "critical",
-      "title": "NOK/USD — G10 Bilateral Theme + Crude Divergence",
-      "text": "NOK leads the 1W G10 strength scorecard averaging +1.532% across 2 pairs, while USD anchors the bottom at −0.908% across 9 pairs, establishing an extreme 2.440% leader-to-laggard bilateral spread. WTI crude trading up at $100.80 per barrel reinforces Norwegian terms-of-trade outperformance even as Norges Bank at 4.50% yields a modest carry advantage over the Fed's 4.00% benchmark. Technical trend structure for USD/NOK confirms an active downtrend with spot at 9.329 trading entirely below its falling 20-day moving average of 9.512 and extended 2.33 ATRs from the mean. Extreme bilateral momentum overrides near-term oversold conditions, keeping USD/NOK biased lower while energy prices hold above $100. Trade bias: Bearish USD/NOK, trend continuation driven by commodity and bilateral divergence. Catalyst: Norges Bank policy meeting 5 Nov. Risk: WTI crude drops sharply back below $95 per barrel, eroding the terms-of-trade premium supporting NOK.",
+      "title": "NOK/EUR — G10 Bilateral Theme + Macro Divergence",
+      "text": "NOK leads the G10 space with a 1-week average gain of +1.404% across 2 pairs, while EUR anchors the performance table as the primary laggard at -1.008% across 9 pairs, opening a 2.412% bilateral spread. Macro fundamentals reinforce the divergence: Norges Bank policy rate sits at 4.5% against the ECB at 2.65%, providing a +185bp nominal policy advantage and a +148bp real rate gap (+1.82% vs +0.34%). Flash October PMIs accelerate the move, as French services slumped into contraction at 48.4 while Eurozone composite fell to 51.7 ahead of sovereign rating reviews. Meanwhile, elevated energy prices with WTI crude holding above $100.7/bbl continue to underpin the krone. Technical structure confirms trend continuation as EUR trades beneath its entire moving average complex. Trade bias: Bullish NOK/EUR; macroeconomic and policy divergence favors sustained outperformance. Catalyst: ECB meeting 29 Oct — market pricing hold. Risk: sharp pullback in crude oil prices beneath $95/bbl compresses the Nordic terms-of-trade advantage.",
       "evidence": [
-        "NOK 1W avg: +1.532% (n=2)",
-        "USD 1W avg: -0.908% (n=9)",
-        "G10 spread: 2.440%"
+        "NOK 1W avg: +1.404% (n=2)",
+        "EUR 1W avg: -1.008% (n=9)",
+        "G10 spread: 2.412%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
-        "pair": "USD/NOK",
-        "direction": -1
+        "pair": "NOK/EUR",
+        "direction": 1
       }
     },
     {
-      "time": "06:58",
+      "time": "11:54",
       "priority": "warning",
-      "title": "USD/JPY — Inflation Repricing + Downside Put Skew",
-      "text": "Japan September core CPI printed at 2.2% year-on-year above the 1.4% forecast, while CPI excluding food and energy accelerated to 2.4% against 1.8% expected, reviving market speculation around a higher Bank of Japan terminal rate. USD/JPY spot trades at 157.02, remaining below its SMA20 of 157.89, SMA50 of 157.60, and SMA200 of 158.54 in an established technical downtrend. Saxo Bank 1-month options reveal a sharp 25-delta risk reversal put skew at −2.20 alongside an elevated implied volatility of 8.0% versus HV30 of 5.8%, reflecting a +2.1% vol risk premium heavily skewed toward downside protection. Although the Fed-BoJ policy differential of 4.00% versus 1.25% maintains a 275bp carry buffer favoring USD, sovereign rate repricing and aggressive downside options hedging dominate short-term spot direction. Trade bias: Bearish USD/JPY, pressured by domestic inflation beats and options downside skew. Catalyst: Bank of Japan policy meeting 30 Oct. Risk: BoJ delivers an explicitly dovish hold on 30 Oct, prompting immediate short-covering back toward 158.50.",
+      "title": "EUR/USD — Positioning + Volatility + Macro",
+      "text": "EUR/USD trades at 1.1193, holding below its downward-sloping SMA20 at 1.1248, SMA50 at 1.1447, and SMA200 at 1.1582 with a confirmed downtrend in force. Options markets exhibit heightened defensive pricing, with 1-month ATM implied volatility at 6.8% outpacing 30-day realized volatility of 4.2%, driving a notable +2.7% volatility risk premium alongside a -0.53 risk reversal put skew. CFTC data shows institutional speculative positioning crowded short, with leveraged funds net short -92,833 contracts at the 4th percentile of its 52-week range (z = -1.78) following an 8,058 contract weekly reduction. Soft flash Eurozone PMIs compound pressure against a Fed policy rate of 4.00% versus ECB 2.65%, generating a 135bp nominal carry spread in favor of the dollar. Trade bias: Bearish EUR/USD; macro headwinds and elevated downside option hedging reinforce the established technical downtrend. Catalyst: Fed meeting 28 Oct — market pricing hold. Risk: CFTC short squeeze reclaims the SMA20 at 1.1248 and forces leveraged fund de-risking.",
       "evidence": [
-        "Japan Core CPI y/y: 2.2% vs 1.4% forecast",
-        "USD/JPY 25d RR: -2.20 put skew",
-        "USD/JPY VRP: +2.1% (IV 8.0% vs HV30 5.8%)"
+        "EUR/USD: 1.1193",
+        "EUR LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR/USD VRP: +2.7% (IV 6.8% vs HV30 4.2%)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
-        "pair": "USD/JPY",
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
         "direction": -1,
         "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.1 ATR with it over five sessions"
+          "technical regime points with the stated direction"
         ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-10-22"
-        }
-      }
-    },
-    {
-      "time": "06:55",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded Spec Short vs Volatility Premium",
-      "text": "CFTC speculative positioning shows EUR leveraged funds net short −92,833 contracts, sitting at the 4th percentile of its 52-week range with a z-score of −1.78 following a weekly net expansion of −8,058 contracts. EUR/USD trades at 1.1216, positioned entirely below its falling SMA20 of 1.1248, SMA50 of 1.1447, and SMA200 of 1.1579 in an ongoing macro downtrend. Concurrently, 1-month options pricing reflects elevated hedging demand with IV at 6.8% versus HV30 of 4.1%, generating a 2.7-point volatility risk premium over realized volatility. Fed policy at 4.00% versus ECB at 2.65% maintains a 135bp carry buffer favoring USD, but historically crowded spec shorts limit incremental downside momentum ahead of key central bank rate decisions. Trade bias: Neutral/range EUR/USD, stretched short positioning offsetting carry disadvantage. Catalyst: ECB policy meeting 29 Oct. Risk: ECB delivers an unexpectedly dovish tone while Fed signals an imminent hike, validating fresh speculative selling below 1.1200.",
-      "evidence": [
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD VRP: +2.7% (IV 6.8% vs HV30 4.1%)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
-      }
-    },
-    {
-      "time": "06:48",
-      "priority": "info",
-      "title": "GBP/USD — Retail Sales Miss vs Moving Average Resistance",
-      "text": "UK September retail sales contracted −0.4% month-on-month against expectations of a +0.9% expansion, while annual sales slowed to 0.8% against the 1.5% consensus forecast. GBP/USD trades at 1.3388, holding above its SMA20 of 1.3268 but encountering immediate technical resistance at the convergence of its SMA50 at 1.3408 and SMA200 at 1.3433. The Fed 4.00% versus BoE 3.75% benchmark rate differential maintains a 25bp carry advantage in favor of USD, while the 25-delta risk reversal sits modestly skewed toward puts at −0.52. Deteriorating consumer spending data weakens market conviction for near-term BoE tightening, leaving spot vulnerable to rejection at overhead moving-average resistance. Trade bias: Bearish GBP/USD, technical resistance capping upside following domestic retail sales miss. Catalyst: BoE policy meeting 5 Nov. Risk: Bank of England reiterates an aggressive tightening bias despite retail data softness, forcing a breakout above 1.3435.",
-      "evidence": [
-        "UK Retail Sales m/m: -0.4% vs +0.9% forecast",
-        "GBP/USD SMA50/SMA200 cluster: 1.3408/1.3433",
-        "Fed 4.00% vs BoE 3.75% — 25bp"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "conflicted",
-        "pair": "GBP/USD",
-        "direction": -1,
-        "supports": [],
-        "conflicts": [
-          "technical regime (reversal_risk) points against the stated direction",
-          "price moved 1.8 ATR against it over five sessions",
-          "close is already above the last swing high"
-        ],
+        "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
           "asof": "2026-10-22"
         }
+      }
+    },
+    {
+      "time": "11:50",
+      "priority": "warning",
+      "title": "USD/JPY — Options Skew + Carry + Levels",
+      "text": "USD/JPY prints at 156.89, trading below its descending SMA20 at 157.89 and SMA50 at 157.60, with spot testing lower swing boundaries following a wide-range bearish candle. The options market displays defensive positioning against upside spot tests, with 25-delta risk reversals at -2.20 marking an extreme put skew, complemented by 1-month implied volatility at 8.0% against realized volatility of 5.9% (VRP +2.0%). While a 265bp OIS carry advantage (SOFR 3.88% vs TONA 1.23%) structurally supports the dollar, the deep downside options skew signals robust hedging against potential official yen appreciation. Key watch level remains 160.00, where authorities have previously signaled heightened sensitivity, though immediate technical resistance sits firmly at the SMA20/50 cluster. Trade bias: Range/neutral USD/JPY; structural carry support contested by options downside hedging and technical resistance. Catalyst: BoJ meeting 30 Oct — market pricing hold. Risk: break and sustained close above the SMA20 at 157.89 invalidates the near-term technical ceiling.",
+      "evidence": [
+        "USD/JPY 25d RR: -2.20",
+        "USD/JPY: 156.89",
+        "Fed 4.0% vs BoJ 1.25% — 275bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
+      }
+    },
+    {
+      "time": "11:46",
+      "priority": "warning",
+      "title": "USD/NOK — Retail Sentiment vs Technical Momentum",
+      "text": "USD/NOK trades at 9.329, extending a clean technical downtrend below falling 20-day (9.512), 50-day (9.413), and 200-day (9.522) moving averages, positioned 2.33 ATR below the SMA20. Retail sentiment data retail sentiment registers a 100% long positioning extreme, creating a stark divergence against ongoing institutional selling and spot price momentum. The pair faces negative structural carry with Fed funds at 4.00% trailing Norges Bank's policy rate at 4.5% by 50bp, alongside a +182bp Norwegian real rate that acts as an additional yield anchor. Elevated crude benchmarks above $100/bbl maintain supportive terms-of-trade for NOK, compounding losses for contrarian retail buyers. Trade bias: Bearish USD/NOK; technical trend and carry headwinds favor continued downside despite one-sided retail positioning. Catalyst: Norges Bank meeting 5 Nov — market pricing hold. Risk: daily close above the descending 10-day high invalidates the extended intraday momentum.",
+      "evidence": [
+        "Retail sentiment: 100% LONG",
+        "USD/NOK: 9.329",
+        "Norges Bank 4.5% vs Fed 4.0% — 50bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": -1
       }
     }
   ]
