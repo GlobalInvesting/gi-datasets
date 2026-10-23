@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-22T21:01:54Z",
+  "generated_at": "2026-10-23T00:03:05Z",
   "signals": [
     {
-      "time": "21:00",
+      "time": "23:55",
       "priority": "critical",
-      "title": "NOK/USD — G10 Bilateral Theme + Energy Escalation",
-      "text": "NOK leads the G10 universe with a 1W average gain of +1.489% across 2 pairs, while USD anchors the table as the primary laggard down -0.968% across 9 pairs. This creates a leader-to-laggard bilateral spread of 2.457%, clearing the strong-theme threshold. Escalating Middle East shipping tensions and Strait of Hormuz disruption concerns push WTI crude higher to $99.1/bbl (+2.02%), reinforcing Norway's terms-of-trade advantage. Norges Bank policy rate of 4.50% yields a +50bp nominal rate advantage over the Fed's 4.00% benchmark, compounded by Norway's +1.82% restrictive real policy rate against USD's +1.61%. Spot USD/NOK trades at 9.361, breaching the prior 10-day low and extending its downtrend fully below the SMA20 (9.521), SMA50 (9.417), and SMA200 (9.522). Trade bias: Bearish USD/NOK, trend continuation supported by energy risk premium and policy rate advantage. Catalyst: Norges Bank meeting 5 Nov. Risk: De-escalation in Middle East transit corridors brings WTI back below $95/bbl, reversing the terms-of-trade impulse.",
+      "title": "NOK/USD — G10 Bilateral Theme + Energy Driver",
+      "text": "NOK ranks as the G10 leader with a 1W average gain of +1.521% across 2 pairs, while USD lags at −1.006% across 9 pairs. This generates an extreme leader-to-laggard bilateral spread of 2.527%, well clearing the critical threshold. USD/NOK trades at 9.333, confirmed in a clear downtrend trading below its falling SMA20 (9.513), SMA50 (9.413), and SMA200 (9.518). Norges Bank policy rate of 4.5% against the Fed 4.0% delivers a +50bp policy carry advantage to the Krone alongside a positive real rate differential of +1.82% versus +1.61%. WTI crude holding at $99.5 per barrel compounds the terms-of-trade divergence. Trade bias: Bearish USD/NOK, trend continuation supported by sovereign yield spread dynamics. Catalyst: Norges Bank policy meeting 5 Nov — hold expected. Risk: WTI crude drops sharply below $95 per barrel, unwinding the terms-of-trade outperformance.",
       "evidence": [
-        "NOK 1W avg: +1.489% (n=2)",
-        "USD 1W avg: -0.968% (n=9)",
-        "G10 spread: 2.457%"
+        "NOK 1W avg: +1.521% (n=2)",
+        "USD 1W avg: -1.006% (n=9)",
+        "G10 spread: 2.527%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,75 +19,76 @@
       }
     },
     {
-      "time": "20:56",
-      "priority": "critical",
-      "title": "USD/JPY — Options Downside Skew + Elevated Carry",
-      "text": "USD/JPY prints at 156.74, trading inside a tight technical consolidation below its 200-day SMA at 158.55 while holding above the SMA20 (158.00) and SMA50 (157.65). The 25-delta risk reversal reflects acute downside hedging demand at -2.20 vols, marking a significant put skew in options pricing despite CFTC leveraged funds remaining net short JPY at -37,820 contracts. Meanwhile, the Fed-BoJ policy differential stands at 275bp (Fed 4.00% vs BoJ 1.25%), translating to a +265bp SOFR-TONA OIS carry cushion that anchors spot dips. With VIX at 19.0 (normal volatility), flight-to-safety flows remain subdued, leaving the options put skew as an active macro hedge against BoJ tightening and geopolitical headlines. The 160.00 threshold remains the upper barrier historically associated with official verbal intervention. Trade bias: Neutral/range USD/JPY, bounded by heavy options downside demand and underlying carry support. Catalyst: Japan Core CPI release at 23:30 UTC. Risk: Japan Core CPI prints firmly above the 1.4% consensus, accelerating BoJ rate hike pricing into the 30 Oct policy decision.",
-      "evidence": [
-        "USDJPY 25d RR: -2.20 (Saxo, 1M tenor)",
-        "SOFR vs TONA: +265bp",
-        "JPY COT LF net: -37,820"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "20:53",
+      "time": "23:51",
       "priority": "warning",
-      "title": "EUR/USD — Volatility Premium + Crowded Speculative Short",
-      "text": "EUR/USD trades at 1.1220, anchored in a structured downtrend entirely below its declining moving average stack at SMA20 (1.1256), SMA50 (1.1453), and SMA200 (1.1581). Saxo 1M implied volatility sits at 6.8% against a 30-day realized volatility of 4.1%, generating an elevated Volatility Risk Premium of +2.8 percentage points. This sharp premium reflects heightened demand for tail hedges into upcoming central bank decisions, reinforced by CFTC leveraged funds extending EUR net shorts to -92,833 contracts (4th percentile of the 52-week range, z = -1.78). Fundamental carry remains tilted toward the dollar, with the Fed at 4.00% versus the ECB at 2.65%, producing a +135bp rate spread (+144bp via SOFR/€STR basis). Trade bias: Bearish EUR/USD, downside trend supported by policy divergence while crowded spec shorts limit immediate chase potential. Catalyst: ECB meeting 29 Oct. Risk: Short-covering squeeze triggered if spot closes firmly above the 20-day SMA at 1.1256.",
+      "title": "USD/JPY — Options Downside Skew + CPI Inflation Beat",
+      "text": "USD/JPY prints at 156.54, trading in a confirmed downtrend below its falling SMA20 at 157.90 and SMA200 at 158.54. Japan National Core CPI released at 2.2% year-over-year versus 1.4% consensus, pushing inflation firmly above the central bank target. The 25-delta risk reversal sits at −2.20, showing a strong put skew as the options market actively prices elevated downside protection. Speculative positioning remains net short JPY at −37,820 contracts (88th percentile of its 52-week range) according to CFTC data for the week ending Oct 13, creating short-covering vulnerability on rate-hike speculation. While the Fed-BoJ policy differential of 4.00% vs 1.25% (275bp) favors the dollar, the real policy rate differential sits at +1.61% for USD against −2.25% for JPY. Trade bias: Bearish USD/JPY, downside pressure reinforced by options skew and domestic inflation. Catalyst: BoJ policy meeting 30 Oct — hold expected. Risk: US 10-year Treasury yield rebounds above 5.00%, reasserting nominal carry demand.",
       "evidence": [
-        "EUR/USD VRP: +2.8% (IV 6.8% vs HV30 4.1%)",
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "USDJPY 25d RR: -2.20",
+        "Japan Core CPI y/y: 2.2% vs 1.4% cons",
+        "Fed 4.00% vs BoJ 1.25% — 275bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "caution",
-        "pair": "EUR/USD",
+        "pair": "USD/JPY",
         "direction": -1,
         "supports": [
-          "technical regime points with the stated direction"
+          "technical regime points with the stated direction",
+          "price moved 1.1 ATR with it over five sessions"
         ],
         "conflicts": [
-          "price moved 1.4 ATR against it over five sessions"
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
         ],
         "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-10-21"
+          "bias": "Bullish",
+          "conviction": "low",
+          "technical_alignment": "counter_trend",
+          "asof": "2026-10-22"
         }
       }
     },
     {
-      "time": "20:47",
+      "time": "23:48",
       "priority": "warning",
-      "title": "NZD/USD — COT vs Central Bank Divergence",
-      "text": "NZD/USD trades at 0.5685, testing short-term recovery resistance above its 20-day SMA (0.5634) while remaining well below the SMA50 (0.5765) and SMA200 (0.5839). CFTC leveraged funds hold a net short position of -11,802 contracts (WoW delta -10,588), reflecting sustained speculative selling. This short positioning directly contradicts the RBNZ policy bias, where markets price an active rate hike cycle ahead of the 28 Oct meeting, supported by institutional research pointing to unanchored inflation risks. However, New Zealand's Economic Surprise Index sits at an extreme negative print of -16.0, showing persistent domestic macroeconomic misses that conflict with RBNZ hawkishness. With the Fed at 4.00% and RBNZ at 2.75%, the USD holds a +125bp nominal policy advantage (+113bp via OIS), creating a fragile squeeze backdrop. Trade bias: Long NZD/USD, tactical squeeze potential against spec shorts into the monetary decision. Catalyst: RBNZ policy meeting 28 Oct. Risk: RBNZ maintains policy rates at 2.75% and shifts to a neutral bias, validating the spec short build.",
+      "title": "EUR/USD — Extreme Positioning + Elevated Vol Premium",
+      "text": "EUR/USD holds at 1.1225, trading below its SMA20 (1.1248) and SMA50 (1.1447) within an established downtrend. CFTC leveraged funds positioning shows net short EUR at −92,833 contracts, sitting at the 4th percentile of its 52-week range with a z-score of −1.78. Meanwhile, EUR/USD 1M implied volatility at 6.8% trades 2.7 points above 30-day realized volatility of 4.1%, signaling an elevated hedging premium across option desks. Fed policy rate at 4.00% versus ECB at 2.65% maintains a 135bp carry advantage favoring the dollar. BEER fair value model shows EUR/USD extended at z=−3.04σ, indicating stretched valuation against a crowded spec short. Trade bias: Neutral/range EUR/USD, downside capped by short-covering vulnerability at multi-week extremes. Catalyst: ECB policy meeting 29 Oct — hold expected. Risk: Decisive technical close below 1.1200 opening broad trend extension.",
       "evidence": [
-        "NZD COT LF net: -11,802 (WoW -10,588)",
-        "NZD ESI: -16.0 (persistent data misses)",
-        "Fed 4.00% vs RBNZ 2.75% — 125bp"
+        "EUR LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR/USD VRP: +2.7% (IV 6.8% vs HV30 4.1%)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
+      }
+    },
+    {
+      "time": "23:42",
+      "priority": "info",
+      "title": "AUD/USD — Cross-Asset Correlation Break + Policy Carry",
+      "text": "AUD/USD trades at 0.7022, holding above its SMA20 of 0.6979 and pressing against the SMA200 at 0.7053. The rolling 252-day correlation between AUD/USD and Gold has broken down to +0.455 against its historical norm of +0.564, registering a z-score shift of −1.70σ. Australia flash composite PMI contracted for the first time in five months alongside rising input prices, conflicting with RBA policy expectations. RBA policy rate at 4.6% against the Fed at 4.00% maintains a 60bp carry advantage for the Australian dollar, reflected in an AONIA-SOFR OIS differential of −72bp favoring AUD. The decoupling from bullion indicates the pair is currently governed by regional monetary policy expectations rather than commodity beta. Trade bias: Bullish AUD/USD, supported by positive carry differential. Catalyst: RBA policy meeting 3 Nov — hike bias priced. Risk: Failure to clear SMA200 resistance at 0.7053 followed by broader risk-off liquidation.",
+      "evidence": [
+        "AUD/USD vs Gold corr: +0.455 vs norm +0.564 (z -1.70σ)",
+        "RBA 4.60% vs Fed 4.00% — 60bp",
+        "AUD/USD SMA20/200: 0.6979 / 0.7053"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "NZD/USD",
+        "pair": "AUD/USD",
         "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.5 ATR with it over five sessions"
+          "price moved 2.1 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-10-21"
+          "asof": "2026-10-22"
         }
       }
     }
