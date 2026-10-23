@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-10-23T00:07:15Z",
+  "generated_at": "2026-10-23T05:07:24Z",
   "signals": [
     {
-      "time": "00:05",
+      "time": "05:03",
       "priority": "critical",
-      "title": "NOK/USD — G10 Bilateral Theme + Monetary Policy",
-      "text": "NOK logged a 1W average gain of +1.521% across 2 pairs against a USD decline of -1.006% across 9 pairs, generating an extreme G10 bilateral spread of 2.527%. The divergence reflects structural policy differentials: Norges Bank maintains a restrictive policy rate of 4.5% with positive real rates of +1.82%, whereas Fed funds at 4.00% faces rising pause expectations. USD/NOK trades at 9.333, holding below its downward-sloping SMA20/50/200 cluster at 9.513/9.413/9.518 with downtrend structure intact. Sustained Nordic relative strength continues to penalize broad dollar exposures across European crosses. Trade bias: Bearish USD/NOK, trend continuation supported by real rate differentials. Catalyst: BoC and Fed rate decisions on 28 Oct. Risk: Norges Bank easing signals or Brent crude reversal below $90 invalidates the trend.",
+      "title": "NOK/EUR — G10 Bilateral Theme + Energy Shock",
+      "text": "The G10 scorecard flags a 2.437% weekly spread between leader NOK (+1.526% across 2 pairs) and laggard EUR (-0.910% across 9 pairs), crossing the critical threshold. WTI crude holding above $100.40/bbl reinforces the Norwegian terms-of-trade advantage, while the Norges Bank policy rate of 4.50% carries a +185bp nominal advantage over the ECB deposit facility at 2.65%. Real policy rates amplify this divergence: Norway sits at +1.82% restrictive territory against the Eurozone's +0.34%. In the spot market, EUR/USD trades at 1.1212, positioned below its SMA20 (1.1248), SMA50 (1.1447), and SMA200 (1.1579) in an active downtrend. Technical valuation shows EUR/NOK at 10.4539 trading at a -2.64σ discount to its BEER fair value model, but momentum remains dominant. Trade bias: Bearish EUR/NOK; energy terms-of-trade and policy yield gaps reinforce the bilateral spread. Catalyst: ECB meeting 29 Oct — market bias hold. Risk: A sharp crude pullback below $95/bbl that compresses the G10 performance spread below 0.80%.",
       "evidence": [
-        "NOK 1W avg: +1.521% (n=2)",
-        "USD 1W avg: -1.006% (n=9)",
-        "G10 spread: 2.527%"
+        "NOK 1W avg: +1.526% (n=2)",
+        "EUR 1W avg: -0.910% (n=9)",
+        "G10 spread: 2.437%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
-        "pair": "USD/NOK",
+        "pair": "EUR/NOK",
         "direction": -1
       }
     },
     {
-      "time": "00:02",
+      "time": "05:00",
       "priority": "critical",
-      "title": "USD/JPY — Macro Surprise + Technical Breakdown",
-      "text": "Japan core CPI accelerated to 2.2% YoY versus 1.4% forecast, while CPI excluding food and energy printed at 2.4% against 1.8% expected, topping the BoJ price target. USD/JPY spot trades at 156.54, falling below its SMA20 (157.90), SMA50 (157.60), and SMA200 (158.54) following a wide-range bearish bar. Options pricing confirms institutional downside demand, with 1M 25d risk reversals printing at an extreme -2.20 put skew. While the SOFR-TONA OIS carry differential remains wide at +265bp in favor of USD, accelerating domestic inflation challenges the BoJ hold stance. Trade bias: Bearish USD/JPY, downside momentum driven by BoJ normalization repricing. Catalyst: BoJ policy decision on 30 Oct — hold currently priced. Risk: Sustained rebound above the SMA200 at 158.54 relieves near-term selling pressure.",
+      "title": "USD/JPY — Inflation Surge + Options Skew",
+      "text": "Japan September core CPI accelerated to 2.2% year-on-year against 1.4% expected, while the ex-food and energy print printed at 2.4% against 1.8% consensus. Spot USD/JPY trades at 157.01, maintaining a position below its SMA20 (157.89), SMA50 (157.60), and SMA200 (158.54) following a wide-range bearish daily bar. In the options space, 25-delta risk reversals print an extreme put skew of -2.20 (Saxo Bank, 1M tenor, indicative mid), revealing heavy institutional hedging against USD/JPY downside. OIS SOFR at 3.88% against TONA at 1.23% preserves a +265bp carry buffer in favor of the dollar, but accelerating domestic price pressures raise the probability of a higher BoJ terminal rate. The 160.00 level remains the structural ceiling where verbal warnings historically intensify. Trade bias: Bearish USD/JPY; broadening core inflation pressures and elevated downside options skew outweigh the nominal carry cushion. Catalyst: BoJ meeting 30 Oct — market bias hold. Risk: BoJ policy inertia and dovish guidance that triggers an unwind of downside hedges back above the SMA20 at 157.89.",
       "evidence": [
-        "Japan Core CPI: actual 2.2% vs forecast 1.4%",
-        "USD/JPY 25d RR: -2.20 (Saxo, 1M tenor)",
-        "USD/JPY: 156.54 (below SMA20/50/200)"
+        "Japan Core CPI y/y: 2.2% vs 1.4% expected",
+        "USDJPY 25d RR: -2.20",
+        "SOFR 3.88% vs TONA 1.23% — 265bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -49,14 +49,31 @@
       }
     },
     {
-      "time": "23:58",
+      "time": "04:58",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Drag + Volatility Premium",
-      "text": "EUR speculative positioning sits at extreme short deciles with CFTC Leveraged Funds net short -92,833 contracts (pctl 4, z -1.78) following a WoW drop of -8,058. EUR/USD spot trades at 1.1225, pinned below its downward-trending SMA20/50/200 moving average cluster at 1.1248/1.1447/1.1579. At the same time, EUR/USD ATM implied volatility of 6.8% trades well above 30-day realized volatility of 4.1%, generating an elevated volatility risk premium of +2.7%. The OIS carry differential of +144bp (€STR 2.44% vs SOFR 3.88%) maintains structural downward pressure on the euro despite short-covering potential. Trade bias: Bearish EUR/USD, structural carry disadvantage caps corrective rallies. Catalyst: ECB rate decision on 29 Oct — hold widely expected. Risk: ECB shifts toward an unexpected hawkish policy stance, forcing crowded speculative short covering.",
+      "title": "USD/NOK — Positioning + Retail Divergence",
+      "text": "Spot USD/NOK trades at 9.3290, printing below its SMA20 (9.512), SMA50 (9.413), and SMA200 (9.518) in an established downtrend extended 2.33 ATR below its 20-day mean. Retail sentiment data retail positioning shows an extreme 100% long reading, contrasting directly with CFTC speculative net flows where non-commercials remain net long the dollar. The Norges Bank policy rate of 4.50% vs Fed 4.00% creates a 50bp rate advantage for the krone, supported by a 2Y sovereign yield gap of -9bp. Spot now trades at -1.69σ below its BEER fair-value model benchmark of 9.4775. The extreme one-sided retail posture presents significant capitulation risk if the broader dollar softening extends into US trade. Trade bias: Bearish USD/NOK; extreme retail long positioning susceptible to cascading stops on trend continuation. Catalyst: US Michigan Consumer Sentiment at 14:00 UTC. Risk: A rebound in broad USD sentiment that reclaims the SMA50 at 9.413 and forces a squeeze on extended spot momentum.",
       "evidence": [
-        "EUR LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD VRP: +2.7% (IV 6.8% vs HV30 4.1%)",
-        "SOFR 3.88% vs €STR 2.44% — +144bp carry"
+        "USD/NOK retail: 100% long",
+        "Norges Bank 4.50% vs Fed 4.00% — 50bp",
+        "USD/NOK technicals: below SMA20/50/200"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": -1
+      }
+    },
+    {
+      "time": "04:55",
+      "priority": "warning",
+      "title": "EUR/USD — Positioning Exhaustion + Vol Premium",
+      "text": "EUR leveraged funds hold net short -92,833 contracts (CFTC, week ending Oct 13), sitting at the 4th percentile of their 52-week range with a z-score of -1.78. Spot trades at 1.1212, holding beneath its downward-sloping SMA20 (1.1248) and SMA50 (1.1447). Implied volatility runs at 6.8% against HV30 of 4.1%, producing an elevated vol risk premium of +2.7% that reflects sustained institutional demand for tail protection. OIS carry structurally favors the dollar, with SOFR at 3.88% versus €STR at 2.44% providing a +144bp spread, while the 20-day 2Y yield spread moved -29bp in the greenback's favor. However, the extreme crowding of institutional shorts leaves the pair sensitive to short-covering if upcoming US macro prints soften. Trade bias: Bearish EUR/USD; macro carry spreads and structural trend remain aligned, though low positioning percentiles restrict aggressive downside chasing. Catalyst: ECB meeting 29 Oct — market bias hold. Risk: A technical daily close through the SMA20 at 1.1248 triggering speculative short-covering.",
+      "evidence": [
+        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
+        "EUR/USD IV 6.8% vs HV30 4.1% — VRP +2.7%",
+        "SOFR 3.88% vs €STR 2.44% — 144bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
