@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-10-23T21:07:13Z",
+  "generated_at": "2026-10-24T21:01:17Z",
   "signals": [
     {
-      "time": "19:50",
+      "time": "20:05",
       "priority": "critical",
       "title": "NOK/EUR — G10 Bilateral Theme + Middle East Escalation",
-      "text": "Strait of Hormuz mine strikes and US threat of operations against Iran pushed WTI crude up +3.82% to $103.3 Friday, reinforcing NOK outperformance against an energy-vulnerable EUR. The G10 scorecard confirms a strong bilateral theme with NOK leader (+1.673%, n=2) versus EUR laggard (-1.004%, n=9), yielding an extreme 2.676% spread. Escalating Middle East shipping disruptions drive crude-linked terms of trade wider while French fiscal concerns sustain EUR underperformance into the Sydney/Tokyo open. Trade bias: Bullish NOK/EUR into the session open. Catalyst: Sydney open crude gap and the ECB meeting on 29 Oct. Risk: De-escalation statements from Tehran or Washington that pull WTI crude back below $100.",
+      "text": "NOK 1W average gain of +1.677% (n=2) versus EUR 1W decline of -1.020% (n=9) establishes a 2.697% G10 spread that anchors upside pressure into the open. Strait of Hormuz tanker attacks and Brent testing $120 amplify terms-of-trade divergence between energy-exporting Norway and import-dependent Europe, compound by French 10Y yields breaking above 5.0%. The Sydney open and subsequent European cash open serve as the resolution window for this divergence. Trade bias: Bullish NOK/EUR into the session open shaped by crude supply disruption premia. Catalyst: Monday European cash open and Germany Ifo survey releases. Risk: De-escalation headlines in the Persian Gulf or Brent falling sharply back below $110.",
       "evidence": [
-        "NOK 1W avg: +1.673% (n=2)",
-        "EUR 1W avg: -1.004% (n=9)",
-        "G10 spread: 2.676%",
-        "WTI Oil: $103.3 (+3.82%)",
-        "Strait of Hormuz mine strikes reported 19:32 UTC"
+        "NOK 1W avg: +1.677% (n=2)",
+        "EUR 1W avg: -1.020% (n=9)",
+        "G10 spread: 2.697%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -21,16 +19,14 @@
       }
     },
     {
-      "time": "19:30",
+      "time": "19:50",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Leveraged Net Short + French Spread Stress",
-      "text": "EUR COT leveraged funds net short stands at -92,833 contracts (pctl 4, z -1.78), establishing heavily crowded short positioning as EUR/USD closed Friday at 1.1204. French 10-year yields climbing above 5% and OIS carry favoring USD by +144bp keep downside momentum intact toward 1.1150 despite the stretched positioning. The ECB meeting on 29 Oct determines whether policy guidance confirms the hold bias and halts the decline. Trade bias: Bearish EUR/USD below the 20-day SMA at 1.1248. Catalyst: ECB meeting on 29 Oct. Risk: Short-covering rebound above 1.1250 driven by the 4th percentile crowded COT short.",
+      "title": "EUR/USD — French Debt Strain + Crowded Leveraged Shorts",
+      "text": "EUR COT leveraged funds net short sits at -94,138 contracts (33.6% long, 2nd percentile 52-week) creating positioning stretch, but French 10-year yields topping 5% and sovereign debt strain keep spot capped below its falling 20-day SMA at 1.1238. Transatlantic carry firmly favors the dollar with Fed SOFR at 3.90% against ECB €STR at 2.44% (+146bp spread), which restricts recovery attempts despite BEER model valuation showing EUR/USD cheap at -2.62σ. The ECB policy meeting on 29 Oct and Fed decision on 28 Oct determine the medium-term path, preceded immediately by Germany Ifo data. Trade bias: Bearish EUR/USD below the 1.1238 20-day SMA. Catalyst: German Ifo Business Climate release at 09:30 UTC followed by the ECB meeting on 29 Oct. Risk: Upside breach of 1.1240 triggering short covering from stretched -94.1k leveraged fund shorts.",
       "evidence": [
-        "EUR COT LF net: -92,833 (pctl 4, z -1.78)",
-        "EUR/USD Friday close: 1.1204",
-        "OIS carry: EUR/USD +144bp favoring USD",
-        "EUR 1M VRP: +2.5% (IV 6.7% vs HV30 4.1%)",
-        "French 10Y yields above 5%"
+        "EUR COT LF net: -94,138 (pctl 2)",
+        "EUR/USD Friday close: 1.1204 vs SMA20 1.1238",
+        "OIS carry: +146bp in favor of USD"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -45,21 +41,19 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-10-22"
+          "asof": "2026-10-23"
         }
       }
     },
     {
       "time": "17:55",
       "priority": "warning",
-      "title": "USD/CAD — Leveraged Short Squeeze + US Tariff Relief",
-      "text": "CAD COT leveraged funds net short stands at -89,659 contracts (pctl 15, z -1.32, 16.0% long) as USD/CAD closed Friday at 1.4013. Reports that the US will remove 50% tariffs on Canadian products combine with Canada's +1.2% August retail sales rebound to accelerate a CAD short squeeze, overcoming the +163bp USD OIS carry advantage. The BoC meeting on 28 Oct determines if the priced hike bias materializes to break spot decisively below 1.4000. Trade bias: Bearish USD/CAD targeting a break below 1.3980. Catalyst: BoC meeting on 28 Oct. Risk: Failure of US tariff removal to materialize alongside spot reclaiming the 20-day SMA at 1.4182.",
+      "title": "USD/CAD — Tariff Relief + BoC Policy Divergence",
+      "text": "CAD COT leveraged funds net short stands at -92,789 contracts (17.6% long, 12th percentile 52-week), leaving the pair exposed to a sharp downside squeeze following reports the US will lift 50% tariffs on Canadian goods. Spot closed Friday at 1.4004 below its 1.4009 50-day SMA, breaking the 10-day closing low as markets price Bank of Canada hike risks against an expected Federal Reserve pause. The Bank of Canada policy rate decision on 28 Oct is the catalyst that validates or rejects the policy wedge against Fed SOFR's 165bp carry advantage. Trade bias: Bearish USD/CAD on tariff relief momentum and short-covering. Catalyst: Bank of Canada policy meeting on 28 Oct alongside the Fed decision on 28 Oct. Risk: BoC holds rates at 2.25% with dovish forward guidance, restoring USD yield dominance above 1.4050.",
       "evidence": [
-        "CAD COT LF net: -89,659 (pctl 15, z -1.32)",
-        "USD/CAD Friday close: 1.4013",
-        "US expected to remove 50% tariffs on Canadian goods",
-        "Canada August retail sales +1.2%",
-        "USD/CAD OIS carry: +163bp favoring USD"
+        "CAD COT LF net: -92,789 (pctl 12)",
+        "USD/CAD Friday close: 1.4004",
+        "Reported US removal of 50% Canadian tariffs"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -68,58 +62,42 @@
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.8 ATR with it over five sessions"
+          "price moved 2.1 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-10-22"
+          "asof": "2026-10-23"
         }
       }
     },
     {
-      "time": "19:30",
+      "time": "19:50",
       "priority": "warning",
-      "title": "USD/JPY — Downside Options Skew vs 265bp Carry Gap",
-      "text": "USD/JPY 25-delta risk reversals display an extreme -2.24 put skew, signaling elevated institutional demand for downside protection as spot closed Friday at 156.84. Friday's bearish wide-range bar and JPY leveraged short unwinds (-7,441 WoW to -37,820 net) pressure the pair, though the +265bp USD OIS carry advantage (SOFR 3.88% vs TONA 1.23%) limits sustained downward extension. The BoJ meeting on 30 Oct resolves whether tightening forward guidance validates the put skew toward the 155.00 support zone. Trade bias: Bearish USD/JPY while capped under the 20-day SMA at 157.89. Catalyst: BoJ meeting on 30 Oct. Risk: BoJ delivers dovish hold guidance, prompting carry buyers to target 158.50.",
+      "title": "USD/JPY — Geopolitical Safe-Haven Bid vs Carry Advantage",
+      "text": "Middle East military tensions and naval mine strikes near the Strait of Hormuz drive defensive demand for JPY, pressing spot to close Friday at 156.81 below its 20-day SMA of 157.87. However, the 267bp OIS yield advantage favoring USD (SOFR 3.90% vs TONA 1.23%) and leveraged fund JPY net shorts of -25,598 contracts limit sustained yen follow-through unless 156.00 breaks. The Bank of Japan policy decision on 30 Oct is the catalyst for whether Japanese yields adjust upward to narrow the 220bp 10-year sovereign spread. Trade bias: Neutral-to-bearish USD/JPY targeting 156.00 while capped under 157.50. Catalyst: Tokyo market open followed by the BoJ policy meeting on 30 Oct. Risk: Headline de-escalation in the Middle East driving immediate carry rebuilding toward 158.00.",
       "evidence": [
-        "USD/JPY 25d RR: -2.24 (extreme put skew)",
-        "USD/JPY Friday close: 156.84 (below SMA20 157.89)",
-        "OIS carry: USD/JPY +265bp favoring USD",
-        "JPY COT LF net: -37,820 (WoW -7,441)"
+        "USD/JPY Friday close: 156.81 vs SMA20 157.87",
+        "OIS carry: +267bp in favor of USD",
+        "USD/JPY 25d RR: -2.24 put skew"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
-        "pair": "USD/JPY",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.1 ATR with it over five sessions"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-10-22"
-        }
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
       }
     },
     {
-      "time": "19:30",
+      "time": "19:24",
       "priority": "info",
-      "title": "AUD/USD — Crowded Leveraged Longs vs Negative ESI Divergence",
-      "text": "AUD COT leveraged funds net long stands at +44,978 contracts (67.9% long) after closing Friday at 0.7039. Australia's negative ESI (-5.7) and an unemployment surprise jump to 4.7% (z=+4.04σ) run counter to the priced RBA hike bias and the +72bp AONIA carry advantage, exposing long positioning to liquidation. The RBA meeting on 3 Nov determines whether the central bank confirms the hike bias or validates the labor market slowdown. Trade bias: Neutral AUD/USD with downside unwinding risk toward 0.6980. Catalyst: RBA meeting on 3 Nov. Risk: RBA delivers an explicit pre-commitment to hike, invalidating positioning unwind pressures.",
+      "title": "AUD/USD — Crowded Long Positioning vs Domestic Data Softness",
+      "text": "AUD COT leveraged funds net long at +47,606 contracts (69.3% long) establishes crowded long exposure after Friday's close at 0.7038 into descending 200-day SMA resistance at 0.7052. Although RBA hike pricing and an AONIA-over-SOFR carry premium of +70bp support spot, Australia's Economic Surprise Index at -5.7 and an unemployment rate spike to 4.7% (z=+4.04σ shock) erode underlying domestic macro support. The Reserve Bank of Australia meeting on 3 Nov is the definitive test for whether cash rate expectations sustain spot above 0.7000. Trade bias: Neutral AUD/USD with downside bias on any break below 0.6980. Catalyst: Sydney session open and RBA meeting on 3 Nov. Risk: Broad US dollar weakness pushing AUD/USD through the 0.7052 200-day SMA.",
       "evidence": [
-        "AUD COT LF net: +44,978 (67.9% long)",
-        "AUD/USD Friday close: 0.7039",
-        "AUD ESI: -5.7 with unemployment rate shock z=+4.04σ",
-        "OIS carry: AUD/USD -72bp favoring AUD"
+        "AUD COT LF net: +47,606 (long% 69.3%)",
+        "AUD unemployment shock z=+4.04σ",
+        "AUD/USD Friday close: 0.7038 vs SMA200 0.7052"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
