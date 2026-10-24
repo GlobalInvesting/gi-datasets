@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-24T00:00:59Z",
-  "generatedAt": "2026-10-24T00:00:59Z",
+  "lastUpdate": "2026-10-24T00:24:51Z",
+  "generatedAt": "2026-10-24T00:24:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,10 +9,10 @@
   "fetchErrors": [],
   "rangeFrom": "2025-10-24",
   "rangeTo": "2026-11-06",
-  "totalEvents": 6849,
+  "totalEvents": 6850,
   "currencyCounts": {
     "GBP": 649,
-    "EUR": 1962,
+    "EUR": 1963,
     "CAD": 404,
     "USD": 2177,
     "AUD": 391,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "high": 1697,
     "medium": 2858,
-    "low": 2294
+    "low": 2295
   },
   "surpriseStats": {
     "EUR/germany ifo business climate": {
@@ -84666,7 +84666,20 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Austria ATB Auction",
+      "event": "Austria ATB 2027-01-28 Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "2.500%"
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria ATB 2027-04-29 Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
@@ -85409,37 +85422,11 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Ireland GDP Growth Rate YoY Prel",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2%",
-      "previous": "-0.4%"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Ireland Retail Sales YoY",
       "impact": "low",
       "actual": null,
       "forecast": "1.9%",
       "previous": "4.3%"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland GDP Growth Rate QoQ Prel",
-      "impact": "low",
-      "actual": null,
-      "forecast": "-3.9%",
-      "previous": "10.2%"
     },
     {
       "date": "28 Oct",
@@ -86297,6 +86284,19 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland GDP Growth Rate YoY Prel",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2%",
+      "previous": "-0.4%"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Latvia Retail Sales YoY",
       "impact": "low",
       "actual": null,
@@ -86315,6 +86315,19 @@
       "actual": null,
       "forecast": "0.7%",
       "previous": "-1.4%"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland GDP Growth Rate QoQ Prel",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-3.9%",
+      "previous": "10.2%"
     },
     {
       "date": "29 Oct",
@@ -89955,8 +89968,8 @@
       "event": "Estonia Industrial Production MoM",
       "impact": "low",
       "actual": null,
-      "forecast": "0.5%",
-      "previous": null
+      "forecast": "-2.6%",
+      "previous": "4.2%"
     },
     {
       "date": "5 Nov",
@@ -89968,8 +89981,8 @@
       "event": "Estonia Industrial Production YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "1.4%",
-      "previous": null
+      "forecast": "3.4%",
+      "previous": "4.5%"
     },
     {
       "date": "5 Nov",
