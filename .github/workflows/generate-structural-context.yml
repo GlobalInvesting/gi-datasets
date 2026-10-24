@@ -141,6 +141,11 @@ jobs:
             python ../engine/scripts/generate_narrative_signals.py --mode structural
           fi
 
+      - name: Archive published editions
+        if: steps.guard.outputs.skip != 'true'
+        working-directory: site
+        run: python3 ../engine/scripts/edition_archive.py . outlook
+
       - name: Display output summary
         if: always()
         working-directory: site
@@ -189,6 +194,7 @@ jobs:
           [ -f ai-analysis/call-budget-state.json ] && cp ai-analysis/call-budget-state.json /tmp/structural_fresh/
           [ -f ai-analysis/weekly-outlook.json ] && cp ai-analysis/weekly-outlook.json /tmp/structural_fresh/
           [ -f ai-analysis/weekly-outlook-state.json ] && cp ai-analysis/weekly-outlook-state.json /tmp/structural_fresh/
+          [ -f ai-analysis/archive/weekly-outlook-editions.jsonl ] && cp ai-analysis/archive/weekly-outlook-editions.jsonl /tmp/structural_fresh/
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
 
           for i in 1 2 3 4 5; do
@@ -213,6 +219,11 @@ jobs:
             if [ -f /tmp/structural_fresh/weekly-outlook-state.json ]; then
               cp /tmp/structural_fresh/weekly-outlook-state.json ai-analysis/
               git add ai-analysis/weekly-outlook-state.json
+            fi
+            if [ -f /tmp/structural_fresh/weekly-outlook-editions.jsonl ]; then
+              mkdir -p ai-analysis/archive
+              cp /tmp/structural_fresh/weekly-outlook-editions.jsonl ai-analysis/archive/
+              git add ai-analysis/archive/weekly-outlook-editions.jsonl
             fi
             if git diff --quiet && git diff --staged --quiet; then
               echo "No changes vs remote HEAD — skipping commit."

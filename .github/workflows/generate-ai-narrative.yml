@@ -118,6 +118,11 @@ jobs:
             fi
           fi
 
+      - name: Archive published signals
+        if: steps.guard.outputs.skip != 'true'
+        working-directory: site
+        run: python3 ../engine/scripts/edition_archive.py . signals
+
       - name: Health monitor -- record
         if: steps.guard.outputs.skip != 'true' && always()
         run: |
@@ -170,6 +175,7 @@ jobs:
           [ -f ai-analysis/session-context.json  ] && cp ai-analysis/session-context.json  /tmp/ai_analysis_fresh/
           [ -f ai-analysis/call-budget-state.json ] && cp ai-analysis/call-budget-state.json /tmp/ai_analysis_fresh/
           [ -f ai-analysis/run-health.jsonl ] && cp ai-analysis/run-health.jsonl /tmp/ai_analysis_fresh/
+          [ -f ai-analysis/archive/signals-log.jsonl ] && cp ai-analysis/archive/signals-log.jsonl /tmp/ai_analysis_fresh/
           [ -f feed.xml  ] && cp feed.xml  /tmp/ai_analysis_fresh/
           [ -f feed.json ] && cp feed.json /tmp/ai_analysis_fresh/
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
@@ -192,6 +198,11 @@ jobs:
             git add ai-analysis/currency-drivers.json ai-analysis/session-context.json 2>/dev/null || true
             git add ai-analysis/call-budget-state.json 2>/dev/null || true
             git add ai-analysis/run-health.jsonl 2>/dev/null || true
+            if [ -f /tmp/ai_analysis_fresh/signals-log.jsonl ]; then
+              mkdir -p ai-analysis/archive
+              cp /tmp/ai_analysis_fresh/signals-log.jsonl ai-analysis/archive/
+              git add ai-analysis/archive/signals-log.jsonl
+            fi
             git add feed.xml feed.json 2>/dev/null || true
             if git diff --quiet && git diff --staged --quiet; then
               echo "No changes vs remote HEAD — skipping commit."
