@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T05:15:33Z",
+  "updated": "2026-10-24T05:20:35Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -204,37 +204,37 @@
       "pct1w_date": "2026-10-16"
     },
     "btc": {
-      "close": 80752.53,
+      "close": 80720.05,
       "prev_close": 81079.98,
-      "chg": -327.45,
-      "pct": -0.4039,
+      "chg": -359.93,
+      "pct": -0.4439,
       "high": 81079.98,
       "low": 80530.266,
       "open": 81079.98,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792818934,
+      "market_time": 1792819233,
       "source": "quote-pipeline-primary",
-      "pct1w": -0.9181,
+      "pct1w": -0.958,
       "pct1w_date": "2026-10-16",
       "session_high": 81951.43,
       "session_low": 80409.01
     },
     "eth": {
-      "close": 2377.56,
+      "close": 2376.1,
       "prev_close": 2384.4502,
-      "chg": -6.8902,
-      "pct": -0.289,
+      "chg": -8.3502,
+      "pct": -0.3502,
       "high": 2385.4226,
       "low": 2368.5889,
       "open": 2384.4502,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1792818932,
+      "market_time": 1792819236,
       "source": "quote-pipeline-primary",
-      "pct1w": -1.7443,
+      "pct1w": -1.8046,
       "pct1w_date": "2026-10-16",
       "session_high": 2414.39,
       "session_low": 2350.41
@@ -1859,14 +1859,14 @@
     {
       "a": "AUD/USD",
       "b": "Gold",
-      "corr30": 0.196,
+      "corr30": 0.195,
       "n30": 30,
       "corr": 0.449,
       "n": 60,
       "corr90": 0.44,
       "n90": 90,
       "norm": 0.563,
-      "z_score": -1.84,
+      "z_score": -1.85,
       "norm60": 0.577,
       "z_score60": -1.55,
       "n_indep60": 4,
@@ -2099,7 +2099,7 @@
         0.298,
         0.306,
         0.229,
-        0.196
+        0.195
       ],
       "hist_dates": [
         "2025-12-10",
@@ -2329,7 +2329,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.7438,
+      "coint_p": 0.7444,
       "coint_n": 252
     },
     {
@@ -5665,14 +5665,14 @@
       "b": "Gold",
       "corr30": 0.221,
       "n30": 30,
-      "corr": 0.393,
+      "corr": 0.394,
       "n": 60,
       "corr90": 0.406,
       "n90": 90,
       "norm": 0.42,
       "z_score": -1.0,
       "norm60": 0.426,
-      "z_score60": -0.37,
+      "z_score60": -0.36,
       "n_indep60": 4,
       "std": 0.2216,
       "n_indep": 8,
@@ -6133,7 +6133,7 @@
       "spread_z": 0.37,
       "signal": "neutral",
       "beta": 0.076,
-      "coint_p": 0.0479,
+      "coint_p": 0.048,
       "coint_n": 252
     },
     {
@@ -7085,7 +7085,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.1106,
+      "coint_p": 0.1107,
       "coint_n": 252
     }
   ],
