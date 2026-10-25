@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-24T23:33:35Z",
+  "generatedAt": "2026-10-25T11:54:29Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 184,
+  "aliasCount": 185,
   "aliases": [
     {
       "currency": "AUD",
@@ -1520,19 +1520,19 @@
     {
       "currency": "EUR",
       "primary_title": "Euro Area CPI",
-      "secondary_title": "Euro Area CPI Final",
+      "secondary_title": "Euro Area CPI Flash",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-16",
+          "dateISO": "2026-11-04",
           "forecast_primary": null,
-          "forecast_secondary": 104.3,
-          "actual_primary": 104.31,
-          "actual_secondary": 104.31,
-          "previous_primary": 104.3,
-          "previous_secondary": 103.69,
-          "actual_secondary_raw": "104.31",
-          "forecast_secondary_raw": "104.3",
-          "previous_secondary_raw": "103.69"
+          "forecast_secondary": 104.8,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": 104.31,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "104.8",
+          "previous_secondary_raw": "104.31"
         }
       }
     },
@@ -3478,6 +3478,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.4%",
           "previous_secondary_raw": null
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "BoJ Monetary Base y/y",
+      "secondary_title": "Japan Monetary Base YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": -15.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -15.2,
+          "previous_secondary": -15.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "-15.2%"
         }
       }
     },
