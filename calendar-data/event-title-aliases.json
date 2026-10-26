@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T13:27:03Z",
+  "generatedAt": "2026-10-26T16:52:11Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -1393,21 +1393,8 @@
           "actual_secondary_raw": "25.50",
           "forecast_secondary_raw": "11",
           "previous_secondary_raw": "7.60"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 13.9,
-          "forecast_yahoo": null,
-          "actual_primary": 25.5,
-          "actual_yahoo": 25.5,
-          "previous_primary": 7.6,
-          "previous_yahoo": 7.6,
-          "actual_yahoo_raw": "25.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "7.6"
         }
-      },
-      "yahoo_title": "NY Fed Manufacturing*"
+      }
     },
     {
       "currency": "USD",
@@ -1474,13 +1461,13 @@
         "secondary": {
           "dateISO": "2026-11-04",
           "forecast_primary": null,
-          "forecast_secondary": 104.8,
+          "forecast_secondary": 104.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": null,
           "previous_secondary": 104.31,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "104.8",
+          "forecast_secondary_raw": "104.5",
           "previous_secondary_raw": "104.31"
         }
       }
@@ -1705,21 +1692,8 @@
           "actual_secondary_raw": "2.4%",
           "forecast_secondary_raw": "2.7%",
           "previous_secondary_raw": "2.6%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": 2.7,
-          "forecast_yahoo": null,
-          "actual_primary": 3.1,
-          "actual_yahoo": 3.1,
-          "previous_primary": 3.0,
-          "previous_yahoo": 3.0,
-          "actual_yahoo_raw": "3.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3"
         }
-      },
-      "yahoo_title": "CPI Inflation YY"
+      }
     },
     {
       "currency": "CAD",
@@ -1737,21 +1711,8 @@
           "actual_secondary_raw": "0%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": 0.1,
-          "previous_yahoo": 0.1,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.1"
         }
-      },
-      "yahoo_title": "CPI BoC Core MM"
+      }
     },
     {
       "currency": "CAD",
@@ -1769,21 +1730,8 @@
           "actual_secondary_raw": "2.2%",
           "forecast_secondary_raw": "2.4%",
           "previous_secondary_raw": "2.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": 2.1,
-          "forecast_yahoo": null,
-          "actual_primary": 2.2,
-          "actual_yahoo": 2.2,
-          "previous_primary": 2.4,
-          "previous_yahoo": 2.4,
-          "actual_yahoo_raw": "2.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.4"
         }
-      },
-      "yahoo_title": "CPI BoC Core YY"
+      }
     },
     {
       "currency": "CAD",
@@ -2432,15 +2380,28 @@
           "dateISO": "2026-10-26",
           "forecast_primary": 6.4,
           "forecast_secondary": 7.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 13.4,
+          "actual_secondary": 13.4,
           "previous_primary": 9.8,
           "previous_secondary": 9.8,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "13.4",
           "forecast_secondary_raw": "7",
           "previous_secondary_raw": "9.8"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-26",
+          "forecast_primary": 6.4,
+          "forecast_yahoo": null,
+          "actual_primary": 13.4,
+          "actual_yahoo": 13.4,
+          "previous_primary": 9.8,
+          "previous_yahoo": 9.8,
+          "actual_yahoo_raw": "13.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "9.8"
         }
-      }
+      },
+      "yahoo_title": "Dallas Fed Mfg Bus Idx*"
     },
     {
       "currency": "JPY",
@@ -3526,6 +3487,25 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Unit Labor Costs q/q",
+      "secondary_title": "United States Unit Labour Costs QoQ Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-05",
+          "forecast_primary": 0.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.2,
+          "previous_secondary": 1.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.2%"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia Participation Rate",
       "yahoo_title": "Participation Rate",
@@ -3674,25 +3654,6 @@
           "actual_yahoo_raw": "0.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada CPI m/m",
-      "yahoo_title": "CPI Inflation MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.1,
-          "actual_yahoo": 0.1,
-          "previous_primary": -0.1,
-          "previous_yahoo": -0.1,
-          "actual_yahoo_raw": "0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.1"
         }
       }
     },
