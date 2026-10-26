@@ -1,15 +1,42 @@
 {
-  "generated_at": "2026-10-26T05:08:00Z",
+  "generated_at": "2026-10-26T18:47:46Z",
   "signals": [
     {
-      "time": "04:58",
+      "time": "18:43",
       "priority": "critical",
-      "title": "USD/JPY — Options Skew + Carry Tension",
-      "text": "USD/JPY trades at 156.92, remaining beneath its falling SMA20/50/200 cluster spanning 157.55 to 158.53 with a downtrend structure in force. A 275bp policy differential (Fed 4.00% vs BoJ 1.25%) and a 267bp SOFR-TONA OIS carry premium structurally support the pair, but options pricing reflects sharp asymmetric downside demand. Saxo Bank 25d risk reversals sit at -2.24 with 1M ATM implied volatility at 7.8% against 30-day realized volatility of 5.9%, creating an elevated vol risk premium of +1.9%. Leveraged funds covered net short exposure by +12,222 contracts WoW to -25,598 contracts (pctl 94), showing speculative short reduction alongside heavy put demand. Carry dominance is directly constrained by options downside hedging ahead of this week's BoJ and FOMC decisions. Trade bias: Bearish USD/JPY, positioning and options skew favor downside retest while below the 20-day moving average. Catalyst: BoJ interest rate decision on 30 Oct. Risk: Price clears the SMA20 at 157.87 and invalidates immediate downside momentum.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Carry",
+      "text": "AUD/CHF trades at 0.5810, holding above its SMA20 at 0.5780 while the overall trend structure shows short-term evidence turning against the broader downtrend. In G10 weekly performance, AUD leads as the top performer at +0.544% across 4 pairs while CHF lags as the weakest at -0.713% across 6 pairs, driving a 1.257% leader-to-laggard spread. A 460bp CB rate differential (RBA 4.60% vs SNB 0.00%) strongly favors AUD carry, further reinforced by an OIS carry advantage. With VIX at 18.4 (normal volatility), risk sentiment remains contained enough to let carry differentials drive cross performance over low-yielding safe havens. Trade bias: Long AUD/CHF; massive carry premium and broad G10 divergence support the pair. Catalyst: Australia Q3 CPI release on 28 Oct (forecast 4.7% y/y). Risk: Australia CPI misses expectations, dampening RBA hawkish sentiment and triggering a squeeze in long positioning.",
       "evidence": [
-        "USD/JPY 25d RR: -2.24 (Saxo, 1M tenor)",
-        "USD/JPY carry: Fed 4.00% vs BoJ 1.25% — 275bp",
-        "JPY COT LF net: -25,598 (pctl 94, WoW +12,222)"
+        "AUD 1W avg: +0.544% (n=4)",
+        "CHF 1W avg: -0.713% (n=6)",
+        "G10 spread: 1.257%"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "AUD/CHF",
+        "direction": 1,
+        "supports": [
+          "price moved 1.7 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-23"
+        }
+      }
+    },
+    {
+      "time": "18:40",
+      "priority": "warning",
+      "title": "USD/JPY — Options Skew + Carry",
+      "text": "USD/JPY sits at 157.432, trading below its SMA20/50/200 cluster (SMA20 at 157.87, SMA50 at 157.55) in a firm downtrend following recent sharp downside momentum. Fed at 4.00% vs BoJ at 1.25% provides a +275bp policy rate differential (+267bp on OIS SOFR/TONA basis) favoring USD, but options markets show acute downside hedging with 25d Risk Reversals printing a strong put skew at -2.15. CFTC positioning shows JPY Leveraged Funds net short at -25,598 (pctl 94, z +1.43), indicating spec positioning remains historically elevated on the short side despite recent WoW short covering (+12,222 contracts). Divergence between a heavy spec JPY short and aggressive downside options skew highlights elevated crash-protection buying ahead of upcoming central bank decisions. Trade bias: Bearish USD/JPY; severe negative options skew and technical weakness cap upside despite carry advantage. Catalyst: Fed interest rate decision on 28 Oct followed by BoJ CPI release and rate decision. Risk: Fed delivers a hawkish stance while BoJ remains dovish, reigniting carry demand and pushing spot above 158.50.",
+      "evidence": [
+        "USD/JPY 25d RR: -2.15",
+        "Fed 4.0% vs BoJ 1.25% — +275bp",
+        "JPY COT pctl: 94 (z +1.43)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -30,30 +57,41 @@
       }
     },
     {
-      "time": "04:52",
+      "time": "18:37",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Vol Premium",
-      "text": "EUR/USD trades at 1.1225, holding below its downward-sloping SMA20 at 1.1238, SMA50 at 1.1440, and SMA200 at 1.1577 with a technical downtrend intact. The policy spread favors the dollar by 135bp (Fed 4.00% vs ECB 2.65%), reinforced by a 146bp SOFR-€STR OIS advantage. Saxo Bank 1M ATM implied volatility sits at 6.7% versus 30-day realized volatility of 4.1%, generating a notable +2.5% vol risk premium that signals heavy hedging demand over realized moves. Leveraged funds hold net short positioning of -94,138 contracts at the 2nd percentile of the 52-week range (z -1.72), indicating crowded short exposure prone to short-covering while BEER valuation registers cheap at z=-2.62σ. Downside momentum is structurally limited by extreme institutional positioning and elevated option hedging costs. Trade bias: Neutral/range EUR/USD, crowded short positioning caps clean downside continuation. Catalyst: ECB interest rate decision on 29 Oct. Risk: Sustained close below 1.1200 opens a fresh liquidation leg toward cycle lows.",
+      "title": "EUR/USD — Options VRP + Technical Resistance",
+      "text": "EUR/USD trades at 1.1188, positioned below its SMA20 (1.1238), SMA50 (1.1440), and SMA200 (1.1579) in an established downtrend. Fed at 4.00% vs ECB at 2.65% establishes a 135bp policy rate differential (+146bp OIS basis) supporting USD, while COT Leveraged Funds remain heavily short EUR at net -94,138 contracts (pctl 2, z -1.72), reflecting extreme negative speculative sentiment. Options market pricing reflects significant hedging demand with 1M ATM IV at 6.5% vs HV30 at 4.1%, generating an elevated Vol Risk Premium of +2.4%. EUR/USD is also notably cheap on BEER fair value models at z = -2.62σ (spot 1.1188 vs model 1.1317), suggesting downside momentum is stretched relative to macro fundamentals. Trade bias: Bearish EUR/USD; strong structural rate spread and intact downtrend keep pair under pressure despite extreme spec shorts. Catalyst: ECB interest rate decision on 29 Oct. Risk: Hawkish ECB surprise triggers a sharp short-squeeze out of lower-decile spec positioning toward 1.1300.",
       "evidence": [
-        "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
-        "EUR/USD VRP: +2.5% (IV 6.7% vs HV30 4.1%)",
-        "USD/EUR carry: Fed 4.00% vs ECB 2.65% — 135bp"
+        "EUR/USD VRP: +2.4% (IV 6.5% vs HV30 4.1%)",
+        "EUR COT pctl: 2 (z -1.72)",
+        "Fed 4.0% vs ECB 2.65% — +135bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-23"
+        }
       }
     },
     {
-      "time": "04:47",
-      "priority": "warning",
-      "title": "USD/NOK — Positioning + Retail Extreme Divergence",
-      "text": "USD/NOK trades at 9.3160, trading beneath its SMA20 at 9.5030, SMA50 at 9.4110, and SMA200 at 9.5140 in a confirmed downtrend extended 2.38 ATR below its 20-day average. The policy rate differential offers a 50bp discount (Fed 4.00% vs Norges Bank 4.50%), favoring NOK carry while Norges Bank maintains an active tightening stance. Retail sentiment from Retail sentiment data shows an extreme 100% long positioning, directly opposing the pair's persistent spot downtrend. BEER valuation indicates spot is undervalued at z=-1.72σ against fair value at 9.4802, while Norway's ESI reflects steady outperformance at +14.0. The retail capitulation risk reinforces trend continuation lower as one-way retail longs remain trapped. Trade bias: Bearish USD/NOK, contrarian to retail extreme and aligned with carry deficit. Catalyst: Norges Bank policy meeting on 5 Nov. Risk: Sharp oil price sell-off reversing NOK rate advantage and triggering retail squeeze.",
+      "time": "18:32",
+      "priority": "info",
+      "title": "USD/NOK — Retail Sentiment Extreme",
+      "text": "USD/NOK trades at 9.316, positioned below its SMA20 (9.503), SMA50 (9.411), and SMA200 (9.518) in a clear technical downtrend. Norges Bank at 4.50% vs Fed at 4.00% creates a 50bp carry differential supporting NOK, matching Norway's positive ESI of +14.0 which signals persistent economic data beats. Retail sentiment exhibits a 100% extreme long allocation on USD/NOK, establishing an extreme one-sided crowd attempting to bottom-fish against the prevailing trend. Meanwhile, US 5Y real yields declined 25bp over 5D (FRED, as of Oct 22), removing structural yield support from the dollar. Trade bias: Bearish USD/NOK, contrarian to retail extreme and aligned with negative rate spreads. Catalyst: Norges Bank policy decision on 5 Nov. Risk: Sharp rebound in WTI crude oil prices dropping below $95/bbl that weakens NOK back above SMA20 resistance at 9.50.",
       "evidence": [
-        "USD/NOK retail: 100% long / 0% short",
-        "USD/NOK carry: Fed 4.00% vs NOK 4.50% — -50bp",
-        "USD/NOK BEER misvaluation: z=-1.72σ"
+        "USD/NOK Retail: 100% Long / 0% Short",
+        "NOK ESI: +14.0",
+        "NOK 4.50% vs Fed 4.00% — -50bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
