@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-25T21:01:54Z",
+  "generated_at": "2026-10-26T00:02:09Z",
   "signals": [
     {
-      "time": "20:58",
+      "time": "00:00",
       "priority": "critical",
       "title": "NOK/USD — G10 Bilateral Theme + Crude Shock",
-      "text": "NOK leads the G10 currency board with a 1W average gain of +1.753% across 2 pairs, while USD lags at -0.957% across 9 pairs, opening a 2.710% leader-to-laggard spread that clears the threshold for a major bilateral theme. Middle East escalation headlines and Brent testing $120 resistance provide direct terms-of-trade support to the krone, reinforcing Norges Bank restrictive policy where the 4.5% policy rate sits against 2.68% inflation expectations for an authoritative real rate of +1.82%. In contrast, US 5Y yields have fallen 13bp over 5 sessions, led entirely by real yields falling 25bp, weakening nominal dollar support. Technical structure shows USD/NOK in an active downtrend at 9.316, trading below its SMA20 of 9.503 and SMA200 of 9.514, though stretched 2.38 ATR below its 20-day average. Retail sentiment data retail sentiment shows a 100% long extreme on USD/NOK, setting up severe contrarian liquidation risk into any further dollar softness. Trade bias: Bearish USD/NOK, contrarian to extreme retail long positioning. Catalyst: Norges Bank policy meeting 5 Nov. Risk: De-escalation in Middle East shipping disruption sends Brent sharply below $100.",
+      "text": "NOK leads the weekly G10 currency strength scorecard with an average gain of +1.679% across 2 pairs, while USD trails as the laggard at -0.932% across 9 pairs, opening a critical 2.610% bilateral spread. Geopolitical tension in the Middle East has pushed Brent crude toward $120 resistance, providing a potent terms-of-trade catalyst for the petro-currency. USD/NOK trades at 9.316 with a downtrend firmly in force below its SMA20 of 9.503 and SMA200 of 9.514, currently extended 2.38 ATR below the short-term average. Meanwhile, retail sentiment shows an extreme 100% net long positioning in USD/NOK, setting up an asymmetric capitulation risk against the prevailing institutional flow. Trade bias: Bearish USD/NOK, following the commodity-backed bilateral theme and retail positioning overhang. Catalyst: US Durable Goods Orders at 12:30 UTC. Risk: Brent crude retreats sharply from $120 resistance, stalling NOK outperformance.",
       "evidence": [
-        "NOK 1W avg: +1.753% (n=2)",
-        "USD 1W avg: -0.957% (n=9)",
-        "G10 spread: 2.710%"
+        "NOK 1W avg: +1.679% (n=2)",
+        "USD 1W avg: -0.932% (n=9)",
+        "G10 spread: 2.610%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,30 +19,41 @@
       }
     },
     {
-      "time": "20:50",
+      "time": "23:53",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Spec Short + Elevated Vol Premium",
-      "text": "EUR/USD trades at 1.1218, holding below its downward-sloping SMA20 of 1.1238 and SMA50 of 1.1440. CFTC positioning shows leveraged funds heavily net short EUR at -94,138 contracts, placing net exposure in the 2nd percentile of its 52-week range with a z-score of -1.72 after expanding shorts by 35,333 contracts over 4 weeks. Concurrently, options markets show 1M ATM implied volatility at 6.7% versus HV30 of 4.1%, generating an elevated vol risk premium of +2.5% that reflects significant hedging activity over realized price action. The SOFR-to-€STR differential of +146bp continues to structurally favor the dollar, limiting EUR/USD upside into the 1.1240 technical cluster. Trade bias: Neutral/bearish EUR/USD, constrained by policy carry advantage. Catalyst: ECB policy meeting 29 Oct. Risk: Leveraged funds trigger a short squeeze above 1.1240 on any dovish recalibration from the FOMC.",
+      "title": "EUR/USD — Elevated Vol Premium + Real Rate Drag",
+      "text": "EUR/USD trades at 1.1220, pinned beneath its descending SMA20 at 1.1238 and SMA50 at 1.1440. Options markets display an elevated volatility premium, with 1M ATM implied volatility at 6.7% against 30-day realized volatility of 4.1%, generating a notable +2.5% vol risk premium. Macro policy spreads continue to limit upside, as Fed policy at 4.00% versus ECB at 2.65% maintains a 135bp carry advantage in favor of the dollar, reinforced by a +146bp SOFR-€STR spread. Leveraged fund positioning reflects this drag, with net short contracts at -94,138 representing the 2nd percentile of its 52-week historical distribution. Trade bias: Bearish EUR/USD, constrained by carry disadvantage and negative technical momentum. Catalyst: ECB President Lagarde speech at 17:00 UTC. Risk: Germany Ifo expectations print well above the 90.4 consensus, triggering an algorithmic short-squeeze.",
       "evidence": [
-        "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
         "EUR/USD VRP: +2.5% (IV 6.7% vs HV30 4.1%)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "Fed 4.00% vs ECB 2.65% — 135bp",
+        "EUR COT LF net: -94,138 (pctl 2, z -1.72)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-23"
+        }
       }
     },
     {
-      "time": "20:46",
+      "time": "23:48",
       "priority": "warning",
-      "title": "AUD/USD — Technical Resistance vs Policy Divergence",
-      "text": "AUD/USD trades at 0.7039, staging an intraday bounce above its SMA20 of 0.6980 while encountering stiff overhead resistance near the downward-sloping SMA200 of 0.7054 and SMA50 of 0.7078. Macro policy drivers favor the Australian dollar, with the RBA policy rate at 4.60% against the Fed at 4.00%, creating a -70bp OIS carry advantage in favor of AUD via AONIA 4.60% versus SOFR 3.90%. CFTC leveraged positioning sits long +47,606 contracts in the 62nd percentile of its 52-week range, reflecting steady participation without extreme crowding. Options markets reflect caution, with the 25-delta risk reversal indicating a moderate base put skew of -0.96. Trade bias: Bullish AUD/USD on carry support, capped by resistance at 0.7055/0.7080. Catalyst: RBA policy decision 3 Nov. Risk: Rejection at the SMA200 of 0.7054 sends spot back down toward the 0.6980 moving average base.",
+      "title": "AUD/USD — Policy Divergence + Technical Reversal",
+      "text": "AUD/USD prints at 0.7032, breaking above its SMA20 of 0.6980 and testing short-term resistance near its descending SMA50 at 0.7078. The underlying policy backdrop has turned supportive following hawkish rhetoric from RBA Assistant Governor Hunter, positioning the RBA at 4.60% against the Fed at 4.00% for a 60bp cash carry advantage and a 70bp AONIA-SOFR yield premium. CFTC data confirms Leveraged Funds have added +2,628 contracts WoW to reach a net long of +47,606 contracts, while 2Y yield spreads sit at +8bp in Australia's favor. Despite Australia's negative ESI index of -5.7, the pair's price structure has established a breakout above the prior 10-day high. Trade bias: Bullish AUD/USD, supported by carry premium and short-term technical reversal. Catalyst: RBA Policy Meeting on 3 Nov. Risk: Broad equity weakness accelerates, undermining commodity beta and halting the technical recovery.",
       "evidence": [
-        "RBA 4.60% vs Fed 4.00% — -60bp AUD carry premium",
-        "AUD OIS carry: AONIA 4.60% vs SOFR 3.90% (-70bp)",
-        "AUD/USD SMA cluster: SMA20 0.6980 / SMA200 0.7054"
+        "Fed 4.00% vs RBA 4.60% — 60bp",
+        "AUD COT LF net: +47,606 (WoW +2,628)",
+        "AUD/USD spot: 0.7032 (SMA20: 0.6980)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
