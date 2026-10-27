@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T10:34:16Z",
+  "generated_at": "2026-10-27T10:42:18Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -9468,20 +9468,6 @@
       "vendor": "calendar-primary"
     },
     {
-      "title": "Germany 2-Year Note Auction",
-      "currency": "EUR",
-      "dateISO": "2026-10-27",
-      "timeUTC": "10:30",
-      "timeMode": "tentative",
-      "impact": "low",
-      "forecast": null,
-      "previous": "3.10%",
-      "actual": null,
-      "released": false,
-      "actualComputed": false,
-      "vendor": "calendar-primary"
-    },
-    {
       "title": "United Kingdom 5-Year Treasury Gilt Auction",
       "currency": "GBP",
       "dateISO": "2026-10-27",
@@ -9491,6 +9477,20 @@
       "forecast": null,
       "previous": "4.945%",
       "actual": "5.036%",
+      "released": true,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "Germany 2-Year Note Auction",
+      "currency": "EUR",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:41",
+      "timeMode": "tentative",
+      "impact": "low",
+      "forecast": null,
+      "previous": "3.10%",
+      "actual": "3.08%",
       "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
