@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-10-27T20:01:35.399298+00:00",
-  "updated_label": "20:01 UTC",
+  "updated_utc": "2026-10-27T20:10:59.306898+00:00",
+  "updated_label": "20:10 UTC",
   "total": 52,
-  "total_high": 43,
+  "total_high": 42,
   "total_med": 4,
   "sources_active": [
     "ActionForex",
@@ -12,7 +12,7 @@
     "ForexLive",
     "InvestMacro",
     "InvestingLive",
-    "Nasdaq FX"
+    "RTT News"
   ],
   "lang_counts": {
     "es": 0,
@@ -33,22 +33,6 @@
       "lang": "en",
       "date": "27 Oct",
       "datetime": "2026-10-27T19:49:26+00:00",
-      "recent": true
-    },
-    {
-      "id": "d9f24bb5b313",
-      "cur": "USD",
-      "impact": "high",
-      "title": "Stocks See Support as Crude Oil Prices Ease and FOMC Awaited",
-      "expand": "The S P 500 Index ($SPX ) (SPY ) is up +0.42%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.02%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.92%. December E-mini S P futures (ESZ26 ) are up +0.50%, and December E-mini Nasdaq futures (NQZ26...",
-      "source": "Nasdaq FX",
-      "link": "https://www.nasdaq.com/articles/stocks-see-support-crude-oil-prices-ease-and-fomc-awaited",
-      "time": "19:48",
-      "ts": 1793130520000,
-      "featured": true,
-      "lang": "en",
-      "date": "27 Oct",
-      "datetime": "2026-10-27T19:48:40+00:00",
       "recent": true
     },
     {
@@ -116,6 +100,22 @@
       "recent": true
     },
     {
+      "id": "bde02dcf5247",
+      "cur": "EUR",
+      "impact": "low",
+      "title": "ECB forex reserves fell €200 mln to €349.3 bln.",
+      "expand": "",
+      "source": "FinancialJuice",
+      "link": "https://www.financialjuice.com/News/9823198/ECB-forex-reserves-fell-200-mln-to-3493-bln.aspx?xy=rss",
+      "time": "14:01",
+      "ts": 1793109712000,
+      "featured": false,
+      "lang": "en",
+      "date": "27 Oct",
+      "datetime": "2026-10-27T14:01:52+00:00",
+      "recent": true
+    },
+    {
       "id": "0576bd85f75a",
       "cur": "EUR",
       "impact": "high",
@@ -177,22 +177,6 @@
       "lang": "en",
       "date": "27 Oct",
       "datetime": "2026-10-27T13:11:09+00:00",
-      "recent": true
-    },
-    {
-      "id": "9a3b4e5737de",
-      "cur": "EUR",
-      "impact": "high",
-      "title": "Goldman Sachs on Central Banks - FJElite",
-      "expand": "We expect the Fed to hold on 28th October but deliver a 25bp hike to 4-4.25% on 9th December as spot inflation remains too high, with upside inflation risks (mainly energy) that could prompt another hike in March; renewed cuts in late 2027/early 2028. The ECB likely holds on 29th October and hikes a final time to 2.75% in December, though French bond-market turbulence (likely to shave 1/4- l/2pp off annualised growth) poses downside risks to that call. We expect the MPC to hike 25bp to 4% on 5th November, with risk of further moves though 4+ priced hikes look excessive. Hikes also expected in ...",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9823107/Goldman-Sachs-on-Central-Banks---FJElite.aspx?xy=rss",
-      "time": "13:02",
-      "ts": 1793106176000,
-      "featured": false,
-      "lang": "en",
-      "date": "27 Oct",
-      "datetime": "2026-10-27T13:02:56+00:00",
       "recent": true
     },
     {
@@ -273,6 +257,22 @@
       "lang": "en",
       "date": "27 Oct",
       "datetime": "2026-10-27T12:04:02+00:00",
+      "recent": true
+    },
+    {
+      "id": "8bb7194c1f01",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Markets Wait For Fed Meeting, Tech Earnings",
+      "expand": "The forthcoming monetary policy review by the Federal Reserve as well as the looming earning updates from tech majors dominated global market sentiment. Markets overwhelmingly expect the Fed to hold rates steady.",
+      "source": "RTT News",
+      "link": "https://www.rttnews.com/story.aspx?Id=3703523",
+      "time": "11:32",
+      "ts": 1793100768000,
+      "featured": false,
+      "lang": "en",
+      "date": "27 Oct",
+      "datetime": "2026-10-27T11:32:48+00:00",
       "recent": true
     },
     {
@@ -609,7 +609,7 @@
       "lang": "en",
       "date": "26 Oct",
       "datetime": "2026-10-26T20:09:59+00:00",
-      "recent": true
+      "recent": false
     },
     {
       "id": "efaee0d7423b",
