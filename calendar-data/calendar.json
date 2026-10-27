@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-27T13:02:50Z",
-  "generatedAt": "2026-10-27T13:02:50Z",
+  "lastUpdate": "2026-10-27T14:02:57Z",
+  "generatedAt": "2026-10-27T14:02:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1439,14 +1439,14 @@
       "std": 0.070711
     },
     "USD/new home sales": {
-      "n": 2,
-      "mean": 0.0335,
-      "std": 0.094045
+      "n": 3,
+      "mean": 0.011667,
+      "std": 0.076501
     },
     "USD/new home sales mom": {
-      "n": 4,
-      "mean": -3.375,
-      "std": 11.291405
+      "n": 5,
+      "mean": -2.54,
+      "std": 9.9553
     },
     "USD/cb consumer confidence index": {
       "n": 2,
@@ -1454,9 +1454,9 @@
       "std": 3.606245
     },
     "USD/richmond fed services revenues": {
-      "n": 2,
-      "mean": 6.5,
-      "std": 9.192388
+      "n": 3,
+      "mean": 6.0,
+      "std": 6.557439
     },
     "JPY/boj corporate services price index yoy": {
       "n": 3,
@@ -3662,6 +3662,11 @@
       "n": 2,
       "mean": -0.55,
       "std": 1.484924
+    },
+    "USD/richmond fed manufacturing index": {
+      "n": 2,
+      "mean": -3.0,
+      "std": 2.828427
     },
     "AUD/s&p global manufacturing pmi flash": {
       "n": 2,
@@ -84984,7 +84989,7 @@
       "flag": "🇺🇸",
       "event": "United States New Home Sales",
       "impact": "high",
-      "actual": null,
+      "actual": "0.676M",
       "forecast": "0.708M",
       "previous": "0.684M"
     },
@@ -84997,7 +85002,7 @@
       "flag": "🇺🇸",
       "event": "United States New Home Sales m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "-0.6%",
       "forecast": "-1.4%",
       "previous": "6.4%"
     },
@@ -85023,7 +85028,7 @@
       "flag": "🇺🇸",
       "event": "Richmond Fed Manufacturing Index",
       "impact": "low",
-      "actual": null,
+      "actual": "-2",
       "forecast": "-1",
       "previous": "-2"
     },
@@ -85036,7 +85041,7 @@
       "flag": "🇺🇸",
       "event": "Richmond Fed Manufacturing Shipments",
       "impact": "low",
-      "actual": null,
+      "actual": "0",
       "forecast": null,
       "previous": "-5"
     },
@@ -85049,7 +85054,7 @@
       "flag": "🇺🇸",
       "event": "Richmond Fed Services Revenues",
       "impact": "low",
-      "actual": null,
+      "actual": "2",
       "forecast": "-3",
       "previous": "0"
     },
@@ -89100,8 +89105,8 @@
       "event": "New Zealand GDT Price Index",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.4%",
+      "previous": "2.5%"
     },
     {
       "date": "3 Nov",
