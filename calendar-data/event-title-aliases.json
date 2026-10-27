@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-27T12:33:56Z",
+  "generatedAt": "2026-10-27T15:57:21Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 178,
+  "aliasCount": 180,
   "aliases": [
     {
       "currency": "AUD",
@@ -87,16 +87,16 @@
       "secondary_title": "Canada Ivey PMI s.a",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-06",
-          "forecast_primary": 56.2,
-          "forecast_secondary": 65.0,
-          "actual_primary": 58.2,
-          "actual_secondary": 58.2,
-          "previous_primary": 64.3,
-          "previous_secondary": 64.3,
-          "actual_secondary_raw": "58.2",
-          "forecast_secondary_raw": "65",
-          "previous_secondary_raw": "64.3"
+          "dateISO": "2026-11-06",
+          "forecast_primary": 57.3,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 58.2,
+          "previous_secondary": 58.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "58.2"
         }
       }
     },
@@ -334,16 +334,16 @@
       "secondary_title": "United States Michigan Consumer Sentiment Prel",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-09",
-          "forecast_primary": 44.7,
-          "forecast_secondary": 47.9,
-          "actual_primary": 46.3,
-          "actual_secondary": 46.3,
-          "previous_primary": 48.1,
-          "previous_secondary": 48.1,
-          "actual_secondary_raw": "46.3",
-          "forecast_secondary_raw": "47.9",
-          "previous_secondary_raw": "48.1"
+          "dateISO": "2026-11-06",
+          "forecast_primary": null,
+          "forecast_secondary": 47.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": 48.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "47.0",
+          "previous_secondary_raw": "48.0"
         },
         "yahoo": {
           "dateISO": "2026-10-23",
@@ -1298,21 +1298,8 @@
           "actual_secondary_raw": "1.1%",
           "forecast_secondary_raw": "0.8%",
           "previous_secondary_raw": "0.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
         }
-      },
-      "yahoo_title": "Import Prices MM"
+      }
     },
     {
       "currency": "USD",
@@ -1349,21 +1336,8 @@
           "actual_secondary_raw": "2.2%",
           "forecast_secondary_raw": "0.7%",
           "previous_secondary_raw": "1.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 3.1,
-          "forecast_yahoo": null,
-          "actual_primary": 2.2,
-          "actual_yahoo": 2.2,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "2.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
         }
-      },
-      "yahoo_title": "Export Prices MM"
+      }
     },
     {
       "currency": "USD",
@@ -1400,21 +1374,8 @@
           "actual_secondary_raw": "0.7%",
           "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": 0.0,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
         }
-      },
-      "yahoo_title": "Industrial Production MM*"
+      }
     },
     {
       "currency": "USD",
@@ -1432,21 +1393,8 @@
           "actual_secondary_raw": "76.9%",
           "forecast_secondary_raw": "76.5%",
           "previous_secondary_raw": "76.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 76.2,
-          "forecast_yahoo": null,
-          "actual_primary": 76.9,
-          "actual_yahoo": 76.9,
-          "previous_primary": 76.3,
-          "previous_yahoo": 76.3,
-          "actual_yahoo_raw": "76.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "76.3"
         }
-      },
-      "yahoo_title": "Capacity Utilization SA*"
+      }
     },
     {
       "currency": "USD",
@@ -2248,8 +2196,21 @@
           "actual_secondary_raw": "1.8%",
           "forecast_secondary_raw": "1.3%",
           "previous_secondary_raw": "0.1%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 0.7,
+          "forecast_yahoo": null,
+          "actual_primary": 1.8,
+          "actual_yahoo": 1.8,
+          "previous_primary": 0.0,
+          "previous_yahoo": -0.1,
+          "actual_yahoo_raw": "1.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.1"
         }
-      }
+      },
+      "yahoo_title": "Durable Goods *"
     },
     {
       "currency": "USD",
@@ -2279,15 +2240,28 @@
           "dateISO": "2026-10-27",
           "forecast_primary": -1.4,
           "forecast_secondary": -3.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -0.6,
+          "actual_secondary": -0.6,
           "previous_primary": 6.4,
-          "previous_secondary": 6.4,
-          "actual_secondary_raw": null,
+          "previous_secondary": 5.1,
+          "actual_secondary_raw": "-0.6%",
           "forecast_secondary_raw": "-3.5%",
-          "previous_secondary_raw": "6.4%"
+          "previous_secondary_raw": "5.1%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -1.4,
+          "forecast_yahoo": null,
+          "actual_primary": -0.6,
+          "actual_yahoo": -0.6,
+          "previous_primary": 6.4,
+          "previous_yahoo": 6.4,
+          "actual_yahoo_raw": "-0.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "6.4"
         }
-      }
+      },
+      "yahoo_title": "New Home Sales Chg MM"
     },
     {
       "currency": "USD",
@@ -2298,15 +2272,28 @@
           "dateISO": "2026-10-27",
           "forecast_primary": -1.0,
           "forecast_secondary": -3.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -2.0,
+          "actual_secondary": -2.0,
           "previous_primary": -2.0,
           "previous_secondary": -2.0,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-2",
           "forecast_secondary_raw": "-3",
           "previous_secondary_raw": "-2"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -1.0,
+          "forecast_yahoo": null,
+          "actual_primary": -2.0,
+          "actual_yahoo": -2.0,
+          "previous_primary": -2.0,
+          "previous_yahoo": -2.0,
+          "actual_yahoo_raw": "-2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-2"
         }
-      }
+      },
+      "yahoo_title": "Rich Fed Comp. Index"
     },
     {
       "currency": "USD",
@@ -2317,15 +2304,28 @@
           "dateISO": "2026-10-27",
           "forecast_primary": null,
           "forecast_secondary": -7.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.0,
+          "actual_secondary": 0.0,
           "previous_primary": -5.0,
           "previous_secondary": -5.0,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "0",
           "forecast_secondary_raw": "-7",
           "previous_secondary_raw": "-5"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
+          "actual_yahoo": 0.0,
+          "previous_primary": -5.0,
+          "previous_yahoo": -5.0,
+          "actual_yahoo_raw": "0",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-5"
         }
-      }
+      },
+      "yahoo_title": "Rich Fed Mfg Shipments"
     },
     {
       "currency": "USD",
@@ -2336,15 +2336,28 @@
           "dateISO": "2026-10-27",
           "forecast_primary": 5.4,
           "forecast_secondary": -2.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 4.4,
+          "actual_secondary": 4.4,
           "previous_primary": -0.9,
           "previous_secondary": -0.9,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.4",
           "forecast_secondary_raw": "-2",
           "previous_secondary_raw": "-0.9"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 5.4,
+          "forecast_yahoo": null,
+          "actual_primary": 4.4,
+          "actual_yahoo": 4.4,
+          "previous_primary": -0.9,
+          "previous_yahoo": -0.9,
+          "actual_yahoo_raw": "4.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.9"
         }
-      }
+      },
+      "yahoo_title": "Dallas Fed Services Revenues*"
     },
     {
       "currency": "USD",
@@ -2355,11 +2368,11 @@
           "dateISO": "2026-10-27",
           "forecast_primary": -2.9,
           "forecast_secondary": -3.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 4.0,
+          "actual_secondary": 4.0,
           "previous_primary": -1.8,
           "previous_secondary": -1.8,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.0",
           "forecast_secondary_raw": "-3",
           "previous_secondary_raw": "-1.8"
         }
@@ -3316,6 +3329,63 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Average Hourly Earnings m/m",
+      "secondary_title": "United States Average Hourly Earnings MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 0.2,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.1,
+          "previous_secondary": 0.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0.1%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Average Hourly Earnings y/y",
+      "secondary_title": "United States Average Hourly Earnings YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 3.1,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.0,
+          "previous_secondary": 3.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States U6 Unemployment Rate",
+      "secondary_title": "United States U-6 Unemployment Rate",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 7.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 7.6,
+          "previous_secondary": 7.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "7.6%"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia Participation Rate",
       "yahoo_title": "Participation Rate",
@@ -3354,44 +3424,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States Business Inventories m/m",
-      "yahoo_title": "Business Inventories MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 1.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.8,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Retail Inventories m/m",
-      "yahoo_title": "Retail Ex Gas/Autos",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.3,
-          "previous_yahoo": 1.2,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.2"
-        }
-      }
-    },
-    {
       "currency": "SEK",
       "primary_title": "Sweden Unemployment Rate",
       "yahoo_title": "Unemployment Rate*",
@@ -3426,25 +3458,6 @@
           "actual_yahoo_raw": "0.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States NAHB Housing Market Index",
-      "yahoo_title": "NAHB Housing Market Indx",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": 36.0,
-          "forecast_yahoo": null,
-          "actual_primary": 29.0,
-          "actual_yahoo": 29.0,
-          "previous_primary": 32.0,
-          "previous_yahoo": 32.0,
-          "actual_yahoo_raw": "29",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "32"
         }
       }
     },
@@ -3677,25 +3690,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "Chicago Fed National Activity Index",
-      "yahoo_title": "National Activity Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 0.04,
-          "forecast_yahoo": null,
-          "actual_primary": 0.07,
-          "actual_yahoo": 0.07,
-          "previous_primary": -0.04,
-          "previous_yahoo": -0.04,
-          "actual_yahoo_raw": "0.07",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.04"
-        }
-      }
-    },
-    {
       "currency": "EUR",
       "primary_title": "ECB M3 Money Supply y/y",
       "yahoo_title": "Money-M3 Annual Grwth*",
@@ -3711,6 +3705,63 @@
           "actual_yahoo_raw": "3.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.5"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Durable Goods Orders excl. Defense m/m",
+      "yahoo_title": "Durables Ex-Defense MM *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.2,
+          "previous_primary": 0.1,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "2.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CB Consumer Confidence Index",
+      "yahoo_title": "Consumer Confidence*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": 81.5,
+          "forecast_yahoo": null,
+          "actual_primary": 91.7,
+          "actual_yahoo": 91.7,
+          "previous_primary": 81.9,
+          "previous_yahoo": 81.9,
+          "actual_yahoo_raw": "91.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "81.9"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Services Revenues",
+      "yahoo_title": "Rich Fed, Services Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -3.0,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
         }
       }
     },
@@ -3764,8 +3815,8 @@
       "evidence": {
         "secondary": {
           "actual_primary": null,
-          "actual_secondary_raw": "2.5%",
-          "dateISO": "2026-09-29",
+          "actual_secondary_raw": "2.7%",
+          "dateISO": "2026-10-27",
           "manual_note": "Trading Economics' 'S&P/Case-Shiller Home Price YoY' is the S&P CoreLogic Case-Shiller 20-City Composite, i.e. the same series as 'S&P/CS HPI Composite-20 y/y' (TE's own series description names the 20-City Composite). Forecast and previous differ by vendor (primary 2.3%/2.1% vs TE 2.0%/2.2%, the latter flagged as revised on TE), so the by-value tolerance check rejects it; same 13:00 UTC release slot."
         }
       }
