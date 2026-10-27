@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-27T08:09:01Z",
+  "generated_at": "2026-10-27T12:07:33Z",
   "signals": [
     {
-      "time": "07:58",
+      "time": "12:00",
       "priority": "critical",
       "title": "NZD/CHF — G10 Bilateral Theme + Carry Advantage",
-      "text": "NZD leads the G10 performance board with a 1W average gain of +0.719% across 4 pairs, while CHF sits as the primary laggard down −0.669% across 6 pairs, creating an outsized 1.389% bilateral spread. RBNZ at 2.75% (hiking bias) versus SNB at 0.00% (on hold) delivers a +275bp policy rate advantage in favor of the kiwi, translating to a +281bp overnight cash spread. NZD/CHF trades at 0.4710, where the BEER valuation model flags the cross rich at z=+2.39σ against model fair value of 0.4667. Persistent outperformance is clashing with valuation stretch, but policy divergence keeps spot structurally bid into central bank decisions. Trade bias: Bullish NZD/CHF, policy carry divergence dominates despite rich model valuation. Catalyst: RBNZ interest rate decision on 28 Oct — hike bias priced. Risk: RBNZ pauses tightening cycle or signals peak rates, triggering rapid carry liquidation.",
+      "text": "NZD leads the G10 board over the trailing week at +0.933% across 4 pairs, while CHF lags at −0.823% across 6 pairs, generating a 1.756% bilateral spread. RBNZ policy rate sits at 2.75% versus SNB at 0.00%, establishing an outright 275bp carry premium that supports NZD outperformance. NZD/CHF spot trades at 0.4724, though BEER modeling flags the cross as rich at z=+2.39σ versus fair value of 0.4667. Persistent divergence faces impending headline risk at the policy level. Trade bias: Bullish NZD/CHF; carry premium and weekly leadership sustain upside momentum. Catalyst: RBNZ Interest Rate Decision on 28 Oct — hike bias priced. Risk: RBNZ policy pause compresses the 275bp carry cushion and prompts mean-reversion toward fair value.",
       "evidence": [
-        "NZD 1W avg: +0.719% (n=4)",
-        "CHF 1W avg: -0.669% (n=6)",
-        "G10 spread: 1.389%"
+        "NZD 1W avg: +0.933% (n=4)",
+        "CHF 1W avg: -0.823% (n=6)",
+        "G10 spread: 1.756%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -30,35 +30,58 @@
       }
     },
     {
-      "time": "07:52",
+      "time": "11:55",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Volatility Premium",
-      "text": "EUR/USD trades at 1.1167, maintaining an established downtrend below its falling SMA20 (1.1229), SMA50 (1.1432), and SMA200 (1.1577). CFTC speculative positioning sits deeply crowded at net −94,138 contracts, ranking in the 2nd percentile of its 52-week distribution with z=−1.72σ, while retail accounts sit contrarian long at 85%. Options desks reflect elevated hedging demand, pricing 1M implied volatility at 6.5% against 4.2% 30-day realized, generating an elevated vol risk premium of +2.4%. Meanwhile, Fed at 4.00% versus ECB at 2.65% maintains a +135bp carry spread (SOFR-€STR +148bp) favoring the dollar, but extreme speculative short saturation limits fresh follow-through selling into major chart resistance. Trade bias: Neutral/bearish EUR/USD, downside intact via rate spreads but near-term progress constrained by crowded short positioning. Catalyst: ECB meeting on 29 Oct — market pricing hold. Risk: ECB delivers an unexpectedly hawkish policy message, triggering a squeeze of crowded institutional shorts back toward 1.1230.",
+      "title": "EUR/USD — Volatility Premium + Positioning Divergence",
+      "text": "EUR/USD trades at 1.1148, trapped below its descending SMA20 (1.1229) and SMA50 (1.1432) trend structure. The 1M options market exhibits elevated caution, with IV running at 6.5% against HV30 of 4.3%, posting a notable +2.3% volatility risk premium alongside a mild −0.48 put skew. Leveraged funds maintain a heavily crowded short EUR exposure at net −94,138 contracts (pctl 2, z −1.72), which starkly diverges from retail sentiment standing at 86% long. Macro pressure persists as French consumer confidence drops to 80 while Fed 4.00% maintains a 135bp nominal carry advantage over ECB 2.65%. Trade bias: Bearish EUR/USD; macro deterioration and policy spreads favor the dollar despite crowded institutional shorts. Catalyst: FOMC Interest Rate Decision on 28 Oct. Risk: Fed signals a near-term easing cycle, triggering an aggressive short squeeze through SMA20 resistance at 1.1229.",
       "evidence": [
+        "EUR/USD VRP: +2.3% (IV 6.5% vs HV30 4.3%)",
         "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
-        "EUR/USD VRP: +2.4% (IV 6.5% vs HV30 4.2%)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "EUR/USD retail: 86% long"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-26"
+        }
       }
     },
     {
-      "time": "07:47",
+      "time": "11:48",
       "priority": "info",
-      "title": "GBP/USD — Rate Differential + Technical Retracement",
-      "text": "GBP/USD prints at 1.3329, trading above its SMA20 (1.3279) but capped directly below the convergence of its SMA50 at 1.3401 and SMA200 at 1.3433. UK 2-year sovereign yields sit at 4.95% versus US 2-year at 4.69%, generating a +26bp spread premium with the 20-day spread momentum expanding +37bp in sterling's favor. CFTC leveraged positioning remains moderately net long at +29,662 contracts with a solid WoW build of +16,597, reflecting positive institutional flows following an ESI beat index of +12.4. However, the Fed's 4.00% policy rate over BoE's 3.75% preserves a modest +25bp USD nominal carry edge (+19bp OIS basis), restraining upward momentum into major moving average resistance. Trade bias: Range-bound GBP/USD, yield momentum support checked by central bank carry and overhead moving average resistance. Catalyst: United Kingdom Autumn Forecast Statement on 27 Oct at 10:00 UTC. Risk: Fiscal projections reveal significant borrowing expansion, sending the 2-year yield spread lower and invalidating support at 1.3279.",
+      "title": "USD/CAD — Short-Term Technical Exhaustion",
+      "text": "USD/CAD trades at 1.4023, failing to hold intraday gains as short-term price structure shows rejection below the SMA20 at 1.4167 while hovering just above the SMA50 at 1.4012. CFTC leveraged accounts hold an extended net short CAD position of −92,789 contracts (pctl 12, z −1.42), showing signs of exhaustion after a WoW reduction of −3,130 contracts. Concurrently, the 2Y sovereign yield spread moved +31bp in CAD's favor over the past 5 sessions to −131bp, eroding the greenback's short-term momentum advantage even as Fed 4.00% versus BoC 2.25% retains a 175bp policy spread. Trade bias: Bearish USD/CAD; technical failure at the 20-day moving average points to a test of SMA50 support. Catalyst: BoC Interest Rate Decision on 28 Oct. Risk: BoC delivers a dovish hold and downplays hike pricing, restoring the 175bp carry trade bid back above 1.4100.",
       "evidence": [
-        "UK-US 2Y spread: +26bp (20D Δ +37bp)",
-        "GBP COT LF net: +29,662 (WoW +16,597)",
-        "Fed 4.00% vs BoE 3.75% — 25bp"
+        "USD/CAD: 1.4023 below SMA20 (1.4167)",
+        "CAD COT LF net: -92,789 (pctl 12, z -1.42)",
+        "CA-US 2Y spread 5D Δ: +31bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "GBP/USD"
+        "verdict": "confirmed",
+        "pair": "USD/CAD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 1.5 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-26"
+        }
       }
     }
   ]
