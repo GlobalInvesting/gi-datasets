@@ -253,11 +253,7 @@ jobs:
           SCRIPTS_PAT: ${{ secrets.SCRIPTS_PAT }}
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          CHANGED=$(cat /tmp/cal_changed 2>/dev/null || echo "0")
-          if [ "${CHANGED}" != "1" ]; then
-            echo "No calendar changes — skipping rate-decision dispatch check."
-            exit 0
-          fi
+          rm -f /tmp/cb_dispatch_ok /tmp/new_rate_dec_keys.json
 
           printf '%s\n' \
             'import json,os' \
@@ -295,6 +291,7 @@ jobs:
             -d "{\"event_type\":\"cb-rate-decision\",\"client_payload\":{\"currencies\":\"${RATE_DEC}\",\"source\":\"ff-calendar\",\"date\":\"${NOW}\"}}")
           if [ "${HTTP_CODE_1}" = "204" ]; then
             echo "Dispatch accepted (204) -- update-rates.yml will start shortly."
+            echo "1" > /tmp/cb_dispatch_ok
           else
             echo "WARNING: dispatch to globalinvesting-scripts returned HTTP ${HTTP_CODE_1} -- check SCRIPTS_PAT scope/expiry."
             cat /tmp/dispatch1.json 2>/dev/null || true
@@ -314,10 +311,14 @@ jobs:
             cat /tmp/dispatch2.json 2>/dev/null || true
           fi
 
-      - name: Persist cb-rate-decision dispatch log (dedup, v8.521.0)
+      - name: Persist cb-rate-decision dispatch log (dedup, v8.521.0; retry-safe v8.625.0)
         if: steps.gate.outputs.run == 'true'
         run: |
           if [ ! -f /tmp/new_rate_dec_keys.json ]; then
+            exit 0
+          fi
+          if [ "$(cat /tmp/cb_dispatch_ok 2>/dev/null || echo 0)" != "1" ]; then
+            echo "Rates dispatch not accepted — leaving the log untouched so the next */5 run retries."
             exit 0
           fi
           NEW_KEYS=$(cat /tmp/new_rate_dec_keys.json)
