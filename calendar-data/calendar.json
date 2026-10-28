@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-28T16:15:55.111Z",
-  "generatedAt": "2026-10-28T16:15:55.111Z",
+  "lastUpdate": "2026-10-28T16:16:02.804Z",
+  "generatedAt": "2026-10-28T16:16:02.804Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -85917,11 +85917,10 @@
       "flag": "🇺🇸",
       "event": "United States EIA Crude Oil Imports Change",
       "impact": "low",
-      "actual": "-0.796M",
+      "actual": null,
       "forecast": "0.216M",
       "previous": "0.837M",
-      "source": "secondary-calendar",
-      "released": true
+      "source": "secondary-calendar"
     },
     {
       "date": "28 Oct",
@@ -85932,10 +85931,11 @@
       "flag": "🇺🇸",
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.071M",
       "forecast": "0.022M",
       "previous": "0.043M",
-      "source": "secondary-calendar"
+      "source": "secondary-calendar",
+      "released": true
     },
     {
       "date": "28 Oct",
