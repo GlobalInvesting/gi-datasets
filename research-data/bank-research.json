@@ -1,31 +1,68 @@
 {
-  "updated_utc": "2026-10-28T12:20:46.794723+00:00",
-  "updated_label": "12:20 UTC",
-  "total": 34,
+  "updated_utc": "2026-10-28T15:06:49.481662+00:00",
+  "updated_label": "15:06 UTC",
+  "total": 35,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
-    "Saxo"
+    "Saxo",
+    "TD"
   ],
   "items": [
     {
-      "id": "35f0389ef400",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
+      "id": "49c68fdddf67",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
       "series": "",
-      "title": "Fed Expected to Hold Rates Tonight",
-      "excerpt": "In focus today In the US, the main event of the week is this evening&#8217;s FOMC rate decision and the following press conference. We expect the Fed to keep policy rates unchanged, in line with consensus, while markets price in a 10% probability of a hike. Most central FOMC members have signalled that they can [&#8230;] The post Fed Expected to Hold Rates Tonight appeared first on ActionForex .",
+      "title": "Bank of Canada Raises Policy Rate as Inflation Fears Mount",
+      "excerpt": "The Bank of Canada (BoC) raised its policy rate by 25 basis points (bps) to 2.50%, in line with market expectations. This is the first interest rate increase since July 2023. The Bank acknowledged that exports, business and government investment continue to support economic recovery despite ongoing trade headwinds. At the same time, they note [&#8230;] The post Bank of Canada Raises Policy Rate as Inflation Fears Mount appeared first on ActionForex .",
       "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/658960-fed-expected-to-hold-rates-tonight/",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/659053-bank-of-canada-raises-policy-rate-as-inflation-fears-mount/",
       "currencies": [
-        "USD"
+        "CAD"
       ],
       "pairs": [],
+      "category": "technical",
+      "ts": 1793199143000,
+      "published": "2026-10-28T14:52:23+00:00"
+    },
+    {
+      "id": "c838e12afbe5",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "How Much Can Europe Help Canada Diversify Its Trade?",
+      "excerpt": "Highlights In terms of building trade and financial ties with the EU, Canada starts from a modest position. Despite a stronger investment relationship, Canada currently supplies only around 1% of EU goods and services imports. Although the benefits of the CETA free trade agreement between Canada and the EU have (gradually) emerged, regulatory barriers, geography [&#8230;] The post How Much Can Europe Help Canada Diversify Its Trade? appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/659041-how-much-can-europe-help-canada-diversify-its-trade/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1793193906000,
+      "published": "2026-10-28T13:25:06+00:00"
+    },
+    {
+      "id": "d45569614f3f",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "RBNZ’s huge dovish surprise spells trouble for Kiwi dollar",
+      "excerpt": "ASIA/PACIFIC: The Reserve Bank of New Zealand surprised with a 4-3 split vote for a hold. While a December hike remains on the cards, the signal was dovish, leaving markets’ tightening expectations vulnerable. That points to further downside risks for NZD vs commodity currency peers, despite potential near-term relief in the undervalued…",
+      "author": "",
+      "url": "https://think.ing.com/articles/rbnzs-huge-dovish-surprise-spells-trouble-for-kiwi-dollar/",
+      "currencies": [
+        "USD",
+        "NZD"
+      ],
+      "pairs": [
+        "NZD/USD"
+      ],
       "category": "macro",
-      "ts": 1793174547000,
-      "published": "2026-10-28T08:02:27+00:00"
+      "ts": 1793193180000,
+      "published": "2026-10-28T13:13:00+00:00"
     },
     {
       "id": "432c7e22be92",
@@ -227,6 +264,40 @@
       "published": "2026-10-27T03:30:00+00:00"
     },
     {
+      "id": "0cc82a1edf49",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Strength through resilience, adaptability and trust - insurance for a stronger Europe",
+      "excerpt": "Speech by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at Insurance Ireland, Dublin, 22 October 2026.",
+      "author": "Mary-Elizabeth McMunn",
+      "url": "https://www.bis.org/speeches/20261027-strength-through-resilience-adaptability-and-trust-insurance-stronger-europe",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793059200000,
+      "published": "2026-10-27T00:00:00+00:00"
+    },
+    {
+      "id": "15da90eb5cc8",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Statement to the International Monetary and Financial Committee (IMFC)",
+      "excerpt": "Statement by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, to the International Monetary and Financial Committee (IMFC), Bangkok, 17 October 2026.",
+      "author": "Ayman M Al-Sayari",
+      "url": "https://www.bis.org/speeches/20261027-statement-international-monetary-and-financial-committee-imfc",
+      "currencies": [
+        "AUD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793059200000,
+      "published": "2026-10-27T00:00:00+00:00"
+    },
+    {
       "id": "ffc9cc4274e6",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -293,40 +364,6 @@
       "published": "2026-10-27T00:00:00+00:00"
     },
     {
-      "id": "0cc82a1edf49",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Strength through resilience, adaptability and trust - insurance for a stronger Europe",
-      "excerpt": "Speech by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at Insurance Ireland, Dublin, 22 October 2026.",
-      "author": "Mary-Elizabeth McMunn",
-      "url": "https://www.bis.org/speeches/20261027-strength-through-resilience-adaptability-and-trust-insurance-stronger-europe",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793059200000,
-      "published": "2026-10-27T00:00:00+00:00"
-    },
-    {
-      "id": "15da90eb5cc8",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Statement to the International Monetary and Financial Committee (IMFC)",
-      "excerpt": "Statement by His Excellency Mr Ayman Al-Sayari, Governor of the Saudi Central Bank, to the International Monetary and Financial Committee (IMFC), Bangkok, 17 October 2026.",
-      "author": "Ayman M Al-Sayari",
-      "url": "https://www.bis.org/speeches/20261027-statement-international-monetary-and-financial-committee-imfc",
-      "currencies": [
-        "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793059200000,
-      "published": "2026-10-27T00:00:00+00:00"
-    },
-    {
       "id": "635503c26392",
       "bank": "CME",
       "bank_full": "CME Group FX",
@@ -344,23 +381,6 @@
       "category": "trade_idea",
       "ts": 1793044499000,
       "published": "2026-10-26T19:54:59+00:00"
-    },
-    {
-      "id": "9c70e7a0ba87",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Rates Spark: Temporary relief for structural problems",
-      "excerpt": "Markets reacted with relief after France avoided a rating downgrade, but the story remains unchanged. With plenty of political risks ahead, we remain wary of wider…",
-      "author": "",
-      "url": "https://think.ing.com/articles/rates-spark-temporary-relief-for-structural-problems/",
-      "currencies": [
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793034900000,
-      "published": "2026-10-26T17:15:00+00:00"
     },
     {
       "id": "9610e3d9e950",
