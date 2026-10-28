@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T13:21:52Z",
+  "generatedAt": "2026-10-28T16:45:28Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 181,
+  "aliasCount": 180,
   "aliases": [
     {
       "currency": "JPY",
@@ -109,7 +109,7 @@
           "dateISO": "2026-10-28",
           "forecast_primary": 1.3,
           "forecast_secondary": 0.3,
-          "actual_primary": null,
+          "actual_primary": 0.6,
           "actual_secondary": 0.6,
           "previous_primary": 0.5,
           "previous_secondary": 0.5,
@@ -1469,21 +1469,8 @@
           "actual_secondary_raw": "-5.2%",
           "forecast_secondary_raw": "1.9%",
           "previous_secondary_raw": "-5.9%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": -14.0,
-          "forecast_yahoo": null,
-          "actual_primary": -5.2,
-          "actual_yahoo": -5.2,
-          "previous_primary": -2.6,
-          "previous_yahoo": -2.6,
-          "actual_yahoo_raw": "-5.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-2.6"
         }
-      },
-      "yahoo_title": "House Starts MM: Change"
+      }
     },
     {
       "currency": "USD",
@@ -1520,21 +1507,8 @@
           "actual_secondary_raw": "-7.3%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": -0.9,
-          "forecast_yahoo": null,
-          "actual_primary": -7.3,
-          "actual_yahoo": -7.3,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
-          "actual_yahoo_raw": "-7.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
         }
-      },
-      "yahoo_title": "Pending Sales Change MM"
+      }
     },
     {
       "currency": "USD",
@@ -2214,15 +2188,28 @@
           "dateISO": "2026-10-28",
           "forecast_primary": null,
           "forecast_secondary": 2.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.5,
+          "actual_secondary": 2.5,
           "previous_primary": 2.25,
           "previous_secondary": 2.25,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "2.5%",
           "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "2.25%"
+        },
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 2.5,
+          "actual_yahoo": 2.5,
+          "previous_primary": 2.25,
+          "previous_yahoo": 2.25,
+          "actual_yahoo_raw": "2.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.25"
         }
-      }
+      },
+      "yahoo_title": "BoC Rate Decision"
     },
     {
       "currency": "USD",
@@ -3380,25 +3367,6 @@
           "actual_yahoo_raw": "8.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "8.5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Pending Home Sales Index",
-      "yahoo_title": "Pending Homes Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 66.0,
-          "actual_yahoo": 66.0,
-          "previous_primary": 71.2,
-          "previous_yahoo": 71.2,
-          "actual_yahoo_raw": "66",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "71.2"
         }
       }
     },
