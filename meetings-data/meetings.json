@@ -2,8 +2,8 @@
   "lastUpdate": "2026-10-28",
   "meetings": {
     "USD": {
-      "nextMeeting": "28 Oct",
-      "nextMeetingISO": "2026-10-28",
+      "nextMeeting": "9 Dec",
+      "nextMeetingISO": "2026-12-09",
       "allMeetings": [
         "2026-01-29",
         "2026-03-19",
@@ -25,13 +25,13 @@
         "9 Dec"
       ],
       "source": "federalreserve.gov",
-      "bias": "hold",
+      "bias": "hike",
       "biasSource": "Fed Funds futures, meeting-bracketed",
       "biasMethod": "ois",
       "biasUpdated": "2026-10-28",
       "cutProb": 0,
-      "hikeProb": 0,
-      "fwdRate": 3.88
+      "hikeProb": 100,
+      "fwdRate": 4.13
     },
     "EUR": {
       "nextMeeting": "29 Oct",
