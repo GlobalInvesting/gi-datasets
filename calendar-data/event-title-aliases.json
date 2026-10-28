@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T16:45:28Z",
+  "generatedAt": "2026-10-28T19:41:36Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -2142,25 +2142,6 @@
       "yahoo_title": "Dallas Fed Services Revenues*"
     },
     {
-      "currency": "USD",
-      "primary_title": "Dallas Fed Services Business Activity",
-      "secondary_title": "United States Dallas Fed Services Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -2.9,
-          "forecast_secondary": -3.0,
-          "actual_primary": 4.0,
-          "actual_secondary": 4.0,
-          "previous_primary": -1.8,
-          "previous_secondary": -1.8,
-          "actual_secondary_raw": "4.0",
-          "forecast_secondary_raw": "-3",
-          "previous_secondary_raw": "-1.8"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "RBA Trimmed Mean CPI q/q",
       "secondary_title": "Australia Quarterly RBA Trimmed Mean CPI QoQ",
@@ -2210,25 +2191,6 @@
         }
       },
       "yahoo_title": "BoC Rate Decision"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Fed Interest Rate Decision",
-      "secondary_title": "United States Fed Interest Rate Decision",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_secondary": 4.0,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 4.0,
-          "previous_secondary": 4.0,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "4.0%",
-          "previous_secondary_raw": "4%"
-        }
-      }
     },
     {
       "currency": "JPY",
@@ -2979,13 +2941,13 @@
         "secondary": {
           "dateISO": "2026-11-03",
           "forecast_primary": null,
-          "forecast_secondary": 4.6,
+          "forecast_secondary": 4.85,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "4.6%",
+          "forecast_secondary_raw": "4.85%",
           "previous_secondary_raw": "4.6%"
         }
       }
@@ -3580,6 +3542,25 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "Dallas Fed Services Business Activity",
+      "yahoo_title": "FOMC Decision Fed Funds Tgt Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-27",
+          "forecast_primary": -2.9,
+          "forecast_yahoo": null,
+          "actual_primary": 4.0,
+          "actual_yahoo": 4.0,
+          "previous_primary": -1.8,
+          "previous_yahoo": 3.88,
+          "actual_yahoo_raw": "4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.88"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia CPI q/q",
       "yahoo_title": "CPI QQ *",
@@ -3671,6 +3652,25 @@
           "actual_yahoo_raw": "-0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Fed Interest Rate Decision",
+      "yahoo_title": "FOMC Decision Fed Funds Tgt Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 4.0,
+          "actual_yahoo": 4.0,
+          "previous_primary": 4.0,
+          "previous_yahoo": 3.88,
+          "actual_yahoo_raw": "4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.88"
         }
       }
     },
