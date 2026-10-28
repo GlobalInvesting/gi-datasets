@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T00:40:36Z",
+  "generatedAt": "2026-10-28T13:21:52Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
@@ -110,10 +110,10 @@
           "forecast_primary": 1.3,
           "forecast_secondary": 0.3,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": 0.6,
           "previous_primary": 0.5,
           "previous_secondary": 0.5,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "0.6%",
           "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.5%"
         }
@@ -1076,19 +1076,19 @@
     {
       "currency": "USD",
       "primary_title": "United States Retail Inventories excl. Autos m/m",
-      "secondary_title": "United States Retail Inventories Ex Autos MoM Adv",
+      "secondary_title": "United States Retail Inventories Ex Autos MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-28",
+          "dateISO": "2026-10-15",
           "forecast_primary": null,
-          "forecast_secondary": -0.1,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 0.0,
-          "previous_secondary": 0.0,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.1%",
-          "previous_secondary_raw": "0%"
+          "forecast_secondary": 0.2,
+          "actual_primary": 0.0,
+          "actual_secondary": 0.0,
+          "previous_primary": 0.1,
+          "previous_secondary": 0.8,
+          "actual_secondary_raw": "0%",
+          "forecast_secondary_raw": "0.2%",
+          "previous_secondary_raw": "0.8%"
         }
       }
     },
@@ -1114,19 +1114,19 @@
     {
       "currency": "EUR",
       "primary_title": "Euro Area Core CPI y/y",
-      "secondary_title": "Euro Area Core Inflation Rate YoY Final",
+      "secondary_title": "Euro Area Core Inflation Rate YoY Flash",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-16",
+          "dateISO": "2026-11-04",
           "forecast_primary": 2.5,
-          "forecast_secondary": 2.5,
-          "actual_primary": 2.5,
-          "actual_secondary": 2.5,
+          "forecast_secondary": 2.6,
+          "actual_primary": null,
+          "actual_secondary": null,
           "previous_primary": 2.5,
-          "previous_secondary": 2.4,
-          "actual_secondary_raw": "2.5%",
-          "forecast_secondary_raw": "2.5%",
-          "previous_secondary_raw": "2.4%"
+          "previous_secondary": 2.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.6%",
+          "previous_secondary_raw": "2.5%"
         }
       }
     },
@@ -1141,7 +1141,7 @@
           "forecast_secondary": 104.5,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": null,
+          "previous_primary": 104.31,
           "previous_secondary": 104.31,
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "104.5",
@@ -1628,21 +1628,8 @@
           "actual_secondary_raw": "8.3%",
           "forecast_secondary_raw": "7.1%",
           "previous_secondary_raw": "6.7%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 2.6,
-          "forecast_yahoo": null,
-          "actual_primary": 8.3,
-          "actual_yahoo": 8.3,
-          "previous_primary": 6.1,
-          "previous_yahoo": 6.1,
-          "actual_yahoo_raw": "8.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.1"
         }
-      },
-      "yahoo_title": "PPI Input Prices YY NSA"
+      }
     },
     {
       "currency": "GBP",
@@ -1660,21 +1647,8 @@
           "actual_secondary_raw": "0.8%",
           "forecast_secondary_raw": "0.6%",
           "previous_secondary_raw": "0.7%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
         }
-      },
-      "yahoo_title": "PPI Output Prices MM NSA"
+      }
     },
     {
       "currency": "GBP",
@@ -1692,21 +1666,8 @@
           "actual_secondary_raw": "4.6%",
           "forecast_secondary_raw": "4.2%",
           "previous_secondary_raw": "3.8%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 3.6,
-          "forecast_yahoo": null,
-          "actual_primary": 4.6,
-          "actual_yahoo": 4.6,
-          "previous_primary": 3.7,
-          "previous_yahoo": 3.7,
-          "actual_yahoo_raw": "4.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.7"
         }
-      },
-      "yahoo_title": "PPI Output Prices YY NSA"
+      }
     },
     {
       "currency": "GBP",
@@ -1724,21 +1685,8 @@
           "actual_secondary_raw": "2.9%",
           "forecast_secondary_raw": "2.8%",
           "previous_secondary_raw": "2.8%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 3.2,
-          "forecast_yahoo": null,
-          "actual_primary": 2.9,
-          "actual_yahoo": 2.9,
-          "previous_primary": 2.7,
-          "previous_yahoo": 2.7,
-          "actual_yahoo_raw": "2.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.7"
         }
-      },
-      "yahoo_title": "PPI Core Output YY NSA"
+      }
     },
     {
       "currency": "GBP",
@@ -1775,21 +1723,8 @@
           "actual_secondary_raw": "2.9%",
           "forecast_secondary_raw": "2.8%",
           "previous_secondary_raw": "2.8%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 2.8,
-          "forecast_yahoo": null,
-          "actual_primary": 2.9,
-          "actual_yahoo": 2.9,
-          "previous_primary": 3.3,
-          "previous_yahoo": 2.7,
-          "actual_yahoo_raw": "2.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.7"
         }
-      },
-      "yahoo_title": "PPI Core Output YY NSA"
+      }
     },
     {
       "currency": "CAD",
@@ -3449,25 +3384,6 @@
       }
     },
     {
-      "currency": "EUR",
-      "primary_title": "Italy CPI FOI excl. Tobacco m/m",
-      "yahoo_title": "HICP-X Tobacco MM *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-16",
-          "forecast_primary": 0.6,
-          "forecast_yahoo": null,
-          "actual_primary": 0.6,
-          "actual_yahoo": 0.6,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "0.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
       "currency": "USD",
       "primary_title": "United States Pending Home Sales Index",
       "yahoo_title": "Pending Homes Index",
@@ -3483,82 +3399,6 @@
           "actual_yahoo_raw": "66",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "71.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom CPI m/m",
-      "yahoo_title": "CPI MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.5,
-          "previous_yahoo": 0.5,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.5"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom CPI y/y",
-      "yahoo_title": "CPI YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 2.7,
-          "forecast_yahoo": null,
-          "actual_primary": 3.5,
-          "actual_yahoo": 3.5,
-          "previous_primary": 3.1,
-          "previous_yahoo": 3.1,
-          "actual_yahoo_raw": "3.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.1"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom RPI y/y",
-      "yahoo_title": "RPI YY*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 2.9,
-          "forecast_yahoo": null,
-          "actual_primary": 3.9,
-          "actual_yahoo": 3.9,
-          "previous_primary": 3.4,
-          "previous_yahoo": 3.4,
-          "actual_yahoo_raw": "3.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.4"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Core CPI m/m",
-      "yahoo_title": "PPI Core Output MM NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-21",
-          "forecast_primary": 0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
         }
       }
     },
@@ -3768,6 +3608,101 @@
           "actual_yahoo_raw": "2",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia CPI q/q",
+      "yahoo_title": "CPI QQ *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": 1.1,
+          "forecast_yahoo": null,
+          "actual_primary": 1.3,
+          "actual_yahoo": 1.3,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "1.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia CPI y/y",
+      "yahoo_title": "CPI YY *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": 4.7,
+          "forecast_yahoo": null,
+          "actual_primary": 3.9,
+          "actual_yahoo": 3.9,
+          "previous_primary": 3.9,
+          "previous_yahoo": 4.0,
+          "actual_yahoo_raw": "3.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "4"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia CPI",
+      "yahoo_title": "CPI Index*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": 138.2,
+          "forecast_yahoo": null,
+          "actual_primary": 103.64,
+          "actual_yahoo": 103.64,
+          "previous_primary": 102.31,
+          "previous_yahoo": 102.31,
+          "actual_yahoo_raw": "103.64",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "102.31"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "RBNZ Interest Rate Decision",
+      "yahoo_title": "Cash Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 2.75,
+          "actual_yahoo": 2.75,
+          "previous_primary": 2.75,
+          "previous_yahoo": 2.75,
+          "actual_yahoo_raw": "2.75",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.75"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Retail Sales m/m",
+      "yahoo_title": "Retail Sales Ex. Auto",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-28",
+          "forecast_primary": -0.7,
+          "forecast_yahoo": null,
+          "actual_primary": -0.4,
+          "actual_yahoo": -0.4,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "-0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
         }
       }
     },
