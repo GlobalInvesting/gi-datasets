@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-29T13:42:49Z",
-  "generatedAt": "2026-10-29T13:42:49Z",
+  "lastUpdate": "2026-10-29T13:44:51Z",
+  "generatedAt": "2026-10-29T13:44:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -94,9 +94,9 @@
       "std": 3.330666
     },
     "EUR/italy business confidence": {
-      "n": 3,
-      "mean": 2.1,
-      "std": 1.509967
+      "n": 4,
+      "mean": 2.05,
+      "std": 1.236932
     },
     "EUR/spain current account": {
       "n": 3,
@@ -1365,8 +1365,8 @@
     },
     "USD/gdp price index qoq": {
       "n": 4,
-      "mean": -0.55,
-      "std": 1.121011
+      "mean": -0.525,
+      "std": 1.071992
     },
     "USD/core pce price index qoq": {
       "n": 3,
@@ -1679,14 +1679,14 @@
       "std": 0.010607
     },
     "EUR/italy industrial sales mom": {
-      "n": 2,
-      "mean": 1.05,
-      "std": 1.909188
+      "n": 3,
+      "mean": 0.333333,
+      "std": 1.833939
     },
     "EUR/italy industrial sales  yoy": {
-      "n": 2,
-      "mean": 1.75,
-      "std": 0.919239
+      "n": 3,
+      "mean": 1.766667,
+      "std": 0.650641
     },
     "NOK/nav unemployment rate n.s.a.": {
       "n": 2,
@@ -1764,9 +1764,9 @@
       "std": 8.030774
     },
     "EUR/industry selling price expectations": {
-      "n": 2,
-      "mean": 5.2,
-      "std": 1.272792
+      "n": 3,
+      "mean": 3.033333,
+      "std": 3.859188
     },
     "EUR/economic sentiment": {
       "n": 3,
@@ -2094,14 +2094,14 @@
       "std": 0.0
     },
     "EUR/italy unemployment rate": {
-      "n": 2,
-      "mean": 0.1,
-      "std": 0.424264
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.378594
     },
     "GBP/boe consumer credit mom": {
-      "n": 2,
-      "mean": 0.4175,
-      "std": 0.185969
+      "n": 3,
+      "mean": 0.127,
+      "std": 0.520061
     },
     "GBP/boe m4 money supply mom": {
       "n": 3,
@@ -2109,19 +2109,19 @@
       "std": 0.472582
     },
     "GBP/boe mortgage approvals": {
-      "n": 2,
-      "mean": -2.733,
-      "std": 2.764788
+      "n": 3,
+      "mean": -0.950333,
+      "std": 3.654549
     },
     "GBP/boe mortgage lending mom": {
-      "n": 2,
-      "mean": -0.913,
-      "std": 0.659024
+      "n": 3,
+      "mean": -1.107667,
+      "std": 0.575188
     },
     "GBP/boe net lending to individuals mom": {
-      "n": 2,
-      "mean": -0.3145,
-      "std": 1.690692
+      "n": 3,
+      "mean": -0.814,
+      "std": 1.47571
     },
     "GBP/boe consumer credit": {
       "n": 3,
@@ -2269,14 +2269,14 @@
       "std": 0.565685
     },
     "EUR/italy ppi mom": {
-      "n": 3,
-      "mean": 1.7,
-      "std": 0.754983
+      "n": 4,
+      "mean": 1.6,
+      "std": 0.648074
     },
     "EUR/italy ppi yoy": {
-      "n": 3,
-      "mean": 1.633333,
-      "std": 0.378594
+      "n": 4,
+      "mean": 1.5,
+      "std": 0.408248
     },
     "EUR/ireland unemployment rate": {
       "n": 2,
@@ -85538,7 +85538,7 @@
       "flag": "🇪🇺",
       "event": "Italy Industrial Sales m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.9%",
       "forecast": "0.2%",
       "previous": "1.7%"
     },
@@ -85551,7 +85551,7 @@
       "flag": "🇪🇺",
       "event": "Italy Industrial Sales  y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "2.4%",
       "previous": "4.8%"
     },
@@ -85590,7 +85590,7 @@
       "flag": "🇪🇺",
       "event": "Italy PPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "2.9%",
       "forecast": "1.6%",
       "previous": "2.4%"
     },
@@ -85603,7 +85603,7 @@
       "flag": "🇪🇺",
       "event": "Italy PPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "13.8%",
       "forecast": "12.7%",
       "previous": "10.9%"
     },
@@ -85858,7 +85858,7 @@
       "flag": "🇨🇦",
       "event": "BoC Interest Rate Decision",
       "impact": "high",
-      "actual": "2.5%",
+      "actual": "2.50%",
       "forecast": null,
       "previous": "2.25%"
     },
@@ -86485,7 +86485,7 @@
       "flag": "🇪🇺",
       "event": "Italy Unemployment Rate",
       "impact": "low",
-      "actual": null,
+      "actual": "6.3%",
       "forecast": "6.0%",
       "previous": "6.2%"
     },
@@ -86524,7 +86524,7 @@
       "flag": "🇬🇧",
       "event": "BoE Consumer Credit m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "1.914B",
       "forecast": "2.368B",
       "previous": "2.464B"
     },
@@ -86550,7 +86550,7 @@
       "flag": "🇬🇧",
       "event": "BoE Mortgage Approvals",
       "impact": "low",
-      "actual": null,
+      "actual": "53.443K",
       "forecast": "50.828K",
       "previous": "54.918K"
     },
@@ -86563,7 +86563,7 @@
       "flag": "🇬🇧",
       "event": "BoE Mortgage Lending m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "3.866B",
       "forecast": "5.363B",
       "previous": "4.410B"
     },
@@ -86576,7 +86576,7 @@
       "flag": "🇬🇧",
       "event": "BoE Net Lending to Individuals m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "5.780B",
       "forecast": "7.593B",
       "previous": "6.874B"
     },
@@ -86776,7 +86776,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Industry Selling Price Expectations",
       "impact": "low",
-      "actual": null,
+      "actual": "24.8",
       "forecast": "26.1",
       "previous": "20.3"
     },
@@ -86789,7 +86789,7 @@
       "flag": "🇪🇺",
       "event": "Italy Trade Balance Non-EU",
       "impact": "low",
-      "actual": null,
+      "actual": "2.826B",
       "forecast": null,
       "previous": "2.000B"
     },
@@ -87043,7 +87043,7 @@
       "flag": "🇪🇺",
       "event": "Italy Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "91.9",
       "forecast": "90.0",
       "previous": "91.9"
     },
@@ -87187,7 +87187,7 @@
       "flag": "🇺🇸",
       "event": "United States Real PCE m/m",
       "impact": "low",
-      "actual": "0",
+      "actual": "0.0%",
       "forecast": "0.1%",
       "previous": "0.6%"
     },
@@ -87213,7 +87213,7 @@
       "flag": "🇺🇸",
       "event": "United States GDP Price Index q/q",
       "impact": "low",
-      "actual": "2.2%",
+      "actual": "2.3%",
       "forecast": "4.4%",
       "previous": "6.1%"
     },
@@ -90743,7 +90743,7 @@
       "event": "United States EIA Crude Oil Stocks Change",
       "impact": "high",
       "actual": null,
-      "forecast": null,
+      "forecast": "-2.481M",
       "previous": "-1.892M"
     },
     {
@@ -90782,7 +90782,7 @@
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.162M",
       "previous": "-0.071M"
     },
     {
