@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-29T22:06:47Z",
-  "generatedAt": "2026-10-29T22:06:47Z",
+  "lastUpdate": "2026-10-29T23:32:47Z",
+  "generatedAt": "2026-10-29T23:32:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3954,14 +3954,24 @@
       "std": 0.636396
     },
     "JPY/tokyo cpi yoy": {
+      "n": 3,
+      "mean": 0.533333,
+      "std": 0.23094
+    },
+    "JPY/tokyo cpi excl. food and energy yoy": {
       "n": 2,
-      "mean": 0.6,
-      "std": 0.282843
+      "mean": 0.15,
+      "std": 0.777817
     },
     "JPY/tokyo core cpi yoy": {
+      "n": 3,
+      "mean": 0.566667,
+      "std": 0.404145
+    },
+    "JPY/jobs to applicants ratio": {
       "n": 2,
-      "mean": 0.8,
-      "std": 0.0
+      "mean": 0.0,
+      "std": 0.014142
     },
     "GBP/construction output yoy": {
       "n": 2,
@@ -87820,7 +87830,7 @@
       "flag": "🇯🇵",
       "event": "Japan Tokyo CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "2.8%",
       "forecast": "2.4%",
       "previous": "2.7%"
     },
@@ -87833,7 +87843,7 @@
       "flag": "🇯🇵",
       "event": "Japan Tokyo CPI excl. Food and Energy y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "3.0%",
       "previous": "3.0%"
     },
@@ -87846,7 +87856,7 @@
       "flag": "🇯🇵",
       "event": "Japan Tokyo Core CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "2.5%",
       "previous": "2.7%"
     },
@@ -87859,7 +87869,7 @@
       "flag": "🇯🇵",
       "event": "Japan Tokyo CPI s.a. m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": null,
       "previous": "0.6%"
     },
@@ -87885,7 +87895,7 @@
       "flag": "🇯🇵",
       "event": "Japan Jobs to Applicants Ratio",
       "impact": "low",
-      "actual": null,
+      "actual": "1.19",
       "forecast": "1.18",
       "previous": "1.18"
     },
