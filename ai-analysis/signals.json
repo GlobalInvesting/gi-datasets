@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-29T06:05:02Z",
+  "generated_at": "2026-10-29T12:05:44Z",
   "signals": [
     {
-      "time": "05:58",
+      "time": "12:00",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Carry",
-      "text": "AUD outperforms the G10 complex with a 1W average gain of +1.120% across 4 pairs, while CHF lags at −0.630% across 6 pairs, generating an extreme leader-to-laggard spread of 1.750%. AUD/CHF spot trades at 0.58430, supported by a wide central bank policy rate gap with RBA at 4.6% vs SNB at 0.00% delivering a 460bp carry advantage in favor of AUD. CFTC positioning shows leveraged funds hold AUD net long +47,606 contracts while CHF net shorts sit at −16,930 contracts (8th percentile, z −1.64), reflecting institutional alignment behind the divergence. Retail positioning exhibits an extreme counter-trend stance with 87% short AUD/CHF, establishing vulnerability to a continued squeeze. Technical resistance near 0.5850 is tested as broader carry flows dominate. Trade bias: Bullish AUD/CHF, carry-supported outperformance against an extreme retail short. Catalyst: RBA meeting 3 Nov — hike pricing dominant. Risk: SNB verbal or physical FX intervention to curb Swiss franc depreciation.",
+      "title": "AUD/NZD — G10 Bilateral Theme + Monetary Divergence",
+      "text": "AUD/NZD trades at 1.2547, sitting rich against its BEER fair-value model at 1.2409 (z=+1.99σ). In the weekly currency performance matrix, AUD leads the G10 basket with a +0.885% average gain across 4 pairs, while NZD anchors the table as the primary laggard down -0.547% across 4 pairs, creating an active bilateral spread of 1.432%. Fundamental momentum confirms the spread: Australia's policy rate sits at 4.6% following persistent tightening pressures, while New Zealand's overnight benchmark stands at 2.75%, leaving an expansive cash carry spread favoring the Aussie. ESI data confirms divergence, with NZD printing persistent misses at -17.1 versus AUD at -7.1. Trade bias: Long AUD/NZD; cross-currency momentum and yield advantages reinforce the trend. Catalyst: Australia PPI at 00:30 UTC — forecast 1.0% q/q. Risk: Bilateral spread compresses back below 0.80% if commodity demand abruptly softens.",
       "evidence": [
-        "AUD 1W avg: +1.120% (n=4)",
-        "CHF 1W avg: -0.630% (n=6)",
-        "G10 spread: 1.750%"
+        "AUD 1W avg: +0.885% (n=4)",
+        "NZD 1W avg: -0.547% (n=4)",
+        "G10 spread: 1.432%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "AUD/CHF",
+        "pair": "AUD/NZD",
         "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 1.1 ATR with it over five sessions"
+          "price moved 2.9 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
@@ -30,14 +30,14 @@
       }
     },
     {
-      "time": "05:55",
+      "time": "11:57",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Vol Premium",
-      "text": "EUR/USD trades at 1.1141, anchored below its falling SMA20/50/200 cluster at 1.1209, 1.1412, and 1.1569 in a confirmed technical downtrend. CFTC leveraged funds positioning is heavily stretched short EUR at net −94,138 contracts, positioned in the 2nd percentile of its 52-week range with z −1.72. The options market prices 1M ATM implied volatility at 6.5% against 30-day realized volatility of 4.0%, generating an elevated vol risk premium of +2.5% that reflects significant hedging demand ahead of immediate policy risk. Rate differentials remain decisively restrictive for the euro, with Fed at 4.0% vs ECB at 2.65% delivering a 135bp carry advantage to USD alongside a SOFR-€STR spread of +151bp. Despite retail traders positioning 87% long in a contrarian trap, crowded institutional shorts leave the downside vulnerable to sharp short-covering shocks. Trade bias: Bearish EUR/USD; upside capped by moving average resistance at 1.1209. Catalyst: ECB Interest Rate Decision today at 13:15 UTC. Risk: ECB delivers an unexpected hawkish hold or guidance shift that sparks an unwind of the 2nd-percentile spec short.",
+      "title": "EUR/USD — Positioning Extreme + Vol Skew Ahead of ECB",
+      "text": "EUR/USD trades at 1.1146, held cleanly below its descending SMA20 (1.1209), SMA50 (1.1412), and SMA200 (1.1569) moving average cluster. Speculative positioning shows leveraged funds heavily net short EUR at -94,138 contracts (CFTC, week ending Oct 20), placing EUR net length in the 2nd percentile of its 52-week range with a z-score of -1.72. Implied volatility runs at 6.5% against a 30-day realized volatility of 4.0%, yielding an elevated 2.5-point volatility risk premium that reflects hedging demand ahead of the ECB policy announcement and leadership transition news. Meanwhile, retail positioning sits at 87% long on Retail sentiment data, diverging sharply from the institutional short overhang and establishing contrarian vulnerability. Trade bias: Bearish EUR/USD; technical downtrend and institutional short positioning cap recovery attempts. Catalyst: ECB Interest Rate Decision at 13:15 UTC — hold expected. Risk: A hawkish hold from the ECB triggers a short-squeeze across crowded institutional shorts toward 1.1250.",
       "evidence": [
         "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
         "EUR/USD VRP: +2.5% (IV 6.5% vs HV30 4.0%)",
-        "Fed 4.0% vs ECB 2.65% — 135bp"
+        "Retail: 87% long (Myfxbook)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -59,30 +59,14 @@
       }
     },
     {
-      "time": "05:52",
-      "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + BoJ Risk",
-      "text": "USD/JPY trades at 157.84, testing its flat 20-day SMA at 157.93 within a tight consolidation below the 200-day SMA at 158.52. While the Fed-BoJ policy differential of Fed 4.0% vs BoJ 1.25% yields a 275bp carry buffer (SOFR-TONA spread at +272bp), the options space prices acute tail-risk protection. The 1M 25-delta risk reversal sits at −2.18, reflecting strong put skew as market participants aggressively pay for downside protection against potential policy surprises. Intraday volatility shows VIX contained at 16.9, confirming carry remains structurally viable in spot, but options desks refuse to chase spot upside toward 160.00. Leveraged funds have reduced gross shorts, lifting JPY net positioning to −25,598 contracts with a WoW delta of +12,222. Trade bias: Neutral/range USD/JPY; upside contained below 158.52 technical resistance. Catalyst: BoJ Monetary Policy Statement and Rate Decision 30 Oct. Risk: BoJ unexpectedly raises rates or shifts forward guidance, triggering an immediate options-driven unwind toward 155.00.",
-      "evidence": [
-        "USDJPY 25d RR: -2.18 (strong put skew)",
-        "Fed 4.0% vs BoJ 1.25% — 275bp",
-        "USD/JPY: 157.84 (SMA20 157.93)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "05:46",
+      "time": "11:48",
       "priority": "info",
-      "title": "USD/NOK — Technical Breakdown + Retail Divergence",
-      "text": "USD/NOK trades at 9.25, extending an established downtrend below its falling SMA20/50/200 cluster at 9.462, 9.406, and 9.504. The pair closed below its prior 10-day low on a wide-range bar and sits extended 2.73 ATR from its 20-day average. Central bank policy rate dynamics compress the dollar's nominal advantage, with Fed at 4.0% vs Norges Bank at 4.5% yielding a 50bp carry premium favoring NOK. Retail sentiment registered at Retail sentiment data shows a complete positioning saturation with 100% of retail accounts positioned long USD/NOK, setting up a severe contrarian continuation backdrop. With Brent crude maintaining elevated levels above $100 and Norway economic surprises positive at ESI +14.1, downward momentum remains structurally supported. Trade bias: Bearish USD/NOK, trend continuation against saturated retail longs. Catalyst: Norges Bank policy meeting 5 Nov. Risk: Sharp correction in crude oil below $95 that relieves pressure on USD/NOK shorts.",
+      "title": "USD/NOK — Trend Extension + Retail Extreme",
+      "text": "USD/NOK trades at 9.25, extending its structured downtrend below the SMA20 (9.462), SMA50 (9.406), and SMA200 (9.504) moving average cluster. The latest daily candle formed a wide-range bearish expansion bar that stretched spot 2.73 ATR below its falling 20-day average. Retail sentiment on Retail sentiment data displays an extreme one-sided stance with 100% of community accounts positioned long, attempting to catch the extended downswing. This positioning runs contrary to the ongoing technical regime and fundamental rate dynamics, where Norges Bank maintains a restrictive 4.5% policy stance against Fed funds at 4.0%. Trade bias: Bearish USD/NOK; technical momentum aligned against retail positioning extreme. Catalyst: US Core PCE Price Index at 12:30 UTC — forecast 0.2% m/m, 3.1% y/y. Risk: An upside US PCE inflation surprise lifts broad dollar yields and triggers a technical mean-reversion toward the 9.406 SMA50.",
       "evidence": [
-        "USD/NOK Retail: 100% long",
-        "Norges Bank 4.5% vs Fed 4.0% — 50bp NOK carry premium",
-        "USD/NOK: 9.25 (SMA20 9.462, -2.73 ATR)"
+        "Retail: 100% long (Myfxbook)",
+        "Technical: downtrend below SMA20/50/200",
+        "USD/NOK spot: 9.25 (extended 2.73 ATR)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
