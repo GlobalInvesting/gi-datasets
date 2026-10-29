@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-29T08:05:39.555Z",
-  "generatedAt": "2026-10-29T08:05:39.555Z",
+  "lastUpdate": "2026-10-29T08:05:46.030Z",
+  "generatedAt": "2026-10-29T08:05:46.030Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -86298,10 +86298,9 @@
       "flag": "🇸🇪",
       "event": "Sweden Manufacturing Confidence",
       "impact": "low",
-      "actual": "111.5",
+      "actual": null,
       "forecast": "106.0",
-      "previous": "106.3",
-      "released": true
+      "previous": "106.3"
     },
     {
       "date": "29 Oct",
@@ -86312,10 +86311,11 @@
       "flag": "🇸🇪",
       "event": "Sweden Consumer Confidence",
       "impact": "medium",
-      "actual": null,
+      "actual": "94.3",
       "forecast": "105.3",
       "previous": "102.2",
-      "vendorImpact": "low"
+      "vendorImpact": "low",
+      "released": true
     },
     {
       "date": "29 Oct",
