@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-29T00:01:20Z",
+  "generated_at": "2026-10-29T06:05:02Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "05:58",
       "priority": "critical",
       "title": "AUD/CHF — G10 Bilateral Theme + Carry",
-      "text": "AUD/CHF trades at 0.5841 as the G10 Currency Strength Scorecard establishes AUD as the weekly leader at +1.144% across 4 pairs against CHF as the laggard at -0.576% across 6 pairs. The resulting 1.720% spread triggers a critical bilateral theme signal. Fundamentals heavily support this gap: RBA policy rate at 4.6% vs SNB at 0.00% creates a +460bp nominal carry advantage, while AONIA at 4.60% vs SARON at -0.06% locks in +466bp in OIS carry favoring AUD. The move is reinforced by retail positioning, where retail sits 87% short AUD/CHF, providing a contrarian tailwind as retail fades the dominant trend. Trade bias: Bullish AUD/CHF, supported by carry advantage and bilateral outperformance. Catalyst: Australia PPI release on 29 Oct followed by RBA meeting on 3 Nov. Risk: Broad cross-asset risk-off liquidation driving acute safe-haven bids into CHF, compressing the spread.",
+      "text": "AUD outperforms the G10 complex with a 1W average gain of +1.120% across 4 pairs, while CHF lags at −0.630% across 6 pairs, generating an extreme leader-to-laggard spread of 1.750%. AUD/CHF spot trades at 0.58430, supported by a wide central bank policy rate gap with RBA at 4.6% vs SNB at 0.00% delivering a 460bp carry advantage in favor of AUD. CFTC positioning shows leveraged funds hold AUD net long +47,606 contracts while CHF net shorts sit at −16,930 contracts (8th percentile, z −1.64), reflecting institutional alignment behind the divergence. Retail positioning exhibits an extreme counter-trend stance with 87% short AUD/CHF, establishing vulnerability to a continued squeeze. Technical resistance near 0.5850 is tested as broader carry flows dominate. Trade bias: Bullish AUD/CHF, carry-supported outperformance against an extreme retail short. Catalyst: RBA meeting 3 Nov — hike pricing dominant. Risk: SNB verbal or physical FX intervention to curb Swiss franc depreciation.",
       "evidence": [
-        "AUD 1W avg: +1.144% (n=4)",
-        "CHF 1W avg: -0.576% (n=6)",
-        "G10 spread: 1.720%"
+        "AUD 1W avg: +1.120% (n=4)",
+        "CHF 1W avg: -0.630% (n=6)",
+        "G10 spread: 1.750%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -18,42 +18,25 @@
         "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "fundamental votes point with it",
           "price moved 1.1 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "aligned",
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
           "asof": "2026-10-28"
         }
       }
     },
     {
-      "time": "23:55",
+      "time": "05:55",
       "priority": "warning",
-      "title": "USD/JPY — Options Skew + Carry Tension",
-      "text": "USD/JPY trades at 157.82, resting below its SMA20 at 157.93 and SMA200 at 158.49 within a range-bound technical box. The 25-delta risk reversal sits at -2.18 (Saxo Bank, 1M tenor, indicative mid), showing an extreme put skew that marks strong institutional demand for USD downside protection despite CFTC Leveraged Funds remaining net short JPY at -25,598 contracts. Meanwhile, the Fed at 4.0% vs BoJ at 1.25% generates a 275bp policy spread, complemented by SOFR at 3.95% vs TONA at 1.23% giving USD a +272bp OIS carry premium. Middle East tensions and Hormuz shipping concerns introduce headline volatility, but 160.00 remains the key level that has previously triggered intervention concerns; carry sustains the baseline while options markets actively hedge downside tail risk. Trade bias: Neutral/range USD/JPY, balancing structural carry against aggressive downside options hedging. Catalyst: Tokyo CPI print followed by BoJ Interest Rate Decision on 30 Oct. Risk: BoJ unexpectedly turns hawkish at the press conference, prompting an immediate unwind of crowded JPY short positioning.",
-      "evidence": [
-        "USD/JPY 25d RR: -2.18 put skew",
-        "Fed 4.0% vs BoJ 1.25% — 275bp",
-        "JPY COT LF net: -25,598"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "23:51",
-      "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Vol Premium",
-      "text": "EUR/USD trades at 1.1162, positioned entirely below its SMA20 (1.1209), SMA50 (1.1412), and SMA200 (1.1572) within an entrenched technical downtrend. CFTC positioning shows Leveraged Funds heavily net short EUR at -94,138 contracts, placing the pair at the 2nd percentile of its 52-week range (z = -1.72), indicating crowded speculative short exposure. Concurrently, EUR/USD ATM IV sits at 6.5% against HV30 of 4.1%, generating a notable +2.4% vol risk premium that reflects elevated demand for hedging into policy decisions. The Fed at 4.0% vs ECB at 2.65% provides a 135bp policy spread (SOFR vs €STR carry +151bp in USD favor), keeping upside structurally capped while retail sentiment sits at 86% long, creating sharp downside liquidity if support cracks. Trade bias: Bearish EUR/USD; downward trend structure and carry favor USD, though crowded spec shorts warn of squeeze risk. Catalyst: ECB Interest Rate Decision and press conference on 29 Oct. Risk: ECB delivers an unexpectedly hawkish hold or guidance, triggering short covering against crowded Leveraged Fund positions.",
+      "title": "EUR/USD — Crowded Short + Vol Premium",
+      "text": "EUR/USD trades at 1.1141, anchored below its falling SMA20/50/200 cluster at 1.1209, 1.1412, and 1.1569 in a confirmed technical downtrend. CFTC leveraged funds positioning is heavily stretched short EUR at net −94,138 contracts, positioned in the 2nd percentile of its 52-week range with z −1.72. The options market prices 1M ATM implied volatility at 6.5% against 30-day realized volatility of 4.0%, generating an elevated vol risk premium of +2.5% that reflects significant hedging demand ahead of immediate policy risk. Rate differentials remain decisively restrictive for the euro, with Fed at 4.0% vs ECB at 2.65% delivering a 135bp carry advantage to USD alongside a SOFR-€STR spread of +151bp. Despite retail traders positioning 87% long in a contrarian trap, crowded institutional shorts leave the downside vulnerable to sharp short-covering shocks. Trade bias: Bearish EUR/USD; upside capped by moving average resistance at 1.1209. Catalyst: ECB Interest Rate Decision today at 13:15 UTC. Risk: ECB delivers an unexpected hawkish hold or guidance shift that sparks an unwind of the 2nd-percentile spec short.",
       "evidence": [
         "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
-        "EUR/USD IV 6.5% vs HV30 4.1% — VRP +2.4%",
+        "EUR/USD VRP: +2.5% (IV 6.5% vs HV30 4.0%)",
         "Fed 4.0% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary",
@@ -63,42 +46,49 @@
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
+          "fundamental votes point with it",
           "price moved 1.4 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
+          "bias": "Bearish",
+          "conviction": "low",
+          "technical_alignment": "aligned",
           "asof": "2026-10-28"
         }
       }
     },
     {
-      "time": "23:46",
-      "priority": "info",
-      "title": "USD/CAD — Technical Breakdown + Real Yield Shift",
-      "text": "USD/CAD trades at 1.3982, breaking below its SMA20 (1.4149) and SMA50 (1.4019) to print a bearish wide-range bar 2.0 times the 10-bar average body, confirming reversal risk against the intermediate uptrend. While the Fed at 4.0% vs BoC at 2.5% maintains a 150bp policy carry advantage (SOFR vs CORRA +171bp favoring USD), the Bank of Canada's recent 25bp hike to 2.50% has shifted rate momentum. In the US, FRED 5Y yield decomposition shows a 5-day nominal decline of -10bp driven by real yields falling -19bp against breakevens rising +9bp as of 26 Oct, softening real-rate support for the dollar. CFTC Leveraged Funds hold CAD net short at -92,789 contracts (pctl 12, z -1.42), leaving the pair vulnerable to continued short covering if technical support at the SMA200 (1.3880) is tested. Trade bias: Bearish USD/CAD, leaning into intraday technical breakdown and CAD short-covering flow. Catalyst: Canada GDP and US Core PCE releases on 29 Oct. Risk: US Core PCE prints significantly above expectations, reigniting Fed hike pricing and lifting the pair back above 1.4020.",
+      "time": "05:52",
+      "priority": "warning",
+      "title": "USD/JPY — Options Downside Skew + BoJ Risk",
+      "text": "USD/JPY trades at 157.84, testing its flat 20-day SMA at 157.93 within a tight consolidation below the 200-day SMA at 158.52. While the Fed-BoJ policy differential of Fed 4.0% vs BoJ 1.25% yields a 275bp carry buffer (SOFR-TONA spread at +272bp), the options space prices acute tail-risk protection. The 1M 25-delta risk reversal sits at −2.18, reflecting strong put skew as market participants aggressively pay for downside protection against potential policy surprises. Intraday volatility shows VIX contained at 16.9, confirming carry remains structurally viable in spot, but options desks refuse to chase spot upside toward 160.00. Leveraged funds have reduced gross shorts, lifting JPY net positioning to −25,598 contracts with a WoW delta of +12,222. Trade bias: Neutral/range USD/JPY; upside contained below 158.52 technical resistance. Catalyst: BoJ Monetary Policy Statement and Rate Decision 30 Oct. Risk: BoJ unexpectedly raises rates or shifts forward guidance, triggering an immediate options-driven unwind toward 155.00.",
       "evidence": [
-        "USD/CAD: 1.3982 below SMA20 (1.4149) and SMA50 (1.4019)",
-        "Fed 4.0% vs BoC 2.5% — 150bp",
-        "US 5Y nominal -10bp: real -19bp + breakeven +9bp (FRED)"
+        "USDJPY 25d RR: -2.18 (strong put skew)",
+        "Fed 4.0% vs BoJ 1.25% — 275bp",
+        "USD/JPY: 157.84 (SMA20 157.93)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/CAD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-10-28"
-        }
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
+      }
+    },
+    {
+      "time": "05:46",
+      "priority": "info",
+      "title": "USD/NOK — Technical Breakdown + Retail Divergence",
+      "text": "USD/NOK trades at 9.25, extending an established downtrend below its falling SMA20/50/200 cluster at 9.462, 9.406, and 9.504. The pair closed below its prior 10-day low on a wide-range bar and sits extended 2.73 ATR from its 20-day average. Central bank policy rate dynamics compress the dollar's nominal advantage, with Fed at 4.0% vs Norges Bank at 4.5% yielding a 50bp carry premium favoring NOK. Retail sentiment registered at Retail sentiment data shows a complete positioning saturation with 100% of retail accounts positioned long USD/NOK, setting up a severe contrarian continuation backdrop. With Brent crude maintaining elevated levels above $100 and Norway economic surprises positive at ESI +14.1, downward momentum remains structurally supported. Trade bias: Bearish USD/NOK, trend continuation against saturated retail longs. Catalyst: Norges Bank policy meeting 5 Nov. Risk: Sharp correction in crude oil below $95 that relieves pressure on USD/NOK shorts.",
+      "evidence": [
+        "USD/NOK Retail: 100% long",
+        "Norges Bank 4.5% vs Fed 4.0% — 50bp NOK carry premium",
+        "USD/NOK: 9.25 (SMA20 9.462, -2.73 ATR)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": -1
       }
     }
   ]
