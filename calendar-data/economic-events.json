@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:05:50.318Z",
+  "generated_at": "2026-10-29T08:10:23Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -9365,7 +9365,7 @@
       "forecast": "34.8",
       "previous": "35.4",
       "actual": null,
-      "released": true,
+      "released": false,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
@@ -9462,8 +9462,22 @@
       "impact": "low",
       "forecast": "-12.6",
       "previous": "-11.7",
-      "actual": null,
-      "released": false,
+      "actual": "-4.0",
+      "released": true,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "Netherlands Business Confidence",
+      "currency": "EUR",
+      "dateISO": "2026-10-29",
+      "timeUTC": "08:00",
+      "timeMode": "exact",
+      "impact": "low",
+      "forecast": "3.0",
+      "previous": "4.2",
+      "actual": "2.3",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
@@ -9476,8 +9490,8 @@
       "impact": "low",
       "forecast": "-26.4",
       "previous": "-25.7",
-      "actual": null,
-      "released": false,
+      "actual": "-22.1",
+      "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
     },
@@ -10014,7 +10028,21 @@
       "vendor": "calendar-primary"
     },
     {
-      "title": "Finland RFGB ORI Auction",
+      "title": "Finland 2032 RFGB ORI Auction",
+      "currency": "EUR",
+      "dateISO": "2026-10-29",
+      "timeUTC": "11:20",
+      "timeMode": "exact",
+      "impact": "low",
+      "forecast": null,
+      "previous": null,
+      "actual": null,
+      "released": false,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "Finland 2045 RFGB ORI Auction",
       "currency": "EUR",
       "dateISO": "2026-10-29",
       "timeUTC": "11:20",
@@ -12164,20 +12192,6 @@
       "impact": "low",
       "forecast": "55",
       "previous": "55.5",
-      "actual": null,
-      "released": false,
-      "actualComputed": false,
-      "vendor": "calendar-primary"
-    },
-    {
-      "title": "Netherlands Business Confidence",
-      "currency": "EUR",
-      "dateISO": "2026-11-02",
-      "timeUTC": "05:30",
-      "timeMode": "exact",
-      "impact": "low",
-      "forecast": "3",
-      "previous": "4.2",
       "actual": null,
       "released": false,
       "actualComputed": false,
