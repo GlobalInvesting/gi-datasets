@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-30T07:14:46Z",
-  "generatedAt": "2026-10-30T07:14:46Z",
+  "lastUpdate": "2026-10-30T07:46:48Z",
+  "generatedAt": "2026-10-30T07:46:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1379,9 +1379,9 @@
       "std": 34.648232
     },
     "EUR/france ppi mom": {
-      "n": 3,
-      "mean": 0.666667,
-      "std": 0.378594
+      "n": 4,
+      "mean": 0.475,
+      "std": 0.492443
     },
     "EUR/austria unicredit bank manufacturing pmi": {
       "n": 3,
@@ -1504,24 +1504,24 @@
       "std": 0.353553
     },
     "EUR/france cpi mom": {
-      "n": 4,
-      "mean": -0.075,
-      "std": 0.457347
+      "n": 5,
+      "mean": 0.14,
+      "std": 0.622896
     },
     "EUR/france cpi yoy": {
-      "n": 4,
-      "mean": 0.15,
-      "std": 0.173205
+      "n": 5,
+      "mean": 0.16,
+      "std": 0.151658
     },
     "EUR/france hicp mom": {
-      "n": 4,
-      "mean": -0.075,
-      "std": 0.623832
+      "n": 5,
+      "mean": 0.16,
+      "std": 0.753658
     },
     "EUR/france hicp yoy": {
-      "n": 4,
-      "mean": 0.125,
-      "std": 0.221736
+      "n": 5,
+      "mean": 0.14,
+      "std": 0.194936
     },
     "EUR/france gdp qoq": {
       "n": 2,
@@ -88185,7 +88185,7 @@
       "flag": "🇪🇺",
       "event": "France CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "-0.6%",
       "previous": "-0.3%"
     },
@@ -88198,7 +88198,7 @@
       "flag": "🇪🇺",
       "event": "France CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.4%",
       "forecast": "3.2%",
       "previous": "3.1%"
     },
@@ -88211,7 +88211,7 @@
       "flag": "🇪🇺",
       "event": "France HICP m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "-0.7%",
       "previous": "-0.3%"
     },
@@ -88224,7 +88224,7 @@
       "flag": "🇪🇺",
       "event": "France HICP y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "3.6%",
       "previous": "3.4%"
     },
@@ -88237,7 +88237,7 @@
       "flag": "🇪🇺",
       "event": "France PPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "1.7%",
       "forecast": "1.8%",
       "previous": "1.0%"
     },
@@ -88250,7 +88250,7 @@
       "flag": "🇪🇺",
       "event": "France Nonfarm Payrolls q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.1%",
       "forecast": "-0.1%",
       "previous": "-0.1%"
     },
