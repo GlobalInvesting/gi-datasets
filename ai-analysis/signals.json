@@ -1,57 +1,48 @@
 {
-  "generated_at": "2026-10-30T06:04:33Z",
+  "generated_at": "2026-10-30T08:04:15Z",
   "signals": [
     {
-      "time": "06:01",
+      "time": "08:01",
       "priority": "critical",
-      "title": "NOK/JPY — G10 Bilateral Theme + Monetary Policy",
-      "text": "The G10 Currency Strength Scorecard registers a critical bilateral divergence: NOK leads the G10 at +1.223% (n=2 pairs) while JPY lags at -0.555% (n=7 pairs), generating an extreme 1.777% spread. Fundamental policy support underpins the move, with Norges Bank maintaining a restrictive policy rate of 4.5% against a real rate of +1.82%, whereas the BoJ kept rates unchanged at 1.25% overnight, keeping real rates deeply accommodative at -2.25%. While the BoJ declared underlying inflation has reached its 2% target and lifted its FY2027 price forecast, the decision to hold the policy rate leaves a substantial 325bp nominal policy rate deficit and an accommodative real yield backdrop weighing on the yen. This divergence drives cross-currency performance as capital rotates toward higher real-yielding currencies. Trade bias: Bullish NOK/JPY, backed by the top-tier G10 strength spread and wide real policy rate gap. Catalyst: BoJ Press Conference at 06:30 UTC. Risk: Hawkish forward guidance from the BoJ Governor during the press conference that accelerates hike timing.",
+      "title": "NOK/NZD — G10 Bilateral Theme + ESI Divergence",
+      "text": "NOK leads the G10 currency strength scorecard with a 1W average of +1.210% across 2 pairs, while NZD lags the board at -0.595% across 4 pairs. This creates an extreme bilateral spread of 1.805%, crossing the threshold for a strong weekly theme. Macro fundamentals reinforce the divergence: Norges Bank policy rate sits at 4.5% against the RBNZ at 2.75%, delivering a +175bp nominal carry advantage to NOK. The Economic Surprise Index shows an acute macro divergence, with NOK printing +14.9 against NZD's deep negative -17.1. Speculative positioning remains net short on NZD with Leveraged Funds cutting an additional -7,646 contracts WoW to -19,448, underscoring ongoing liquidation. Trade bias: Bullish NOK/NZD; substantial yield advantage and macro momentum favor persistent outperformance. Catalyst: Norges Bank policy meeting 5 Nov — hold expected. Risk: Commodity slump reversing crude strength and compressing the bilateral spread below 0.80%.",
       "evidence": [
-        "NOK 1W avg: +1.223% (n=2)",
-        "JPY 1W avg: -0.555% (n=7)",
-        "G10 spread: 1.777%"
+        "NOK 1W avg: +1.210% (n=2)",
+        "NZD 1W avg: -0.595% (n=4)",
+        "G10 spread: 1.805%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
-        "pair": "NOK/JPY",
+        "pair": "NOK/NZD",
         "direction": 1
       }
     },
     {
-      "time": "05:58",
+      "time": "07:58",
       "priority": "critical",
-      "title": "USD/JPY — Macro Stance + Options Skew Divergence",
-      "text": "USD/JPY trades at 157.62 following the BoJ rate decision to hold policy rates at 1.25%, with the rate differential sustaining a +275bp Fed-BoJ policy spread (Fed 4.0% vs BoJ 1.25%) and a +271bp OIS carry advantage (SOFR 3.94% vs TONA 1.23%). The pair remains anchored within a tight range below its SMA20 of 157.91 and SMA200 of 158.48, though holding above its SMA50 at 157.44. However, the 1-month 25-delta Risk Reversals print an extreme put skew of -2.08, indicating pronounced institutional options demand for base currency downside protection despite spot stability. Furthermore, USD/JPY correlation with VIX shows a break at corr=+0.236 versus a 252-day norm of +0.298 (z=-1.65σ), illustrating an asymmetric risk profile where market participants hedge downside aggressively into 158.00+ resistance. Trade bias: Bearish USD/JPY, pressured by extreme downside options hedging despite positive nominal carry. Catalyst: BoJ Press Conference at 06:30 UTC. Risk: A dovish press conference that drives a spot breakout above the SMA200 at 158.48, forcing put skew unwinds.",
+      "title": "USD/JPY — Carry Premium vs Options Skew",
+      "text": "USD/JPY trades at 157.60, pinned inside a tight consolidation band between its SMA50 at 157.44 and SMA20 at 157.91. The Bank of Japan held its policy rate at 1.25% in an 8-1 vote, keeping the Fed 4.0% vs BoJ 1.25% policy rate spread at +275bp in favor of USD. However, the options market exhibits acute downside demand, with 25d risk reversals printing at -2.08, marking an extreme put skew. Leveraged Funds covered +12,222 contracts WoW to reduce net short JPY exposure to -25,598, lifting the 52-week percentile to 94. While carry remains heavily tilted toward the dollar, Governor Ueda's press conference remarks highlighting Middle East geopolitical friction and commitment to the rate hike path maintain downside tail-risk hedging. Trade bias: Neutral/range USD/JPY; wide carry premium is balanced by aggressive downside put demand. Catalyst: Next high-impact US data release. Risk: Sustained close above the SMA200 at 158.52 dismantling options put skew.",
       "evidence": [
-        "USD/JPY 25d RR: -2.08 (Saxo Bank)",
+        "USD/JPY 25d RR: -2.08",
         "Fed 4.0% vs BoJ 1.25% — 275bp",
-        "USD/JPY spot: 157.62"
+        "JPY COT LF pctl: 94 (WoW +12,222)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": -1,
-        "supports": [],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-10-29"
-        }
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
       }
     },
     {
-      "time": "05:56",
+      "time": "07:56",
       "priority": "warning",
-      "title": "EUR/USD — Positioning + Technical Downtrend",
-      "text": "EUR/USD trades at 1.1188 with technical trend structure confirming a firm downtrend in force, marked by the falling 20-day moving average trading below the 200-day moving average and price situated below its SMA20 (1.1206), SMA50 (1.1402), and SMA200 (1.1570). CFTC positioning data shows Leveraged Funds net short -94,138 contracts (week ending Oct 20), printing at the 2nd percentile of its 52-week range (z=-1.72) following a 4-week net reduction of -35,333 contracts. Structural yield differentials continue to favor the greenback, with the Fed at 4.0% vs ECB at 2.65% delivering a +135bp carry advantage (SOFR vs €STR spread at +150bp). With ESI data remaining stagnant at +4.4 and German GDP and CPI on tap, the crowded short position reflects established trend alignment rather than exhaustion. Trade bias: Bearish EUR/USD, supported by structural rate deficit and established downtrend below all key moving averages. Catalyst: Euro Area preliminary GDP releases starting at 06:30 UTC and German GDP at 07:00 UTC. Risk: An upside surprise in Euro Area growth prints that sparks a short-covering rally back through the SMA20 at 1.1206.",
+      "title": "EUR/USD — Crowded Short + Real Rate Headwind",
+      "text": "EUR/USD trades at 1.1187, holding below its falling moving-average cluster with SMA20 at 1.1206, SMA50 at 1.1402, and SMA200 at 1.1566 in a clear downtrend structure. CFTC data shows Leveraged Funds hold a crowded net short of -94,138 contracts at the 2nd percentile of its 52-week range (z = -1.72), reflecting deeply stretched institutional short positioning. Yield dynamics continue to penalize the pair: Fed at 4.0% vs ECB at 2.65% generates a +135bp carry advantage for the greenback, mirrored in a US real policy rate of +1.55% versus the Eurozone's +0.40%. ATM 1M IV runs at 5.9% against HV30 of 4.2%, leaving a modest +1.7% vol risk premium as options traders pay up for downside protection. A flash GDP miss from France at -0.1% q/q against 0.4% expected adds fresh cyclical pressure ahead of aggregate Euro Area growth figures. Trade bias: Bearish EUR/USD; negative carry and downtrend momentum dominate, though crowded spec shorts warn against chasing breakdowns. Catalyst: Euro Area GDP q/q at 10:00 UTC — forecast 0.3%. Risk: Core Eurozone CPI beats forecast, triggering an aggressive short squeeze through the SMA20 at 1.1206.",
       "evidence": [
         "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
-        "EUR/USD spot: 1.1188",
-        "Fed 4.0% vs ECB 2.65% — 135bp"
+        "Fed 4.0% vs ECB 2.65% — 135bp",
+        "EUR/USD SMA cluster: 1.1206 / 1.1402 / 1.1566"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -71,14 +62,14 @@
       }
     },
     {
-      "time": "05:53",
+      "time": "07:52",
       "priority": "warning",
-      "title": "USD/NOK — Positioning vs Retail Divergence",
-      "text": "USD/NOK trades at 9.237, maintaining an established downtrend below its SMA20 (9.442), SMA50 (9.404), and SMA200 (9.502) after a wide-range bearish candle expanded price 2.65 ATR below the 20-day moving average. Retail sentiment via Retail sentiment data displays an extreme 100% long / 0% short reading, directly opposing the sovereign yield momentum where the Norway 2Y spread over the US 2Y expanded +13bp over 5 sessions to +8bp (+20bp over 20 sessions). With Norges Bank policy rate at 4.5% versus Fed 4.0% offering a +50bp carry buffer for NOK alongside an elevated real policy rate of +1.82%, the retail positioning reflects trapped longs attempting to catch a falling market. This retail crowding enhances capitulation risk as technical support breaks fail to generate bid follow-through. Trade bias: Bearish USD/NOK, contrarian to the 100% retail long positioning extreme. Catalyst: Norges Bank policy meeting on 5 Nov — hold bias. Risk: A sharp correction in WTI crude below $100/bbl that halts NOK outperformance.",
+      "title": "USD/NOK — Retail Long Extreme vs Bearish Trend",
+      "text": "USD/NOK prints at 9.237, remaining submerged well beneath its SMA20 at 9.442, SMA50 at 9.404, and SMA200 at 9.501 in an established downtrend. Retail sentiment data retail sentiment shows 100% of retail accounts positioned long, registering a maximum contrarian extreme. This retail positioning directly opposes institutional flow and fundamental momentum, with the NOK 2Y yield spread vs US widening by +13bp over 5D and +20bp over 20D to reach +8bp. Crude tailwinds from WTI at $103.7 (+1.67%) and Norges Bank's restrictive real policy rate of +1.82% continue to support the krone across the board. The technical setup remains extended at 2.65 ATR below the falling 20-day average following a wide-range bear bar. Trade bias: Bearish USD/NOK; extreme retail long positioning indicates capitulation vulnerability into structural downtrend continuation. Catalyst: Norges Bank rate decision 5 Nov — hold expected. Risk: Sharp correction in Brent and WTI crude pushing price back through immediate resistance at 9.404.",
       "evidence": [
-        "Retail USD/NOK: 100% long",
-        "NOK-US 2Y spread: +8bp (20D Δ +20bp)",
-        "USD/NOK spot: 9.237"
+        "USD/NOK Retail: 100% long",
+        "NOK 2Y vs US 2Y spread: +8bp (20D Δ +20bp)",
+        "USD/NOK SMA20: 9.442"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
