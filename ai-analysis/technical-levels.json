@@ -1,96 +1,96 @@
 {
-  "updated_at": "2026-10-30T20:03:03Z",
+  "updated_at": "2026-10-30T21:08:02Z",
   "source": "Daily-close OHLC pipeline \u00b7 SMA20/50/200",
   "levels": {
     "USD": {
       "pair": "DXY",
-      "close": 101.9,
+      "close": 101.95,
       "sma20": 102.04,
-      "sma50": 100.75,
-      "sma200": 99.62,
+      "sma50": 100.81,
+      "sma200": 99.65,
       "position": "below_sma20_above_sma50_above_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "EUR": {
       "pair": "EUR/USD",
-      "close": 1.1183,
-      "sma20": 1.1206,
-      "sma50": 1.1402,
-      "sma200": 1.1566,
+      "close": 1.1162,
+      "sma20": 1.1201,
+      "sma50": 1.1392,
+      "sma200": 1.1563,
       "position": "below_sma20_below_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "GBP": {
       "pair": "GBP/USD",
-      "close": 1.3377,
-      "sma20": 1.3294,
-      "sma50": 1.3386,
-      "sma200": 1.3431,
-      "position": "above_sma20_below_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "close": 1.3391,
+      "sma20": 1.3302,
+      "sma50": 1.3381,
+      "sma200": 1.343,
+      "position": "above_sma20_above_sma50_below_sma200",
+      "asof": "2026-10-30"
     },
     "JPY": {
       "pair": "USD/JPY",
-      "close": 157.69,
-      "sma20": 157.91,
-      "sma50": 157.44,
-      "sma200": 158.52,
+      "close": 157.52,
+      "sma20": 157.9,
+      "sma50": 157.41,
+      "sma200": 158.53,
       "position": "below_sma20_above_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "AUD": {
       "pair": "AUD/USD",
-      "close": 0.7031,
-      "sma20": 0.6992,
-      "sma50": 0.7072,
+      "close": 0.7034,
+      "sma20": 0.6996,
+      "sma50": 0.7069,
       "sma200": 0.706,
       "position": "above_sma20_below_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "CAD": {
       "pair": "USD/CAD",
-      "close": 1.3988,
-      "sma20": 1.4137,
-      "sma50": 1.4023,
-      "sma200": 1.3884,
+      "close": 1.3971,
+      "sma20": 1.4123,
+      "sma50": 1.4027,
+      "sma200": 1.3885,
       "position": "below_sma20_below_sma50_above_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "CHF": {
       "pair": "USD/CHF",
-      "close": 0.8242,
-      "sma20": 0.8282,
-      "sma50": 0.8211,
-      "sma200": 0.7988,
+      "close": 0.8247,
+      "sma20": 0.828,
+      "sma50": 0.8216,
+      "sma200": 0.799,
       "position": "below_sma20_above_sma50_above_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "NZD": {
       "pair": "NZD/USD",
-      "close": 0.5635,
-      "sma20": 0.564,
-      "sma50": 0.5738,
-      "sma200": 0.5835,
+      "close": 0.5632,
+      "sma20": 0.5641,
+      "sma50": 0.5731,
+      "sma200": 0.5834,
       "position": "below_sma20_below_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "NOK": {
       "pair": "USD/NOK",
-      "close": 9.237,
-      "sma20": 9.442,
-      "sma50": 9.404,
-      "sma200": 9.501,
+      "close": 9.187,
+      "sma20": 9.421,
+      "sma50": 9.402,
+      "sma200": 9.498,
       "position": "below_sma20_below_sma50_below_sma200",
-      "asof": "2026-10-29"
+      "asof": "2026-10-30"
     },
     "SEK": {
       "pair": "USD/SEK",
-      "close": 9.827,
-      "sma20": 9.951,
-      "sma50": 9.81,
-      "sma200": 9.463,
-      "position": "below_sma20_above_sma50_above_sma200",
-      "asof": "2026-10-29"
+      "close": 9.813,
+      "sma20": 9.94,
+      "sma50": 9.817,
+      "sma200": 9.466,
+      "position": "below_sma20_below_sma50_above_sma200",
+      "asof": "2026-10-30"
     }
   }
 }
