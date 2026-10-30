@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-10-30T18:09:41Z",
+  "generated_at": "2026-10-30T21:01:59Z",
   "signals": [
     {
-      "time": "18:03",
+      "time": "20:18",
       "priority": "critical",
-      "title": "NOK/EUR — G10 Bilateral Theme + Crude Shock",
-      "text": "NOK leads the weekly G10 board gaining an average of +1.639% across its peer basket, while EUR anchors the laggard slot at −0.649% across 9 pairs. This creates an extreme 2.288% bilateral spread that clears the critical threshold. WTI crude rallies +2.62% to $104.70/bbl on Middle East supply disruption risk following geopolitical tensions involving Iran, providing an immediate terms-of-trade impulse for NOK. The divergence is reinforced by monetary fundamentals, with Norges Bank at 4.5% versus the ECB at 2.65%, generating a +185bp nominal spread favoring the Krone alongside a +1.42% real policy rate advantage. EUR/USD downtrend structure remains fully entrenched below its SMA20 (1.1206) and SMA50 (1.1402) clusters, compounding the broad-based weakness in European currencies. Trade bias: Long NOK/EUR; energy shock and policy divergence favor further widening. Catalyst: Norges Bank policy decision on 5 Nov. Risk: Immediate geopolitical de-escalation drives crude back below $100/bbl, eroding NOK's terms-of-trade outperformance.",
+      "title": "NOK/EUR — G10 Bilateral Theme + Strait of Hormuz Supply Shock",
+      "text": "NOK 1W avg +1.594% (n=2 pairs) versus EUR -0.546% (n=9 pairs) creates a dominant 2.140% G10 spread that anchors topside momentum heading into the Sydney open. Escalating maritime attacks in the Strait of Hormuz, marked by multiple tanker strikes, reinforce crude premiums above $102.9/bbl and widen the terms-of-trade wedge against energy-importing Europe. The Sydney open provides the catalyst to price the weekend crude disruption directly into European cross rates. Trade bias: Bullish NOK/EUR into the weekly open; geopolitical energy disruption widens the structural outperformance gap. Catalyst: Sydney/Tokyo open pricing weekend Strait of Hormuz escalation. Risk: Diplomatic de-escalation in the Persian Gulf collapsing crude risk premiums back below $100/bbl.",
       "evidence": [
-        "NOK 1W avg: +1.639% (n=2)",
-        "EUR 1W avg: -0.649% (n=9)",
-        "G10 spread: 2.288%"
+        "NOK 1W avg: +1.594% (n=2)",
+        "EUR 1W avg: -0.546% (n=9)",
+        "G10 spread: 2.140%",
+        "WTI Oil closed Friday at $102.9/bbl (+0.87%)",
+        "UKMTO/IRGC confirm multiple tanker strikes in Strait of Hormuz"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,30 +21,15 @@
       }
     },
     {
-      "time": "18:00",
-      "priority": "critical",
-      "title": "USD/JPY — Options Downside Skew + Fed Divergence",
-      "text": "USD/JPY spot trades at 157.45, compressed below its SMA20 (157.91) and SMA200 (158.52) in a tight 20-session box. The Saxo 1M 25-delta Risk Reversal prints at an extreme −2.24 put skew, signalling heavy institutional bidding for downside protection despite a wide rate differential. At the same time, OIS carry basis shows SOFR at 3.94% versus TONA at 1.23%, maintaining a +271bp carry advantage that structurally rewards the dollar. CFTC positioning shows JPY Leveraged Funds net short −25,598 contracts (pctl 94, z +1.43), indicating the short base has substantially rebuilt over the trailing year. The options market is aggressively pricing tail-risk hedging against potential intervention or carry compression near 160.00 while spot remains range-bound. Trade bias: Neutral/range USD/JPY; heavy options put skew constrains upside despite positive carry. Catalyst: US Election cycle and upcoming FOMC rate path decisions. Risk: A clean technical breakout above 158.52 forces downside put decay and re-engages the carry grind toward 160.00.",
-      "evidence": [
-        "USDJPY 25d RR: -2.24 (Saxo, 1M tenor)",
-        "SOFR 3.94% vs TONA 1.23% — +271bp",
-        "JPY COT LF net: -25,598 (pctl 94, z +1.43)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "17:56",
+      "time": "19:30",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Speculative Short + Retail Divergence",
-      "text": "EUR/USD trades at 1.1156, remaining structurally heavy below its SMA20 (1.1206), SMA50 (1.1402), and SMA200 (1.1566) moving averages. Leveraged Funds positioning sits deeply crowded at net short −94,138 contracts (week ending Oct 20), placing it in the 2nd percentile of its 52-week range with a z-score of −1.72. Conversely, retail sentiment on Retail sentiment data registers an extreme 86% long positioning, setting up an active institutional-versus-retail divergence. The macro backdrop continues to penalize the euro, as Fed policy at 4.0% against ECB at 2.65% enforces a 135bp carry advantage favoring the dollar, compounded by German October headline CPI softening to 2.8% YoY. Trade bias: Bearish EUR/USD; macro carry and spec positioning dominance override contrarian retail positioning. Catalyst: next ECB meeting (mkt: 61% hike priced) on 17 Dec. Risk: Retail capitulation coinciding with short covering pushes spot back above the SMA20 at 1.1206.",
+      "title": "EUR/USD — Crowded COT Short Overhang + Fed Hawkish Divergence",
+      "text": "EUR COT LF net short of -94.1k contracts (33.6% long, 2nd percentile) anchors persistent downside pressure after EUR/USD closed Friday at 1.1169. Hawkish commentary from Fed officials advocating multiple additional rate hikes combines with a +150bp SOFR-€STR carry advantage to suppress recovery attempts. The upcoming ECB meeting on 17 Dec and Fed meeting on 9 Dec serve as the policy drivers, but Friday's technical breakdown below the 20-day SMA leaves the pair vulnerable to further selling. Trade bias: Bearish EUR/USD; heavy speculative shorting is sustained by widening policy and growth divergence. Catalyst: Sydney open follow-through on Fed hawkish comments. Risk: Short-covering squeeze triggered if spot reclaims the 20-day SMA at 1.1206.",
       "evidence": [
-        "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
-        "Retail sentiment: 86% long / 14% short",
-        "Fed 4.0% vs ECB 2.65% — 135bp"
+        "EUR COT LF net: -94,138 (pctl: 2, z: -1.72)",
+        "EUR/USD closed Friday at 1.1169",
+        "SOFR vs €STR carry differential: +150bp favoring USD",
+        "Fed officials Daly, Musalem, and Logan signal further rate hikes needed"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -62,20 +49,50 @@
       }
     },
     {
-      "time": "17:51",
+      "time": "19:30",
       "priority": "warning",
-      "title": "GBP/USD — Rates Momentum + Technical Reversal Setup",
-      "text": "GBP/USD trades at 1.3387, positioning between its rising SMA20 (1.3294) and SMA50 (1.3386) as short-term price action turns against the broader intermediate downtrend. UK 2Y sovereign yields stand at 4.91% against US 2Y at 4.67%, with the 2Y yield spread shifting +26bp over 5 sessions and +30bp over 20 sessions in sterling's favor. UK Economic Surprise Index holds positive at +10.2, reflecting persistent domestic data resilience ahead of monetary policy events. However, policy rates show Fed at 4.0% versus BoE at 3.75%, leaving a narrow 25bp carry premium favoring USD that caps aggressive trend extension. Trade bias: Bullish GBP/USD; short-term yield momentum and technical structure favor further consolidation higher. Catalyst: Bank of England policy decision on 5 Nov. Risk: A daily close below the SMA20 at 1.3294 negates the short-term technical reversal structure.",
+      "title": "AUD/USD — Crowded COT Long Exposure Ahead of RBA Decision",
+      "text": "AUD COT LF net long of +47.6k contracts (69.3% long) leaves the currency vulnerable to a crowded unwind after AUD/USD closed Friday at 0.7035. While the RBA holds a +66bp OIS carry advantage over the Fed, Australia's negative ESI at -5.1 and an unemployment rate uptick to 4.7% challenge aggressive policy tightening expectations. The next RBA meeting (mkt: 77% hike priced) on 3 Nov is the catalyst that determines whether the hike bias can be sustained. Trade bias: Bearish AUD/USD into the RBA decision; stretched speculative length faces unwinding risk on policy hesitation. Catalyst: RBA policy decision on 3 Nov. Risk: RBA delivers a hawkish rate increase that validates long positioning above 0.7072 resistance.",
       "evidence": [
-        "UK-US 2Y spread 20D Δ: +30bp",
-        "GBP ESI: +10.2",
-        "GBP/USD spot: 1.3387 vs SMA20: 1.3294"
+        "AUD COT LF net: +47,606 (long%: 69.3%)",
+        "AUD/USD closed Friday at 0.7035",
+        "Australia ESI: -5.1 with unemployment rising to 4.7%",
+        "AONIA vs SOFR carry differential: +66bp favoring AUD"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "conflicted",
+        "pair": "AUD/USD",
+        "direction": -1,
+        "supports": [],
+        "conflicts": [
+          "technical regime (reversal_risk) points against the stated direction",
+          "close is already above the last swing high"
+        ],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-29"
+        }
+      }
+    },
+    {
+      "time": "20:03",
+      "priority": "warning",
+      "title": "USD/CAD — Crowded Speculative Short Exposure + Geopolitical Oil Surge",
+      "text": "CAD COT LF net short of -92.8k contracts (17.6% long, 12th percentile) establishes significant short-squeeze risk following USD/CAD's Friday close at 1.3979. Strait of Hormuz tanker explosions pushing crude higher reinforce Canadian terms of trade, directly threatening USD/CAD despite the Fed's +170bp OIS carry premium. The next BoC meeting (mkt: 100% hike priced) on 9 Dec determines policy trajectory, but immediate price action hinges on energy flow repricing. Trade bias: Bearish USD/CAD into the open; extreme CAD short positioning collides with sharp crude oil upside. Catalyst: Energy market opening reaction to Iranian tanker incidents. Risk: USD/CAD pushes back above the 20-day SMA at 1.4137 if broad risk aversion triggers dollar funding demand.",
+      "evidence": [
+        "CAD COT LF net: -92,789 (pctl: 12, z: -1.42)",
+        "USD/CAD closed Friday at 1.3979",
+        "WTI Crude closed Friday at $102.9/bbl",
+        "Multiple tanker detonations confirmed in Strait of Hormuz"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "GBP/USD",
-        "direction": 1,
+        "pair": "USD/CAD",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction"
         ],
