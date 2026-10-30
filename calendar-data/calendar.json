@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-10-30T09:10:51Z",
-  "generatedAt": "2026-10-30T09:10:51Z",
+  "lastUpdate": "2026-10-30T09:24:43Z",
+  "generatedAt": "2026-10-30T09:24:43Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2047,6 +2047,16 @@
       "n": 2,
       "mean": 0.4,
       "std": 0.0
+    },
+    "EUR/italy gdp qoq": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "EUR/italy gdp yoy": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.141421
     },
     "EUR/italy unemployment rate": {
       "n": 3,
@@ -88494,7 +88504,7 @@
       "flag": "🇪🇺",
       "event": "Italy GDP q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.0%",
       "previous": "0.2%"
     },
@@ -88507,7 +88517,7 @@
       "flag": "🇪🇺",
       "event": "Italy GDP y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "0.8%",
       "forecast": "1.0%",
       "previous": "1.0%"
     },
