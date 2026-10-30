@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-30T00:02:04Z",
+  "generated_at": "2026-10-30T06:04:33Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "06:01",
       "priority": "critical",
-      "title": "NOK/JPY — G10 Bilateral Theme + Monetary Divergence",
-      "text": "NOK leads the G10 currency strength scorecard with a 1W average of +1.018% across 2 pairs, while JPY anchors the board as the prime laggard at -0.604% across 7 pairs. This generates an active 1.621% bilateral leader-to-laggard spread, exceeding the 1.20% threshold. Norges Bank policy rate of 4.5% vs BoJ at 1.25% provides a +325bp carry advantage favoring NOK, reinforced by a +1.82% Norwegian real policy rate against Japan's deeply negative -2.25%. JPY remains vulnerable ahead of the Bank of Japan monetary policy statement, where a hold at 1.25% is expected alongside persistent downside pressure on Japanese yields. Trade bias: Long NOK/JPY; policy divergence and carry advantage favor continued outperformance. Catalyst: BoJ Interest Rate Decision at ~02:30 UTC. Risk: BoJ delivers a surprise hawkish dissent or guidance shift that sparks abrupt yen short-covering.",
+      "title": "NOK/JPY — G10 Bilateral Theme + Monetary Policy",
+      "text": "The G10 Currency Strength Scorecard registers a critical bilateral divergence: NOK leads the G10 at +1.223% (n=2 pairs) while JPY lags at -0.555% (n=7 pairs), generating an extreme 1.777% spread. Fundamental policy support underpins the move, with Norges Bank maintaining a restrictive policy rate of 4.5% against a real rate of +1.82%, whereas the BoJ kept rates unchanged at 1.25% overnight, keeping real rates deeply accommodative at -2.25%. While the BoJ declared underlying inflation has reached its 2% target and lifted its FY2027 price forecast, the decision to hold the policy rate leaves a substantial 325bp nominal policy rate deficit and an accommodative real yield backdrop weighing on the yen. This divergence drives cross-currency performance as capital rotates toward higher real-yielding currencies. Trade bias: Bullish NOK/JPY, backed by the top-tier G10 strength spread and wide real policy rate gap. Catalyst: BoJ Press Conference at 06:30 UTC. Risk: Hawkish forward guidance from the BoJ Governor during the press conference that accelerates hike timing.",
       "evidence": [
-        "NOK 1W avg: +1.018% (n=2)",
-        "JPY 1W avg: -0.604% (n=7)",
-        "G10 spread: 1.621%"
+        "NOK 1W avg: +1.223% (n=2)",
+        "JPY 1W avg: -0.555% (n=7)",
+        "G10 spread: 1.777%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,36 +19,45 @@
       }
     },
     {
-      "time": "23:54",
-      "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew + Technical Range",
-      "text": "USD/JPY trades at 157.80, contained inside a tight 20-session box below its SMA20 at 157.91 and SMA200 at 158.48, with the 50-day average at 157.44 defining immediate support. FX options show 1M 25-delta risk reversals printing at -2.08, indicating an acute put skew and heavy institutional demand for downside protection despite spot holding near the top of its range. While Fed SOFR at 3.94% vs BoJ TONA at 1.23% secures a +271bp carry advantage favoring USD, VRP sits at +1.5% with 1M IV at 7.0% against HV30 of 5.5%. Speculative accounts trimmed shorts WoW by +12,222 contracts to net -25,598, aligning with heavy options hedging rather than fresh upside chasing into event risk. Trade bias: Neutral/short USD/JPY; pronounced put skew caps upside through the moving-average resistance band. Catalyst: BoJ Interest Rate Decision and Press Conference at ~02:30 UTC / 06:30 UTC. Risk: BoJ firmly commits to an extended pause, triggering a clean technical breakout above 158.50.",
+      "time": "05:58",
+      "priority": "critical",
+      "title": "USD/JPY — Macro Stance + Options Skew Divergence",
+      "text": "USD/JPY trades at 157.62 following the BoJ rate decision to hold policy rates at 1.25%, with the rate differential sustaining a +275bp Fed-BoJ policy spread (Fed 4.0% vs BoJ 1.25%) and a +271bp OIS carry advantage (SOFR 3.94% vs TONA 1.23%). The pair remains anchored within a tight range below its SMA20 of 157.91 and SMA200 of 158.48, though holding above its SMA50 at 157.44. However, the 1-month 25-delta Risk Reversals print an extreme put skew of -2.08, indicating pronounced institutional options demand for base currency downside protection despite spot stability. Furthermore, USD/JPY correlation with VIX shows a break at corr=+0.236 versus a 252-day norm of +0.298 (z=-1.65σ), illustrating an asymmetric risk profile where market participants hedge downside aggressively into 158.00+ resistance. Trade bias: Bearish USD/JPY, pressured by extreme downside options hedging despite positive nominal carry. Catalyst: BoJ Press Conference at 06:30 UTC. Risk: A dovish press conference that drives a spot breakout above the SMA200 at 158.48, forcing put skew unwinds.",
       "evidence": [
-        "25d RR: -2.08 (Saxo, 1M tenor)",
-        "USD/JPY IV 7.0% vs HV30 5.5% — VRP +1.5%",
-        "USD/JPY: 157.80"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "23:50",
-      "priority": "warning",
-      "title": "AUD/USD — CB Divergence + Front-End Yield Support",
-      "text": "AUD/USD trades at 0.7029, testing its 50-day SMA at 0.7072 and steep 200-day SMA at 0.7058 after clearing short-term resistance above 0.7022 and holding above the SMA20 at 0.6992. Cash policy rates favor the Australian dollar, with RBA at 4.6% vs Fed at 4.0%, yielding a -60bp carry differential favoring AUD, while OIS pricing yields a -66bp carry advantage (SOFR 3.94% vs AONIA 4.60%). Front-end sovereign momentum reinforces the move as the AU-US 2Y yield spread has tightened +11bp over the last 5 sessions to +25bp. Following hot domestic inflation prints, institutional desks increasingly anticipate a back-to-back 25bp hike from the RBA next week, contrasting with an on-hold Federal Reserve. Trade bias: Long AUD/USD; widening policy divergence and front-end yield support favor extension toward 0.7100. Catalyst: Australia Q/Q PPI release at 00:30 UTC ahead of the RBA meeting on 3 Nov. Risk: AU PPI misses forecast sharply and eases RBA hike pricing back toward a neutral hold.",
-      "evidence": [
-        "Fed 4.0% vs RBA 4.6% — 60bp AUD carry premium",
-        "AU-US 2Y spread: +25bp (5D Δ +11bp)",
-        "AUD/USD: 0.7029"
+        "USD/JPY 25d RR: -2.08 (Saxo Bank)",
+        "Fed 4.0% vs BoJ 1.25% — 275bp",
+        "USD/JPY spot: 157.62"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "AUD/USD",
-        "direction": 1,
+        "pair": "USD/JPY",
+        "direction": -1,
+        "supports": [],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-29"
+        }
+      }
+    },
+    {
+      "time": "05:56",
+      "priority": "warning",
+      "title": "EUR/USD — Positioning + Technical Downtrend",
+      "text": "EUR/USD trades at 1.1188 with technical trend structure confirming a firm downtrend in force, marked by the falling 20-day moving average trading below the 200-day moving average and price situated below its SMA20 (1.1206), SMA50 (1.1402), and SMA200 (1.1570). CFTC positioning data shows Leveraged Funds net short -94,138 contracts (week ending Oct 20), printing at the 2nd percentile of its 52-week range (z=-1.72) following a 4-week net reduction of -35,333 contracts. Structural yield differentials continue to favor the greenback, with the Fed at 4.0% vs ECB at 2.65% delivering a +135bp carry advantage (SOFR vs €STR spread at +150bp). With ESI data remaining stagnant at +4.4 and German GDP and CPI on tap, the crowded short position reflects established trend alignment rather than exhaustion. Trade bias: Bearish EUR/USD, supported by structural rate deficit and established downtrend below all key moving averages. Catalyst: Euro Area preliminary GDP releases starting at 06:30 UTC and German GDP at 07:00 UTC. Risk: An upside surprise in Euro Area growth prints that sparks a short-covering rally back through the SMA20 at 1.1206.",
+      "evidence": [
+        "EUR COT LF net: -94,138 (pctl 2, z -1.72)",
+        "EUR/USD spot: 1.1188",
+        "Fed 4.0% vs ECB 2.65% — 135bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction"
         ],
@@ -62,31 +71,20 @@
       }
     },
     {
-      "time": "23:44",
+      "time": "05:53",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Exhaustion + Technical Downtrend",
-      "text": "EUR/USD trades at 1.1187, holding in an established downtrend below its falling SMA20 at 1.1206, SMA50 at 1.1402, and SMA200 at 1.1570. CFTC positioning shows leveraged funds net short -94,138 contracts, situated at the 2nd percentile of its 52-week range with a z-score of -1.72, signaling acute institutional short positioning. Fed SOFR at 3.94% vs ECB €STR at 2.44% generates a +150bp carry differential favoring USD, keeping structural upside capped. Concurrently, retail traders hold an extreme 85% long exposure, creating an active contrarian headwind against institutional positions as German and Eurozone Q3 GDP prints approach. Trade bias: Bearish EUR/USD; established technical downtrend and USD carry advantage dominate despite stretched institutional shorts. Catalyst: Euro Area Q3 Flash GDP release at 10:00 UTC. Risk: Eurozone growth data sharply exceeds expectations while ECB December hike pricing accelerates, triggering a short squeeze through the 1.1210 SMA20 hurdle.",
+      "title": "USD/NOK — Positioning vs Retail Divergence",
+      "text": "USD/NOK trades at 9.237, maintaining an established downtrend below its SMA20 (9.442), SMA50 (9.404), and SMA200 (9.502) after a wide-range bearish candle expanded price 2.65 ATR below the 20-day moving average. Retail sentiment via Retail sentiment data displays an extreme 100% long / 0% short reading, directly opposing the sovereign yield momentum where the Norway 2Y spread over the US 2Y expanded +13bp over 5 sessions to +8bp (+20bp over 20 sessions). With Norges Bank policy rate at 4.5% versus Fed 4.0% offering a +50bp carry buffer for NOK alongside an elevated real policy rate of +1.82%, the retail positioning reflects trapped longs attempting to catch a falling market. This retail crowding enhances capitulation risk as technical support breaks fail to generate bid follow-through. Trade bias: Bearish USD/NOK, contrarian to the 100% retail long positioning extreme. Catalyst: Norges Bank policy meeting on 5 Nov — hold bias. Risk: A sharp correction in WTI crude below $100/bbl that halts NOK outperformance.",
       "evidence": [
-        "EUR LF net: -94,138 (pctl 2, z -1.72)",
-        "Fed 4.0% vs ECB 2.65% — 135bp USD carry advantage",
-        "EUR/USD retail: 85% long"
+        "Retail USD/NOK: 100% long",
+        "NOK-US 2Y spread: +8bp (20D Δ +20bp)",
+        "USD/NOK spot: 9.237"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "confirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "fundamental votes point with it"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Bearish",
-          "conviction": "low",
-          "technical_alignment": "aligned",
-          "asof": "2026-10-29"
-        }
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": -1
       }
     }
   ]
