@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-31T00:58:05Z",
+  "generatedAt": "2026-10-31T12:56:26Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 191,
+  "aliasCount": 193,
   "aliases": [
     {
       "currency": "JPY",
@@ -3338,6 +3338,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.1%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Economy Watchers Index for Current Conditions",
+      "secondary_title": "Japan Eco Watchers Survey Current",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 48.3,
+          "forecast_secondary": 47.2,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 47.0,
+          "previous_secondary": 47.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "47.2",
+          "previous_secondary_raw": "47.0"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Economy Watchers Index for Future Conditions",
+      "secondary_title": "Japan Eco Watchers Survey Outlook",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 48.9,
+          "forecast_secondary": 47.8,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 47.4,
+          "previous_secondary": 47.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "47.8",
+          "previous_secondary_raw": "47.4"
         }
       }
     },
