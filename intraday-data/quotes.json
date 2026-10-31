@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:25:24Z",
+  "updated": "2026-10-31T10:30:32Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -204,37 +204,37 @@
       "pct1w_date": "2026-10-23"
     },
     "btc": {
-      "close": 77351.37,
+      "close": 77337.4,
       "prev_close": 77202.4,
-      "chg": 148.97,
-      "pct": 0.193,
+      "chg": 135.0,
+      "pct": 0.1749,
       "high": 77434.15,
       "low": 77000.92,
       "open": 77202.4,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1793442326,
+      "market_time": 1793442631,
       "source": "quote-pipeline-primary",
-      "pct1w": -4.5919,
+      "pct1w": -4.6091,
       "pct1w_date": "2026-10-23",
       "session_high": 77946.35,
       "session_low": 76148.52
     },
     "eth": {
-      "close": 2244.0,
+      "close": 2243.08,
       "prev_close": 2241.1812,
-      "chg": 2.8188,
-      "pct": 0.1258,
+      "chg": 1.8988,
+      "pct": 0.0847,
       "high": 2246.789,
       "low": 2233.9177,
       "open": 2241.1812,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1793442326,
+      "market_time": 1793442632,
       "source": "quote-pipeline-primary",
-      "pct1w": -5.8755,
+      "pct1w": -5.9141,
       "pct1w_date": "2026-10-23",
       "session_high": 2258.53,
       "session_low": 2205.01
@@ -1859,18 +1859,18 @@
     {
       "a": "AUD/USD",
       "b": "Gold",
-      "corr30": 0.084,
+      "corr30": 0.088,
       "n30": 30,
-      "corr": 0.437,
+      "corr": 0.442,
       "n": 60,
-      "corr90": 0.422,
+      "corr90": 0.425,
       "n90": 90,
       "norm": 0.558,
-      "z_score": -2.2,
+      "z_score": -2.19,
       "norm60": 0.575,
-      "z_score60": -1.61,
+      "z_score60": -1.56,
       "n_indep60": 4,
-      "std": 0.2479,
+      "std": 0.2478,
       "n_indep": 8,
       "band15hi": 0.763,
       "band15lo": 0.253,
@@ -2099,7 +2099,7 @@
         0.166,
         0.159,
         0.135,
-        0.084
+        0.088
       ],
       "hist_dates": [
         "2025-12-17",
@@ -2329,7 +2329,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.661,
+      "coint_p": 0.657,
       "coint_n": 252
     },
     {
@@ -5663,21 +5663,21 @@
     {
       "a": "GBP/USD",
       "b": "Gold",
-      "corr30": 0.089,
+      "corr30": 0.094,
       "n30": 30,
-      "corr": 0.334,
+      "corr": 0.339,
       "n": 60,
-      "corr90": 0.351,
+      "corr90": 0.354,
       "n90": 90,
       "norm": 0.42,
-      "z_score": -1.62,
+      "z_score": -1.6,
       "norm60": 0.428,
-      "z_score60": -1.04,
+      "z_score60": -0.99,
       "n_indep60": 4,
-      "std": 0.2211,
+      "std": 0.221,
       "n_indep": 8,
       "band15hi": 0.652,
-      "band15lo": 0.115,
+      "band15lo": 0.116,
       "band25hi": 0.762,
       "band25lo": -0.105,
       "history": [
@@ -5903,7 +5903,7 @@
         0.168,
         0.156,
         0.155,
-        0.089
+        0.094
       ],
       "hist_dates": [
         "2025-12-17",
@@ -6130,10 +6130,10 @@
         "2026-10-29",
         "2026-10-30"
       ],
-      "spread_z": 0.79,
+      "spread_z": 0.76,
       "signal": "neutral",
       "beta": 0.072,
-      "coint_p": 0.0458,
+      "coint_p": 0.0451,
       "coint_n": 252
     },
     {
@@ -6615,16 +6615,16 @@
     {
       "a": "Gold",
       "b": "DXY",
-      "corr30": -0.162,
+      "corr30": -0.166,
       "n30": 30,
-      "corr": -0.462,
+      "corr": -0.466,
       "n": 60,
-      "corr90": -0.473,
+      "corr90": -0.475,
       "n90": 90,
       "norm": -0.488,
-      "z_score": 1.44,
+      "z_score": 1.43,
       "norm60": -0.506,
-      "z_score60": 0.36,
+      "z_score60": 0.33,
       "n_indep60": 4,
       "std": 0.2565,
       "n_indep": 8,
@@ -6855,7 +6855,7 @@
         -0.244,
         -0.24,
         -0.186,
-        -0.162
+        -0.166
       ],
       "hist_dates": [
         "2025-12-17",
@@ -7085,7 +7085,7 @@
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.0816,
+      "coint_p": 0.0805,
       "coint_n": 252
     }
   ],
