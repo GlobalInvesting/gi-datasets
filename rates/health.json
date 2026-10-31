@@ -1,13 +1,13 @@
 {
-  "runTimestamp": "2026-10-30T18:56:14.824850Z",
-  "runDate": "2026-10-30",
+  "runTimestamp": "2026-10-31T14:26:20.870846Z",
+  "runDate": "2026-10-31",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
       "status": "ok",
-      "rate": "4.0",
-      "source": "ff-calendar-actual",
-      "date": "2026-10-28",
+      "rate": "4.00",
+      "source": "NYFed-EFFR",
+      "date": "2026-10-29",
       "issues": []
     },
     "EUR": {
@@ -32,9 +32,9 @@
       "issues": []
     },
     "CAD": {
-      "status": "ok",
+      "status": "cached",
       "rate": "2.5",
-      "source": "ff-calendar-actual",
+      "source": "cached-file",
       "date": "2026-10-28",
       "issues": []
     },
@@ -49,13 +49,13 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "issues": []
     },
     "NZD": {
-      "status": "ok",
+      "status": "cached",
       "rate": "2.75",
-      "source": "ff-calendar-actual",
+      "source": "cached-file",
       "date": "2026-10-28",
       "issues": []
     },
@@ -75,6 +75,9 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "CAD: kept cached 2026-10-28 value over older BoC-Valet candidate (2026-10-23) \u2014 likely a laggy fallback source",
+    "NZD: kept cached 2026-10-28 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
