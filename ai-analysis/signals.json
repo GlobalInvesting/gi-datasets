@@ -1,82 +1,32 @@
 {
-  "generated_at": "2026-11-01T14:22:47Z",
+  "generated_at": "2026-11-01T22:02:19Z",
   "signals": [
     {
-      "time": "19:01",
+      "time": "22:00",
       "priority": "critical",
-      "title": "USD/CAD — Strait of Hormuz Supply Shock",
-      "text": "WTI crude surged past $104.1/bbl (+2.08%) following Iranian military closure of the Strait of Hormuz, driving aggressive CAD outperformance against USD into the weekly open. Crude terms-of-trade gains clash directly with crowded speculative CAD short positioning (leveraged funds net -96.9k, 8th percentile), accelerating short-squeeze dynamics below the 1.4000 psychological threshold. The resolution of Gulf maritime transit talks in Doha determines whether spot pushes toward the 200-day SMA at 1.3885. Trade bias: Bearish USD/CAD into the open. Catalyst: Sydney/Tokyo market open and Doha mediation headlines on Hormuz transit. Risk: Spot recovery and daily close back above the 20-day SMA at 1.4123.",
-      "evidence": [
-        "Iran's Rezaei: Strait of Hormuz to stay closed until Tehran terms fulfilled",
-        "WTI crude closed Friday at $104.1 (+2.08%)",
-        "CAD COT leveraged funds net -96,952 (pctl 8, z -1.55)",
-        "USD/CAD closed Friday at 1.3973, below 20-day SMA 1.4123"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "caution",
-        "pair": "USD/CAD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-10-30"
-        }
-      }
-    },
-    {
-      "time": "19:01",
-      "priority": "critical",
-      "title": "NOK/EUR — G10 Bilateral Theme + Strait of Hormuz Energy Spike",
-      "text": "NOK leads the 1W G10 scorecard at +1.681% (n=2) against EUR laggard at -0.592% (n=9) for a 2.273% spread, heavily amplified by crude supply shocks and Fitch's unscheduled French credit outlook downgrade. Severe energy-driven terms-of-trade divergence favors petroleum-backed NOK while compounding downward pressure on EUR, which sits weighed down by heavily stretched net short leveraged fund positioning (-99.5k, 2nd percentile). The release of German Retail Sales at 07:00 UTC Monday tests EUR downside resilience against sustained petroleum strength. Trade bias: Bullish NOK against EUR (bearish EUR/NOK). Catalyst: Monday European open and German Retail Sales at 07:00 UTC. Risk: Diplomatic reopening of the Strait of Hormuz triggering a rapid pullback in crude benchmarks.",
+      "title": "NOK/NZD — G10 Bilateral Theme + Energy Shock",
+      "text": "NOK leads G10 performance at +1.681% across 2 pairs, while NZD lags at −0.862% across 4 pairs, establishing a 2.543% spread that triggers the critical bilateral theme threshold. The divergence is reinforced by Strait of Hormuz naval mine detonations and tanker disruptions sending WTI to $104.1/bbl, providing terms-of-trade support to the petro-currency while weighing on cyclical commodity importers. The ESI spread corroborates the divergence, with NOK printing +14.9 against NZD's −17.1. Relative monetary policy provides nominal backing via Norges Bank at 4.50% against RBNZ at 2.75%, delivering a +175bp rate advantage to NOK. Trade bias: Bullish NOK/NZD; energy terms-of-trade divergence and +175bp policy advantage support continued upside. Catalyst: New Zealand Employment Change at 21:45 UTC. Risk: Strait of Hormuz shipping lanes reopen without incident, unwinding the crude risk premium.",
       "evidence": [
         "NOK 1W avg: +1.681% (n=2)",
-        "EUR 1W avg: -0.592% (n=9)",
-        "G10 spread: 2.273%",
-        "EUR COT leveraged funds net -99,557 (pctl 2, z -1.78)",
-        "Fitch hits France with unscheduled outlook downgrade"
+        "NZD 1W avg: -0.862% (n=4)",
+        "G10 spread: 2.543%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
-        "pair": "EUR/NOK",
+        "pair": "NOK/NZD",
         "direction": 1
       }
     },
     {
-      "time": "16:55",
+      "time": "21:56",
       "priority": "warning",
-      "title": "AUD/USD — RBA Rate Decision + Crowded Long Unwind",
-      "text": "AUD COT leveraged funds net long sits elevated at +43.9k (67.7% long), exposing AUD/USD to positioning liquidation risks as spot tests 0.7035 ahead of the RBA monetary policy meeting on 3 Nov. While AONIA-SOFR OIS yield spread maintains a +66bp carry advantage in AUD's favor, negative Australian Economic Surprise Index performance (-5.0) limits hawkish follow-through. The RBA interest rate decision at 04:30 UTC on 3 Nov resolves whether the hike bias can be sustained above 0.7000. Trade bias: Neutral AUD/USD with downside skew on hold outcome. Catalyst: RBA interest rate decision on 3 Nov at 04:30 UTC. Risk: RBA delivers an unexpected 25bp rate hike and reiterates hawkish forward guidance.",
+      "title": "USD/JPY — Options Skew Divergence",
+      "text": "USD/JPY trades at 157.52, holding below its SMA20 of 157.90 and above its SMA50 of 157.41 within an established broader downtrend structure. While Fed 4.00% vs BoJ 1.25% maintains a +275bp carry buffer, the options market exhibits intense downside protection demand with 25d risk reversals printing at −2.24 (Saxo, 1M tenor, indicative mid). This sharp put skew conflicts directly with CFTC spec positioning, where JPY net shorts stand at −19,224 contracts (pctl 94, z +1.57), signaling that institutional options desks are heavily hedging against a sharp downside move. VRP sits at +1.9% with IV at 7.4% against HV30 at 5.5%, demonstrating that forward-looking event risk remains priced at a premium. Trade bias: Bearish USD/JPY; severe options downside skew indicates asymmetric unwind risk against crowded carry positioning. Catalyst: US ISM Manufacturing PMI at 15:00 UTC. Risk: Spot clears and closes above the SMA200 at 158.53, invalidating the technical ceiling.",
       "evidence": [
-        "AUD COT leveraged funds net +43,927 (67.7% long)",
-        "RBA meeting scheduled for 3 Nov (next meeting)",
-        "AONIA 4.60% vs SOFR 3.94% carry favors AUD by +66bp",
-        "AUD/USD closed Friday at 0.7035, above 20-day SMA 0.6996"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "AUD/USD"
-      }
-    },
-    {
-      "time": "13:15",
-      "priority": "warning",
-      "title": "USD/JPY — Safe Haven Squeeze vs Carry Asymmetry",
-      "text": "Options markets display extreme demand for downside protection with 25-delta risk reversals printing at -2.24 put skew, signaling elevated hedging against USD/JPY declines as geopolitical tensions spike. JPY leveraged fund positioning at -19.2k sits near multi-month highs (94th percentile, z +1.57), which contrasts with a wide +271bp OIS carry advantage supporting USD via SOFR-TONA differentials. The Sydney and Tokyo sessions will determine whether risk-off repatriation triggers a broader liquidation of USD/JPY longs toward the 50-day SMA at 157.41. Trade bias: Bearish USD/JPY on safe-haven flows. Catalyst: Tokyo cash equity and FX open at 00:00 UTC. Risk: US-Iran de-escalation headlines stabilizing global equities and restoring carry appetite.",
-      "evidence": [
-        "USD/JPY 25-delta risk reversals at -2.24 (strong put skew)",
-        "SOFR 3.94% vs TONA 1.23% carry spread +271bp favors USD",
-        "JPY COT leveraged funds net -19,224 (pctl 94, z +1.57)",
-        "USD/JPY closed Friday at 157.52, below 20-day SMA 157.90"
+        "USDJPY 25d RR: -2.24",
+        "JPY COT LF net: -19,224 (pctl 94, z +1.57)",
+        "Fed 4.00% vs BoJ 1.25% — 275bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -93,6 +43,49 @@
           "technical_alignment": "technical_neutral",
           "asof": "2026-10-30"
         }
+      }
+    },
+    {
+      "time": "21:52",
+      "priority": "warning",
+      "title": "EUR/USD — Crowded Short + Retail Divergence",
+      "text": "EUR/USD trades at 1.1166, remaining structurally heavy below its SMA20 (1.1201), SMA50 (1.1392), and SMA200 (1.1563) in a confirmed downtrend. CFTC speculative accounts hold an extreme net short position of −99,557 contracts (pctl 2, z −1.78) following a WoW reduction of −5,419 contracts. Concurrently, retail positioning on Retail sentiment data is 86% long, creating an institutional-versus-retail divergence at an extreme decile. The underlying rate architecture sustains fundamental downward pressure via Fed 4.00% vs ECB 2.65%, providing a +135bp carry advantage to the dollar, alongside an OIS SOFR-€STR spread of +150bp. Trade bias: Bearish EUR/USD; persistent +135bp carry deficit and retail crowding favor downside continuation toward lower bounds. Catalyst: Germany Retail Sales at 07:00 UTC. Risk: A daily close above the SMA20 at 1.1201 triggers short-covering among extended institutional positions.",
+      "evidence": [
+        "EUR COT LF net: -99,557 (pctl 2, z -1.78)",
+        "Retail: 86% long",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-10-30"
+        }
+      }
+    },
+    {
+      "time": "21:47",
+      "priority": "info",
+      "title": "AUD/USD — Technical Resistance at Moving Average Cluster",
+      "text": "AUD/USD prints at 0.7026, holding above its SMA20 at 0.6996 but encountering tight overhead resistance against the SMA200 at 0.7060 and SMA50 at 0.7069. Intraday price action reflects a counter-trend attempt inside a broader macro downtrend, with the steep 200-day average leaning against upward momentum. CFTC positioning shows speculative leveraged funds net long +43,927 contracts (pctl 50, z +0.27), indicating balanced institutional exposure following a WoW reduction of −3,679 contracts. The pair retains carry backing with RBA at 4.60% vs Fed 4.00% delivering a 60bp cash rate premium and an AONIA-SOFR OIS differential of 66bp favoring the Aussie. Trade bias: Range-bound AUD/USD; 60bp carry advantage is capped by the 0.7060/0.7069 moving average barrier. Catalyst: RBA Interest Rate Decision at 04:30 UTC. Risk: A clean break above 0.7069 confirms trend reversal and forces momentum chasing toward 0.7150.",
+      "evidence": [
+        "AUD/USD spot: 0.7026 vs SMA200: 0.7060",
+        "RBA 4.60% vs Fed 4.00% — -60bp",
+        "AUD COT LF net: +43,927 (pctl 50, z +0.27)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "AUD/USD"
       }
     }
   ]
