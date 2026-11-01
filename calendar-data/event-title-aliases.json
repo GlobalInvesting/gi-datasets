@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-01T00:19:34Z",
+  "generatedAt": "2026-11-01T13:41:26Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 193,
+  "aliasCount": 196,
   "aliases": [
     {
       "currency": "JPY",
@@ -3395,6 +3395,63 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "-2.6%",
           "previous_secondary_raw": "-4.7%"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Home Loans m/m",
+      "secondary_title": "Australia Home Loans QoQ",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-11",
+          "forecast_primary": 1.1,
+          "forecast_secondary": -6.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -1.9,
+          "previous_secondary": -1.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-6.0%",
+          "previous_secondary_raw": "-1.9%"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Investment Housing Loans m/m",
+      "secondary_title": "Australia Investment Lending for Homes",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-11",
+          "forecast_primary": null,
+          "forecast_secondary": -14.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -10.2,
+          "previous_secondary": -10.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-14.0%",
+          "previous_secondary_raw": "-10.2%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Machine Tool Orders y/y",
+      "secondary_title": "Japan Machine Tool Orders YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-11",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 60.4,
+          "previous_secondary": 60.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "60.4%"
         }
       }
     },
