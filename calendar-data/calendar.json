@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-01T23:47:57Z",
-  "generatedAt": "2026-11-01T23:47:57Z",
+  "lastUpdate": "2026-11-02T00:30:44Z",
+  "generatedAt": "2026-11-02T00:30:44Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -8,66 +8,26 @@
   "errorMessage": null,
   "fetchErrors": [],
   "rangeFrom": "2025-11-03",
-  "rangeTo": "2026-11-15",
-  "totalEvents": 7108,
+  "rangeTo": "2026-11-16",
+  "totalEvents": 7159,
   "currencyCounts": {
-    "AUD": 406,
-    "CHF": 169,
-    "EUR": 2037,
-    "USD": 2266,
-    "NZD": 177,
-    "GBP": 670,
-    "CAD": 410,
-    "JPY": 536,
+    "AUD": 407,
+    "CHF": 170,
+    "EUR": 2053,
+    "USD": 2280,
+    "NZD": 181,
+    "GBP": 671,
+    "CAD": 418,
+    "JPY": 541,
     "SEK": 263,
-    "NOK": 174
+    "NOK": 175
   },
   "impactCounts": {
-    "medium": 2913,
-    "high": 1680,
-    "low": 2515
+    "medium": 2930,
+    "high": 1681,
+    "low": 2548
   },
   "surpriseStats": {
-    "EUR/germany retail sales yoy": {
-      "n": 4,
-      "mean": -1.125,
-      "std": 2.12348
-    },
-    "EUR/germany retail sales mom": {
-      "n": 4,
-      "mean": -1.35,
-      "std": 2.614702
-    },
-    "CHF/inflation rate yoy": {
-      "n": 4,
-      "mean": 0.225,
-      "std": 0.287228
-    },
-    "CHF/inflation rate mom": {
-      "n": 4,
-      "mean": 0.125,
-      "std": 0.340343
-    },
-    "EUR/austria unemployment rate": {
-      "n": 3,
-      "mean": -0.033333,
-      "std": 0.057735
-    },
-    "CHF/procure.ch manufacturing pmi": {
-      "n": 3,
-      "mean": 2.833333,
-      "std": 4.505922
-    },
-    "USD/ism manufacturing employment": {
-      "n": 3,
-      "mean": -0.133333,
-      "std": 3.622614
-    },
-    "USD/ism manufacturing pmi": {
-      "n": 3,
-      "mean": -0.166667,
-      "std": 1.594783
-    },
     "EUR/spain unemployment change": {
       "n": 3,
       "mean": -36.726667,
@@ -1929,9 +1889,9 @@
       "std": 1.909188
     },
     "AUD/building approvals mom": {
-      "n": 2,
-      "mean": -5.2,
-      "std": 6.363961
+      "n": 3,
+      "mean": -1.766667,
+      "std": 7.457435
     },
     "EUR/netherlands retail sales yoy": {
       "n": 2,
@@ -1967,6 +1927,16 @@
       "n": 3,
       "mean": -0.133333,
       "std": 0.568624
+    },
+    "EUR/germany retail sales mom": {
+      "n": 3,
+      "mean": -1.6,
+      "std": 3.143247
+    },
+    "EUR/germany retail sales yoy": {
+      "n": 3,
+      "mean": -1.666667,
+      "std": 2.236813
     },
     "EUR/inflation rate yoy flash": {
       "n": 2,
@@ -2042,6 +2012,16 @@
       "n": 2,
       "mean": -1.0,
       "std": 11.879394
+    },
+    "EUR/austria unemployment rate": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "CHF/procure.ch manufacturing pmi": {
+      "n": 2,
+      "mean": 5.15,
+      "std": 2.899138
     },
     "EUR/greece s&p global manufacturing pmi": {
       "n": 2,
@@ -2188,10 +2168,20 @@
       "mean": 0.7,
       "std": 0.866025
     },
+    "USD/ism manufacturing pmi": {
+      "n": 2,
+      "mean": -1.05,
+      "std": 0.636396
+    },
     "USD/ism manufacturing prices paid": {
       "n": 2,
       "mean": 4.6,
       "std": 4.242641
+    },
+    "USD/ism manufacturing employment": {
+      "n": 2,
+      "mean": -1.7,
+      "std": 3.394113
     },
     "USD/ism manufacturing new orders": {
       "n": 2,
@@ -2292,6 +2282,16 @@
       "n": 2,
       "mean": 1.1635,
       "std": 0.598919
+    },
+    "CHF/inflation rate mom": {
+      "n": 3,
+      "mean": 0.166667,
+      "std": 0.404145
+    },
+    "CHF/inflation rate yoy": {
+      "n": 3,
+      "mean": 0.3,
+      "std": 0.3
     },
     "SEK/silf/swedbank services pmi": {
       "n": 2,
@@ -89015,7 +89015,7 @@
       "flag": "🇦🇺",
       "event": "Australia Building Approvals m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "5.1%",
       "forecast": "0.0%",
       "previous": "-6.1%"
     },
@@ -89028,7 +89028,7 @@
       "flag": "🇦🇺",
       "event": "Australia Private House Approvals m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-5.3%",
       "forecast": null,
       "previous": "3.7%"
     },
@@ -94749,8 +94749,8 @@
       "event": "Latvia Current Account",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-189.0M",
+      "previous": "-107.0M"
     },
     {
       "date": "13 Nov",
@@ -95063,6 +95063,670 @@
       "actual": null,
       "forecast": "-0.1%",
       "previous": "0.5%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "04:00",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "BoJ Board Member Takata Speech",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "04:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Industrial Production m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "04:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Industrial Production y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "04:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan Capacity Utilization Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Estonia Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "6.50%",
+      "previous": "6.60%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "07:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway Goods Trade Balance",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "91.453B",
+      "previous": "105.028B",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands 3-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands 6-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia GDP Growth Rate YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4%",
+      "previous": "5%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia GDP Growth Rate QoQ",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.4%",
+      "previous": "1.8%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Croatia Inflation Rate YoY Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "4.7%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Croatia Inflation Rate MoM Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.9%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Belgium Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3400M",
+      "previous": "816.6M"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Industrial Production m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.1%",
+      "previous": "-0.5%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Industrial Production y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-2.5%",
+      "previous": "-1.1%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area Official Reserve Assets",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.0%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.1%",
+      "previous": "3.1%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Core CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.3%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "2.1%",
+      "previous": "2.2%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Common CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.4%",
+      "previous": "2.4%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Median CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.9%",
+      "previous": "1.9%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Trimmed CPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.8%",
+      "previous": "1.8%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "NY Fed Empire State Manufacturing Index",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 3-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 6-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "13:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 12-Month BTF Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 3-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 6-Month Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:00",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "RBNZ Financial Stability Report",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia CFTC AUD Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada CFTC CAD Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "Switzerland CFTC CHF Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area CFTC EUR Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CFTC GBP Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan CFTC JPY Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand CFTC NZD Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Copper Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Silver Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Gold Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Crude Oil Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC S&P 500 Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Aluminium Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Corn Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Natural Gas Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Soybeans Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Wheat Non-Commercial Net Positions",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "20:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CFTC Nasdaq 100 Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "21:45",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand Food Price Index m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.2%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "22:00",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "RBNZ Governor Orr Speech",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "16 Nov",
+      "dateISO": "2026-11-16",
+      "timeUTC": "23:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain Trade Balance",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-6.269B",
+      "previous": "-7.813B"
     }
   ]
 }
