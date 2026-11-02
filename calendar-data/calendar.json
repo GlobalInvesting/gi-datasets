@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-02T17:22:48Z",
-  "generatedAt": "2026-11-02T17:22:48Z",
+  "lastUpdate": "2026-11-02T17:26:55Z",
+  "generatedAt": "2026-11-02T17:26:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,14 +9,14 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-03",
   "rangeTo": "2026-11-16",
-  "totalEvents": 7174,
+  "totalEvents": 7175,
   "currencyCounts": {
     "AUD": 413,
     "CHF": 170,
     "EUR": 2054,
     "USD": 2283,
     "NZD": 181,
-    "GBP": 674,
+    "GBP": 675,
     "CAD": 419,
     "JPY": 542,
     "SEK": 263,
@@ -24,7 +24,7 @@
   },
   "impactCounts": {
     "medium": 2934,
-    "high": 1681,
+    "high": 1682,
     "low": 2559
   },
   "surpriseStats": {
@@ -92835,6 +92835,19 @@
       "flag": "🇺🇸",
       "event": "United States 6-Month Bill Auction",
       "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "9 Nov",
+      "dateISO": "2026-11-09",
+      "timeUTC": "17:25",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Governor Bailey Speech",
+      "impact": "high",
       "actual": null,
       "forecast": null,
       "previous": null
