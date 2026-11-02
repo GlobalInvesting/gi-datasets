@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-02T00:59:11Z",
+  "generatedAt": "2026-11-02T16:25:56Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 196,
+  "aliasCount": 203,
   "aliases": [
     {
       "currency": "JPY",
@@ -30,16 +30,16 @@
       "secondary_title": "United States Existing Home Sales MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-13",
-          "forecast_primary": -2.4,
-          "forecast_secondary": -0.3,
-          "actual_primary": 1.5,
-          "actual_secondary": 1.5,
-          "previous_primary": -2.0,
-          "previous_secondary": -3.2,
-          "actual_secondary_raw": "1.5%",
-          "forecast_secondary_raw": "-0.3%",
-          "previous_secondary_raw": "-3.2%"
+          "dateISO": "2026-11-12",
+          "forecast_primary": 0.0,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.5,
+          "previous_secondary": 1.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.5%"
         }
       }
     },
@@ -144,16 +144,16 @@
       "secondary_title": "Canada Building Permits MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-14",
-          "forecast_primary": -13.0,
-          "forecast_secondary": 2.7,
-          "actual_primary": 8.8,
-          "actual_secondary": 8.8,
-          "previous_primary": -17.3,
-          "previous_secondary": -15.8,
-          "actual_secondary_raw": "8.8%",
-          "forecast_secondary_raw": "2.7%",
-          "previous_secondary_raw": "-15.8%"
+          "dateISO": "2026-11-12",
+          "forecast_primary": -5.9,
+          "forecast_secondary": 1.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 8.8,
+          "previous_secondary": 8.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.0%",
+          "previous_secondary_raw": "8.8%"
         }
       }
     },
@@ -619,16 +619,16 @@
       "secondary_title": "United Kingdom GDP 3-Month Avg",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
+          "dateISO": "2026-11-12",
           "forecast_primary": 0.5,
           "forecast_secondary": 0.4,
-          "actual_primary": 0.7,
-          "actual_secondary": 0.7,
-          "previous_primary": 0.5,
-          "previous_secondary": 0.5,
-          "actual_secondary_raw": "0.7%",
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.4%",
-          "previous_secondary_raw": "0.5%"
+          "previous_secondary_raw": "0.7%"
         }
       }
     },
@@ -1294,21 +1294,8 @@
           "actual_secondary_raw": "-0.2%",
           "forecast_secondary_raw": "0.4%",
           "previous_secondary_raw": "-0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-22",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.2,
-          "actual_yahoo": -0.2,
-          "previous_primary": -0.1,
-          "previous_yahoo": -0.1,
-          "actual_yahoo_raw": "-0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.1"
         }
-      },
-      "yahoo_title": "New Housing Price Index*"
+      }
     },
     {
       "currency": "EUR",
@@ -2905,25 +2892,6 @@
       }
     },
     {
-      "currency": "AUD",
-      "primary_title": "RBA Index of Commodity Prices y/y",
-      "secondary_title": "Australia Commodity Prices YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 15.9,
-          "forecast_secondary": 15.1,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 15.5,
-          "previous_secondary": 15.5,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "15.1%",
-          "previous_secondary_raw": "15.5%"
-        }
-      }
-    },
-    {
       "currency": "USD",
       "primary_title": "United States Construction Spending m/m",
       "secondary_title": "United States Construction Spending MoM",
@@ -2932,13 +2900,45 @@
           "dateISO": "2026-11-02",
           "forecast_primary": 0.5,
           "forecast_secondary": 0.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -1.9,
+          "actual_secondary": -1.9,
           "previous_primary": 0.9,
-          "previous_secondary": 0.9,
-          "actual_secondary_raw": null,
+          "previous_secondary": 2.0,
+          "actual_secondary_raw": "-1.9%",
           "forecast_secondary_raw": "0.2%",
-          "previous_secondary_raw": "0.9%"
+          "previous_secondary_raw": "2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 0.5,
+          "forecast_yahoo": null,
+          "actual_primary": -1.9,
+          "actual_yahoo": -1.9,
+          "previous_primary": 0.9,
+          "previous_yahoo": 0.9,
+          "actual_yahoo_raw": "-1.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.9"
+        }
+      },
+      "yahoo_title": "Construction Spending MM"
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing PMI",
+      "secondary_title": "United States ISM Manufacturing New Orders",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 54.7,
+          "forecast_secondary": 54.4,
+          "actual_primary": 55.5,
+          "actual_secondary": 55.5,
+          "previous_primary": 54.5,
+          "previous_secondary": 55.3,
+          "actual_secondary_raw": "55.5",
+          "forecast_secondary_raw": "54.4",
+          "previous_secondary_raw": "55.3"
         }
       }
     },
@@ -2951,13 +2951,45 @@
           "dateISO": "2026-11-02",
           "forecast_primary": 80.7,
           "forecast_secondary": 78.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 75.2,
+          "actual_secondary": 75.2,
           "previous_primary": 77.9,
           "previous_secondary": 77.9,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "75.2",
           "forecast_secondary_raw": "78",
           "previous_secondary_raw": "77.9"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 80.7,
+          "forecast_yahoo": null,
+          "actual_primary": 75.2,
+          "actual_yahoo": 75.2,
+          "previous_primary": 77.9,
+          "previous_yahoo": 77.9,
+          "actual_yahoo_raw": "75.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "77.9"
+        }
+      },
+      "yahoo_title": "ISM Mfg Prices Paid"
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing New Orders",
+      "secondary_title": "United States ISM Manufacturing PMI",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 54.4,
+          "forecast_secondary": 54.7,
+          "actual_primary": 55.5,
+          "actual_secondary": 55.5,
+          "previous_primary": 55.3,
+          "previous_secondary": 54.5,
+          "actual_secondary_raw": "55.5",
+          "forecast_secondary_raw": "54.7",
+          "previous_secondary_raw": "54.5"
         }
       }
     },
@@ -2996,25 +3028,6 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.3%",
           "previous_secondary_raw": "0.1%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Factory Orders excl. Transportation m/m",
-      "secondary_title": "United States Factory Orders ex Transportation",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 0.4,
-          "forecast_secondary": 0.4,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 0.3,
-          "previous_secondary": 0.3,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.4%",
-          "previous_secondary_raw": "0.3%"
         }
       }
     },
@@ -3456,6 +3469,44 @@
       }
     },
     {
+      "currency": "GBP",
+      "primary_title": "United Kingdom GDP q/q",
+      "secondary_title": "United Kingdom GDP Growth Rate QoQ Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": 0.8,
+          "forecast_secondary": 0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.5,
+          "previous_secondary": 0.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.4%",
+          "previous_secondary_raw": "0.5%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom GDP y/y",
+      "secondary_title": "United Kingdom GDP Growth Rate YoY Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": 1.3,
+          "forecast_secondary": 1.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.4,
+          "previous_secondary": 1.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.7%",
+          "previous_secondary_raw": "1.4%"
+        }
+      }
+    },
+    {
       "currency": "NZD",
       "primary_title": "New Zealand CPI q/q",
       "yahoo_title": "CPI QQ",
@@ -3528,6 +3579,25 @@
           "actual_yahoo_raw": "11.2",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "6.8"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Chicago Fed National Activity Index",
+      "yahoo_title": "Rich Fed, Services Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-10-26",
+          "forecast_primary": 0.04,
+          "forecast_yahoo": null,
+          "actual_primary": 0.07,
+          "actual_yahoo": 2.0,
+          "previous_primary": -0.04,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
         }
       }
     },
@@ -4079,6 +4149,82 @@
           "actual_yahoo_raw": "0",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Silf/Swedbank Manufacturing PMI",
+      "yahoo_title": "PMI Manufacturing Sect",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 57.1,
+          "forecast_yahoo": null,
+          "actual_primary": 60.5,
+          "actual_yahoo": 60.5,
+          "previous_primary": 58.1,
+          "previous_yahoo": 58.1,
+          "actual_yahoo_raw": "60.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "58.1"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland Retail Sales y/y",
+      "yahoo_title": "Retail Sales YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 2.0,
+          "forecast_yahoo": null,
+          "actual_primary": 1.6,
+          "actual_yahoo": 1.6,
+          "previous_primary": 3.2,
+          "previous_yahoo": 3.2,
+          "actual_yahoo_raw": "1.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.2"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland procure.ch Manufacturing PMI",
+      "yahoo_title": "Manufacturing PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 56.7,
+          "actual_yahoo": 56.7,
+          "previous_primary": null,
+          "previous_yahoo": 55.3,
+          "actual_yahoo_raw": "56.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "55.3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Manufacturing Employment",
+      "yahoo_title": "ISM Manuf Employment Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-02",
+          "forecast_primary": 51.4,
+          "forecast_yahoo": null,
+          "actual_primary": 52.4,
+          "actual_yahoo": 52.4,
+          "previous_primary": 52.7,
+          "previous_yahoo": 52.7,
+          "actual_yahoo_raw": "52.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "52.7"
         }
       }
     },
