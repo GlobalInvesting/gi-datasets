@@ -1,47 +1,47 @@
 {
-  "runTimestamp": "2026-11-01T14:52:58.255175Z",
-  "runDate": "2026-11-01",
+  "runTimestamp": "2026-11-02T18:05:21.180523Z",
+  "runDate": "2026-11-02",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "4.00",
-      "source": "NYFed-EFFR (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "EUR": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "2.65",
-      "source": "cached-file (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "GBP": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "3.75",
-      "source": "BoE-CSV (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "JPY": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "1.25",
-      "source": "ff-calendar-actual (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "CAD": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "2.25",
-      "source": "BoC-Valet (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "AUD": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "4.6",
-      "source": "RBA-HTML (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
@@ -49,34 +49,42 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-01",
+      "date": "2026-11-02",
       "issues": []
     },
     "NZD": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "2.75",
-      "source": "BIS-CBPOL (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "NOK": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "4.5",
-      "source": "BIS-CBPOL (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
     "SEK": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "1.75",
-      "source": "BIS-CBPOL (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     }
   },
   "issues": [],
   "warnings": [
-    "EUR: kept cached 2026-10-29 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source"
+    "USD: kept cached 2026-11-01 value over older NYFed-EFFR candidate (2026-10-30) \u2014 likely a laggy fallback source",
+    "EUR: kept cached 2026-11-01 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source",
+    "GBP: kept cached 2026-11-01 value over older BoE-CSV candidate (2026-10-30) \u2014 likely a laggy fallback source",
+    "JPY: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
+    "CAD: kept cached 2026-11-01 value over older BoC-Valet candidate (2026-10-26) \u2014 likely a laggy fallback source",
+    "AUD: kept cached 2026-11-01 value over older RBA-HTML candidate (2026-09-30) \u2014 likely a laggy fallback source",
+    "NZD: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
+    "NOK: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
+    "SEK: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source"
   ],
   "overallStatus": "degraded_cached"
 }
