@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-02T18:05:21.180523Z",
-  "runDate": "2026-11-02",
+  "runTimestamp": "2026-11-03T07:52:56.725780Z",
+  "runDate": "2026-11-03",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -39,17 +39,17 @@
       "issues": []
     },
     "AUD": {
-      "status": "cached",
-      "rate": "4.6",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "status": "ok",
+      "rate": "4.85",
+      "source": "ff-calendar-actual",
+      "date": "2026-11-03",
       "issues": []
     },
     "CHF": {
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "issues": []
     },
     "NZD": {
@@ -75,16 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "USD: kept cached 2026-11-01 value over older NYFed-EFFR candidate (2026-10-30) \u2014 likely a laggy fallback source",
-    "EUR: kept cached 2026-11-01 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source",
-    "GBP: kept cached 2026-11-01 value over older BoE-CSV candidate (2026-10-30) \u2014 likely a laggy fallback source",
-    "JPY: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
-    "CAD: kept cached 2026-11-01 value over older BoC-Valet candidate (2026-10-26) \u2014 likely a laggy fallback source",
-    "AUD: kept cached 2026-11-01 value over older RBA-HTML candidate (2026-09-30) \u2014 likely a laggy fallback source",
-    "NZD: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
-    "NOK: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source",
-    "SEK: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-09-01) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
