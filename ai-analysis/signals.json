@@ -1,100 +1,79 @@
 {
-  "generated_at": "2026-11-02T08:09:54Z",
+  "generated_at": "2026-11-03T00:03:15Z",
   "signals": [
     {
-      "time": "08:01",
+      "time": "00:00",
       "priority": "critical",
-      "title": "USD/JPY — Geopolitical Risk + Downside Options Skew",
-      "text": "Spot trades at 157.72, holding below its SMA20 of 157.90 while a 271bp OIS carry advantage (SOFR 3.94% vs TONA 1.23%) structurally anchors the pair. Fresh headlines confirming that Iran will not reopen the Strait of Hormuz without US sanctions relief introduce crude supply disruption risks against a backdrop of WTI at $101.0. While VIX at 19.4 reflects normal volatility that keeps broad safe-haven flows contained, options markets show acute hedging demand via a 25d risk reversal at -2.24 and an elevated 2.1% volatility risk premium (IV 7.4% vs HV30 5.2%). JPY speculative positioning sits in the upper decile of its trailing range at pctl 94 (lev net -19,224, z +1.57), signaling vulnerability to an asymmetric squeeze if geopolitical escalation prompts official scrutiny. Downside technical focus rests on SMA50 support at 157.41, with 160.00 remaining the key psychological threshold that previously triggered official intervention warnings. Trade bias: Bearish USD/JPY, asymmetric downside protection favored amid acute options skew. Catalyst: US ISM Manufacturing PMI and JOLTS today at 15:00 UTC. Risk: Strait of Hormuz tensions de-escalate swiftly, allowing the 271bp carry spread to reassert upward momentum.",
+      "title": "CHF/NOK — G10 Bilateral Theme + ESI Divergence",
+      "text": "CHF outperforms across G10 with a 1W average gain of +0.672% across 6 pairs, while NOK trails at -0.651% across 2 pairs, establishing a 1.323% G10 leader-to-laggard spread. CHF ESI sits at +28.6 (strong positive) against NOK ESI at +14.9, supporting the structural flow gap despite a -403bp 10Y sovereign yield deficit (CH 10Y at 0.47% vs NOK 10Y at 4.42%). USD/CHF trades below its SMA20 (0.8274) and SMA50 (0.8219) at 0.8186 following a 1.3 ATR bearish engulfing structure, while USD/NOK trades at 9.301 below its SMA20/50/200 cluster. CHF safe-haven demand dominates cross performance in the current elevated volatility environment with VIX at 21.1. Trade bias: Short NOK/CHF via cross-asset safe-haven flows and economic surprise outperformance. Catalyst: Switzerland CPI release on 3 Nov at 07:30 UTC. Risk: A rebound in WTI oil above $100/bbl restores NOK carry demand and compresses the bilateral spread below 0.80%.",
       "evidence": [
-        "USD/JPY 25d RR: -2.24",
-        "USD/JPY VRP: +2.1% (IV 7.4% vs HV30 5.2%)",
-        "Hormuz headline: 07:41 UTC"
+        "CHF 1W avg: +0.672% (n=6)",
+        "NOK 1W avg: -0.651% (n=2)",
+        "G10 spread: 1.323%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-10-30"
-        }
+        "verdict": "unverified",
+        "pair": "NOK/CHF",
+        "direction": -1
       }
     },
     {
-      "time": "07:58",
+      "time": "00:03",
       "priority": "warning",
-      "title": "AUD/USD — CB Differential + Technical Cluster Ahead of RBA",
-      "text": "Spot trades at 0.7021, positioned directly above its SMA20 of 0.6996 and pressing toward the SMA50 and SMA200 resistance band at 0.7060/0.7069. Carry supports the Australian dollar, with RBA at 4.60% vs Fed at 4.00% generating a 60bp cash advantage and a 66bp OIS carry premium (AONIA 4.60% vs SOFR 3.94%). Leveraged funds maintain net long exposure at +43,927 contracts, though a WoW reduction of 3,679 contracts suggests late-trend caution as price tests moving average overhead. Short-term trend structure reflects reversal risk against the wider downtrend, further challenged by an options put skew of -0.91. A sustained daily close above the 0.7069 moving average cluster is required to confirm structural trend reversal. Trade bias: Long AUD/USD; policy carry spread favors the currency into key technical resistance. Catalyst: RBA Interest Rate Decision tomorrow at 04:30 UTC. Risk: Leveraged funds accelerate long liquidation if the RBA adopts a dovish hold tone.",
+      "title": "USD/JPY — Options Skew + Carry Tension",
+      "text": "USD/JPY trades at 157.91, holding above its SMA20 (157.90) and SMA50 (157.39) while remaining below the 200-day average at 158.48. OIS carry of +272bp (SOFR 3.95% vs TONA 1.23%) continues to support the pair, but 1M 25d Risk Reversals print at -2.03 (Saxo Bank, indicative mid), signaling extreme institutional demand for JPY call/USD put downside protection. CFTC data shows JPY Leveraged Funds net short at -19,224 contracts (week ending Oct 27), placing positioning in the 94th percentile of its 52-week range (z = +1.57). 1M ATM implied volatility sits at 7.2% against 30-day realized volatility of 5.2%, generating a +1.9% Vol Risk Premium that prices heightened tail risk. 160.00 remains the key level that has previously triggered intervention warnings. Trade bias: Neutral USD/JPY; structural carry bid directly contested by aggressive options downside hedging. Catalyst: BoJ Monetary Policy Meeting Minutes on 3 Nov at 23:50 UTC. Risk: VIX breaking above 25 triggers an unwinding of leveraged carry positions, forcing USD/JPY through 157.00.",
       "evidence": [
-        "RBA 4.60% vs Fed 4.00% — 60bp",
-        "AUD/USD OIS carry: -66bp (favors AUD)",
-        "AUD/USD: 0.7021 (SMA20 0.6996)"
+        "USD/JPY 25d RR: -2.03",
+        "JPY COT pctl(52w): 94 (lev net -19,224)",
+        "OIS spread: +272bp (SOFR 3.95% vs TONA 1.23%)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
+      }
+    },
+    {
+      "time": "00:04",
+      "priority": "warning",
+      "title": "AUD/USD — Positioning + Volatility + RBA Policy Risk",
+      "text": "AUD/USD trades at 0.7002, holding just above its 20-day moving average (0.6997) while capped beneath the SMA50/200 resistance region at 0.7066/0.7060. CFTC positioning shows Leveraged Funds net long +43,927 contracts (week ending Oct 27), representing a 50th percentile rank (z = +0.27) with 4-week net flows turning negative (-11,187 contracts). Retail sentiment on Retail sentiment data shows 65% short positioning, creating an institutional-versus-retail divergence near key technical boundaries. The OIS spread favors AUD by -65bp (SOFR 3.95% vs AONIA 4.60%), with Fed policy at 4.00% vs RBA at 4.60%. 1M IV runs at 6.8% against HV30 of 6.5%, pricing a modest +0.4% volatility risk premium ahead of policy decisions. Trade bias: Long AUD/USD; monetary policy carry advantage offset by stalling speculative flow momentum. Catalyst: RBA Interest Rate Decision on 3 Nov at 04:30 UTC. Risk: RBA delivers a surprise hold or dovish guidance, triggering downside liquidation toward 0.6950.",
+      "evidence": [
+        "AUD COT LF net: +43,927 (4W Δ -11,187)",
+        "Retail sentiment: 65% short",
+        "OIS carry: -65bp (SOFR 3.95% vs AONIA 4.60%)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
         "pair": "AUD/USD",
         "direction": 1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
+        "supports": [],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-10-30"
+          "asof": "2026-11-02"
         }
       }
     },
     {
-      "time": "07:56",
-      "priority": "warning",
-      "title": "SEK — G10 Outperformance + Data Beat Momentum",
-      "text": "The Swedish Krona leads G10 performance over 1W, averaging +0.516% across active pairs and clearing the individual outperformance threshold against weakest peer NZD at -0.256%. Macro fundamentals underpin this outperformance, highlighted by Sweden's Economic Surprise Index at +20.0, reflecting sustained economic data beats relative to consensus forecasts. This strength emerges despite a nominal policy rate disadvantage, with the Riksbank at 1.75% sitting 225bp below the Fed's 4.00% target. In USD/SEK, spot trades at 9.813 below both its SMA20 of 9.940 and SMA50 of 9.817, confirming short-term downside momentum following a wide-range bearish expansion session. Sustained outperformance targets the 200-day moving average at 9.466 on a confirmed weekly close below 9.800. Trade bias: Bullish SEK, outperformance driven by persistent domestic macro data beats. Catalyst: Riksbank Policy Meeting on 10 Nov. Risk: Broad cross-asset risk liquidation damages European high-beta currencies.",
-      "evidence": [
-        "SEK 1W avg: +0.516% (n=2)",
-        "SEK ESI: +20.0",
-        "USD/SEK: 9.813 (SMA20 9.940)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unparsed"
-      }
-    },
-    {
-      "time": "07:52",
+      "time": "00:08",
       "priority": "info",
-      "title": "EUR/USD — Extreme Speculative Short vs Retail Divergence",
-      "text": "EUR/USD trades at 1.1198, holding below its falling SMA20 at 1.1201 and SMA50 at 1.1392 in an established technical downtrend. Institutional positioning sits at a deep historical extreme, with Leveraged Funds net short -99,557 contracts (pctl 2, z -1.78) following a WoW drop of 5,419 contracts. This institutional crowding directly opposes retail positioning, which shows an extreme 85% long bias on Retail sentiment data, setting up an acute positional divergence. Yield dynamics offer little counter-trend relief, as the Fed at 4.00% vs ECB at 2.65% maintains a 135bp cash rate advantage and a 150bp OIS carry premium (SOFR 3.94% vs €STR 2.44%) favoring the dollar. Macro sentiment is further dampened by German retail sales contracting -2.0% MoM against -0.2% expected, alongside an options put skew of -0.30. Trade bias: Bearish EUR/USD; institutional trend and 150bp carry advantage dominate retail dip-buying. Catalyst: Netherlands CPI and Spain Unemployment tomorrow morning. Risk: Leveraged funds initiate short covering, forcing a squeeze back through the SMA20 at 1.1201.",
+      "title": "USD/NOK — Retail Extreme Divergence",
+      "text": "USD/NOK trades at 9.301, positioned below its SMA20 (9.407), SMA50 (9.402), and SMA200 (9.496) following a wide-range daily bar. Retail sentiment data retail sentiment shows an extreme 99% long bias (1% short), representing a near-total retail consensus facing a extended technical downtrend. CFTC positioning shows broader USD Leveraged Funds net long +3,159 contracts (87th percentile, z = +0.94), while NOK ESI stands at +14.9 backed by restrictive real policy rates (+1.82%). 2Y yield differentials have shifted +20bp in NOK's favor over 20 sessions to +8bp over US Treasuries. The extreme retail long concentration exposes retail holders to capitulation risk if support fails. Trade bias: Bearish USD/NOK, contrarian to extreme retail long positioning. Catalyst: US ISM Non-Manufacturing PMI on 3 Nov at 15:00 UTC. Risk: A sharp drop in WTI crude oil below $90/bbl forces NOK weakening and validates retail long positioning.",
       "evidence": [
-        "EUR COT LF net: -99,557 (pctl 2, z -1.78)",
-        "Retail EUR/USD: 85% long / 15% short",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "USD/NOK Retail: 99% long / 1% short",
+        "USD/NOK price: 9.301 (below SMA20/50/200)",
+        "NOK ESI: +14.9"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-10-30"
-        }
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": -1
       }
     }
   ]
