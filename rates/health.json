@@ -1,5 +1,5 @@
 {
-  "runTimestamp": "2026-11-03T07:52:56.725780Z",
+  "runTimestamp": "2026-11-03T11:36:47.373873Z",
   "runDate": "2026-11-03",
   "crossCheckOk": true,
   "currencies": {
@@ -11,17 +11,17 @@
       "issues": []
     },
     "EUR": {
-      "status": "cached",
+      "status": "ok",
       "rate": "2.65",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "source": "ECB-HTML-DFR+spread",
+      "date": "2026-11-03",
       "issues": []
     },
     "GBP": {
-      "status": "cached",
+      "status": "ok",
       "rate": "3.75",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "source": "BoE-CSV",
+      "date": "2026-11-02",
       "issues": []
     },
     "JPY": {
