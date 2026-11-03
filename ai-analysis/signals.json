@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-03T08:03:09Z",
+  "generated_at": "2026-11-03T19:40:14Z",
   "signals": [
     {
-      "time": "08:01",
+      "time": "19:37",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + RBA Shift",
-      "text": "AUD/CHF trades at 0.5704, with the G10 scorecard confirming CHF as the strongest peer (+0.925% 1W avg across 6 pairs) and AUD as the weakest (-0.792% across 4 pairs), generating a 1.717% leader-to-laggard spread. Despite the RBA raising its cash rate 25bps to 4.85% today (RBA 4.85% vs SNB 0.00% — +485bp carry advantage), Governor Bullock dropped explicit tightening guidance and stated uncertainty over future rate needs, sparking an AUD selloff. Meanwhile, Swiss headline CPI rose to 1.5% in October, reinforcing SNB stability while VIX sits elevated at 21.1. Technically, AUD/USD holds just above its SMA20 at 0.6997 but remains capped below its SMA50/200 cluster (0.7066/0.7060), offering no structural trend edge to counteract CHF momentum. Trade bias: Short AUD/CHF; dovish RBA re-pricing overrides AUD's carry advantage against safe-haven CHF demand. Catalyst: US ISM Non-Manufacturing PMI at 15:00 UTC. Risk: VIX drops back below 18, relieving cross-asset stress and re-establishing the 485bp carry floor.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Hawkish ECB Surprises",
+      "text": "The G10 Currency Strength Scorecard registers a critical bilateral divergence, with CHF leading G10 peers at +0.557% across 6 pairs while AUD anchors the bottom at -0.832% across 4 pairs, creating a 1.389% leader-to-laggard spread. AUD/USD trades at 0.6967, remaining capped below its SMA50/200 cluster at 0.7061/0.7066, while AUD/CHF drops to 0.5718. Middle East supply concerns following ECB comments on persistent Iran inflation shocks are fueling broad demand for European safe havens over commodity-sensitive risk. RBA policy rate sits at 4.85% vs SNB 0.00%, creating a +485bp nominal rate differential that fails to support AUD as real rate differentials (-0.45% AUD vs -1.02% CHF) and market risk aversion dominate intraday order flow. Trade bias: Bearish AUD/CHF, targeting further downside while risk-off sentiment caps commodity FX. Catalyst: Reserve Bank of Australia policy stance clarification at the next meeting. Risk: A sharp rebound in global equity sentiment compresses the 1.389% G10 spread below the 0.80% threshold.",
       "evidence": [
-        "CHF 1W avg: +0.925% (n=6)",
-        "AUD 1W avg: -0.792% (n=4)",
-        "G10 spread: 1.717%"
+        "CHF 1W avg: +0.557% (n=6)",
+        "AUD 1W avg: -0.832% (n=4)",
+        "G10 spread: 1.389%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -17,6 +17,7 @@
         "pair": "AUD/CHF",
         "direction": -1,
         "supports": [
+          "technical regime points with the stated direction",
           "price moved 1.7 ATR with it over five sessions"
         ],
         "conflicts": [
@@ -25,20 +26,47 @@
         "read": {
           "bias": "Bullish",
           "conviction": "low",
+          "technical_alignment": "counter_trend",
+          "asof": "2026-11-02"
+        }
+      }
+    },
+    {
+      "time": "19:34",
+      "priority": "critical",
+      "title": "EUR/USD — ECB Hawkish Repricing vs Positioning Extreme",
+      "text": "ECB Executive Board Member Joachim Nagel stated that a December rate hike is very likely to be necessary, creating an immediate hawkish policy impulse while ECB's Sleijpen warned of persistent Iran inflation shocks. EUR/USD trades at 1.1194, holding below its SMA20 of 1.1200 and SMA50 of 1.1382 within a counter-trend pullback structure. CFTC COT data shows Leveraged Funds net short EUR by -99,557 contracts (pctl 2, z -1.78), placing positioning near 52-week lows even as ECB hawkish rhetoric escalates. Fed rate at 4.00% vs ECB 2.65% maintains a 135bp carry advantage for the dollar (OIS SOFR vs ESTR spread at +151bp favoring USD), but extreme speculative short positioning leaves the pair highly vulnerable to a hawkish short squeeze. Trade bias: Bullish EUR/USD on asymmetric short-squeeze potential following hawkish ECB comments. Catalyst: Euro Area CPI release on 4 November (forecast 3.4% y/y). Risk: EUR/USD breaks decisively below 1.1150 support, validating the existing speculative short trend.",
+      "evidence": [
+        "ECB Nagel: Dec hike very likely necessary",
+        "EUR COT LF net: -99,557 (pctl 2)",
+        "EUR/USD: 1.1194 (below SMA20 1.1200)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "caution",
+        "pair": "EUR/USD",
+        "direction": 1,
+        "supports": [],
+        "conflicts": [
+          "technical regime (pullback) points against the stated direction"
+        ],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
           "technical_alignment": "technical_neutral",
           "asof": "2026-11-02"
         }
       }
     },
     {
-      "time": "07:58",
+      "time": "19:32",
       "priority": "warning",
-      "title": "USD/JPY — Crowded Short + Option Skew",
-      "text": "USD/JPY trades at 157.852, hovering right above its SMA20 at 157.90 with the 200-day moving average capping upside at 158.48. OIS differentials maintain a massive carry advantage for the dollar (SOFR 3.95% vs TONA 1.23% — +272bp favors USD; Fed 4.00% vs BoJ 1.25%). Options markets display heavy downside demand, with 25d Risk Reversals printing an extreme -2.03 put skew (Saxo Bank, 1M tenor, indicative mid) while COT Leveraged Funds remain net short JPY at -19,224 contracts (94th percentile of its 52w range, z=+1.57). With VIX elevated at 21.1, the high 272bp carry spread continues to hold spot, but extreme options put skew indicates institutions are aggressively hedging against a sudden unwind toward 160.00 intervention watch levels. Trade bias: Long USD/JPY; carry advantage sustains spot above moving averages despite option tail-risk hedging. Catalyst: US JOLTS Job Openings and ISM Services PMI at 15:00 UTC. Risk: A sustained VIX surge past 25 triggers a forced carry liquidation, breaking spot below SMA20 at 157.90.",
+      "title": "USD/JPY — Crowded Carry vs Options Put Skew",
+      "text": "USD/JPY trades at 158.74, maintaining a tight range-bound structure between its SMA20 at 157.90 and SMA200 at 158.55. A +275bp policy rate differential (Fed 4.00% vs BoJ 1.25%; +272bp on OIS SOFR/TONIA basis) continues to support structural carry demand, but options markets exhibit severe hedging skew with 25d Risk Reversals at -2.01 (1M tenor), reflecting strong institutional demand for downside protection. CFTC positioning shows JPY Leveraged Funds net short -19,224 contracts (pctl 94, z +1.57), indicating crowded speculative short JPY exposure near historical limits. Spot at 158.74 remains below the critical 160.00 psychological threshold that has previously drawn MoF verbal intervention warnings. Trade bias: Long USD/JPY, carry-driven while VIX remains contained at 20.6. Catalyst: BoJ Monetary Policy Meeting Minutes release at 23:50 UTC. Risk: Spot breaks above 160.00 and triggers direct MoF FX intervention, forcing a rapid unwinding of speculative JPY shorts.",
       "evidence": [
-        "USD/JPY 25d RR: -2.03",
-        "SOFR vs TONA OIS: +272bp",
-        "JPY COT pctl(52w): 94 (z=+1.57)"
+        "USD/JPY 25d RR: -2.01 (1M tenor)",
+        "JPY COT LF net: -19,224 (pctl 94)",
+        "Fed-BoJ carry: +275bp (OIS +272bp)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -56,57 +84,14 @@
       }
     },
     {
-      "time": "07:55",
+      "time": "19:28",
       "priority": "warning",
-      "title": "NZD/USD — Retail Extreme + ESI Drag",
-      "text": "NZD/USD trades at 0.5629, pinned below its SMA20 (0.5642) and SMA50 (0.5724) within a tight 20-session range box. Retail sentiment on Retail sentiment data shows an extreme 85% long / 15% short bias, creating a severe contrarian reversal risk as retail traders attempt to catch a falling knife. Fundamental backing remains weak, as New Zealand's Economic Surprise Index sits at a strong negative -18.1 with persistent macro data misses, while COT positioning shows Leveraged Funds net short -22,722 contracts. Although the Fed (4.00%) vs RBNZ (2.75%) policy spread yields a 125bp carry advantage to the dollar, retail remains stubborn despite negative momentum. Trade bias: Bearish NZD/USD; retail extreme long positioning faces ongoing unwind pressure into weak macro fundamentals. Catalyst: New Zealand Employment Change at 21:45 UTC. Risk: Strong NZ employment data beats consensus expectations (+0.4% q/q), triggering a short-covering rally back toward 0.5700.",
+      "title": "USD/CAD — BoC Hawkish Bias vs Squeeze Setup",
+      "text": "Bank of Canada Governor Tiff Macklem stated there is likely to be a need to raise the policy rate further as Q2 GDP reached 3.3%, introducing a hawkish policy surprise against market expectations. USD/CAD trades at 1.4002, positioned below its SMA20 of 1.4110 and SMA50 of 1.4030 within a short-term reversal structure. CFTC COT data shows Leveraged Funds net short CAD by -96,952 contracts (pctl 8, z -1.55), representing a heavily crowded institutional short position facing unexpected hawkish policy guidance. While the Fed (4.00%) vs BoC (2.25%) policy spread maintains a 175bp carry advantage for USD (OIS SOFR/CORRA spread at +140bp), the asymmetric positioning distribution creates significant downside pressure on USD/CAD if rate hike expectations build. Trade bias: Bearish USD/CAD, positioning for a CAD short-covering rally following Macklem's comments. Catalyst: Canada Trade Balance release on 4 November ( forecast 0.488B). Risk: USD/CAD reclaims the SMA20 at 1.4110, invalidating the bearish reversal pattern.",
       "evidence": [
-        "NZD/USD retail: 85% Long",
-        "NZD ESI Index: -18.1",
-        "NZD/USD: 0.5629 (below SMA20 0.5642)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "NZD/USD",
-        "direction": -1,
-        "supports": [
-          "price moved 1.5 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-02"
-        }
-      }
-    },
-    {
-      "time": "07:50",
-      "priority": "warning",
-      "title": "EUR/USD — Rates Split + Volatility Premium",
-      "text": "EUR/USD sits at 1.1202, maintaining a counter-trend pullback posture below its SMA20 (1.1200) and SMA50 (1.1382). US 5Y yield decomposition shows nominal yields falling 31bp over 20D (FRED, as of Oct 29) split between real yields (-42bp) and breakevens (+11bp) — a real-yield-led decline that moderates broad USD momentum. However, OIS benchmarks confirm a 151bp carry premium in favor of the dollar (SOFR 3.95% vs €STR 2.44%; Fed 4.00% vs ECB 2.65%). 1M ATM Implied Volatility for EUR/USD sits at 6.0% against 30-day Realized Volatility of 4.4% (Saxo Bank FX Options Analytics), yielding a +1.6% Vol Risk Premium as options markets price election and geopolitical headline protection ahead of key US economic releases. Trade bias: Range/Neutral EUR/USD; falling US real yields offset Eurozone macro weakness and dollar carry dominance. Catalyst: Euro Area CPI YoY at 10:00 UTC followed by US ADP/ISM data. Risk: Euro Area CPI misses expectations (<3.4%), widening the rate differential expectation and forcing spot below 1.1180.",
-      "evidence": [
-        "SOFR vs €STR OIS: +151bp",
-        "EUR/USD VRP: +1.6% (IV 6.0% vs HV30 4.4%)",
-        "US 5Y 20D Real Yield: -42bp (FRED)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
-      }
-    },
-    {
-      "time": "07:46",
-      "priority": "info",
-      "title": "USD/CAD — COT Short vs Yield Spread Compression",
-      "text": "USD/CAD trades at 1.3963, dropping below its SMA20 (1.4110) and SMA50 (1.4030) as short-term technical structure shows reversal risk against the preceding uptrend. OIS rates show for the greenback (SOFR 3.95% vs CORRA 2.55%; Fed 4.00% vs BoC 2.25%), but 2Y yield spreads have narrowed by +28bp in CAD's favor over the last 5 sessions to -129bp. CFTC COT data highlights CAD Leveraged Funds at a net short position of -96,952 contracts (pctl 8, z=-1.55), indicating stretched institutional short positioning that leaves the pair vulnerable to mean-reversion squeezes if Canadian data continues to stabilize. Trade bias: Bearish USD/CAD; technical breakdown below key moving averages supported by 2Y yield momentum and crowded CAD spec shorts. Catalyst: US & Canada Trade Balance releases at 13:30 UTC. Risk: Crude oil prices reverse intraday gains (+1.30% WTI at $97.7), reopening downside risks for the Canadian dollar back above 1.4030.",
-      "evidence": [
-        "CAD COT pctl(52w): 8 (z=-1.55)",
-        "CAD-US 2Y Spread 5D Δ: +28bp",
-        "SOFR vs CORRA OIS: +140bp"
+        "BoC Macklem: Need to raise rates further",
+        "CAD COT LF net: -96,952 (pctl 8)",
+        "USD/CAD: 1.4002 (below SMA50 1.4030)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -123,6 +108,23 @@
           "technical_alignment": "technical_neutral",
           "asof": "2026-11-02"
         }
+      }
+    },
+    {
+      "time": "19:24",
+      "priority": "info",
+      "title": "USD/SEK — Institutional Positioning vs Retail Extreme Divergence",
+      "text": "Retail sentiment data retail sentiment shows USD/SEK at 100% long / 0% short, reaching an absolute retail crowd extreme. USD/SEK trades at 9.783, positioned below its SMA20 of 9.928 and SMA50 of 9.823 following a wide-range bearish bar that signals short-term trend reversal risk. Sweden's Economic Surprise Index sits at +20.0, reflecting strong positive macroeconomic data beats that support SEK strength against the greenback. CFTC COT data for USD shows Leveraged Funds net long +3,159 contracts (pctl 87), establishing a clear divergence where retail traders are heavily buying USD/SEK while institutional momentum and macroeconomic data flow favor SEK. Trade bias: Bearish USD/SEK, aligned with macro data momentum and contrarian to retail positioning. Catalyst: Riksbank policy path guidance and upcoming Swedish inflation metrics. Risk: Broad USD rally pushes spot back above the 9.928 SMA20 level, neutralizing the short-term technical breakdown.",
+      "evidence": [
+        "USD/SEK Retail: 100% Long / 0% Short",
+        "SEK ESI: +20.0 (strong positive data beats)",
+        "USD/SEK: 9.783 (below SMA20 9.928)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unverified",
+        "pair": "USD/SEK",
+        "direction": -1
       }
     }
   ]
