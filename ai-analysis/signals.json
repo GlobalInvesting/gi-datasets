@@ -1,53 +1,49 @@
 {
-  "generated_at": "2026-11-03T00:03:15Z",
+  "generated_at": "2026-11-03T08:03:09Z",
   "signals": [
     {
-      "time": "00:00",
+      "time": "08:01",
       "priority": "critical",
-      "title": "CHF/NOK — G10 Bilateral Theme + ESI Divergence",
-      "text": "CHF outperforms across G10 with a 1W average gain of +0.672% across 6 pairs, while NOK trails at -0.651% across 2 pairs, establishing a 1.323% G10 leader-to-laggard spread. CHF ESI sits at +28.6 (strong positive) against NOK ESI at +14.9, supporting the structural flow gap despite a -403bp 10Y sovereign yield deficit (CH 10Y at 0.47% vs NOK 10Y at 4.42%). USD/CHF trades below its SMA20 (0.8274) and SMA50 (0.8219) at 0.8186 following a 1.3 ATR bearish engulfing structure, while USD/NOK trades at 9.301 below its SMA20/50/200 cluster. CHF safe-haven demand dominates cross performance in the current elevated volatility environment with VIX at 21.1. Trade bias: Short NOK/CHF via cross-asset safe-haven flows and economic surprise outperformance. Catalyst: Switzerland CPI release on 3 Nov at 07:30 UTC. Risk: A rebound in WTI oil above $100/bbl restores NOK carry demand and compresses the bilateral spread below 0.80%.",
+      "title": "AUD/CHF — G10 Bilateral Theme + RBA Shift",
+      "text": "AUD/CHF trades at 0.5704, with the G10 scorecard confirming CHF as the strongest peer (+0.925% 1W avg across 6 pairs) and AUD as the weakest (-0.792% across 4 pairs), generating a 1.717% leader-to-laggard spread. Despite the RBA raising its cash rate 25bps to 4.85% today (RBA 4.85% vs SNB 0.00% — +485bp carry advantage), Governor Bullock dropped explicit tightening guidance and stated uncertainty over future rate needs, sparking an AUD selloff. Meanwhile, Swiss headline CPI rose to 1.5% in October, reinforcing SNB stability while VIX sits elevated at 21.1. Technically, AUD/USD holds just above its SMA20 at 0.6997 but remains capped below its SMA50/200 cluster (0.7066/0.7060), offering no structural trend edge to counteract CHF momentum. Trade bias: Short AUD/CHF; dovish RBA re-pricing overrides AUD's carry advantage against safe-haven CHF demand. Catalyst: US ISM Non-Manufacturing PMI at 15:00 UTC. Risk: VIX drops back below 18, relieving cross-asset stress and re-establishing the 485bp carry floor.",
       "evidence": [
-        "CHF 1W avg: +0.672% (n=6)",
-        "NOK 1W avg: -0.651% (n=2)",
-        "G10 spread: 1.323%"
+        "CHF 1W avg: +0.925% (n=6)",
+        "AUD 1W avg: -0.792% (n=4)",
+        "G10 spread: 1.717%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unverified",
-        "pair": "NOK/CHF",
-        "direction": -1
+        "verdict": "caution",
+        "pair": "AUD/CHF",
+        "direction": -1,
+        "supports": [
+          "price moved 1.7 ATR with it over five sessions"
+        ],
+        "conflicts": [
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
+        ],
+        "read": {
+          "bias": "Bullish",
+          "conviction": "low",
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-02"
+        }
       }
     },
     {
-      "time": "00:03",
+      "time": "07:58",
       "priority": "warning",
-      "title": "USD/JPY — Options Skew + Carry Tension",
-      "text": "USD/JPY trades at 157.91, holding above its SMA20 (157.90) and SMA50 (157.39) while remaining below the 200-day average at 158.48. OIS carry of +272bp (SOFR 3.95% vs TONA 1.23%) continues to support the pair, but 1M 25d Risk Reversals print at -2.03 (Saxo Bank, indicative mid), signaling extreme institutional demand for JPY call/USD put downside protection. CFTC data shows JPY Leveraged Funds net short at -19,224 contracts (week ending Oct 27), placing positioning in the 94th percentile of its 52-week range (z = +1.57). 1M ATM implied volatility sits at 7.2% against 30-day realized volatility of 5.2%, generating a +1.9% Vol Risk Premium that prices heightened tail risk. 160.00 remains the key level that has previously triggered intervention warnings. Trade bias: Neutral USD/JPY; structural carry bid directly contested by aggressive options downside hedging. Catalyst: BoJ Monetary Policy Meeting Minutes on 3 Nov at 23:50 UTC. Risk: VIX breaking above 25 triggers an unwinding of leveraged carry positions, forcing USD/JPY through 157.00.",
+      "title": "USD/JPY — Crowded Short + Option Skew",
+      "text": "USD/JPY trades at 157.852, hovering right above its SMA20 at 157.90 with the 200-day moving average capping upside at 158.48. OIS differentials maintain a massive carry advantage for the dollar (SOFR 3.95% vs TONA 1.23% — +272bp favors USD; Fed 4.00% vs BoJ 1.25%). Options markets display heavy downside demand, with 25d Risk Reversals printing an extreme -2.03 put skew (Saxo Bank, 1M tenor, indicative mid) while COT Leveraged Funds remain net short JPY at -19,224 contracts (94th percentile of its 52w range, z=+1.57). With VIX elevated at 21.1, the high 272bp carry spread continues to hold spot, but extreme options put skew indicates institutions are aggressively hedging against a sudden unwind toward 160.00 intervention watch levels. Trade bias: Long USD/JPY; carry advantage sustains spot above moving averages despite option tail-risk hedging. Catalyst: US JOLTS Job Openings and ISM Services PMI at 15:00 UTC. Risk: A sustained VIX surge past 25 triggers a forced carry liquidation, breaking spot below SMA20 at 157.90.",
       "evidence": [
         "USD/JPY 25d RR: -2.03",
-        "JPY COT pctl(52w): 94 (lev net -19,224)",
-        "OIS spread: +272bp (SOFR 3.95% vs TONA 1.23%)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "00:04",
-      "priority": "warning",
-      "title": "AUD/USD — Positioning + Volatility + RBA Policy Risk",
-      "text": "AUD/USD trades at 0.7002, holding just above its 20-day moving average (0.6997) while capped beneath the SMA50/200 resistance region at 0.7066/0.7060. CFTC positioning shows Leveraged Funds net long +43,927 contracts (week ending Oct 27), representing a 50th percentile rank (z = +0.27) with 4-week net flows turning negative (-11,187 contracts). Retail sentiment on Retail sentiment data shows 65% short positioning, creating an institutional-versus-retail divergence near key technical boundaries. The OIS spread favors AUD by -65bp (SOFR 3.95% vs AONIA 4.60%), with Fed policy at 4.00% vs RBA at 4.60%. 1M IV runs at 6.8% against HV30 of 6.5%, pricing a modest +0.4% volatility risk premium ahead of policy decisions. Trade bias: Long AUD/USD; monetary policy carry advantage offset by stalling speculative flow momentum. Catalyst: RBA Interest Rate Decision on 3 Nov at 04:30 UTC. Risk: RBA delivers a surprise hold or dovish guidance, triggering downside liquidation toward 0.6950.",
-      "evidence": [
-        "AUD COT LF net: +43,927 (4W Δ -11,187)",
-        "Retail sentiment: 65% short",
-        "OIS carry: -65bp (SOFR 3.95% vs AONIA 4.60%)"
+        "SOFR vs TONA OIS: +272bp",
+        "JPY COT pctl(52w): 94 (z=+1.57)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "AUD/USD",
+        "pair": "USD/JPY",
         "direction": 1,
         "supports": [],
         "conflicts": [],
@@ -60,20 +56,73 @@
       }
     },
     {
-      "time": "00:08",
-      "priority": "info",
-      "title": "USD/NOK — Retail Extreme Divergence",
-      "text": "USD/NOK trades at 9.301, positioned below its SMA20 (9.407), SMA50 (9.402), and SMA200 (9.496) following a wide-range daily bar. Retail sentiment data retail sentiment shows an extreme 99% long bias (1% short), representing a near-total retail consensus facing a extended technical downtrend. CFTC positioning shows broader USD Leveraged Funds net long +3,159 contracts (87th percentile, z = +0.94), while NOK ESI stands at +14.9 backed by restrictive real policy rates (+1.82%). 2Y yield differentials have shifted +20bp in NOK's favor over 20 sessions to +8bp over US Treasuries. The extreme retail long concentration exposes retail holders to capitulation risk if support fails. Trade bias: Bearish USD/NOK, contrarian to extreme retail long positioning. Catalyst: US ISM Non-Manufacturing PMI on 3 Nov at 15:00 UTC. Risk: A sharp drop in WTI crude oil below $90/bbl forces NOK weakening and validates retail long positioning.",
+      "time": "07:55",
+      "priority": "warning",
+      "title": "NZD/USD — Retail Extreme + ESI Drag",
+      "text": "NZD/USD trades at 0.5629, pinned below its SMA20 (0.5642) and SMA50 (0.5724) within a tight 20-session range box. Retail sentiment on Retail sentiment data shows an extreme 85% long / 15% short bias, creating a severe contrarian reversal risk as retail traders attempt to catch a falling knife. Fundamental backing remains weak, as New Zealand's Economic Surprise Index sits at a strong negative -18.1 with persistent macro data misses, while COT positioning shows Leveraged Funds net short -22,722 contracts. Although the Fed (4.00%) vs RBNZ (2.75%) policy spread yields a 125bp carry advantage to the dollar, retail remains stubborn despite negative momentum. Trade bias: Bearish NZD/USD; retail extreme long positioning faces ongoing unwind pressure into weak macro fundamentals. Catalyst: New Zealand Employment Change at 21:45 UTC. Risk: Strong NZ employment data beats consensus expectations (+0.4% q/q), triggering a short-covering rally back toward 0.5700.",
       "evidence": [
-        "USD/NOK Retail: 99% long / 1% short",
-        "USD/NOK price: 9.301 (below SMA20/50/200)",
-        "NOK ESI: +14.9"
+        "NZD/USD retail: 85% Long",
+        "NZD ESI Index: -18.1",
+        "NZD/USD: 0.5629 (below SMA20 0.5642)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unverified",
-        "pair": "USD/NOK",
-        "direction": -1
+        "verdict": "unconfirmed",
+        "pair": "NZD/USD",
+        "direction": -1,
+        "supports": [
+          "price moved 1.5 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-02"
+        }
+      }
+    },
+    {
+      "time": "07:50",
+      "priority": "warning",
+      "title": "EUR/USD — Rates Split + Volatility Premium",
+      "text": "EUR/USD sits at 1.1202, maintaining a counter-trend pullback posture below its SMA20 (1.1200) and SMA50 (1.1382). US 5Y yield decomposition shows nominal yields falling 31bp over 20D (FRED, as of Oct 29) split between real yields (-42bp) and breakevens (+11bp) — a real-yield-led decline that moderates broad USD momentum. However, OIS benchmarks confirm a 151bp carry premium in favor of the dollar (SOFR 3.95% vs €STR 2.44%; Fed 4.00% vs ECB 2.65%). 1M ATM Implied Volatility for EUR/USD sits at 6.0% against 30-day Realized Volatility of 4.4% (Saxo Bank FX Options Analytics), yielding a +1.6% Vol Risk Premium as options markets price election and geopolitical headline protection ahead of key US economic releases. Trade bias: Range/Neutral EUR/USD; falling US real yields offset Eurozone macro weakness and dollar carry dominance. Catalyst: Euro Area CPI YoY at 10:00 UTC followed by US ADP/ISM data. Risk: Euro Area CPI misses expectations (<3.4%), widening the rate differential expectation and forcing spot below 1.1180.",
+      "evidence": [
+        "SOFR vs €STR OIS: +151bp",
+        "EUR/USD VRP: +1.6% (IV 6.0% vs HV30 4.4%)",
+        "US 5Y 20D Real Yield: -42bp (FRED)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
+      }
+    },
+    {
+      "time": "07:46",
+      "priority": "info",
+      "title": "USD/CAD — COT Short vs Yield Spread Compression",
+      "text": "USD/CAD trades at 1.3963, dropping below its SMA20 (1.4110) and SMA50 (1.4030) as short-term technical structure shows reversal risk against the preceding uptrend. OIS rates show for the greenback (SOFR 3.95% vs CORRA 2.55%; Fed 4.00% vs BoC 2.25%), but 2Y yield spreads have narrowed by +28bp in CAD's favor over the last 5 sessions to -129bp. CFTC COT data highlights CAD Leveraged Funds at a net short position of -96,952 contracts (pctl 8, z=-1.55), indicating stretched institutional short positioning that leaves the pair vulnerable to mean-reversion squeezes if Canadian data continues to stabilize. Trade bias: Bearish USD/CAD; technical breakdown below key moving averages supported by 2Y yield momentum and crowded CAD spec shorts. Catalyst: US & Canada Trade Balance releases at 13:30 UTC. Risk: Crude oil prices reverse intraday gains (+1.30% WTI at $97.7), reopening downside risks for the Canadian dollar back above 1.4030.",
+      "evidence": [
+        "CAD COT pctl(52w): 8 (z=-1.55)",
+        "CAD-US 2Y Spread 5D Δ: +28bp",
+        "SOFR vs CORRA OIS: +140bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "USD/CAD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-02"
+        }
       }
     }
   ]
