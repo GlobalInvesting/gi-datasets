@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-03T03:00:38Z",
+  "generatedAt": "2026-11-03T14:32:26Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 216,
   "aliases": [
     {
       "currency": "USD",
@@ -353,16 +353,16 @@
       "secondary_title": "United States PPI MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 0.0,
-          "forecast_secondary": 0.5,
-          "actual_primary": 1.3,
-          "actual_secondary": 1.3,
-          "previous_primary": 0.4,
-          "previous_secondary": 0.5,
-          "actual_secondary_raw": "1.3%",
-          "forecast_secondary_raw": "0.5%",
-          "previous_secondary_raw": "0.5%"
+          "dateISO": "2026-11-13",
+          "forecast_primary": 0.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.3,
+          "previous_secondary": 1.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.3%"
         }
       }
     },
@@ -372,16 +372,16 @@
       "secondary_title": "United States Core PPI MoM",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
+          "dateISO": "2026-11-13",
           "forecast_primary": 0.4,
-          "forecast_secondary": 0.3,
-          "actual_primary": 0.7,
-          "actual_secondary": 0.7,
-          "previous_primary": 0.2,
-          "previous_secondary": 0.2,
-          "actual_secondary_raw": "0.7%",
-          "forecast_secondary_raw": "0.3%",
-          "previous_secondary_raw": "0.2%"
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0.7%"
         }
       }
     },
@@ -391,16 +391,16 @@
       "secondary_title": "United States PPI YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": 4.8,
-          "forecast_secondary": 5.4,
-          "actual_primary": 6.3,
-          "actual_secondary": 6.3,
-          "previous_primary": 5.4,
-          "previous_secondary": 5.6,
-          "actual_secondary_raw": "6.3%",
-          "forecast_secondary_raw": "5.4%",
-          "previous_secondary_raw": "5.6%"
+          "dateISO": "2026-11-13",
+          "forecast_primary": 7.3,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 6.3,
+          "previous_secondary": 6.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "6.3%"
         }
       }
     },
@@ -410,16 +410,16 @@
       "secondary_title": "Canada Manufacturing Sales MoM Final",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
-          "forecast_primary": -1.1,
-          "forecast_secondary": 1.1,
-          "actual_primary": 1.5,
-          "actual_secondary": 1.5,
-          "previous_primary": -0.4,
-          "previous_secondary": -0.4,
-          "actual_secondary_raw": "1.5%",
-          "forecast_secondary_raw": "1.1%",
-          "previous_secondary_raw": "-0.4%"
+          "dateISO": "2026-11-13",
+          "forecast_primary": 0.1,
+          "forecast_secondary": -0.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.5,
+          "previous_secondary": 1.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.5%",
+          "previous_secondary_raw": "1.5%"
         }
       }
     },
@@ -429,16 +429,16 @@
       "secondary_title": "Canada Wholesale Sales MoM Final",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-15",
+          "dateISO": "2026-11-13",
           "forecast_primary": 0.3,
-          "forecast_secondary": -1.5,
-          "actual_primary": -1.6,
-          "actual_secondary": -1.6,
-          "previous_primary": 0.3,
-          "previous_secondary": 0.3,
-          "actual_secondary_raw": "-1.6%",
-          "forecast_secondary_raw": "-1.5%",
-          "previous_secondary_raw": "0.3%"
+          "forecast_secondary": -0.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -1.6,
+          "previous_secondary": -1.6,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-0.1%",
+          "previous_secondary_raw": "-1.6%"
         }
       }
     },
@@ -659,13 +659,13 @@
         "secondary": {
           "dateISO": "2026-11-04",
           "forecast_primary": null,
-          "forecast_secondary": 104.5,
+          "forecast_secondary": 104.6,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 104.31,
           "previous_secondary": 104.31,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "104.5",
+          "forecast_secondary_raw": "104.6",
           "previous_secondary_raw": "104.31"
         }
       }
@@ -1605,21 +1605,8 @@
           "actual_secondary_raw": "2.7%",
           "forecast_secondary_raw": "2.6%",
           "previous_secondary_raw": "2.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.7,
-          "actual_yahoo": 2.7,
-          "previous_primary": null,
-          "previous_yahoo": 2.5,
-          "actual_yahoo_raw": "2.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.5"
         }
-      },
-      "yahoo_title": "CaseShiller 20 YY NSA"
+      }
     },
     {
       "currency": "USD",
@@ -2735,18 +2722,18 @@
     {
       "currency": "EUR",
       "primary_title": "Euro Area GDP q/q",
-      "secondary_title": "Euro Area GDP Growth Rate QoQ Flash",
+      "secondary_title": "Euro Area GDP Growth Rate QoQ 2nd Est",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 0.3,
-          "forecast_secondary": 0.1,
-          "actual_primary": 0.4,
-          "actual_secondary": 0.4,
-          "previous_primary": 0.6,
+          "dateISO": "2026-11-13",
+          "forecast_primary": 0.4,
+          "forecast_secondary": 0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.4,
           "previous_secondary": 0.6,
-          "actual_secondary_raw": "0.4%",
-          "forecast_secondary_raw": "0.1%",
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.4%",
           "previous_secondary_raw": "0.6%"
         }
       }
@@ -2754,18 +2741,18 @@
     {
       "currency": "EUR",
       "primary_title": "Euro Area GDP y/y",
-      "secondary_title": "Euro Area GDP Growth Rate YoY Flash",
+      "secondary_title": "Euro Area GDP Growth Rate YoY 2nd Est",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 1.2,
-          "forecast_secondary": 1.1,
-          "actual_primary": 1.3,
-          "actual_secondary": 1.3,
-          "previous_primary": 1.2,
+          "dateISO": "2026-11-13",
+          "forecast_primary": 1.3,
+          "forecast_secondary": 1.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.3,
           "previous_secondary": 1.2,
-          "actual_secondary_raw": "1.3%",
-          "forecast_secondary_raw": "1.1%",
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.3%",
           "previous_secondary_raw": "1.2%"
         }
       }
@@ -2906,25 +2893,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "United States ISM Manufacturing PMI",
-      "secondary_title": "United States ISM Manufacturing New Orders",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 54.7,
-          "forecast_secondary": 54.4,
-          "actual_primary": 55.5,
-          "actual_secondary": 55.5,
-          "previous_primary": 54.5,
-          "previous_secondary": 55.3,
-          "actual_secondary_raw": "55.5",
-          "forecast_secondary_raw": "54.4",
-          "previous_secondary_raw": "55.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "United States ISM Manufacturing Prices Paid",
       "secondary_title": "United States ISM Manufacturing Prices",
       "evidence": {
@@ -2956,25 +2924,6 @@
       "yahoo_title": "ISM Mfg Prices Paid"
     },
     {
-      "currency": "USD",
-      "primary_title": "United States ISM Manufacturing New Orders",
-      "secondary_title": "United States ISM Manufacturing PMI",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 54.4,
-          "forecast_secondary": 54.7,
-          "actual_primary": 55.5,
-          "actual_secondary": 55.5,
-          "previous_primary": 55.3,
-          "previous_secondary": 54.5,
-          "actual_secondary_raw": "55.5",
-          "forecast_secondary_raw": "54.7",
-          "previous_secondary_raw": "54.5"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "RBA Interest Rate Decision",
       "secondary_title": "Australia RBA Interest Rate Decision",
@@ -2983,13 +2932,45 @@
           "dateISO": "2026-11-03",
           "forecast_primary": null,
           "forecast_secondary": 4.85,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 4.85,
+          "actual_secondary": 4.85,
           "previous_primary": 4.6,
           "previous_secondary": 4.6,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.85%",
           "forecast_secondary_raw": "4.85%",
           "previous_secondary_raw": "4.6%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 4.85,
+          "actual_yahoo": 4.85,
+          "previous_primary": 4.6,
+          "previous_yahoo": 4.6,
+          "actual_yahoo_raw": "4.85",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "4.6"
+        }
+      },
+      "yahoo_title": "RBA Cash Rate"
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand GDT Price Index",
+      "secondary_title": "New Zealand Global Dairy Trade Price Index",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 0.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.5,
+          "previous_secondary": 2.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "2.5%"
         }
       }
     },
@@ -3013,6 +2994,63 @@
       }
     },
     {
+      "currency": "NZD",
+      "primary_title": "New Zealand Employment Change q/q",
+      "secondary_title": "New Zealand Employment Change QoQ",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 0.4,
+          "forecast_secondary": 0.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.5,
+          "previous_secondary": 0.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.4%",
+          "previous_secondary_raw": "0.5%"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Labor Cost Index q/q",
+      "secondary_title": "New Zealand Labour Costs Index QoQ",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 0.7,
+          "forecast_secondary": 0.6,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.7,
+          "previous_secondary": 0.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.6%",
+          "previous_secondary_raw": "0.7%"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Labor Cost Index y/y",
+      "secondary_title": "New Zealand Labour Costs Index YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 2.1,
+          "forecast_secondary": 2.2,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.1,
+          "previous_secondary": 2.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.2%",
+          "previous_secondary_raw": "2.1%"
+        }
+      }
+    },
+    {
       "currency": "JPY",
       "primary_title": "BoJ Monetary Base y/y",
       "secondary_title": "Japan Monetary Base YoY",
@@ -3028,6 +3066,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "-15.2%"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Silf/Swedbank Services PMI",
+      "secondary_title": "Sweden Services PMI",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 55.1,
+          "forecast_secondary": 57.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 57.4,
+          "previous_secondary": 57.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "57",
+          "previous_secondary_raw": "57.4"
         }
       }
     },
@@ -3077,13 +3134,13 @@
         "secondary": {
           "dateISO": "2026-11-05",
           "forecast_primary": 1.1,
-          "forecast_secondary": 1.7,
+          "forecast_secondary": 2.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.9,
           "previous_secondary": 1.9,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1.7%",
+          "forecast_secondary_raw": "2.3%",
           "previous_secondary_raw": "1.9%"
         }
       }
@@ -3096,13 +3153,13 @@
         "secondary": {
           "dateISO": "2026-11-05",
           "forecast_primary": 9.8,
-          "forecast_secondary": 10.1,
+          "forecast_secondary": 10.7,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 8.2,
           "previous_secondary": 8.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "10.1%",
+          "forecast_secondary_raw": "10.7%",
           "previous_secondary_raw": "8.2%"
         }
       }
@@ -3180,6 +3237,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "3.9%",
           "previous_secondary_raw": "5.2%"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Manufacturing Production m/m",
+      "secondary_title": "Norway Manufacturing Production MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 0.4,
+          "forecast_secondary": 0.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -0.4,
+          "previous_secondary": -0.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.5%",
+          "previous_secondary_raw": "-0.4%"
         }
       }
     },
@@ -3298,6 +3374,25 @@
       }
     },
     {
+      "currency": "NOK",
+      "primary_title": "Norway PPI y/y",
+      "secondary_title": "Norway PPI YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 58.2,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 48.8,
+          "previous_secondary": 48.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "48.8%"
+        }
+      }
+    },
+    {
       "currency": "JPY",
       "primary_title": "Japan Household Spending y/y",
       "secondary_title": "Japan Household Spending YoY",
@@ -3393,6 +3488,44 @@
       }
     },
     {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI m/m",
+      "secondary_title": "Norway Core Inflation Rate MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 0.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.2,
+          "previous_secondary": 0.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0.2%"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI y/y",
+      "secondary_title": "Norway Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 2.5,
+          "forecast_secondary": 2.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.0,
+          "previous_secondary": 3.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.7%",
+          "previous_secondary_raw": "3%"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia Westpac-MI Consumer Sentiment m/m",
       "secondary_title": "Australia Westpac Consumer Confidence Change",
@@ -3469,6 +3602,25 @@
       }
     },
     {
+      "currency": "NZD",
+      "primary_title": "New Zealand Visitor Arrivals y/y",
+      "secondary_title": "New Zealand Visitor Arrivals YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-11",
+          "forecast_primary": 5.2,
+          "forecast_secondary": 4.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 8.0,
+          "previous_secondary": 8.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "4.4%",
+          "previous_secondary_raw": "8%"
+        }
+      }
+    },
+    {
       "currency": "GBP",
       "primary_title": "United Kingdom GDP q/q",
       "secondary_title": "United Kingdom GDP Growth Rate QoQ Prel",
@@ -3503,6 +3655,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.7%",
           "previous_secondary_raw": "1.4%"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area Employment Change q/q",
+      "secondary_title": "Euro Area Employment Change QoQ Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-13",
+          "forecast_primary": 0.2,
+          "forecast_secondary": 0.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.1,
+          "previous_secondary": 0.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0%",
+          "previous_secondary_raw": "0.1%"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Euro Area Employment Change y/y",
+      "secondary_title": "Euro Area Employment Change YoY Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-13",
+          "forecast_primary": 0.5,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.5,
+          "previous_secondary": 0.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
+          "previous_secondary_raw": "0.5%"
         }
       }
     },
@@ -4244,6 +4434,44 @@
           "actual_yahoo_raw": "-7.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "5.6"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland CPI m/m",
+      "yahoo_title": "CPI MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": -0.2,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 0.2,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "CHF",
+      "primary_title": "Switzerland CPI y/y",
+      "yahoo_title": "CPI YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 0.9,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 1.5,
+          "previous_primary": 1.0,
+          "previous_yahoo": 1.0,
+          "actual_yahoo_raw": "1.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1"
         }
       }
     },
