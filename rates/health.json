@@ -1,19 +1,19 @@
 {
-  "runTimestamp": "2026-11-03T12:56:26.702206Z",
+  "runTimestamp": "2026-11-03T16:01:19.746661Z",
   "runDate": "2026-11-03",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
-      "status": "cached",
+      "status": "ok",
       "rate": "4.00",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "source": "NYFed-EFFR",
+      "date": "2026-11-02",
       "issues": []
     },
     "EUR": {
-      "status": "ok",
+      "status": "cached",
       "rate": "2.65",
-      "source": "ECB-HTML-DFR+spread",
+      "source": "cached-file",
       "date": "2026-11-03",
       "issues": []
     },
@@ -75,6 +75,8 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "EUR: kept cached 2026-11-03 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
