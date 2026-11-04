@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-04T14:46:41Z",
+  "generatedAt": "2026-11-04T18:10:01Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 207,
+  "aliasCount": 214,
   "aliases": [
     {
       "currency": "USD",
@@ -1419,13 +1419,13 @@
         "secondary": {
           "dateISO": "2026-11-09",
           "forecast_primary": 120.0,
-          "forecast_secondary": null,
+          "forecast_secondary": 118.0,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 118.8,
           "previous_secondary": 118.8,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "118",
           "previous_secondary_raw": "118.8"
         }
       }
@@ -1573,21 +1573,8 @@
           "actual_secondary_raw": "-0.6%",
           "forecast_secondary_raw": "-3.5%",
           "previous_secondary_raw": "5.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -1.4,
-          "forecast_yahoo": null,
-          "actual_primary": -0.6,
-          "actual_yahoo": -0.6,
-          "previous_primary": 6.4,
-          "previous_yahoo": 6.4,
-          "actual_yahoo_raw": "-0.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.4"
         }
-      },
-      "yahoo_title": "New Home Sales Chg MM"
+      }
     },
     {
       "currency": "USD",
@@ -2886,7 +2873,7 @@
           "dateISO": "2026-11-04",
           "forecast_primary": null,
           "forecast_secondary": 57.9,
-          "actual_primary": null,
+          "actual_primary": 58.8,
           "actual_secondary": 56.1,
           "previous_primary": null,
           "previous_secondary": 58.8,
@@ -2905,7 +2892,7 @@
           "dateISO": "2026-11-04",
           "forecast_primary": null,
           "forecast_secondary": 57.6,
-          "actual_primary": null,
+          "actual_primary": 55.9,
           "actual_secondary": 55.9,
           "previous_primary": null,
           "previous_secondary": 58.4,
@@ -3360,14 +3347,52 @@
         "secondary": {
           "dateISO": "2026-11-11",
           "forecast_primary": null,
-          "forecast_secondary": null,
+          "forecast_secondary": 54.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 60.4,
           "previous_secondary": 60.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "54.5%",
           "previous_secondary_raw": "60.4%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Business Investment q/q",
+      "secondary_title": "United Kingdom Business Investment QoQ Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": -1.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.8,
+          "previous_secondary": 1.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.8%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Business Investment y/y",
+      "secondary_title": "United Kingdom Business Investment YoY Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": 2.0,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 5.2,
+          "previous_secondary": 5.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "5.2%"
         }
       }
     },
@@ -4223,6 +4248,101 @@
           "actual_yahoo_raw": "55.7",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "57.4"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Non-Manufacturing PMI",
+      "yahoo_title": "ISM N-Mfg PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 55.2,
+          "forecast_yahoo": null,
+          "actual_primary": 54.5,
+          "actual_yahoo": 54.5,
+          "previous_primary": 54.9,
+          "previous_yahoo": 54.9,
+          "actual_yahoo_raw": "54.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "54.9"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Non-Manufacturing Employment",
+      "yahoo_title": "ISM N-Mfg Employment Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 48.3,
+          "forecast_yahoo": null,
+          "actual_primary": 51.4,
+          "actual_yahoo": 51.4,
+          "previous_primary": 50.1,
+          "previous_yahoo": 50.1,
+          "actual_yahoo_raw": "51.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "50.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Non-Manufacturing New Orders",
+      "yahoo_title": "ISM N-Mfg New Orders Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 59.6,
+          "forecast_yahoo": null,
+          "actual_primary": 55.9,
+          "actual_yahoo": 55.9,
+          "previous_primary": 59.8,
+          "previous_yahoo": 59.8,
+          "actual_yahoo_raw": "55.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "59.8"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Non-Manufacturing Prices Paid",
+      "yahoo_title": "ISM N-Mfg Price Paid Idx",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 69.5,
+          "forecast_yahoo": null,
+          "actual_primary": 73.0,
+          "actual_yahoo": 73.0,
+          "previous_primary": 74.0,
+          "previous_yahoo": 74.0,
+          "actual_yahoo_raw": "73",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "74"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States ISM Non-Manufacturing Business Activity",
+      "yahoo_title": "ISM N-Mfg Bus Act",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 58.5,
+          "forecast_yahoo": null,
+          "actual_primary": 53.8,
+          "actual_yahoo": 53.8,
+          "previous_primary": 56.5,
+          "previous_yahoo": 56.5,
+          "actual_yahoo_raw": "53.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "56.5"
         }
       }
     },
