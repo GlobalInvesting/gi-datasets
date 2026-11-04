@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-04T01:35:18Z",
+  "generatedAt": "2026-11-04T14:46:41Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 208,
+  "aliasCount": 207,
   "aliases": [
     {
       "currency": "USD",
@@ -374,13 +374,13 @@
         "secondary": {
           "dateISO": "2026-11-13",
           "forecast_primary": 0.1,
-          "forecast_secondary": -0.5,
+          "forecast_secondary": 0.1,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.5,
           "previous_secondary": 1.5,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.5%",
+          "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "1.5%"
         }
       }
@@ -393,13 +393,13 @@
         "secondary": {
           "dateISO": "2026-11-13",
           "forecast_primary": 0.3,
-          "forecast_secondary": -0.1,
+          "forecast_secondary": 0.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -1.6,
           "previous_secondary": -1.6,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-0.1%",
+          "forecast_secondary_raw": "0.5%",
           "previous_secondary_raw": "-1.6%"
         }
       }
@@ -603,11 +603,11 @@
           "dateISO": "2026-11-04",
           "forecast_primary": 2.5,
           "forecast_secondary": 2.6,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 2.5,
+          "actual_secondary": 2.5,
           "previous_primary": 2.5,
           "previous_secondary": 2.5,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "2.5%",
           "forecast_secondary_raw": "2.6%",
           "previous_secondary_raw": "2.5%"
         }
@@ -622,11 +622,11 @@
           "dateISO": "2026-11-04",
           "forecast_primary": null,
           "forecast_secondary": 104.6,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 104.77,
+          "actual_secondary": 104.77,
           "previous_primary": 104.31,
           "previous_secondary": 104.31,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "104.77",
           "forecast_secondary_raw": "104.6",
           "previous_secondary_raw": "104.31"
         }
@@ -1516,21 +1516,8 @@
           "actual_secondary_raw": "1.8%",
           "forecast_secondary_raw": "1.3%",
           "previous_secondary_raw": "0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": 0.7,
-          "forecast_yahoo": null,
-          "actual_primary": 1.8,
-          "actual_yahoo": 1.8,
-          "previous_primary": 0.0,
-          "previous_yahoo": -0.1,
-          "actual_yahoo_raw": "1.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.1"
         }
-      },
-      "yahoo_title": "Durable Goods *"
+      }
     },
     {
       "currency": "USD",
@@ -1981,21 +1968,8 @@
           "actual_secondary_raw": "0.3%",
           "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.3,
-          "actual_yahoo": 0.3,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
         }
-      },
-      "yahoo_title": "Core PCE Price Index MM *"
+      }
     },
     {
       "currency": "USD",
@@ -2013,21 +1987,8 @@
           "actual_secondary_raw": "3.1%",
           "forecast_secondary_raw": "3.1%",
           "previous_secondary_raw": "3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.1,
-          "forecast_yahoo": null,
-          "actual_primary": 3.1,
-          "actual_yahoo": 3.1,
-          "previous_primary": 3.0,
-          "previous_yahoo": 3.0,
-          "actual_yahoo_raw": "3.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3"
         }
-      },
-      "yahoo_title": "Core PCE Price Index YY*"
+      }
     },
     {
       "currency": "USD",
@@ -2045,21 +2006,8 @@
           "actual_secondary_raw": "3.6%",
           "forecast_secondary_raw": "3.6%",
           "previous_secondary_raw": "3.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.3,
-          "forecast_yahoo": null,
-          "actual_primary": 3.6,
-          "actual_yahoo": 3.6,
-          "previous_primary": 3.4,
-          "previous_yahoo": 3.4,
-          "actual_yahoo_raw": "3.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.4"
         }
-      },
-      "yahoo_title": "PCE Price Index YY *"
+      }
     },
     {
       "currency": "USD",
@@ -2096,21 +2044,8 @@
           "actual_secondary_raw": "0%",
           "forecast_secondary_raw": "0.4%",
           "previous_secondary_raw": "0.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
         }
-      },
-      "yahoo_title": "Personal Consump Real MM*"
+      }
     },
     {
       "currency": "USD",
@@ -2943,6 +2878,44 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States S&P Global Services PMI",
+      "secondary_title": "United States S&P Global Services PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": null,
+          "forecast_secondary": 57.9,
+          "actual_primary": null,
+          "actual_secondary": 56.1,
+          "previous_primary": null,
+          "previous_secondary": 58.8,
+          "actual_secondary_raw": "56.1",
+          "forecast_secondary_raw": "57.9",
+          "previous_secondary_raw": "58.8"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States S&P Global Composite PMI",
+      "secondary_title": "United States S&P Global Composite PMI Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": null,
+          "forecast_secondary": 57.6,
+          "actual_primary": null,
+          "actual_secondary": 55.9,
+          "previous_primary": null,
+          "previous_secondary": 58.4,
+          "actual_secondary_raw": "55.9",
+          "forecast_secondary_raw": "57.6",
+          "previous_secondary_raw": "58.4"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia Exports m/m",
       "secondary_title": "Australia Exports MoM",
@@ -2977,6 +2950,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "5.8%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom S&P Global/CIPS Construction PMI",
+      "secondary_title": "United Kingdom S&P Global Construction PMI",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-05",
+          "forecast_primary": 43.5,
+          "forecast_secondary": 45.5,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 44.3,
+          "previous_secondary": 46.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "45.5",
+          "previous_secondary_raw": "46.1"
         }
       }
     },
@@ -3513,44 +3505,6 @@
       }
     },
     {
-      "currency": "SEK",
-      "primary_title": "Sweden PPI m/m",
-      "yahoo_title": "PPI MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.4,
-          "actual_yahoo": 3.4,
-          "previous_primary": 0.9,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "3.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden PPI y/y",
-      "yahoo_title": "PPI YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 7.2,
-          "forecast_yahoo": null,
-          "actual_primary": 11.2,
-          "actual_yahoo": 11.2,
-          "previous_primary": 6.8,
-          "previous_yahoo": 6.8,
-          "actual_yahoo_raw": "11.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.8"
-        }
-      }
-    },
-    {
       "currency": "EUR",
       "primary_title": "ECB M3 Money Supply y/y",
       "yahoo_title": "Money-M3 Annual Grwth*",
@@ -3566,25 +3520,6 @@
           "actual_yahoo_raw": "3.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Durable Goods Orders excl. Defense m/m",
-      "yahoo_title": "Durables Ex-Defense MM *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 2.2,
-          "actual_yahoo": 2.2,
-          "previous_primary": 0.1,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "2.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
         }
       }
     },
@@ -3870,44 +3805,6 @@
           "actual_yahoo_raw": "94.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "102.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States PCE Price Index m/m",
-      "yahoo_title": "PCE Price Index MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Personal Income m/m",
-      "yahoo_title": "Personal Income MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
         }
       }
     },
@@ -4307,6 +4204,25 @@
           "actual_yahoo_raw": "-20.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-16.6"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Silf/Swedbank Services PMI",
+      "yahoo_title": "PMI Services*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-04",
+          "forecast_primary": 55.1,
+          "forecast_yahoo": null,
+          "actual_primary": 55.7,
+          "actual_yahoo": 55.7,
+          "previous_primary": 57.4,
+          "previous_yahoo": 57.4,
+          "actual_yahoo_raw": "55.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "57.4"
         }
       }
     },
