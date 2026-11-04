@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-04T15:01:09Z",
-  "generatedAt": "2026-11-04T15:01:09Z",
+  "lastUpdate": "2026-11-04T15:02:52Z",
+  "generatedAt": "2026-11-04T15:02:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2334,9 +2334,9 @@
       "std": 0.212132
     },
     "USD/ism non-manufacturing business activity": {
-      "n": 2,
-      "mean": 1.75,
-      "std": 5.020458
+      "n": 3,
+      "mean": -0.4,
+      "std": 5.1449
     },
     "USD/ism services pmi": {
       "n": 2,
@@ -4137,6 +4137,26 @@
       "n": 2,
       "mean": -0.85,
       "std": 1.343503
+    },
+    "USD/ism non-manufacturing pmi": {
+      "n": 2,
+      "mean": -0.25,
+      "std": 0.636396
+    },
+    "USD/ism non-manufacturing employment": {
+      "n": 2,
+      "mean": 2.45,
+      "std": 0.919239
+    },
+    "USD/ism non-manufacturing new orders": {
+      "n": 2,
+      "mean": -0.8,
+      "std": 4.101219
+    },
+    "USD/ism non-manufacturing prices paid": {
+      "n": 2,
+      "mean": 0.3,
+      "std": 4.525483
     },
     "USD/rcm/tipp economic optimism index": {
       "n": 2,
@@ -91242,7 +91262,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Non-Manufacturing PMI",
       "impact": "high",
-      "actual": null,
+      "actual": "54.5",
       "forecast": "55.2",
       "previous": "54.9"
     },
@@ -91255,7 +91275,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Non-Manufacturing Employment",
       "impact": "medium",
-      "actual": null,
+      "actual": "51.4",
       "forecast": "48.3",
       "previous": "50.1"
     },
@@ -91268,7 +91288,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Non-Manufacturing New Orders",
       "impact": "low",
-      "actual": null,
+      "actual": "55.9",
       "forecast": "59.6",
       "previous": "59.8"
     },
@@ -91281,7 +91301,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Non-Manufacturing Prices Paid",
       "impact": "high",
-      "actual": null,
+      "actual": "73.0",
       "forecast": "69.5",
       "previous": "74.0"
     },
@@ -91294,7 +91314,7 @@
       "flag": "🇺🇸",
       "event": "United States ISM Non-Manufacturing Business Activity",
       "impact": "low",
-      "actual": null,
+      "actual": "53.8",
       "forecast": "58.5",
       "previous": "56.5"
     },
