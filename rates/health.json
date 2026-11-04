@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-03T16:01:19.746661Z",
-  "runDate": "2026-11-03",
+  "runTimestamp": "2026-11-04T11:23:07.560748Z",
+  "runDate": "2026-11-04",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -11,17 +11,17 @@
       "issues": []
     },
     "EUR": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "2.65",
-      "source": "cached-file",
-      "date": "2026-11-03",
+      "source": "ECB-SDMX (merged history)",
+      "date": "2026-11-01",
       "issues": []
     },
     "GBP": {
       "status": "ok",
       "rate": "3.75",
       "source": "BoE-CSV",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "issues": []
     },
     "JPY": {
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "issues": []
     },
     "NZD": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "EUR: kept cached 2026-11-03 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
