@@ -1,1 +1,25 @@
-{"data":{"bond10y":4.9,"bond2y":4.59,"bond5y":4.743,"vix":20.83,"hyOas":3.44,"hyOasDelta20d":0.34,"igOas":0.94,"igOasDelta20d":0.09,"inflationExpectations":2.45,"inflationExpectationsSource":"FRED T5YIE breakeven (5Y TIPS)","bond2y_prev":4.56},"dates":{"bond10y":"2026-11-04","bond2y":"2026-11-02","bond5y":"2026-11-03","vix":"2026-11-03","hyOas":"2026-10-30","igOas":"2026-10-30","inflationExpectations":"2026-10-27","bond2y_prev":"2026-10-30"}}
+{
+  "lastUpdate": "2026-11-04",
+  "source": "Sovereign yield + macro pipeline (bond10y/bond2y/bond5y, vix and inflationExpectations preserved from disk, not fetched by this run)",
+  "data": {
+    "bond10y": 4.9,
+    "bond2y": 4.59,
+    "bond5y": 4.743,
+    "vix": 20.83,
+    "hyOas": 3.43,
+    "hyOasDelta20d": 0.31,
+    "igOas": 0.94,
+    "igOasDelta20d": 0.1,
+    "inflationExpectations": 2.45,
+    "inflationExpectationsSource": "FRED T5YIE breakeven (5Y TIPS)"
+  },
+  "dates": {
+    "bond10y": "2026-11-04",
+    "bond2y": "2026-11-02",
+    "bond5y": "2026-11-03",
+    "vix": "2026-11-03",
+    "hyOas": "2026-11-02",
+    "igOas": "2026-11-02",
+    "inflationExpectations": "2026-10-27"
+  }
+}
