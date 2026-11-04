@@ -1,48 +1,10 @@
 {
-  "generatedAt": "2026-11-03T20:33:29Z",
+  "generatedAt": "2026-11-04T01:35:18Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 204,
+  "aliasCount": 208,
   "aliases": [
-    {
-      "currency": "USD",
-      "primary_title": "United States Existing Home Sales m/m",
-      "secondary_title": "United States Existing Home Sales MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": 0.0,
-          "forecast_secondary": 0.3,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 1.5,
-          "previous_secondary": 1.5,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "0.3%",
-          "previous_secondary_raw": "1.5%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States 6-Month Bill Auction",
-      "secondary_title": "United States 17-Week Bill Auction",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-13",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 4.2,
-          "actual_secondary": 4.195,
-          "previous_primary": 4.165,
-          "previous_secondary": 4.105,
-          "actual_secondary_raw": "4.195%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "4.105%"
-        }
-      }
-    },
     {
       "currency": "USD",
       "primary_title": "United States Core CPI m/m",
@@ -2970,11 +2932,11 @@
           "dateISO": "2026-11-03",
           "forecast_primary": -15.4,
           "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -13.6,
+          "actual_secondary": -13.6,
           "previous_primary": -15.2,
           "previous_secondary": -15.2,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-13.6%",
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "-15.2%"
         }
@@ -3452,6 +3414,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.7%",
           "previous_secondary_raw": "1.4%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Existing Home Sales m/m",
+      "secondary_title": "United States Existing Home Sales MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": 0.0,
+          "forecast_secondary": 0.3,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.5,
+          "previous_secondary": 1.5,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "0.3%",
+          "previous_secondary_raw": "1.5%"
         }
       }
     },
@@ -4231,6 +4212,101 @@
           "actual_yahoo_raw": "1.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.3"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Unemployment Rate",
+      "yahoo_title": "HLFS Unemployment Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 5.6,
+          "forecast_yahoo": null,
+          "actual_primary": 5.7,
+          "actual_yahoo": 5.7,
+          "previous_primary": 5.6,
+          "previous_yahoo": 5.6,
+          "actual_yahoo_raw": "5.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "5.6"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Participation Rate",
+      "yahoo_title": "HLFS Participation Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 70.8,
+          "forecast_yahoo": null,
+          "actual_primary": 70.4,
+          "actual_yahoo": 70.4,
+          "previous_primary": 70.7,
+          "previous_yahoo": 70.7,
+          "actual_yahoo_raw": "70.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "70.7"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Labor Cost Index q/q",
+      "yahoo_title": "Labour Cost Index - QQ",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 0.7,
+          "forecast_yahoo": null,
+          "actual_primary": 0.4,
+          "actual_yahoo": 0.4,
+          "previous_primary": 0.7,
+          "previous_yahoo": 0.7,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.7"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Labor Cost Index y/y",
+      "yahoo_title": "Labour Cost Index - YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 2.1,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Ai Group Manufacturing Index",
+      "yahoo_title": "AIG Manufacturing Index*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-03",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": -20.1,
+          "actual_yahoo": -20.1,
+          "previous_primary": -8.7,
+          "previous_yahoo": -16.6,
+          "actual_yahoo_raw": "-20.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-16.6"
         }
       }
     },
