@@ -187,13 +187,13 @@
         "9 Dec"
       ],
       "source": "bankofcanada.ca",
-      "bias": "hold",
+      "bias": "hike",
       "biasSource": "CORRA 1-Month futures, meeting-bracketed",
       "biasMethod": "ois",
       "biasUpdated": "2026-11-05",
       "cutProb": 0,
-      "hikeProb": 0,
-      "fwdRate": 2.55
+      "hikeProb": 44,
+      "fwdRate": 2.65
     },
     "CHF": {
       "nextMeeting": "10 Dec",
