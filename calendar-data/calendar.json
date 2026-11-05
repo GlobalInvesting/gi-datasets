@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T10:17:09Z",
-  "generatedAt": "2026-11-05T10:17:09Z",
+  "lastUpdate": "2026-11-05T10:20:58Z",
+  "generatedAt": "2026-11-05T10:20:58Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7385,
+  "totalEvents": 7386,
   "currencyCounts": {
-    "EUR": 2103,
+    "EUR": 2104,
     "USD": 2361,
     "AUD": 422,
     "CHF": 173,
@@ -23,7 +23,7 @@
     "NOK": 176
   },
   "impactCounts": {
-    "medium": 3001,
+    "medium": 3002,
     "high": 1685,
     "low": 2699
   },
@@ -804,9 +804,9 @@
       "std": 0.351188
     },
     "GBP/s&p global/cips services pmi": {
-      "n": 3,
-      "mean": -0.266667,
-      "std": 1.250333
+      "n": 4,
+      "mean": -0.275,
+      "std": 1.021029
     },
     "CAD/retail sales mom": {
       "n": 4,
@@ -2350,8 +2350,8 @@
     },
     "GBP/s&p global/cips construction pmi": {
       "n": 2,
-      "mean": 2.6,
-      "std": 3.535534
+      "mean": 1.5,
+      "std": 5.091169
     },
     "EUR/retail sales mom": {
       "n": 4,
@@ -90475,6 +90475,19 @@
       "previous": "23.587K"
     },
     {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "08:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
       "date": "2026-11-04",
       "dateISO": "2026-11-04",
       "timeUTC": "09:00",
@@ -90524,9 +90537,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global/CIPS Services PMI",
       "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
+      "actual": "52.8",
+      "forecast": "53.1",
+      "previous": "53.1"
     },
     {
       "date": "4 Nov",
@@ -90537,9 +90550,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global/CIPS Composite PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "52.9",
       "forecast": null,
-      "previous": null
+      "previous": "53.1"
     },
     {
       "date": "2026-11-04",
@@ -91855,8 +91868,8 @@
       "event": "United Kingdom S&P Global/CIPS Construction PMI",
       "impact": "medium",
       "actual": "43.6",
-      "forecast": "43.5",
-      "previous": null
+      "forecast": "45.7",
+      "previous": "46.1"
     },
     {
       "date": "5 Nov",
