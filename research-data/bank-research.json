@@ -1,15 +1,30 @@
 {
-  "updated_utc": "2026-11-05T00:54:30.370418+00:00",
-  "updated_label": "00:54 UTC",
-  "total": 40,
+  "updated_utc": "2026-11-05T04:20:45.954703+00:00",
+  "updated_label": "04:20 UTC",
+  "total": 39,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
-    "Saxo"
+    "Saxo",
+    "TD"
   ],
   "items": [
+    {
+      "id": "27c276e00da4",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "Electric Blue: Democrats Flip Control of House and Senate",
+      "excerpt": "The results from the 2026 midterm elections showed a decisive shift in the balance of power in Washington, with Democrats obtaining majorities in both chambers of Congress. As of the time of writing, Democrats have won 228 seats in the House of Representatives and 54 seats in the Senate according to the Associated Press. Although [&#8230;] The post Electric Blue: Democrats Flip Control of House and Senate appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/659867-electric-blue-democrats-flip-control-of-house-and-senate/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793847098000,
+      "published": "2026-11-05T02:51:38+00:00"
+    },
     {
       "id": "49b274ef3956",
       "bank": "CME",
@@ -226,39 +241,6 @@
       "published": "2026-11-04T10:27:00+00:00"
     },
     {
-      "id": "6cfa27426210",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "A delayed landing for GBP rates",
-      "excerpt": "EUROPE: GBP rates seem to have drifted too high versus Bank of England expectations, which we attribute to a significant risk premium stemming from prior trading trauma. We therefore see rates lower across the curve, but only once inflation risks settle and US rates ease lower. Meanwhile, structural supply factors will keep the sterling curve…",
-      "author": "",
-      "url": "https://think.ing.com/articles/a-delayed-landing-for-gbp-rates/",
-      "currencies": [
-        "EUR",
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793787960000,
-      "published": "2026-11-04T10:26:00+00:00"
-    },
-    {
-      "id": "b8624f37003f",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "US Midterm Review – Blue Wave Political Ramifications",
-      "excerpt": "Democrats appear to have flipped 7-8 Senate seats. So far, they have won 54 seats and are on track to win 55-56 in the new Senate. Alaska and Mississippi are still to be called, but tentative results suggest Democrats are on track to win them as well. Mississippi remains very close but would be the [&#8230;] The post US Midterm Review &#8211; Blue Wave Political Ramifications appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/659800-us-midterm-review-blue-wave-political-ramifications/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793782679000,
-      "published": "2026-11-04T08:57:59+00:00"
-    },
-    {
       "id": "3ea8a7343a55",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -366,6 +348,23 @@
       "category": "technical",
       "ts": 1793689560000,
       "published": "2026-11-03T07:06:00+00:00"
+    },
+    {
+      "id": "625bb3eff97a",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The path back to 2 % has become less comfortable",
+      "excerpt": "Dinner speech by Mr Tuomas Välimäki, Board Member of the Bank of Finland, on the outlook for the euro area economy and inflation, Helsinki, 2 November 2026.",
+      "author": "Tuomas Välimäki",
+      "url": "https://www.bis.org/speeches/20261103-path-back-2-has-become-less-comfortable",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793664000000,
+      "published": "2026-11-03T00:00:00+00:00"
     },
     {
       "id": "01e3cb5680f0",
@@ -478,23 +477,6 @@
       "author": "Gabriel Makhlouf",
       "url": "https://www.bis.org/speeches/20261103-economic-transitions-technology",
       "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793664000000,
-      "published": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "id": "625bb3eff97a",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The path back to 2 % has become less comfortable",
-      "excerpt": "Dinner speech by Mr Tuomas Välimäki, Board Member of the Bank of Finland, on the outlook for the euro area economy and inflation, Helsinki, 2 November 2026.",
-      "author": "Tuomas Välimäki",
-      "url": "https://www.bis.org/speeches/20261103-path-back-2-has-become-less-comfortable",
-      "currencies": [
-        "EUR"
-      ],
       "pairs": [],
       "category": "macro",
       "ts": 1793664000000,
