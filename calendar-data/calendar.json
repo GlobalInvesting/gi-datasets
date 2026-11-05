@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T12:16:54Z",
-  "generatedAt": "2026-11-05T12:16:54Z",
+  "lastUpdate": "2026-11-05T12:18:53Z",
+  "generatedAt": "2026-11-05T12:18:53Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7394,
+  "totalEvents": 7396,
   "currencyCounts": {
-    "EUR": 2112,
+    "EUR": 2114,
     "USD": 2361,
     "AUD": 422,
     "CHF": 173,
@@ -23,7 +23,7 @@
     "NOK": 176
   },
   "impactCounts": {
-    "medium": 3006,
+    "medium": 3008,
     "high": 1685,
     "low": 2703
   },
@@ -764,9 +764,9 @@
       "std": 1.171893
     },
     "EUR/france s&p global services pmi": {
-      "n": 3,
-      "mean": 0.766667,
-      "std": 2.74287
+      "n": 4,
+      "mean": 0.025,
+      "std": 2.68623
     },
     "EUR/germany s&p global manufacturing pmi": {
       "n": 3,
@@ -2224,9 +2224,9 @@
       "std": 2.253886
     },
     "EUR/france s&p global composite pmi": {
-      "n": 2,
-      "mean": 1.75,
-      "std": 2.899138
+      "n": 3,
+      "mean": 0.566667,
+      "std": 2.89885
     },
     "EUR/germany s&p global composite pmi": {
       "n": 3,
@@ -90536,7 +90536,7 @@
       "event": "France S&P Global Services PMI",
       "impact": "medium",
       "actual": "46.2",
-      "forecast": null,
+      "forecast": "48.4",
       "previous": "48.4"
     },
     {
@@ -90549,7 +90549,7 @@
       "event": "France S&P Global Composite PMI",
       "impact": "low",
       "actual": "46.6",
-      "forecast": null,
+      "forecast": "48.4",
       "previous": "48.4"
     },
     {
@@ -90577,6 +90577,32 @@
       "actual": "53.4",
       "forecast": "52.8",
       "previous": "52.8"
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "2026-11-04",
@@ -91843,7 +91869,7 @@
       "impact": "low",
       "actual": "38.8",
       "forecast": null,
-      "previous": null
+      "previous": "39.8"
     },
     {
       "date": "5 Nov",
@@ -91882,7 +91908,7 @@
       "impact": "medium",
       "actual": "42.5",
       "forecast": null,
-      "previous": "43.0"
+      "previous": null
     },
     {
       "date": "5 Nov",
