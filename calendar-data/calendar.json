@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T11:22:44Z",
-  "generatedAt": "2026-11-05T11:22:44Z",
+  "lastUpdate": "2026-11-05T11:24:45Z",
+  "generatedAt": "2026-11-05T11:24:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7390,
+  "totalEvents": 7391,
   "currencyCounts": {
-    "EUR": 2108,
+    "EUR": 2109,
     "USD": 2361,
     "AUD": 422,
     "CHF": 173,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 3005,
     "high": 1685,
-    "low": 2700
+    "low": 2701
   },
   "surpriseStats": {
     "EUR/germany industrial production mom": {
@@ -774,9 +774,9 @@
       "std": 1.250333
     },
     "EUR/germany s&p global services pmi": {
-      "n": 3,
-      "mean": 0.3,
-      "std": 2.666458
+      "n": 4,
+      "mean": 0.425,
+      "std": 2.191461
     },
     "EUR/s&p global manufacturing pmi": {
       "n": 3,
@@ -2229,9 +2229,9 @@
       "std": 2.899138
     },
     "EUR/germany s&p global composite pmi": {
-      "n": 2,
-      "mean": 1.4,
-      "std": 0.848528
+      "n": 3,
+      "mean": 1.133333,
+      "std": 0.757188
     },
     "EUR/croatia industrial production yoy": {
       "n": 3,
@@ -90535,9 +90535,22 @@
       "flag": "🇪🇺",
       "event": "Germany S&P Global Services PMI",
       "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
+      "actual": "52.5",
+      "forecast": "51.7",
+      "previous": "51.7"
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "08:55",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany S&P Global Composite PMI",
+      "impact": "low",
+      "actual": "53.4",
+      "forecast": "52.8",
+      "previous": "52.8"
     },
     {
       "date": "2026-11-04",
@@ -91817,7 +91830,7 @@
       "impact": "low",
       "actual": "41.6",
       "forecast": null,
-      "previous": "48.7"
+      "previous": "43.5"
     },
     {
       "date": "5 Nov",
