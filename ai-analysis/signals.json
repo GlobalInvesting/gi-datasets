@@ -1,103 +1,38 @@
 {
-  "generated_at": "2026-11-03T19:40:14Z",
+  "generated_at": "2026-11-05T08:07:51Z",
   "signals": [
     {
-      "time": "19:37",
+      "time": "08:01",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Hawkish ECB Surprises",
-      "text": "The G10 Currency Strength Scorecard registers a critical bilateral divergence, with CHF leading G10 peers at +0.557% across 6 pairs while AUD anchors the bottom at -0.832% across 4 pairs, creating a 1.389% leader-to-laggard spread. AUD/USD trades at 0.6967, remaining capped below its SMA50/200 cluster at 0.7061/0.7066, while AUD/CHF drops to 0.5718. Middle East supply concerns following ECB comments on persistent Iran inflation shocks are fueling broad demand for European safe havens over commodity-sensitive risk. RBA policy rate sits at 4.85% vs SNB 0.00%, creating a +485bp nominal rate differential that fails to support AUD as real rate differentials (-0.45% AUD vs -1.02% CHF) and market risk aversion dominate intraday order flow. Trade bias: Bearish AUD/CHF, targeting further downside while risk-off sentiment caps commodity FX. Catalyst: Reserve Bank of Australia policy stance clarification at the next meeting. Risk: A sharp rebound in global equity sentiment compresses the 1.389% G10 spread below the 0.80% threshold.",
+      "title": "CHF/NOK — G10 Bilateral Theme + Geopolitical Shock",
+      "text": "CHF outperforms across the G10 board with a 1W average of +0.829% across 6 pairs, while NOK trails as the laggard at -0.659% across 2 pairs, generating a wide 1.488% G10 spread. Headline news of an Iranian IRGC mine strike on a tanker in the Strait of Hormuz establishes a acute geopolitical risk bid that favors CHF safe-haven flows over energy-linked currencies. SNB Chairman Schlegel confirmed the Swiss economy continues to grow while noting the central bank stands ready to intervene if price stability is at risk. CHF ESI of +35.9 reinforces this underlying fundamental strength against NOK's +15.5 print. The SNB 0.00% vs Norges Bank 4.50% rate gap leaves CHF at a 450bp carry disadvantage, yet geopolitical risk flows dominate carry mechanics. Trade bias: Short NOK/CHF, safe-haven premium overrides carry disadvantage. Catalyst: Norges Bank interest rate decision today at 09:00 UTC. Risk: De-escalation headlines in the Middle East cause rapid unwind of safe-haven CHF bids back into high-carry NOK.",
       "evidence": [
-        "CHF 1W avg: +0.557% (n=6)",
-        "AUD 1W avg: -0.832% (n=4)",
-        "G10 spread: 1.389%"
+        "CHF 1W avg: +0.829% (n=6)",
+        "NOK 1W avg: -0.659% (n=2)",
+        "G10 spread: 1.488%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
-        "pair": "AUD/CHF",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.7 ATR with it over five sessions"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-11-02"
-        }
+        "verdict": "unverified",
+        "pair": "NOK/CHF",
+        "direction": -1
       }
     },
     {
-      "time": "19:34",
+      "time": "07:58",
       "priority": "critical",
-      "title": "EUR/USD — ECB Hawkish Repricing vs Positioning Extreme",
-      "text": "ECB Executive Board Member Joachim Nagel stated that a December rate hike is very likely to be necessary, creating an immediate hawkish policy impulse while ECB's Sleijpen warned of persistent Iran inflation shocks. EUR/USD trades at 1.1194, holding below its SMA20 of 1.1200 and SMA50 of 1.1382 within a counter-trend pullback structure. CFTC COT data shows Leveraged Funds net short EUR by -99,557 contracts (pctl 2, z -1.78), placing positioning near 52-week lows even as ECB hawkish rhetoric escalates. Fed rate at 4.00% vs ECB 2.65% maintains a 135bp carry advantage for the dollar (OIS SOFR vs ESTR spread at +151bp favoring USD), but extreme speculative short positioning leaves the pair highly vulnerable to a hawkish short squeeze. Trade bias: Bullish EUR/USD on asymmetric short-squeeze potential following hawkish ECB comments. Catalyst: Euro Area CPI release on 4 November (forecast 3.4% y/y). Risk: EUR/USD breaks decisively below 1.1150 support, validating the existing speculative short trend.",
+      "title": "USD/JPY — Carry Support vs Escalation & Options Skew",
+      "text": "USD/JPY trades at 158.18, holding above its SMA20 at 157.95 and SMA50 at 157.37 while remaining capped below the 200-day moving average at 158.61. A 275bp OIS carry advantage (SOFR 3.97% vs TONA 1.23%) continues to anchor the core long USD stance, but geopolitical headlines regarding the Strait of Hormuz tanker strike create downside shock risk. The 25d risk reversal sits at -1.93, indicating strong put skew as institutional market participants actively buy downside protection against a rapid carry unwind. CFTC leveraged funds hold a net short JPY position of -19,224 contracts (94th percentile, z +1.57), leaving positioning stretched and vulnerable to forced covering. With VIX at 16.6 (normal volatility), carry remains intact for now, though 160.00 remains the key structural level that has previously triggered intervention warnings. Trade bias: Long USD/JPY, carry-supported above moving-average cluster. Catalyst: US Initial Jobless Claims today at 13:30 UTC. Risk: VIX spikes above 25 or JPY safe-haven flows accelerate, triggering a sharp unwind of leveraged JPY shorts.",
       "evidence": [
-        "ECB Nagel: Dec hike very likely necessary",
-        "EUR COT LF net: -99,557 (pctl 2)",
-        "EUR/USD: 1.1194 (below SMA20 1.1200)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "caution",
-        "pair": "EUR/USD",
-        "direction": 1,
-        "supports": [],
-        "conflicts": [
-          "technical regime (pullback) points against the stated direction"
-        ],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-02"
-        }
-      }
-    },
-    {
-      "time": "19:32",
-      "priority": "warning",
-      "title": "USD/JPY — Crowded Carry vs Options Put Skew",
-      "text": "USD/JPY trades at 158.74, maintaining a tight range-bound structure between its SMA20 at 157.90 and SMA200 at 158.55. A +275bp policy rate differential (Fed 4.00% vs BoJ 1.25%; +272bp on OIS SOFR/TONIA basis) continues to support structural carry demand, but options markets exhibit severe hedging skew with 25d Risk Reversals at -2.01 (1M tenor), reflecting strong institutional demand for downside protection. CFTC positioning shows JPY Leveraged Funds net short -19,224 contracts (pctl 94, z +1.57), indicating crowded speculative short JPY exposure near historical limits. Spot at 158.74 remains below the critical 160.00 psychological threshold that has previously drawn MoF verbal intervention warnings. Trade bias: Long USD/JPY, carry-driven while VIX remains contained at 20.6. Catalyst: BoJ Monetary Policy Meeting Minutes release at 23:50 UTC. Risk: Spot breaks above 160.00 and triggers direct MoF FX intervention, forcing a rapid unwinding of speculative JPY shorts.",
-      "evidence": [
-        "USD/JPY 25d RR: -2.01 (1M tenor)",
-        "JPY COT LF net: -19,224 (pctl 94)",
-        "Fed-BoJ carry: +275bp (OIS +272bp)"
+        "USD/JPY 25d RR: -1.93 (strong put skew)",
+        "Fed vs BoJ OIS: +274bp carry advantage",
+        "JPY COT LF net: -19,224 (pctl 94)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
         "pair": "USD/JPY",
         "direction": 1,
-        "supports": [],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-02"
-        }
-      }
-    },
-    {
-      "time": "19:28",
-      "priority": "warning",
-      "title": "USD/CAD — BoC Hawkish Bias vs Squeeze Setup",
-      "text": "Bank of Canada Governor Tiff Macklem stated there is likely to be a need to raise the policy rate further as Q2 GDP reached 3.3%, introducing a hawkish policy surprise against market expectations. USD/CAD trades at 1.4002, positioned below its SMA20 of 1.4110 and SMA50 of 1.4030 within a short-term reversal structure. CFTC COT data shows Leveraged Funds net short CAD by -96,952 contracts (pctl 8, z -1.55), representing a heavily crowded institutional short position facing unexpected hawkish policy guidance. While the Fed (4.00%) vs BoC (2.25%) policy spread maintains a 175bp carry advantage for USD (OIS SOFR/CORRA spread at +140bp), the asymmetric positioning distribution creates significant downside pressure on USD/CAD if rate hike expectations build. Trade bias: Bearish USD/CAD, positioning for a CAD short-covering rally following Macklem's comments. Catalyst: Canada Trade Balance release on 4 November ( forecast 0.488B). Risk: USD/CAD reclaims the SMA20 at 1.4110, invalidating the bearish reversal pattern.",
-      "evidence": [
-        "BoC Macklem: Need to raise rates further",
-        "CAD COT LF net: -96,952 (pctl 8)",
-        "USD/CAD: 1.4002 (below SMA50 1.4030)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/CAD",
-        "direction": -1,
         "supports": [
           "technical regime points with the stated direction"
         ],
@@ -106,25 +41,57 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-02"
+          "asof": "2026-11-04"
         }
       }
     },
     {
-      "time": "19:24",
-      "priority": "info",
-      "title": "USD/SEK — Institutional Positioning vs Retail Extreme Divergence",
-      "text": "Retail sentiment data retail sentiment shows USD/SEK at 100% long / 0% short, reaching an absolute retail crowd extreme. USD/SEK trades at 9.783, positioned below its SMA20 of 9.928 and SMA50 of 9.823 following a wide-range bearish bar that signals short-term trend reversal risk. Sweden's Economic Surprise Index sits at +20.0, reflecting strong positive macroeconomic data beats that support SEK strength against the greenback. CFTC COT data for USD shows Leveraged Funds net long +3,159 contracts (pctl 87), establishing a clear divergence where retail traders are heavily buying USD/SEK while institutional momentum and macroeconomic data flow favor SEK. Trade bias: Bearish USD/SEK, aligned with macro data momentum and contrarian to retail positioning. Catalyst: Riksbank policy path guidance and upcoming Swedish inflation metrics. Risk: Broad USD rally pushes spot back above the 9.928 SMA20 level, neutralizing the short-term technical breakdown.",
+      "time": "07:56",
+      "priority": "warning",
+      "title": "GBP/USD — CB Decision + Extended COT Positioning",
+      "text": "GBP/USD trades at 1.3475, standing firmly above its SMA20 (1.3331), SMA50 (1.3369), and SMA200 (1.3425) technical cluster. The OIS spread of +23bp (SOFR 3.97% vs SONIA 3.74%) mildly favors USD carry, while the nominal policy rate spread between the Fed (4.00%) and BoE (3.75%) shows a 25bp advantage for the dollar. CFTC data shows leveraged funds hold +20,016 net long contracts in GBP, down by -9,646 contracts WoW as spec longs trim exposure ahead of central bank event risk. Option markets reflect light hedging with a 25d RR of -0.39 alongside 1M IV at 5.3% vs HV30 at 4.3% (+1.0% VRP). Trade bias: Neutral GBP/USD, technical momentum limited by central bank event risk. Catalyst: BoE Interest Rate Decision and Monetary Policy Report today at 12:00 UTC. Risk: Dovish voting split on the MPC triggers swift downside test of the 1.3425 SMA200 level.",
       "evidence": [
-        "USD/SEK Retail: 100% Long / 0% Short",
-        "SEK ESI: +20.0 (strong positive data beats)",
-        "USD/SEK: 9.783 (below SMA20 9.928)"
+        "GBP/USD: 1.3475 (above SMA20/50/200)",
+        "Fed 4.00% vs BoE 3.75% — 25bp spread",
+        "BoE Decision: Today 12:00 UTC"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "GBP/USD"
+      }
+    },
+    {
+      "time": "07:53",
+      "priority": "warning",
+      "title": "USD/SEK — Retail Extreme vs Spec Positioning Divergence",
+      "text": "USD/SEK trades at 9.733, positioning below its SMA20 (9.905) and SMA50 (9.834) while holding above the SMA200 at 9.478. Retail sentiment data retail sentiment shows a 100% long bias (0% short), marking a extreme retail positioning imbalance. However, CFTC institutional data shows USD leveraged funds net long (+3,159, 87th percentile) while broad SEK sentiment remains supported by a strong ESI print of +20.1 against the USD ESI of +10.3. Fed 4.00% vs Riksbank 1.75% gives USD a +225bp policy rate advantage, maintaining structural yield support even as retail longs face potential contrarian squeeze pressure. The 2Y yield differential of -193bp has moved +5bp in SEK's favor over 5 sessions, pressuring short-term spot momentum. Trade bias: Bearish USD/SEK, technical breakdown below SMA20/50 cluster backed by retail squeeze risk. Catalyst: Riksbank Interest Rate Decision on 10 Nov. Risk: Broad USD rally on US Nonfarm Payrolls on Friday reclaims SMA20 at 9.905.",
+      "evidence": [
+        "Retail USD/SEK: 100% long / 0% short",
+        "SEK ESI: +20.1 vs USD ESI +10.3",
+        "Fed 4.00% vs SEK 1.75% — 225bp spread"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
         "pair": "USD/SEK",
         "direction": -1
+      }
+    },
+    {
+      "time": "07:48",
+      "priority": "info",
+      "title": "EUR/USD — Stalled Trend + Options Volatility Neutrality",
+      "text": "EUR/USD trades at 1.1247, maintaining a spot location above its 20-day SMA at 1.1198 but capped beneath the 50-day (1.1364) and 200-day (1.1552) moving averages. Fed 4.00% vs ECB 2.65% establishes a 135bp policy rate spread and a +153bp OIS carry advantage in favor of USD, capping extended upside structure. CFTC data reflects heavy EUR speculative short positioning with leveraged funds net short -99,557 contracts (2nd percentile, z -1.78), indicating deep positioning crowding. 1M ATM implied volatility sits at 5.6% against 30-day realized volatility of 4.3%, displaying a modest 1.3% vol risk premium, while the 25d risk reversal at -0.10 indicates balanced option market demand. Trade bias: Neutral EUR/USD, rangebound between SMA20 support and SMA50 resistance. Catalyst: US Nonfarm Payrolls on 6 Nov at 13:30 UTC. Risk: Massive short covering in EUR futures forces a break through resistance at 1.1364.",
+      "evidence": [
+        "EUR COT LF net: -99,557 (pctl 2, z -1.78)",
+        "Fed vs ECB OIS: +153bp USD carry advantage",
+        "EUR/USD 25d RR: -0.10 (neutral skew)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
       }
     }
   ]
