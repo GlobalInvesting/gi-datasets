@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T00:00:55Z",
-  "generatedAt": "2026-11-05T00:00:55Z",
+  "lastUpdate": "2026-11-05T00:32:52Z",
+  "generatedAt": "2026-11-05T00:32:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2194,9 +2194,9 @@
       "std": 0.568624
     },
     "AUD/trade balance": {
-      "n": 2,
-      "mean": 1.1635,
-      "std": 0.598919
+      "n": 3,
+      "mean": 1.356333,
+      "std": 0.539357
     },
     "CHF/inflation rate mom": {
       "n": 4,
@@ -91432,7 +91432,7 @@
       "flag": "🇦🇺",
       "event": "Australia Exports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "2.3%",
       "forecast": null,
       "previous": "3.7%"
     },
@@ -91445,7 +91445,7 @@
       "flag": "🇦🇺",
       "event": "Australia Imports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-3.3%",
       "forecast": null,
       "previous": "5.8%"
     },
@@ -91458,7 +91458,7 @@
       "flag": "🇦🇺",
       "event": "Australia Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.826B",
       "forecast": "1.084B",
       "previous": "0.495B"
     },
@@ -91471,7 +91471,7 @@
       "flag": "🇯🇵",
       "event": "Japan au Jibun Bank Services PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "51.7",
       "forecast": null,
       "previous": null
     },
@@ -91484,7 +91484,7 @@
       "flag": "🇯🇵",
       "event": "Japan au Jibun Bank Composite PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "52.1",
       "forecast": null,
       "previous": null
     },
@@ -97555,7 +97555,7 @@
       "event": "Austria Harmonised Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.5%",
       "previous": "3.6%"
     },
     {
@@ -97565,10 +97565,10 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Slovakia Harmonised Inflation Rate MoM",
+      "event": "Slovakia Harmonised Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.0%",
       "previous": "0.1%"
     },
     {
@@ -97581,7 +97581,7 @@
       "event": "Austria Harmonised Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.4%",
       "previous": "0.7%"
     },
     {
@@ -97591,11 +97591,11 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Slovakia Harmonised Inflation Rate YoY",
+      "event": "Slovakia Harmonised Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": "3%"
+      "forecast": "2.9%",
+      "previous": "3.0%"
     },
     {
       "date": "18 Nov",
@@ -97607,7 +97607,7 @@
       "event": "Austria Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.6%",
       "previous": "3.6%"
     },
     {
@@ -97620,7 +97620,7 @@
       "event": "Austria Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.3%",
       "previous": "0.2%"
     },
     {
@@ -97799,11 +97799,37 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Portugal PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "9.9%",
+      "previous": "9.2%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Ireland Residential Property Prices YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "5.0%",
       "previous": "5.1%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal PPI MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.9%",
+      "previous": "1.5%"
     },
     {
       "date": "18 Nov",
@@ -97815,7 +97841,7 @@
       "event": "Ireland Residential Property Prices MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.7%",
       "previous": "0.7%"
     },
     {
@@ -98462,37 +98488,11 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Portugal PPI YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Ireland Balance of Trade",
       "impact": "low",
       "actual": null,
       "forecast": "15.7B",
       "previous": "2.9B"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Portugal PPI MoM",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "19 Nov",
