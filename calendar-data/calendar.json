@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T12:35:03Z",
-  "generatedAt": "2026-11-05T12:35:03Z",
+  "lastUpdate": "2026-11-05T12:44:48Z",
+  "generatedAt": "2026-11-05T12:44:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,11 +9,11 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7396,
+  "totalEvents": 7398,
   "currencyCounts": {
     "EUR": 2114,
     "USD": 2361,
-    "AUD": 422,
+    "AUD": 424,
     "CHF": 173,
     "GBP": 708,
     "CAD": 431,
@@ -23,7 +23,7 @@
     "NOK": 176
   },
   "impactCounts": {
-    "medium": 3008,
+    "medium": 3010,
     "high": 1685,
     "low": 2703
   },
@@ -2174,9 +2174,9 @@
       "std": 0.212132
     },
     "AUD/s&p global services pmi": {
-      "n": 2,
-      "mean": 1.3,
-      "std": 1.838478
+      "n": 3,
+      "mean": -0.5,
+      "std": 3.377869
     },
     "EUR/ireland aib services pmi": {
       "n": 3,
@@ -90127,6 +90127,32 @@
       "actual": "-26.9",
       "forecast": null,
       "previous": "-34.5"
+    },
+    {
+      "date": "3 Nov",
+      "dateISO": "2026-11-03",
+      "timeUTC": "22:00",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia S&P Global Services PMI",
+      "impact": "medium",
+      "actual": "48.5",
+      "forecast": "52.6",
+      "previous": "51.9"
+    },
+    {
+      "date": "3 Nov",
+      "dateISO": "2026-11-03",
+      "timeUTC": "22:00",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": "48.2",
+      "forecast": null,
+      "previous": "51.3"
     },
     {
       "date": "2026-11-03",
