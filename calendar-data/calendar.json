@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T09:16:47Z",
-  "generatedAt": "2026-11-05T09:16:47Z",
+  "lastUpdate": "2026-11-05T09:32:52Z",
+  "generatedAt": "2026-11-05T09:32:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2347,6 +2347,11 @@
       "n": 3,
       "mean": -22.133333,
       "std": 1358.291877
+    },
+    "GBP/s&p global/cips construction pmi": {
+      "n": 2,
+      "mean": 2.6,
+      "std": 3.535534
     },
     "EUR/retail sales mom": {
       "n": 4,
@@ -91823,7 +91828,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global/CIPS Construction PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "43.6",
       "forecast": "43.5",
       "previous": "44.3"
     },
