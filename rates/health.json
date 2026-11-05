@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-04T16:05:52.967596Z",
-  "runDate": "2026-11-04",
+  "runTimestamp": "2026-11-05T01:20:27.968451Z",
+  "runDate": "2026-11-05",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "issues": []
     },
     "NZD": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "EUR: kept cached 2026-11-01 value over older ECB-SDMX-DFR+spread candidate (2026-09-16) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
