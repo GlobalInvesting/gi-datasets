@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T11:10:58Z",
-  "generatedAt": "2026-11-05T11:10:58Z",
+  "lastUpdate": "2026-11-05T11:12:52Z",
+  "generatedAt": "2026-11-05T11:12:52Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7387,
+  "totalEvents": 7389,
   "currencyCounts": {
-    "EUR": 2105,
+    "EUR": 2107,
     "USD": 2361,
     "AUD": 422,
     "CHF": 173,
@@ -23,9 +23,9 @@
     "NOK": 176
   },
   "impactCounts": {
-    "medium": 3003,
+    "medium": 3004,
     "high": 1685,
-    "low": 2699
+    "low": 2700
   },
   "surpriseStats": {
     "EUR/germany industrial production mom": {
@@ -2219,9 +2219,9 @@
       "std": 3.40196
     },
     "EUR/italy s&p global services pmi": {
-      "n": 2,
-      "mean": 0.8,
-      "std": 2.687006
+      "n": 3,
+      "mean": 0.1,
+      "std": 2.253886
     },
     "EUR/france s&p global composite pmi": {
       "n": 2,
@@ -90501,6 +90501,32 @@
       "previous": "56.8"
     },
     {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "08:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Italy S&P Global Services PMI",
+      "impact": "medium",
+      "actual": "52.0",
+      "forecast": "53.3",
+      "previous": "51.7"
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "08:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Italy S&P Global Composite PMI",
+      "impact": "low",
+      "actual": "50.8",
+      "forecast": null,
+      "previous": "51.0"
+    },
+    {
       "date": "2026-11-04",
       "dateISO": "2026-11-04",
       "timeUTC": "09:00",
@@ -91791,7 +91817,7 @@
       "impact": "low",
       "actual": "47.3",
       "forecast": null,
-      "previous": "41.7"
+      "previous": "46.5"
     },
     {
       "date": "5 Nov",
