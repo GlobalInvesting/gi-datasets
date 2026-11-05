@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-05T10:20:58Z",
-  "generatedAt": "2026-11-05T10:20:58Z",
+  "lastUpdate": "2026-11-05T10:22:47Z",
+  "generatedAt": "2026-11-05T10:22:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-05",
   "rangeTo": "2026-11-19",
-  "totalEvents": 7386,
+  "totalEvents": 7387,
   "currencyCounts": {
-    "EUR": 2104,
+    "EUR": 2105,
     "USD": 2361,
     "AUD": 422,
     "CHF": 173,
@@ -23,7 +23,7 @@
     "NOK": 176
   },
   "impactCounts": {
-    "medium": 3002,
+    "medium": 3003,
     "high": 1685,
     "low": 2699
   },
@@ -2214,9 +2214,9 @@
       "std": 2.025669
     },
     "EUR/spain s&p global services pmi": {
-      "n": 2,
-      "mean": -0.9,
-      "std": 4.525483
+      "n": 3,
+      "mean": -0.233333,
+      "std": 3.40196
     },
     "EUR/italy s&p global services pmi": {
       "n": 2,
@@ -90483,9 +90483,22 @@
       "flag": "🇪🇺",
       "event": "Spain S&P Global Services PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "57.2",
+      "forecast": "56.1",
+      "previous": "58.3"
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "08:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": "56.2",
       "forecast": null,
-      "previous": null
+      "previous": "56.8"
     },
     {
       "date": "2026-11-04",
