@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-06T07:00:59Z",
-  "generatedAt": "2026-11-06T07:00:59Z",
+  "lastUpdate": "2026-11-06T07:02:50Z",
+  "generatedAt": "2026-11-06T07:02:50Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2434,14 +2434,14 @@
       "std": 0.057735
     },
     "EUR/germany industrial production mom": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 1.721434
+      "n": 4,
+      "mean": -0.075,
+      "std": 1.422146
     },
     "EUR/germany industrial production yoy": {
-      "n": 2,
-      "mean": 1.0,
-      "std": 2.687006
+      "n": 3,
+      "mean": 0.233333,
+      "std": 2.318045
     },
     "GBP/lloyds house price index yoy": {
       "n": 2,
@@ -2454,9 +2454,9 @@
       "std": 0.353553
     },
     "NOK/manufacturing production mom": {
-      "n": 3,
-      "mean": -0.1,
-      "std": 0.8
+      "n": 4,
+      "mean": -0.175,
+      "std": 0.670199
     },
     "NOK/manufacturing production yoy": {
       "n": 3,
@@ -2464,9 +2464,9 @@
       "std": 0.351188
     },
     "NOK/industrial production mom": {
-      "n": 2,
-      "mean": -3.95,
-      "std": 14.63711
+      "n": 3,
+      "mean": -2.566667,
+      "std": 10.623716
     },
     "NOK/industrial production yoy": {
       "n": 3,
@@ -92512,7 +92512,7 @@
       "flag": "🇪🇺",
       "event": "Germany Industrial Production m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "1.1%",
       "previous": "2.0%"
     },
@@ -92525,7 +92525,7 @@
       "flag": "🇪🇺",
       "event": "Germany Industrial Production y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "1.7%",
       "previous": "2.3%"
     },
@@ -92538,7 +92538,7 @@
       "flag": "🇳🇴",
       "event": "Norway Manufacturing Production m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.4%",
       "previous": "-0.4%",
       "vendorImpact": "low"
@@ -92566,7 +92566,7 @@
       "flag": "🇳🇴",
       "event": "Norway Industrial Production m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "1.0%",
       "forecast": "0.8%",
       "previous": "1.0%",
       "vendorImpact": "low"
