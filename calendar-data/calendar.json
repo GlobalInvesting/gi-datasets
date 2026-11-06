@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-06T13:31:01Z",
-  "generatedAt": "2026-11-06T13:31:01Z",
+  "lastUpdate": "2026-11-06T13:32:48Z",
+  "generatedAt": "2026-11-06T13:32:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2294,14 +2294,14 @@
       "std": 0.251661
     },
     "CAD/employment change": {
-      "n": 2,
-      "mean": -39.35,
-      "std": 39.951533
+      "n": 3,
+      "mean": -13.2,
+      "std": 53.380989
     },
     "CAD/unemployment rate": {
-      "n": 2,
-      "mean": -0.1,
-      "std": 0.141421
+      "n": 3,
+      "mean": -0.2,
+      "std": 0.2
     },
     "CAD/participation rate": {
       "n": 2,
@@ -2329,44 +2329,44 @@
       "std": 80.151939
     },
     "USD/participation rate": {
-      "n": 2,
-      "mean": 0.15,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.1,
+      "std": 0.1
     },
     "USD/average hourly earnings mom": {
-      "n": 4,
-      "mean": -0.05,
-      "std": 0.129099
+      "n": 5,
+      "mean": 0.0,
+      "std": 0.158114
     },
     "USD/average hourly earnings yoy": {
-      "n": 4,
-      "mean": -0.15,
-      "std": 0.191485
+      "n": 5,
+      "mean": -0.12,
+      "std": 0.178885
     },
     "USD/average weekly hours": {
-      "n": 2,
-      "mean": 0.1,
-      "std": 0.0
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.057735
     },
     "USD/government payrolls": {
-      "n": 2,
-      "mean": 7.5,
-      "std": 34.648232
+      "n": 3,
+      "mean": 7.333333,
+      "std": 24.501701
     },
     "USD/private nonfarm payrolls": {
-      "n": 2,
-      "mean": 38.0,
-      "std": 57.982756
+      "n": 3,
+      "mean": 65.333333,
+      "std": 62.628534
     },
     "USD/u6 unemployment rate": {
-      "n": 2,
-      "mean": -0.1,
-      "std": 0.0
+      "n": 3,
+      "mean": -0.2,
+      "std": 0.173205
     },
     "USD/manufacturing payrolls": {
-      "n": 2,
-      "mean": 14.0,
-      "std": 7.071068
+      "n": 3,
+      "mean": 16.333333,
+      "std": 6.429101
     },
     "USD/non farm payrolls": {
       "n": 2,
@@ -92789,7 +92789,7 @@
       "flag": "🇨🇦",
       "event": "Canada Employment Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "-4.7K",
       "forecast": "-43.8K",
       "previous": "-68.3K"
     },
@@ -92802,7 +92802,7 @@
       "flag": "🇨🇦",
       "event": "Canada Full-Time Employment Change",
       "impact": "low",
-      "actual": null,
+      "actual": "-18.1K",
       "forecast": null,
       "previous": "-35.4K"
     },
@@ -92815,7 +92815,7 @@
       "flag": "🇨🇦",
       "event": "Canada Part-Time Employment Change",
       "impact": "low",
-      "actual": null,
+      "actual": "13.4K",
       "forecast": null,
       "previous": "-32.9K"
     },
@@ -92828,7 +92828,7 @@
       "flag": "🇨🇦",
       "event": "Canada Unemployment Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "6.7%",
       "forecast": "6.3%",
       "previous": "6.5%"
     },
@@ -92880,7 +92880,7 @@
       "flag": "🇺🇸",
       "event": "United States Participation Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "61.9%",
       "forecast": "61.9%",
       "previous": "61.8%"
     },
@@ -92893,7 +92893,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Hourly Earnings m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "0.2%",
       "previous": "0.1%"
     },
@@ -92906,7 +92906,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Hourly Earnings y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "3.1%",
       "forecast": "3.1%",
       "previous": "3.0%"
     },
@@ -92919,7 +92919,7 @@
       "flag": "🇺🇸",
       "event": "United States Average Weekly Hours",
       "impact": "low",
-      "actual": null,
+      "actual": "34.4",
       "forecast": "34.4",
       "previous": "34.4"
     },
@@ -92932,7 +92932,7 @@
       "flag": "🇺🇸",
       "event": "United States Government Payrolls",
       "impact": "low",
-      "actual": null,
+      "actual": "6K",
       "forecast": "-1K",
       "previous": "-17K"
     },
@@ -92945,7 +92945,7 @@
       "flag": "🇺🇸",
       "event": "United States Private Nonfarm Payrolls",
       "impact": "medium",
-      "actual": null,
+      "actual": "159K",
       "forecast": "39K",
       "previous": "46K"
     },
@@ -92958,7 +92958,7 @@
       "flag": "🇺🇸",
       "event": "United States U6 Unemployment Rate",
       "impact": "medium",
-      "actual": null,
+      "actual": "7.9%",
       "forecast": "7.5%",
       "previous": "7.6%"
     },
@@ -92971,7 +92971,7 @@
       "flag": "🇺🇸",
       "event": "United States Manufacturing Payrolls",
       "impact": "low",
-      "actual": null,
+      "actual": "19K",
       "forecast": "-2K",
       "previous": "9K"
     },
