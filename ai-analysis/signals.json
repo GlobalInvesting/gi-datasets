@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-06T13:04:57Z",
+  "generated_at": "2026-11-06T23:36:01Z",
   "signals": [
     {
-      "time": "12:59",
+      "time": "22:41",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Cross-Asset Stress",
-      "text": "AUD/CHF trades at 0.5630, sitting well below its SMA20/50/200 technical cluster at 0.8254/0.8228/0.8000 on USD/CHF and 0.6997/0.7053/0.7060 on AUD/USD. The G10 currency scorecard flags a major bilateral divergence with CHF outperforming G10 peers at +1.240% (n=6) while AUD lags at -2.182% (n=4), generating a 3.422% leader-to-laggard spread. Safe-haven demand for CHF is accelerating amid global risk-off sentiment driven by a 5.96% drop in the Nikkei 225, pushing VIX to 26.8 (elevated volatility). An extreme +485bp rate differential (RBA at 4.85% vs SNB at 0.00%) fails to protect the Aussie as high-beta carry trades unwind in an elevated volatility regime. BEER fair value model shows AUD/CHF stretched at z=-2.80σ cheap (spot 0.5640 vs fair value 0.5748), but strong structural momentum prevents immediate mean reversion. Trade bias: Bearish AUD/CHF; flight-to-quality overrides extreme carry advantage while equity stress persists. Catalyst: US Nonfarm Payrolls at 13:30 UTC. Risk: VIX retracts below 20 and equity markets stabilize, allowing carry differentials to reassert.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Divergence",
+      "text": "AUD COT LF long +43.5k faces severe liquidations as AUD underperforms across the board, dropping to 0.5627 on Friday against a surging Swiss Franc. Safe-haven inflows and a top-ranked Swiss Economic Surprise Index (+35.9) contrast with AUD's post-hike selloff, overriding the nominal carry advantage. The upcoming Asian open tests whether 0.5600 psychological support holds under bilateral momentum. Trade bias: Bearish AUD/CHF into the Sydney open. Catalyst: Sydney/Tokyo open liquidity resumption. Risk: A rebound above 0.5700 driven by broad risk stabilization.",
       "evidence": [
-        "CHF 1W avg: +1.240% (n=6)",
-        "AUD 1W avg: -2.182% (n=4)",
-        "G10 spread: 3.422%"
+        "CHF 1W avg: +1.212% (n=6)",
+        "AUD 1W avg: -2.219% (n=4)",
+        "G10 spread: 3.430%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -18,7 +18,7 @@
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.6 ATR with it over five sessions"
+          "price moved 3.4 ATR with it over five sessions"
         ],
         "conflicts": [
           "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
@@ -27,79 +27,78 @@
           "bias": "Bullish",
           "conviction": "low",
           "technical_alignment": "counter_trend",
-          "asof": "2026-11-05"
+          "asof": "2026-11-06"
         }
       }
     },
     {
-      "time": "12:56",
-      "priority": "critical",
-      "title": "USD/JPY — Carry Support vs Equity Risk-Off",
-      "text": "USD/JPY trades at 158.36, holding below its SMA20 at 157.95 and SMA200 at 158.63 while anchoring inside a tight 20-session range. A 271bp OIS carry differential (SOFR 3.94% vs TONA 1.23%) provides structural baseline support for USD, though broad equity liquidations keep upside momentum in check. Options markets exhibit heavy defensive positioning, with the 1M 25-delta Risk Reversal printing a strong put skew of -1.80, signalling institutional demand for downside JPY protection despite flat COT positioning (pctl 94%, WoW +6,374). Cross-asset correlation between USD/JPY and VIX sits at +0.074 vs the 252-day norm of +0.300 (z=-1.98σ), demonstrating that standard JPY safe-haven appreciation remains muted during equity drawdowns. Trade bias: Neutral/range USD/JPY; strong carry support competes directly with downside options hedging and broad equity liquidation. Catalyst: US Nonfarm Payrolls and Unemployment Rate at 13:30 UTC. Risk: VIX spikes above 30, driving a broader carry unwind that breaks USD/JPY below SMA50 support at 157.33.",
-      "evidence": [
-        "SOFR 3.94% vs TONA 1.23% → +271bp",
-        "USDJPY 25d RR: -1.80",
-        "VIX: 26.8 (elevated volatility)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "12:53",
+      "time": "21:52",
       "priority": "warning",
-      "title": "AUD/USD — COT-OIS Divergence + Volatility Complacency",
-      "text": "AUD/USD trades at 0.6878, positioned below its SMA20/50/200 cluster at 0.6997/0.7053/0.7060, confirming an active technical downtrend. CFTC leveraged funds hold a net long position of +43,927 contracts, whereas the 1-week spot price is down -2.13%, reflecting institutional positioning that is stubbornly fighting the prevailing trend. FX options reflect extreme pricing complacency with 1M ATM IV at 6.2% against HV30 at 7.9%, generating a negative Vol Risk Premium of -1.8% alongside a -0.87 25d Risk Reversal put skew. RBA policy rate sits at 4.85% vs Fed at 4.00% (-91bp OIS spread favoring AUD), but rate differentials are failing to cushion spot against global commodity and Asian equity weakness. Trade bias: Bearish AUD/USD; negative vol risk premium and stagnant spec long positioning leave the pair vulnerable to further downside liquidation. Catalyst: US Nonfarm Payrolls at 13:30 UTC. Risk: Strong US labor market deterioration weakens the USD and triggers a squeeze back toward the 0.6997 SMA20 level.",
+      "title": "EUR/USD — Crowded COT Short Squeeze Risk",
+      "text": "EUR COT LF short sits at an extreme -104.0k contracts (52-week percentile of 2, z = -1.80) while Friday closed at 1.1143 following robust US nonfarm payrolls (+165k). Strong US employment solidifies the Fed's restrictive real rate (+1.61%) and reinforces SOFR carry over €STR (+148bp), yet one-sided institutional shorts leave downside extensions vulnerable to abrupt profit-taking. The upcoming US CPI release and the 9 Dec Fed meeting will dictate whether euro bears can breach the 1.1100 handle. Trade bias: Bearish EUR/USD with caution on crowded positioning. Catalyst: next Fed meeting (mkt: 89% hike priced) on 9 Dec. Risk: A daily close above the 20-day SMA at 1.1195 triggering short covering.",
       "evidence": [
-        "AUD COT LF net: +43,927 (long%=67.7%)",
-        "AUD/USD IV 6.2% vs HV30 7.9% → VRP -1.8%",
-        "SOFR 3.94% vs AONIA 4.85% → -91bp"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "caution",
-        "pair": "AUD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 2.1 ATR with it over five sessions"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-11-05"
-        }
-      }
-    },
-    {
-      "time": "12:48",
-      "priority": "warning",
-      "title": "NZD/USD — ESI Negativity + Retail Sentiment Extreme",
-      "text": "NZD/USD trades at 0.5546, holding well below its SMA20/50/200 cluster at 0.5642/0.5703/0.5825 amidst a range-bound technical backdrop. New Zealand's Economic Surprise Index sits at a severe -25.1 rating, highlighting persistent macroeconomic data misses against expectations. Retail sentiment data retail positioning shows an extreme 91% long vs 9% short bias, creating a stark contrarian signal as retail traders attempt to bottom-fish a falling spot rate. COT leveraged funds remain net short -22,722 contracts (pctl 25%), demonstrating that institutional capital is aligned with the macroeconomic degradation while retail is trapped on the wrong side. Fed at 4.00% vs RBNZ at 2.75% provides a +125bp OIS carry advantage to the USD (SOFR 3.94% vs OCR 2.75%), compounding the fundamental pressure on the Kiwi. Trade bias: Bearish NZD/USD; institutional shorts and weak data beats outweigh retail bottom-fishing efforts. Catalyst: US Michigan Consumer Sentiment at 15:00 UTC. Risk: US data misses sharply, easing USD rate dominance and forcing a short-squeeze above 0.5642 SMA20.",
-      "evidence": [
-        "NZD ESI: -25.1 (STRONG NEGATIVE)",
-        "Retail Sentiment: 91% Long / 9% Short",
-        "SOFR 3.94% vs OCR 2.75% → +125bp"
+        "EUR COT LF net: -104,030 (pctl 2)",
+        "EUR/USD close: 1.1143",
+        "US NFP: +165k vs +65k expected"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "NZD/USD",
+        "pair": "EUR/USD",
         "direction": -1,
-        "supports": [],
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-05"
+          "asof": "2026-11-06"
         }
+      }
+    },
+    {
+      "time": "21:00",
+      "priority": "warning",
+      "title": "USD/CAD — Labor Divergence & COT Imbalance",
+      "text": "CAD COT LF net short stands at -85.3k contracts as USD/CAD surged to 1.4128 on Friday, breaking above its 10-day high following diverging employment prints. A blowout US nonfarm payrolls beat (+165k) contrasted sharply with Canadian job contraction (-4.7k), widening the 2Y yield gap against Canada to -142bp alongside a +140bp OIS carry advantage for USD. Momentum targets a retest of 1.4200 into the week ahead. Trade bias: Bullish USD/CAD above 1.4070. Catalyst: next BoC meeting (mkt: 44% hike priced) on 9 Dec. Risk: A retracement below the 20-day SMA at 1.4069 invalidating the breakout.",
+      "evidence": [
+        "CAD COT LF net: -85,289",
+        "Canada employment change: -4.7k vs +13k exp",
+        "USD/CAD close: 1.4128"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "USD/CAD",
+        "direction": 1,
+        "supports": [
+          "price moved 2.4 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-06"
+        }
+      }
+    },
+    {
+      "time": "20:48",
+      "priority": "warning",
+      "title": "USD/JPY — Options Downside Skew vs Yield Gap",
+      "text": "USD/JPY closed Friday at 158.43, confronting extreme 1M risk reversals of -1.97 that reflect heightened institutional demand for downside puts despite a +269bp OIS carry advantage favoring the dollar. Widening US-Japan rate differentials and a bear-steepening US curve maintain underlying spot support, but heavy downside options pricing warns of rapid unwinds if geopolitical tension spikes. The 18 Dec BoJ meeting determines whether domestic policy normalization can dismantle the carry trade. Trade bias: Neutral-to-bullish USD/JPY above 157.96. Catalyst: next BoJ meeting (mkt: 72% hike priced) on 18 Dec. Risk: A break below the 50-day SMA at 157.30 triggering put-option cascades.",
+      "evidence": [
+        "USD/JPY 25d RR: -1.97",
+        "USD/JPY OIS carry: +269bp",
+        "USD/JPY close: 158.43"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
       }
     }
   ]
