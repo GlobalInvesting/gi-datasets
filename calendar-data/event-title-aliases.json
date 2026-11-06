@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-06T14:29:52Z",
+  "generatedAt": "2026-11-06T17:37:48Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 214,
+  "aliasCount": 217,
   "aliases": [
     {
       "currency": "EUR",
@@ -774,34 +774,60 @@
           "dateISO": "2026-11-06",
           "forecast_primary": 49.0,
           "forecast_secondary": 48.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 50.9,
+          "actual_secondary": 50.9,
           "previous_primary": 48.8,
           "previous_secondary": 48.8,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "50.9",
           "forecast_secondary_raw": "48.5",
           "previous_secondary_raw": "48.8"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 49.0,
+          "forecast_yahoo": null,
+          "actual_primary": 50.9,
+          "actual_yahoo": 50.9,
+          "previous_primary": 48.8,
+          "previous_yahoo": 48.8,
+          "actual_yahoo_raw": "50.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "48.8"
         }
-      }
+      },
+      "yahoo_title": "U Mich Expectations Prelim"
     },
     {
       "currency": "USD",
       "primary_title": "United States Michigan Current Conditions",
-      "secondary_title": "United States Michigan Current Conditions Prel",
+      "secondary_title": "United States Michigan Current Conditions Final",
       "evidence": {
         "secondary": {
+          "dateISO": "2026-10-23",
+          "forecast_primary": 44.7,
+          "forecast_secondary": 44.7,
+          "actual_primary": 46.7,
+          "actual_secondary": 46.7,
+          "previous_primary": 44.7,
+          "previous_secondary": 50.9,
+          "actual_secondary_raw": "46.7",
+          "forecast_secondary_raw": "44.7",
+          "previous_secondary_raw": "50.9"
+        },
+        "yahoo": {
           "dateISO": "2026-11-06",
           "forecast_primary": 41.3,
-          "forecast_secondary": 46.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 51.0,
+          "actual_yahoo": 51.0,
           "previous_primary": 46.7,
-          "previous_secondary": 46.7,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "46",
-          "previous_secondary_raw": "46.7"
+          "previous_yahoo": 46.7,
+          "actual_yahoo_raw": "51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "46.7"
         }
-      }
+      },
+      "yahoo_title": "U Mich Conditions Prelim"
     },
     {
       "currency": "USD",
@@ -812,11 +838,11 @@
           "dateISO": "2026-11-06",
           "forecast_primary": 4.4,
           "forecast_secondary": 4.7,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 4.3,
+          "actual_secondary": 4.3,
           "previous_primary": 4.7,
           "previous_secondary": 4.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "4.3%",
           "forecast_secondary_raw": "4.7%",
           "previous_secondary_raw": "4.7%"
         }
@@ -831,15 +857,28 @@
           "dateISO": "2026-11-06",
           "forecast_primary": 3.4,
           "forecast_secondary": 3.6,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 3.4,
+          "actual_secondary": 3.4,
           "previous_primary": 3.5,
           "previous_secondary": 3.5,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "3.4%",
           "forecast_secondary_raw": "3.6%",
           "previous_secondary_raw": "3.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 3.4,
+          "forecast_yahoo": null,
+          "actual_primary": 3.4,
+          "actual_yahoo": 3.4,
+          "previous_primary": 3.5,
+          "previous_yahoo": 3.5,
+          "actual_yahoo_raw": "3.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.5"
         }
-      }
+      },
+      "yahoo_title": "U Mich 5-Yr Inf Prelim"
     },
     {
       "currency": "JPY",
@@ -2849,15 +2888,28 @@
           "dateISO": "2026-11-06",
           "forecast_primary": 57.3,
           "forecast_secondary": 57.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 58.3,
+          "actual_secondary": 58.3,
           "previous_primary": 58.2,
           "previous_secondary": 58.2,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "58.3",
           "forecast_secondary_raw": "57.5",
           "previous_secondary_raw": "58.2"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 57.3,
+          "forecast_yahoo": null,
+          "actual_primary": 58.3,
+          "actual_yahoo": 58.3,
+          "previous_primary": 58.2,
+          "previous_yahoo": 58.2,
+          "actual_yahoo_raw": "58.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "58.2"
         }
-      }
+      },
+      "yahoo_title": "Ivey PMI SA"
     },
     {
       "currency": "JPY",
@@ -3179,6 +3231,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "1.7%",
           "previous_secondary_raw": "1.4%"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Index of Services",
+      "secondary_title": "United Kingdom Services Output MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-12",
+          "forecast_primary": 0.5,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.9,
+          "previous_secondary": 0.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0.9%"
         }
       }
     },
@@ -4395,6 +4466,44 @@
           "actual_yahoo_raw": "64.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "64.8"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Consumer Sentiment",
+      "yahoo_title": "U Mich Sentiment Prelim",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 48.5,
+          "forecast_yahoo": null,
+          "actual_primary": 51.0,
+          "actual_yahoo": 51.0,
+          "previous_primary": 48.0,
+          "previous_yahoo": 48.0,
+          "actual_yahoo_raw": "51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "48"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Ivey PMI n.s.a.",
+      "yahoo_title": "Ivey PMI",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 56.4,
+          "actual_yahoo": 56.4,
+          "previous_primary": 61.9,
+          "previous_yahoo": 61.9,
+          "actual_yahoo_raw": "56.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "61.9"
         }
       }
     },
