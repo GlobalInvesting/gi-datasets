@@ -121,8 +121,8 @@
       ],
       "status": {
         "state": "active",
-        "close": 1.2389,
-        "asof": "2026-11-05"
+        "close": 1.2386,
+        "asof": "2026-11-06"
       }
     },
     "GBP/CHF": {
@@ -231,9 +231,10 @@
         }
       ],
       "status": {
-        "state": "active",
-        "close": 1.099,
-        "asof": "2026-11-05"
+        "state": "invalidated",
+        "close": 1.0951,
+        "asof": "2026-11-06",
+        "since": "2026-11-06"
       }
     },
     "GBP/AUD": {
@@ -866,5 +867,5 @@
   "changes": [
     "AUD: OIS-priced hike probability for the 3 Nov meeting moved from 56% to 79%"
   ],
-  "status_updated": "2026-11-06T06:09:32Z"
+  "status_updated": "2026-11-07T12:42:36Z"
 }
