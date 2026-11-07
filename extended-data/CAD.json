@@ -1,1 +1,15 @@
-{"data":{"bond10y":3.66,"bond2y":3.15,"inflationExpectations":2.24,"inflationExpectationsSource":"BOC Valet breakeven (nominal LONG \u2212 RRB)"},"dates":{"bond10y":"2026-11-06","bond2y":"2026-11-07","inflationExpectations":"2026-11-03"}}
+{
+  "lastUpdate": "2026-11-07",
+  "source": "Sovereign yield + macro pipeline (bond10y/bond2y/bond5y, vix and inflationExpectations preserved from disk, not fetched by this run)",
+  "data": {
+    "bond10y": 3.66,
+    "bond2y": 3.15,
+    "inflationExpectations": 2.24,
+    "inflationExpectationsSource": "BOC Valet breakeven (nominal LONG \u2212 RRB)"
+  },
+  "dates": {
+    "bond10y": "2026-11-06",
+    "bond2y": "2026-11-07",
+    "inflationExpectations": "2026-11-03"
+  }
+}
