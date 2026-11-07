@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-11-06T23:36:01Z",
+  "generated_at": "2026-11-07T22:01:50Z",
   "signals": [
     {
-      "time": "22:41",
+      "time": "21:11",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Divergence",
-      "text": "AUD COT LF long +43.5k faces severe liquidations as AUD underperforms across the board, dropping to 0.5627 on Friday against a surging Swiss Franc. Safe-haven inflows and a top-ranked Swiss Economic Surprise Index (+35.9) contrast with AUD's post-hike selloff, overriding the nominal carry advantage. The upcoming Asian open tests whether 0.5600 psychological support holds under bilateral momentum. Trade bias: Bearish AUD/CHF into the Sydney open. Catalyst: Sydney/Tokyo open liquidity resumption. Risk: A rebound above 0.5700 driven by broad risk stabilization.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Strait of Hormuz Escalation",
+      "text": "CHF gained +1.189% (n=6) as the G10 leader while AUD slid -2.194% (n=4) as laggard to post a 3.383% bilateral spread, driving AUD/CHF to close Friday at 0.5631. Weekend Iranian naval strikes on two tankers near the Strait of Hormuz accelerate defensive safe-haven demand into CHF while penalizing high-beta commodity currencies, overriding AUD's +485bp policy carry advantage. The Sydney/Tokyo open tests liquidity beneath the 0.5627 multi-session support. Trade bias: Short AUD/CHF into the open; haven flows overpower the positive carry spread. Catalyst: Sydney/Tokyo open following weekend Strait of Hormuz naval escalation. Risk: Immediate geopolitical de-escalation headlines triggering short covering back toward 0.5753 fair value.",
       "evidence": [
-        "CHF 1W avg: +1.212% (n=6)",
-        "AUD 1W avg: -2.219% (n=4)",
-        "G10 spread: 3.430%"
+        "CHF 1W avg: +1.189% (n=6)",
+        "AUD 1W avg: -2.194% (n=4)",
+        "G10 spread: 3.383%",
+        "AUD/CHF closed Friday at 0.5631",
+        "Two oil tankers struck mines near Strait of Hormuz"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -34,12 +36,41 @@
     {
       "time": "21:52",
       "priority": "warning",
-      "title": "EUR/USD — Crowded COT Short Squeeze Risk",
-      "text": "EUR COT LF short sits at an extreme -104.0k contracts (52-week percentile of 2, z = -1.80) while Friday closed at 1.1143 following robust US nonfarm payrolls (+165k). Strong US employment solidifies the Fed's restrictive real rate (+1.61%) and reinforces SOFR carry over €STR (+148bp), yet one-sided institutional shorts leave downside extensions vulnerable to abrupt profit-taking. The upcoming US CPI release and the 9 Dec Fed meeting will dictate whether euro bears can breach the 1.1100 handle. Trade bias: Bearish EUR/USD with caution on crowded positioning. Catalyst: next Fed meeting (mkt: 89% hike priced) on 9 Dec. Risk: A daily close above the 20-day SMA at 1.1195 triggering short covering.",
+      "title": "USD/CAD — Employment Divergence + Crowded Short Positioning",
+      "text": "CAD COT LF net short stands at -85,289 contracts (18.5% long) as USD/CAD closed Friday at 1.4128 following sharp North American macro divergence. October US non-farm payrolls surged +165k versus +65k expected while Canadian employment shed 4.7k, reinforcing the +140bp SOIS carry advantage favoring the dollar. The Sydney/Tokyo open sets up continuation toward fresh highs above 1.4150. Trade bias: Long USD/CAD into the open; divergence in labor fundamentals sustains the rally against crowded shorts. Catalyst: Sydney/Tokyo open confirming post-NFP dollar follow-through. Risk: Reversal in crude prices dampening CAD selling and pushing spot back under the 1.4069 SMA20.",
       "evidence": [
-        "EUR COT LF net: -104,030 (pctl 2)",
-        "EUR/USD close: 1.1143",
-        "US NFP: +165k vs +65k expected"
+        "CAD COT LF net -85,289 (18.5% long)",
+        "USD/CAD closed Friday at 1.4128",
+        "US NFP +165k vs Canada jobs -4.7k",
+        "SOFR vs CORRA carry +140bp in USD favor"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "USD/CAD",
+        "direction": 1,
+        "supports": [
+          "price moved 2.4 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-06"
+        }
+      }
+    },
+    {
+      "time": "21:52",
+      "priority": "warning",
+      "title": "EUR/USD — Crowded COT Short Overhang + Yield Disadvantage",
+      "text": "EUR COT LF short sits at an extreme -104,030 contracts (31.8% long, 52-week percentile 2, z=-1.80) as EUR/USD closed Friday at 1.1143 below all key daily moving averages. Resilient US payrolls support the Fed's restrictive stance, maintaining a +148bp SOIS carry buffer in favor of the dollar against €STR. Monday's Euro Area Eurogroup meeting and German trade data determine if technical support holds. Trade bias: Short EUR/USD into the open; rate differentials favor USD continuation despite crowded short exposure. Catalyst: Euro Area Eurogroup Meeting at 00:00 UTC followed by German Trade Balance. Risk: Hawkish Eurogroup commentary or upside German trade surplus triggering an unwind toward the 1.1195 SMA20.",
+      "evidence": [
+        "EUR COT LF net -104,030 (52w pctl 2, z=-1.80)",
+        "EUR/USD closed Friday at 1.1143",
+        "SOFR vs ESTR carry +148bp in USD favor",
+        "DE-US 10Y yield spread -162bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -60,21 +91,22 @@
     },
     {
       "time": "21:00",
-      "priority": "warning",
-      "title": "USD/CAD — Labor Divergence & COT Imbalance",
-      "text": "CAD COT LF net short stands at -85.3k contracts as USD/CAD surged to 1.4128 on Friday, breaking above its 10-day high following diverging employment prints. A blowout US nonfarm payrolls beat (+165k) contrasted sharply with Canadian job contraction (-4.7k), widening the 2Y yield gap against Canada to -142bp alongside a +140bp OIS carry advantage for USD. Momentum targets a retest of 1.4200 into the week ahead. Trade bias: Bullish USD/CAD above 1.4070. Catalyst: next BoC meeting (mkt: 44% hike priced) on 9 Dec. Risk: A retracement below the 20-day SMA at 1.4069 invalidating the breakout.",
+      "priority": "info",
+      "title": "USD/JPY — Carry Wedge vs Options Downside Hedging",
+      "text": "USD/JPY closed Friday at 158.43, underpinned by a +269bp SOFR-TONA carry advantage, even as 25-delta risk reversals trade at an extreme -1.97 put skew. Leveraged funds hold a net short JPY position of -21,213 contracts (92nd percentile), meaning further spot pullbacks risk disorderly position unwinds. Weekend geopolitical tension tests whether safe-haven yen demand overwhelms the yield deficit. Trade bias: Bullish USD/JPY above 158.00; wide carry spread anchors dip-buying interest. Catalyst: Sydney/Tokyo open price action against Friday's 158.47 resistance zone. Risk: Geopolitical escalation sparking severe risk-off unwinds that push spot through the 157.30 SMA50.",
       "evidence": [
-        "CAD COT LF net: -85,289",
-        "Canada employment change: -4.7k vs +13k exp",
-        "USD/CAD close: 1.4128"
+        "USD/JPY closed Friday at 158.43",
+        "SOFR vs TONA carry +269bp",
+        "USD/JPY 25d RR -1.97 strong put skew",
+        "JPY COT LF net -21,213 (52w pctl 92)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "USD/CAD",
+        "pair": "USD/JPY",
         "direction": 1,
         "supports": [
-          "price moved 2.4 ATR with it over five sessions"
+          "technical regime points with the stated direction"
         ],
         "conflicts": [],
         "read": {
@@ -83,22 +115,6 @@
           "technical_alignment": "technical_neutral",
           "asof": "2026-11-06"
         }
-      }
-    },
-    {
-      "time": "20:48",
-      "priority": "warning",
-      "title": "USD/JPY — Options Downside Skew vs Yield Gap",
-      "text": "USD/JPY closed Friday at 158.43, confronting extreme 1M risk reversals of -1.97 that reflect heightened institutional demand for downside puts despite a +269bp OIS carry advantage favoring the dollar. Widening US-Japan rate differentials and a bear-steepening US curve maintain underlying spot support, but heavy downside options pricing warns of rapid unwinds if geopolitical tension spikes. The 18 Dec BoJ meeting determines whether domestic policy normalization can dismantle the carry trade. Trade bias: Neutral-to-bullish USD/JPY above 157.96. Catalyst: next BoJ meeting (mkt: 72% hike priced) on 18 Dec. Risk: A break below the 50-day SMA at 157.30 triggering put-option cascades.",
-      "evidence": [
-        "USD/JPY 25d RR: -1.97",
-        "USD/JPY OIS carry: +269bp",
-        "USD/JPY close: 158.43"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
       }
     }
   ]
