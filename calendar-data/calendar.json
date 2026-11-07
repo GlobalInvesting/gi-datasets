@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026-11-06T23:59:30Z",
-  "generatedAt": "2026-11-06T23:59:30Z",
+  "lastUpdate": "2026-11-07T00:00:57Z",
+  "generatedAt": "2026-11-07T00:00:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-11-06",
+  "rangeFrom": "2025-11-07",
   "rangeTo": "2026-11-20",
-  "totalEvents": 7482,
+  "totalEvents": 7460,
   "currencyCounts": {
-    "AUD": 425,
-    "EUR": 2130,
-    "CHF": 174,
-    "GBP": 723,
-    "CAD": 437,
-    "JPY": 564,
-    "USD": 2403,
-    "NZD": 190,
-    "SEK": 260,
+    "EUR": 2125,
+    "GBP": 717,
+    "CHF": 173,
+    "CAD": 435,
+    "USD": 2400,
+    "AUD": 424,
+    "JPY": 562,
+    "NZD": 189,
+    "SEK": 259,
     "NOK": 176
   },
   "impactCounts": {
-    "high": 1686,
-    "medium": 3042,
-    "low": 2754
+    "medium": 3035,
+    "high": 1676,
+    "low": 2749
   },
   "surpriseStats": {
     "JPY/current account": {
@@ -664,9 +664,9 @@
       "std": 0.7
     },
     "SEK/unemployment rate": {
-      "n": 3,
-      "mean": 0.833333,
-      "std": 0.750555
+      "n": 2,
+      "mean": 1.05,
+      "std": 0.919239
     },
     "EUR/france s&p global manufacturing pmi": {
       "n": 3,
@@ -3153,11 +3153,6 @@
       "mean": -0.1,
       "std": 0.141421
     },
-    "NZD/rbnz non-resident debt holdings": {
-      "n": 2,
-      "mean": 0.35,
-      "std": 0.070711
-    },
     "GBP/core ppi output yoy": {
       "n": 2,
       "mean": -0.45,
@@ -4260,162 +4255,6 @@
     }
   },
   "events": [
-    {
-      "currency": "AUD",
-      "event": "Balance of Trade",
-      "dateISO": "2025-11-06",
-      "actual": "A$3.938B",
-      "forecast": "3.85",
-      "previous": "1.111",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "00:30"
-    },
-    {
-      "currency": "EUR",
-      "event": "Industrial Production MoM",
-      "dateISO": "2025-11-06",
-      "actual": "1.3%",
-      "forecast": "3.0",
-      "previous": "-3.7",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "CHF",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-11-06",
-      "actual": "2.9%",
-      "forecast": "2.8",
-      "previous": "2.8",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "08:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-11-06",
-      "actual": "-0.1%",
-      "forecast": "0.2",
-      "previous": "-0.1",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-11-06",
-      "actual": "1%",
-      "forecast": "1.0",
-      "previous": "1.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "BoE Interest Rate Decision",
-      "dateISO": "2025-11-06",
-      "actual": "4%",
-      "forecast": "4.0",
-      "previous": "4.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "12:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "BoE MPC Vote Cut",
-      "dateISO": "2025-11-06",
-      "actual": "49",
-      "forecast": "39.0",
-      "previous": "29.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "BoE MPC Vote Hike",
-      "dateISO": "2025-11-06",
-      "actual": "9",
-      "forecast": "9.0",
-      "previous": "9.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "BoE MPC Vote Unchanged",
-      "dateISO": "2025-11-06",
-      "actual": "59",
-      "forecast": "69.0",
-      "previous": "79.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "12:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "DMP 1Y CPI Expectations",
-      "dateISO": "2025-11-06",
-      "actual": "3.4%",
-      "forecast": "",
-      "previous": "3.4",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "14:00"
-    },
-    {
-      "currency": "CAD",
-      "event": "Ivey PMI s.a",
-      "dateISO": "2025-11-06",
-      "actual": "52.4",
-      "forecast": "55.2",
-      "previous": "59.8",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "JPY",
-      "event": "Household Spending YoY",
-      "dateISO": "2025-11-06",
-      "actual": "1.8%",
-      "forecast": "2.5",
-      "previous": "2.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Household Spending MoM",
-      "dateISO": "2025-11-06",
-      "actual": "-0.7%",
-      "forecast": "0.5",
-      "previous": "0.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
     {
       "currency": "EUR",
       "event": "Exports MoM",
@@ -77350,45 +77189,6 @@
       "previous": "2191.9B"
     },
     {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "00:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Euro Area EU Leaders Summit",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "02:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Governor Bailey Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "02:00",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
-      "event": "RBNZ Non-Resident Debt Holdings",
-      "impact": "low",
-      "actual": "57.3",
-      "forecast": "56.9%",
-      "previous": "57.0%"
-    },
-    {
       "date": "2026-10-16",
       "dateISO": "2026-10-16",
       "timeUTC": "03:35",
@@ -77401,20 +77201,6 @@
       "forecast": null,
       "previous": "1.2738%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "06:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden Unemployment Rate",
-      "impact": "medium",
-      "actual": "8.1",
-      "forecast": "8.5%",
-      "previous": "8.5%",
-      "vendorImpact": "low"
     },
     {
       "date": "16 Oct",
@@ -77822,19 +77608,6 @@
       "actual": "-0.327B",
       "forecast": null,
       "previous": "1.251B"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "10:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "16 Oct",
@@ -78462,58 +78235,6 @@
       "previous": "58.1K"
     },
     {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "20:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "United States TIC Net Long-Term Transactions",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "118.6B",
-      "previous": "-27.9B"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "20:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "United States TIC Net Long-Term Transactions incl. Swaps",
-      "impact": "low",
-      "actual": null,
-      "forecast": "124.4B",
-      "previous": "-27.9B"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "20:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "United States TIC Overall Net Capital Flow",
-      "impact": "low",
-      "actual": null,
-      "forecast": "157.8B",
-      "previous": "83.7B"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "20:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "United States TIC Net Foreign Purchases of Domestic Treasury Bonds & Notes",
-      "impact": "low",
-      "actual": null,
-      "forecast": "25.9B",
-      "previous": "-3.6B"
-    },
-    {
       "date": "2026-10-16",
       "dateISO": "2026-10-16",
       "timeUTC": "20:00",
@@ -78554,19 +78275,6 @@
       "forecast": null,
       "previous": "$87.4B",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "16 Oct",
-      "dateISO": "2026-10-16",
-      "timeUTC": "21:37",
-      "country": "CAD",
-      "currency": "CAD",
-      "flag": "🇨🇦",
-      "event": "BoC Governor Macklem Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "17 Oct",
@@ -96690,6 +96398,19 @@
       "currency": "USD",
       "flag": "🇺🇸",
       "event": "United States Baker Hughes US Total Rig Count",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "14 Nov",
+      "dateISO": "2026-11-14",
+      "timeUTC": "00:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Fed Governor Jefferson Speech",
       "impact": "medium",
       "actual": null,
       "forecast": null,
