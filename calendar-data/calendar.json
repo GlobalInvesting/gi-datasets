@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-07T00:20:47Z",
-  "generatedAt": "2026-11-07T00:20:47Z",
+  "lastUpdate": "2026-11-07T00:22:45Z",
+  "generatedAt": "2026-11-07T00:22:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-07",
   "rangeTo": "2026-11-20",
-  "totalEvents": 7460,
+  "totalEvents": 7461,
   "currencyCounts": {
-    "EUR": 2125,
+    "EUR": 2126,
     "GBP": 717,
     "CHF": 173,
     "CAD": 435,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 3035,
     "high": 1676,
-    "low": 2749
+    "low": 2750
   },
   "surpriseStats": {
     "JPY/current account": {
@@ -92481,19 +92481,6 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Netherlands Household Consumption YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "1.5%",
-      "previous": "2.1%"
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
-      "timeUTC": "09:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "ECB Executive Board Member Lane Speech",
       "impact": "medium",
       "actual": null,
@@ -93513,6 +93500,19 @@
     {
       "date": "9 Nov",
       "dateISO": "2026-11-09",
+      "timeUTC": "05:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Household Consumption YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.5%",
+      "previous": "2.1%"
+    },
+    {
+      "date": "9 Nov",
+      "dateISO": "2026-11-09",
       "timeUTC": "06:00",
       "country": "EUR",
       "currency": "EUR",
@@ -94042,7 +94042,7 @@
       "event": "Netherlands Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.7%",
       "previous": "0.1%"
     },
     {
@@ -94190,7 +94190,7 @@
       "event": "Slovakia Industrial Production YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "2.5%",
+      "forecast": "-2.9%",
       "previous": "-0.2%"
     },
     {
@@ -94421,11 +94421,24 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Finland RFTB Auction",
+      "event": "Finland 6-Month RFTB Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.87%"
+    },
+    {
+      "date": "10 Nov",
+      "dateISO": "2026-11-10",
+      "timeUTC": "11:20",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland 9-Month RFTB Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.03%"
     },
     {
       "date": "10 Nov",
@@ -95006,6 +95019,19 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland Harmonised Inflation Rate MoM Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.5%",
+      "previous": "0.2%"
+    },
+    {
+      "date": "11 Nov",
+      "dateISO": "2026-11-11",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Portugal Inflation Rate MoM Final",
       "impact": "low",
       "actual": null,
@@ -95019,11 +95045,50 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland Harmonised Inflation Rate YoY Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.0%",
+      "previous": "3.8%"
+    },
+    {
+      "date": "11 Nov",
+      "dateISO": "2026-11-11",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Inflation Rate MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.5%",
+      "previous": "0.2%"
+    },
+    {
+      "date": "11 Nov",
+      "dateISO": "2026-11-11",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Portugal Inflation Rate YoY Final",
       "impact": "low",
       "actual": null,
       "forecast": "3.8%",
       "previous": "3.6%"
+    },
+    {
+      "date": "11 Nov",
+      "dateISO": "2026-11-11",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Inflation Rate YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.1%",
+      "previous": "4.1%"
     },
     {
       "date": "11 Nov",
@@ -95414,58 +95479,6 @@
       "actual": null,
       "forecast": null,
       "previous": "4.24%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Harmonised Inflation Rate MoM Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.5%",
-      "previous": "0.2%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Harmonised Inflation Rate YoY Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.0%",
-      "previous": "3.8%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Inflation Rate MoM",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.5%",
-      "previous": "0.2%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Inflation Rate YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.1%",
-      "previous": "4.1%"
     },
     {
       "date": "12 Nov",
@@ -96010,7 +96023,7 @@
       "event": "Slovakia Inflation Rate YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "3.4%",
+      "forecast": "3.1%",
       "previous": "3.1%"
     },
     {
@@ -96023,7 +96036,7 @@
       "event": "Slovakia GDP Growth Rate YoY Prel",
       "impact": "low",
       "actual": null,
-      "forecast": "0.6%",
+      "forecast": "1%",
       "previous": "0.8%"
     },
     {
@@ -98348,6 +98361,19 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
+      "event": "Ireland Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": "5.7B",
+      "previous": "2.9B"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
       "event": "Ireland Residential Property Prices YoY",
       "impact": "low",
       "actual": null,
@@ -99020,19 +99046,6 @@
     {
       "date": "19 Nov",
       "dateISO": "2026-11-19",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Balance of Trade",
-      "impact": "low",
-      "actual": null,
-      "forecast": "5.7B",
-      "previous": "2.9B"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
       "timeUTC": "11:30",
       "country": "EUR",
       "currency": "EUR",
@@ -99391,8 +99404,8 @@
       "event": "Netherlands Consumer Confidence",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": "-34.0"
+      "forecast": "-35",
+      "previous": "-34"
     },
     {
       "date": "20 Nov",
@@ -99561,7 +99574,7 @@
       "impact": "low",
       "actual": null,
       "forecast": "0.5B",
-      "previous": null
+      "previous": "1.743B"
     },
     {
       "date": "20 Nov",
@@ -99573,8 +99586,8 @@
       "event": "Slovenia PPI YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.3%",
+      "previous": "3.9%"
     },
     {
       "date": "20 Nov",
@@ -99586,8 +99599,8 @@
       "event": "Slovenia Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-27",
+      "previous": "-27"
     },
     {
       "date": "20 Nov",
@@ -99599,8 +99612,8 @@
       "event": "Belgium Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-14",
+      "previous": "-13"
     },
     {
       "date": "20 Nov",
@@ -99612,8 +99625,8 @@
       "event": "Slovenia Unemployment Rate",
       "impact": "low",
       "actual": null,
-      "forecast": "4.50%",
-      "previous": null
+      "forecast": "4.5%",
+      "previous": "4.4%"
     },
     {
       "date": "20 Nov",
@@ -99625,7 +99638,7 @@
       "event": "Slovakia Unemployment Rate",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "5.2%",
       "previous": "5.2%"
     },
     {
