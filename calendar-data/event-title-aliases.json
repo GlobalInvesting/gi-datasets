@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-07T18:56:10Z",
+  "generatedAt": "2026-11-08T00:51:54Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 222,
+  "aliasCount": 224,
   "aliases": [
     {
       "currency": "CAD",
@@ -239,16 +239,16 @@
       "secondary_title": "Japan Imports YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": 35.4,
+          "dateISO": "2026-11-17",
+          "forecast_primary": 24.4,
           "forecast_secondary": null,
-          "actual_primary": 18.9,
-          "actual_secondary": 18.9,
-          "previous_primary": 28.0,
-          "previous_secondary": 28.0,
-          "actual_secondary_raw": "18.9%",
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 18.9,
+          "previous_secondary": 18.9,
+          "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "28%"
+          "previous_secondary_raw": "18.9%"
         }
       }
     },
@@ -258,16 +258,16 @@
       "secondary_title": "Japan Exports YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": 11.0,
+          "dateISO": "2026-11-17",
+          "forecast_primary": 14.8,
           "forecast_secondary": null,
-          "actual_primary": 16.7,
-          "actual_secondary": 16.7,
-          "previous_primary": 19.3,
-          "previous_secondary": 19.3,
-          "actual_secondary_raw": "16.7%",
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 16.7,
+          "previous_secondary": 16.7,
+          "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "19.3%"
+          "previous_secondary_raw": "16.7%"
         }
       }
     },
@@ -3649,6 +3649,44 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.4%"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Wage Price Index q/q",
+      "secondary_title": "Australia Wage Price Index QoQ",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 0.8,
+          "forecast_secondary": 1.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.8,
+          "previous_secondary": 0.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.0%",
+          "previous_secondary_raw": "0.8%"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Wage Price Index y/y",
+      "secondary_title": "Australia Wage Price Index YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 3.2,
+          "forecast_secondary": 3.4,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 3.2,
+          "previous_secondary": 3.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "3.4%",
+          "previous_secondary_raw": "3.2%"
         }
       }
     },
