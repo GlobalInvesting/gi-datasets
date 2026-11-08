@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-07T14:48:49.106194Z",
-  "runDate": "2026-11-07",
+  "runTimestamp": "2026-11-08T14:55:14.371061Z",
+  "runDate": "2026-11-08",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -19,8 +19,8 @@
     },
     "GBP": {
       "status": "ok",
-      "rate": "4.25",
-      "source": "ff-calendar-actual",
+      "rate": "4",
+      "source": "BoE-CSV",
       "date": "2026-11-05",
       "issues": []
     },
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "issues": []
     },
     "NZD": {
@@ -60,9 +60,9 @@
       "issues": []
     },
     "NOK": {
-      "status": "ok",
+      "status": "cached",
       "rate": "4.5",
-      "source": "ff-calendar-actual",
+      "source": "cached-file",
       "date": "2026-11-05",
       "issues": []
     },
@@ -76,7 +76,7 @@
   },
   "issues": [],
   "warnings": [
-    "CAD: kept cached 2026-11-01 value over older BoC-Valet candidate (2026-10-30) \u2014 likely a laggy fallback source"
+    "NOK: kept cached 2026-11-05 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
   ],
   "overallStatus": "degraded_cached"
 }
