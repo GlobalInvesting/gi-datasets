@@ -1,13 +1,13 @@
 {
-  "runTimestamp": "2026-11-08T14:55:14.371061Z",
-  "runDate": "2026-11-08",
+  "runTimestamp": "2026-11-09T18:35:53.862338Z",
+  "runDate": "2026-11-09",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
       "status": "ok",
       "rate": "4.00",
       "source": "NYFed-EFFR",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "issues": []
     },
     "EUR": {
@@ -21,7 +21,7 @@
       "status": "ok",
       "rate": "4",
       "source": "BoE-CSV",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "issues": []
     },
     "JPY": {
@@ -32,10 +32,10 @@
       "issues": []
     },
     "CAD": {
-      "status": "cached",
+      "status": "ok",
       "rate": "2.50",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "source": "BoC-Valet",
+      "date": "2026-11-02",
       "issues": []
     },
     "AUD": {
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "issues": []
     },
     "NZD": {
@@ -60,10 +60,10 @@
       "issues": []
     },
     "NOK": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "4.5",
-      "source": "cached-file",
-      "date": "2026-11-05",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-11-01",
       "issues": []
     },
     "SEK": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "NOK: kept cached 2026-11-05 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
