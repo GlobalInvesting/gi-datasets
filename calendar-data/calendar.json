@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-09T07:00:53Z",
-  "generatedAt": "2026-11-09T07:00:53Z",
+  "lastUpdate": "2026-11-09T07:02:47Z",
+  "generatedAt": "2026-11-09T07:02:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2569,24 +2569,24 @@
       "std": 0.494975
     },
     "EUR/germany exports mom": {
-      "n": 2,
-      "mean": -1.6,
-      "std": 0.0
+      "n": 3,
+      "mean": -0.366667,
+      "std": 2.136196
     },
     "EUR/germany imports mom": {
-      "n": 2,
-      "mean": -3.2,
-      "std": 2.262742
+      "n": 3,
+      "mean": -2.3,
+      "std": 2.233831
     },
     "EUR/germany trade balance": {
-      "n": 2,
-      "mean": 3.85,
-      "std": 1.626346
+      "n": 3,
+      "mean": 1.9,
+      "std": 3.567913
     },
     "EUR/germany trade balance n.s.a.": {
-      "n": 2,
-      "mean": 1.95,
-      "std": 6.858936
+      "n": 3,
+      "mean": 2.866667,
+      "std": 5.103267
     },
     "EUR/france trade balance": {
       "n": 3,
@@ -2669,9 +2669,9 @@
       "std": 1.626346
     },
     "NOK/ppi yoy": {
-      "n": 2,
-      "mean": 6.9,
-      "std": 3.535534
+      "n": 3,
+      "mean": 4.866667,
+      "std": 4.31895
     },
     "EUR/france industrial production mom": {
       "n": 3,
@@ -93428,7 +93428,7 @@
       "flag": "🇪🇺",
       "event": "Germany Exports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "2.0%",
       "forecast": "-0.1%",
       "previous": "-0.8%"
     },
@@ -93441,7 +93441,7 @@
       "flag": "🇪🇺",
       "event": "Germany Imports m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "4.7%",
       "previous": "0.9%"
     },
@@ -93454,7 +93454,7 @@
       "flag": "🇪🇺",
       "event": "Germany Trade Balance",
       "impact": "medium",
-      "actual": null,
+      "actual": "15.6B",
       "forecast": "17.6B",
       "previous": "19.5B"
     },
@@ -93467,7 +93467,7 @@
       "flag": "🇪🇺",
       "event": "Germany Trade Balance n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "17.4B",
       "forecast": "12.7B",
       "previous": "15.0B"
     },
@@ -93480,7 +93480,7 @@
       "flag": "🇳🇴",
       "event": "Norway PPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "6.7%",
       "forecast": null,
       "previous": "12.4%",
       "vendorImpact": "low"
@@ -93494,7 +93494,7 @@
       "flag": "🇳🇴",
       "event": "Norway PPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "59.0%",
       "forecast": "58.2%",
       "previous": "48.8%",
       "vendorImpact": "low"
