@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-11-09T08:09:01Z",
+  "generated_at": "2026-11-09T22:06:36Z",
   "signals": [
     {
-      "time": "08:01",
+      "time": "22:00",
       "priority": "critical",
-      "title": "USD/NOK — G10 Bilateral Theme + Carry",
-      "text": "The G10 scorecard flags USD outperformance at +0.502% across 9 pairs against NOK underperformance at −1.320% across 2 pairs, establishing a 1.823% bilateral spread that clears the critical threshold. Spot trades at 9.466, pushing through the SMA20 at 9.363 and SMA50 at 9.402 to test the SMA200 at 9.489 after printing a wide-range bullish session. While Norges Bank maintains policy at 4.50% versus the Fed at 4.00% creating an apparent 50bp rate disadvantage for the dollar, retail positioning shows a 100% net long extreme in USD/NOK that signals crowded one-way exposure. The bilateral momentum gap dominates cross-asset flows as oil weakness (-1.21% to $89.7) exacerbates krone underperformance. Trade bias: Bullish USD/NOK, supported by bilateral G10 theme strength while holding above the SMA50. Catalyst: Norges Bank Financial Stability Report at 07:30 UTC. Risk: A daily close below the SMA20 at 9.363 invalidates the bullish momentum setup.",
+      "title": "NZD/NOK — G10 Bilateral Theme + Commodity Divergence",
+      "text": "The G10 currency strength scorecard registers an extreme divergence between NZD and NOK over the 1-week window. NZD leads the G10 complex with an average gain of +0.842% across 4 pairs, while NOK lags at -0.979% across 2 pairs, generating a 1.822% bilateral spread. Crude oil dropped sharply with WTI down -4.49% to $86.8 intraday following reports of easing Strait of Hormuz naval tensions, directly eroding terms-of-trade support for the petroleum-linked Norwegian krone. Despite the RBNZ policy rate sitting at 2.75% against Norges Bank's 4.5%—a 175bp nominal carry disadvantage for the kiwi—spot NZD/USD gained +1.53% intraday to 0.5632 while USD/NOK trades above its 20-day average at 9.393. The broad rebound in risk sentiment, marked by the S&P 500 rallying +2.35% and VIX dropping -22.31% to 19.9, favors high-beta cyclical currencies over European petro-currencies in the near term. Trade bias: Long NZD/NOK; wide G10 momentum spread and crude collapse favor NZD outperformance. Catalyst: Norges Bank Financial Stability Report on 10 Nov at 07:30 UTC. Risk: Strait of Hormuz transit disruptions resume or crude rebounds above $90, reversing NOK weakness.",
       "evidence": [
-        "USD 1W avg: +0.502% (n=9)",
-        "NOK 1W avg: -1.320% (n=2)",
-        "G10 spread: 1.823%"
+        "NZD 1W avg: +0.842% (n=4)",
+        "NOK 1W avg: -0.979% (n=2)",
+        "G10 spread: 1.822%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unverified",
-        "pair": "USD/NOK",
+        "pair": "NZD/NOK",
         "direction": 1
       }
     },
     {
-      "time": "07:58",
-      "priority": "critical",
-      "title": "USD/JPY — Intervention-Driven Bid",
-      "text": "Confirmed data reported by WSJ verifies Japan deployed a record $50 billion in coordinated market action to defend the yen, establishing direct policy capping above current spot. USD/JPY trades at 157.99, holding above the SMA20 at 157.96 and SMA50 at 157.30 but capped beneath the SMA200 at 158.56. Fed 4.00% vs BoJ 1.25% maintains a 275bp policy rate advantage for USD, reflected in SOFR 3.92% vs TONA 1.23% giving a +269bp carry cushion. However, the options market prices aggressive downside tail risk: 1M 25d risk reversals print at −1.97, reflecting heavy put skew alongside elevated implied volatility of 6.9% versus 4.7% realized, yielding a +2.1% volatility risk premium. With VIX at 25.6, this move represents official policy enforcement on top of an otherwise carry-supportive backdrop rather than a safe-haven flight. Trade bias: Neutral to defensive USD/JPY, capped by official intervention scale. Catalyst: BoJ Summary of Opinions at 23:50 UTC. Risk: Sustained break above 160.00 invalidates the official intervention ceiling.",
+      "time": "21:56",
+      "priority": "warning",
+      "title": "USD/JPY — Elevated Vol Premium + Downside Options Skew",
+      "text": "USD/JPY trades at 157.89, holding below its SMA20 at 157.93 and SMA200 at 158.66 within a tight 20-session range. Implied volatility trades at 6.7% against a 30-day realized volatility of 4.7%, leaving an elevated Vol Risk Premium of +2.0% that signals persistent demand for options protection. The 25-delta Risk Reversal prints at -2.05, demonstrating a heavy put skew as market participants price downside protection despite a 269bp OIS carry advantage favoring the dollar (SOFR 3.92% vs TONA 1.23%). CFTC positioning shows Leveraged Funds net short JPY by -21,213 contracts at the 92nd percentile of its 52-week range, creating unwind vulnerability if domestic monetary policy tightens. With 160.00 remaining the key level that has previously triggered Ministry of Finance intervention, options markets are hedging spot pullbacks rather than chasing carry extension. Trade bias: Neutral/bearish USD/JPY; elevated options put skew caps upside above the 200-day moving average. Catalyst: BoJ Summary of Opinions on 9 Nov at 23:50 UTC. Risk: Sustained breakout above 158.66 invalidates the topping structure and targets the 160.00 intervention watch level.",
       "evidence": [
-        "USD/JPY 25d RR: -1.97",
-        "USD/JPY VRP: +2.1% (IV 6.9% vs HV30 4.7%)",
-        "Fed 4.00% vs BoJ 1.25% — 275bp"
+        "USD/JPY 25d RR: -2.05 (put skew)",
+        "USD/JPY IV: 6.7% vs HV30: 4.7% (VRP +2.0%)",
+        "USD/JPY OIS carry: SOFR 3.92% vs TONA 1.23% (+269bp)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -35,20 +35,45 @@
       }
     },
     {
-      "time": "07:56",
+      "time": "21:53",
       "priority": "warning",
-      "title": "EUR/USD — Positioning Extreme + Rate Disadvantage",
-      "text": "CFTC positioning shows EUR leveraged funds net short −104,030 contracts, sitting at the 2nd percentile of its 52-week range with a z-score of −1.80, confirming heavily crowded institutional short exposure. Spot trades at 1.1177, pinned below its SMA20 at 1.1195, SMA50 at 1.1347, and SMA200 at 1.1550 within an established technical downtrend. Retail sentiment stands at 85% long, directly diverging from institutional positioning and creating acute capitulation vulnerability if downside resumes. Central bank rate policy provides no relief, as Fed 4.00% vs ECB 2.65% maintains a 135bp carry spread in favor of the dollar, reinforced by SOFR 3.92% vs €STR 2.44% providing a +148bp CIP carry advantage. With US 5Y yields showing real-yield-led strength over the 20-day horizon (-33bp real vs -11bp breakeven of -44bp nominal), broader rate dynamics continue to penalize the euro. Trade bias: Bearish EUR/USD, driven by persistent carry disadvantage and contrarian retail overhang. Catalyst: United States CPI at 13:30 UTC. Risk: A daily close above the SMA20 at 1.1195 eases downside momentum and triggers spec short-covering.",
+      "title": "EUR/USD — Crowded Speculative Short vs Rates Divergence",
+      "text": "EUR/USD trades at 1.1227, closing above its SMA20 of 1.1198 while remaining capped beneath the falling SMA50 at 1.1339. CFTC Leveraged Funds net positioning stands at -104,030 contracts, sitting at the 2nd percentile of its 52-week range with a z-score of -1.80, confirming a stretched institutional short. This crowded short faces diminishing fundamental momentum as 2Y sovereign yield spreads narrowed 22bp in EUR's favor over the trailing 20 sessions to -160bp, even as the Fed at 4.00% maintains a 135bp policy advantage at 2.65%. While ESTR at 2.44% vs SOFR at 3.92% yields a +148bp carry spread backing the dollar, US 5Y yields fell 44bp over the past 20 sessions led by a 33bp decline in real yields (FRED, as of Nov 5). An extreme short position combined with narrowing real yield support leaves EUR/USD primed for short-covering squirts toward the 50-day moving average. Trade bias: Bullish EUR/USD; crowded spec short positioning creates asymmetric upside covering risk. Catalyst: Germany CPI at 07:00 UTC followed by US CPI at 13:30 UTC on 10 Nov. Risk: US Core CPI prints above the 0.2% consensus, re-widening the short-end rate gap in favor of USD.",
       "evidence": [
         "EUR COT LF net: -104,030 (pctl 2, z -1.80)",
-        "EUR/USD retail: 85% long vs COT net short",
+        "DE-US 2Y spread 20D Δ: +22bp",
         "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
         "pair": "EUR/USD",
-        "direction": -1,
+        "direction": 1,
+        "supports": [],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-09"
+        }
+      }
+    },
+    {
+      "time": "21:48",
+      "priority": "info",
+      "title": "GBP/USD — Technical Breakout + Speculative Add",
+      "text": "GBP/USD trades at 1.3443, executing a technical breakout above its SMA20 (1.336), SMA50 (1.336), and SMA200 (1.342) cluster with a wide-range bar measuring 2.3 times its 10-bar average body. Institutional positioning aggressively supports the move, with CFTC Leveraged Funds expanding net longs by +12,670 contracts WoW to +32,686 contracts (65th percentile). Cash rate differentials sit flat with the BoE at 4.00% matching the Fed at 4.00%, while OIS pricing yields a negligible 19bp SOFR premium over SONIA at 3.73%. UK 10Y Gilt yields trade at 5.16% (+28bp over US Treasuries at 4.88%), providing structural sovereign yield backing to the pound. With the options market reflecting a neutral stance via a mild 25d Risk Reversal of -0.42, spot price structure exhibits higher swing highs and lows that confirm short-term trend continuation. Trade bias: Long GBP/USD; spot clearance above the moving-average cluster confirms trend momentum. Catalyst: BoE MPC Member Pill speech on 10 Nov at 18:30 UTC. Risk: Daily close below the SMA200 anchor at 1.3420 negates the breakout structure.",
+      "evidence": [
+        "GBP COT LF net: +32,686 (WoW +12,670)",
+        "GBP/USD close: 1.3443 vs SMA200: 1.3420",
+        "UK 10Y vs US 10Y spread: +28bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "GBP/USD",
+        "direction": 1,
         "supports": [
           "technical regime points with the stated direction"
         ],
@@ -57,37 +82,7 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-06"
-        }
-      }
-    },
-    {
-      "time": "07:53",
-      "priority": "warning",
-      "title": "AUD/USD — Technical Breakdown vs Carry Anchor",
-      "text": "AUD/USD trades at 0.6888, breaking below its technical support zone near 0.6905 and remaining extended below the SMA20 at 0.6991, SMA50 at 0.7047, and SMA200 at 0.7060 in an entrenched downtrend. RBA at 4.85% vs Fed at 4.00% provides an 85bp policy carry buffer in favor of the Aussie, mirrored in OIS where AONIA 4.85% vs SOFR 3.92% provides a 93bp carry advantage. Leveraged funds hold net long +43,532 contracts, but positioning growth has stalled with WoW delta at −395 and 4W delta at −5,379, failing to absorb ongoing spot liquidation. BEER fair value model shows spot deeply discounted at z = −3.84σ against model fair value of 0.6979, but technical distribution currently overrides model valuation. Options skew confirms the caution, with 1M 25d risk reversals printing at −1.41 in favor of AUD puts. Trade bias: Bearish AUD/USD, honoring the trend breakdown below 0.6905 despite supportive carry. Catalyst: United States CPI at 13:30 UTC. Risk: A sustained daily close back above 0.6905 invalidates the technical breakdown.",
-      "evidence": [
-        "AUD/USD BEER misvaluation: z = -3.84σ",
-        "RBA 4.85% vs Fed 4.00% — 85bp AUD carry",
-        "AUD/USD spot: 0.6888 vs SMA20 0.6991"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "caution",
-        "pair": "AUD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 3.6 ATR with it over five sessions"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-11-06"
+          "asof": "2026-11-09"
         }
       }
     }
