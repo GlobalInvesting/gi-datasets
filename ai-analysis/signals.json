@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-08T22:02:14Z",
+  "generated_at": "2026-11-09T00:04:02Z",
   "signals": [
     {
-      "time": "22:00",
+      "time": "00:00",
       "priority": "critical",
       "title": "AUD/CHF — G10 Bilateral Theme + Geopolitical Shock",
-      "text": "AUD/CHF trades at 0.5613 amid acute global risk aversion sparked by multiple oil tanker mine explosions east of the Strait of Hormuz. On the 1W G10 Currency Strength Scorecard, CHF leads all peers at +1.257% across 6 pairs, while AUD lags at -2.229% across 4 pairs, generating a wide 3.486% bilateral spread. The safe-haven CHF bid completely overrides AUD's carry premium, which sits at +485bp nominally (RBA 4.85% vs SNB 0.00%). With VIX elevated at 25.6, flow dynamics heavily favor capital preservation over carry returns. Downside momentum in AUD remains reinforced by an active downtrend across broader dollar pairs. Trade bias: Bearish AUD/CHF; safe-haven flows dominate carry yield. Catalyst: RBA meeting 8 Dec — hike bias active. Risk: De-escalation headlines in the Persian Gulf trigger an aggressive carry squeeze back toward 0.5750.",
+      "text": "CHF outperforms across the G10 with a 1W average of +1.226% across 6 pairs, while AUD lags at -2.242% across 4 pairs, creating an extreme 3.467% spread. Multiple naval mine explosions east of the Strait of Hormuz involving commercial tankers have triggered acute maritime security stress and driven flight-to-safety flows into CHF. This geopolitical shock overrides the underlying rate structure, where RBA at 4.85% vs SNB at 0.00% offers a 485bp nominal carry advantage to AUD. AUD/CHF trades at 0.56270, well below its fair value model estimate of 0.5753 (z=-3.27σ), reflecting intense cross-asset liquidation. Elevated risk sentiment across global markets accelerates the compression of high-beta carry crosses. Trade bias: Bearish AUD/CHF, momentum favors safe-haven CHF over high-beta AUD during acute corridor disruption. Catalyst: RBA meeting 8 Dec — hike bias priced. Risk: Geopolitical de-escalation along the Strait transit route spurs a violent mean-reversion squeeze toward 0.5750.",
       "evidence": [
-        "CHF 1W avg: +1.257% (n=6)",
-        "AUD 1W avg: -2.229% (n=4)",
-        "G10 spread: 3.486%"
+        "CHF 1W avg: +1.226% (n=6)",
+        "AUD 1W avg: -2.242% (n=4)",
+        "G10 spread: 3.467%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -32,24 +32,24 @@
       }
     },
     {
-      "time": "21:56",
+      "time": "23:56",
       "priority": "critical",
-      "title": "USD/JPY — Options Skew + Strait of Hormuz Disruption",
-      "text": "USD/JPY prints at 158.34, holding above its SMA20 of 157.96 and SMA50 of 157.30 while testing the SMA200 resistance near 158.56. Escalating military actions in the Strait of Hormuz have pushed WTI to $90.8 and elevated VIX to 25.6, driving demand for downside protection. The 1M 25-delta Risk Reversals print an extreme put skew of -1.97, while 1M implied volatility trades at 6.9% against a 30-day realized volatility of 4.9%, yielding an elevated 2.0% volatility risk premium. Despite a supportive nominal rate differential favoring USD by +275bp (Fed 4.00% vs BoJ 1.25%), the options market is paying up heavily for downside protection as the pair trades below the 160.00 intervention threshold. Trade bias: Bearish USD/JPY, downside protection demand surging. Catalyst: BoJ Summary of Opinions at 23:50 UTC. Risk: Spot acceptance above 160.00 invalidates the downside hedging structure.",
+      "title": "USD/JPY — Elevated Vol Premium + Intervention Watch",
+      "text": "USD/JPY trades at 158.28, holding below its SMA200 at 158.56 while remaining above the SMA20 and SMA50 at 157.96 and 157.30. Saxo 1M ATM implied volatility sits at 6.9% against 30-day realized volatility of 4.8%, generating an elevated Vol Risk Premium of +2.0%. Concurrently, the 25-delta risk reversal prints at -1.97, reflecting substantial institutional put skew and aggressive downside hedging demand. A 269bp OIS carry advantage (SOFR 3.92% vs TONA 1.23%) continues to anchor the long-term dollar bid against negative real Japanese policy rates of -2.25%. However, with spot trading near multi-month highs, 160.00 remains the key level that has previously triggered Ministry of Finance warnings and intervention concerns. Trade bias: Long USD/JPY, carry-supported while holding above 157.96 SMA20. Catalyst: BoJ Summary of Opinions release at 23:50 UTC. Risk: Spot prints a sustained break above 160.00, prompting direct official intervention.",
       "evidence": [
+        "USD/JPY VRP: +2.0% (IV 6.9% vs HV30 4.8%)",
         "USD/JPY 25d RR: -1.97",
-        "USD/JPY IV vs HV30: 6.9% vs 4.9% (VRP +2.0%)",
-        "Fed 4.00% vs BoJ 1.25% — 275bp"
+        "SOFR 3.92% vs TONA 1.23% — 269bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
+        "verdict": "unconfirmed",
         "pair": "USD/JPY",
-        "direction": -1,
-        "supports": [],
-        "conflicts": [
-          "technical regime (reversal_risk) points against the stated direction"
+        "direction": 1,
+        "supports": [
+          "technical regime points with the stated direction"
         ],
+        "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
@@ -59,13 +59,13 @@
       }
     },
     {
-      "time": "21:54",
+      "time": "23:53",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Speculative Short + Retail Divergence",
-      "text": "EUR/USD trades at 1.1142, maintaining an established downtrend below its falling SMA20 at 1.1195 and SMA50 at 1.1347. Leveraged funds hold a heavy net short position of -104,030 contracts (CFTC, week ending Nov 3), ranking at the 2nd percentile of its 52-week range (z = -1.80) after extending shorts by 4,473 contracts WoW. Conversely, Retail sentiment data retail sentiment registers an extreme 85% long positioning, setting up a sharp institutional vs retail divergence. Meanwhile, US 5Y yields fell 19bp over the trailing 5 sessions (FRED, as of Nov 5), driven primarily by a 21bp contraction in breakevens. Trade bias: Bearish EUR/USD; institutional trend and carry favor downside despite retail contrarian long crowding. Catalyst: US CPI on 10 Nov — forecast 4.2% y/y. Risk: Daily close above the SMA20 at 1.1195 sparks short covering toward the SMA50.",
+      "title": "EUR/USD — Crowded Speculative Short vs Retail Extreme",
+      "text": "EUR/USD trades at 1.1151, trapped in a clear downtrend beneath its descending SMA20 at 1.1195, SMA50 at 1.1347, and SMA200 at 1.1550. CFTC positioning shows leveraged funds hold an extreme net short of -104,030 contracts, placing positioning at the 2nd percentile of its 52-week range (z=-1.80σ) after adding 4,473 contracts of shorts WoW. In direct contrast, Retail sentiment data retail sentiment registers an extreme 85% long bias, setting up sharp institutional-versus-retail divergence. Macro carry structurally suppresses euro upside, with Fed at 4.00% vs ECB at 2.65% delivering a 135bp policy rate advantage to the dollar, corroborated by a 148bp SOFR-€STR spread. Furthermore, US 5Y yields rose +2bp in real terms over 5D according to FRED data, maintaining underlying support for the greenback. Trade bias: Short EUR/USD, institutional short trend and rate differentials outweigh retail contrarian positioning. Catalyst: US CPI release on 10 Nov — forecast 4.2% y/y. Risk: Leveraged funds trigger an abrupt short-squeeze covering rally above 1.1200 on an inflation miss.",
       "evidence": [
         "EUR COT LF net: -104,030 (pctl 2, z -1.80)",
-        "EUR/USD retail: 85% long",
+        "Retail sentiment: 85% long",
         "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary",
@@ -86,14 +86,14 @@
       }
     },
     {
-      "time": "21:51",
+      "time": "23:48",
       "priority": "warning",
-      "title": "USD/CAD — Macro Divergence + Trend Breakout",
-      "text": "USD/CAD trades at 1.4116, executing a bullish expansion bar on the daily session that places spot firmly above its SMA20 (1.4069), SMA50 (1.4043), and SMA200 (1.3890). The rally is supported by starkly diverging macroeconomic fundamentals, highlighted by October US non-farm payrolls adding +165k jobs against an expected +65k, while Canadian employment contracted by -4.7k with unemployment rising to 6.7% (a 3.00-sigma miss). The Fed-BoC policy differential grants the USD a +150bp nominal carry advantage (Fed 4.00% vs BoC 2.50%). Leveraged funds remain net short CAD at -85,289 contracts, yet short-covering of +11,663 contracts WoW suggests speculative positioning is adjusting to policy divergence. Trade bias: Bullish USD/CAD; labor divergence reinforces carry dominance. Catalyst: BoC meeting 9 Dec — hike bias active. Risk: Decisive break back below the SMA20 support at 1.4069 invalidates near-term upside momentum.",
+      "title": "USD/CAD — Real-Yield Repricing + Technical Breakout",
+      "text": "USD/CAD trades at 1.4119, breaking decisively above its technical cluster with the close above the SMA20 at 1.4069, SMA50 at 1.4043, and SMA200 at 1.3890. The move follows divergent labor dynamics, where Canadian unemployment rose to 6.7% (a 3.00σ negative surprise) while US employment prints remain robust. Fed at 4.00% vs BoC at 2.50% maintains a 150bp nominal rate spread favoring the dollar, reinforced by a 140bp SOFR vs CORRA OIS differential. In options markets, 1M 25d risk reversals sit flat at +0.08, showing no meaningful options hedge against further upside expansion. The underlying US yield decomposition shows nominal 5Y yields at 4.59% with real yields at 2.33% (FRED, as of Nov 5), maintaining structural rate support. Trade bias: Bullish USD/CAD, macro growth and policy divergence favor further topside discovery. Catalyst: BoC meeting 9 Dec — 100% hike priced. Risk: WTI crude prices rebound sharply above $95.0/bbl, restoring CAD terms-of-trade support.",
       "evidence": [
         "Fed 4.00% vs BoC 2.50% — 150bp",
-        "CAD unemployment: 6.7% vs 6.3% (z = +3.00σ)",
-        "CAD COT LF net: -85,289 (WoW +11,663)"
+        "USD/CAD SMA cluster: 1.4069 / 1.4043",
+        "Canada unemployment: 6.7% (z=+3.00σ)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
