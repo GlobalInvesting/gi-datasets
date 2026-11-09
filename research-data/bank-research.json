@@ -1,15 +1,13 @@
 {
-  "updated_utc": "2026-11-09T04:20:44.557170+00:00",
-  "updated_label": "04:20 UTC",
-  "total": 39,
+  "updated_utc": "2026-11-09T06:36:40.242341+00:00",
+  "updated_label": "06:36 UTC",
+  "total": 37,
   "sources": [
     "BIS",
     "CME",
     "ING",
-    "RBC",
     "Saxo",
-    "TD",
-    "Wells Fargo"
+    "TD"
   ],
   "items": [
     {
@@ -44,36 +42,6 @@
       "category": "macro",
       "ts": 1794020847000,
       "published": "2026-11-07T03:07:27+00:00"
-    },
-    {
-      "id": "0578542a259e",
-      "bank": "Wells Fargo",
-      "bank_full": "Wells Fargo Securities",
-      "series": "",
-      "title": "Economics Week Ahead",
-      "excerpt": "Next week, attention turns to Tuesday’s CPI report, with no year-over-year readings available because of last October’s shutdown-related data gap. We expect headline and core inflation to clock 0.28% and 0.21% month-over-month, respectively. Softer core inflation would offer some relief after September’s upside surprise but should still leave our call for a December rate hike [&#8230;] The post Economics Week Ahead appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660137-economics-week-ahead-32/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794020474000,
-      "published": "2026-11-07T03:01:14+00:00"
-    },
-    {
-      "id": "d8393f5d855c",
-      "bank": "RBC",
-      "bank_full": "RBC Financial Group",
-      "series": "",
-      "title": "Industry Data Point to Tepid Canadian Growth in Late Q3",
-      "excerpt": "Canada’s manufacturing and wholesale sales reports for September next Friday should add to evidence that the economy grew less than expected in Q3. Gross domestic product growth has already flatlined in July and August, and likely contracted by 0.1% in September, according to Statistics Canada&#8217;s preliminary estimate. Preliminary GDP estimates have been highly prone to [&#8230;] The post Industry Data Point to Tepid Canadian Growth in Late Q3 appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660133-industry-data-point-to-tepid-canadian-growth-in-late-q3/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794020144000,
-      "published": "2026-11-07T02:55:44+00:00"
     },
     {
       "id": "ba64fb7d04b7",
@@ -509,6 +477,58 @@
       "published": "2026-11-03T17:03:03+00:00"
     },
     {
+      "id": "7e9568eb1ffb",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Marking our tenth anniversary - one conviction, two principles and three challenges",
+      "excerpt": "Speech by Mr Emmanuel Moulin, Governor of the Bank of France, at the Prudential Supervision and Resolution Authority (ACPR)-Financial Markets Authority(AMF) Fintech Forum, Paris, 2 October 2026.",
+      "author": "Emmanuel Moulin",
+      "url": "https://www.bis.org/speeches/20261103-marking-our-tenth-anniversary-one-conviction-two-principles-and-three-challenges",
+      "currencies": [
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793664000000,
+      "published": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "id": "5e3a583c8ca4",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Payments in a fragmenting world - sovereignty, strategy and system design",
+      "excerpt": "Speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the South African Reserve Bank Payments Conference 2026, Pretoria, 21 October 2026.",
+      "author": "Denis Beau",
+      "url": "https://www.bis.org/speeches/20261103-payments-fragmenting-world-sovereignty-strategy-and-system-design",
+      "currencies": [
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793664000000,
+      "published": "2026-11-03T00:00:00+00:00"
+    },
+    {
+      "id": "89a3333147a4",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Innovation, security and technological sovereignty - reconciling three imperatives",
+      "excerpt": "Speech by Mr Denis Beau, First Deputy Governor of the Bank of France and Delegated Chairman of the Prudential Supervision and Resolution Authority (ACPR), at a seminar organised by the Association Europe-Finances-Régulations, Paris, 15 October 2026.",
+      "author": "Denis Beau",
+      "url": "https://www.bis.org/speeches/20261103-innovation-security-and-technological-sovereignty-reconciling-three-imperatives",
+      "currencies": [
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1793664000000,
+      "published": "2026-11-03T00:00:00+00:00"
+    },
+    {
       "id": "93beb4347636",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -583,58 +603,6 @@
       "url": "https://www.bis.org/speeches/20261103-stable-banks-strong-capital-markets-europes-financial-system-future",
       "currencies": [
         "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793664000000,
-      "published": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "id": "7e9568eb1ffb",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Marking our tenth anniversary - one conviction, two principles and three challenges",
-      "excerpt": "Speech by Mr Emmanuel Moulin, Governor of the Bank of France, at the Prudential Supervision and Resolution Authority (ACPR)-Financial Markets Authority(AMF) Fintech Forum, Paris, 2 October 2026.",
-      "author": "Emmanuel Moulin",
-      "url": "https://www.bis.org/speeches/20261103-marking-our-tenth-anniversary-one-conviction-two-principles-and-three-challenges",
-      "currencies": [
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793664000000,
-      "published": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "id": "5e3a583c8ca4",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Payments in a fragmenting world - sovereignty, strategy and system design",
-      "excerpt": "Speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the South African Reserve Bank Payments Conference 2026, Pretoria, 21 October 2026.",
-      "author": "Denis Beau",
-      "url": "https://www.bis.org/speeches/20261103-payments-fragmenting-world-sovereignty-strategy-and-system-design",
-      "currencies": [
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793664000000,
-      "published": "2026-11-03T00:00:00+00:00"
-    },
-    {
-      "id": "89a3333147a4",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Innovation, security and technological sovereignty - reconciling three imperatives",
-      "excerpt": "Speech by Mr Denis Beau, First Deputy Governor of the Bank of France and Delegated Chairman of the Prudential Supervision and Resolution Authority (ACPR), at a seminar organised by the Association Europe-Finances-Régulations, Paris, 15 October 2026.",
-      "author": "Denis Beau",
-      "url": "https://www.bis.org/speeches/20261103-innovation-security-and-technological-sovereignty-reconciling-three-imperatives",
-      "currencies": [
-        "EUR",
-        "CHF"
       ],
       "pairs": [],
       "category": "macro",
