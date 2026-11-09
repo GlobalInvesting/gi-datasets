@@ -1,53 +1,57 @@
 {
-  "generated_at": "2026-11-09T00:04:02Z",
+  "generated_at": "2026-11-09T06:53:11Z",
   "signals": [
     {
-      "time": "00:00",
+      "time": "06:52",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Geopolitical Shock",
-      "text": "CHF outperforms across the G10 with a 1W average of +1.226% across 6 pairs, while AUD lags at -2.242% across 4 pairs, creating an extreme 3.467% spread. Multiple naval mine explosions east of the Strait of Hormuz involving commercial tankers have triggered acute maritime security stress and driven flight-to-safety flows into CHF. This geopolitical shock overrides the underlying rate structure, where RBA at 4.85% vs SNB at 0.00% offers a 485bp nominal carry advantage to AUD. AUD/CHF trades at 0.56270, well below its fair value model estimate of 0.5753 (z=-3.27σ), reflecting intense cross-asset liquidation. Elevated risk sentiment across global markets accelerates the compression of high-beta carry crosses. Trade bias: Bearish AUD/CHF, momentum favors safe-haven CHF over high-beta AUD during acute corridor disruption. Catalyst: RBA meeting 8 Dec — hike bias priced. Risk: Geopolitical de-escalation along the Strait transit route spurs a violent mean-reversion squeeze toward 0.5750.",
+      "title": "USD/NOK — G10 Bilateral Theme + Oil Supply Pressure",
+      "text": "USD/NOK trades at 9.466, advancing above its SMA20 of 9.363 and SMA50 of 9.402 while holding below the SMA200 at 9.489. The G10 Currency Strength Scorecard flags a strong bilateral divergence, with USD gaining +0.554% across 9 pairs while NOK drops −1.185% across 2 pairs, creating a 1.739% spread that exceeds the critical threshold. WTI crude oil falling to $89.60 per barrel compounds pressure on the energy-linked krone, offsetting NOK's restrictive real policy rate of +1.82%. The Fed at 4.00% vs Norges Bank at 4.50% leaves a 50bp nominal rate deficit for the dollar, but broad greenback outperformance and commodity headwinds dominate the cross. Trade bias: Bullish USD/NOK, supported by G10 momentum divergence and commodity weakness. Catalyst: US CPI release today at 13:30 UTC. Risk: WTI crude rebounds sharply above $92.00, relieving downside pressure on NOK.",
       "evidence": [
-        "CHF 1W avg: +1.226% (n=6)",
-        "AUD 1W avg: -2.242% (n=4)",
-        "G10 spread: 3.467%"
+        "USD 1W avg: +0.554% (n=9)",
+        "NOK 1W avg: -1.185% (n=2)",
+        "G10 spread: 1.739%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
-        "pair": "AUD/CHF",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 3.4 ATR with it over five sessions"
-        ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
-        "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
-          "asof": "2026-11-06"
-        }
+        "verdict": "unverified",
+        "pair": "USD/NOK",
+        "direction": 1
       }
     },
     {
-      "time": "23:56",
+      "time": "06:49",
       "priority": "critical",
-      "title": "USD/JPY — Elevated Vol Premium + Intervention Watch",
-      "text": "USD/JPY trades at 158.28, holding below its SMA200 at 158.56 while remaining above the SMA20 and SMA50 at 157.96 and 157.30. Saxo 1M ATM implied volatility sits at 6.9% against 30-day realized volatility of 4.8%, generating an elevated Vol Risk Premium of +2.0%. Concurrently, the 25-delta risk reversal prints at -1.97, reflecting substantial institutional put skew and aggressive downside hedging demand. A 269bp OIS carry advantage (SOFR 3.92% vs TONA 1.23%) continues to anchor the long-term dollar bid against negative real Japanese policy rates of -2.25%. However, with spot trading near multi-month highs, 160.00 remains the key level that has previously triggered Ministry of Finance warnings and intervention concerns. Trade bias: Long USD/JPY, carry-supported while holding above 157.96 SMA20. Catalyst: BoJ Summary of Opinions release at 23:50 UTC. Risk: Spot prints a sustained break above 160.00, prompting direct official intervention.",
+      "title": "USD/JPY — Intervention-Driven Repricing + Carry Tension",
+      "text": "USD/JPY trades at 158.18, maintaining a position above its SMA20 (157.96) and SMA50 (157.30) while capping below the SMA200 (158.56). Official data confirms Tokyo conducted a record $50 billion single-day intervention to defend the yen, establishing direct policy intervention rather than safe-haven flow as the primary driver of JPY strength. This policy action overlays a backdrop where Fed 4.00% vs BoJ 1.25% maintains a 275bp rate differential favoring USD, alongside a +269bp SOFR-TONA OIS carry advantage. FX options reflect extreme hedging demand with 1M 25d Risk Reversals at −1.97 (strong put skew) and IV running at 6.9% vs HV30 of 4.8% (VRP +2.1%). Trade bias: Neutral USD/JPY, balancing 275bp carry against active intervention risk. Catalyst: BoJ Summary of Opinions at 23:50 UTC. Risk: USD/JPY breaks above 160.00, forcing secondary intervention from Tokyo.",
       "evidence": [
-        "USD/JPY VRP: +2.0% (IV 6.9% vs HV30 4.8%)",
-        "USD/JPY 25d RR: -1.97",
-        "SOFR 3.92% vs TONA 1.23% — 269bp"
+        "Intervention: $50B single-day spend",
+        "Fed 4.00% vs BoJ 1.25% — 275bp",
+        "USD/JPY 25d RR: -1.97"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": 1,
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
+      }
+    },
+    {
+      "time": "06:47",
+      "priority": "warning",
+      "title": "NZD/USD — COT vs OIS Divergence + Persistent ESI Misses",
+      "text": "NZD/USD trades at 0.5597, remaining locked below its SMA20 (0.5639), SMA50 (0.5696), and SMA200 (0.5825) in a established downtrend. Leveraged funds hold a net short position of −23,350 contracts (pctl 21), maintaining a net short bias despite the OIS market pricing an hawkish bias for the RBNZ. Fundamental support remains undermined by the Economic Surprise Index, where NZD registers a strong negative −25.1 rating reflecting persistent data misses. A 125bp carry advantage (Fed 4.00% vs RBNZ 2.75%) continues to favor USD, reinforcing the structural weakness in the pair. Trade bias: Bearish NZD/USD, driven by weak domestic economic surprises and carry disadvantage. Catalyst: RBNZ Governor Orr speech at 22:00 UTC. Risk: RBNZ delivers an unexpectedly hawkish policy signal, triggering a short-covering rally.",
+      "evidence": [
+        "NZD COT LF net: -23,350 (pctl 21)",
+        "NZD ESI: -25.1 index",
+        "Fed 4.00% vs RBNZ 2.75% — 125bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "NZD/USD",
+        "direction": -1,
         "supports": [
-          "technical regime points with the stated direction"
+          "technical regime points with the stated direction",
+          "price moved 2.0 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
@@ -59,57 +63,35 @@
       }
     },
     {
-      "time": "23:53",
+      "time": "06:44",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Speculative Short vs Retail Extreme",
-      "text": "EUR/USD trades at 1.1151, trapped in a clear downtrend beneath its descending SMA20 at 1.1195, SMA50 at 1.1347, and SMA200 at 1.1550. CFTC positioning shows leveraged funds hold an extreme net short of -104,030 contracts, placing positioning at the 2nd percentile of its 52-week range (z=-1.80σ) after adding 4,473 contracts of shorts WoW. In direct contrast, Retail sentiment data retail sentiment registers an extreme 85% long bias, setting up sharp institutional-versus-retail divergence. Macro carry structurally suppresses euro upside, with Fed at 4.00% vs ECB at 2.65% delivering a 135bp policy rate advantage to the dollar, corroborated by a 148bp SOFR-€STR spread. Furthermore, US 5Y yields rose +2bp in real terms over 5D according to FRED data, maintaining underlying support for the greenback. Trade bias: Short EUR/USD, institutional short trend and rate differentials outweigh retail contrarian positioning. Catalyst: US CPI release on 10 Nov — forecast 4.2% y/y. Risk: Leveraged funds trigger an abrupt short-squeeze covering rally above 1.1200 on an inflation miss.",
+      "title": "EUR/USD — Positioning Exhaustion + Volatility Premium",
+      "text": "EUR/USD trades at 1.1168, positioned below its SMA20 (1.1195), SMA50 (1.1347), and SMA200 (1.1550) within a firm downtrend structure. CFTC data shows Leveraged Funds heavily net short EUR at −104,030 contracts, reaching a 52-week percentile extreme of 2% (z = −1.80). Options markets price 1M ATM IV at 5.7% against HV30 of 4.4%, generating a +1.3% Volatility Risk Premium with 25d Risk Reversals showing a mild put skew at −0.33. The Fed at 4.00% vs ECB at 2.65% provides a 135bp rate advantage to the dollar (+148bp on SOFR-eSTR OIS basis), limiting sustained EUR recovery. Trade bias: Neutral/Bearish EUR/USD, constrained by crowded positioning and rate differentials. Catalyst: US CPI release today at 13:30 UTC. Risk: Stalled net short additions trigger a short-squeeze back toward the 1.1195 SMA20 level.",
       "evidence": [
         "EUR COT LF net: -104,030 (pctl 2, z -1.80)",
-        "Retail sentiment: 85% long",
+        "EUR/USD VRP: +1.3% (IV 5.7% vs HV30 4.4%)",
         "Fed 4.00% vs ECB 2.65% — 135bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-06"
-        }
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
       }
     },
     {
-      "time": "23:48",
-      "priority": "warning",
-      "title": "USD/CAD — Real-Yield Repricing + Technical Breakout",
-      "text": "USD/CAD trades at 1.4119, breaking decisively above its technical cluster with the close above the SMA20 at 1.4069, SMA50 at 1.4043, and SMA200 at 1.3890. The move follows divergent labor dynamics, where Canadian unemployment rose to 6.7% (a 3.00σ negative surprise) while US employment prints remain robust. Fed at 4.00% vs BoC at 2.50% maintains a 150bp nominal rate spread favoring the dollar, reinforced by a 140bp SOFR vs CORRA OIS differential. In options markets, 1M 25d risk reversals sit flat at +0.08, showing no meaningful options hedge against further upside expansion. The underlying US yield decomposition shows nominal 5Y yields at 4.59% with real yields at 2.33% (FRED, as of Nov 5), maintaining structural rate support. Trade bias: Bullish USD/CAD, macro growth and policy divergence favor further topside discovery. Catalyst: BoC meeting 9 Dec — 100% hike priced. Risk: WTI crude prices rebound sharply above $95.0/bbl, restoring CAD terms-of-trade support.",
+      "time": "06:40",
+      "priority": "info",
+      "title": "GBP/USD — Rates Neutrality + Technical MA Compression",
+      "text": "GBP/USD trades at 1.3387, hovering near its SMA20 (1.3348) while remaining capped beneath the SMA50 (1.3363) and SMA200 (1.3425). Central bank policy rates present a neutral spread with both the Fed and BoE set at 4.00% (0bp nominal spread), while OIS SOFR-SONIA pricing shows a marginal +19bp carry preference for USD. CFTC Leveraged Funds hold a net long position of +32,686 contracts (65th percentile), while Economic Surprise data shows GBP at a moderate positive +6.3 index level. The technical moving average cluster between 1.3348 and 1.3363 defines immediate intraday support and resistance. Trade bias: Neutral GBP/USD, anchored by balanced policy rates and technical compression. Catalyst: BoE Governor Bailey speech at 17:25 UTC. Risk: A breakout beyond the 1.3348/1.3363 technical band driven by US inflation data.",
       "evidence": [
-        "Fed 4.00% vs BoC 2.50% — 150bp",
-        "USD/CAD SMA cluster: 1.4069 / 1.4043",
-        "Canada unemployment: 6.7% (z=+3.00σ)"
+        "Fed 4.00% vs BoE 4.00% — 0bp",
+        "GBP COT LF net: +32,686 (pctl 65)",
+        "GBP/USD SMA20/50 cluster: 1.3348/1.3363"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/CAD",
-        "direction": 1,
-        "supports": [
-          "price moved 2.4 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-06"
-        }
+        "verdict": "not_directional",
+        "pair": "GBP/USD"
       }
     }
   ]
