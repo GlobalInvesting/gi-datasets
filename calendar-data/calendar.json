@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-10T13:31:05Z",
-  "generatedAt": "2026-11-10T13:31:05Z",
+  "lastUpdate": "2026-11-10T13:32:49Z",
+  "generatedAt": "2026-11-10T13:32:49Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -49,14 +49,14 @@
       "std": 0.070711
     },
     "USD/inflation rate mom": {
-      "n": 4,
-      "mean": 0.125,
-      "std": 0.189297
+      "n": 5,
+      "mean": 0.08,
+      "std": 0.192354
     },
     "USD/cpi": {
-      "n": 3,
-      "mean": 1.247333,
-      "std": 1.256265
+      "n": 4,
+      "mean": 0.63375,
+      "std": 1.599397
     },
     "USD/inflation rate yoy": {
       "n": 4,
@@ -2864,7 +2864,7 @@
       "std": 9.263099
     },
     "USD/core cpi mom": {
-      "n": 2,
+      "n": 3,
       "mean": 0.1,
       "std": 0.0
     },
@@ -2874,19 +2874,19 @@
       "std": 0.141421
     },
     "USD/cpi n.s.a.": {
-      "n": 2,
-      "mean": -0.7155,
-      "std": 0.638517
+      "n": 3,
+      "mean": -0.663333,
+      "std": 0.460452
     },
     "USD/core cpi": {
-      "n": 2,
-      "mean": 0.5575,
-      "std": 0.463155
+      "n": 3,
+      "mean": 0.406333,
+      "std": 0.419297
     },
     "USD/real earnings mom": {
-      "n": 2,
-      "mean": -0.05,
-      "std": 0.919239
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.650641
     },
     "USD/cleveland fed median cpi mom": {
       "n": 2,
@@ -94531,7 +94531,7 @@
       "flag": "🇺🇸",
       "event": "United States CPI m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "0.5%",
       "previous": "0.6%"
     },
@@ -94544,7 +94544,7 @@
       "flag": "🇺🇸",
       "event": "United States Core CPI m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.2%",
       "previous": "0.3%"
     },
@@ -94583,7 +94583,7 @@
       "flag": "🇺🇸",
       "event": "United States CPI n.s.a.",
       "impact": "low",
-      "actual": null,
+      "actual": "337.511",
       "forecast": "338.070",
       "previous": "336.940"
     },
@@ -94596,7 +94596,7 @@
       "flag": "🇺🇸",
       "event": "United States Core CPI",
       "impact": "low",
-      "actual": null,
+      "actual": "339.900",
       "forecast": "339.796",
       "previous": "338.896"
     },
@@ -94609,7 +94609,7 @@
       "flag": "🇺🇸",
       "event": "United States Real Earnings m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.0%",
       "previous": "-0.5%"
     },
@@ -94622,7 +94622,7 @@
       "flag": "🇺🇸",
       "event": "United States CPI n.s.a. m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": null,
       "previous": "0.6%"
     },
@@ -94635,7 +94635,7 @@
       "flag": "🇺🇸",
       "event": "United States Core CPI n.s.a. m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": null,
       "previous": "0.4%"
     },
@@ -94648,7 +94648,7 @@
       "flag": "🇺🇸",
       "event": "United States CPI",
       "impact": "high",
-      "actual": null,
+      "actual": "337.476",
       "forecast": "338.683",
       "previous": "336.298"
     },
