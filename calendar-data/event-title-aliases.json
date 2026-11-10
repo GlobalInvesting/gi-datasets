@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-10T03:44:47Z",
+  "generatedAt": "2026-11-10T15:08:17Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 232,
+  "aliasCount": 236,
   "aliases": [
     {
       "currency": "EUR",
@@ -480,16 +480,16 @@
       "secondary_title": "United States Michigan Current Conditions Final",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-23",
-          "forecast_primary": 44.7,
-          "forecast_secondary": 44.7,
-          "actual_primary": 46.7,
-          "actual_secondary": 46.7,
-          "previous_primary": 44.7,
-          "previous_secondary": 50.9,
-          "actual_secondary_raw": "46.7",
-          "forecast_secondary_raw": "44.7",
-          "previous_secondary_raw": "50.9"
+          "dateISO": "2026-11-20",
+          "forecast_primary": null,
+          "forecast_secondary": 51.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": 46.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "51.0",
+          "previous_secondary_raw": "46.7"
         },
         "yahoo": {
           "dateISO": "2026-11-06",
@@ -1845,21 +1845,8 @@
           "actual_secondary_raw": "-1.9%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 0.5,
-          "forecast_yahoo": null,
-          "actual_primary": -1.9,
-          "actual_yahoo": -1.9,
-          "previous_primary": 0.9,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "-1.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
         }
-      },
-      "yahoo_title": "Construction Spending MM"
+      }
     },
     {
       "currency": "USD",
@@ -1877,21 +1864,8 @@
           "actual_secondary_raw": "75.2",
           "forecast_secondary_raw": "78",
           "previous_secondary_raw": "77.9"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 80.7,
-          "forecast_yahoo": null,
-          "actual_primary": 75.2,
-          "actual_yahoo": 75.2,
-          "previous_primary": 77.9,
-          "previous_yahoo": 77.9,
-          "actual_yahoo_raw": "75.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "77.9"
         }
-      },
-      "yahoo_title": "ISM Mfg Prices Paid"
+      }
     },
     {
       "currency": "AUD",
@@ -2710,15 +2684,28 @@
           "dateISO": "2026-11-10",
           "forecast_primary": 48.3,
           "forecast_secondary": 47.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 46.1,
+          "actual_secondary": 46.1,
           "previous_primary": 47.0,
           "previous_secondary": 47.0,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "46.1",
           "forecast_secondary_raw": "47.2",
           "previous_secondary_raw": "47.0"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 48.3,
+          "forecast_yahoo": null,
+          "actual_primary": 46.1,
+          "actual_yahoo": 46.1,
+          "previous_primary": 47.0,
+          "previous_yahoo": 47.0,
+          "actual_yahoo_raw": "46.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "47"
         }
-      }
+      },
+      "yahoo_title": "Economy Watchers Poll SA*"
     },
     {
       "currency": "JPY",
@@ -2729,13 +2716,32 @@
           "dateISO": "2026-11-10",
           "forecast_primary": 48.9,
           "forecast_secondary": 47.8,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 46.5,
+          "actual_secondary": 46.5,
           "previous_primary": 47.4,
           "previous_secondary": 47.4,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "46.5",
           "forecast_secondary_raw": "47.8",
           "previous_secondary_raw": "47.4"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom 30-Year Treasury Gilt Auction",
+      "secondary_title": "United Kingdom Treasury Gilt 2056 Auction",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 5.54,
+          "actual_secondary": 5.54,
+          "previous_primary": 5.52,
+          "previous_secondary": 5.82,
+          "actual_secondary_raw": "5.540%",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "5.82%"
         }
       }
     },
@@ -2748,7 +2754,7 @@
           "dateISO": "2026-11-10",
           "forecast_primary": -1.3,
           "forecast_secondary": -2.6,
-          "actual_primary": null,
+          "actual_primary": -2.7,
           "actual_secondary": -2.7,
           "previous_primary": -4.7,
           "previous_secondary": -4.7,
@@ -2760,7 +2766,7 @@
           "dateISO": "2026-11-10",
           "forecast_primary": -1.3,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": -2.7,
           "actual_yahoo": -2.7,
           "previous_primary": -4.7,
           "previous_yahoo": -4.7,
@@ -2780,15 +2786,28 @@
           "dateISO": "2026-11-10",
           "forecast_primary": 0.2,
           "forecast_secondary": 0.2,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.3,
+          "actual_secondary": 0.3,
           "previous_primary": 0.3,
           "previous_secondary": 0.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "0.3%",
           "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0.3%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 0.2,
+          "forecast_yahoo": null,
+          "actual_primary": 0.3,
+          "actual_yahoo": 0.3,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
         }
-      }
+      },
+      "yahoo_title": "Core CPI MM, SA"
     },
     {
       "currency": "USD",
@@ -2818,15 +2837,28 @@
           "dateISO": "2026-11-10",
           "forecast_primary": 0.0,
           "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 0.0,
+          "actual_secondary": 0.0,
           "previous_primary": -0.5,
-          "previous_secondary": -0.5,
-          "actual_secondary_raw": null,
+          "previous_secondary": -0.4,
+          "actual_secondary_raw": "0.0%",
           "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-0.5%"
+          "previous_secondary_raw": "-0.4%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 0.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
+          "actual_yahoo": 0.0,
+          "previous_primary": -0.5,
+          "previous_yahoo": -0.5,
+          "actual_yahoo_raw": "0",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.5"
         }
-      }
+      },
+      "yahoo_title": "Real Weekly Earnings MM"
     },
     {
       "currency": "USD",
@@ -2837,15 +2869,28 @@
           "dateISO": "2026-11-10",
           "forecast_primary": 338.683,
           "forecast_secondary": 337.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 337.476,
+          "actual_secondary": 337.48,
           "previous_primary": 336.298,
           "previous_secondary": 336.3,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "337.48",
           "forecast_secondary_raw": "337",
           "previous_secondary_raw": "336.30"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 338.683,
+          "forecast_yahoo": null,
+          "actual_primary": 337.476,
+          "actual_yahoo": 337.51,
+          "previous_primary": 336.298,
+          "previous_yahoo": 336.94,
+          "actual_yahoo_raw": "337.51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "336.94"
         }
-      }
+      },
+      "yahoo_title": "CPI Index, NSA"
     },
     {
       "currency": "AUD",
@@ -3893,6 +3938,38 @@
       }
     },
     {
+      "currency": "USD",
+      "primary_title": "United States Michigan Consumer Sentiment",
+      "secondary_title": "United States Michigan Consumer Sentiment Final",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": null,
+          "forecast_secondary": 51.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": 48.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "51.0",
+          "previous_secondary_raw": "48.0"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-06",
+          "forecast_primary": 48.5,
+          "forecast_yahoo": null,
+          "actual_primary": 51.0,
+          "actual_yahoo": 51.0,
+          "previous_primary": 48.0,
+          "previous_yahoo": 48.0,
+          "actual_yahoo_raw": "51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "48"
+        }
+      },
+      "yahoo_title": "U Mich Sentiment Prelim"
+    },
+    {
       "currency": "NZD",
       "primary_title": "New Zealand CPI q/q",
       "yahoo_title": "CPI QQ",
@@ -4136,82 +4213,6 @@
           "actual_yahoo_raw": "2.65",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.65"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Silf/Swedbank Manufacturing PMI",
-      "yahoo_title": "PMI Manufacturing Sect",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 57.1,
-          "forecast_yahoo": null,
-          "actual_primary": 60.5,
-          "actual_yahoo": 60.5,
-          "previous_primary": 58.1,
-          "previous_yahoo": 58.1,
-          "actual_yahoo_raw": "60.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "58.1"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland Retail Sales y/y",
-      "yahoo_title": "Retail Sales YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 2.0,
-          "forecast_yahoo": null,
-          "actual_primary": 1.6,
-          "actual_yahoo": 1.6,
-          "previous_primary": 3.2,
-          "previous_yahoo": 3.2,
-          "actual_yahoo_raw": "1.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.2"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland procure.ch Manufacturing PMI",
-      "yahoo_title": "Manufacturing PMI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 56.7,
-          "actual_yahoo": 56.7,
-          "previous_primary": null,
-          "previous_yahoo": 55.3,
-          "actual_yahoo_raw": "56.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "55.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States ISM Manufacturing Employment",
-      "yahoo_title": "ISM Manuf Employment Idx",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": 51.4,
-          "forecast_yahoo": null,
-          "actual_primary": 52.4,
-          "actual_yahoo": 52.4,
-          "previous_primary": 52.7,
-          "previous_yahoo": 52.7,
-          "actual_yahoo_raw": "52.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "52.7"
         }
       }
     },
@@ -4672,25 +4673,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States Michigan Consumer Sentiment",
-      "yahoo_title": "U Mich Sentiment Prelim",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 48.5,
-          "forecast_yahoo": null,
-          "actual_primary": 51.0,
-          "actual_yahoo": 51.0,
-          "previous_primary": 48.0,
-          "previous_yahoo": 48.0,
-          "actual_yahoo_raw": "51",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "48"
-        }
-      }
-    },
-    {
       "currency": "CAD",
       "primary_title": "Canada Ivey PMI n.s.a.",
       "yahoo_title": "Ivey PMI",
@@ -4763,6 +4745,139 @@
           "actual_yahoo_raw": "108.36",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "107.56"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI m/m",
+      "yahoo_title": "Core Inflation MM*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 0.5,
+          "forecast_yahoo": null,
+          "actual_primary": 0.3,
+          "actual_yahoo": 0.3,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Core CPI y/y",
+      "yahoo_title": "Core Inflation YY*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 2.5,
+          "forecast_yahoo": null,
+          "actual_primary": 2.7,
+          "actual_yahoo": 2.7,
+          "previous_primary": 3.0,
+          "previous_yahoo": 3.0,
+          "actual_yahoo_raw": "2.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CPI m/m",
+      "yahoo_title": "CPI MM, SA",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 0.5,
+          "forecast_yahoo": null,
+          "actual_primary": 0.4,
+          "actual_yahoo": 0.4,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CPI n.s.a.",
+      "yahoo_title": "CPI Index, NSA",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 338.07,
+          "forecast_yahoo": null,
+          "actual_primary": 337.511,
+          "actual_yahoo": 337.51,
+          "previous_primary": 336.94,
+          "previous_yahoo": 336.94,
+          "actual_yahoo_raw": "337.51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "336.94"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core CPI",
+      "yahoo_title": "Core CPI Index, SA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 339.796,
+          "forecast_yahoo": null,
+          "actual_primary": 339.9,
+          "actual_yahoo": 339.9,
+          "previous_primary": 338.896,
+          "previous_yahoo": 338.9,
+          "actual_yahoo_raw": "339.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "338.9"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CPI n.s.a. m/m",
+      "yahoo_title": "CPI MM, SA",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 0.2,
+          "actual_yahoo": 0.4,
+          "previous_primary": 0.6,
+          "previous_yahoo": 0.6,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core CPI n.s.a.",
+      "yahoo_title": "Core CPI Index, SA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 339.921,
+          "actual_yahoo": 339.9,
+          "previous_primary": 339.287,
+          "previous_yahoo": 338.9,
+          "actual_yahoo_raw": "339.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "338.9"
         }
       }
     },
