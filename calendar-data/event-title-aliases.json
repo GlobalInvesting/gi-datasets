@@ -1,105 +1,10 @@
 {
-  "generatedAt": "2026-11-09T23:29:22Z",
+  "generatedAt": "2026-11-10T03:44:47Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 234,
+  "aliasCount": 232,
   "aliases": [
-    {
-      "currency": "CAD",
-      "primary_title": "Canada CPI y/y",
-      "secondary_title": "Canada CPI Common YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-19",
-          "forecast_primary": 2.7,
-          "forecast_secondary": 2.7,
-          "actual_primary": 3.1,
-          "actual_secondary": 2.4,
-          "previous_primary": 3.0,
-          "previous_secondary": 2.6,
-          "actual_secondary_raw": "2.4%",
-          "forecast_secondary_raw": "2.7%",
-          "previous_secondary_raw": "2.6%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Core CPI m/m",
-      "secondary_title": "Canada Core Inflation Rate MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 0.3,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 0.0,
-          "previous_secondary": 0.0,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "0%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Core CPI y/y",
-      "secondary_title": "Canada Core Inflation Rate YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 2.1,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 2.2,
-          "previous_secondary": 2.2,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "2.2%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Common CPI y/y",
-      "secondary_title": "Canada CPI Common YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 2.4,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 2.4,
-          "previous_secondary": 2.4,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "2.4%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Trimmed CPI y/y",
-      "secondary_title": "Canada CPI Trimmed-Mean YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 1.8,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 1.8,
-          "previous_secondary": 1.8,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "1.8%"
-        }
-      }
-    },
     {
       "currency": "EUR",
       "primary_title": "Euro Area Construction Output y/y",
@@ -486,16 +391,16 @@
       "secondary_title": "Japan Inflation Rate Ex-Food and Energy YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-22",
-          "forecast_primary": 1.8,
-          "forecast_secondary": 2.0,
-          "actual_primary": 2.4,
-          "actual_secondary": 2.4,
-          "previous_primary": 1.9,
-          "previous_secondary": 1.9,
-          "actual_secondary_raw": "2.4%",
-          "forecast_secondary_raw": "2.0%",
-          "previous_secondary_raw": "1.9%"
+          "dateISO": "2026-11-19",
+          "forecast_primary": 2.2,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.4,
+          "previous_secondary": 2.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "2.4%"
         }
       }
     },
@@ -505,16 +410,16 @@
       "secondary_title": "Japan Core Inflation Rate YoY",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-10-22",
-          "forecast_primary": 1.4,
-          "forecast_secondary": 2.0,
-          "actual_primary": 2.2,
-          "actual_secondary": 2.1,
-          "previous_primary": 1.7,
-          "previous_secondary": 1.7,
-          "actual_secondary_raw": "2.1%",
-          "forecast_secondary_raw": "2.0%",
-          "previous_secondary_raw": "1.7%"
+          "dateISO": "2026-11-19",
+          "forecast_primary": 2.1,
+          "forecast_secondary": 2.1,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.2,
+          "previous_secondary": 2.1,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.1%",
+          "previous_secondary_raw": "2.1%"
         }
       }
     },
@@ -1533,21 +1438,8 @@
           "actual_secondary_raw": "1.19",
           "forecast_secondary_raw": "1.18",
           "previous_secondary_raw": "1.18"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 1.18,
-          "forecast_yahoo": null,
-          "actual_primary": 1.19,
-          "actual_yahoo": 1.19,
-          "previous_primary": 1.18,
-          "previous_yahoo": 1.18,
-          "actual_yahoo_raw": "1.19",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.18"
         }
-      },
-      "yahoo_title": "Jobs/Applicants Ratio"
+      }
     },
     {
       "currency": "JPY",
@@ -2722,15 +2614,28 @@
           "dateISO": "2026-11-09",
           "forecast_primary": -2.1,
           "forecast_secondary": 0.1,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -6.8,
+          "actual_secondary": -6.8,
           "previous_primary": -3.1,
           "previous_secondary": -3.1,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-6.8%",
           "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "-3.1%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": -2.1,
+          "forecast_yahoo": null,
+          "actual_primary": -6.8,
+          "actual_yahoo": -6.8,
+          "previous_primary": -3.1,
+          "previous_yahoo": -3.1,
+          "actual_yahoo_raw": "-6.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-3.1"
         }
-      }
+      },
+      "yahoo_title": "All Household Spending YY"
     },
     {
       "currency": "JPY",
@@ -2741,15 +2646,28 @@
           "dateISO": "2026-11-09",
           "forecast_primary": 0.8,
           "forecast_secondary": 0.3,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -2.8,
+          "actual_secondary": -2.8,
           "previous_primary": 0.1,
           "previous_secondary": 0.1,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-2.8%",
           "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.1%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 0.8,
+          "forecast_yahoo": null,
+          "actual_primary": -2.8,
+          "actual_yahoo": -2.8,
+          "previous_primary": 0.1,
+          "previous_yahoo": 0.1,
+          "actual_yahoo_raw": "-2.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.1"
         }
-      }
+      },
+      "yahoo_title": "All Household Spending MM"
     },
     {
       "currency": "JPY",
@@ -2760,15 +2678,28 @@
           "dateISO": "2026-11-09",
           "forecast_primary": 5.3,
           "forecast_secondary": 5.4,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 5.2,
+          "actual_secondary": 5.2,
           "previous_primary": 5.3,
-          "previous_secondary": 5.3,
-          "actual_secondary_raw": null,
+          "previous_secondary": 5.2,
+          "actual_secondary_raw": "5.2%",
           "forecast_secondary_raw": "5.4%",
-          "previous_secondary_raw": "5.3%"
+          "previous_secondary_raw": "5.2%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 5.3,
+          "forecast_yahoo": null,
+          "actual_primary": 5.2,
+          "actual_yahoo": 5.2,
+          "previous_primary": 5.3,
+          "previous_yahoo": 5.3,
+          "actual_yahoo_raw": "5.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "5.3"
         }
-      }
+      },
+      "yahoo_title": "Bank Lending YY"
     },
     {
       "currency": "JPY",
@@ -2818,14 +2749,27 @@
           "forecast_primary": -1.3,
           "forecast_secondary": -2.6,
           "actual_primary": null,
-          "actual_secondary": null,
+          "actual_secondary": -2.7,
           "previous_primary": -4.7,
           "previous_secondary": -4.7,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "-2.7%",
           "forecast_secondary_raw": "-2.6%",
           "previous_secondary_raw": "-4.7%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": -1.3,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": -2.7,
+          "previous_primary": -4.7,
+          "previous_yahoo": -4.7,
+          "actual_yahoo_raw": "-2.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-4.7"
         }
-      }
+      },
+      "yahoo_title": "Consumer Sentiment"
     },
     {
       "currency": "USD",
@@ -3418,6 +3362,63 @@
     },
     {
       "currency": "CAD",
+      "primary_title": "Canada Core CPI m/m",
+      "secondary_title": "Canada Core Inflation Rate MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 0.3,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 0.0,
+          "previous_secondary": 0.0,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "0%"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Core CPI y/y",
+      "secondary_title": "Canada Core Inflation Rate YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 2.1,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.2,
+          "previous_secondary": 2.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "2.2%"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Common CPI y/y",
+      "secondary_title": "Canada CPI Common YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 2.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 2.4,
+          "previous_secondary": 2.4,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "2.4%"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
       "primary_title": "Canada Median CPI y/y",
       "secondary_title": "Canada CPI Median YoY",
       "evidence": {
@@ -3432,6 +3433,25 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": null,
           "previous_secondary_raw": "1.9%"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Trimmed CPI y/y",
+      "secondary_title": "Canada CPI Trimmed-Mean YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 1.8,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 1.8,
+          "previous_secondary": 1.8,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "1.8%"
         }
       }
     },
@@ -4078,25 +4098,6 @@
           "actual_yahoo_raw": "2.65",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.65"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Unemployment Rate",
-      "yahoo_title": "Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.4,
-          "actual_yahoo": 2.4,
-          "previous_primary": null,
-          "previous_yahoo": 2.5,
-          "actual_yahoo_raw": "2.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.5"
         }
       }
     },
@@ -4801,8 +4802,8 @@
       "evidence": {
         "secondary": {
           "actual_primary": null,
-          "actual_secondary_raw": "¥4062B",
-          "dateISO": "2026-10-07",
+          "actual_secondary_raw": "¥2372B",
+          "dateISO": "2026-11-09",
           "manual_note": "Trading Economics' Japan 'Current Account' is the n.s.a. headline series, distinct from 'Adjusted Current Account'. Verified 2026-10-07: TE previous 2989B equals the primary feed's n.s.a. previous 2988.9B rounded to TE's whole-number display; forecasts differ by vendor consensus panel. The by-value check cannot confirm it because _parse_numeric() does not parse B-suffixed values."
         }
       }
