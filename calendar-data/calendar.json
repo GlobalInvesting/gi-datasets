@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-10T05:00:55Z",
-  "generatedAt": "2026-11-10T05:00:55Z",
+  "lastUpdate": "2026-11-10T05:02:47Z",
+  "generatedAt": "2026-11-10T05:02:47Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -4192,6 +4192,16 @@
       "n": 2,
       "mean": 117.0,
       "std": 1195.01046
+    },
+    "JPY/economy watchers index for current conditions": {
+      "n": 2,
+      "mean": -1.05,
+      "std": 1.626346
+    },
+    "JPY/economy watchers index for future conditions": {
+      "n": 2,
+      "mean": -1.25,
+      "std": 1.626346
     },
     "CAD/average hourly wages yoy": {
       "n": 2,
@@ -94041,7 +94051,7 @@
       "flag": "🇯🇵",
       "event": "Japan Economy Watchers Index for Current Conditions",
       "impact": "low",
-      "actual": null,
+      "actual": "46.1",
       "forecast": "48.3",
       "previous": "47.0"
     },
@@ -94054,7 +94064,7 @@
       "flag": "🇯🇵",
       "event": "Japan Economy Watchers Index for Future Conditions",
       "impact": "low",
-      "actual": null,
+      "actual": "46.5",
       "forecast": "48.9",
       "previous": "47.4"
     },
