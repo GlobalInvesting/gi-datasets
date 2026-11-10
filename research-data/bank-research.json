@@ -1,14 +1,100 @@
 {
-  "updated_utc": "2026-11-10T04:20:50.073605+00:00",
-  "updated_label": "04:20 UTC",
+  "updated_utc": "2026-11-10T08:20:49.766433+00:00",
+  "updated_label": "08:20 UTC",
   "total": 32,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "27d59742d833",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "The Commodities Feed: Oil slides on easing Middle East tensions",
+      "excerpt": "Energy markets remain under pressure as hopes for a de-escalation in the Middle East reduce geopolitical risk premiums. Oil extended its losses as Gulf supply flows continued to recover, while European gas also moved…",
+      "author": "",
+      "url": "https://think.ing.com/articles/the-commodities-feed-oil-retreats-on-easing-middle-east-tensions/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794298200000,
+      "published": "2026-11-10T08:10:00+00:00"
+    },
+    {
+      "id": "bee17488c051",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: US inflation to offer some support to USD today",
+      "excerpt": "The dollar has handed back most of last week’s gains on the back of a rebound in risk sentiment, also helped by further declines in energy prices. But we expect a slightly hotter-than-expected 0.3% MoM US core CPI print today to offer the dollar some support. We see some stabilisation in EUR/USD for the remainder of this…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-us-inflation-to-offer-some-support-to-usd-today/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1794297000000,
+      "published": "2026-11-10T07:50:00+00:00"
+    },
+    {
+      "id": "19c5d2c9a8a9",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Rates Spark: US inflation likely too hot for comfort",
+      "excerpt": "The direct pass-through from oil to rates has weakened compared with a few months ago, as markets turn their attention to inflation data. We expect the US core CPI reading to come in at 0.3% MoM, which is too hot to support lower rates. The ongoing AI jitters do help a 10yr UST yield of 5% look relatively attractive, supporting inflows into longer…",
+      "author": "",
+      "url": "https://think.ing.com/articles/rates-spark-us-inflation-too-hot-for-comfort/",
+      "currencies": [],
+      "pairs": [],
+      "category": "technical",
+      "ts": 1794295500000,
+      "published": "2026-11-10T07:25:00+00:00"
+    },
+    {
+      "id": "e2d6d96c1f30",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take - Wall Street rebounds and Brent slides below USD 92 - 10 November 2026",
+      "excerpt": "Market drivers and catalysts Macro : Middle East peace hopes coincided with a return of risk appetite Equities : Global equities rebounded sharply, with US and European markets recovering from last week's selloff, while Asian technology stocks led gains. Volatility : Implied volatility fell sharply and the cash curve returned to contango ahead of CPI Digital Assets : Crypto lagged the equity rebound while ETF outflows continued and bitcoin miners rose Commodities : Oil extends post-midterm slump while gold consolidates ahead of US inflation data Fixed Income : US Yields rebound on strong comeback in risk sentiment Currencies : UD weaker, but weak currency reactivity to profound risk sentiment comeback. Macro Trump said further strikes on Iran are highly unlikely if a very strong…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---wall-street-rebounds-and-brent-slides-below-usd-92---10-november-2026-10112026",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794294360000,
+      "published": "2026-11-10T07:06:00+00:00"
+    },
+    {
+      "id": "c185a4a15935",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "US CPI in Focus",
+      "excerpt": "In focus today In Norway, October CPI print is due. We expect that core inflation eased from 3.0% to 2.7% y/y (cons: 2.8% y/y) in October, primarily due to base effects (a high monthly increase in October last year). The risk is tilted to the upside, as the Black week-effect could be underestimated. In Denmark, [&#8230;] The post US CPI in Focus appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660392-us-cpi-in-focus/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794293546000,
+      "published": "2026-11-10T06:52:26+00:00"
+    },
     {
       "id": "d1b38376ade4",
       "bank": "CME",
@@ -282,23 +368,6 @@
       "published": "2026-11-06T12:58:00+00:00"
     },
     {
-      "id": "b6485f6f2202",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "CEE & CCA week ahead: Polish GDP and regional inflation data",
-      "excerpt": "CENTRAL AND EASTERN EUROPE: Poland will release third-quarter GDP, final inflation and current account data next week, while Hungary publishes September inflation…",
-      "author": "",
-      "url": "https://think.ing.com/articles/cee-cca-week-ahead-061126/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793965500000,
-      "published": "2026-11-06T11:45:00+00:00"
-    },
-    {
       "id": "e569ef6f338b",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -312,21 +381,6 @@
       "category": "trade_idea",
       "ts": 1793962800000,
       "published": "2026-11-06T11:00:00+00:00"
-    },
-    {
-      "id": "36b354707805",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "THINK Ahead: Markets get a fright, but central banks won’t spook that easily",
-      "excerpt": "Tumbling oil prices and a brutal sell-off in tech stocks are making investors think twice about the direction of interest rates. But even after a roller coaster week, James Smith argues central banks will take more…",
-      "author": "",
-      "url": "https://think.ing.com/opinions/think-ahead-markets-get-a-fright-but-central-banks-wont-spook-that-easily/",
-      "currencies": [],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1793956860000,
-      "published": "2026-11-06T09:21:00+00:00"
     },
     {
       "id": "e3047447aa7e",
@@ -347,38 +401,6 @@
       "category": "trade_idea",
       "ts": 1793953320000,
       "published": "2026-11-06T08:22:00+00:00"
-    },
-    {
-      "id": "2136ea560da8",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: Tech collapses, FX shrugs",
-      "excerpt": "A delayed reaction to the Democrat blue wave has seen some powerful selling of tech stocks. A little surprisingly, the reaction in FX markets has remained very muted. FX participants so far see this as an idiosyncratic re-pricing of the tech sector, rather than a harbinger of recession. Expect defensive FX to outperform, rather than a broad dollar…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-tech-collapses-fx-shrugs/",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793952000000,
-      "published": "2026-11-06T08:00:00+00:00"
-    },
-    {
-      "id": "5b4b9029cc6d",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Asia week ahead: Philippine GDP and key data on China, Taiwan, and Japan",
-      "excerpt": "ASIA/PACIFIC: Philippine GDP is the highlight of the week, alongside China’s inflation and trade data, Taiwan’s trade figures, and Japan’s household spending and price…",
-      "author": "",
-      "url": "https://think.ing.com/articles/asia-week-ahead-061126/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793949840000,
-      "published": "2026-11-06T07:24:00+00:00"
     },
     {
       "id": "6ad2b04671a4",
@@ -469,27 +491,6 @@
       "category": "technical",
       "ts": 1793872800000,
       "published": "2026-11-05T10:00:00+00:00"
-    },
-    {
-      "id": "09694be2dd60",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Market Quick Take - Dow jumps 3% after Democrats sweep Congress - 5 November 2026",
-      "excerpt": "Market drivers and catalysts Macro : Democrats taking control of both chambers of Congress and slumping oil prices reverberate across markets Equities : US and European equities rallied after the Democratic midterm sweep, Asia was mixed as Korean chipmakers came under pressure. Volatility : Implied volatility collapsed once the election was settled and the VIX curve returned to contango Digital Assets : Crypto equities rose with risk assets while legislative prospects dimmed after the vote Commodities : Oil s post-election slump deepens as gold benefits from a weaker dollar and easing inflation and rate concerns Fixed Income : Global bond yields fall back on tumbling oil prices. Currencies : USD weaker early Thursday as USDJPY pushed lower from key resistance. Macro Democrats won control…",
-      "author": "Saxo Bank",
-      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---dow-jumps-3-after-democrats-sweep-congress---5-november-2026-05112026",
-      "currencies": [
-        "USD",
-        "EUR",
-        "JPY"
-      ],
-      "pairs": [
-        "USD/JPY"
-      ],
-      "category": "technical",
-      "ts": 1793863200000,
-      "published": "2026-11-05T07:20:00+00:00"
     },
     {
       "id": "49b274ef3956",
