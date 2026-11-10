@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-10T05:44:49Z",
-  "generatedAt": "2026-11-10T05:44:49Z",
+  "lastUpdate": "2026-11-10T05:46:41Z",
+  "generatedAt": "2026-11-10T05:46:41Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2539,14 +2539,14 @@
       "std": 0.0
     },
     "EUR/netherlands inflation rate yoy final": {
-      "n": 2,
+      "n": 3,
       "mean": 0.0,
       "std": 0.0
     },
     "EUR/netherlands inflation rate mom": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.033333,
+      "std": 0.057735
     },
     "EUR/lithuania inflation rate yoy": {
       "n": 2,
@@ -2694,9 +2694,9 @@
       "std": 0.212132
     },
     "EUR/netherlands manufacturing production mom": {
-      "n": 2,
-      "mean": 2.4,
-      "std": 2.12132
+      "n": 3,
+      "mean": 1.9,
+      "std": 1.732051
     },
     "EUR/finland industrial production yoy": {
       "n": 2,
@@ -94090,7 +94090,7 @@
       "flag": "🇪🇺",
       "event": "Netherlands Inflation Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "3.7%",
       "forecast": "3.7%",
       "previous": "3.4%"
     },
@@ -94103,7 +94103,7 @@
       "flag": "🇪🇺",
       "event": "Netherlands Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.7%",
       "previous": "0.1%"
     },
@@ -94116,9 +94116,9 @@
       "flag": "🇪🇺",
       "event": "Netherlands Manufacturing Production MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.2%",
       "forecast": "-0.7%",
-      "previous": "3.3%"
+      "previous": "3.0%"
     },
     {
       "date": "10 Nov",
