@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-10T01:12:46Z",
-  "generatedAt": "2026-11-10T01:12:46Z",
+  "lastUpdate": "2026-11-10T01:14:43Z",
+  "generatedAt": "2026-11-10T01:14:43Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2517,6 +2517,11 @@
       "n": 2,
       "mean": -0.1,
       "std": 0.0
+    },
+    "EUR/ireland construction pmi": {
+      "n": 2,
+      "mean": -1.8,
+      "std": 0.141421
     },
     "AUD/building permits mom final": {
       "n": 3,
@@ -93888,7 +93893,7 @@
       "flag": "🇪🇺",
       "event": "Ireland Construction PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "48.0",
       "forecast": "49.7",
       "previous": "50.4"
     },
