@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-09T18:35:53.862338Z",
-  "runDate": "2026-11-09",
+  "runTimestamp": "2026-11-10T12:05:20.473038Z",
+  "runDate": "2026-11-10",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -21,7 +21,7 @@
       "status": "ok",
       "rate": "4",
       "source": "BoE-CSV",
-      "date": "2026-11-06",
+      "date": "2026-11-09",
       "issues": []
     },
     "JPY": {
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "issues": []
     },
     "NZD": {
@@ -60,9 +60,9 @@
       "issues": []
     },
     "NOK": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "4.5",
-      "source": "BIS-CBPOL (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
@@ -75,6 +75,8 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "NOK: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
