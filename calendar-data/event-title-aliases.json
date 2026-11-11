@@ -1,181 +1,10 @@
 {
-  "generatedAt": "2026-11-10T20:56:00Z",
+  "generatedAt": "2026-11-11T01:24:32Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 234,
+  "aliasCount": 229,
   "aliases": [
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Construction Output y/y",
-      "secondary_title": "Euro Area Construction Output YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": -0.6,
-          "forecast_secondary": -2.3,
-          "actual_primary": 1.4,
-          "actual_secondary": 1.4,
-          "previous_primary": -2.0,
-          "previous_secondary": -1.7,
-          "actual_secondary_raw": "1.4%",
-          "forecast_secondary_raw": "-2.3%",
-          "previous_secondary_raw": "-1.7%"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom 10-Year Treasury Gilt Auction",
-      "secondary_title": "United Kingdom Treasury Gilt 2036 Auction",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 5.418,
-          "actual_secondary": 5.418,
-          "previous_primary": 5.383,
-          "previous_secondary": 5.383,
-          "actual_secondary_raw": "5.418%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "5.383%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Building Permits",
-      "secondary_title": "United States Building Permits Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": null,
-          "previous_secondary": null,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "1.36M",
-          "previous_secondary_raw": "1.398M"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Housing Starts m/m",
-      "secondary_title": "United States Housing Starts MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": -1.8,
-          "forecast_secondary": -1.7,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": -5.2,
-          "previous_secondary": -5.2,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-1.7%",
-          "previous_secondary_raw": "-5.2%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Building Permits m/m",
-      "secondary_title": "United States Building Permits MoM Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-20",
-          "forecast_primary": 1.2,
-          "forecast_secondary": -0.7,
-          "actual_primary": -0.2,
-          "actual_secondary": -0.2,
-          "previous_primary": -2.7,
-          "previous_secondary": -2.1,
-          "actual_secondary_raw": "-0.2%",
-          "forecast_secondary_raw": "-0.7%",
-          "previous_secondary_raw": "-2.1%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Pending Home Sales m/m",
-      "secondary_title": "United States Pending Home Sales MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.0,
-          "forecast_secondary": -1.0,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": -7.3,
-          "previous_secondary": -7.3,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-1.0%",
-          "previous_secondary_raw": "-7.3%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Pending Home Sales y/y",
-      "secondary_title": "United States Pending Home Sales YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": -5.0,
-          "forecast_secondary": -6.0,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": -11.3,
-          "previous_secondary": -11.3,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "-6.0%",
-          "previous_secondary_raw": "-11.3%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Imports y/y",
-      "secondary_title": "Japan Imports YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 24.4,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 18.9,
-          "previous_secondary": 18.9,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "18.9%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Exports y/y",
-      "secondary_title": "Japan Exports YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 14.8,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 16.7,
-          "previous_secondary": 16.7,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "16.7%"
-        }
-      }
-    },
     {
       "currency": "GBP",
       "primary_title": "United Kingdom PPI Input m/m",
@@ -2888,13 +2717,13 @@
           "dateISO": "2026-11-11",
           "forecast_primary": 1.1,
           "forecast_secondary": -6.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -5.3,
+          "actual_secondary": -5.3,
           "previous_primary": -1.9,
-          "previous_secondary": -1.9,
-          "actual_secondary_raw": null,
+          "previous_secondary": -2.0,
+          "actual_secondary_raw": "-5.3%",
           "forecast_secondary_raw": "-6.0%",
-          "previous_secondary_raw": "-1.9%"
+          "previous_secondary_raw": "-2.0%"
         }
       }
     },
@@ -2907,13 +2736,13 @@
           "dateISO": "2026-11-11",
           "forecast_primary": null,
           "forecast_secondary": -14.0,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": -32.3,
+          "actual_secondary": -32.3,
           "previous_primary": -10.2,
-          "previous_secondary": -10.2,
-          "actual_secondary_raw": null,
+          "previous_secondary": -11.2,
+          "actual_secondary_raw": "-32.3%",
           "forecast_secondary_raw": "-14.0%",
-          "previous_secondary_raw": "-10.2%"
+          "previous_secondary_raw": "-11.2%"
         }
       }
     },
@@ -3697,6 +3526,44 @@
       }
     },
     {
+      "currency": "JPY",
+      "primary_title": "Japan Imports y/y",
+      "secondary_title": "Japan Imports YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 24.4,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 18.9,
+          "previous_secondary": 18.9,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "18.9%"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Exports y/y",
+      "secondary_title": "Japan Exports YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 14.8,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": 16.7,
+          "previous_secondary": 16.7,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "16.7%"
+        }
+      }
+    },
+    {
       "currency": "AUD",
       "primary_title": "Australia Wage Price Index q/q",
       "secondary_title": "Australia Wage Price Index QoQ",
@@ -3731,6 +3598,82 @@
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "3.4%",
           "previous_secondary_raw": "3.2%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Building Permits",
+      "secondary_title": "United States Building Permits Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": null,
+          "previous_secondary": null,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "1.36M",
+          "previous_secondary_raw": "1.398M"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Housing Starts m/m",
+      "secondary_title": "United States Housing Starts MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": -1.8,
+          "forecast_secondary": -1.7,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -5.2,
+          "previous_secondary": -5.2,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-1.7%",
+          "previous_secondary_raw": "-5.2%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Pending Home Sales m/m",
+      "secondary_title": "United States Pending Home Sales MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 0.0,
+          "forecast_secondary": -1.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -7.3,
+          "previous_secondary": -7.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-1.0%",
+          "previous_secondary_raw": "-7.3%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Pending Home Sales y/y",
+      "secondary_title": "United States Pending Home Sales YoY",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": -5.0,
+          "forecast_secondary": -6.0,
+          "actual_primary": null,
+          "actual_secondary": null,
+          "previous_primary": -11.3,
+          "previous_secondary": -11.3,
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "-6.0%",
+          "previous_secondary_raw": "-11.3%"
         }
       }
     },
@@ -4166,25 +4109,6 @@
       }
     },
     {
-      "currency": "NZD",
-      "primary_title": "New Zealand Building Consents m/m",
-      "yahoo_title": "Building Consents",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-02",
-          "forecast_primary": -1.3,
-          "forecast_yahoo": null,
-          "actual_primary": -7.9,
-          "actual_yahoo": -7.9,
-          "previous_primary": 5.6,
-          "previous_yahoo": 5.6,
-          "actual_yahoo_raw": "-7.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.6"
-        }
-      }
-    },
-    {
       "currency": "CHF",
       "primary_title": "Switzerland CPI m/m",
       "yahoo_title": "CPI MM",
@@ -4314,25 +4238,6 @@
           "actual_yahoo_raw": "2",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.1"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Ai Group Manufacturing Index",
-      "yahoo_title": "AIG Manufacturing Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -20.1,
-          "actual_yahoo": -20.1,
-          "previous_primary": -8.7,
-          "previous_yahoo": -16.6,
-          "actual_yahoo_raw": "-20.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-16.6"
         }
       }
     },
