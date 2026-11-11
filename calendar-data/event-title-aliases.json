@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-11T01:24:32Z",
+  "generatedAt": "2026-11-11T14:38:43Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 229,
+  "aliasCount": 224,
   "aliases": [
     {
       "currency": "GBP",
@@ -146,13 +146,13 @@
         "secondary": {
           "dateISO": "2026-11-18",
           "forecast_primary": -0.1,
-          "forecast_secondary": null,
+          "forecast_secondary": -0.3,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": -0.2,
           "previous_secondary": -0.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "-0.3%",
           "previous_secondary_raw": "-0.2%"
         }
       }
@@ -815,21 +815,8 @@
           "actual_secondary_raw": "35.0",
           "forecast_secondary_raw": "35.6",
           "previous_secondary_raw": "35.4"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 34.8,
-          "forecast_yahoo": null,
-          "actual_primary": 35.0,
-          "actual_yahoo": 35.0,
-          "previous_primary": 35.4,
-          "previous_yahoo": 35.4,
-          "actual_yahoo_raw": "35",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "35.4"
         }
-      },
-      "yahoo_title": "Consumer Confid. Index*"
+      }
     },
     {
       "currency": "GBP",
@@ -1883,18 +1870,18 @@
     {
       "currency": "EUR",
       "primary_title": "Euro Area Core CPI y/y",
-      "secondary_title": "Euro Area Core Inflation Rate YoY Flash",
+      "secondary_title": "Euro Area Core Inflation Rate YoY Final",
       "evidence": {
         "secondary": {
-          "dateISO": "2026-11-04",
+          "dateISO": "2026-11-18",
           "forecast_primary": 2.5,
-          "forecast_secondary": 2.6,
-          "actual_primary": 2.5,
-          "actual_secondary": 2.5,
+          "forecast_secondary": 2.5,
+          "actual_primary": null,
+          "actual_secondary": null,
           "previous_primary": 2.5,
           "previous_secondary": 2.5,
-          "actual_secondary_raw": "2.5%",
-          "forecast_secondary_raw": "2.6%",
+          "actual_secondary_raw": null,
+          "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "2.5%"
         }
       }
@@ -1910,7 +1897,7 @@
           "forecast_secondary": 104.77,
           "actual_primary": null,
           "actual_secondary": null,
-          "previous_primary": null,
+          "previous_primary": 104.77,
           "previous_secondary": 104.31,
           "actual_secondary_raw": null,
           "forecast_secondary_raw": "104.77",
@@ -2627,22 +2614,35 @@
     },
     {
       "currency": "USD",
-      "primary_title": "United States Core CPI y/y",
-      "secondary_title": "United States Core Inflation Rate YoY",
+      "primary_title": "United States CPI n.s.a.",
+      "secondary_title": "United States CPI s.a",
       "evidence": {
         "secondary": {
           "dateISO": "2026-11-10",
-          "forecast_primary": 2.8,
-          "forecast_secondary": 2.7,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 2.6,
-          "previous_secondary": 2.6,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": "2.7%",
-          "previous_secondary_raw": "2.6%"
+          "forecast_primary": 338.07,
+          "forecast_secondary": 337.0,
+          "actual_primary": 337.511,
+          "actual_secondary": 337.48,
+          "previous_primary": 336.94,
+          "previous_secondary": 336.3,
+          "actual_secondary_raw": "337.48",
+          "forecast_secondary_raw": "337",
+          "previous_secondary_raw": "336.30"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-10",
+          "forecast_primary": 338.07,
+          "forecast_yahoo": null,
+          "actual_primary": 337.511,
+          "actual_yahoo": 337.51,
+          "previous_primary": 336.94,
+          "previous_yahoo": 336.94,
+          "actual_yahoo_raw": "337.51",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "336.94"
         }
-      }
+      },
+      "yahoo_title": "CPI Index, NSA"
     },
     {
       "currency": "USD",
@@ -2755,11 +2755,11 @@
           "dateISO": "2026-11-11",
           "forecast_primary": null,
           "forecast_secondary": 54.5,
-          "actual_primary": null,
-          "actual_secondary": null,
+          "actual_primary": 42.5,
+          "actual_secondary": 42.5,
           "previous_primary": 60.4,
           "previous_secondary": 60.4,
-          "actual_secondary_raw": null,
+          "actual_secondary_raw": "42.5%",
           "forecast_secondary_raw": "54.5%",
           "previous_secondary_raw": "60.4%"
         }
@@ -3229,13 +3229,13 @@
         "secondary": {
           "dateISO": "2026-11-16",
           "forecast_primary": 0.3,
-          "forecast_secondary": null,
+          "forecast_secondary": 0.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 0.0,
           "previous_secondary": 0.0,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "0.2%",
           "previous_secondary_raw": "0%"
         }
       }
@@ -3248,13 +3248,13 @@
         "secondary": {
           "dateISO": "2026-11-16",
           "forecast_primary": 2.1,
-          "forecast_secondary": null,
+          "forecast_secondary": 2.2,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 2.2,
           "previous_secondary": 2.2,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "2.2%",
           "previous_secondary_raw": "2.2%"
         }
       }
@@ -3267,33 +3267,14 @@
         "secondary": {
           "dateISO": "2026-11-16",
           "forecast_primary": 2.4,
-          "forecast_secondary": null,
+          "forecast_secondary": 2.5,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 2.4,
           "previous_secondary": 2.4,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "2.5%",
           "previous_secondary_raw": "2.4%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Median CPI y/y",
-      "secondary_title": "Canada CPI Median YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 1.9,
-          "forecast_secondary": null,
-          "actual_primary": null,
-          "actual_secondary": null,
-          "previous_primary": 1.9,
-          "previous_secondary": 1.9,
-          "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "1.9%"
         }
       }
     },
@@ -3305,13 +3286,13 @@
         "secondary": {
           "dateISO": "2026-11-16",
           "forecast_primary": 1.8,
-          "forecast_secondary": null,
+          "forecast_secondary": 1.9,
           "actual_primary": null,
           "actual_secondary": null,
           "previous_primary": 1.8,
           "previous_secondary": 1.8,
           "actual_secondary_raw": null,
-          "forecast_secondary_raw": null,
+          "forecast_secondary_raw": "1.9%",
           "previous_secondary_raw": "1.8%"
         }
       }
@@ -4072,25 +4053,6 @@
     },
     {
       "currency": "EUR",
-      "primary_title": "Germany Unemployment Rate",
-      "yahoo_title": "Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 6.4,
-          "forecast_yahoo": null,
-          "actual_primary": 6.4,
-          "actual_yahoo": 6.5,
-          "previous_primary": 6.4,
-          "previous_yahoo": 6.4,
-          "actual_yahoo_raw": "6.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.4"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
       "primary_title": "Portugal GDP Growth Rate YoY Prel",
       "yahoo_title": "ECB Refinancing Rate *",
       "evidence": {
@@ -4105,44 +4067,6 @@
           "actual_yahoo_raw": "2.65",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.65"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland CPI m/m",
-      "yahoo_title": "CPI MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": -0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.0,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland CPI y/y",
-      "yahoo_title": "CPI YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 0.9,
-          "forecast_yahoo": null,
-          "actual_primary": 1.5,
-          "actual_yahoo": 1.5,
-          "previous_primary": 1.0,
-          "previous_yahoo": 1.0,
-          "actual_yahoo_raw": "1.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1"
         }
       }
     },
@@ -4656,25 +4580,6 @@
           "actual_yahoo_raw": "0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.6"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States CPI n.s.a.",
-      "yahoo_title": "CPI Index, NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-10",
-          "forecast_primary": 338.07,
-          "forecast_yahoo": null,
-          "actual_primary": 337.511,
-          "actual_yahoo": 337.51,
-          "previous_primary": 336.94,
-          "previous_yahoo": 336.94,
-          "actual_yahoo_raw": "337.51",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "336.94"
         }
       }
     },
