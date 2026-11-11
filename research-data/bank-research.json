@@ -1,15 +1,89 @@
 {
-  "updated_utc": "2026-11-11T06:27:32.258541+00:00",
-  "updated_label": "06:27 UTC",
-  "total": 37,
+  "updated_utc": "2026-11-11T08:20:46.606688+00:00",
+  "updated_label": "08:20 UTC",
+  "total": 39,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
-    "Saxo",
-    "TD"
+    "Saxo"
   ],
   "items": [
+    {
+      "id": "e896f7f20b75",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Bearish yield curve flattening lifts the dollar",
+      "excerpt": "The dollar is trading close to the year's highs after US inflation came in hot for the third month in a row and the Fed's Chris Waller threatened to vote for a 50bp rate hike in December. Bearish yield curve flattening is typically good for the dollar and bad for procyclical currencies, as the monetary brakes are applied. Expect the dollar to hold gains…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-bearish-yield-curve-flattening-lifts-dollar/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794383400000,
+      "published": "2026-11-11T07:50:00+00:00"
+    },
+    {
+      "id": "fd891225d269",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Rates Spark: Back to a 5% 10Y UST on inflation fears",
+      "excerpt": "US Treasury bonds were quick to sell off as US CPI surprised to the upside. We think EUR and GBP rates should be wary of blindly following US inflation prints, as the economic backdrop differs significantly. We challenge the market's assumption that the ECB and Bank of England should automatically follow a more hawkish…",
+      "author": "",
+      "url": "https://think.ing.com/articles/rates-spark-back-to-a-5-10y-ust-on-inflation-fears/",
+      "currencies": [
+        "USD",
+        "EUR",
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1794382500000,
+      "published": "2026-11-11T07:35:00+00:00"
+    },
+    {
+      "id": "b0bcc371f240",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take - US Treasury yields rip higher - 11 November 2026",
+      "excerpt": "Market drivers and catalysts Macro : Hotter US inflation arrived alongside hawkish Fed comments and a fully priced December hike Equities : US equities declined as inflation revived rate concerns, European stocks edged higher on falling oil prices, while Asian technology shares rebounded. Volatility : Equity implied volatility eased after the inflation data while Treasury volatility rose sharply Digital Assets : Crypto held near recent lows while ETF outflows continued and crypto equities fell Commodities : Oil and gold rebound after recent selloffs, while tighter US crop forecasts lift grains Fixed Income : US treasury yields rip higher after Waller comments and hot US CPI release Currencies : USD stages sharp comeback on jump in US treasury yields. USDJPY resistance in focus Ma cro US…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026",
+      "currencies": [
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "pairs": [
+        "USD/JPY"
+      ],
+      "category": "technical",
+      "ts": 1794381420000,
+      "published": "2026-11-11T07:17:00+00:00"
+    },
+    {
+      "id": "5b624d3972e8",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "US CPI Hotter Than Expected",
+      "excerpt": "In focus today In the euro area, ECB President Christine Lagarde will be speaking at the Paris Peace Forum. Otherwise, Wednesday lacks a clear market moving data release or an event. In Japan, PPI print for October will be released overnight. Consensus is expecting a 0.3% m/m (prior: -0.3%) and a 6.5% y/y (prior: 6.8%) [&#8230;] The post US CPI Hotter Than Expected appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660510-us-cpi-hotter-than-expected/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794379388000,
+      "published": "2026-11-11T06:43:08+00:00"
+    },
     {
       "id": "da85b92cb01d",
       "bank": "ING",
@@ -78,21 +152,6 @@
       "category": "macro",
       "ts": 1794327840000,
       "published": "2026-11-10T16:24:00+00:00"
-    },
-    {
-      "id": "38714762743d",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "US: October’s Inflation Report Cements the Case for a December Hike",
-      "excerpt": "The Consumer Price Index (CPI) rose 0.4% month-on-month (m/m) in October, a tick higher than the Bloomberg consensus forecast. Over the past six months headline inflation has been 3.1% at an annualized pace, off from 5.6% earlier this spring. There are no October 2025 CPI figures due to last year&#8217;s government shut down, so we [&#8230;] The post US: October&#8217;s Inflation Report Cements the Case for a December Hike appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660471-us-octobers-inflation-report-cements-the-case-for-a-december-hike/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794319717000,
-      "published": "2026-11-10T14:08:37+00:00"
     },
     {
       "id": "a28f3848de37",
@@ -213,6 +272,23 @@
       "published": "2026-11-10T07:06:00+00:00"
     },
     {
+      "id": "02a0649eeb70",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Message for the European Chamber of Commerce Philippines Luncheon Meeting",
+      "excerpt": "Message by Mr Eli M Remolona, Jr, Governor of Bangko Sentral ng Pilipinas (BSP, the central bank of the Philippines), for the European Chamber of Commerce Philippines Luncheon Meeting, Makati City, 3 November 2026.",
+      "author": "Eli M Remolona",
+      "url": "https://www.bis.org/speeches/20261110-message-european-chamber-commerce-philippines-luncheon-meeting",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794268800000,
+      "published": "2026-11-10T00:00:00+00:00"
+    },
+    {
       "id": "3706644f73a1",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -317,23 +393,6 @@
       "excerpt": "Speech by Ms Isabel Schnabel, Member of the Executive Board of the European Central Bank, at the ECB Conference on Money Markets 2026, Frankfurt am Main, 5 November 2026.",
       "author": "Isabel Schnabel",
       "url": "https://www.bis.org/speeches/20261110-navigating-stormy-waters-reflections-monetary-policy",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794268800000,
-      "published": "2026-11-10T00:00:00+00:00"
-    },
-    {
-      "id": "02a0649eeb70",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Message for the European Chamber of Commerce Philippines Luncheon Meeting",
-      "excerpt": "Message by Mr Eli M Remolona, Jr, Governor of Bangko Sentral ng Pilipinas (BSP, the central bank of the Philippines), for the European Chamber of Commerce Philippines Luncheon Meeting, Makati City, 3 November 2026.",
-      "author": "Eli M Remolona",
-      "url": "https://www.bis.org/speeches/20261110-message-european-chamber-commerce-philippines-luncheon-meeting",
       "currencies": [
         "EUR"
       ],
@@ -549,24 +608,6 @@
       "category": "macro",
       "ts": 1793949420000,
       "published": "2026-11-06T07:17:00+00:00"
-    },
-    {
-      "id": "0080ddd61825",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Investor Q&A: Panic, buying opportunity or time to rethink portfolios?",
-      "excerpt": "What happened in markets? Wall Street suffered its sharpest selloff in months on 5 November. The Nasdaq 100 plunged 6.4%, wiping out around $2.5 trillion in market value, while the S P 500 declined 4.4% and the Philadelphia Semiconductor Index lost 12.2%. The selling spread into Asia, particularly the semiconductor-heavy markets of South Korea, Taiwan and Japan. But the weakness was not universal. US Treasuries rallied: Investors sought safety amid concerns about growth and a potential slowdown in AI investment, pushing yields lower. Gold's performance was mixed: Lower yields and policy uncertainty provided potential support, but liquidity-driven selling can also weigh on gold as investors raise cash. The yen and Swiss franc strengthened: Traditional defensive currencies benefited as…",
-      "author": "Charu Chanana",
-      "url": "https://www.home.saxo/content/articles/equities/investor-qa-is-the-market-selloff-a-buying-opportunity-or-time-to-rethink-your-portfolio-06112026",
-      "currencies": [
-        "JPY",
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "technical",
-      "ts": 1793937600000,
-      "published": "2026-11-06T04:00:00+00:00"
     },
     {
       "id": "07a83b2700f8",
