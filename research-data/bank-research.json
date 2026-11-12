@@ -1,14 +1,187 @@
 {
-  "updated_utc": "2026-11-12T16:49:50.738492+00:00",
-  "updated_label": "16:49 UTC",
-  "total": 29,
+  "updated_utc": "2026-11-12T20:20:51.184897+00:00",
+  "updated_label": "20:20 UTC",
+  "total": 39,
   "sources": [
     "BIS",
     "CME",
     "Danske",
+    "ING",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "034a28d3471a",
+      "bank": "CME",
+      "bank_full": "CME Group FX",
+      "series": "",
+      "title": "Nvidia CEO resigns as stocks pull back.",
+      "excerpt": "Bob Iaccino breaks down Thursday's market action as U.S. stock futures move lower with Nasdaq-100 futures leading the declines following the resignation of Nvidia CEO Jensen Huang. He examines potential ripple effects across data center financing, chip export restrictions and the broader indices, alongside higher 10-Year Treasury yields above 5%, a stronger dollar and pressure on metals and bitcoin. Bob also tracks crude oil's reversal lower after early gains tied to U.S.-Iran tensions and Strait of Hormuz headlines, before previewing upcoming earnings, Federal Reserve speeches, eurozone GDP and U.S. PPI.",
+      "author": "CME Group",
+      "url": "https://www.cmegroup.com/videos/2026/11/12/nvidia-ceo-resigns-as-stocks-pull-back-11-12-26.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794507306000,
+      "published": "2026-11-12T18:15:06+00:00"
+    },
+    {
+      "id": "143205d0dc01",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Outlook",
+      "title": "FX Outlook 2027: Seven key calls",
+      "excerpt": "We expect 2027 to be a low-volatility year in FX, with central banks and rate differentials firmly in the driving seat. We see a dollar decline resuming from 2Q27, while diverging monetary, growth and external dynamics create opportunities across…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-outlook-2027-seven-key-calls/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506880000,
+      "published": "2026-11-12T18:08:00+00:00"
+    },
+    {
+      "id": "3ed3af83b6e7",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Outlook",
+      "title": "FX Outlook 2027: Seven key risks",
+      "excerpt": "EUROPE: Low volatility masks a wide range of tail risks for 2027. AI stress, another inflation shock, fiscal concerns, elections and geopolitical escalation could all trigger sharp FX moves, while financial repression and a carry unwind add further asymmetric…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-outlook-2027-seven-key-risks/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506820000,
+      "published": "2026-11-12T18:07:00+00:00"
+    },
+    {
+      "id": "3107285169a5",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "FX volatility in 2027: In need of shock therapy",
+      "excerpt": "EUROPE: Why is FX volatility so low? Even a 6% fall in the Nasdaq barely budges USD/JPY these days. Have FX markets found a general equilibrium, or is there some kind of separation between geopolitics and macro? We think the answer lies more in the structure of FX trading and do not rule out jump risk if the shock is big…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-volatility-in-2027-in-need-of-shock-therapy/",
+      "currencies": [
+        "USD",
+        "EUR",
+        "JPY"
+      ],
+      "pairs": [
+        "USD/JPY"
+      ],
+      "category": "macro",
+      "ts": 1794506760000,
+      "published": "2026-11-12T18:06:00+00:00"
+    },
+    {
+      "id": "a5f441ff4409",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "G10 FX Outlook 2027: It’s hard to look beyond the Fed",
+      "excerpt": "EUROPE: In a very uncertain world, this year’s more hawkish steer from the Federal Reserve has provided a constant and supportive anchor for the dollar. While the immediate picture for the dollar looks quite constructive, a turn in the inflation cycle by the second half of 2027 should usher in a modest…",
+      "author": "",
+      "url": "https://think.ing.com/articles/g10-fx-outlook-2027/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506700000,
+      "published": "2026-11-12T18:05:00+00:00"
+    },
+    {
+      "id": "497f496a70d9",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "EMEA FX Outlook 2027: Restrictive policy remains the key FX anchor",
+      "excerpt": "CENTRAL AND EASTERN EUROPE: EMEA FX should remain supported by restrictive policy and attractive carry, but performance will increasingly diverge. We favour HUF, ZAR and TRY, while CZK remains supported and PLN faces headwinds. Global yields, energy prices, fiscal risks and geopolitics remain key…",
+      "author": "",
+      "url": "https://think.ing.com/articles/emea-fx-outlook-2027/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506640000,
+      "published": "2026-11-12T18:04:00+00:00"
+    },
+    {
+      "id": "cbf107bd1c57",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Asia FX Outlook 2027: Rotation underway but tech currencies should lead",
+      "excerpt": "ASIA/PACIFIC: The recent sell-off in oil prices has provided some much-needed relief to South Asian currencies. Looking into 2027, and assuming the dollar does start to soften, we prefer to back the tech-linked currencies of North Asia. These currencies are backed by large current account surpluses – surpluses which could be coming…",
+      "author": "",
+      "url": "https://think.ing.com/articles/asia-fx-outlook-2027-rotation-underway-but-tech-currencies-should-lead/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1794506580000,
+      "published": "2026-11-12T18:03:00+00:00"
+    },
+    {
+      "id": "80c66014f6e7",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Outlook",
+      "title": "FX Outlook 2027: Our latest forecasts",
+      "excerpt": "EUROPE: The latest FX forecasts from our…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-outlook-2027-our-latest-forecasts/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506460000,
+      "published": "2026-11-12T18:01:00+00:00"
+    },
+    {
+      "id": "5f801e63ff16",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Outlook",
+      "title": "FX Outlook 2027: Fat tails, slim ranges",
+      "excerpt": "We’ve all heard of black swans or ‘unknown unknowns’, which can come out of the blue and destroy the best laid plans. In 2027, however, there are enough ‘known unknowns’ to raise the risk of fat tail events: low-probability, high-impact shocks that could drive FX markets out of otherwise well-worn…",
+      "author": "",
+      "url": "https://think.ing.com/reports/fx-outlook-2027-fat-tails-slim-ranges/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794506400000,
+      "published": "2026-11-12T18:00:00+00:00"
+    },
+    {
+      "id": "3ac1534924e8",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Turkey’s benign underlying inflation supports December rate cut",
+      "excerpt": "TURKEY: Turkey’s central bank raised its inflation forecast for next year to 21% from 15% previously, bringing it closer to current market expectations of 23%. Its emphasis on declining underlying inflation also points to a continuation of rate cuts in December, in our view.",
+      "author": "",
+      "url": "https://think.ing.com/snaps/turkey-benign-underlying-inflation-trend-supports-december-rate-cut/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794490980000,
+      "published": "2026-11-12T13:43:00+00:00"
+    },
     {
       "id": "9a2c35841e30",
       "bank": "Saxo",
