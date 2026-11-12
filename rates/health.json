@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-11T15:58:58.192231Z",
-  "runDate": "2026-11-11",
+  "runTimestamp": "2026-11-12T02:08:00.754781Z",
+  "runDate": "2026-11-12",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -46,9 +46,9 @@
       "issues": []
     },
     "CHF": {
-      "status": "ok",
+      "status": "cached",
       "rate": "0.00",
-      "source": "SNB-scraping",
+      "source": "cached-file",
       "date": "2026-11-11",
       "issues": []
     },
@@ -75,6 +75,8 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "CHF: kept cached 2026-11-11 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
