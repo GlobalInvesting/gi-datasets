@@ -1,5 +1,5 @@
 {
-  "runTimestamp": "2026-11-12T02:08:00.754781Z",
+  "runTimestamp": "2026-11-12T11:38:20.446675Z",
   "runDate": "2026-11-12",
   "crossCheckOk": true,
   "currencies": {
@@ -21,7 +21,7 @@
       "status": "ok",
       "rate": "4",
       "source": "BoE-CSV",
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "issues": []
     },
     "JPY": {
@@ -46,10 +46,10 @@
       "issues": []
     },
     "CHF": {
-      "status": "cached",
+      "status": "fallback",
       "rate": "0.00",
-      "source": "cached-file",
-      "date": "2026-11-11",
+      "source": "BIS-CBPOL (merged history)",
+      "date": "2026-11-01",
       "issues": []
     },
     "NZD": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "CHF: kept cached 2026-11-11 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
