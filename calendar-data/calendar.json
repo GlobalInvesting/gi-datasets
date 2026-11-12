@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-12T17:00:55Z",
-  "generatedAt": "2026-11-12T17:00:55Z",
+  "lastUpdate": "2026-11-12T17:03:06Z",
+  "generatedAt": "2026-11-12T17:03:06Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -349,14 +349,14 @@
       "std": 484.632244
     },
     "USD/eia gasoline stocks change": {
-      "n": 12,
-      "mean": 0.32825,
-      "std": 2.309218
+      "n": 13,
+      "mean": 0.435308,
+      "std": 2.244351
     },
     "USD/eia crude oil stocks change": {
-      "n": 12,
-      "mean": -2.552583,
-      "std": 5.119849
+      "n": 13,
+      "mean": -1.806538,
+      "std": 5.591424
     },
     "JPY/exports yoy": {
       "n": 3,
@@ -904,34 +904,34 @@
       "std": 0.763763
     },
     "USD/eia cushing crude oil stocks change": {
-      "n": 11,
-      "mean": 0.474182,
-      "std": 1.606239
+      "n": 12,
+      "mean": 0.442167,
+      "std": 1.535499
     },
     "USD/eia crude oil imports change": {
-      "n": 11,
-      "mean": 0.151636,
-      "std": 0.905145
+      "n": 12,
+      "mean": 0.223833,
+      "std": 0.898529
     },
     "USD/eia distillate fuel production change": {
-      "n": 11,
-      "mean": -0.031273,
-      "std": 0.150991
+      "n": 12,
+      "mean": -0.027583,
+      "std": 0.144531
     },
     "USD/eia distillates stocks change": {
-      "n": 11,
-      "mean": -0.513273,
-      "std": 2.296567
+      "n": 12,
+      "mean": -0.11725,
+      "std": 2.583942
     },
     "USD/eia gasoline production change": {
-      "n": 11,
-      "mean": -0.009,
-      "std": 0.38574
+      "n": 12,
+      "mean": -0.006,
+      "std": 0.367935
     },
     "USD/eia heating oil stocks change": {
-      "n": 11,
-      "mean": 0.123364,
-      "std": 0.543683
+      "n": 12,
+      "mean": 0.143583,
+      "std": 0.523092
     },
     "USD/dallas fed trimmed mean pce inflation rate": {
       "n": 2,
@@ -95569,7 +95569,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Crude Oil Stocks Change",
       "impact": "high",
-      "actual": null,
+      "actual": "4.657M",
       "forecast": "-2.489M",
       "previous": "-0.865M"
     },
@@ -95582,7 +95582,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Cushing Crude Oil Stocks Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.106M",
       "forecast": "0.016M",
       "previous": "0.280M"
     },
@@ -95595,7 +95595,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Crude Oil Imports Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.544M",
       "forecast": "-0.474M",
       "previous": "1.179M"
     },
@@ -95608,7 +95608,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.063M",
       "forecast": "-0.076M",
       "previous": "-0.007M"
     },
@@ -95621,7 +95621,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Distillates Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "4.071M",
       "forecast": "-0.168M",
       "previous": "-3.565M"
     },
@@ -95634,7 +95634,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Gasoline Production Change",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.078M",
       "forecast": "-0.105M",
       "previous": "0.463M"
     },
@@ -95647,7 +95647,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Heating Oil Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.335M",
       "forecast": "-0.031M",
       "previous": "-0.203M"
     },
@@ -95660,7 +95660,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Gasoline Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "1.799M",
       "forecast": "0.079M",
       "previous": "-0.222M"
     },
@@ -95673,7 +95673,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Refinery Crude Oil Daily Inputs Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.322M",
       "forecast": null,
       "previous": "0.199M"
     },
@@ -95686,7 +95686,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Refinery Utilization Rate Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": null,
       "previous": "1.7%"
     },
@@ -98470,8 +98470,8 @@
       "event": "United States EIA Crude Oil Stocks Change",
       "impact": "high",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.309M",
+      "previous": "4.657M"
     },
     {
       "date": "18 Nov",
@@ -98483,8 +98483,8 @@
       "event": "United States EIA Cushing Crude Oil Stocks Change",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.366M",
+      "previous": "0.106M"
     },
     {
       "date": "18 Nov",
@@ -98496,8 +98496,8 @@
       "event": "United States EIA Crude Oil Imports Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-1.025M",
+      "previous": "0.544M"
     },
     {
       "date": "18 Nov",
@@ -98509,8 +98509,8 @@
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.113M",
+      "previous": "-0.063M"
     },
     {
       "date": "18 Nov",
@@ -98522,8 +98522,8 @@
       "event": "United States EIA Distillates Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.193M",
+      "previous": "4.071M"
     },
     {
       "date": "18 Nov",
@@ -98535,8 +98535,8 @@
       "event": "United States EIA Gasoline Production Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.128M",
+      "previous": "-0.078M"
     },
     {
       "date": "18 Nov",
@@ -98548,8 +98548,8 @@
       "event": "United States EIA Heating Oil Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.015M",
+      "previous": "0.335M"
     },
     {
       "date": "18 Nov",
@@ -98561,8 +98561,8 @@
       "event": "United States EIA Gasoline Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.139M",
+      "previous": "1.799M"
     },
     {
       "date": "18 Nov",
@@ -98575,7 +98575,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.322M"
     },
     {
       "date": "18 Nov",
@@ -98588,7 +98588,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.7%"
     },
     {
       "date": "18 Nov",
