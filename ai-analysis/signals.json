@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-12T08:01:27Z",
+  "generated_at": "2026-11-12T22:04:52Z",
   "signals": [
     {
-      "time": "08:00",
+      "time": "21:55",
       "priority": "critical",
       "title": "USD/NOK — G10 Bilateral Theme + Carry",
-      "text": "The G10 Currency Strength Scorecard establishes USD as the leading currency at +1.596% across 9 pairs against NOK as the principal laggard at −2.096% across 2 pairs, generating an extreme 3.692% bilateral spread. USD/NOK trades at 9.555, holding above its SMA20 at 9.356, SMA50 at 9.411, and SMA200 at 9.488 following a bullish wide-range session. Policy rate structures show Fed at 4.00% vs Norges Bank at 4.50%, but broader dollar demand across G10 outweighs NOK's nominal carry advantage. Strait of Hormuz tanker explosions have failed to trigger sustained crude upside, leaving NOK unsupported by energy markets. The 3.692% performance gap marks an acute divergence theme across weekly cross-returns. Trade bias: Bullish USD/NOK; upward bilateral momentum dominates despite negative carry. Catalyst: US PPI release at 13:30 UTC today. Risk: Crude spikes sharply above $90/bbl on further Persian Gulf escalation, driving a rapid recovery in NOK.",
+      "text": "USD/NOK trades at 9.553, holding above its SMA20/50 cluster and scoring as the leading G10 bilateral divergence. USD 1W avg sits at +1.812% across 9 pairs while NOK 1W avg sinks to -1.956% across 2 pairs, producing a G10 spread of 3.768%. Fed SOFR at 3.88% versus NOK policy rate at 4.50% yields a 62bp rate differential favoring NOK, yet the currency underperforms heavily alongside a moderate positive ESI of +8.9 and an unemployment surprise shock of +117.01σ. Real rates stand at +1.75% for USD and +1.82% for NOK, keeping both monetary stances restrictive. Technical trend structure shows USD/NOK trading above its rising 20-day and 50-day moving averages at 9.361 and 9.417. Trade bias: Long USD/NOK, structural momentum favoring USD against a weak NOK. Catalyst: Norway inflation and upcoming Norges Bank rate decisions. Risk: NOK strength recovery that compresses the G10 spread below 0.80%.",
       "evidence": [
-        "USD 1W avg: +1.596% (n=9)",
-        "NOK 1W avg: -2.096% (n=2)",
-        "G10 spread: 3.692%"
+        "USD 1W avg: +1.812% (n=9)",
+        "NOK 1W avg: -1.956% (n=2)",
+        "G10 spread: 3.768%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,63 +19,103 @@
       }
     },
     {
-      "time": "07:57",
+      "time": "21:50",
       "priority": "critical",
-      "title": "USD/JPY — Carry Support vs Intervention Risk",
-      "text": "USD/JPY trades at 159.75, firmly above its SMA20 at 158.03, SMA50 at 157.26, and SMA200 at 158.69. The 265bp OIS carry advantage (SOFR 3.88% vs TONA 1.23%) keeps the underlying trend bid, reinforced by Fed 4.00% vs BoJ 1.25% policy differentials. However, 160.00 remains the key psychological barrier that has previously triggered Ministry of Finance intervention, with BoJ board member Asada urging caution on subsequent rate hikes. The options market is heavily pricing downside tail protection, with 25-delta Risk Reversals printing an extreme put skew of −1.87 while 1M implied volatility trades at 6.6% against 5.4% HV30 (a +1.3% vol risk premium). JPY CFTC Leveraged Funds hold net short −21,213 contracts at the 92nd percentile of their 52-week range, creating severe squeeze potential if official dollar selling materializes. Trade bias: Neutral USD/JPY; structural carry demand conflicts directly with acute 160.00 official intervention risk. Catalyst: Fed Governor Bowman Speech at 15:50 UTC today. Risk: Sustained break above 160.00 without MoF pushback, enabling momentum extension toward 162.00.",
+      "title": "USD/JPY — Crowded Carry",
+      "text": "USD/JPY trades at 159.83, holding above its SMA20/50/200 cluster anchored by the 20-day average at 158.13 and 50-day average at 157.34. The Fed SOFR rate at 3.88% versus TONA at 1.23% provides a 265bp OIS carry differential that anchors the pair's persistent bid. CFTC leveraged funds report a JPY net short of -21,213 contracts with a 52-week percentile of 92 and z-score of +1.46, marking crowded positioning in the upper decile of its historical range. Options markets show a 25d risk reversal at -1.63, reflecting strong put skew and elevated hedging demand for USD/JPY downside protection. VIX sits at 18.7 under normal volatility while 1-month implied volatility runs at 7.0% against a realized HV30 of 5.4%, generating a positive VRP of +1.5% that indicates an options premium over realized swings. Trade bias: Long USD/JPY, carry differential and crowded speculative shorts sustaining the bid. Catalyst: Next BoJ policy meeting. Risk: VIX breaking above 25 to ignite a disorderly unwind of the carry trade.",
       "evidence": [
-        "USD/JPY 25d RR: -1.87",
-        "USD/JPY carry: Fed 4.0% vs BoJ 1.25% -> +275bp",
-        "JPY COT LF net: -21,213 (pctl 92)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "07:54",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Retail Divergence",
-      "text": "EUR/USD trades at 1.1089, positioned entirely below its SMA20 at 1.1193, SMA50 at 1.1320, and SMA200 at 1.1535 in an established technical downtrend. Leveraged Funds positioning reflects severe euro bearishness with CFTC net short at −104,030 contracts, sitting at the 2nd percentile of its 52-week distribution (z = −1.80). In stark contrast, retail sentiment on Retail sentiment data is 89% long against 11% short, establishing an acute institutional versus retail positioning divergence. Structural flows remain constrained by Fed 4.00% vs ECB 2.65% policy rates (+135bp carry favoring USD) and a +144bp OIS spread (SOFR 3.88% vs €STR 2.44%). The pair's BEER fair value model indicates spot is stretched at z = −3.50σ below fair value of 1.1252, pointing to late-cycle extension rather than fresh macro acceleration. Trade bias: Bearish EUR/USD; downward trend remains intact against retail fading, though stretched institutional shorts limit aggressive chasing. Catalyst: Euro Area GDP print at 10:00 UTC today. Risk: Upward technical break above the SMA20 at 1.1193, triggering a short-covering squeeze among institutional accounts.",
-      "evidence": [
-        "EUR COT LF net: -104,030 (pctl 2, z -1.80)",
-        "EUR/USD retail: 89% long vs 11% short",
-        "EUR/USD carry: Fed 4.0% vs ECB 2.65% -> +135bp"
+        "USD/JPY spot: 159.83",
+        "JPY COT lev net: -21,213 (pctl 92)",
+        "25d RR: -1.63"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
+        "pair": "USD/JPY",
+        "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.3 ATR with it over five sessions"
+          "price moved 2.0 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-11"
+          "asof": "2026-11-12"
         }
       }
     },
     {
-      "time": "07:48",
-      "priority": "info",
-      "title": "GBP/USD — Technical Resistance vs Carry Parity",
-      "text": "GBP/USD trades at 1.3272, residing below its moving average cluster comprising the SMA20 at 1.3368, SMA50 at 1.3353, and SMA200 at 1.3417. The technical posture exhibits a prevailing downtrend following recent closes below the 1.3325 horizontal support shelf. Rate differentials provide neutral support, with Fed 4.00% matching BoE 4.00% for a 0bp policy spread, while 1M OIS rates (SONIA 3.98% vs SOFR 3.88%) offer a marginal 10bp premium to sterling. Leveraged Funds maintain net long positioning of +32,686 contracts (65th percentile) following a +12,670 contract weekly inflow, conflicting with recent price weakness. Despite UK Q3 GDP expanding by 0.7% quarter-on-quarter, price action remains capped beneath descending trend resistance. Trade bias: Neutral/range GBP/USD; neutral carry and institutional length offset immediate moving-average overhead supply. Catalyst: US Initial Jobless Claims at 13:30 UTC today. Risk: Daily close above the SMA50 at 1.3353, neutralizing near-term downward momentum.",
+      "time": "21:45",
+      "priority": "warning",
+      "title": "EUR/USD — Late-Trend Caution",
+      "text": "EUR/USD trades at 1.1057, positioned below its SMA20/50/200 cluster anchored by the 20-day average at 1.1185 and 50-day average at 1.1309. Trend structure confirms a downtrend in force with falling moving averages. The Fed SOFR rate at 3.88% versus ECB ESTR at 2.44% establishes a +144bp OIS carry advantage supporting the dollar. CFTC leveraged funds hold EUR net shorts at -104,030 contracts with a 52-week percentile of 2 and z-score of -1.80, accompanied by a WoW change of -4,473 contracts and 4W change of -19,255 contracts. Real rates stand at +1.75% for USD and +0.50% for EUR. Options show a 25d risk reversal of -0.41 with a mild put skew, while implied volatility matches realized at 5.9% for a flat VRP of +0.0%. Fair value BEER model registers a z-score of -3.50σ, indicating EUR/USD is cheap relative to model fair value at 1.1252. Trade bias: Neutral to bearish EUR/USD, positioning extremes and fair value undervaluation countering structural carry headwinds. Catalyst: Euro Area GDP release at 10:00 UTC. Risk: Positioning unwinding that forces a sharp squeeze toward model fair value.",
       "evidence": [
-        "USD/GBP carry: Fed 4.0% vs BoE 4.0% -> +0bp",
-        "GBP COT LF net: +32,686 (WoW +12,670)",
-        "GBP/USD spot: 1.3272 vs SMA20 1.3368"
+        "EUR/USD spot: 1.1057",
+        "EUR COT lev net: -104,030 (pctl 2)",
+        "BEER fair value z: -3.50σ"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "not_directional",
-        "pair": "GBP/USD"
+        "pair": "EUR/USD"
+      }
+    },
+    {
+      "time": "21:40",
+      "priority": "warning",
+      "title": "NZD/USD — COT vs OIS Divergence",
+      "text": "NZD/USD trades at 0.5548, sitting below its SMA20/50/200 cluster anchored by the 20-day average at 0.5635 and 50-day average at 0.5672. Trend structure shows a downtrend in force with a falling 20-day average below the 200-day. CFTC leveraged funds report NZD net shorts at -23,350 contracts with a 52-week percentile of 21 and z-score of -0.79, while retail sentiment registers an extreme long bias at 91%. OIS carry differential shows Fed SOFR at 3.88% versus RBNZ overnight rate at 2.75%, providing a +125bp carry advantage for USD. ESI economic surprise index sits at -24.8, reflecting persistent data misses in New Zealand. Real rates are +1.75% for USD and +0.41% for NZD. Trade bias: Bearish NZD/USD, technical downtrend and structural carry advantage overriding positioning divergences. Catalyst: RBNZ meeting on 9 Dec. Risk: Surprising domestic data strength that sparks a short-squeeze unwind of leveraged positions.",
+      "evidence": [
+        "NZD/USD spot: 0.5548",
+        "NZD COT lev net: -23,350",
+        "ESI index: -24.8"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "NZD/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 1.1 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-12"
+        }
+      }
+    },
+    {
+      "time": "21:30",
+      "priority": "info",
+      "title": "USD/CHF — Options Skew",
+      "text": "USD/CHF trades at 0.8354, holding above its SMA20/50/200 cluster anchored by the 20-day average at 0.8241 and 50-day average at 0.8245. Trend structure confirms an uptrend in force with a rising 20-day moving average above the 200-day. CFTC leveraged funds report CHF net shorts at -18,905 contracts with a 52-week percentile of 4 and z-score of -1.74. Fed SOFR at 3.88% versus SARON at -0.04% creates a +400bp OIS carry premium supporting the dollar. Real rates stand at +1.75% for USD and -1.02% for CHF, reflecting an accommodative Swiss real monetary stance. Options 25d risk reversal prints at -0.56 with a mild put skew, while implied volatility sits at 6.7% against a realized HV30 of 7.0%, generating a negative VRP of -0.4%. Fair value BEER model registers a z-score of +1.53σ, showing the spot rate is rich relative to model fair value at 0.8261. Trade bias: Long USD/CHF, carry premium and technical uptrend supporting continued dollar strength. Catalyst: SNB policy meeting on 10 Dec. Risk: Rapid risk-off unwinds that compress the cross rate toward model fair value.",
+      "evidence": [
+        "USD/CHF spot: 0.8354",
+        "CHF COT lev net: -18,905 (pctl 4)",
+        "25d RR: -0.56"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "USD/CHF",
+        "direction": 1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 3.2 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-12"
+        }
       }
     }
   ]
