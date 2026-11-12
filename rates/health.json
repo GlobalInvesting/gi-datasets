@@ -1,5 +1,5 @@
 {
-  "runTimestamp": "2026-11-12T12:12:52.045810Z",
+  "runTimestamp": "2026-11-12T16:42:34.750061Z",
   "runDate": "2026-11-12",
   "crossCheckOk": true,
   "currencies": {
@@ -7,7 +7,7 @@
       "status": "ok",
       "rate": "4.00",
       "source": "NYFed-EFFR",
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "issues": []
     },
     "EUR": {
@@ -35,7 +35,7 @@
       "status": "ok",
       "rate": "2.50",
       "source": "BoC-Valet",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "issues": []
     },
     "AUD": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "CHF: kept cached 2026-11-01 value over older BIS-CBPOL candidate (2026-10-01) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
