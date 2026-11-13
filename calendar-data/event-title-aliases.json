@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-13T14:48:23Z",
+  "generatedAt": "2026-11-13T17:57:25Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 163,
+  "aliasCount": 161,
   "aliases": [
     {
       "currency": "GBP",
@@ -40,21 +40,8 @@
           "actual_secondary_raw": "50.9",
           "forecast_secondary_raw": "48.5",
           "previous_secondary_raw": "48.8"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 49.0,
-          "forecast_yahoo": null,
-          "actual_primary": 50.9,
-          "actual_yahoo": 50.9,
-          "previous_primary": 48.8,
-          "previous_yahoo": 48.8,
-          "actual_yahoo_raw": "50.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "48.8"
         }
-      },
-      "yahoo_title": "U Mich Expectations Prelim"
+      }
     },
     {
       "currency": "USD",
@@ -72,21 +59,8 @@
           "actual_secondary_raw": "46.7",
           "forecast_secondary_raw": "44.7",
           "previous_secondary_raw": "50.9"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 41.3,
-          "forecast_yahoo": null,
-          "actual_primary": 51.0,
-          "actual_yahoo": 51.0,
-          "previous_primary": 46.7,
-          "previous_yahoo": 46.7,
-          "actual_yahoo_raw": "51",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "46.7"
         }
-      },
-      "yahoo_title": "U Mich Conditions Prelim"
+      }
     },
     {
       "currency": "USD",
@@ -123,21 +97,8 @@
           "actual_secondary_raw": "3.4%",
           "forecast_secondary_raw": "3.6%",
           "previous_secondary_raw": "3.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 3.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.4,
-          "actual_yahoo": 3.4,
-          "previous_primary": 3.5,
-          "previous_yahoo": 3.5,
-          "actual_yahoo_raw": "3.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.5"
         }
-      },
-      "yahoo_title": "U Mich 5-Yr Inf Prelim"
+      }
     },
     {
       "currency": "USD",
@@ -2873,25 +2834,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States Michigan Consumer Sentiment",
-      "yahoo_title": "U Mich Sentiment Prelim",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 48.5,
-          "forecast_yahoo": null,
-          "actual_primary": 51.0,
-          "actual_yahoo": 51.0,
-          "previous_primary": 48.0,
-          "previous_yahoo": 48.0,
-          "actual_yahoo_raw": "51",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "48"
-        }
-      }
-    },
-    {
       "currency": "CAD",
       "primary_title": "Canada Ivey PMI n.s.a.",
       "yahoo_title": "Ivey PMI",
@@ -3344,25 +3286,6 @@
           "actual_yahoo_raw": "-5.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "1.5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States EIA Refinery Utilization Rate Change",
-      "yahoo_title": "EIA Wkly Refn Util*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": 1.7,
-          "previous_yahoo": 1.7,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.7"
         }
       }
     },
