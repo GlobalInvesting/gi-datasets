@@ -1,5 +1,5 @@
 {
-  "runTimestamp": "2026-11-13T01:42:52.680723Z",
+  "runTimestamp": "2026-11-13T11:59:18.505894Z",
   "runDate": "2026-11-13",
   "crossCheckOk": true,
   "currencies": {
@@ -21,7 +21,7 @@
       "status": "ok",
       "rate": "4",
       "source": "BoE-CSV",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "issues": []
     },
     "JPY": {
@@ -46,10 +46,10 @@
       "issues": []
     },
     "CHF": {
-      "status": "cached",
+      "status": "ok",
       "rate": "0.00",
-      "source": "cached-file",
-      "date": "2026-11-01",
+      "source": "SNB-scraping",
+      "date": "2026-11-13",
       "issues": []
     },
     "NZD": {
