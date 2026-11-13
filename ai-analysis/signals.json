@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-13T19:58:17Z",
+  "generated_at": "2026-11-13T23:34:44Z",
   "signals": [
     {
-      "time": "19:51",
+      "time": "20:47",
       "priority": "critical",
-      "title": "USD/NOK — G10 Bilateral Theme + Fed Hawkish Repricing",
-      "text": "USD/NOK trades at 9.553, extending well above its SMA20/50/200 cluster (SMA20 at 9.361) in a confirmed short-term momentum surge. The G10 Currency Strength Scorecard registers a critical bilateral divergence, with USD outperforming peers by +2.099% (n=9) while NOK drops -1.977% (n=2), generating a massive 4.075% spread. Multiple Fed officials, including Collins and Daly, explicitly flagged the need for additional tightening, pushing US 10Y yields up to 5.149% and sending the 2Y yield differential to -17bp, moving 16bp in favor of the USD over the past 5 sessions. While retail positioning shows an extreme 91% long stance that historically warrants contrarian caution, the macro rates impulse dominates near-term price action. Trade bias: Bullish USD/NOK, sustained upside momentum backed by hawkish Fed repricing. Catalyst: Fed Governor Jefferson Speech at 00:00 UTC. Risk: Sharp pullback in US Treasury yields below 5.00% invalidating the rates-driven dollar impulse.",
+      "title": "USD/NOK — G10 Bilateral Theme + Middle East Escalation",
+      "text": "Iranian IRGC mine strikes on oil tankers in the Strait of Hormuz driven by Middle East tensions trigger safe-haven flows into USD while driving broad commodity-FX realignments. USD led G10 with 1W average performance of +2.066% (n=9) while NOK lagged at -1.909% (n=2), generating a 3.975% bilateral spread; high US 10Y yields of 5.15% reinforce dollar supremacy. Fed Governor Jefferson's speech in Tokyo is the catalyst for resolving near-term yield momentum into the Sydney/Tokyo open. Trade bias: Bullish USD/NOK into the open; safe-haven demand and high US yields maintain upside pressure. Catalyst: Sydney/Tokyo open and Fed Governor Jefferson speech. Risk: Invalidation below Friday close of 9.565 if energy market escalation subsides.",
       "evidence": [
-        "USD 1W avg: +2.099% (n=9)",
-        "NOK 1W avg: -1.977% (n=2)",
-        "G10 spread: 4.075%"
+        "USD 1W avg: +2.066% (n=9)",
+        "NOK 1W avg: -1.909% (n=2)",
+        "G10 spread: 3.975%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,20 +19,20 @@
       }
     },
     {
-      "time": "19:48",
+      "time": "22:41",
       "priority": "warning",
-      "title": "USD/JPY — Carry Premium vs Options Put Skew",
-      "text": "USD/JPY trades at 159.74, holding firmly above its SMA20/50/200 cluster (SMA20 at 158.13) as price action consolidates just below key intervention thresholds. A massive +266bp OIS carry advantage (SOFR 3.89% vs TONA 1.23%) continues to anchor structural demand for the pair while broad market stress remains contained with VIX at 19.1. However, institutional options markets display acute defensive positioning: 1M 25d Risk Reversals print at -1.79, indicating significant bid for JPY calls and USD puts to hedge downside tail risks. Positioning data reveals a JPY COT LF net short of -21,213 contracts (pctl 92, z +1.46), confirming the speculative carry trade is heavily crowded in the upper decile of its 52-week range. Trade bias: Bullish USD/JPY, structurally supported by rate differentials while below key threshold levels. Catalyst: Next BoJ policy meeting on 18 Dec. Risk: Sustained break above 160.00 triggering direct MoF foreign exchange intervention.",
+      "title": "EUR/USD — Hawkish Fed Yield Shift vs Crowded Short",
+      "text": "EUR COT LF net short of -104.0k contracts (pctl 2%) creates squeeze risk, but hawkish Fed speak pushing US 2Y yields to 4.86% maintains heavy downside pressure on EUR/USD. The 146bp SOFR-€STR OIS carry advantage for USD and EUR/USD trading below its SMA20 (1.1174) reinforce the prevailing downtrend despite extreme retail long positioning at 87%. The Sydney/Tokyo open is the catalyst that tests Friday's 1.1028 closing low against surging US Treasury yields. Trade bias: Bearish EUR/USD into the open; yield divergence drives downside toward 1.1000. Catalyst: Sydney/Tokyo open on Sunday. Risk: Sustained recovery above 1.1086 triggers short-squeeze mechanics in light weekend liquidity.",
       "evidence": [
-        "USD/JPY OIS carry: +266bp",
-        "USDJPY 25d RR: -1.79",
-        "JPY COT LF net: -21,213 (pctl 92)"
+        "EUR COT LF net short -104,030 (pctl 2%)",
+        "US 2Y yield at 4.86%",
+        "SOFR/€STR carry differential +146bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "USD/JPY",
-        "direction": 1,
+        "pair": "EUR/USD",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
           "price moved 2.0 ATR with it over five sessions"
@@ -42,64 +42,52 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-12"
+          "asof": "2026-11-13"
         }
       }
     },
     {
-      "time": "19:46",
+      "time": "22:30",
       "priority": "warning",
-      "title": "EUR/USD — Hawkish Fed Repricing + Retail Divergence",
-      "text": "EUR/USD trades at 1.1025, entrenched below its SMA20/50/200 cluster with the 20-day SMA at 1.1185, confirming a clear downtrend. Fed policy rate at 4.00% vs ECB at 2.65% maintains a +135bp nominal carry advantage for the dollar, reinforced by an OIS SOFR vs €STR spread of +145bp. CFTC data shows Leveraged Funds net short EUR at -104,030 contracts (pctl 2, z -1.80), reflecting stretched institutional short positioning at the bottom decile of its annual range. Conversely, retail sentiment stands at an extreme 87% long, creating a stark institutional-versus-retail positioning divergence where retail is attempt-fading the institutional downtrend. Realized volatility runs at 5.5% against 1M ATM IV of 6.2%, reflecting a mild 0.7% vol risk premium as options markets price steady downside pressure. Trade bias: Bearish EUR/USD, downside momentum backed by rate spreads and institutional order flow. Catalyst: Next ECB policy meeting on 17 Dec. Risk: Short covering rally if US macroeconomic data turns sharply softer.",
+      "title": "USD/JPY — US Yield Surge vs Extreme Put Skew",
+      "text": "US 10Y yields rising to 5.15% push USD/JPY toward 159.69, while JPY COT net short of -21.2k contracts (pctl 92%) highlights persistent institutional JPY weakness. The 267bp SOFR-TONA OIS carry differential heavily favors USD, but USD/JPY 1M 25-delta risk reversal at -1.79 signals strong demand for downside put protection. Fed Governor Jefferson's upcoming Tokyo speech is the catalyst for testing whether yield momentum can overcome options hedging demand. Trade bias: Bullish USD/JPY; wide yield differential sustains upside momentum. Catalyst: Fed Governor Jefferson speech at 00:00 UTC. Risk: Drop below 158.22 SMA20 triggers accelerated put option unwinds.",
       "evidence": [
-        "EUR/USD OIS carry: +145bp",
-        "EUR COT LF net: -104,030 (pctl 2)",
-        "Retail sentiment: 87% long"
+        "JPY COT LF net short -21,213 (pctl 92%)",
+        "USD/JPY 1M 25d RR -1.79",
+        "SOFR/TONA carry differential +267bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
+        "pair": "USD/JPY",
+        "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.7 ATR with it over five sessions"
+          "price moved 1.3 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-12"
+          "asof": "2026-11-13"
         }
       }
     },
     {
-      "time": "19:42",
+      "time": "21:00",
       "priority": "info",
-      "title": "AUD/USD — Technical Downtrend vs Positive Carry Premium",
-      "text": "AUD/USD trades at 0.6777, breaking lower and trading entirely below its SMA20/50/200 cluster with SMA20 at 0.6972, leaving price extended by 3.43 ATRs from its 20-day average. The pair maintains a positive AUD carry advantage, with RBA policy rate at 4.85% vs Fed at 4.00% generating an 85bp rate spread (and -96bp OIS carry favoring AUD). Economic sentiment shows persistent divergence, as Australia's Economic Surprise Index sits at -6.1 against the USD ESI of +11.2, underscoring broader macroeconomic headwinds for the Aussie dollar. 1M 25d Risk Reversals show a moderate put skew of -1.30 alongside IV at 7.8% vs HV30 at 8.0%, pricing moderate hedging demand for further downside extensions despite the carry buffer. Trade bias: Bearish AUD/USD, technical downtrend overriding positive carry backdrop. Catalyst: Next RBA policy meeting on 8 Dec. Risk: Surge in global commodity prices triggering a broad repricing in growth-sensitive currencies.",
+      "title": "AUD/USD — Bullish Positioning Friction vs BEER Undervaluation",
+      "text": "AUD COT LF net long of +43.5k contracts creates unwinding risk if global risk sentiment deteriorates, even as BEER fair value shows AUD/USD cheap at z = -2.05σ. The 95bp SOFR-AONIA OIS carry advantage favors AUD, but AUD/USD trading extended below its SMA20 (0.6963) reflects dollar dominance. The upcoming RBA meeting on 8 Dec is the catalyst for confirming whether domestic policy support can offset broader dollar strength. Trade bias: Neutral AUD/USD; long positioning unwinds offset structural fair value cheapness. Catalyst: next RBA meeting (mkt: 100% hold priced) on 8 Dec. Risk: Break below Friday close 0.6774 targets 0.6700.",
       "evidence": [
-        "AUD/USD OIS carry: -96bp",
-        "AUD ESI: -6.1 vs USD ESI: +11.2",
-        "AUD/USD 25d RR: -1.30"
+        "AUD COT LF net long +43,532",
+        "AUD/USD BEER z-score -2.05σ",
+        "SOFR/AONIA carry differential -95bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "confirmed",
-        "pair": "AUD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 2.7 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-12"
-        }
+        "verdict": "not_directional",
+        "pair": "AUD/USD"
       }
     }
   ]
