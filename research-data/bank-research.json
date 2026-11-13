@@ -1,15 +1,32 @@
 {
-  "updated_utc": "2026-11-12T20:20:51.184897+00:00",
-  "updated_label": "20:20 UTC",
-  "total": 39,
+  "updated_utc": "2026-11-13T00:20:49.535315+00:00",
+  "updated_label": "00:20 UTC",
+  "total": 38,
   "sources": [
     "BIS",
     "CME",
-    "Danske",
     "ING",
     "Saxo"
   ],
   "items": [
+    {
+      "id": "edb6c73849da",
+      "bank": "CME",
+      "bank_full": "CME Group FX",
+      "series": "",
+      "title": "Euro FX futures drop to 1.1050 on policy divergence.",
+      "excerpt": "Euro FX futures declined 2% from Nov. 4 levels to 1.1050, reaching their lowest point since April 2025 amid sustained U.S. dollar strength. Market participants weighed diverging central bank rate expectations, with pricing reflecting additional Federal Reserve rate hikes into early 2027 alongside a more uncertain outlook for the European Central Bank beyond December. Meanwhile, the CME Group Euro CVOL index firmed toward month-to-date highs ahead of Friday's PPI release.",
+      "author": "CME Group",
+      "url": "https://www.cmegroup.com/videos/2026/11/12/euro-fx-futures-drop-to-1-1050-on-policy-divergence-11-12-26.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794520983000,
+      "published": "2026-11-12T22:03:03+00:00"
+    },
     {
       "id": "034a28d3471a",
       "bank": "CME",
@@ -220,106 +237,6 @@
       "published": "2026-11-12T09:30:00+00:00"
     },
     {
-      "id": "284865a2b35e",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "UK GDP and Swedish Inflation in Focus",
-      "excerpt": "In focus today In equity markets, Nvidia&#8217;s board is meeting on Thursday morning to decide whether to oust CEO Jensen Huang following a revealed affair with a suspected Chinese spy. Overnight multiple media reported on another affair involving Huang and Kimberly Powell, the chipmaker&#8217;s vice-president of healthcare. Nvidia&#8217;s shares dropped over 8% in after-hours trading. [&#8230;] The post UK GDP and Swedish Inflation in Focus appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660618-uk-gdp-and-swedish-inflation-in-focus/",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794468658000,
-      "published": "2026-11-12T07:30:58+00:00"
-    },
-    {
-      "id": "695241b58f1e",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Opening remarks - Joint Central Bank of Kuwait and Global Finance Magazine Roundtable Discussion with Kuwait Banks",
-      "excerpt": "Opening remarks by His Excellency Mr Basel A Al-Haroon, Governor of the Central Bank of Kuwait, at the Joint Central Bank of Kuwait and Global Finance Magazine Roundtable Discussion with Kuwait Banks, Kuwait City, 23 September 2026.",
-      "author": "Basel A Al-Haroon",
-      "url": "https://www.bis.org/speeches/20261112-opening-remarks-joint-central-bank-kuwait-and-global-finance-magazine-roundtable-discussion-kuwait-banks",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "6378172c7ad7",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Foundations for innovative and resilient capital markets",
-      "excerpt": "Keynote address by Mr Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, at the 2026 ECMI (European Capital Markets Institute) Annual Conference, Brussels, 11 November 2026.",
-      "author": "Vasileios Madouros",
-      "url": "https://www.bis.org/speeches/20261112-foundations-innovative-and-resilient-capital-markets",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "edcbb7d7531f",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Central bank independence in today’s world",
-      "excerpt": "Speech by Mr Andrew Bailey, Governor of the Bank of England, at the Swiss Institute of International Studies (SIAF) Lecture Series, Zurich University, Zurich, 9 November 2026.",
-      "author": "Andrew Bailey",
-      "url": "https://www.bis.org/speeches/20261112-central-bank-independence-todays-world",
-      "currencies": [
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "3d105eafc696",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The US economy and considerations for monetary policy",
-      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the C Peter McColough Series on International Economics Council on Foreign Relations, Washington DC, 10 November 2026.",
-      "author": "Michelle W Bowman",
-      "url": "https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "d4557a8f2277",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Japan's current account surplus and corporate adjustment",
-      "excerpt": "Speech by Mr Kazuo Ueda, Governor of the Bank of Japan, at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund, Washington DC, 6 November 2026.",
-      "author": "Kazuo Ueda",
-      "url": "https://www.bis.org/speeches/20261112-japans-current-account-surplus-and-corporate-adjustment",
-      "currencies": [
-        "JPY"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
       "id": "23b842c0a7da",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -398,6 +315,89 @@
       "url": "https://www.bis.org/speeches/20261112-competitiveness-and-resilience-financial-sector-oxymoron-or-complementarity",
       "currencies": [
         "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "690b21bde61a",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Cash and the digital euro - two sides of the same coin",
+      "excerpt": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 10 November 2026.",
+      "author": "Piero Cipollone",
+      "url": "https://www.bis.org/speeches/20261112-cash-and-digital-euro-two-sides-same-coin",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "695241b58f1e",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening remarks - Joint Central Bank of Kuwait and Global Finance Magazine Roundtable Discussion with Kuwait Banks",
+      "excerpt": "Opening remarks by His Excellency Mr Basel A Al-Haroon, Governor of the Central Bank of Kuwait, at the Joint Central Bank of Kuwait and Global Finance Magazine Roundtable Discussion with Kuwait Banks, Kuwait City, 23 September 2026.",
+      "author": "Basel A Al-Haroon",
+      "url": "https://www.bis.org/speeches/20261112-opening-remarks-joint-central-bank-kuwait-and-global-finance-magazine-roundtable-discussion-kuwait-banks",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "6378172c7ad7",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Foundations for innovative and resilient capital markets",
+      "excerpt": "Keynote address by Mr Vasileios Madouros, Deputy Governor of the Central Bank of Ireland, at the 2026 ECMI (European Capital Markets Institute) Annual Conference, Brussels, 11 November 2026.",
+      "author": "Vasileios Madouros",
+      "url": "https://www.bis.org/speeches/20261112-foundations-innovative-and-resilient-capital-markets",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "edcbb7d7531f",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Central bank independence in today’s world",
+      "excerpt": "Speech by Mr Andrew Bailey, Governor of the Bank of England, at the Swiss Institute of International Studies (SIAF) Lecture Series, Zurich University, Zurich, 9 November 2026.",
+      "author": "Andrew Bailey",
+      "url": "https://www.bis.org/speeches/20261112-central-bank-independence-todays-world",
+      "currencies": [
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "3d105eafc696",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The US economy and considerations for monetary policy",
+      "excerpt": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the C Peter McColough Series on International Economics Council on Foreign Relations, Washington DC, 10 November 2026.",
+      "author": "Michelle W Bowman",
+      "url": "https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",
+      "currencies": [
+        "USD"
       ],
       "pairs": [],
       "category": "macro",
@@ -674,24 +674,6 @@
       "category": "macro",
       "ts": 1794004368000,
       "published": "2026-11-06T22:32:48+00:00"
-    },
-    {
-      "id": "07a83b2700f8",
-      "bank": "CME",
-      "bank_full": "CME Group FX",
-      "series": "",
-      "title": "British Pound futures pull back from 1.35 after Bank of England rate hike.",
-      "excerpt": "British Pound futures retreated after touching the 1.35 level early in the session, closing near 1.3450. Volatility in the currency continues to trend lower following the Bank of England's decision to raise interest rates by 25 basis points to 4%. Markets are now weighing the central bank's signals that further rate hikes remain possible before the end of the year, contrasting with the Federal Reserve's recent posture.",
-      "author": "CME Group",
-      "url": "https://www.cmegroup.com/videos/2026/11/05/british-pound-futures-pull-back-from-1-35-after-bank-of-england-.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
-      "currencies": [
-        "USD",
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1793914957000,
-      "published": "2026-11-05T21:42:37+00:00"
     }
   ]
 }
