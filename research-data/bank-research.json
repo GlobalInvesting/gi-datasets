@@ -1,16 +1,48 @@
 {
-  "updated_utc": "2026-11-14T00:20:47.014802+00:00",
-  "updated_label": "00:20 UTC",
-  "total": 41,
+  "updated_utc": "2026-11-14T04:20:54.542336+00:00",
+  "updated_label": "04:20 UTC",
+  "total": 43,
   "sources": [
     "BIS",
     "CME",
     "Danske",
     "ING",
     "RBC",
-    "Saxo"
+    "Saxo",
+    "TD",
+    "Wells Fargo"
   ],
   "items": [
+    {
+      "id": "c0ad8a2d2c3b",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "The Weekly Bottom Line: Firm Inflation Cements the Case for Another Hike",
+      "excerpt": "Canadian Highlights Bond yields have risen this week as hawkish commentary from central bankers and a hot inflation report in the U.S. raised worries about future rate increases. Canadian yields were pulled higher by U.S. financial conditions. Monday’s October inflation report will give further insight on whether rising costs are being passed on to consumers. [&#8230;] The post The Weekly Bottom Line: Firm Inflation Cements the Case for Another Hike appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660866-the-weekly-bottom-line-firm-inflation-cements-the-case-for-another-hike/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794622388000,
+      "published": "2026-11-14T02:13:08+00:00"
+    },
+    {
+      "id": "0578542a259e",
+      "bank": "Wells Fargo",
+      "bank_full": "Wells Fargo Securities",
+      "series": "",
+      "title": "Economics Week Ahead",
+      "excerpt": "Next week’s U.S. data releases should point to continued resilience in consumer spending, with October retail sales expected to rise 0.2%, while housing activity remains constrained by high mortgage rates. We expect housing starts to rebound 4.0% to 1,270K after three consecutive declines. Abroad, inflation takes center stage, with firm readings across Canada, the U.K. [&#8230;] The post Economics Week Ahead appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/660857-economics-week-ahead-33/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794622143000,
+      "published": "2026-11-14T02:09:03+00:00"
+    },
     {
       "id": "8dfbfe186514",
       "bank": "CME",
@@ -344,40 +376,6 @@
       "published": "2026-11-12T09:30:00+00:00"
     },
     {
-      "id": "1ac2f3129c28",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Competitiveness and resilience in the financial sector - oxymoron or complementarity?",
-      "excerpt": "Speech by Mr Emmanuel Moulin, Governor of the Bank of France and Chairman of the Autorité de contrôle prudentiel et de resolution (ACPR), at the ACPR conference, Paris, 5 November 2026.",
-      "author": "Emmanuel Moulin",
-      "url": "https://www.bis.org/speeches/20261112-competitiveness-and-resilience-financial-sector-oxymoron-or-complementarity",
-      "currencies": [
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "690b21bde61a",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Cash and the digital euro - two sides of the same coin",
-      "excerpt": "Introductory statement by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 10 November 2026.",
-      "author": "Piero Cipollone",
-      "url": "https://www.bis.org/speeches/20261112-cash-and-digital-euro-two-sides-same-coin",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
       "id": "695241b58f1e",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -505,6 +503,40 @@
       "currencies": [
         "USD",
         "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "04b739c9fa4a",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The low-gear labour market",
+      "excerpt": "Speech by Ms Clare Lombardelli, Deputy Governor for Monetary Policy of the Bank of England, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
+      "author": "Clare Lombardelli",
+      "url": "https://www.bis.org/speeches/20261112-low-gear-labour-market",
+      "currencies": [
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "1ac2f3129c28",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Competitiveness and resilience in the financial sector - oxymoron or complementarity?",
+      "excerpt": "Speech by Mr Emmanuel Moulin, Governor of the Bank of France and Chairman of the Autorité de contrôle prudentiel et de resolution (ACPR), at the ACPR conference, Paris, 5 November 2026.",
+      "author": "Emmanuel Moulin",
+      "url": "https://www.bis.org/speeches/20261112-competitiveness-and-resilience-financial-sector-oxymoron-or-complementarity",
+      "currencies": [
+        "CHF"
       ],
       "pairs": [],
       "category": "macro",
