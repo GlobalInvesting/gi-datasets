@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T19:18:23Z",
+  "generatedAt": "2026-11-15T01:13:12Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 159,
+  "aliasCount": 158,
   "aliases": [
     {
       "currency": "JPY",
@@ -2022,21 +2022,8 @@
           "actual_secondary_raw": "58.3",
           "forecast_secondary_raw": "57.5",
           "previous_secondary_raw": "58.2"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 57.3,
-          "forecast_yahoo": null,
-          "actual_primary": 58.3,
-          "actual_yahoo": 58.3,
-          "previous_primary": 58.2,
-          "previous_yahoo": 58.2,
-          "actual_yahoo_raw": "58.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "58.2"
         }
-      },
-      "yahoo_title": "Ivey PMI SA"
+      }
     },
     {
       "currency": "USD",
@@ -2792,25 +2779,6 @@
           "actual_yahoo_raw": "0",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.4"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Ivey PMI n.s.a.",
-      "yahoo_title": "Ivey PMI",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 56.4,
-          "actual_yahoo": 56.4,
-          "previous_primary": 61.9,
-          "previous_yahoo": 61.9,
-          "actual_yahoo_raw": "56.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "61.9"
         }
       }
     },
