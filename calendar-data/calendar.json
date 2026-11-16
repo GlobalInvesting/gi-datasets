@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-16T19:26:57Z",
-  "generatedAt": "2026-11-16T19:26:57Z",
+  "lastUpdate": "2026-11-16T19:28:54Z",
+  "generatedAt": "2026-11-16T19:28:54Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,21 +9,21 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-16",
   "rangeTo": "2026-11-30",
-  "totalEvents": 7761,
+  "totalEvents": 7732,
   "currencyCounts": {
-    "JPY": 599,
-    "CHF": 179,
+    "JPY": 604,
+    "CHF": 178,
     "CAD": 442,
     "USD": 2495,
-    "GBP": 701,
-    "EUR": 2266,
-    "NZD": 192,
-    "AUD": 435,
-    "SEK": 266,
-    "NOK": 186
+    "GBP": 687,
+    "EUR": 2255,
+    "NZD": 190,
+    "AUD": 437,
+    "SEK": 260,
+    "NOK": 184
   },
   "impactCounts": {
-    "medium": 3111,
+    "medium": 3082,
     "high": 1678,
     "low": 2972
   },
@@ -369,9 +369,9 @@
       "std": 0.919239
     },
     "EUR/france s&p global manufacturing pmi": {
-      "n": 3,
-      "mean": 0.933333,
-      "std": 1.171893
+      "n": 4,
+      "mean": 0.75,
+      "std": 1.024695
     },
     "EUR/france s&p global services pmi": {
       "n": 4,
@@ -379,9 +379,9 @@
       "std": 2.68623
     },
     "EUR/germany s&p global manufacturing pmi": {
-      "n": 3,
-      "mean": -0.366667,
-      "std": 1.250333
+      "n": 4,
+      "mean": -0.275,
+      "std": 1.037224
     },
     "EUR/germany s&p global services pmi": {
       "n": 4,
@@ -389,9 +389,9 @@
       "std": 2.191461
     },
     "EUR/s&p global manufacturing pmi": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 0.360555
+      "n": 4,
+      "mean": 0.075,
+      "std": 0.330404
     },
     "EUR/s&p global services pmi": {
       "n": 4,
@@ -650,8 +650,8 @@
     },
     "GBP/cbi distributive trades": {
       "n": 3,
-      "mean": 3.333333,
-      "std": 33.00505
+      "mean": 2.333333,
+      "std": 31.342197
     },
     "USD/durable goods orders mom": {
       "n": 6,
@@ -964,14 +964,9 @@
       "std": 1.343503
     },
     "SEK/gdp growth rate qoq": {
-      "n": 3,
-      "mean": -0.033333,
-      "std": 0.404145
-    },
-    "SEK/gdp yoy": {
       "n": 2,
-      "mean": 0.25,
-      "std": 0.353553
+      "mean": 0.2,
+      "std": 0.0
     },
     "EUR/france cpi mom": {
       "n": 6,
@@ -1389,9 +1384,9 @@
       "std": 2.88473
     },
     "AUD/s&p global manufacturing pmi": {
-      "n": 2,
-      "mean": -0.35,
-      "std": 2.05061
+      "n": 3,
+      "mean": -0.7,
+      "std": 1.571623
     },
     "JPY/capital spending yoy": {
       "n": 2,
@@ -1404,9 +1399,9 @@
       "std": 0.650641
     },
     "JPY/au jibun bank manufacturing pmi": {
-      "n": 2,
-      "mean": 0.15,
-      "std": 1.909188
+      "n": 3,
+      "mean": 0.1,
+      "std": 1.352775
     },
     "AUD/building approvals mom": {
       "n": 3,
@@ -1485,13 +1480,13 @@
     },
     "GBP/nationwide housing prices mom": {
       "n": 3,
-      "mean": -0.133333,
-      "std": 0.208167
+      "mean": -0.033333,
+      "std": 0.23094
     },
     "GBP/nationwide housing prices yoy": {
       "n": 3,
-      "mean": -0.5,
-      "std": 0.2
+      "mean": -0.433333,
+      "std": 0.305505
     },
     "AUD/rba index of commodity prices yoy": {
       "n": 2,
@@ -1538,10 +1533,20 @@
       "mean": 0.133333,
       "std": 0.23094
     },
+    "EUR/spain s&p global manufacturing pmi": {
+      "n": 2,
+      "mean": 1.65,
+      "std": 2.616295
+    },
     "CHF/procure.ch manufacturing pmi": {
       "n": 2,
       "mean": 5.15,
       "std": 2.899138
+    },
+    "EUR/italy s&p global manufacturing pmi": {
+      "n": 2,
+      "mean": -1.5,
+      "std": 1.131371
     },
     "EUR/greece s&p global manufacturing pmi": {
       "n": 3,
@@ -1589,19 +1594,19 @@
       "std": 1.47571
     },
     "GBP/boe consumer credit": {
-      "n": 3,
-      "mean": 0.161333,
-      "std": 0.426757
+      "n": 4,
+      "mean": 0.0495,
+      "std": 0.414054
     },
     "GBP/mortgage approvals": {
       "n": 3,
-      "mean": -2.163333,
-      "std": 1.147272
+      "mean": -1.996667,
+      "std": 1.396866
     },
     "GBP/mortgage lending": {
       "n": 3,
-      "mean": -0.343333,
-      "std": 0.271539
+      "mean": -0.243333,
+      "std": 0.133167
     },
     "EUR/croatia inflation rate mom prel": {
       "n": 3,
@@ -1675,8 +1680,8 @@
     },
     "CAD/s&p global manufacturing pmi": {
       "n": 3,
-      "mean": -0.366667,
-      "std": 1.001665
+      "mean": -0.733333,
+      "std": 1.594783
     },
     "USD/s&p global manufacturing pmi": {
       "n": 2,
@@ -1950,8 +1955,8 @@
     },
     "GBP/s&p global construction pmi": {
       "n": 3,
-      "mean": -0.666667,
-      "std": 1.250333
+      "mean": -0.866667,
+      "std": 1.556706
     },
     "EUR/germany factory orders mom": {
       "n": 4,
@@ -2165,13 +2170,13 @@
     },
     "GBP/lloyds house price index yoy": {
       "n": 3,
-      "mean": -0.433333,
-      "std": 0.602771
+      "mean": -0.4,
+      "std": 0.556776
     },
     "GBP/lloyds house price index mom": {
       "n": 3,
-      "mean": -0.366667,
-      "std": 0.450925
+      "mean": -0.333333,
+      "std": 0.404145
     },
     "NOK/manufacturing production mom": {
       "n": 4,
@@ -3229,7 +3234,7 @@
       "std": 0.070711
     },
     "GBP/boe interest rate decision": {
-      "n": 2,
+      "n": 3,
       "mean": 0.0,
       "std": 0.0
     },
@@ -3720,8 +3725,8 @@
     },
     "GBP/net lending to individuals mom": {
       "n": 2,
-      "mean": -0.263,
-      "std": 1.042275
+      "mean": 0.037,
+      "std": 0.618011
     },
     "EUR/consumer confidence final": {
       "n": 2,
@@ -3858,25 +3863,10 @@
       "mean": 0.25,
       "std": 0.070711
     },
-    "GBP/business investment qoq": {
-      "n": 2,
-      "mean": 0.95,
-      "std": 1.202082
-    },
-    "GBP/business investment yoy": {
-      "n": 2,
-      "mean": 2.7,
-      "std": 2.404163
-    },
-    "GBP/gdp growth rate qoq": {
-      "n": 2,
-      "mean": -0.0,
-      "std": 0.141421
-    },
     "GBP/gdp yoy": {
       "n": 3,
-      "mean": 0.433333,
-      "std": 0.208167
+      "mean": 0.3,
+      "std": 0.173205
     },
     "USD/goods trade balance adv": {
       "n": 2,
@@ -4108,6 +4098,11 @@
       "mean": 5.56,
       "std": 15.952329
     },
+    "GBP/rics house price balance": {
+      "n": 2,
+      "mean": -5.5,
+      "std": 2.12132
+    },
     "JPY/current account": {
       "n": 2,
       "mean": 117.0,
@@ -4193,45 +4188,55 @@
       "mean": 0.49,
       "std": 0.014142
     },
-    "GBP/construction output yoy": {
+    "GBP/construction output mom": {
       "n": 2,
-      "mean": 0.05,
-      "std": 0.636396
+      "mean": 0.5,
+      "std": 0.565685
+    },
+    "GBP/construction output yoy": {
+      "n": 3,
+      "mean": 0.233333,
+      "std": 0.550757
     },
     "GBP/industrial production mom": {
       "n": 3,
-      "mean": 0.733333,
-      "std": 0.288675
+      "mean": 0.8,
+      "std": 0.173205
     },
     "GBP/industrial production yoy": {
-      "n": 2,
-      "mean": 1.15,
-      "std": 0.636396
+      "n": 3,
+      "mean": 0.833333,
+      "std": 0.70946
     },
     "GBP/manufacturing production mom": {
       "n": 3,
-      "mean": 1.166667,
-      "std": 0.251661
+      "mean": 1.266667,
+      "std": 0.11547
     },
     "GBP/manufacturing production yoy": {
-      "n": 2,
-      "mean": 2.0,
-      "std": 1.414214
-    },
-    "GBP/trade balance": {
-      "n": 2,
-      "mean": 1.8885,
-      "std": 3.028538
-    },
-    "GBP/trade balance non-eu": {
-      "n": 2,
-      "mean": -2.8095,
-      "std": 2.611345
+      "n": 3,
+      "mean": 1.533333,
+      "std": 1.28582
     },
     "GBP/gdp mom": {
+      "n": 3,
+      "mean": 0.166667,
+      "std": 0.057735
+    },
+    "GBP/gdp 3-month avg": {
       "n": 2,
       "mean": 0.15,
-      "std": 0.070711
+      "std": 0.212132
+    },
+    "GBP/goods trade balance": {
+      "n": 2,
+      "mean": 0.2,
+      "std": 4.652763
+    },
+    "GBP/goods trade balance non-eu": {
+      "n": 2,
+      "mean": 0.66,
+      "std": 5.586144
     },
     "AUD/ppi qoq": {
       "n": 2,
@@ -81217,19 +81222,6 @@
     {
       "date": "26 Oct",
       "dateISO": "2026-10-26",
-      "timeUTC": "06:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Elderson Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "26 Oct",
-      "dateISO": "2026-10-26",
       "timeUTC": "07:00",
       "country": "SEK",
       "currency": "SEK",
@@ -81360,18 +81352,17 @@
       "previous": "4.299%"
     },
     {
-      "date": "2026-10-26",
+      "date": "26 Oct",
       "dateISO": "2026-10-26",
       "timeUTC": "11:00",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom CBI Distributive Trades",
       "impact": "medium",
       "actual": "-10",
-      "forecast": "-50",
-      "previous": "-55",
-      "source": "secondary-calendar"
+      "forecast": "-47",
+      "previous": "-55"
     },
     {
       "date": "2026-10-26",
@@ -81547,18 +81538,17 @@
       "source": "secondary-calendar"
     },
     {
-      "date": "2026-10-27",
+      "date": "27 Oct",
       "dateISO": "2026-10-27",
       "timeUTC": "00:01",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom BRC Shop Price Inflation",
       "impact": "low",
       "actual": "2.1%",
       "forecast": "1.6%",
-      "previous": "1.4%",
-      "source": "secondary-calendar"
+      "previous": "1.4%"
     },
     {
       "date": "27 Oct",
@@ -81650,59 +81640,6 @@
       "actual": "7.4%",
       "forecast": "4.4%",
       "previous": "4.6%"
-    },
-    {
-      "date": "27 Oct",
-      "dateISO": "2026-10-27",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden Goods Trade Balance",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "-5.1B",
-      "previous": "-11.9B",
-      "vendorImpact": "low"
-    },
-    {
-      "date": "27 Oct",
-      "dateISO": "2026-10-27",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden Households Loans y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "3.4%",
-      "previous": "3.3%"
-    },
-    {
-      "date": "27 Oct",
-      "dateISO": "2026-10-27",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden Non-Financial Corporations Loans y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.9%"
-    },
-    {
-      "date": "27 Oct",
-      "dateISO": "2026-10-27",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden M3 Money Supply y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.3%"
     },
     {
       "date": "27 Oct",
@@ -81862,6 +81799,19 @@
       "actual": "2.780%",
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "27 Oct",
+      "dateISO": "2026-10-27",
+      "timeUTC": "10:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Treasury Gilt 2032 Auction",
+      "impact": "low",
+      "actual": "5.036%",
+      "forecast": null,
+      "previous": "4.843%"
     },
     {
       "date": "27 Oct",
@@ -82836,32 +82786,6 @@
       "date": "28 Oct",
       "dateISO": "2026-10-28",
       "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "0.1%",
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "2.1%",
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "07:00",
       "country": "NOK",
       "currency": "NOK",
       "flag": "🇳🇴",
@@ -83006,19 +82930,6 @@
     {
       "date": "28 Oct",
       "dateISO": "2026-10-28",
-      "timeUTC": "10:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Autumn Forecast Statement",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
       "timeUTC": "10:30",
       "country": "EUR",
       "currency": "EUR",
@@ -83137,6 +83048,32 @@
       "forecast": null,
       "previous": "129.2",
       "source": "secondary-calendar"
+    },
+    {
+      "date": "28 Oct",
+      "dateISO": "2026-10-28",
+      "timeUTC": "12:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Autumn Budget",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "28 Oct",
+      "dateISO": "2026-10-28",
+      "timeUTC": "12:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Autumn Forecast Statement",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "28 Oct",
@@ -83577,18 +83514,17 @@
       "previous": "47.9"
     },
     {
-      "date": "2026-10-29",
+      "date": "29 Oct",
       "dateISO": "2026-10-29",
       "timeUTC": "00:01",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom Car Production YoY",
       "impact": "low",
       "actual": "38.6%",
       "forecast": "5.0%",
-      "previous": "6.1%",
-      "source": "secondary-calendar"
+      "previous": "6.1%"
     },
     {
       "date": "29 Oct",
@@ -83756,32 +83692,6 @@
     {
       "date": "29 Oct",
       "dateISO": "2026-10-29",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden GDP q/q",
-      "impact": "medium",
-      "actual": "0.4",
-      "forecast": "0.9%",
-      "previous": "1.6%"
-    },
-    {
-      "date": "29 Oct",
-      "dateISO": "2026-10-29",
-      "timeUTC": "07:00",
-      "country": "SEK",
-      "currency": "SEK",
-      "flag": "🇸🇪",
-      "event": "Sweden GDP y/y",
-      "impact": "medium",
-      "actual": "2.8",
-      "forecast": "2.8%",
-      "previous": "3.3%"
-    },
-    {
-      "date": "29 Oct",
-      "dateISO": "2026-10-29",
       "timeUTC": "08:00",
       "country": "EUR",
       "currency": "EUR",
@@ -83944,6 +83854,71 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
+      "event": "United Kingdom M4 Money Supply MoM",
+      "impact": "low",
+      "actual": "0.1%",
+      "forecast": "0.3%",
+      "previous": "0.4%"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Consumer Credit",
+      "impact": "medium",
+      "actual": "1.914B",
+      "forecast": "2.200B",
+      "previous": "2.683B"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Mortgage Approvals",
+      "impact": "medium",
+      "actual": "53.44K",
+      "forecast": "54.00K",
+      "previous": "54.81K"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Mortgage Lending",
+      "impact": "medium",
+      "actual": "3.87B",
+      "forecast": "4.20B",
+      "previous": "4.17B"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Net Lending to Individuals MoM",
+      "impact": "low",
+      "actual": "5.8B",
+      "forecast": "6.2B",
+      "previous": "6.9B"
+    },
+    {
+      "date": "29 Oct",
+      "dateISO": "2026-10-29",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
       "event": "BoE Consumer Credit m/m",
       "impact": "low",
       "actual": "1.914B",
@@ -84014,62 +83989,6 @@
       "actual": "£1.914B",
       "forecast": "£2.2B",
       "previous": "£2.683B",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-10-29",
-      "dateISO": "2026-10-29",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom Mortgage Approvals",
-      "impact": "medium",
-      "actual": "53.44K",
-      "forecast": "54.5K",
-      "previous": "54.81K",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-10-29",
-      "dateISO": "2026-10-29",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom Mortgage Lending",
-      "impact": "medium",
-      "actual": "£3.87B",
-      "forecast": "£4.5B",
-      "previous": "£4.17B",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-10-29",
-      "dateISO": "2026-10-29",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom M4 Money Supply MoM",
-      "impact": "low",
-      "actual": "0.1%",
-      "forecast": "0.3%",
-      "previous": "0.4%",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-10-29",
-      "dateISO": "2026-10-29",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom Net Lending to Individuals MoM",
-      "impact": "low",
-      "actual": "£5.8B",
-      "forecast": "£6.8B",
-      "previous": "£6.9B",
       "source": "secondary-calendar"
     },
     {
@@ -84300,18 +84219,17 @@
       "source": "secondary-calendar"
     },
     {
-      "date": "2026-10-29",
+      "date": "29 Oct",
       "dateISO": "2026-10-29",
       "timeUTC": "10:00",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom Treasury Gilt 2031 Auction",
       "impact": "low",
       "actual": "4.847%",
       "forecast": null,
-      "previous": "4.842%",
-      "source": "secondary-calendar"
+      "previous": "4.842%"
     },
     {
       "date": "29 Oct",
@@ -84377,19 +84295,6 @@
       "actual": "4.49%",
       "forecast": null,
       "previous": "4.58%"
-    },
-    {
-      "date": "29 Oct",
-      "dateISO": "2026-10-29",
-      "timeUTC": "10:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom 5-Year Treasury Gilt Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "5.036%"
     },
     {
       "date": "29 Oct",
@@ -85947,11 +85852,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
+      "event": "United Kingdom Nationwide Housing Prices MoM",
       "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
+      "actual": "0%",
+      "forecast": "-0.1%",
+      "previous": "-0.3%"
     },
     {
       "date": "30 Oct",
@@ -85960,39 +85865,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "2026-10-30",
-      "dateISO": "2026-10-30",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom Nationwide Housing Prices MoM",
-      "impact": "medium",
-      "actual": "0%",
-      "forecast": "0.2%",
-      "previous": "-0.3%",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-10-30",
-      "dateISO": "2026-10-30",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
       "event": "United Kingdom Nationwide Housing Prices YoY",
       "impact": "medium",
       "actual": "0.5%",
-      "forecast": "0.8%",
-      "previous": "0.8%",
-      "source": "secondary-calendar"
+      "forecast": "0.6%",
+      "previous": "0.8%"
     },
     {
       "date": "30 Oct",
@@ -86336,6 +86213,19 @@
       "date": "30 Oct",
       "dateISO": "2026-10-30",
       "timeUTC": "09:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Mills Speech",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "30 Oct",
+      "dateISO": "2026-10-30",
+      "timeUTC": "09:00",
       "country": "NOK",
       "currency": "NOK",
       "flag": "🇳🇴",
@@ -86437,32 +86327,30 @@
       "previous": "3.7%"
     },
     {
-      "date": "2026-10-30",
+      "date": "30 Oct",
       "dateISO": "2026-10-30",
       "timeUTC": "09:30",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom DMP 1Y CPI Expectations",
       "impact": "low",
       "actual": "3.4%",
       "forecast": "3.4%",
-      "previous": "3.3%",
-      "source": "secondary-calendar"
+      "previous": "3.3%"
     },
     {
-      "date": "2026-10-30",
+      "date": "30 Oct",
       "dateISO": "2026-10-30",
       "timeUTC": "09:30",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom DMP 3M Output Price Expectations",
       "impact": "low",
       "actual": "3.8%",
       "forecast": "3.7%",
-      "previous": "3.7%",
-      "source": "secondary-calendar"
+      "previous": "3.7%"
     },
     {
       "date": "30 Oct",
@@ -87243,6 +87131,19 @@
       "source": "secondary-calendar"
     },
     {
+      "date": "1 Nov",
+      "dateISO": "2026-11-01",
+      "timeUTC": "22:00",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia S&P Global Manufacturing PMI",
+      "impact": "low",
+      "actual": "49.6",
+      "forecast": "51.0",
+      "previous": "49.6"
+    },
+    {
       "date": "2026-11-01",
       "dateISO": "2026-11-01",
       "timeUTC": "22:00",
@@ -87350,6 +87251,19 @@
       "forecast": "-1.2%",
       "previous": "5.4%",
       "source": "secondary-calendar"
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Manufacturing PMI",
+      "impact": "low",
+      "actual": "53.3",
+      "forecast": "53.3",
+      "previous": "53.3"
     },
     {
       "date": "2026-11-02",
@@ -87460,32 +87374,6 @@
     {
       "date": "2 Nov",
       "dateISO": "2026-11-02",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "2 Nov",
-      "dateISO": "2026-11-02",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "2 Nov",
-      "dateISO": "2026-11-02",
       "timeUTC": "07:30",
       "country": "CHF",
       "currency": "CHF",
@@ -87539,6 +87427,19 @@
     {
       "date": "2 Nov",
       "dateISO": "2026-11-02",
+      "timeUTC": "08:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain S&P Global Manufacturing PMI",
+      "impact": "medium",
+      "actual": "52.2",
+      "forecast": "48.7",
+      "previous": "51.0"
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
       "timeUTC": "08:30",
       "country": "CHF",
       "currency": "CHF",
@@ -87578,6 +87479,45 @@
     {
       "date": "2 Nov",
       "dateISO": "2026-11-02",
+      "timeUTC": "08:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Italy S&P Global Manufacturing PMI",
+      "impact": "medium",
+      "actual": "49.4",
+      "forecast": "50.1",
+      "previous": "50.4"
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
+      "timeUTC": "08:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France S&P Global Manufacturing PMI",
+      "impact": "medium",
+      "actual": "49.5",
+      "forecast": "49.3",
+      "previous": "49.3"
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
+      "timeUTC": "08:55",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany S&P Global Manufacturing PMI",
+      "impact": "medium",
+      "actual": "54.2",
+      "forecast": "54.2",
+      "previous": "54.2"
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
       "timeUTC": "09:00",
       "country": "EUR",
       "currency": "EUR",
@@ -87587,6 +87527,19 @@
       "actual": "53.3",
       "forecast": "53.4",
       "previous": null
+    },
+    {
+      "date": "2 Nov",
+      "dateISO": "2026-11-02",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area S&P Global Manufacturing PMI",
+      "impact": "medium",
+      "actual": "52.7",
+      "forecast": "52.4",
+      "previous": "52.4"
     },
     {
       "date": "2026-11-02",
@@ -87603,18 +87556,17 @@
       "source": "secondary-calendar"
     },
     {
-      "date": "2026-11-02",
+      "date": "2 Nov",
       "dateISO": "2026-11-02",
       "timeUTC": "09:30",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom S&P Global Manufacturing PMI Final",
       "impact": "low",
       "actual": "52.8",
       "forecast": "52.8",
-      "previous": "51.9",
-      "source": "secondary-calendar"
+      "previous": null
     },
     {
       "date": "2 Nov",
@@ -87721,18 +87673,17 @@
       "previous": "3.365%"
     },
     {
-      "date": "2026-11-02",
+      "date": "2 Nov",
       "dateISO": "2026-11-02",
       "timeUTC": "14:30",
       "country": "CAD",
       "currency": "CAD",
-      "flag": "ca",
+      "flag": "🇨🇦",
       "event": "Canada S&P Global Manufacturing PMI",
-      "impact": "medium",
+      "impact": "low",
       "actual": "49.6",
-      "forecast": "51",
-      "previous": "51.5",
-      "source": "secondary-calendar"
+      "forecast": "52.1",
+      "previous": "51.5"
     },
     {
       "date": "2026-11-02",
@@ -88056,32 +88007,6 @@
     {
       "date": "3 Nov",
       "dateISO": "2026-11-03",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "3 Nov",
-      "dateISO": "2026-11-03",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "3 Nov",
-      "dateISO": "2026-11-03",
       "timeUTC": "07:30",
       "country": "CHF",
       "currency": "CHF",
@@ -88143,6 +88068,19 @@
       "actual": "3.553%",
       "forecast": null,
       "previous": "3.570%"
+    },
+    {
+      "date": "3 Nov",
+      "dateISO": "2026-11-03",
+      "timeUTC": "10:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Green Gilt 2037 Auction",
+      "impact": "low",
+      "actual": "5.268%",
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "3 Nov",
@@ -88247,32 +88185,6 @@
       "actual": "3.167%",
       "forecast": null,
       "previous": "3.183%"
-    },
-    {
-      "date": "3 Nov",
-      "dateISO": "2026-11-03",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany New Car Registrations m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "20.8%"
-    },
-    {
-      "date": "3 Nov",
-      "dateISO": "2026-11-03",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany New Car Registrations y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "9.0%"
     },
     {
       "date": "2026-11-03",
@@ -88786,32 +88698,6 @@
     {
       "date": "4 Nov",
       "dateISO": "2026-11-04",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "4 Nov",
-      "dateISO": "2026-11-04",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "4 Nov",
-      "dateISO": "2026-11-04",
       "timeUTC": "07:30",
       "country": "SEK",
       "currency": "SEK",
@@ -89105,6 +88991,32 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Composite PMI Final",
+      "impact": "low",
+      "actual": "52.9",
+      "forecast": "53.1",
+      "previous": null
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Services PMI Final",
+      "impact": "low",
+      "actual": "52.8",
+      "forecast": "53.1",
+      "previous": null
+    },
+    {
+      "date": "4 Nov",
+      "dateISO": "2026-11-04",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
       "event": "United Kingdom S&P Global/CIPS Services PMI",
       "impact": "medium",
       "actual": "52.8",
@@ -89123,34 +89035,6 @@
       "actual": "52.9",
       "forecast": null,
       "previous": "53.1"
-    },
-    {
-      "date": "2026-11-04",
-      "dateISO": "2026-11-04",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom S&P Global Composite PMI Final",
-      "impact": "low",
-      "actual": "52.9",
-      "forecast": "53.1",
-      "previous": "52.0",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "2026-11-04",
-      "dateISO": "2026-11-04",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom S&P Global Services PMI Final",
-      "impact": "low",
-      "actual": "52.8",
-      "forecast": "53.1",
-      "previous": "52.1",
-      "source": "secondary-calendar"
     },
     {
       "date": "4 Nov",
@@ -90288,19 +90172,6 @@
     {
       "date": "5 Nov",
       "dateISO": "2026-11-05",
-      "timeUTC": "08:05",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Schnabel Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
       "timeUTC": "08:25",
       "country": "EUR",
       "currency": "EUR",
@@ -90396,6 +90267,19 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
+      "event": "United Kingdom New Car Sales YoY",
+      "impact": "low",
+      "actual": "5.4%",
+      "forecast": "11.0%",
+      "previous": "12.1%"
+    },
+    {
+      "date": "5 Nov",
+      "dateISO": "2026-11-05",
+      "timeUTC": "09:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
       "event": "United Kingdom New Car Registrations m/m",
       "impact": "low",
       "actual": "-56.4%",
@@ -90414,20 +90298,6 @@
       "actual": "5.4%",
       "forecast": null,
       "previous": "12.0%"
-    },
-    {
-      "date": "2026-11-05",
-      "dateISO": "2026-11-05",
-      "timeUTC": "09:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom New Car Sales YoY",
-      "impact": "low",
-      "actual": "5.4%",
-      "forecast": "11.0%",
-      "previous": "12.1%",
-      "source": "secondary-calendar"
     },
     {
       "date": "5 Nov",
@@ -90449,51 +90319,24 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Construction PMI",
+      "impact": "medium",
+      "actual": "43.6",
+      "forecast": "46.1",
+      "previous": null
+    },
+    {
+      "date": "5 Nov",
+      "dateISO": "2026-11-05",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
       "event": "United Kingdom S&P Global/CIPS Construction PMI",
       "impact": "medium",
       "actual": "43.6",
       "forecast": "45.7",
       "previous": "46.1"
-    },
-    {
-      "date": "2026-11-05",
-      "dateISO": "2026-11-05",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "gb",
-      "event": "United Kingdom S&P Global Construction PMI",
-      "impact": "medium",
-      "actual": "43.6",
-      "forecast": "45.5",
-      "previous": "46.1",
-      "source": "secondary-calendar"
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
-      "timeUTC": "09:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain 3-Year Bonos Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.313%"
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
-      "timeUTC": "09:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain 5-Year Bonos Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.482%"
     },
     {
       "date": "5 Nov",
@@ -90605,13 +90448,13 @@
     {
       "date": "5 Nov",
       "dateISO": "2026-11-05",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
+      "timeUTC": "12:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE MPC Vote Unchanged",
+      "impact": "medium",
+      "actual": "0",
       "forecast": null,
       "previous": null
     },
@@ -90635,24 +90478,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE MPC Meeting Minutes",
+      "event": "BoE MPC Vote Hike",
       "impact": "medium",
-      "actual": null,
+      "actual": "9",
       "forecast": null,
       "previous": null
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
-      "timeUTC": "12:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Interest Rate Decision",
-      "impact": "high",
-      "actual": "4.25%",
-      "forecast": null,
-      "previous": "3.75%"
     },
     {
       "date": "5 Nov",
@@ -90665,7 +90495,7 @@
       "impact": "medium",
       "actual": "0",
       "forecast": null,
-      "previous": "0"
+      "previous": null
     },
     {
       "date": "5 Nov",
@@ -90674,11 +90504,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE MPC Vote Hike",
-      "impact": "medium",
-      "actual": "9",
-      "forecast": null,
-      "previous": "3"
+      "event": "BoE Interest Rate Decision",
+      "impact": "high",
+      "actual": "4%",
+      "forecast": "4%",
+      "previous": "3.75%"
     },
     {
       "date": "5 Nov",
@@ -90687,11 +90517,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE MPC Vote Unchanged",
+      "event": "United Kingdom MPC Meeting Minutes",
       "impact": "medium",
-      "actual": "0",
+      "actual": null,
       "forecast": null,
-      "previous": "6"
+      "previous": null
     },
     {
       "date": "2026-11-05",
@@ -90753,19 +90583,6 @@
       "date": "5 Nov",
       "dateISO": "2026-11-05",
       "timeUTC": "12:40",
-      "country": "CHF",
-      "currency": "CHF",
-      "flag": "🇨🇭",
-      "event": "SNB Vice Chairman Schlegel Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
-      "timeUTC": "13:30",
       "country": "CHF",
       "currency": "CHF",
       "flag": "🇨🇭",
@@ -90881,19 +90698,6 @@
       "forecast": "1.4%",
       "previous": "1.9%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "5 Nov",
-      "dateISO": "2026-11-05",
-      "timeUTC": "14:15",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Governor Bailey Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "5 Nov",
@@ -91230,32 +91034,30 @@
       "previous": "2.3%"
     },
     {
-      "date": "2026-11-06",
+      "date": "6 Nov",
       "dateISO": "2026-11-06",
       "timeUTC": "07:00",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom Lloyds House Price Index MoM",
       "impact": "medium",
       "actual": "-0.6%",
-      "forecast": "0.2%",
-      "previous": "-0.1%",
-      "source": "secondary-calendar"
+      "forecast": "0.1%",
+      "previous": "-0.1%"
     },
     {
-      "date": "2026-11-06",
+      "date": "6 Nov",
       "dateISO": "2026-11-06",
       "timeUTC": "07:00",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom Lloyds House Price Index YoY",
       "impact": "medium",
       "actual": "-1.2%",
-      "forecast": "-0.2%",
-      "previous": "-0.1%",
-      "source": "secondary-calendar"
+      "forecast": "-0.3%",
+      "previous": "-0.1%"
     },
     {
       "date": "6 Nov",
@@ -91527,25 +91329,12 @@
     {
       "date": "6 Nov",
       "dateISO": "2026-11-06",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
       "timeUTC": "12:15",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE MPC Member Pill Speech",
-      "impact": "medium",
+      "event": "BoE Pill Speech",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -92751,19 +92540,6 @@
     {
       "date": "9 Nov",
       "dateISO": "2026-11-09",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "9 Nov",
-      "dateISO": "2026-11-09",
       "timeUTC": "13:40",
       "country": "USD",
       "currency": "USD",
@@ -92937,12 +92713,12 @@
     {
       "date": "9 Nov",
       "dateISO": "2026-11-09",
-      "timeUTC": "17:25",
+      "timeUTC": "17:30",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE Governor Bailey Speech",
-      "impact": "high",
+      "event": "BoE Gov Bailey Speech",
+      "impact": "medium",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -93149,18 +92925,17 @@
       "previous": null
     },
     {
-      "date": "2026-11-10",
+      "date": "10 Nov",
       "dateISO": "2026-11-10",
       "timeUTC": "00:01",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom BRC Retail Sales Monitor YoY",
       "impact": "medium",
       "actual": "1.1%",
       "forecast": "1.2%",
-      "previous": "1%",
-      "source": "secondary-calendar"
+      "previous": "1.0%"
     },
     {
       "date": "2026-11-10",
@@ -93535,18 +93310,17 @@
       "previous": "2.1%"
     },
     {
-      "date": "2026-11-10",
+      "date": "10 Nov",
       "dateISO": "2026-11-10",
       "timeUTC": "10:00",
       "country": "GBP",
       "currency": "GBP",
-      "flag": "gb",
+      "flag": "🇬🇧",
       "event": "United Kingdom Treasury Gilt 2056 Auction",
       "impact": "low",
       "actual": "5.540%",
       "forecast": null,
-      "previous": "5.82%",
-      "source": "secondary-calendar"
+      "previous": "5.820%"
     },
     {
       "date": "10 Nov",
@@ -93708,11 +93482,11 @@
     {
       "date": "10 Nov",
       "dateISO": "2026-11-10",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
+      "timeUTC": "12:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Lombardelli Speech",
       "impact": "low",
       "actual": null,
       "forecast": null,
@@ -94044,21 +93818,8 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "BoE MPC Member Pill Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "10 Nov",
-      "dateISO": "2026-11-10",
-      "timeUTC": "20:00",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
-      "event": "RBNZ Financial Stability Report",
-      "impact": "medium",
+      "event": "BoE Pill Speech",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -94089,19 +93850,6 @@
       "forecast": null,
       "previous": "-5.267M",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "10 Nov",
-      "dateISO": "2026-11-10",
-      "timeUTC": "22:00",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
-      "event": "RBNZ Governor Orr Speech",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "2026-11-10",
@@ -94344,19 +94092,6 @@
     {
       "date": "11 Nov",
       "dateISO": "2026-11-11",
-      "timeUTC": "07:30",
-      "country": "NOK",
-      "currency": "NOK",
-      "flag": "🇳🇴",
-      "event": "Norges Bank Financial Stability Report",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "11 Nov",
-      "dateISO": "2026-11-11",
       "timeUTC": "08:00",
       "country": "EUR",
       "currency": "EUR",
@@ -94366,19 +94101,6 @@
       "actual": "-4.3%",
       "forecast": "-3.2%",
       "previous": "-4.8%"
-    },
-    {
-      "date": "11 Nov",
-      "dateISO": "2026-11-11",
-      "timeUTC": "08:30",
-      "country": "NOK",
-      "currency": "NOK",
-      "flag": "🇳🇴",
-      "event": "Norges Bank Financial Stability Report",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "11 Nov",
@@ -94535,19 +94257,6 @@
       "actual": "4.3%",
       "forecast": "4.1%",
       "previous": "4.1%"
-    },
-    {
-      "date": "11 Nov",
-      "dateISO": "2026-11-11",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "2026-11-11",
@@ -94752,6 +94461,19 @@
     {
       "date": "12 Nov",
       "dateISO": "2026-11-12",
+      "timeUTC": "00:01",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom RICS House Price Balance",
+      "impact": "medium",
+      "actual": "-36%",
+      "forecast": "-32%",
+      "previous": "-34%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
       "timeUTC": "05:00",
       "country": "SEK",
       "currency": "SEK",
@@ -94795,11 +94517,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Construction Output m/m",
+      "event": "United Kingdom Balance of Trade",
       "impact": "low",
-      "actual": null,
-      "forecast": "-0.3%",
-      "previous": "-0.1%"
+      "actual": "-5.134B",
+      "forecast": "-1.600B",
+      "previous": "-2.567B"
     },
     {
       "date": "12 Nov",
@@ -94808,140 +94530,10 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Construction Output y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "-1.4%",
-      "previous": "-2.3%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Industrial Production m/m",
-      "impact": "medium",
-      "actual": "0.3",
-      "forecast": "-0.1%",
-      "previous": "-0.2%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Industrial Production y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "-0.2%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Manufacturing Production m/m",
-      "impact": "medium",
-      "actual": "0.7",
-      "forecast": "-0.2%",
-      "previous": "-0.5%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Manufacturing Production y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Trade Balance",
-      "impact": "medium",
-      "actual": "-22.29",
-      "forecast": "-22.037B",
-      "previous": "-23.007B"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Trade Balance Non-EU",
-      "impact": "medium",
-      "actual": "-8.98",
-      "forecast": "-4.324B",
-      "previous": "-10.448B"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Business Investment q/q",
-      "impact": "medium",
-      "actual": "0.4",
-      "forecast": "-1.4%",
-      "previous": "1.8%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Business Investment y/y",
-      "impact": "low",
-      "actual": "3",
-      "forecast": "2.0%",
-      "previous": "5.2%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom GDP q/q",
+      "event": "United Kingdom GDP Growth Rate YoY Prel",
       "impact": "high",
-      "actual": "0.7",
-      "forecast": "0.8%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom GDP y/y",
-      "impact": "high",
-      "actual": "1.9",
-      "forecast": "1.3%",
+      "actual": "1.9%",
+      "forecast": "1.9%",
       "previous": "1.4%"
     },
     {
@@ -94951,11 +94543,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom GDP m/m",
-      "impact": "high",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "0.3%"
+      "event": "United Kingdom Construction Orders YoY",
+      "impact": "low",
+      "actual": "-25.3%",
+      "forecast": "-20.0%",
+      "previous": "-18.5%"
     },
     {
       "date": "12 Nov",
@@ -94964,11 +94556,193 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom GDP 3m/3m",
+      "event": "United Kingdom Manufacturing Production YoY",
+      "impact": "low",
+      "actual": "4.4%",
+      "forecast": "3.8%",
+      "previous": "2.5%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom GDP MoM",
+      "impact": "high",
+      "actual": "0.2%",
+      "forecast": "0.0%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Goods Trade Balance",
       "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": "0.4%"
+      "actual": "-22.29B",
+      "forecast": "-19.20B",
+      "previous": "-19.61B"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom GDP YoY",
+      "impact": "low",
+      "actual": "2.1%",
+      "forecast": "1.9%",
+      "previous": "2.0%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Industrial Production YoY",
+      "impact": "low",
+      "actual": "3.1%",
+      "forecast": "2.9%",
+      "previous": "1.1%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Construction Output YoY",
+      "impact": "low",
+      "actual": "-1.5%",
+      "forecast": "-2.1%",
+      "previous": "-1.9%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Business Investment QoQ Prel",
+      "impact": "medium",
+      "actual": "0.4%",
+      "forecast": "-0.2%",
+      "previous": "1.8%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom GDP Growth Rate QoQ Prel",
+      "impact": "high",
+      "actual": "0.7%",
+      "forecast": "0.7%",
+      "previous": "0.5%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom GDP 3-Month Avg",
+      "impact": "medium",
+      "actual": "0.7%",
+      "forecast": "0.7%",
+      "previous": "0.6%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Goods Trade Balance Non-EU",
+      "impact": "medium",
+      "actual": "-8.99B",
+      "forecast": "-5.70B",
+      "previous": "-6.82B"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Manufacturing Production MoM",
+      "impact": "medium",
+      "actual": "0.7%",
+      "forecast": "-0.5%",
+      "previous": "0.7%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Industrial Production MoM",
+      "impact": "medium",
+      "actual": "0.3%",
+      "forecast": "-0.3%",
+      "previous": "0.7%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Business Investment YoY Prel",
+      "impact": "low",
+      "actual": "3%",
+      "forecast": "4.4%",
+      "previous": "5.2%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Construction Output MoM",
+      "impact": "low",
+      "actual": "0.8%",
+      "forecast": "-0.1%",
+      "previous": "-0.5%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Services Output MoM",
+      "impact": "low",
+      "actual": "0.9%",
+      "forecast": "0.9%",
+      "previous": "0.9%"
     },
     {
       "date": "12 Nov",
@@ -94999,6 +94773,19 @@
     {
       "date": "12 Nov",
       "dateISO": "2026-11-12",
+      "timeUTC": "10:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Treasury Gilt 2033 Auction",
+      "impact": "low",
+      "actual": "4.993%",
+      "forecast": null,
+      "previous": "4.761%"
+    },
+    {
+      "date": "12 Nov",
+      "dateISO": "2026-11-12",
       "timeUTC": "11:02",
       "country": "EUR",
       "currency": "EUR",
@@ -95025,26 +94812,13 @@
     {
       "date": "12 Nov",
       "dateISO": "2026-11-12",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "12 Nov",
-      "dateISO": "2026-11-12",
       "timeUTC": "12:00",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom NIESR GDP Estimate",
+      "event": "United Kingdom NIESR Monthly GDP Tracker",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.5%",
       "previous": "0.7%"
     },
@@ -95467,19 +95241,6 @@
     {
       "date": "13 Nov",
       "dateISO": "2026-11-13",
-      "timeUTC": "07:10",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Schnabel Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "13 Nov",
-      "dateISO": "2026-11-13",
       "timeUTC": "07:20",
       "country": "EUR",
       "currency": "EUR",
@@ -95853,19 +95614,6 @@
       "actual": "6.7%",
       "forecast": "6.9%",
       "previous": "7.0%"
-    },
-    {
-      "date": "13 Nov",
-      "dateISO": "2026-11-13",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "13 Nov",
@@ -96313,19 +96061,6 @@
     {
       "date": "16 Nov",
       "dateISO": "2026-11-16",
-      "timeUTC": "11:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain Consumer Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "16 Nov",
-      "dateISO": "2026-11-16",
       "timeUTC": "13:30",
       "country": "CAD",
       "currency": "CAD",
@@ -96587,19 +96322,6 @@
       "date": "16 Nov",
       "dateISO": "2026-11-16",
       "timeUTC": "20:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CFTC GBP Non-Commercial Net Positions",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": "-59.8K"
-    },
-    {
-      "date": "16 Nov",
-      "dateISO": "2026-11-16",
-      "timeUTC": "20:30",
       "country": "JPY",
       "currency": "JPY",
       "flag": "🇯🇵",
@@ -96850,37 +96572,37 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Average Weekly Earnings, Regular Pay y/y",
+      "event": "United Kingdom Average Earnings incl. Bonus (3Mo/Yr)",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.7%",
+      "previous": "3.7%"
+    },
+    {
+      "date": "17 Nov",
+      "dateISO": "2026-11-17",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Employment Change",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "25.0K",
+      "previous": "102.0K"
+    },
+    {
+      "date": "17 Nov",
+      "dateISO": "2026-11-17",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Average Earnings excl. Bonus (3Mo/Yr)",
       "impact": "low",
       "actual": null,
-      "forecast": "3.5%",
-      "previous": "3.4%"
-    },
-    {
-      "date": "17 Nov",
-      "dateISO": "2026-11-17",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Average Weekly Earnings, Total Pay y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "4.5%",
-      "previous": "4.3%"
-    },
-    {
-      "date": "17 Nov",
-      "dateISO": "2026-11-17",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Unemployment Rate",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "4.8%",
-      "previous": "4.9%"
+      "forecast": "3.6%",
+      "previous": "3.7%"
     },
     {
       "date": "17 Nov",
@@ -96890,10 +96612,10 @@
       "currency": "GBP",
       "flag": "🇬🇧",
       "event": "United Kingdom Claimant Count Change",
-      "impact": "medium",
+      "impact": "low",
       "actual": null,
-      "forecast": "15.8K",
-      "previous": "6.7K"
+      "forecast": "28.1K",
+      "previous": "30.3K"
     },
     {
       "date": "17 Nov",
@@ -96902,11 +96624,24 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Employment Change 3-months",
-      "impact": "medium",
+      "event": "United Kingdom HMRC Payrolls Change",
+      "impact": "low",
       "actual": null,
-      "forecast": "82K",
-      "previous": "147K"
+      "forecast": "15.0K",
+      "previous": "13.0K"
+    },
+    {
+      "date": "17 Nov",
+      "dateISO": "2026-11-17",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Unemployment Rate",
+      "impact": "high",
+      "actual": null,
+      "forecast": "4.7%",
+      "previous": "4.7%"
     },
     {
       "date": "17 Nov",
@@ -96993,24 +96728,24 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Labour Productivity q/q",
-      "impact": "medium",
+      "event": "United Kingdom Labour Productivity QoQ",
+      "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": "1.1%"
+      "forecast": "0.3%",
+      "previous": "-0.8%"
     },
     {
       "date": "17 Nov",
       "dateISO": "2026-11-17",
-      "timeUTC": "09:30",
+      "timeUTC": "10:00",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Labour Productivity y/y",
-      "impact": "medium",
+      "event": "United Kingdom Treasury Gilt 2041 Auction",
+      "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": "0.5%"
+      "previous": "5.640%"
     },
     {
       "date": "17 Nov",
@@ -97535,249 +97270,184 @@
     {
       "date": "18 Nov",
       "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
+      "timeUTC": "04:45",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom PPI Input m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "-0.8%",
-      "previous": "0.3%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom PPI Input y/y",
+      "event": "BoE Mills Speech",
       "impact": "low",
-      "actual": null,
-      "forecast": "2.6%",
-      "previous": "6.1%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom PPI Output m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "0.7%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom PPI Output y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "3.6%",
-      "previous": "3.7%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core PPI Output m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.1%",
-      "previous": "0.3%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core PPI Output y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "3.2%",
-      "previous": "2.7%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "0.1%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPI y/y",
-      "impact": "high",
-      "actual": null,
-      "forecast": "2.7%",
-      "previous": "3.1%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core CPI y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2.4%",
-      "previous": "2.6%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core RPI m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.0%",
-      "previous": "0.6%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core RPI y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2.8%",
-      "previous": "3.3%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom RPI m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.2%",
-      "previous": "0.6%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom RPI y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2.9%",
-      "previous": "3.4%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPIH y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "3.1%",
-      "previous": "3.3%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPIH m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "0.4%",
-      "previous": "0.5%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core CPI m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.2%",
-      "previous": "0.3%"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPI",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "143.6"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CPIH",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "143.4"
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "07:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Governor Bailey Speech",
-      "impact": "high",
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Output YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "5.1%",
+      "previous": "4.6%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core Inflation Rate YoY",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "2.8%",
+      "previous": "2.8%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Core Inflation Rate MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.3%",
+      "previous": "0.2%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Inflation Rate YoY",
+      "impact": "high",
+      "actual": null,
+      "forecast": "3.7%",
+      "previous": "3.5%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Retail Price Index MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.4%",
+      "previous": "0.1%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Inflation Rate MoM",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.5%",
+      "previous": "0.4%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Output MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.6%",
+      "previous": "0.8%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Core Output MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.2%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Core Output YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.0%",
+      "previous": "2.9%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Input MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.8%",
+      "previous": "1.5%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom PPI Input YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "9.1%",
+      "previous": "8.3%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Retail Price Index YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.1%",
+      "previous": "3.9%"
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Services Inflation YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.8%",
+      "previous": "3.7%"
     },
     {
       "date": "18 Nov",
@@ -97860,6 +97530,19 @@
     {
       "date": "18 Nov",
       "dateISO": "2026-11-18",
+      "timeUTC": "08:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Mutton Speech",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "18 Nov",
+      "dateISO": "2026-11-18",
       "timeUTC": "09:00",
       "country": "EUR",
       "currency": "EUR",
@@ -97869,19 +97552,6 @@
       "actual": null,
       "forecast": null,
       "previous": null
-    },
-    {
-      "date": "18 Nov",
-      "dateISO": "2026-11-18",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom HPI y/y",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2.2%",
-      "previous": "1.4%"
     },
     {
       "date": "18 Nov",
@@ -98159,12 +97829,12 @@
     {
       "date": "18 Nov",
       "dateISO": "2026-11-18",
-      "timeUTC": "14:25",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB President Lagarde Speech",
-      "impact": "high",
+      "timeUTC": "14:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Braddick Speech",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -98172,11 +97842,11 @@
     {
       "date": "18 Nov",
       "dateISO": "2026-11-18",
-      "timeUTC": "15:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Governor Bailey Speech",
+      "timeUTC": "14:25",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB President Lagarde Speech",
       "impact": "high",
       "actual": null,
       "forecast": null,
@@ -98709,50 +98379,11 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Spain 3-Year Bonos Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.313%"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "09:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Spain 5-Year Bonos Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": "3.482%"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "09:40",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Spain 10-Year Obligacion Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.802%"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "09:50",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "France 3-Year OAT Auction",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "3.590%"
     },
     {
       "date": "19 Nov",
@@ -98776,6 +98407,19 @@
       "flag": "🇪🇺",
       "event": "ECB Executive Board Member Elderson Speech",
       "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "19 Nov",
+      "dateISO": "2026-11-19",
+      "timeUTC": "10:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Conventional Gilt Tender",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -99178,10 +98822,10 @@
       "currency": "GBP",
       "flag": "🇬🇧",
       "event": "United Kingdom GfK Consumer Confidence",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
-      "forecast": "18",
-      "previous": "11"
+      "forecast": "-22",
+      "previous": "-24"
     },
     {
       "date": "20 Nov",
@@ -99268,11 +98912,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Retail Sales m/m",
+      "event": "United Kingdom Retail Sales YoY",
       "impact": "medium",
       "actual": null,
       "forecast": "0.9%",
-      "previous": "1.0%"
+      "previous": "0.8%"
     },
     {
       "date": "20 Nov",
@@ -99281,50 +98925,11 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Retail Sales y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "1.5%",
-      "previous": "4.2%"
-    },
-    {
-      "date": "20 Nov",
-      "dateISO": "2026-11-20",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core Retail Sales m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "1.1%",
-      "previous": "1.1%"
-    },
-    {
-      "date": "20 Nov",
-      "dateISO": "2026-11-20",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Core Retail Sales y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "2.2%",
-      "previous": "5.4%"
-    },
-    {
-      "date": "20 Nov",
-      "dateISO": "2026-11-20",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Public Sector Net Borrowing",
+      "event": "United Kingdom Retail Sales ex Fuel YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "24.701B",
-      "previous": "18.268B"
+      "forecast": "0.9%",
+      "previous": "0.8%"
     },
     {
       "date": "20 Nov",
@@ -99333,11 +98938,37 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom Public Sector Net Cash Requirement",
+      "event": "United Kingdom Retail Sales MoM",
+      "impact": "high",
+      "actual": null,
+      "forecast": "0%",
+      "previous": "-0.4%"
+    },
+    {
+      "date": "20 Nov",
+      "dateISO": "2026-11-20",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Public Sector Net Borrowing Ex Banks",
       "impact": "low",
       "actual": null,
-      "forecast": "0.725B",
-      "previous": "10.005B"
+      "forecast": "-18B",
+      "previous": "-24.5B"
+    },
+    {
+      "date": "20 Nov",
+      "dateISO": "2026-11-20",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Retail Sales ex Fuel MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.1%",
+      "previous": "-0.7%"
     },
     {
       "date": "20 Nov",
@@ -99455,6 +99086,19 @@
       "actual": null,
       "forecast": "5.2%",
       "previous": "5.2%"
+    },
+    {
+      "date": "20 Nov",
+      "dateISO": "2026-11-20",
+      "timeUTC": "11:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CBI Industrial Trends Orders",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-29",
+      "previous": "-32"
     },
     {
       "date": "20 Nov",
@@ -99659,19 +99303,6 @@
       "currency": "EUR",
       "flag": "🇪🇺",
       "event": "Euro Area CFTC EUR Non-Commercial Net Positions",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "20 Nov",
-      "dateISO": "2026-11-20",
-      "timeUTC": "20:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CFTC GBP Non-Commercial Net Positions",
       "impact": "medium",
       "actual": null,
       "forecast": null,
@@ -100009,37 +99640,37 @@
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
-      "event": "United Kingdom S&P Global/CIPS Manufacturing PMI",
-      "impact": "medium",
+      "event": "United Kingdom S&P Global Composite PMI Flash",
+      "impact": "low",
       "actual": null,
-      "forecast": "53.0",
-      "previous": "52.8"
-    },
-    {
-      "date": "23 Nov",
-      "dateISO": "2026-11-23",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom S&P Global/CIPS Services PMI",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "51.3",
-      "previous": "52.8"
-    },
-    {
-      "date": "23 Nov",
-      "dateISO": "2026-11-23",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom S&P Global/CIPS Composite PMI",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
+      "forecast": "52.7",
       "previous": "52.9"
+    },
+    {
+      "date": "23 Nov",
+      "dateISO": "2026-11-23",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Services PMI Flash",
+      "impact": "high",
+      "actual": null,
+      "forecast": "52.5",
+      "previous": "52.8"
+    },
+    {
+      "date": "23 Nov",
+      "dateISO": "2026-11-23",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Manufacturing PMI Flash",
+      "impact": "high",
+      "actual": null,
+      "forecast": "52.5",
+      "previous": "52.8"
     },
     {
       "date": "23 Nov",
@@ -100115,19 +99746,6 @@
       "flag": "🇪🇺",
       "event": "Belgium OLO Auction",
       "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "23 Nov",
-      "dateISO": "2026-11-23",
-      "timeUTC": "13:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE MPC Member Pill Speech",
-      "impact": "medium",
       "actual": null,
       "forecast": null,
       "previous": null
@@ -100235,6 +99853,45 @@
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Manufacturing PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": "53.5",
+      "previous": "53.3"
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "52.0",
+      "previous": "51.7"
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "52.1"
     },
     {
       "date": "24 Nov",
@@ -100623,8 +100280,8 @@
       "event": "Germany GDP q/q",
       "impact": "high",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.2%",
+      "previous": "0.2%"
     },
     {
       "date": "25 Nov",
@@ -100636,8 +100293,8 @@
       "event": "Germany GDP y/y",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "1.3%",
+      "previous": "1.3%"
     },
     {
       "date": "25 Nov",
@@ -100734,6 +100391,19 @@
     {
       "date": "25 Nov",
       "dateISO": "2026-11-25",
+      "timeUTC": "11:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CBI Distributive Trades",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-14",
+      "previous": "-10"
+    },
+    {
+      "date": "25 Nov",
+      "dateISO": "2026-11-25",
       "timeUTC": "13:30",
       "country": "USD",
       "currency": "USD",
@@ -100793,8 +100463,8 @@
       "event": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "1.4%",
+      "previous": "1.2%"
     },
     {
       "date": "25 Nov",
@@ -101345,6 +101015,19 @@
     {
       "date": "26 Nov",
       "dateISO": "2026-11-26",
+      "timeUTC": "01:00",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "BoJ Board Member Tamura Speech",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "26 Nov",
+      "dateISO": "2026-11-26",
       "timeUTC": "01:30",
       "country": "AUD",
       "currency": "AUD",
@@ -101365,8 +101048,8 @@
       "event": "Japan Coincident Index",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "119.5",
+      "previous": "119.5"
     },
     {
       "date": "26 Nov",
@@ -101378,8 +101061,8 @@
       "event": "Japan Leading Index",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "116.4",
+      "previous": "116.4"
     },
     {
       "date": "26 Nov",
@@ -101392,7 +101075,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.7%"
     },
     {
       "date": "26 Nov",
@@ -101405,7 +101088,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "-1.6%"
     },
     {
       "date": "26 Nov",
@@ -101569,32 +101252,6 @@
     {
       "date": "26 Nov",
       "dateISO": "2026-11-26",
-      "timeUTC": "10:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Financial Stability Report",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "26 Nov",
-      "dateISO": "2026-11-26",
-      "timeUTC": "10:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE FPC Meeting Minutes",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "26 Nov",
-      "dateISO": "2026-11-26",
       "timeUTC": "11:00",
       "country": "EUR",
       "currency": "EUR",
@@ -101604,6 +101261,19 @@
       "actual": null,
       "forecast": null,
       "previous": "2.4%"
+    },
+    {
+      "date": "26 Nov",
+      "dateISO": "2026-11-26",
+      "timeUTC": "12:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Monetary Policy Meeting Accounts",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "26 Nov",
@@ -101708,6 +101378,19 @@
       "actual": null,
       "forecast": null,
       "previous": "61.6"
+    },
+    {
+      "date": "27 Nov",
+      "dateISO": "2026-11-27",
+      "timeUTC": "00:01",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Car Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "8.4%",
+      "previous": "38.6%"
     },
     {
       "date": "27 Nov",
@@ -101877,8 +101560,8 @@
       "event": "France CPI m/m",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.4%",
+      "previous": "0.4%"
     },
     {
       "date": "27 Nov",
@@ -101890,8 +101573,8 @@
       "event": "France CPI y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "3.3%",
+      "previous": "3.4%"
     },
     {
       "date": "27 Nov",
@@ -101903,8 +101586,8 @@
       "event": "France HICP m/m",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.4%",
+      "previous": "0.4%"
     },
     {
       "date": "27 Nov",
@@ -101916,8 +101599,8 @@
       "event": "France HICP y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "3.7%",
+      "previous": "3.7%"
     },
     {
       "date": "27 Nov",
@@ -102007,8 +101690,8 @@
       "event": "Spain CPI m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.5%",
+      "previous": "0.6%"
     },
     {
       "date": "27 Nov",
@@ -102020,8 +101703,8 @@
       "event": "Spain CPI y/y",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.9%",
+      "previous": "4.9%"
     },
     {
       "date": "27 Nov",
@@ -102033,8 +101716,8 @@
       "event": "Spain HICP m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.2%",
+      "previous": "0.5%"
     },
     {
       "date": "27 Nov",
@@ -102046,8 +101729,8 @@
       "event": "Spain HICP y/y",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.9%",
+      "previous": "4.9%"
     },
     {
       "date": "27 Nov",
@@ -102581,8 +102264,8 @@
       "event": "United States Wholesale Inventories m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.6%",
+      "previous": "0.7%"
     },
     {
       "date": "27 Nov",
@@ -102633,8 +102316,8 @@
       "event": "Canada Budget Balance",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.791B",
+      "previous": "-0.223B"
     },
     {
       "date": "27 Nov",
@@ -102646,8 +102329,8 @@
       "event": "Canada Budget Balance, Fiscal Year",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.522B",
+      "previous": "-5.364B"
     },
     {
       "date": "29 Nov",
@@ -102698,8 +102381,8 @@
       "event": "Japan Industrial Production m/m",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.2%",
+      "previous": "2.0%"
     },
     {
       "date": "29 Nov",
@@ -102711,8 +102394,8 @@
       "event": "Japan Industrial Production y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "1.8%",
+      "previous": "1.7%"
     },
     {
       "date": "29 Nov",
@@ -102919,8 +102602,8 @@
       "event": "Germany Import Price Index m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "1.5%",
+      "previous": "2.1%"
     },
     {
       "date": "30 Nov",
@@ -102932,8 +102615,8 @@
       "event": "Germany Import Price Index y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "12.3%",
+      "previous": "10.4%"
     },
     {
       "date": "30 Nov",
@@ -102945,8 +102628,8 @@
       "event": "Germany Export Price Index m/m",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.2%",
+      "previous": "0.6%"
     },
     {
       "date": "30 Nov",
@@ -102958,8 +102641,8 @@
       "event": "Germany Export Price Index y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "5.7%",
+      "previous": "5.3%"
     },
     {
       "date": "30 Nov",
@@ -102971,8 +102654,8 @@
       "event": "Germany Retail Sales m/m",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.1%",
+      "previous": "-2.0%"
     },
     {
       "date": "30 Nov",
@@ -102984,34 +102667,8 @@
       "event": "Germany Retail Sales y/y",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI m/m",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "07:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Nationwide HPI y/y",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.9%",
+      "previous": "-2.3%"
     },
     {
       "date": "30 Nov",
@@ -103121,13 +102778,26 @@
       "date": "30 Nov",
       "dateISO": "2026-11-30",
       "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.431B",
+      "previous": "5.050B"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "09:00",
       "country": "NOK",
       "currency": "NOK",
       "flag": "🇳🇴",
       "event": "Norges Bank Foreign Exchange Daily Purchase",
       "impact": "low",
       "actual": null,
-      "forecast": "0.818B",
+      "forecast": "0.290B",
       "previous": "0.300B"
     },
     {
@@ -103168,71 +102838,6 @@
       "actual": null,
       "forecast": null,
       "previous": "0%"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Consumer Credit m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "2.030B",
-      "previous": "1.914B"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE M4 Money Supply m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.4%",
-      "previous": "0.1%"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Mortgage Approvals",
-      "impact": "low",
-      "actual": null,
-      "forecast": "52.487K",
-      "previous": "53.443K"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Mortgage Lending m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.807B",
-      "previous": "3.866B"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "09:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Net Lending to Individuals m/m",
-      "impact": "low",
-      "actual": null,
-      "forecast": "6.883B",
-      "previous": "5.780B"
     },
     {
       "date": "30 Nov",
@@ -103686,8 +103291,8 @@
       "event": "United States MNI Chicago Business Barometer",
       "impact": "high",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "60.9",
+      "previous": "55.3"
     },
     {
       "date": "30 Nov",
@@ -103775,19 +103380,6 @@
       "currency": "EUR",
       "flag": "🇪🇺",
       "event": "Euro Area CFTC EUR Non-Commercial Net Positions",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "20:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CFTC GBP Non-Commercial Net Positions",
       "impact": "medium",
       "actual": null,
       "forecast": null,
@@ -103961,6 +103553,19 @@
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "22:00",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia S&P Global Manufacturing PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": "50.9",
+      "previous": "49.6"
     },
     {
       "date": "30 Nov",
