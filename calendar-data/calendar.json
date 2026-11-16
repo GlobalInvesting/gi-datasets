@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-16T13:31:35Z",
-  "generatedAt": "2026-11-16T13:31:35Z",
+  "lastUpdate": "2026-11-16T13:32:46Z",
+  "generatedAt": "2026-11-16T13:32:46Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2809,14 +2809,14 @@
       "std": 0.264575
     },
     "CAD/core cpi mom": {
-      "n": 2,
-      "mean": -0.15,
-      "std": 0.212132
+      "n": 3,
+      "mean": -0.066667,
+      "std": 0.208167
     },
     "CAD/core cpi yoy": {
-      "n": 2,
-      "mean": 0.0,
-      "std": 0.141421
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.11547
     },
     "CAD/common cpi yoy": {
       "n": 3,
@@ -2829,9 +2829,9 @@
       "std": 0.11547
     },
     "CAD/trimmed cpi yoy": {
-      "n": 2,
+      "n": 3,
       "mean": 0.0,
-      "std": 0.141421
+      "std": 0.1
     },
     "JPY/tertiary industry index mom": {
       "n": 2,
@@ -96358,7 +96358,7 @@
       "flag": "🇨🇦",
       "event": "Canada Core CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "0.3%",
       "previous": "0.0%"
     },
@@ -96371,7 +96371,7 @@
       "flag": "🇨🇦",
       "event": "Canada Core CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.0%",
       "forecast": "2.1%",
       "previous": "2.2%"
     },
@@ -96410,7 +96410,7 @@
       "flag": "🇨🇦",
       "event": "Canada Trimmed CPI y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "1.8%",
       "forecast": "1.8%",
       "previous": "1.8%"
     },
