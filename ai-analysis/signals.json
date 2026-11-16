@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-15T22:01:57Z",
+  "generated_at": "2026-11-16T00:02:09Z",
   "signals": [
     {
-      "time": "22:00",
+      "time": "23:58",
       "priority": "critical",
-      "title": "USD/NOK — G10 Bilateral Theme + Geopolitical Shock",
-      "text": "The G10 scorecard reveals an acute divergence with USD up +2.017% across 9 pairs while NOK averages -2.038% across 2 pairs, generating a 4.055% leader-to-laggard spread. Strait of Hormuz naval mine detonations and tanker fires elevate geopolitical supply risks, yet broad dollar demand decisively outweighs crude resilience. On a policy level, Fed policy rate at 4.00% vs Norges Bank 4.5% yields a -50bp nominal carry deficit for the dollar, but US 5Y yields rose +26bp over 5D (FRED, as of Nov 12) split into real +25bp and breakeven +1bp, demonstrating strong real-yield-led momentum. USD/NOK trades at 9.565, closing above its SMA20 (9.368), SMA50 (9.422), and SMA200 (9.486) in an extended technical posture. Retail sentiment shows an extreme 91% long bias on USD/NOK, highlighting late-stage chasing conditions. Trade bias: Bullish USD/NOK; broad USD strength and real-rate momentum dominate despite extended technicals. Catalyst: US Retail Sales release tomorrow. Risk: Rapid de-escalation in Middle East shipping corridors alongside a sharp rebound in European risk assets compresses the 4.055% G10 spread.",
+      "title": "USD/NOK — G10 Bilateral Theme + Carry",
+      "text": "The G10 scorecard flags USD as the weekly leader with an average gain of +2.066% across 9 pairs against NOK as the trailing currency at -1.937% across 2 pairs, establishing a 4.003% spread. Spot trades at 9.565, holding above its SMA20 at 9.368, SMA50 at 9.422, and SMA200 at 9.486. The bilateral divergence is reinforced by short-dated yield momentum, where the Norway 2Y spread versus the US has narrowed by 16bp over 5 sessions to -17bp. Retail sentiment sits at 91% long, exhibiting extreme long positioning against an advancing pair. US 5Y yield decomposition shows a 5-day nominal move of +26bp consisting of real yields rising +25bp and breakevens at +1bp (FRED, as of Nov 12), pointing to a real-yield-led rate advance that sustains broad dollar demand. Trade bias: Bullish USD/NOK, supported by dominant G10 outperformance and widening real-rate drivers. Catalyst: US Retail Sales on 16 Nov — 0.3% m/m expected. Risk: A drop below the SMA200 at 9.486 invalidates the upside momentum.",
       "evidence": [
-        "USD 1W avg: +2.017% (n=9)",
-        "NOK 1W avg: -2.038% (n=2)",
-        "G10 spread: 4.055%"
+        "USD 1W avg: +2.066% (n=9)",
+        "NOK 1W avg: -1.937% (n=2)",
+        "G10 spread: 4.003%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -19,14 +19,14 @@
       }
     },
     {
-      "time": "21:56",
+      "time": "23:55",
       "priority": "warning",
-      "title": "USD/JPY — Carry Premium + Options Skew",
-      "text": "USD/JPY trades at 159.62, holding above its SMA20 (158.22), SMA50 (157.42), and SMA200 (158.72) moving average cluster. SOFR at 3.90% vs TONA at 1.23% delivers a +267bp carry advantage that firmly favors the USD, keeping the underlying trend supported while VIX remains contained at 19.3 (normal volatility). Saxo 25d risk reversals show a pronounced -1.79 put skew, signaling heavy institutional demand for downside protection even as spot tests intervention-sensitive territory. Speculative positioning via CFTC shows JPY Leveraged Funds net short -21,213 contracts at the 92nd percentile (z +1.46) of its 52-week range, reflecting crowded short exposure. Watch 160.00 as the critical barrier that previously triggered verbal intervention warnings from Japanese authorities. Trade bias: Long USD/JPY; wide OIS carry premium sustains the upward grind while VIX holds below 25. Catalyst: Japan Q3 GDP release at 23:50 UTC. Risk: Spot closes above 160.00 and sparks direct Ministry of Finance currency intervention.",
+      "title": "USD/JPY — Carry vs Options Skew",
+      "text": "USD/JPY prints at 159.78, holding above its SMA20/50/200 cluster at 158.22, 157.42, and 158.72, while 160.00 remains the key psychological barrier that has historically prompted official rhetoric. The fundamental backdrop is supported by a Fed 4.00% vs BoJ 1.25% policy stance yielding a +267bp SOFR vs TONA carry advantage for USD. However, 1M 25d risk reversals stand at -1.79 (Saxo Bank, indicative mid), showing elevated demand for JPY call protection. Concurrently, USD/JPY ATM implied volatility of 7.3% sits 2.0 percentage points above HV30 at 5.3%, demonstrating a notable vol risk premium. While the carry differential favors USD upside, the persistent options put skew signals active institutional hedging against an abrupt topside rejection near 160.00. Trade bias: Long USD/JPY, carry-supported while spot holds above 158.72. Catalyst: Japan preliminary Q3 GDP release. Risk: A break above 160.00 prompting official yen-buying operations.",
       "evidence": [
-        "SOFR 3.90% vs TONA 1.23% — +267bp",
-        "USDJPY 25d RR: -1.79",
-        "JPY COT LF net: -21,213 (pctl 92)"
+        "Fed 4.00% vs BoJ 1.25% — +267bp OIS spread",
+        "USD/JPY 25d RR: -1.79 (put skew)",
+        "USD/JPY IV: 7.3% vs HV30: 5.3% (VRP +2.0%)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -47,23 +47,39 @@
       }
     },
     {
-      "time": "21:52",
+      "time": "23:51",
       "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Retail Divergence",
-      "text": "EUR/USD trades at 1.1031, positioned entirely below its SMA20 (1.1174), SMA50 (1.1297), and SMA200 (1.1527) in a clear technical downtrend. CFTC Leveraged Funds hold net short -104,030 contracts (week ending Nov 03), standing at the 2nd percentile of its 52-week range (z -1.80) after a 4W reduction of -19,255 contracts, confirming an extremely crowded institutional short. In stark contrast, retail positioning sits at an extreme 87% long, setting up an acute institutional versus retail positioning divergence. Fed at 4.00% vs ECB at 2.65% maintains a +135bp nominal carry spread in favor of the dollar (SOFR vs €STR spread at +146bp), structurally limiting upside momentum. Options pricing reflects moderate hedging demand with 1M ATM implied volatility at 6.2% against 30-day realized volatility of 5.3%, generating a +0.9% vol risk premium. Trade bias: Bearish EUR/USD; persistent carry headwind and institutional short trend outweigh contrarian retail positioning. Catalyst: Euro Area Industrial Production and ZEW Economic Sentiment releases tomorrow. Risk: A close back above the 20-day SMA at 1.1174 triggers an aggressive short-covering squeeze among leveraged funds.",
+      "title": "EUR/USD — Positioning Exhaustion + Retail Divergence",
+      "text": "EUR/USD trades at 1.1029, tracking below its SMA20 at 1.1174, SMA50 at 1.1297, and SMA200 at 1.1527. CFTC data shows institutional Leveraged Funds net short -104,030 contracts, falling into the 2nd percentile of the 52-week distribution with a z-score of -1.80, indicating a crowded institutional short. In sharp contrast, retail positioning is 87% long, setting up an extreme institutional-versus-retail divergence. The rate backdrop maintains a structural USD carry advantage, with Fed at 4.00% vs ECB at 2.65% delivering a +146bp SOFR vs ESTR premium. While Bundesbank President Nagel stated that an ECB hike remains probable, the crowded speculative short profile leaves EUR/USD susceptible to a short squeeze if hawkish rhetoric gains traction across the Governing Council. Trade bias: Neutral EUR/USD, constrained between institutional short saturation and retail dip-buying. Catalyst: Germany ZEW Economic Sentiment Indicator on 16 Nov. Risk: A daily close below 1.1000 extending institutional trend momentum.",
       "evidence": [
-        "EUR COT LF net: -104,030 (pctl 2, z -1.80)",
-        "Retail: 87% long / 13% short",
-        "SOFR 3.90% vs ESTR 2.44% — +146bp"
+        "EUR LF net: -104,030 (pctl 2, z -1.80)",
+        "EUR/USD retail: 87% long",
+        "Fed 4.00% vs ECB 2.65% — +146bp OIS spread"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
+      }
+    },
+    {
+      "time": "23:46",
+      "priority": "warning",
+      "title": "USD/CAD — Extreme Retail Sentiment vs Carry Trend",
+      "text": "USD/CAD prints at 1.4269, maintaining an uptrend above its SMA20 at 1.4070, SMA50 at 1.4081, and SMA200 at 1.3910. The macro yield environment reinforces the pair, with Fed at 4.00% vs BoC at 2.50% providing a +137bp SOFR vs CORRA carry advantage in favor of USD. Leveraged funds are net short CAD at -85,289 contracts (25th percentile, z -0.97), whereas retail positioning reflects an extreme 92% short stance, betting heavily on a mean reversion lower. Furthermore, Canadian economic data displays signs of softening, illustrated by an unemployment rate print of 6.7% versus 6.3% expected, registering a +3.00σ shock on the labor surprise index. The confluence of policy divergence, soft domestic indicators, and aggressive retail fading suggests upside trend continuation toward 1.4350. Trade bias: Bullish USD/CAD, aligned with carry advantage and contrarian retail skew. Catalyst: Canada CPI release on 16 Nov — 0.0% m/m expected. Risk: A daily close below the SMA20 at 1.4070 invalidating the immediate trend.",
+      "evidence": [
+        "Fed 4.00% vs BoC 2.50% — +137bp OIS spread",
+        "USD/CAD retail: 92% short",
+        "CAD unemployment rate shock: z=+3.00σ"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
+        "pair": "USD/CAD",
+        "direction": 1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.0 ATR with it over five sessions"
+          "price moved 2.1 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
@@ -72,22 +88,6 @@
           "technical_alignment": "technical_neutral",
           "asof": "2026-11-13"
         }
-      }
-    },
-    {
-      "time": "21:47",
-      "priority": "warning",
-      "title": "GBP/USD — BoE Hawk Repricing + Technical Breakdown",
-      "text": "GBP/USD trades at 1.3223, breaking below its key moving average cluster of SMA20 (1.3361), SMA50 (1.3341), and SMA200 (1.3413) to confirm an established technical downtrend. Bank of England Chief Economist Pill stated the BoE should have raised borrowing costs earlier, reinforcing hawkish policy expectations with BoE at 4.00% (HIKING) vs Fed at 4.00% (ON HOLD). Front-end rates mirror this shift, with the UK-US 2Y yield spread widening +12bp over the last 5 sessions to +25bp. CFTC Leveraged Funds remain net long +32,686 contracts (week ending Nov 03), having added +12,670 contracts WoW, creating an unwinding hazard as price continues to slide. Options show a mild put skew with 25d risk reversals at -0.55, reflecting institutional caution against sterling spot weakness. Trade bias: Neutral/bearish GBP/USD; technical breakdown below the 200-day SMA counters hawkish BoE rhetoric. Catalyst: UK Labour Market Report (Average Weekly Earnings and Unemployment) at 07:00 UTC. Risk: Strong wage growth data accelerates BoE hike pricing and lifts spot back above 1.3340.",
-      "evidence": [
-        "BoE 4.00% vs Fed 4.00% — 0bp",
-        "UK-US 2Y spread: +25bp (5D Δ +12bp)",
-        "GBP COT LF net: +32,686 (WoW +12,670)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "GBP/USD"
       }
     }
   ]
