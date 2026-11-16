@@ -1,21 +1,21 @@
 {
-  "netPosition": 34444,
-  "longPositions": 58475,
-  "shortPositions": 24031,
+  "netPosition": 34502,
+  "longPositions": 57212,
+  "shortPositions": 22710,
   "positionCategory": "Managed Money (speculative)",
   "secondaryCategory": "Swap Dealers",
   "tertiaryCategory": "Producer/Merchant/Processor/User (commercial hedgers)",
   "assetClass": "commodity",
   "displayName": "Copper",
-  "openInterestTotal": 343854,
+  "openInterestTotal": 333297,
   "contractMultiplier": 25000,
   "contractUnit": "POUNDS",
-  "assetManagerNet": 13519,
-  "assetManagerLong": 53478,
-  "assetManagerShort": 39959,
-  "dealerNet": -55666,
-  "dealerLong": 63972,
-  "dealerShort": 119638,
+  "assetManagerNet": 15122,
+  "assetManagerLong": 53119,
+  "assetManagerShort": 37997,
+  "dealerNet": -48839,
+  "dealerLong": 67727,
+  "dealerShort": 116566,
   "history": [
     {
       "weekEnding": "2022-02-08",
@@ -2000,12 +2000,20 @@
       "levShort": 24031,
       "assetManagerNet": 13519,
       "dealerNet": -55666
+    },
+    {
+      "weekEnding": "2026-11-10",
+      "levNet": 34502,
+      "levLong": 57212,
+      "levShort": 22710,
+      "assetManagerNet": 15122,
+      "dealerNet": -48839
     }
   ],
   "sourceType": "options_futures_combined",
   "source": "CFTC Official",
   "sourceUrl": "https://www.cftc.gov/dea/options/other_lof.htm",
-  "reportDate": "2026-11-14",
-  "lastUpdate": "2026-11-14",
-  "weekEnding": "2026-11-03"
+  "reportDate": "2026-11-16",
+  "lastUpdate": "2026-11-16",
+  "weekEnding": "2026-11-10"
 }
