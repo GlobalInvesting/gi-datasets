@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T01:19:12Z",
+  "generatedAt": "2026-11-16T16:15:31Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 161,
+  "aliasCount": 162,
   "aliases": [
     {
       "currency": "JPY",
@@ -917,8 +917,21 @@
           "actual_secondary_raw": "2.2%",
           "forecast_secondary_raw": "1.1%",
           "previous_secondary_raw": "-2.4%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": null,
+          "previous_yahoo": 2.2,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.2"
         }
-      }
+      },
+      "yahoo_title": "Industrial O/P Rev MM SA *"
     },
     {
       "currency": "JPY",
@@ -2707,44 +2720,6 @@
       }
     },
     {
-      "currency": "CHF",
-      "primary_title": "Switzerland Unemployment Rate",
-      "yahoo_title": "Unemployment Rate Adj*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-05",
-          "forecast_primary": 3.1,
-          "forecast_yahoo": null,
-          "actual_primary": 3.1,
-          "actual_yahoo": 3.1,
-          "previous_primary": 3.1,
-          "previous_yahoo": 3.1,
-          "actual_yahoo_raw": "3.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.1"
-        }
-      }
-    },
-    {
-      "currency": "CHF",
-      "primary_title": "Switzerland Unemployment Rate n.s.a.",
-      "yahoo_title": "Unemployment Rate Unadj*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-05",
-          "forecast_primary": 3.0,
-          "forecast_yahoo": null,
-          "actual_primary": 3.0,
-          "actual_yahoo": 3.0,
-          "previous_primary": 3.0,
-          "previous_yahoo": 3.0,
-          "actual_yahoo_raw": "3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3"
-        }
-      }
-    },
-    {
       "currency": "NOK",
       "primary_title": "Norges Bank Interest Rate Decision",
       "yahoo_title": "Key Policy Rate",
@@ -2760,82 +2735,6 @@
           "actual_yahoo_raw": "4.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "4.5"
-        }
-      }
-    },
-    {
-      "currency": "NOK",
-      "primary_title": "Norway Manufacturing Production m/m",
-      "yahoo_title": "Manufacturing Output MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-06",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": -0.4,
-          "previous_yahoo": -0.4,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.4"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Coincident Index m/m",
-      "yahoo_title": "Coincident Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": -1.8,
-          "previous_yahoo": -1.9,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-1.9"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Leading Index m/m",
-      "yahoo_title": "Leading Indicator*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -1.6,
-          "actual_yahoo": -1.6,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "-1.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States CB Employment Trends Index",
-      "yahoo_title": "Employment Trends*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 107.42,
-          "forecast_yahoo": null,
-          "actual_primary": 108.36,
-          "actual_yahoo": 108.36,
-          "previous_primary": 107.56,
-          "previous_yahoo": 107.56,
-          "actual_yahoo_raw": "108.36",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "107.56"
         }
       }
     },
@@ -3349,6 +3248,139 @@
           "actual_yahoo_raw": "-0.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.5"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Capacity Utilization Rate",
+      "yahoo_title": "Capacity Utilization MM SA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 1.6,
+          "actual_yahoo": 1.6,
+          "previous_primary": null,
+          "previous_yahoo": -4.2,
+          "actual_yahoo_raw": "1.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-4.2"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada CPI m/m",
+      "yahoo_title": "CPI Inflation MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 0.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.2,
+          "actual_yahoo": 0.2,
+          "previous_primary": 0.1,
+          "previous_yahoo": 0.1,
+          "actual_yahoo_raw": "0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.1"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada CPI y/y",
+      "yahoo_title": "CPI Inflation YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 3.1,
+          "forecast_yahoo": null,
+          "actual_primary": 3.1,
+          "actual_yahoo": 3.1,
+          "previous_primary": 3.1,
+          "previous_yahoo": 3.1,
+          "actual_yahoo_raw": "3.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.1"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Core CPI m/m",
+      "yahoo_title": "CPI BoC Core MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 0.3,
+          "forecast_yahoo": null,
+          "actual_primary": 0.4,
+          "actual_yahoo": 0.4,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Core CPI y/y",
+      "yahoo_title": "CPI BoC Core YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 2.2,
+          "previous_yahoo": 2.2,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.2"
+        }
+      }
+    },
+    {
+      "currency": "CAD",
+      "primary_title": "Canada Median CPI y/y",
+      "yahoo_title": "CPI BoC Core YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": 1.9,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 1.9,
+          "previous_yahoo": 2.2,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "NY Fed Empire State Manufacturing Index",
+      "yahoo_title": "NY Fed Manufacturing*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 7.8,
+          "actual_yahoo": 7.8,
+          "previous_primary": null,
+          "previous_yahoo": 25.5,
+          "actual_yahoo_raw": "7.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "25.5"
         }
       }
     },
