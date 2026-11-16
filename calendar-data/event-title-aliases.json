@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T20:37:37Z",
+  "generatedAt": "2026-11-16T23:26:55Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 162,
+  "aliasCount": 163,
   "aliases": [
     {
       "currency": "JPY",
@@ -3394,6 +3394,25 @@
           "actual_yahoo_raw": "7.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "25.5"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Food Price Index m/m",
+      "yahoo_title": "Food Price Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": -0.2,
+          "forecast_yahoo": null,
+          "actual_primary": -0.4,
+          "actual_yahoo": -0.4,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "-0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
         }
       }
     },
