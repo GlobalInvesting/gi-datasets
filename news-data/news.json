@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-11-16T14:21:03.019428+00:00",
-  "updated_label": "14:21 UTC",
-  "total": 42,
+  "updated_utc": "2026-11-16T14:31:28.871376+00:00",
+  "updated_label": "14:31 UTC",
+  "total": 41,
   "total_high": 34,
   "total_med": 3,
   "sources_active": [
@@ -10,14 +10,30 @@
     "Barchart",
     "FinancialJuice",
     "ForexLive",
-    "InvestMacro",
-    "MyFXBook"
+    "MyFXBook",
+    "RTT News"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 42
+    "en": 41
   },
   "articles": [
+    {
+      "id": "71e94ed8b7d4",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Markets Worry About Tech Sector, Fed Hikes",
+      "expand": "Renewed Fed rate hike expectations as well as the outlook on the technology sector dominated global market sentiment.",
+      "source": "RTT News",
+      "link": "https://www.rttnews.com/story.aspx?Id=3715095",
+      "time": "14:27",
+      "ts": 1794839276000,
+      "featured": true,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T14:27:56+00:00",
+      "recent": true
+    },
     {
       "id": "c03ac3726c34",
       "cur": "AUD",
@@ -288,22 +304,6 @@
       "lang": "en",
       "date": "16 Nov",
       "datetime": "2026-11-16T07:15:49+00:00",
-      "recent": true
-    },
-    {
-      "id": "8842f6fb0f8d",
-      "cur": "USD",
-      "impact": "high",
-      "title": "Iran's army: oil tanker ignites after striking naval mine in eastern Strait of Hormuz - state media",
-      "expand": "",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9853365/Irans-army-oil-tanker-ignites-after-striking-naval-mine-in-eastern-Strait-of-Hormuz---state-media.aspx?xy=rss",
-      "time": "06:35",
-      "ts": 1794810954000,
-      "featured": false,
-      "lang": "en",
-      "date": "16 Nov",
-      "datetime": "2026-11-16T06:35:54+00:00",
       "recent": true
     },
     {
@@ -672,22 +672,6 @@
       "lang": "en",
       "date": "12 Nov",
       "datetime": "2026-11-12T15:39:39+00:00",
-      "recent": false
-    },
-    {
-      "id": "28d6f3d3e68d",
-      "cur": "JPY",
-      "impact": "low",
-      "title": "USD/JPY at 160.00: What the Yen Can Expect",
-      "expand": "By Analytical Department RoboForex USD/JPY remains near 160.00 on Thursday, having tested early September highs yesterday and today. Despite the yen’s attempts to recoup some losses, USD/JPY remains relatively stable above 159.50, so it is too early to speak of a sustained reversal lower. The yen is being supported by expectations of a Bank of [&#8230;]",
-      "source": "InvestMacro",
-      "link": "https://investmacro.com/2026/11/usd-jpy-at-160-00-what-the-yen-can-expect/",
-      "time": "14:23",
-      "ts": 1794493384000,
-      "featured": false,
-      "lang": "en",
-      "date": "12 Nov",
-      "datetime": "2026-11-12T14:23:04+00:00",
       "recent": false
     }
   ]
