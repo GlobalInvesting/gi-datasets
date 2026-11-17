@@ -1,15 +1,85 @@
 {
-  "updated_utc": "2026-11-17T04:20:50.895259+00:00",
-  "updated_label": "04:20 UTC",
+  "updated_utc": "2026-11-17T08:20:48.893798+00:00",
+  "updated_label": "08:20 UTC",
   "total": 39,
   "sources": [
     "BIS",
     "CME",
+    "Danske",
     "ING",
-    "Saxo",
-    "TD"
+    "Saxo"
   ],
   "items": [
+    {
+      "id": "bd8b587da2f3",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Rates Spark: Can AI confidence bring rates back up?",
+      "excerpt": "Nvidia will announce its quarterly earnings today, followed a day later by Anthropic's IPO, two major AI events. Macro has become closely intertwined with AI sentiment and therefore positive and negative surprises should not be ignored by the bond market. Having said that, we think fading spillovers to euro rates will often make…",
+      "author": "",
+      "url": "https://think.ing.com/articles/rates-spark-ai-earnings-and-new-highs-for-rates/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794903000000,
+      "published": "2026-11-17T08:10:00+00:00"
+    },
+    {
+      "id": "3c143b320c01",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Dollar showing resilience to tech stock instability",
+      "excerpt": "A poor start to the week for tech stocks has caused some dovish repricing in the USD curve, but the dollar has retained its good momentum. We still feel the AI story has the best potential to hit the dollar at this stage. Nvidia’s earnings will drive market sentiment today. EUR/USD may hold up around 1.100 despite a brief dip lower…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-dollar-showing-resilience-to-tech-stock-instability/",
+      "currencies": [
+        "USD",
+        "EUR"
+      ],
+      "pairs": [
+        "EUR/USD"
+      ],
+      "category": "macro",
+      "ts": 1794902100000,
+      "published": "2026-11-17T07:55:00+00:00"
+    },
+    {
+      "id": "5b14f304345d",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "ZEW and UK Labour Market Take Centre Stage",
+      "excerpt": "In focus this week In Germany, the ZEW index for November is released. The assessment of the current situation has been on a sharp upward trend as the German economy is experiencing a solid rebound while expectations for future growth have stabilized again. In the UK, the labour market report is due, including unemployment rate [&#8230;] The post ZEW and UK Labour Market Take Centre Stage appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/661127-zew-and-uk-labour-market-take-centre-stage/",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794899642000,
+      "published": "2026-11-17T07:14:02+00:00"
+    },
+    {
+      "id": "a72096ea7e73",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "COT: Dollar longs trimmed despite strength as commodity liquidation accelerates",
+      "excerpt": "Our weekly Commitment of Traders update returns highlighting future positions and changes made by hedge funds and other speculators across commodities and forex during the week to last Tuesday, 10 Novemer 2026 Key points: The Commitment of Traders update highlights futures positions and changes made by hedge funds and other speculators across commodities and forex during the week to last Tuesday, 10 November 2026. Forex dollar longs cut despite USD strength : Speculators reduced their aggregate dollar net long by 18% to USD 29.6 billion, while AUD shorts surged to a record 152k contracts. Commodity liquidation accelerates : The combined net long across 25 major futures contracts plunged 35% to 507k lots, marking a dramatic 77% collapse in just two months. Energy and agriculture lead the…",
+      "author": "Ole Hansen",
+      "url": "https://www.home.saxo/content/articles/commodities/cot-on-forex-and-commodities---week-to-10-november-2026-17112026",
+      "currencies": [
+        "USD",
+        "AUD"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1794898800000,
+      "published": "2026-11-17T07:00:00+00:00"
+    },
     {
       "id": "5c169115600f",
       "bank": "CME",
@@ -47,21 +117,6 @@
       "category": "macro",
       "ts": 1794847625000,
       "published": "2026-11-16T16:47:05+00:00"
-    },
-    {
-      "id": "2d4c8bc00a7f",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "Surprise! Canadian Inflation Steady as She Goes in October",
-      "excerpt": "Headline CPI inflation was 3.1% year-on-year (y/y) in October unchanged from 3.1% in September, and one tenth below market expectations. Gasoline prices remained a key source of inflationary pressure in October, up 30.9% y/y from 27.8% in September. Grocery inflation heated up in October. Prices for food purchased from stores rose 2.0% y/y up from [&#8230;] The post Surprise! Canadian Inflation Steady as She Goes in October appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/661072-surprise-canadian-inflation-steady-as-she-goes-in-october/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794838012000,
-      "published": "2026-11-16T14:06:52+00:00"
     },
     {
       "id": "c608928f2ce2",
@@ -239,38 +294,6 @@
       "published": "2026-11-13T15:30:00+00:00"
     },
     {
-      "id": "cadab9826352",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "CNB Minutes: Neither hikes nor cuts in the pipeline",
-      "excerpt": "CZECH REPUBLIC: The Bank Board increased interest rates to 4% in a close call, and we see valid arguments for both positions. Second-round effects will push inflation above the upper bound of the target corridor for some time, while dwindling economic activity warrants lots of caution. We see neither hikes nor cuts as the most likely outcome for quite some…",
-      "author": "",
-      "url": "https://think.ing.com/articles/cnb-minutes-neither-hikes-not-cuts-in-the-pipeline/",
-      "currencies": [],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1794576180000,
-      "published": "2026-11-13T13:23:00+00:00"
-    },
-    {
-      "id": "9ad45ce500e6",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "CEE & CCA week ahead: A rate decision in Hungary and regional price data",
-      "excerpt": "CENTRAL AND EASTERN EUROPE: Hungary will announce its latest interest rate decision and release September wage data next week. Meanwhile, October's core inflation data is due from Poland, alongside producer price figures from the Czech…",
-      "author": "",
-      "url": "https://think.ing.com/articles/cee-cca-week-ahead-13112026/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794571080000,
-      "published": "2026-11-13T11:58:00+00:00"
-    },
-    {
       "id": "b35d4219728f",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -381,6 +404,74 @@
       "published": "2026-11-12T09:30:00+00:00"
     },
     {
+      "id": "23b842c0a7da",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The science and practice of monetary policy communication - the European Central Bank experience",
+      "excerpt": "Keynote speech by Philip R Lane, Member of the Executive Board of the European Central Bank, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
+      "author": "Philip R Lane",
+      "url": "https://www.bis.org/speeches/20261112-science-and-practice-monetary-policy-communication-european-central-bank-experience",
+      "currencies": [
+        "EUR",
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "dd679bc18fbb",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "One policy, many realities - why differences matter for monetary policy",
+      "excerpt": "Speech by Mr Olaf Sleijpen, President of De Nederlandsche Bank, at the opening of the 29th Annual Research Conference of De Nederlandsche Bank, Amsterdam, 10 November 2026.",
+      "author": "Olaf Sleijpen",
+      "url": "https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",
+      "currencies": [],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "fc2630560b8e",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The economic outlook and some thoughts on labor market dynamism",
+      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
+      "author": "Christopher J Waller",
+      "url": "https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",
+      "currencies": [
+        "USD",
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "id": "04b739c9fa4a",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The low-gear labour market",
+      "excerpt": "Speech by Ms Clare Lombardelli, Deputy Governor for Monetary Policy of the Bank of England, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
+      "author": "Clare Lombardelli",
+      "url": "https://www.bis.org/speeches/20261112-low-gear-labour-market",
+      "currencies": [
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1794441600000,
+      "published": "2026-11-12T00:00:00+00:00"
+    },
+    {
       "id": "1ac2f3129c28",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -474,74 +565,6 @@
       "url": "https://www.bis.org/speeches/20261112-us-economy-and-considerations-monetary-policy",
       "currencies": [
         "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "d4557a8f2277",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Japan's current account surplus and corporate adjustment",
-      "excerpt": "Speech by Mr Kazuo Ueda, Governor of the Bank of Japan, at the 2026 Michel Camdessus Central Banking Lecture, International Monetary Fund, Washington DC, 6 November 2026.",
-      "author": "Kazuo Ueda",
-      "url": "https://www.bis.org/speeches/20261112-japans-current-account-surplus-and-corporate-adjustment",
-      "currencies": [
-        "JPY"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "23b842c0a7da",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The science and practice of monetary policy communication - the European Central Bank experience",
-      "excerpt": "Keynote speech by Philip R Lane, Member of the Executive Board of the European Central Bank, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
-      "author": "Philip R Lane",
-      "url": "https://www.bis.org/speeches/20261112-science-and-practice-monetary-policy-communication-european-central-bank-experience",
-      "currencies": [
-        "EUR",
-        "GBP"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "dd679bc18fbb",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "One policy, many realities - why differences matter for monetary policy",
-      "excerpt": "Speech by Mr Olaf Sleijpen, President of De Nederlandsche Bank, at the opening of the 29th Annual Research Conference of De Nederlandsche Bank, Amsterdam, 10 November 2026.",
-      "author": "Olaf Sleijpen",
-      "url": "https://www.bis.org/speeches/20261112-one-policy-many-realities-why-differences-matter-monetary-policy",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794441600000,
-      "published": "2026-11-12T00:00:00+00:00"
-    },
-    {
-      "id": "fc2630560b8e",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The economic outlook and some thoughts on labor market dynamism",
-      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the Bank of England Watchers Conference, hosted by King’s Business School and Money, Macro and Finance Society, London, 10 November 2026.",
-      "author": "Christopher J Waller",
-      "url": "https://www.bis.org/speeches/20261112-economic-outlook-and-some-thoughts-labor-market-dynamism",
-      "currencies": [
-        "USD",
-        "GBP"
       ],
       "pairs": [],
       "category": "macro",
@@ -675,23 +698,6 @@
       "category": "macro",
       "ts": 1794328967000,
       "published": "2026-11-10T16:42:47+00:00"
-    },
-    {
-      "id": "d620ad5aa953",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Europe's banking revival: bigger profits, bigger ambitions, bigger risks",
-      "excerpt": "Key takeaways Banco BPM's merger-driven rally and UniCredit's earnings jump tell different stories about shareholder value. Stronger profits allow banks to reward shareholders, but lower interest rates test their resilience. Acquisitions can create growth , provided the benefits justify the price and risks. European banks attracted renewed investor interest, with Banco BPM shares surging after Cr dit Agricole proposed combining its Italian operations with the lender, raising expectations of further consolidation across the sector. UniCredit also rallied strongly after reporting record quarterly profits and raising its outlook, reinforcing confidence in banks' profitability and ability to reward shareholders. The reasons behind the two rallies were different: one driven by the prospect of…",
-      "author": "Ruben Dalfovo",
-      "url": "https://www.home.saxo/content/articles/equities/europe-banks-10112026",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1794306600000,
-      "published": "2026-11-10T10:30:00+00:00"
     }
   ]
 }
