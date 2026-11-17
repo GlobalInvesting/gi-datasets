@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:16:22Z",
+  "generated_at": "2026-11-17T14:30:27Z",
   "source": "calendar-primary",
   "holidays": [],
   "events": [
@@ -12618,20 +12618,6 @@
       "vendor": "calendar-primary"
     },
     {
-      "title": "New Zealand GDT Price Index",
-      "currency": "NZD",
-      "dateISO": "2026-11-17",
-      "timeUTC": "14:00",
-      "timeMode": "tentative",
-      "impact": "low",
-      "forecast": "0.6%",
-      "previous": "3.0%",
-      "actual": null,
-      "released": false,
-      "actualComputed": false,
-      "vendor": "calendar-primary"
-    },
-    {
       "title": "Fed Governor Waller Speech",
       "currency": "USD",
       "dateISO": "2026-11-17",
@@ -12697,6 +12683,20 @@
       "forecast": "1.8%",
       "previous": "2.2%",
       "actual": "2.1%",
+      "released": true,
+      "actualComputed": false,
+      "vendor": "calendar-primary"
+    },
+    {
+      "title": "New Zealand GDT Price Index",
+      "currency": "NZD",
+      "dateISO": "2026-11-17",
+      "timeUTC": "14:30",
+      "timeMode": "tentative",
+      "impact": "low",
+      "forecast": "0.6%",
+      "previous": "3.0%",
+      "actual": "0.0%",
       "released": true,
       "actualComputed": false,
       "vendor": "calendar-primary"
