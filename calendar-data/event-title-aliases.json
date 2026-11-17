@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-17T19:16:23Z",
+  "generatedAt": "2026-11-17T22:30:36Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 170,
+  "aliasCount": 172,
   "aliases": [
     {
       "currency": "USD",
@@ -3468,6 +3468,44 @@
           "actual_yahoo_raw": "25",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "29"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand PPI Input q/q",
+      "yahoo_title": "PPI - Inputs QQ",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 1.2,
+          "forecast_yahoo": null,
+          "actual_primary": 0.7,
+          "actual_yahoo": 0.7,
+          "previous_primary": 2.9,
+          "previous_yahoo": 2.9,
+          "actual_yahoo_raw": "0.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.9"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand PPI Output q/q",
+      "yahoo_title": "PPI - Outputs QQ",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.8,
+          "actual_yahoo": 0.8,
+          "previous_primary": 1.6,
+          "previous_yahoo": 1.6,
+          "actual_yahoo_raw": "0.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.6"
         }
       }
     },
