@@ -1,97 +1,87 @@
 {
-  "generated_at": "2026-11-16T17:10:44Z",
+  "generated_at": "2026-11-17T03:59:56Z",
   "signals": [
     {
-      "time": "17:03",
+      "time": "03:58",
       "priority": "critical",
       "title": "AUD/JPY — G10 Bilateral Theme + Carry Divergence",
-      "text": "The G10 scorecard flags JPY as the weekly leader at +0.578% average gain across 7 pairs, while AUD sits as the laggard at −0.672% across 4 pairs, creating a 1.250% bilateral spread. Despite this price momentum, AUD/JPY retains a massive +362bp OIS carry advantage (RBA AONIA 4.85% vs BoJ TONA 1.23%). AUD/USD trades below its SMA20/50/200 cluster at 0.6750, while USD/JPY holds above its moving averages at 159.61. The 1.250% spread reflects active cross-asset de-risking as equity markets pull back, forcing severe compression on high-beta carry pairs regardless of the underlying interest rate buffer. Trade bias: Bearish AUD/JPY, momentum and equity-led risk reduction overriding carry support. Catalyst: Australia Wage Price Index release on 17 Nov at 00:30 UTC. Risk: VIX declines below 20 and equity markets rebound, re-establishing carry dominance.",
+      "text": "The G10 scorecard records JPY as the weekly leader at +0.792% across 7 pairs while AUD lags at −0.792% across 4 pairs, generating an extreme 1.584% leader-to-laggard bilateral spread. This strength occurs despite an acute carry deficit, with RBA at 4.85% vs BoJ at 1.25% yielding a 360bp policy rate spread and an overnight AONIA-TONA differential of +362bp favoring AUD. Cross-asset conditions show elevated market volatility with VIX at 22.9, triggering defensive unwinds across high-yielding crosses. Technical structure confirms persistent pressure as AUD/JPY trades at 107.454 while AUD/USD sits in a downtrend below its SMA20/50/200 cluster at 0.6951/0.7004/0.7054, extended 4.54 ATR below its 20-day moving average. The combination of scorecard divergence, wide negative carry absorption, and broader risk aversion signals ongoing squeeze risk for AUD/JPY long positions. Trade bias: Bearish AUD/JPY; risk-off liquidation overrides substantial carry support. Catalyst: Australia Wage Price Index and Employment Change at 00:30 UTC. Risk: Sharp recovery in broader risk sentiment that restores carry demand and lifts spot above 108.50.",
       "evidence": [
-        "JPY 1W avg: +0.578% (n=7)",
-        "AUD 1W avg: -0.672% (n=4)",
-        "G10 spread: 1.250%"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "AUD/JPY",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-13"
-        }
-      }
-    },
-    {
-      "time": "16:59",
-      "priority": "warning",
-      "title": "USD/JPY — Carry Premium vs Options Skew",
-      "text": "USD/JPY trades at 159.61, holding above its SMA20/50/200 cluster at 158.22/157.42/158.67. A 267bp OIS carry differential (Fed SOFR 3.90% vs BoJ TONA 1.23%) continues to support the dollar, but options markets show clear caution. The 1M 25d Risk Reversal sits at −1.74, indicating significant put skew as institutional market participants actively pay up for downside protection. CFTC data shows JPY Leveraged Funds net short at −21,213 contracts, placing positioning at the 92nd percentile of its 52-week range (z=+1.46σ). The combination of a crowded carry trade and elevated put demand highlights asymmetric downside risk if verbal intervention escalates near the key 160.00 psychological threshold. Trade bias: Long USD/JPY, carry-supported while holding above 158.22 SMA20. Catalyst: US Retail Sales release on 17 Nov at 13:30 UTC. Risk: Break below 158.22 SMA20 or sustained spot action above 160.00 triggering official MoF/BoJ FX intervention.",
-      "evidence": [
-        "USD/JPY 25d RR: -1.74",
-        "USD/JPY OIS spread: +267bp",
-        "JPY COT pctl: 92 (z=+1.46)"
+        "JPY 1W avg: +0.792% (n=7)",
+        "AUD 1W avg: -0.792% (n=4)",
+        "G10 spread: 1.584%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "USD/JPY",
-        "direction": 1,
+        "pair": "AUD/JPY",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 1.3 ATR with it over five sessions"
+          "price moved 2.2 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-13"
+          "asof": "2026-11-16"
         }
       }
     },
     {
-      "time": "16:56",
+      "time": "03:55",
       "priority": "warning",
-      "title": "NZD/USD — COT vs ESI Divergence",
-      "text": "NZD/USD trades at 0.5508, remaining below its SMA20/50/200 cluster at 0.5629/0.5665/0.5814. Leveraged Funds hold a net short of −23,350 contracts (pctl 21), reflecting persistent institutional bearishness. This positioning aligns with New Zealand's Economic Surprise Index of −28.4, which marks the weakest data trajectory in the G10 following continuous macro misses. However, retail sentiment on Retail sentiment data is positioned 93% long, creating an extreme institutional vs. retail divergence. When retail long positioning reaches such extreme levels while macroeconomic data severely disappoints, the risk of retail capitulation accelerates downside momentum toward lower support. Trade bias: Bearish NZD/USD, macro data weakness and retail extreme confirming downtrend. Catalyst: RBNZ Governor Orr Speech on 16 Nov at 22:00 UTC. Risk: Hawkish shift in RBNZ commentary triggering a short-covering rally above the 0.5629 SMA20.",
+      "title": "USD/JPY — Options Downside Skew + Technical Resistance",
+      "text": "USD/JPY spot trades at 159.29, holding above its SMA20/50/200 cluster at 158.27/157.52/158.74 as spot consolidates near the 160.00 ceiling. Saxo 1M options show an extreme 25-delta risk reversal of −1.74 alongside an implied volatility of 7.2% against 5.4% 30-day realized volatility, establishing a 1.8-point volatility risk premium. CFTC data for the week ending Nov 10 reflects speculative JPY leveraged funds net short −23,913 contracts at the 90th percentile of its 52-week range, indicating historically crowded short positioning. A 267bp overnight SOFR-TONA spread and Fed 4.00% vs BoJ 1.25% rate spread sustain fundamental support, but the pronounced put skew highlights institutional hedging for downside repricing as spot approaches 160.00. 160.00 remains the key level that has previously triggered Ministry of Finance intervention concerns. Trade bias: Neutral/range USD/JPY; topside capped by intervention risk despite solid carry. Catalyst: FOMC Minutes at 19:00 UTC. Risk: Sustained upside break above 160.50 that forces options put-skew liquidation.",
       "evidence": [
-        "NZD ESI: -28.4",
-        "NZD COT lev_net: -23,350",
-        "NZD/USD Retail: 93% long"
+        "USDJPY 25d RR: -1.74",
+        "JPY COT LF net: -23,913 (pctl 90)",
+        "Fed 4.00% vs BoJ 1.25% — 275bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "NZD/USD",
+        "verdict": "not_directional",
+        "pair": "USD/JPY"
+      }
+    },
+    {
+      "time": "03:52",
+      "priority": "warning",
+      "title": "EUR/USD — Extreme Positioning + Retail Divergence",
+      "text": "EUR/USD trades at 1.1011, remaining entirely below its falling SMA20/50/200 moving-average cluster at 1.1164/1.1285/1.1523. CFTC data shows institutional leveraged funds heavily net short −98,604 contracts, sitting in the 6th percentile of the 52-week distribution with z = −1.58. Conversely, Retail sentiment data retail sentiment shows 87% of accounts net long, establishing an acute retail-institutional divergence against the macro downtrend. Policy settings reinforce structural headwinds, with Fed at 4.00% vs ECB at 2.65% maintaining a 135bp rate advantage and a +146bp SOFR-€STR overnight spread favoring USD. FRED data shows US 5Y yields rose +26bp over 5 days driven by real yields (+25bp real vs +1bp breakeven), underscoring US rate support. Trade bias: Bearish EUR/USD; retail long crowding vulnerable to capitulation into technical downtrend. Catalyst: Euro Area CPI report at 10:00 UTC. Risk: Daily close back above the 20-day SMA at 1.1164, relieving downward momentum.",
+      "evidence": [
+        "EUR COT LF net: -98,604 (pctl 6, z -1.58)",
+        "EUR/USD retail: 87% long",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "EUR/USD",
         "direction": -1,
         "supports": [
-          "technical regime points with the stated direction"
+          "technical regime points with the stated direction",
+          "price moved 3.8 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-13"
+          "asof": "2026-11-16"
         }
       }
     },
     {
-      "time": "16:51",
+      "time": "03:46",
       "priority": "info",
-      "title": "GBP/USD — Yield Spread vs Technical Structure",
-      "text": "GBP/USD trades at 1.3185, holding below its SMA20/50/200 cluster at 1.3361/1.3341/1.3415, with the 20-day moving average sloping downward. The UK 2Y yield spread vs US 2Y expanded by +12bp over 5D to +25bp, while 2-year gilt yields breached 5.00% following hawkish Bank of England rate expectations. despite the underlying rate support, price action remains contained under technical resistance. The 1M ATM implied volatility sits at 6.2% against realized HV30 at 5.6%, reflecting a minor +0.6% vol risk premium. Yield momentum favors Cable resilience, but clear technical rejection below the 1.3361 SMA20 keeps broad price action range-bound. Trade bias: Neutral GBP/USD, short-term rate support offset by technical resistance. Catalyst: UK CPI release on 18 Nov at 07:00 UTC. Risk: UK CPI print above 2.7% forecast forcing a bullish breakout through the 1.3361 SMA20.",
+      "title": "GBP/USD — Rates Momentum vs Technical Cluster",
+      "text": "GBP/USD trades at 1.3196, positioned below its SMA20/50/200 moving-average band at 1.3355/1.3334/1.3410. Slower momentum persists on the charts even as 2Y sovereign yield spreads moved +12bp over 5 days and +27bp over 20 days in GBP's favor, reaching +25bp over US 2Y yields. Policy rates are balanced with Fed at 4.00% and BoE at 4.00%, while overnight benchmarks show a mild 8bp carry advantage for the pound with SONIA at 3.98% vs SOFR at 3.90%. CFTC leveraged funds hold net longs of +35,586 contracts (WoW +2,900), indicating steady institutional interest ahead of domestic labor and price figures. The pair remains technically contained below 1.3334 resistance despite firming short-end yield differentials. Trade bias: Neutral/range GBP/USD; short-end yield resilience checked by overhead trend resistance. Catalyst: UK CPI and Employment reports at 07:00 UTC. Risk: Headline UK CPI print significantly below the 3.7% forecast, eroding short-end yield support.",
       "evidence": [
-        "UK-US 2Y Spread 5D Δ: +12bp",
-        "GBP/USD spot: 1.3185",
-        "BoE vs Fed policy rate: 4.00% vs 4.00%"
+        "BoE 4.00% vs Fed 4.00% — 0bp GBP carry premium",
+        "UK-US 2Y spread 20D Δ: +27bp",
+        "GBP COT LF net: +35,586"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
