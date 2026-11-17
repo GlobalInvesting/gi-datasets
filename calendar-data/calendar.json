@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-17T00:00:49Z",
-  "generatedAt": "2026-11-17T00:00:49Z",
+  "lastUpdate": "2026-11-17T00:12:57Z",
+  "generatedAt": "2026-11-17T00:12:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,13 +9,13 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-17",
   "rangeTo": "2026-12-01",
-  "totalEvents": 7804,
+  "totalEvents": 7805,
   "currencyCounts": {
     "CHF": 179,
     "CAD": 443,
     "USD": 2504,
     "JPY": 604,
-    "GBP": 687,
+    "GBP": 688,
     "EUR": 2300,
     "NZD": 197,
     "AUD": 445,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 3095,
     "high": 1682,
-    "low": 3027
+    "low": 3028
   },
   "surpriseStats": {
     "GBP/ppi output yoy": {
@@ -95707,6 +95707,19 @@
       "flag": "🇺🇸",
       "event": "Fed Governor Jefferson Speech",
       "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "14 Nov",
+      "dateISO": "2026-11-14",
+      "timeUTC": "11:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Greene Speech",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
