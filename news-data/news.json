@@ -1,20 +1,25 @@
 {
-  "updated_utc": "2026-11-17T11:01:36.824309+00:00",
-  "updated_label": "11:01 UTC",
-  "total": 46,
-  "total_high": 38,
-  "total_med": 1,
+  "updated_utc": "2026-11-17T11:05:09.493751+00:00",
+  "updated_label": "11:05 UTC",
+  "total": 52,
+  "total_high": 41,
+  "total_med": 2,
   "sources_active": [
     "BabyPips",
     "FT Bonds",
     "FinancialJuice",
     "ForexLive",
     "MyFXBook",
+    "NewsData AUD",
+    "NewsData EUR",
+    "NewsData GBP",
+    "NewsData JPY",
+    "NewsData NZD",
     "RTT News"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 46
+    "en": 52
   },
   "articles": [
     {
@@ -434,6 +439,70 @@
       "recent": true
     },
     {
+      "id": "d054da5db936",
+      "cur": "AUD",
+      "impact": "low",
+      "title": "RBA Minutes On Tap For Tuesday",
+      "expand": "CANBERA (dpa-AFX) - The Reserve Bank of Australia will on Tuesday release the minutes from its November 2 meeting, highlighting a modest day for Asia-Pacific economic activity. At the meeting, the ...",
+      "source": "NewsData AUD",
+      "link": "https://www.finanznachrichten.de/nachrichten-2026-11/70147410-rba-minutes-on-tap-for-tuesday-020.htm",
+      "time": "22:54",
+      "ts": 1794869640000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T22:54:00+00:00",
+      "recent": true
+    },
+    {
+      "id": "bb4994ccf1dd",
+      "cur": "GBP",
+      "impact": "low",
+      "title": "UK jobs and inflation data are next for a Pound on a five-day slide",
+      "expand": "The Bank of England (BoE) raised the UK's Bank Rate to 4% on November 5, and the Pound has fallen in seven of the eight sessions starting that day. GBP/USD is on a fifth straight losing session and trading just below 1.3200, a one-month low.",
+      "source": "NewsData GBP",
+      "link": "https://www.fxstreet.com/news/uk-jobs-and-inflation-data-are-next-for-a-pound-on-a-five-day-slide-202611162245",
+      "time": "22:45",
+      "ts": 1794869100000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T22:45:00+00:00",
+      "recent": true
+    },
+    {
+      "id": "8c5eb8e5499f",
+      "cur": "AUD",
+      "impact": "med",
+      "title": "Australian Dollar hits ten-month low before RBA minutes and jobs data",
+      "expand": "China's October retail sales and industrial output both missed forecasts on Monday, and the Australian Dollar was the weakest major currency on the day. AUD/USD has fallen five sessions in a row and nine of the last eleven, and it's trading just under 0.6750, a ten-month low.",
+      "source": "NewsData AUD",
+      "link": "https://www.fxstreet.com/news/australian-dollar-hits-ten-month-low-before-rba-minutes-and-jobs-data-202611162232",
+      "time": "22:32",
+      "ts": 1794868341000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T22:32:21+00:00",
+      "recent": true
+    },
+    {
+      "id": "e872c8f60148",
+      "cur": "EUR",
+      "impact": "high",
+      "title": "ECB's Lagarde speaks three times with the Euro at a 19-month low",
+      "expand": "The 1.1000 level gave way on Monday for the first time in 19 months, after a Eurozone industry report missed its forecast and the Dollar kept rising. EUR/USD has fallen five sessions running and is trading just under that level.",
+      "source": "NewsData EUR",
+      "link": "https://www.fxstreet.com/news/ecbs-lagarde-speaks-three-times-with-the-euro-at-a-19-month-low-202611162226",
+      "time": "22:26",
+      "ts": 1794867970000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T22:26:10+00:00",
+      "recent": true
+    },
+    {
       "id": "b88649f75ad4",
       "cur": "NZD",
       "impact": "high",
@@ -447,6 +516,22 @@
       "lang": "en",
       "date": "16 Nov",
       "datetime": "2026-11-16T21:59:33+00:00",
+      "recent": true
+    },
+    {
+      "id": "6947bbfbb03d",
+      "cur": "NZD",
+      "impact": "high",
+      "title": "AI share slump unlikely to directly affect NZ wealth: RBNZ",
+      "expand": "Banks expect lending for AI data centres in New Zealand to grow, the central bank says.",
+      "source": "NewsData NZD",
+      "link": "https://www.businessdesk.co.nz/finance/ai-share-slump-unlikely-to-directly-affect-nz-wealth-rbnz/CKMD6CMEVBF2BG62XI2NMS7YUU/",
+      "time": "21:59",
+      "ts": 1794866362000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T21:59:22+00:00",
       "recent": true
     },
     {
@@ -479,6 +564,22 @@
       "lang": "en",
       "date": "16 Nov",
       "datetime": "2026-11-16T21:11:48+00:00",
+      "recent": true
+    },
+    {
+      "id": "e9a16670c173",
+      "cur": "JPY",
+      "impact": "high",
+      "title": "Bank of Japan says it will keep raising rates as inflation holds",
+      "expand": "The Bank of Japan said it would continue raising interest rates, with the timing and pace depending on economic activity, prices and financial conditions.",
+      "source": "NewsData JPY",
+      "link": "https://econotimes.com/Bank-of-Japan-says-it-will-keep-raising-rates-as-inflation-holds-1777833",
+      "time": "20:55",
+      "ts": 1794862508000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T20:55:08+00:00",
       "recent": true
     },
     {
