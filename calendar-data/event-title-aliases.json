@@ -1,86 +1,10 @@
 {
-  "generatedAt": "2026-11-16T23:26:55Z",
+  "generatedAt": "2026-11-17T04:06:27Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 163,
+  "aliasCount": 160,
   "aliases": [
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Coincident Index",
-      "secondary_title": "Japan Coincident Index Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 120.0,
-          "forecast_secondary": 118.0,
-          "actual_primary": 119.5,
-          "actual_secondary": 119.5,
-          "previous_primary": 118.8,
-          "previous_secondary": 118.8,
-          "actual_secondary_raw": "119.5",
-          "forecast_secondary_raw": "118",
-          "previous_secondary_raw": "118.8"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Leading Index",
-      "secondary_title": "Japan Leading Economic Index Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 118.4,
-          "forecast_secondary": 117.0,
-          "actual_primary": 116.4,
-          "actual_secondary": 116.4,
-          "previous_primary": 118.0,
-          "previous_secondary": 118.0,
-          "actual_secondary_raw": "116.4",
-          "forecast_secondary_raw": "117",
-          "previous_secondary_raw": "118.0"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Dallas Fed Manufacturing Index",
-      "secondary_title": "United States Dallas Fed Manufacturing Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 6.4,
-          "forecast_secondary": 7.0,
-          "actual_primary": 13.4,
-          "actual_secondary": 13.4,
-          "previous_primary": 9.8,
-          "previous_secondary": 9.8,
-          "actual_secondary_raw": "13.4",
-          "forecast_secondary_raw": "7",
-          "previous_secondary_raw": "9.8"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Corporate Services Price Index y/y",
-      "secondary_title": "Japan Services Producer Price Index YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-26",
-          "forecast_primary": 3.6,
-          "forecast_secondary": 3.7,
-          "actual_primary": 3.7,
-          "actual_secondary": 3.7,
-          "previous_primary": 3.7,
-          "previous_secondary": 3.5,
-          "actual_secondary_raw": "3.7%",
-          "forecast_secondary_raw": "3.7%",
-          "previous_secondary_raw": "3.5%"
-        }
-      }
-    },
     {
       "currency": "USD",
       "primary_title": "United States Durable Goods Orders m/m",
@@ -1826,21 +1750,8 @@
           "actual_secondary_raw": "3.6%",
           "forecast_secondary_raw": "3.9%",
           "previous_secondary_raw": "4.9%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-05",
-          "forecast_primary": 3.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.6,
-          "actual_yahoo": 3.6,
-          "previous_primary": 5.2,
-          "previous_yahoo": 5.2,
-          "actual_yahoo_raw": "3.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.2"
         }
-      },
-      "yahoo_title": "Overtime Pay*"
+      }
     },
     {
       "currency": "EUR",
@@ -2014,6 +1925,44 @@
       }
     },
     {
+      "currency": "JPY",
+      "primary_title": "Japan Coincident Index",
+      "secondary_title": "Japan Coincident Index Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 120.0,
+          "forecast_secondary": 118.0,
+          "actual_primary": 119.5,
+          "actual_secondary": 119.5,
+          "previous_primary": 118.8,
+          "previous_secondary": 118.8,
+          "actual_secondary_raw": "119.5",
+          "forecast_secondary_raw": "118",
+          "previous_secondary_raw": "118.8"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Leading Index",
+      "secondary_title": "Japan Leading Economic Index Prel",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 118.4,
+          "forecast_secondary": 117.0,
+          "actual_primary": 116.4,
+          "actual_secondary": 116.4,
+          "previous_primary": 118.0,
+          "previous_secondary": 118.0,
+          "actual_secondary_raw": "116.4",
+          "forecast_secondary_raw": "117",
+          "previous_secondary_raw": "118.0"
+        }
+      }
+    },
+    {
       "currency": "USD",
       "primary_title": "United States Wholesale Sales m/m",
       "secondary_title": "United States Wholesale Sales MoM",
@@ -2061,21 +2010,8 @@
           "actual_secondary_raw": "-6.8%",
           "forecast_secondary_raw": "0.1%",
           "previous_secondary_raw": "-3.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": -2.1,
-          "forecast_yahoo": null,
-          "actual_primary": -6.8,
-          "actual_yahoo": -6.8,
-          "previous_primary": -3.1,
-          "previous_yahoo": -3.1,
-          "actual_yahoo_raw": "-6.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-3.1"
         }
-      },
-      "yahoo_title": "All Household Spending YY"
+      }
     },
     {
       "currency": "JPY",
@@ -2093,21 +2029,8 @@
           "actual_secondary_raw": "-2.8%",
           "forecast_secondary_raw": "0.3%",
           "previous_secondary_raw": "0.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 0.8,
-          "forecast_yahoo": null,
-          "actual_primary": -2.8,
-          "actual_yahoo": -2.8,
-          "previous_primary": 0.1,
-          "previous_yahoo": 0.1,
-          "actual_yahoo_raw": "-2.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.1"
         }
-      },
-      "yahoo_title": "All Household Spending MM"
+      }
     },
     {
       "currency": "JPY",
@@ -2125,21 +2048,8 @@
           "actual_secondary_raw": "5.2%",
           "forecast_secondary_raw": "5.4%",
           "previous_secondary_raw": "5.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 5.3,
-          "forecast_yahoo": null,
-          "actual_primary": 5.2,
-          "actual_yahoo": 5.2,
-          "previous_primary": 5.3,
-          "previous_yahoo": 5.3,
-          "actual_yahoo_raw": "5.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.3"
         }
-      },
-      "yahoo_title": "Bank Lending YY"
+      }
     },
     {
       "currency": "JPY",
@@ -2653,25 +2563,6 @@
           "actual_yahoo_raw": "4.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "4.5"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom BRC Retail Sales Monitor YoY",
-      "yahoo_title": "BRC Retail Sales YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-10",
-          "forecast_primary": 1.2,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 1.0,
-          "previous_yahoo": 1.0,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1"
         }
       }
     },
