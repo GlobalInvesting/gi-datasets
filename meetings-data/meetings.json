@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-16",
+  "lastUpdate": "2026-11-17",
   "meetings": {
     "USD": {
       "nextMeeting": "9 Dec",
@@ -27,10 +27,10 @@
       "source": "federalreserve.gov",
       "bias": "hike",
       "biasSource": "Fed Funds futures, meeting-bracketed",
-      "biasMethod": "ois-preserved",
+      "biasMethod": "ois",
+      "biasUpdated": "2026-11-17",
       "cutProb": 0,
       "hikeProb": 100,
-      "biasUpdated": "2026-11-16",
       "fwdRate": 4.13
     },
     "EUR": {
@@ -60,10 +60,10 @@
       "bias": "hike",
       "biasSource": "ESTR futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
-      "cutProb": 0.0,
-      "hikeProb": 92.0,
-      "fwdRate": 2.73
+      "biasUpdated": "2026-11-17",
+      "cutProb": 0,
+      "hikeProb": 72,
+      "fwdRate": 2.68
     },
     "GBP": {
       "nextMeeting": "17 Dec",
@@ -89,13 +89,13 @@
         "17 Dec"
       ],
       "source": "bankofengland.co.uk",
-      "bias": "cut",
+      "bias": "hike",
       "biasSource": "SONIA futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
-      "cutProb": 100,
-      "hikeProb": 0,
-      "fwdRate": 3.7346
+      "biasUpdated": "2026-11-17",
+      "cutProb": 0,
+      "hikeProb": 91,
+      "fwdRate": 4.2121
     },
     "JPY": {
       "nextMeeting": "18 Dec",
@@ -124,10 +124,10 @@
       "bias": "hike",
       "biasSource": "OIS TONA curve + BoJ daily spot rate",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
+      "biasUpdated": "2026-11-17",
       "cutProb": 0,
-      "hikeProb": 50,
-      "fwdRate": 1.375
+      "hikeProb": 74,
+      "fwdRate": 1.435
     },
     "AUD": {
       "nextMeeting": "8 Dec",
@@ -153,13 +153,13 @@
         "8 Dec"
       ],
       "source": "rba.gov.au",
-      "bias": "hike",
-      "biasSource": "Policy-rate trajectory (heuristic, market source unavailable)",
-      "biasMethod": "heuristic",
-      "biasUpdated": "2026-11-16",
-      "cutProb": null,
-      "hikeProb": null,
-      "fwdRate": null
+      "bias": "hold",
+      "biasSource": "30-day Interbank Cash Rate futures",
+      "biasMethod": "ois",
+      "biasUpdated": "2026-11-17",
+      "cutProb": 0,
+      "hikeProb": 0,
+      "fwdRate": 4.85
     },
     "CAD": {
       "nextMeeting": "9 Dec",
@@ -187,13 +187,13 @@
         "9 Dec"
       ],
       "source": "bankofcanada.ca",
-      "bias": "hold",
+      "bias": "hike",
       "biasSource": "CORRA 1-Month futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
+      "biasUpdated": "2026-11-17",
       "cutProb": 0,
-      "hikeProb": 0,
-      "fwdRate": 2.52
+      "hikeProb": 65,
+      "fwdRate": 2.6825
     },
     "CHF": {
       "nextMeeting": "10 Dec",
@@ -214,7 +214,7 @@
       "bias": "hold",
       "biasSource": "OIS SARON curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
+      "biasUpdated": "2026-11-17",
       "cutProb": 0,
       "hikeProb": 0,
       "fwdRate": 0.0
@@ -243,11 +243,11 @@
       "source": "rbnz.govt.nz",
       "bias": "hike",
       "biasSource": "OIS NZIONA curve, meeting-bracketed forward",
-      "biasMethod": "spread",
-      "biasUpdated": "2026-11-16",
+      "biasMethod": "ois",
+      "biasUpdated": "2026-11-17",
       "cutProb": 0,
-      "hikeProb": 20,
-      "fwdRate": 2.8
+      "hikeProb": 83,
+      "fwdRate": 2.9575
     },
     "NOK": {
       "nextMeeting": "17 Dec",
@@ -276,7 +276,7 @@
       "bias": "hold",
       "biasSource": "OIS NOWA curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
+      "biasUpdated": "2026-11-17",
       "cutProb": 15,
       "hikeProb": 0,
       "fwdRate": 4.4625
@@ -305,13 +305,13 @@
         "22 Dec"
       ],
       "source": "riksbank.se",
-      "bias": "hike",
+      "bias": "cut",
       "biasSource": "OIS SWESTR curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-16",
-      "cutProb": 0,
-      "hikeProb": 51,
-      "fwdRate": 1.8775
+      "biasUpdated": "2026-11-17",
+      "cutProb": 100,
+      "hikeProb": 0,
+      "fwdRate": 1.5
     }
   }
 }
