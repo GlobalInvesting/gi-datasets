@@ -1,21 +1,38 @@
 {
-  "updated_utc": "2026-11-17T08:50:59.147437+00:00",
-  "updated_label": "08:50 UTC",
-  "total": 45,
+  "updated_utc": "2026-11-17T09:01:46.540109+00:00",
+  "updated_label": "09:01 UTC",
+  "total": 42,
   "total_high": 34,
-  "total_med": 2,
+  "total_med": 1,
   "sources_active": [
     "BabyPips",
     "FT Bonds",
     "FinancialJuice",
     "ForexLive",
-    "MyFXBook"
+    "MyFXBook",
+    "RTT News"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 45
+    "en": 42
   },
   "articles": [
+    {
+      "id": "c9cf92363af0",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Asian Shares Follow Wall Street Lower Ahead Of Nvidia Earnings",
+      "expand": "Asian stocks followed Wall Street lower on Tuesday as investors rotated from AI stocks and sought direction on the Federal Reserve's interest rate path.",
+      "source": "MyFXBook",
+      "link": "/news/asian-shares-follow-wall-street-lower-ahead-of-nvidia-earnings/56591",
+      "time": "07:51",
+      "ts": 1794901895000,
+      "featured": true,
+      "lang": "en",
+      "date": "17 Nov",
+      "datetime": "2026-11-17T07:51:35+00:00",
+      "recent": true
+    },
     {
       "id": "80b9cbe7b403",
       "cur": "EUR",
@@ -305,38 +322,6 @@
       "recent": true
     },
     {
-      "id": "f06ac03b4200",
-      "cur": "AUD",
-      "impact": "med",
-      "title": "RBA members highlighted board's focus on maintaining price stability, full employment",
-      "expand": "",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9854740/RBA-members-highlighted-boards-focus-on-maintaining-price-stability-full-employment.aspx?xy=rss",
-      "time": "00:30",
-      "ts": 1794875402000,
-      "featured": false,
-      "lang": "en",
-      "date": "17 Nov",
-      "datetime": "2026-11-17T00:30:02+00:00",
-      "recent": true
-    },
-    {
-      "id": "742ebd2dc5df",
-      "cur": "AUD",
-      "impact": "low",
-      "title": "RBA members noted financial conditions considered restrictive",
-      "expand": "",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9854743/RBA-members-noted-financial-conditions-considered-restrictive.aspx?xy=rss",
-      "time": "00:30",
-      "ts": 1794875402000,
-      "featured": false,
-      "lang": "en",
-      "date": "17 Nov",
-      "datetime": "2026-11-17T00:30:02+00:00",
-      "recent": true
-    },
-    {
       "id": "28472dee3817",
       "cur": "AUD",
       "impact": "high",
@@ -366,22 +351,6 @@
       "lang": "en",
       "date": "16 Nov",
       "datetime": "2026-11-16T21:59:33+00:00",
-      "recent": true
-    },
-    {
-      "id": "a920e179fcf8",
-      "cur": "AUD",
-      "impact": "low",
-      "title": "RBA Minutes On Tap For Tuesday",
-      "expand": "The Reserve Bank of Australia will on Tuesday release the minutes from its November 2 meeting, highlighting a modest day for Asia-Pacific economic activity.",
-      "source": "MyFXBook",
-      "link": "/news/rba-minutes-on-tap-for-tuesday/56564",
-      "time": "21:33",
-      "ts": 1794864801000,
-      "featured": false,
-      "lang": "en",
-      "date": "16 Nov",
-      "datetime": "2026-11-16T21:33:21+00:00",
       "recent": true
     },
     {
@@ -481,6 +450,22 @@
       "recent": true
     },
     {
+      "id": "71e94ed8b7d4",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Markets Worry About Tech Sector, Fed Hikes",
+      "expand": "Renewed Fed rate hike expectations as well as the outlook on the technology sector dominated global market sentiment.",
+      "source": "RTT News",
+      "link": "https://www.rttnews.com/story.aspx?Id=3715095",
+      "time": "14:27",
+      "ts": 1794839276000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T14:27:56+00:00",
+      "recent": true
+    },
+    {
       "id": "4e1961133a3b",
       "cur": "CAD",
       "impact": "high",
@@ -494,6 +479,22 @@
       "lang": "en",
       "date": "16 Nov",
       "datetime": "2026-11-16T13:30:13+00:00",
+      "recent": true
+    },
+    {
+      "id": "bdf7e11d7152",
+      "cur": "USD",
+      "impact": "high",
+      "title": "Dollar Surges On Increased Fed Rate Hike Bets",
+      "expand": "The U.S. Dollar surged ahead during the week ended November 13 in the backdrop of market expectations of a larger-than-usual Fed rate hike. The index touched the highest level since March 2025 amidst hotter-than-expected inflation readings and hawkish comments from Fed officials who signaled willingness to tighten policy more aggressively.",
+      "source": "RTT News",
+      "link": "https://www.rttnews.com/story.aspx?Id=3715050",
+      "time": "13:12",
+      "ts": 1794834750000,
+      "featured": false,
+      "lang": "en",
+      "date": "16 Nov",
+      "datetime": "2026-11-16T13:12:30+00:00",
       "recent": true
     },
     {
@@ -511,22 +512,6 @@
       "date": "16 Nov",
       "datetime": "2026-11-16T12:37:11+00:00",
       "recent": true
-    },
-    {
-      "id": "b769ae683c87",
-      "cur": "USD",
-      "impact": "high",
-      "title": "investingLive Asia-Pacific market news: Chipmakers hit ahead of Nvidia",
-      "expand": "AI: Daily quotas come to DeepSeek, a visible sign of China’s AI chip crunch BOJ’s Takata calls for nimble hikes after 1.5% bid, says neutral rate may top estimates Goldman sees Brent at $78 by end-2027 as oil surplus returns, flags near-term upside risk Records show $12bn Nvidia chips to China, US drafts licence rules on Nvidia chip exports Japan economy shrinks 0.1% in Q3, first fall in 4 quarters as inflation hits households China factory output slows to 4.8% in October, retail sales up just 0.4% as demand sags China’s October data shows the economy losing momentum on retail sales and indust...",
-      "source": "ForexLive",
-      "link": "https://investinglive.com/news/investinglive-asia-pacific-market-news-chipmakers-hit-ahead-of-nvidia/",
-      "time": "04:34",
-      "ts": 1794803668000,
-      "featured": false,
-      "lang": "en",
-      "date": "16 Nov",
-      "datetime": "2026-11-16T04:34:28+00:00",
-      "recent": false
     },
     {
       "id": "3d81c1b32065",
@@ -609,22 +594,6 @@
       "recent": false
     },
     {
-      "id": "c1cddfa1372e",
-      "cur": "USD",
-      "impact": "high",
-      "title": "ICYMI: Fed’s Jefferson says inflation is the key signal for rates, with PCE still at 3.6%",
-      "expand": "Jefferson’s comments support pricing for a December hike without adding to the half-point tail, which suits the steady, gradual camp. By naming energy as the main channel for broader inflation, he makes Fed expectations sensitive to oil. Any renewed jump in crude tied to the Iran war and Hormuz shipping risk would feed quickly into rate pricing and the US dollar. His upbeat view on growth and jobs also removes an easy reason to pause. That keeps front-end Treasury yields supported, and continues to put gold under pressure from the Fed’s tightening path. --- With unemployment steady and growth ...",
-      "source": "ForexLive",
-      "link": "https://investinglive.com/central-banks/icymi-fed-s-jefferson-says-inflation-is-the-key-signal-for-rates-with-pce-still-at-3-6/",
-      "time": "00:53",
-      "ts": 1794790395000,
-      "featured": false,
-      "lang": "en",
-      "date": "16 Nov",
-      "datetime": "2026-11-16T00:53:15+00:00",
-      "recent": false
-    },
-    {
       "id": "2e73b668c451",
       "cur": "JPY",
       "impact": "high",
@@ -654,22 +623,6 @@
       "lang": "en",
       "date": "15 Nov",
       "datetime": "2026-11-15T23:22:51+00:00",
-      "recent": false
-    },
-    {
-      "id": "42f342d06690",
-      "cur": "USD",
-      "impact": "high",
-      "title": "Trump out of public view since Wednesday, fuelling speculation on his wherabouts",
-      "expand": "For markets, this is a non-event as long as the official record keeps showing normal activity. Traders have learned to discount social media speculation about the president’s health, and nothing so far has moved oil, Treasuries or the US dollar on this story. The risk lies in his travel plans. A smooth departure for China would close the story, but an unexplained delay or cancellation would quickly become a factor for markets. With the Iran war still shaping energy prices , any real uncertainty at the top would tend to lift oil’s risk premium and support safe-haven demand for the dollar. --- T...",
-      "source": "ForexLive",
-      "link": "https://investinglive.com/news/trump-out-of-public-view-since-wednesday-fuelling-speculation-on-hiw-wherabouts/",
-      "time": "23:05",
-      "ts": 1794783929000,
-      "featured": false,
-      "lang": "en",
-      "date": "15 Nov",
-      "datetime": "2026-11-15T23:05:29+00:00",
       "recent": false
     },
     {
