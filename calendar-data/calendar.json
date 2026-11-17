@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-17T00:12:57Z",
-  "generatedAt": "2026-11-17T00:12:57Z",
+  "lastUpdate": "2026-11-17T00:42:57Z",
+  "generatedAt": "2026-11-17T00:42:57Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,13 +9,13 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-17",
   "rangeTo": "2026-12-01",
-  "totalEvents": 7805,
+  "totalEvents": 7812,
   "currencyCounts": {
     "CHF": 179,
     "CAD": 443,
     "USD": 2504,
     "JPY": 604,
-    "GBP": 688,
+    "GBP": 695,
     "EUR": 2300,
     "NZD": 197,
     "AUD": 445,
@@ -23,9 +23,9 @@
     "NOK": 184
   },
   "impactCounts": {
-    "medium": 3095,
+    "medium": 3100,
     "high": 1682,
-    "low": 3028
+    "low": 3030
   },
   "surpriseStats": {
     "GBP/ppi output yoy": {
@@ -102084,19 +102084,6 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Belgium PPI YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "27 Nov",
-      "dateISO": "2026-11-27",
-      "timeUTC": "10:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Belgium Harmonised Inflation Rate YoY Prel",
       "impact": "low",
       "actual": null,
@@ -102639,6 +102626,32 @@
     {
       "date": "30 Nov",
       "dateISO": "2026-11-30",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Nationwide Housing Prices MoM",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "0%"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "07:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Nationwide Housing Prices YoY",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.5%"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
       "timeUTC": "08:00",
       "country": "CHF",
       "currency": "CHF",
@@ -102808,6 +102821,71 @@
     {
       "date": "30 Nov",
       "dateISO": "2026-11-30",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Consumer Credit",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.2B",
+      "previous": "1.914B"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Mortgage Approvals",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "53.44K"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom M4 Money Supply MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.1%"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Mortgage Lending",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.87B"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Net Lending to Individuals MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": "7.9B",
+      "previous": "5.8B"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
       "timeUTC": "10:00",
       "country": "EUR",
       "currency": "EUR",
@@ -102828,7 +102906,7 @@
       "event": "Greece Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": "1.5%",
+      "forecast": "4.6%",
       "previous": "6.1%"
     },
     {
@@ -102951,6 +103029,19 @@
     {
       "date": "30 Nov",
       "dateISO": "2026-11-30",
+      "timeUTC": "10:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Belgium PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "14.0%",
+      "previous": "13.6%"
+    },
+    {
+      "date": "30 Nov",
+      "dateISO": "2026-11-30",
       "timeUTC": "11:00",
       "country": "EUR",
       "currency": "EUR",
@@ -103023,8 +103114,8 @@
       "event": "Ireland Harmonised Inflation Rate MoM Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.1%",
+      "previous": "0.7%"
     },
     {
       "date": "30 Nov",
@@ -103036,8 +103127,8 @@
       "event": "Ireland Harmonised Inflation Rate YoY Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.5%",
+      "previous": "4.2%"
     },
     {
       "date": "30 Nov",
