@@ -1,143 +1,10 @@
 {
-  "generatedAt": "2026-11-17T22:30:36Z",
+  "generatedAt": "2026-11-18T03:04:20Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 172,
+  "aliasCount": 164,
   "aliases": [
-    {
-      "currency": "USD",
-      "primary_title": "United States Durable Goods Orders m/m",
-      "secondary_title": "United States Durable Goods Orders MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": 0.7,
-          "forecast_secondary": 1.3,
-          "actual_primary": 1.8,
-          "actual_secondary": 1.8,
-          "previous_primary": 0.0,
-          "previous_secondary": 0.1,
-          "actual_secondary_raw": "1.8%",
-          "forecast_secondary_raw": "1.3%",
-          "previous_secondary_raw": "0.1%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
-      "secondary_title": "United States Non Defense Goods Orders Ex Air",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": 0.8,
-          "forecast_secondary": 0.8,
-          "actual_primary": 1.2,
-          "actual_secondary": 0.5,
-          "previous_primary": 0.5,
-          "previous_secondary": 1.6,
-          "actual_secondary_raw": "0.5%",
-          "forecast_secondary_raw": "0.8%",
-          "previous_secondary_raw": "1.6%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States S&P/CS HPI Composite-20 y/y",
-      "secondary_title": "United States S&P/Case-Shiller Home Price YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": null,
-          "forecast_secondary": 2.6,
-          "actual_primary": 2.7,
-          "actual_secondary": 2.7,
-          "previous_primary": null,
-          "previous_secondary": 2.5,
-          "actual_secondary_raw": "2.7%",
-          "forecast_secondary_raw": "2.6%",
-          "previous_secondary_raw": "2.5%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States New Home Sales m/m",
-      "secondary_title": "United States New Home Sales MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -1.4,
-          "forecast_secondary": -3.5,
-          "actual_primary": -0.6,
-          "actual_secondary": -0.6,
-          "previous_primary": 6.4,
-          "previous_secondary": 5.1,
-          "actual_secondary_raw": "-0.6%",
-          "forecast_secondary_raw": "-3.5%",
-          "previous_secondary_raw": "5.1%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Richmond Fed Manufacturing Index",
-      "secondary_title": "United States Richmond Fed Manufacturing Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -1.0,
-          "forecast_secondary": -3.0,
-          "actual_primary": -2.0,
-          "actual_secondary": -2.0,
-          "previous_primary": -2.0,
-          "previous_secondary": -2.0,
-          "actual_secondary_raw": "-2",
-          "forecast_secondary_raw": "-3",
-          "previous_secondary_raw": "-2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Richmond Fed Manufacturing Shipments",
-      "secondary_title": "United States Richmond Fed Manufacturing Shipments Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": null,
-          "forecast_secondary": -7.0,
-          "actual_primary": 0.0,
-          "actual_secondary": 0.0,
-          "previous_primary": -5.0,
-          "previous_secondary": -5.0,
-          "actual_secondary_raw": "0",
-          "forecast_secondary_raw": "-7",
-          "previous_secondary_raw": "-5"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Dallas Fed Services Revenues",
-      "secondary_title": "United States Dallas Fed Services Revenues Index",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": 5.4,
-          "forecast_secondary": -2.0,
-          "actual_primary": 4.4,
-          "actual_secondary": 4.4,
-          "previous_primary": -0.9,
-          "previous_secondary": -0.9,
-          "actual_secondary_raw": "4.4",
-          "forecast_secondary_raw": "-2",
-          "previous_secondary_raw": "-0.9"
-        }
-      }
-    },
     {
       "currency": "AUD",
       "primary_title": "RBA Trimmed Mean CPI q/q",
@@ -2295,101 +2162,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "Dallas Fed Services Business Activity",
-      "yahoo_title": "FOMC Decision Fed Funds Tgt Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-27",
-          "forecast_primary": -2.9,
-          "forecast_yahoo": null,
-          "actual_primary": 4.0,
-          "actual_yahoo": 4.0,
-          "previous_primary": -1.8,
-          "previous_yahoo": 3.88,
-          "actual_yahoo_raw": "4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.88"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia CPI q/q",
-      "yahoo_title": "CPI QQ *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": 1.1,
-          "forecast_yahoo": null,
-          "actual_primary": 1.3,
-          "actual_yahoo": 1.3,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "1.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia CPI y/y",
-      "yahoo_title": "CPI YY *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": 4.7,
-          "forecast_yahoo": null,
-          "actual_primary": 3.9,
-          "actual_yahoo": 3.9,
-          "previous_primary": 3.9,
-          "previous_yahoo": 4.0,
-          "actual_yahoo_raw": "3.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia CPI",
-      "yahoo_title": "CPI Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": 138.2,
-          "forecast_yahoo": null,
-          "actual_primary": 103.64,
-          "actual_yahoo": 103.64,
-          "previous_primary": 102.31,
-          "previous_yahoo": 102.31,
-          "actual_yahoo_raw": "103.64",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "102.31"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "RBNZ Interest Rate Decision",
-      "yahoo_title": "Cash Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.75,
-          "actual_yahoo": 2.75,
-          "previous_primary": 2.75,
-          "previous_yahoo": 2.75,
-          "actual_yahoo_raw": "2.75",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.75"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "Fed Interest Rate Decision",
       "yahoo_title": "FOMC Decision Fed Funds Tgt Rate",
       "evidence": {
@@ -3506,6 +3278,82 @@
           "actual_yahoo_raw": "0.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "1.6"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Imports y/y",
+      "yahoo_title": "Imports YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 24.4,
+          "forecast_yahoo": null,
+          "actual_primary": 21.6,
+          "actual_yahoo": 21.6,
+          "previous_primary": 18.9,
+          "previous_yahoo": 18.9,
+          "actual_yahoo_raw": "21.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "18.9"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Exports y/y",
+      "yahoo_title": "Exports YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-17",
+          "forecast_primary": 14.8,
+          "forecast_yahoo": null,
+          "actual_primary": 20.5,
+          "actual_yahoo": 20.5,
+          "previous_primary": 16.7,
+          "previous_yahoo": 16.7,
+          "actual_yahoo_raw": "20.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "16.7"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Wage Price Index q/q",
+      "yahoo_title": "Wage Price Index QQ",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 0.8,
+          "forecast_yahoo": null,
+          "actual_primary": 1.1,
+          "actual_yahoo": 1.1,
+          "previous_primary": 0.8,
+          "previous_yahoo": 0.8,
+          "actual_yahoo_raw": "1.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Wage Price Index y/y",
+      "yahoo_title": "Wage Price Index YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 3.2,
+          "forecast_yahoo": null,
+          "actual_primary": 3.5,
+          "actual_yahoo": 3.5,
+          "previous_primary": 3.2,
+          "previous_yahoo": 3.2,
+          "actual_yahoo_raw": "3.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.2"
         }
       }
     },
