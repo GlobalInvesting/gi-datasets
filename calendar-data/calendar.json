@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-18T08:18:45Z",
-  "generatedAt": "2026-11-18T08:18:45Z",
+  "lastUpdate": "2026-11-18T10:03:02Z",
+  "generatedAt": "2026-11-18T10:03:02Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1464,14 +1464,14 @@
       "std": 0.503653
     },
     "EUR/core cpi mom": {
-      "n": 5,
-      "mean": -0.04,
-      "std": 0.151658
+      "n": 6,
+      "mean": -0.033333,
+      "std": 0.136626
     },
     "EUR/core cpi yoy": {
-      "n": 5,
-      "mean": 0.02,
-      "std": 0.044721
+      "n": 6,
+      "mean": 0.033333,
+      "std": 0.05164
     },
     "EUR/unemployment rate": {
       "n": 3,
@@ -1479,19 +1479,19 @@
       "std": 0.1
     },
     "EUR/cpi excl. energy and unprocessed food mom": {
-      "n": 5,
-      "mean": 0.12,
-      "std": 0.130384
+      "n": 6,
+      "mean": 0.1,
+      "std": 0.126491
     },
     "EUR/cpi excl. energy and unprocessed food yoy": {
-      "n": 5,
-      "mean": -0.02,
-      "std": 0.044721
+      "n": 6,
+      "mean": -0.016667,
+      "std": 0.040825
     },
     "EUR/inflation rate yoy": {
-      "n": 3,
-      "mean": 0.433333,
-      "std": 0.450925
+      "n": 4,
+      "mean": 0.525,
+      "std": 0.411299
     },
     "EUR/portugal industrial production mom": {
       "n": 3,
@@ -3129,14 +3129,14 @@
       "std": 0.057735
     },
     "EUR/cpi excl. tobacco mom": {
-      "n": 2,
-      "mean": -0.15,
-      "std": 0.070711
+      "n": 3,
+      "mean": -0.066667,
+      "std": 0.152753
     },
     "EUR/cpi excl. tobacco yoy": {
-      "n": 2,
-      "mean": 0.35,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.133333,
+      "std": 0.378594
     },
     "EUR/core inflation rate yoy final": {
       "n": 2,
@@ -97357,7 +97357,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -97370,7 +97370,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": null,
       "previous": "0.4%"
     },
@@ -97383,7 +97383,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "2.5%",
       "previous": "2.5%"
     },
@@ -97396,7 +97396,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "4.0%",
       "forecast": "3.2%",
       "previous": "3.2%"
     },
@@ -97409,7 +97409,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Tobacco m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.4%",
       "previous": "0.6%"
     },
@@ -97422,7 +97422,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Tobacco y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "4.0%",
       "forecast": "4.3%",
       "previous": "3.8%"
     },
@@ -97435,7 +97435,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Energy and Unprocessed Food m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -97448,7 +97448,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI excl. Energy and Unprocessed Food y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "2.2%",
       "forecast": "2.2%",
       "previous": "2.2%"
     },
@@ -97461,7 +97461,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area CPI",
       "impact": "low",
-      "actual": null,
+      "actual": "104.80",
       "forecast": null,
       "previous": "104.77"
     },
@@ -97474,7 +97474,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area Core CPI",
       "impact": "medium",
-      "actual": null,
+      "actual": "103.66",
       "forecast": null,
       "previous": "103.64"
     },
