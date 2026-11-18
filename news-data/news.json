@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-11-18T06:50:57.327513+00:00",
-  "updated_label": "06:50 UTC",
-  "total": 46,
-  "total_high": 43,
+  "updated_utc": "2026-11-18T07:01:30.378377+00:00",
+  "updated_label": "07:01 UTC",
+  "total": 47,
+  "total_high": 44,
   "total_med": 2,
   "sources_active": [
     "BabyPips",
@@ -12,13 +12,30 @@
     "ForexLive",
     "InvestingLive",
     "MyFXBook",
-    "RTT News"
+    "RTT News",
+    "Riksbank"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 46
+    "en": 47
   },
   "articles": [
+    {
+      "id": "dda37dd7c0b2",
+      "cur": "SEK",
+      "impact": "high",
+      "title": "Göran Hjelm in Linköping: Monetary policy must be forward looking",
+      "expand": "“As the recovery has become even clearer, while cost pressures have proved more persistent, I considered it reasonable to raise the policy rate. This reduces the risk of cost increases having a broader impact on inflation.” These comments were made by Deputy Governor Göran Hjelm when he spoke about the economic situation at the Chamber of Commerce of East Sweden in Linköping.",
+      "source": "Riksbank",
+      "link": "https://www.riksbank.se/en-gb/press-and-published/speeches-and-presentations/2026/goran-hjelm-in-linkoping-monetary-policy-must-be-forward-looking/",
+      "time": "07:00",
+      "ts": 1794985221000,
+      "featured": true,
+      "lang": "en",
+      "date": "18 Nov",
+      "datetime": "2026-11-18T07:00:21+00:00",
+      "recent": true
+    },
     {
       "id": "5b0e269878b3",
       "cur": "AUD",
@@ -244,22 +261,6 @@
       "recent": true
     },
     {
-      "id": "6e1845744edd",
-      "cur": "JPY",
-      "impact": "high",
-      "title": "BoJ Governor Ueda: impact of food sales tax on economy and core inflation is highly uncertain now",
-      "expand": "",
-      "source": "FinancialJuice",
-      "link": "https://www.financialjuice.com/News/9856805/BoJ-Governor-Ueda-impact-of-food-sales-tax-on-economy-and-core-inflation-is-highly-uncertain-now.aspx?xy=rss",
-      "time": "01:13",
-      "ts": 1794964402000,
-      "featured": true,
-      "lang": "en",
-      "date": "18 Nov",
-      "datetime": "2026-11-18T01:13:22+00:00",
-      "recent": true
-    },
-    {
       "id": "a00f9151f46b",
       "cur": "AUD",
       "impact": "med",
@@ -289,6 +290,22 @@
       "lang": "en",
       "date": "18 Nov",
       "datetime": "2026-11-18T00:38:29+00:00",
+      "recent": true
+    },
+    {
+      "id": "f4d4756f6cfa",
+      "cur": "JPY",
+      "impact": "high",
+      "title": "Japan’s trade deficit comes in at half the expected size as exports jump 20.5%",
+      "expand": "The narrower deficit is mildly supportive for the yen because it reduces the yen sold to pay for imports. Rate differentials still dominate, though, and USD/JPY remains pinned near 160 while the Fed is on a hiking path. Oil is the key swing factor: Japan’s import bill is highly sensitive to crude prices during the Iran war, so any renewed rise in oil would quickly reverse today’s improvement. For the BOJ, the data adds to evidence that the economy can absorb a December hike, which could nudge short-end JGB yields higher. Exporters with heavy chip exposure should find support in Tokyo trade. --...",
+      "source": "ForexLive",
+      "link": "https://investinglive.com/news/japan-s-trade-deficit-comes-in-at-half-the-expected-size-as-exports-jump-20-5/",
+      "time": "00:15",
+      "ts": 1794960953000,
+      "featured": false,
+      "lang": "en",
+      "date": "18 Nov",
+      "datetime": "2026-11-18T00:15:53+00:00",
       "recent": true
     },
     {
@@ -545,7 +562,7 @@
       "lang": "en",
       "date": "17 Nov",
       "datetime": "2026-11-17T07:00:33+00:00",
-      "recent": true
+      "recent": false
     },
     {
       "id": "911d48f44bb9",
