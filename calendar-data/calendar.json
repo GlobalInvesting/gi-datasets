@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-18T02:32:00Z",
-  "generatedAt": "2026-11-18T02:32:00Z",
+  "lastUpdate": "2026-11-18T07:19:05Z",
+  "generatedAt": "2026-11-18T07:19:05Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -2869,34 +2869,34 @@
       "std": 0.141421
     },
     "GBP/ppi input mom": {
-      "n": 4,
-      "mean": 1.0,
-      "std": 1.134313
+      "n": 5,
+      "mean": 1.08,
+      "std": 0.998499
     },
     "GBP/ppi input yoy": {
-      "n": 4,
-      "mean": 1.775,
-      "std": 2.746361
+      "n": 5,
+      "mean": 1.76,
+      "std": 2.378655
     },
     "GBP/ppi output mom": {
-      "n": 4,
-      "mean": 0.35,
-      "std": 0.341565
+      "n": 5,
+      "mean": 0.24,
+      "std": 0.384708
     },
     "GBP/ppi output yoy": {
-      "n": 4,
-      "mean": 0.15,
-      "std": 1.001665
+      "n": 5,
+      "mean": 0.12,
+      "std": 0.870057
     },
     "GBP/inflation rate mom": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 0.057735
+      "n": 4,
+      "mean": 0.025,
+      "std": 0.05
     },
     "GBP/inflation rate yoy": {
-      "n": 3,
-      "mean": 0.233333,
-      "std": 0.321455
+      "n": 4,
+      "mean": 0.15,
+      "std": 0.310913
     },
     "GBP/core cpi yoy": {
       "n": 2,
@@ -2914,32 +2914,32 @@
       "std": 0.0
     },
     "GBP/core inflation rate yoy": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.033333,
+      "std": 0.057735
     },
     "GBP/core inflation rate mom": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.033333,
+      "std": 0.057735
     },
     "GBP/ppi core output mom": {
-      "n": 2,
-      "mean": -0.0,
-      "std": 0.141421
+      "n": 3,
+      "mean": -0.033333,
+      "std": 0.11547
     },
     "GBP/ppi core output yoy": {
-      "n": 2,
-      "mean": -0.05,
-      "std": 0.212132
+      "n": 3,
+      "mean": -0.066667,
+      "std": 0.152753
     },
     "GBP/retail price index mom": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": 0.1,
+      "std": 0.1
     },
     "GBP/retail price index yoy": {
-      "n": 2,
+      "n": 3,
       "mean": 0.1,
       "std": 0.0
     },
@@ -97084,9 +97084,9 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Output YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "5.1%",
       "forecast": "5.1%",
-      "previous": "4.6%"
+      "previous": "4.7%"
     },
     {
       "date": "18 Nov",
@@ -97097,7 +97097,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Core Inflation Rate YoY",
       "impact": "medium",
-      "actual": null,
+      "actual": "2.8%",
       "forecast": "2.8%",
       "previous": "2.8%"
     },
@@ -97110,7 +97110,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Core Inflation Rate MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.2%"
     },
@@ -97123,7 +97123,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Inflation Rate YoY",
       "impact": "high",
-      "actual": null,
+      "actual": "3.6%",
       "forecast": "3.7%",
       "previous": "3.5%"
     },
@@ -97136,7 +97136,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Retail Price Index MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "0.4%",
       "previous": "0.1%"
     },
@@ -97149,7 +97149,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Inflation Rate MoM",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.5%",
       "forecast": "0.5%",
       "previous": "0.4%"
     },
@@ -97162,7 +97162,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Output MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.4%",
       "forecast": "0.6%",
       "previous": "0.8%"
     },
@@ -97175,7 +97175,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Core Output MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "0.1%",
       "forecast": "0.2%",
       "previous": "0.2%"
     },
@@ -97188,7 +97188,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Core Output YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "2.9%",
       "forecast": "3.0%",
       "previous": "2.9%"
     },
@@ -97201,7 +97201,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Input MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "2.2%",
       "forecast": "0.8%",
       "previous": "1.5%"
     },
@@ -97214,7 +97214,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom PPI Input YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "10.8%",
       "forecast": "9.1%",
       "previous": "8.3%"
     },
@@ -97227,7 +97227,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Retail Price Index YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "4.1%",
       "previous": "3.9%"
     },
@@ -97240,7 +97240,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Services Inflation YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.7%",
       "forecast": "3.8%",
       "previous": "3.7%"
     },
