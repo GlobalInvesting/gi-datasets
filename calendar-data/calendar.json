@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-19T15:02:45Z",
-  "generatedAt": "2026-11-19T15:02:45Z",
+  "lastUpdate": "2026-11-19T15:06:51Z",
+  "generatedAt": "2026-11-19T15:06:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,9 +9,9 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-19",
   "rangeTo": "2026-12-03",
-  "totalEvents": 7865,
+  "totalEvents": 7867,
   "currencyCounts": {
-    "GBP": 697,
+    "GBP": 699,
     "EUR": 2328,
     "USD": 2515,
     "CHF": 178,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "high": 1675,
     "medium": 3107,
-    "low": 3083
+    "low": 3085
   },
   "surpriseStats": {
     "EUR/netherlands consumer confidence": {
@@ -97993,19 +97993,6 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Ireland Average Weekly Earnings YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.4%",
-      "previous": "3.9%"
-    },
-    {
-      "date": "19 Nov",
-      "dateISO": "2026-11-19",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Portugal Current Account",
       "impact": "low",
       "actual": "637.58M",
@@ -99244,7 +99231,7 @@
       "event": "Croatia Unemployment Rate",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.5%",
       "previous": "3.4%"
     },
     {
@@ -99270,7 +99257,7 @@
       "event": "Ireland Wholesale Prices MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.6%",
       "previous": "0.5%"
     },
     {
@@ -99296,7 +99283,7 @@
       "event": "Ireland Wholesale Prices YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "7.3%",
       "previous": "7.4%"
     },
     {
@@ -99592,11 +99579,24 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Austria ATB Auction",
+      "event": "Austria ATB 2027-02-25 (G) Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "11:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom CBI Distributive Trades",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-14",
+      "previous": "-10"
     },
     {
       "date": "24 Nov",
@@ -99934,7 +99934,7 @@
       "event": "Slovenia Tourist Arrivals YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "6.4%",
       "previous": "11.4%"
     },
     {
@@ -99954,14 +99954,14 @@
       "date": "25 Nov",
       "dateISO": "2026-11-25",
       "timeUTC": "11:00",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom CBI Distributive Trades",
-      "impact": "medium",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Average Weekly Earnings YoY",
+      "impact": "low",
       "actual": null,
-      "forecast": "-14",
-      "previous": "-10"
+      "forecast": "4.4%",
+      "previous": "3.9%"
     },
     {
       "date": "25 Nov",
@@ -100814,6 +100814,32 @@
     {
       "date": "26 Nov",
       "dateISO": "2026-11-26",
+      "timeUTC": "10:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Financial Stability Report",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "26 Nov",
+      "dateISO": "2026-11-26",
+      "timeUTC": "10:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE FPC Meeting Minutes",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "26 Nov",
+      "dateISO": "2026-11-26",
       "timeUTC": "11:00",
       "country": "EUR",
       "currency": "EUR",
@@ -100821,7 +100847,7 @@
       "event": "Greece Total Credit YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "2.5%",
       "previous": "2.4%"
     },
     {
@@ -100938,7 +100964,7 @@
       "event": "Ireland Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "61.7",
       "previous": "61.6"
     },
     {
@@ -101488,7 +101514,7 @@
       "event": "Slovenia Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "4.7%",
       "previous": "5.4%"
     },
     {
@@ -101501,8 +101527,8 @@
       "event": "Portugal Consumer Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": "-23.10"
+      "forecast": "-23.6",
+      "previous": "-23.1"
     },
     {
       "date": "27 Nov",
@@ -101514,7 +101540,7 @@
       "event": "Slovenia Retail Sales MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "-0.4%",
       "previous": "0.8%"
     },
     {
@@ -101527,7 +101553,7 @@
       "event": "Portugal Business Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "2.5",
       "previous": "2.6"
     },
     {
@@ -101684,7 +101710,7 @@
       "impact": "low",
       "actual": null,
       "forecast": "5.2%",
-      "previous": null
+      "previous": "5.2%"
     },
     {
       "date": "27 Nov",
@@ -101722,7 +101748,7 @@
       "event": "Portugal Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "-0.1%",
       "previous": "0.1%"
     },
     {
@@ -101761,7 +101787,7 @@
       "event": "Ireland Retail Sales MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.3%",
       "previous": "-0.4%"
     },
     {
@@ -101774,7 +101800,7 @@
       "event": "Ireland Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.0%",
       "previous": "2.9%"
     },
     {
@@ -101787,8 +101813,8 @@
       "event": "Portugal Retail Sales MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": "-1%"
+      "forecast": "0.4%",
+      "previous": "-1.0%"
     },
     {
       "date": "27 Nov",
@@ -103464,7 +103490,7 @@
       "event": "Austria Unemployment Rate",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "7.4%",
       "previous": "7.3%"
     },
     {
@@ -103477,7 +103503,7 @@
       "event": "Austria Unemployed Persons",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "315.0K",
       "previous": "314.5K"
     },
     {
@@ -103504,7 +103530,7 @@
       "event": "Austria Inflation Rate YoY Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.6%",
       "previous": "3.6%"
     },
     {
@@ -103517,7 +103543,7 @@
       "event": "Austria Harmonised Inflation Rate YoY Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "3.6%",
       "previous": "3.5%"
     },
     {
@@ -103530,7 +103556,7 @@
       "event": "Austria Harmonised Inflation Rate MoM Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.3%",
       "previous": "0.4%"
     },
     {
@@ -103543,7 +103569,7 @@
       "event": "Austria Inflation Rate MoM Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.3%",
       "previous": "0.3%"
     },
     {
@@ -103947,7 +103973,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.707%"
     },
     {
       "date": "1 Dec",
@@ -103973,7 +103999,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "3.152%"
     },
     {
       "date": "1 Dec",
