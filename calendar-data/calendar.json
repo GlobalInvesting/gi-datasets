@@ -1,158 +1,33 @@
 {
-  "lastUpdate": "2026-11-18T23:50:55Z",
-  "generatedAt": "2026-11-18T23:50:55Z",
+  "lastUpdate": "2026-11-19T00:00:59Z",
+  "generatedAt": "2026-11-19T00:00:59Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-11-18",
-  "rangeTo": "2026-12-02",
-  "totalEvents": 7841,
+  "rangeFrom": "2025-11-19",
+  "rangeTo": "2026-12-03",
+  "totalEvents": 7863,
   "currencyCounts": {
-    "USD": 2512,
-    "CAD": 438,
-    "JPY": 607,
-    "GBP": 697,
-    "EUR": 2313,
-    "CHF": 179,
+    "GBP": 695,
+    "EUR": 2328,
+    "USD": 2515,
+    "CHF": 178,
     "NZD": 197,
-    "AUD": 452,
-    "SEK": 261,
-    "NOK": 185
+    "JPY": 608,
+    "CAD": 436,
+    "AUD": 455,
+    "SEK": 263,
+    "NOK": 188
   },
   "impactCounts": {
-    "high": 1679,
-    "medium": 3104,
-    "low": 3058
+    "high": 1675,
+    "medium": 3107,
+    "low": 3081
   },
   "surpriseStats": {
-    "AUD/consumer inflation expectations": {
-      "n": 2,
-      "mean": 0.4,
-      "std": 0.141421
-    },
-    "AUD/employment change": {
-      "n": 3,
-      "mean": -30.133333,
-      "std": 35.140338
-    },
-    "AUD/unemployment rate": {
-      "n": 3,
-      "mean": -0.133333,
-      "std": 0.057735
-    },
-    "EUR/netherlands unemployment rate": {
-      "n": 3,
-      "mean": 0.033333,
-      "std": 0.057735
-    },
-    "EUR/germany ppi mom": {
-      "n": 3,
-      "mean": 0.133333,
-      "std": 0.378594
-    },
-    "EUR/germany ppi yoy": {
-      "n": 3,
-      "mean": 3.866667,
-      "std": 3.412233
-    },
-    "EUR/greece current account": {
-      "n": 3,
-      "mean": -0.180667,
-      "std": 0.8774
-    },
-    "GBP/cbi industrial trends orders": {
-      "n": 3,
-      "mean": 10.666667,
-      "std": 22.810816
-    },
-    "CAD/rmpi mom": {
-      "n": 3,
-      "mean": 2.4,
-      "std": 1.907878
-    },
-    "CAD/new housing price index mom": {
-      "n": 7,
-      "mean": -0.128571,
-      "std": 0.221467
-    },
-    "CAD/ppi yoy": {
-      "n": 3,
-      "mean": 0.666667,
-      "std": 0.46188
-    },
-    "CAD/ppi mom": {
-      "n": 3,
-      "mean": 0.9,
-      "std": 0.173205
-    },
-    "USD/philadelphia fed manufacturing index": {
-      "n": 6,
-      "mean": 8.75,
-      "std": 18.838126
-    },
-    "USD/philadelphia fed employment": {
-      "n": 3,
-      "mean": 9.466667,
-      "std": 15.232969
-    },
-    "USD/initial jobless claims": {
-      "n": 12,
-      "mean": 1.333333,
-      "std": 6.705945
-    },
-    "USD/continuing jobless claims": {
-      "n": 12,
-      "mean": -142.768667,
-      "std": 490.18166
-    },
-    "USD/jobless claims 4-week average": {
-      "n": 11,
-      "mean": -0.272727,
-      "std": 1.97628
-    },
-    "USD/cb leading economic index mom": {
-      "n": 3,
-      "mean": 0.1,
-      "std": 0.173205
-    },
-    "NZD/trade balance 12-months": {
-      "n": 4,
-      "mean": -0.95275,
-      "std": 0.908479
-    },
-    "GBP/gfk consumer confidence": {
-      "n": 2,
-      "mean": 13.5,
-      "std": 13.435029
-    },
-    "JPY/cpi excl. food and energy yoy": {
-      "n": 3,
-      "mean": 0.366667,
-      "std": 0.208167
-    },
-    "JPY/core cpi yoy": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 0.7
-    },
-    "JPY/inflation rate mom": {
-      "n": 3,
-      "mean": -0.066667,
-      "std": 0.351188
-    },
-    "JPY/inflation rate yoy": {
-      "n": 5,
-      "mean": -0.02,
-      "std": 0.248998
-    },
-    "JPY/core inflation rate yoy": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 0.1
-    },
     "EUR/netherlands consumer confidence": {
       "n": 3,
       "mean": 1.0,
@@ -718,10 +593,25 @@
       "mean": 0.05,
       "std": 0.427785
     },
+    "USD/initial jobless claims": {
+      "n": 11,
+      "mean": 1.454545,
+      "std": 7.019453
+    },
+    "USD/continuing jobless claims": {
+      "n": 11,
+      "mean": -155.745636,
+      "std": 511.94039
+    },
     "USD/initial jobless claims 4-week average": {
       "n": 9,
       "mean": 0.719111,
       "std": 1.364111
+    },
+    "USD/jobless claims 4-week average": {
+      "n": 10,
+      "mean": 0.1,
+      "std": 1.62532
     },
     "USD/retail inventories ex autos mom": {
       "n": 3,
@@ -3098,6 +2988,11 @@
       "mean": -0.1,
       "std": 0.1
     },
+    "EUR/netherlands unemployment rate": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 0.070711
+    },
     "EUR/austria harmonised inflation rate yoy final": {
       "n": 3,
       "mean": 0.033333,
@@ -3173,10 +3068,30 @@
       "mean": 1.15,
       "std": 2.616295
     },
+    "CAD/rmpi mom": {
+      "n": 2,
+      "mean": 3.5,
+      "std": 0.141421
+    },
     "CAD/rmpi yoy": {
       "n": 2,
       "mean": 10.0,
       "std": 6.081118
+    },
+    "CAD/new housing price index mom": {
+      "n": 5,
+      "mean": -0.18,
+      "std": 0.238747
+    },
+    "CAD/ppi mom": {
+      "n": 2,
+      "mean": 0.85,
+      "std": 0.212132
+    },
+    "CAD/ppi yoy": {
+      "n": 2,
+      "mean": 0.8,
+      "std": 0.565685
     },
     "CAD/raw materials prices mom": {
       "n": 2,
@@ -3207,6 +3122,16 @@
       "n": 3,
       "mean": -2.533333,
       "std": 1.962991
+    },
+    "USD/philadelphia fed manufacturing index": {
+      "n": 4,
+      "mean": -0.9,
+      "std": 14.060109
+    },
+    "USD/philadelphia fed employment": {
+      "n": 2,
+      "mean": 0.85,
+      "std": 4.313351
     },
     "USD/philadelphia fed business conditions": {
       "n": 2,
@@ -3258,15 +3183,55 @@
       "mean": -1.243333,
       "std": 0.845656
     },
+    "NZD/trade balance 12-months": {
+      "n": 3,
+      "mean": -0.518,
+      "std": 0.322424
+    },
+    "JPY/inflation rate yoy": {
+      "n": 4,
+      "mean": -0.075,
+      "std": 0.25
+    },
+    "JPY/cpi excl. food and energy yoy": {
+      "n": 2,
+      "mean": 0.45,
+      "std": 0.212132
+    },
+    "JPY/core cpi yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 0.919239
+    },
+    "JPY/core inflation rate yoy": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.141421
+    },
     "JPY/inflation rate ex-food and energy yoy": {
       "n": 2,
       "mean": 0.2,
       "std": 0.282843
     },
+    "JPY/inflation rate mom": {
+      "n": 2,
+      "mean": -0.25,
+      "std": 0.212132
+    },
     "JPY/boj interest rate decision": {
       "n": 2,
       "mean": 0.0,
       "std": 0.0
+    },
+    "EUR/germany ppi mom": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.424264
+    },
+    "EUR/germany ppi yoy": {
+      "n": 2,
+      "mean": 5.65,
+      "std": 2.05061
     },
     "EUR/slovakia current account": {
       "n": 3,
@@ -3358,6 +3323,11 @@
       "mean": 0.1,
       "std": 0.0
     },
+    "USD/cb leading economic index mom": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.0
+    },
     "EUR/estonia ppi mom": {
       "n": 2,
       "mean": 0.55,
@@ -3367,6 +3337,11 @@
       "n": 2,
       "mean": 0.55,
       "std": 0.212132
+    },
+    "EUR/greece current account": {
+      "n": 2,
+      "mean": 0.2305,
+      "std": 0.724784
     },
     "EUR/slovenia ppi yoy": {
       "n": 2,
@@ -3422,6 +3397,11 @@
       "n": 2,
       "mean": -0.65,
       "std": 0.919239
+    },
+    "GBP/cbi industrial trends orders": {
+      "n": 2,
+      "mean": 8.5,
+      "std": 31.819805
     },
     "EUR/consumer confidence flash": {
       "n": 2,
@@ -3518,10 +3498,20 @@
       "mean": -0.55,
       "std": 1.343503
     },
+    "AUD/employment change": {
+      "n": 2,
+      "mean": -21.5,
+      "std": 44.971991
+    },
     "AUD/participation rate": {
       "n": 2,
       "mean": 0.05,
       "std": 0.353553
+    },
+    "AUD/unemployment rate": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.0
     },
     "EUR/france business climate": {
       "n": 2,
@@ -4235,138 +4225,6 @@
     }
   },
   "events": [
-    {
-      "currency": "USD",
-      "event": "Continuing Jobless Claims",
-      "dateISO": "2025-11-18",
-      "actual": "1947K",
-      "forecast": "1930.0",
-      "previous": "1916.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Initial Jobless Claims",
-      "dateISO": "2025-11-18",
-      "actual": "232K",
-      "forecast": "223.0",
-      "previous": "219.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Jobless Claims 4-week Average",
-      "dateISO": "2025-11-18",
-      "actual": "58K",
-      "forecast": "247.0",
-      "previous": "237.75",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "CAD",
-      "event": "Housing Starts",
-      "dateISO": "2025-11-18",
-      "actual": "232.8K",
-      "forecast": "265.0",
-      "previous": "279.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "13:15"
-    },
-    {
-      "currency": "USD",
-      "event": "ADP Employment Change Weekly",
-      "dateISO": "2025-11-18",
-      "actual": "-2.5K",
-      "forecast": "",
-      "previous": "-11.25",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:15"
-    },
-    {
-      "currency": "USD",
-      "event": "Factory Orders MoM",
-      "dateISO": "2025-11-18",
-      "actual": "1.4%",
-      "forecast": "1.4",
-      "previous": "-1.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "NAHB Housing Market Index",
-      "dateISO": "2025-11-18",
-      "actual": "38",
-      "forecast": "37.0",
-      "previous": "37.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Net Long-term TIC Flows",
-      "dateISO": "2025-11-18",
-      "actual": "$134.2B",
-      "forecast": "126.1",
-      "previous": "39.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "21:00"
-    },
-    {
-      "currency": "USD",
-      "event": "API Crude Oil Stock Change",
-      "dateISO": "2025-11-18",
-      "actual": "4.4M",
-      "forecast": "",
-      "previous": "1.3",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "21:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Machinery Orders MoM",
-      "dateISO": "2025-11-18",
-      "actual": "4.2%",
-      "forecast": "2.5",
-      "previous": "-0.9",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:50"
-    },
-    {
-      "currency": "JPY",
-      "event": "Machinery Orders YoY",
-      "dateISO": "2025-11-18",
-      "actual": "11.6%",
-      "forecast": "5.4",
-      "previous": "1.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:50"
-    },
     {
       "currency": "GBP",
       "event": "Inflation Rate YoY",
@@ -82545,37 +82403,11 @@
       "country": "NZD",
       "currency": "NZD",
       "flag": "🇳🇿",
-      "event": "RBNZ Rate Statement",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "01:00",
-      "country": "NZD",
-      "currency": "NZD",
-      "flag": "🇳🇿",
       "event": "RBNZ Interest Rate Decision",
       "impact": "high",
       "actual": "2.75%",
       "forecast": null,
       "previous": "2.75%"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "07:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Germany GfK Consumer Climate",
-      "impact": "medium",
-      "actual": null,
-      "forecast": "-29.0",
-      "previous": "-30.6"
     },
     {
       "date": "28 Oct",
@@ -82617,19 +82449,6 @@
       "actual": "4.9%",
       "forecast": "4.8%",
       "previous": "4.5%"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "09:00",
-      "country": "CHF",
-      "currency": "CHF",
-      "flag": "🇨🇭",
-      "event": "Switzerland Credit Suisse Economic Expectations",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "28 Oct",
@@ -82848,32 +82667,6 @@
       "date": "28 Oct",
       "dateISO": "2026-10-28",
       "timeUTC": "12:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Autumn Budget",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "12:30",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "United Kingdom Autumn Forecast Statement",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "12:30",
       "country": "USD",
       "currency": "USD",
       "flag": "🇺🇸",
@@ -82971,37 +82764,11 @@
       "country": "CAD",
       "currency": "CAD",
       "flag": "🇨🇦",
-      "event": "BoC Monetary Policy Report",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "13:45",
-      "country": "CAD",
-      "currency": "CAD",
-      "flag": "🇨🇦",
       "event": "BoC Interest Rate Decision",
       "impact": "high",
       "actual": "2.50%",
       "forecast": null,
       "previous": "2.25%"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "13:45",
-      "country": "CAD",
-      "currency": "CAD",
-      "flag": "🇨🇦",
-      "event": "BoC Rate Statement",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "2026-10-28",
@@ -83196,19 +82963,6 @@
       "country": "USD",
       "currency": "USD",
       "flag": "🇺🇸",
-      "event": "FOMC Statement",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "18:00",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
       "event": "Fed Interest Rate Decision",
       "impact": "high",
       "actual": "4.00%",
@@ -83228,19 +82982,6 @@
       "forecast": "4.0%",
       "previous": "4%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "28 Oct",
-      "dateISO": "2026-10-28",
-      "timeUTC": "18:30",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "FOMC Press Conference",
-      "impact": "high",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "28 Oct",
@@ -105010,6 +104751,553 @@
       "currency": "JPY",
       "flag": "🇯🇵",
       "event": "Japan Foreign Investment in Japan Stocks",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:00",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand ANZ Commodity Price Index m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.5%",
+      "previous": "0.6%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:30",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia Exports m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "2.3%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:30",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia Imports m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-3.3%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:30",
+      "country": "AUD",
+      "currency": "AUD",
+      "flag": "🇦🇺",
+      "event": "Australia Trade Balance",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "1.812B",
+      "previous": "2.826B"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "00:30",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan au Jibun Bank Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "01:01",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland AIB Services PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "03:35",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan 10-Year JGB Auction",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "2.768%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "07:30",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Silf/Swedbank Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "56.6",
+      "previous": "55.7",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "07:30",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Silf/Swedbank Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "57.0"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "54.7",
+      "previous": "57.2"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:15",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "56.2"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Italy S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "51.9",
+      "previous": "52.0"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:45",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Italy S&P Global Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "50.8"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France S&P Global Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:55",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:55",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany S&P Global Composite PMI",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area S&P Global Services PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "09:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "09:50",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "France 10-Year OAT Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "4.740%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area PPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.5%",
+      "previous": "2.5%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Euro Area PPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "13.5%",
+      "previous": "11.1%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "10:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway HPI y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.0%",
+      "previous": "1.9%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "10:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway HPI n.s.a. m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-1.0%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "10:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway HPI s.a. m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.1%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany New Car Registrations m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-0.9%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany New Car Registrations y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "1.7%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "13:30",
+      "country": "CAD",
+      "currency": "CAD",
+      "flag": "🇨🇦",
+      "event": "Canada Labor Productivity q/q",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "1.0%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "14:45",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States S&P Global Services PMI",
+      "impact": "high",
+      "actual": null,
+      "forecast": "59.9",
+      "previous": "58.8"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "14:45",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States S&P Global Composite PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "56.9",
+      "previous": "55.9"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States ISM Non-Manufacturing PMI",
+      "impact": "high",
+      "actual": null,
+      "forecast": "55.2",
+      "previous": "54.5"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States ISM Non-Manufacturing Employment",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "48.5",
+      "previous": "51.4"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States ISM Non-Manufacturing New Orders",
+      "impact": "low",
+      "actual": null,
+      "forecast": "59.3",
+      "previous": "55.9"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States ISM Non-Manufacturing Prices Paid",
+      "impact": "high",
+      "actual": null,
+      "forecast": "69.8",
+      "previous": "73.0"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States ISM Non-Manufacturing Business Activity",
+      "impact": "low",
+      "actual": null,
+      "forecast": "51.9",
+      "previous": "53.8"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Factory Orders m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "1.8%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Factory Orders excl. Transportation m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.9%",
+      "previous": "1.3%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "15:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Natural Gas Storage Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 4-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 8-Week Bill Auction",
       "impact": "low",
       "actual": null,
       "forecast": null,
