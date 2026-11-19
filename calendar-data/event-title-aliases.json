@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T15:57:57Z",
+  "generatedAt": "2026-11-19T19:06:00Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 177,
+  "aliasCount": 176,
   "aliases": [
     {
       "currency": "AUD",
@@ -2120,25 +2120,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "Cleveland Fed Median CPI m/m",
-      "yahoo_title": "Cleveland Fed CPI*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-10",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.3,
-          "actual_yahoo": 0.3,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      }
-    },
-    {
       "currency": "NZD",
       "primary_title": "New Zealand Electronic Card Retail Sales m/m",
       "yahoo_title": "Elec Card Retail Sale MM",
@@ -3241,25 +3222,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States EIA Refinery Utilization Rate Change",
-      "yahoo_title": "EIA Wkly Refn Util*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
-        }
-      }
-    },
-    {
       "currency": "JPY",
       "primary_title": "Japan Core Machinery Orders m/m",
       "yahoo_title": "Machinery Orders MM *",
@@ -3484,6 +3446,25 @@
           "actual_yahoo_raw": "-0.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Kansas City Fed Manufacturing Production",
+      "yahoo_title": "KC Fed Manufacturing*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 6.0,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 23.0,
+          "previous_primary": 16.0,
+          "previous_yahoo": 16.0,
+          "actual_yahoo_raw": "23",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "16"
         }
       }
     },
