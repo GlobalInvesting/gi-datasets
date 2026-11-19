@@ -1,99 +1,10 @@
 {
-  "generatedAt": "2026-11-18T22:10:24Z",
+  "generatedAt": "2026-11-19T02:44:35Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 177,
+  "aliasCount": 174,
   "aliases": [
-    {
-      "currency": "AUD",
-      "primary_title": "RBA Trimmed Mean CPI q/q",
-      "secondary_title": "Australia Quarterly RBA Trimmed Mean CPI QoQ",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": 0.9,
-          "forecast_secondary": 0.9,
-          "actual_primary": 1.0,
-          "actual_secondary": 0.3,
-          "previous_primary": 1.0,
-          "previous_secondary": 0.8,
-          "actual_secondary_raw": "0.3%",
-          "forecast_secondary_raw": "0.9%",
-          "previous_secondary_raw": "0.8%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Wholesale Inventories m/m",
-      "secondary_title": "United States Wholesale Inventories MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-09",
-          "forecast_primary": 0.6,
-          "forecast_secondary": 0.6,
-          "actual_primary": 0.7,
-          "actual_secondary": 0.7,
-          "previous_primary": 0.6,
-          "previous_secondary": 0.6,
-          "actual_secondary_raw": "0.7%",
-          "forecast_secondary_raw": "0.6%",
-          "previous_secondary_raw": "0.6%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Retail Inventories excl. Autos m/m",
-      "secondary_title": "United States Retail Inventories Ex Autos MoM Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_secondary": -0.1,
-          "actual_primary": 0.4,
-          "actual_secondary": 0.4,
-          "previous_primary": 0.0,
-          "previous_secondary": 0.1,
-          "actual_secondary_raw": "0.4%",
-          "forecast_secondary_raw": "-0.1%",
-          "previous_secondary_raw": "0.1%"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "BoC Interest Rate Decision",
-      "secondary_title": "Canada BoC Interest Rate Decision",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_secondary": 2.5,
-          "actual_primary": 2.5,
-          "actual_secondary": 2.5,
-          "previous_primary": 2.25,
-          "previous_secondary": 2.25,
-          "actual_secondary_raw": "2.5%",
-          "forecast_secondary_raw": "2.5%",
-          "previous_secondary_raw": "2.25%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.5,
-          "actual_yahoo": 2.5,
-          "previous_primary": 2.25,
-          "previous_yahoo": 2.25,
-          "actual_yahoo_raw": "2.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.25"
-        }
-      },
-      "yahoo_title": "BoC Rate Decision"
-    },
     {
       "currency": "AUD",
       "primary_title": "Australia Export Price Index q/q",
@@ -110,21 +21,8 @@
           "actual_secondary_raw": "1.4%",
           "forecast_secondary_raw": "1.3%",
           "previous_secondary_raw": "1.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": -0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 1.4,
-          "actual_yahoo": 1.4,
-          "previous_primary": 1.1,
-          "previous_yahoo": 1.1,
-          "actual_yahoo_raw": "1.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.1"
         }
-      },
-      "yahoo_title": "Export Prices"
+      }
     },
     {
       "currency": "AUD",
@@ -142,21 +40,8 @@
           "actual_secondary_raw": "-1.1%",
           "forecast_secondary_raw": "1.4%",
           "previous_secondary_raw": "5.7%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.3,
-          "forecast_yahoo": null,
-          "actual_primary": -1.1,
-          "actual_yahoo": -1.1,
-          "previous_primary": 5.7,
-          "previous_yahoo": 5.7,
-          "actual_yahoo_raw": "-1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.7"
         }
-      },
-      "yahoo_title": "Import Prices"
+      }
     },
     {
       "currency": "JPY",
@@ -1805,6 +1690,25 @@
     },
     {
       "currency": "USD",
+      "primary_title": "United States Wholesale Inventories m/m",
+      "secondary_title": "United States Wholesale Inventories MoM",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-09",
+          "forecast_primary": 0.6,
+          "forecast_secondary": 0.6,
+          "actual_primary": 0.7,
+          "actual_secondary": 0.7,
+          "previous_primary": 0.6,
+          "previous_secondary": 0.6,
+          "actual_secondary_raw": "0.7%",
+          "forecast_secondary_raw": "0.6%",
+          "previous_secondary_raw": "0.6%"
+        }
+      }
+    },
+    {
+      "currency": "USD",
       "primary_title": "United States Wholesale Sales m/m",
       "secondary_title": "United States Wholesale Sales MoM",
       "evidence": {
@@ -2135,25 +2039,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "Fed Interest Rate Decision",
-      "yahoo_title": "FOMC Decision Fed Funds Tgt Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-28",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 4.0,
-          "actual_yahoo": 4.0,
-          "previous_primary": 4.0,
-          "previous_yahoo": 3.88,
-          "actual_yahoo_raw": "4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.88"
-        }
-      }
-    },
-    {
       "currency": "EUR",
       "primary_title": "ECB Interest Rate Decision",
       "yahoo_title": "ECB Refinancing Rate *",
@@ -2435,63 +2320,6 @@
           "actual_yahoo_raw": "0.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.9"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Corporate Goods Price Index m/m",
-      "yahoo_title": "Corp Goods Price MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-11",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": -0.3,
-          "previous_yahoo": -0.3,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Corporate Goods Price Index y/y",
-      "yahoo_title": "Corp Goods Price YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-11",
-          "forecast_primary": 6.1,
-          "forecast_yahoo": null,
-          "actual_primary": 7.1,
-          "actual_yahoo": 7.1,
-          "previous_primary": 6.8,
-          "previous_yahoo": 6.8,
-          "actual_yahoo_raw": "7.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom RICS House Price Balance",
-      "yahoo_title": "RICS Housing Survey*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -32.0,
-          "forecast_yahoo": null,
-          "actual_primary": -36.0,
-          "actual_yahoo": -36.0,
-          "previous_primary": -34.0,
-          "previous_yahoo": -32.0,
-          "actual_yahoo_raw": "-36",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-32"
         }
       }
     },
@@ -3575,6 +3403,82 @@
           "actual_yahoo_raw": "0.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.7"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core Machinery Orders m/m",
+      "yahoo_title": "Machinery Orders MM *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": -1.1,
+          "forecast_yahoo": null,
+          "actual_primary": -0.3,
+          "actual_yahoo": -0.3,
+          "previous_primary": 5.2,
+          "previous_yahoo": 5.2,
+          "actual_yahoo_raw": "-0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "5.2"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core Machinery Orders y/y",
+      "yahoo_title": "Machinery Orders YY *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-18",
+          "forecast_primary": 21.1,
+          "forecast_yahoo": null,
+          "actual_primary": 13.4,
+          "actual_yahoo": 13.4,
+          "previous_primary": 18.6,
+          "previous_yahoo": 18.6,
+          "actual_yahoo_raw": "13.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "18.6"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Participation Rate",
+      "yahoo_title": "Participation Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 66.9,
+          "forecast_yahoo": null,
+          "actual_primary": 66.6,
+          "actual_yahoo": 66.6,
+          "previous_primary": 66.8,
+          "previous_yahoo": 66.8,
+          "actual_yahoo_raw": "66.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "66.8"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Unemployment Rate",
+      "yahoo_title": "Unemployment Rate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 4.8,
+          "forecast_yahoo": null,
+          "actual_primary": 4.9,
+          "actual_yahoo": 4.9,
+          "previous_primary": 4.7,
+          "previous_yahoo": 4.7,
+          "actual_yahoo_raw": "4.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "4.7"
         }
       }
     },
