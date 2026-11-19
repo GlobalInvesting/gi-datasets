@@ -1,5 +1,5 @@
 {
-  "runTimestamp": "2026-11-19T18:56:26.170476Z",
+  "runTimestamp": "2026-11-19T21:58:03.935056Z",
   "runDate": "2026-11-19",
   "crossCheckOk": true,
   "currencies": {
@@ -11,9 +11,9 @@
       "issues": []
     },
     "EUR": {
-      "status": "fallback",
+      "status": "cached",
       "rate": "2.65",
-      "source": "ECB-SDMX (merged history)",
+      "source": "cached-file",
       "date": "2026-11-01",
       "issues": []
     },
@@ -75,6 +75,8 @@
     }
   },
   "issues": [],
-  "warnings": [],
-  "overallStatus": "ok"
+  "warnings": [
+    "EUR: kept cached 2026-11-01 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source"
+  ],
+  "overallStatus": "degraded_cached"
 }
