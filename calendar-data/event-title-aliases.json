@@ -1,582 +1,10 @@
 {
-  "generatedAt": "2026-11-19T22:19:43Z",
+  "generatedAt": "2026-11-20T02:30:38Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 175,
+  "aliasCount": 153,
   "aliases": [
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Export Price Index q/q",
-      "secondary_title": "Australia Export Prices QoQ",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": -0.2,
-          "forecast_secondary": 1.3,
-          "actual_primary": 1.4,
-          "actual_secondary": 1.4,
-          "previous_primary": 1.1,
-          "previous_secondary": 1.1,
-          "actual_secondary_raw": "1.4%",
-          "forecast_secondary_raw": "1.3%",
-          "previous_secondary_raw": "1.1%"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Import Price Index q/q",
-      "secondary_title": "Australia Import Prices QoQ",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.3,
-          "forecast_secondary": 1.4,
-          "actual_primary": -1.1,
-          "actual_secondary": -1.1,
-          "previous_primary": 5.7,
-          "previous_secondary": 5.7,
-          "actual_secondary_raw": "-1.1%",
-          "forecast_secondary_raw": "1.4%",
-          "previous_secondary_raw": "5.7%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Consumer Confidence Index",
-      "secondary_title": "Japan Consumer Confidence",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 34.8,
-          "forecast_secondary": 35.6,
-          "actual_primary": 35.0,
-          "actual_secondary": 35.0,
-          "previous_primary": 35.4,
-          "previous_secondary": 35.4,
-          "actual_secondary_raw": "35.0",
-          "forecast_secondary_raw": "35.6",
-          "previous_secondary_raw": "35.4"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Industrial Confidence Indicator",
-      "secondary_title": "Euro Area Industrial Sentiment",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": -4.6,
-          "forecast_secondary": -4.0,
-          "actual_primary": -3.4,
-          "actual_secondary": -3.4,
-          "previous_primary": -3.8,
-          "previous_secondary": -3.9,
-          "actual_secondary_raw": "-3.4",
-          "forecast_secondary_raw": "-4",
-          "previous_secondary_raw": "-3.9"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Services Sentiment Indicator",
-      "secondary_title": "Euro Area Services Sentiment",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 6.1,
-          "forecast_secondary": 5.5,
-          "actual_primary": 5.3,
-          "actual_secondary": 5.3,
-          "previous_primary": 6.1,
-          "previous_secondary": 5.9,
-          "actual_secondary_raw": "5.3",
-          "forecast_secondary_raw": "5.5",
-          "previous_secondary_raw": "5.9"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Economic Sentiment Indicator",
-      "secondary_title": "Euro Area Economic Sentiment",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 96.3,
-          "forecast_secondary": 97.2,
-          "actual_primary": 96.9,
-          "actual_secondary": 96.9,
-          "previous_primary": 97.9,
-          "previous_secondary": 97.5,
-          "actual_secondary_raw": "96.9",
-          "forecast_secondary_raw": "97.2",
-          "previous_secondary_raw": "97.5"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Consumer Confidence Index",
-      "secondary_title": "Euro Area Consumer Confidence Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": -17.9,
-          "forecast_secondary": -17.9,
-          "actual_primary": -17.9,
-          "actual_secondary": -17.9,
-          "previous_primary": -17.9,
-          "previous_secondary": -16.8,
-          "actual_secondary_raw": "-17.9",
-          "forecast_secondary_raw": "-17.9",
-          "previous_secondary_raw": "-16.8"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Consumer Price Expectations",
-      "secondary_title": "Euro Area Consumer Inflation Expectations",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 41.1,
-          "forecast_secondary": 38.0,
-          "actual_primary": 33.9,
-          "actual_secondary": 33.9,
-          "previous_primary": 35.2,
-          "previous_secondary": 34.7,
-          "actual_secondary_raw": "33.9",
-          "forecast_secondary_raw": "38",
-          "previous_secondary_raw": "34.7"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Industry Selling Price Expectations",
-      "secondary_title": "Euro Area Selling Price Expectations",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 26.1,
-          "forecast_secondary": 22.0,
-          "actual_primary": 24.8,
-          "actual_secondary": 24.8,
-          "previous_primary": 20.3,
-          "previous_secondary": 20.8,
-          "actual_secondary_raw": "24.8",
-          "forecast_secondary_raw": "22",
-          "previous_secondary_raw": "20.8"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Core PCE Price Index m/m",
-      "secondary_title": "United States Core PCE Price Index MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.2,
-          "forecast_secondary": 0.3,
-          "actual_primary": 0.3,
-          "actual_secondary": 0.3,
-          "previous_primary": 0.2,
-          "previous_secondary": 0.3,
-          "actual_secondary_raw": "0.3%",
-          "forecast_secondary_raw": "0.3%",
-          "previous_secondary_raw": "0.3%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Core PCE Price Index y/y",
-      "secondary_title": "United States Core PCE Price Index YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.1,
-          "forecast_secondary": 3.1,
-          "actual_primary": 3.1,
-          "actual_secondary": 3.1,
-          "previous_primary": 3.0,
-          "previous_secondary": 3.0,
-          "actual_secondary_raw": "3.1%",
-          "forecast_secondary_raw": "3.1%",
-          "previous_secondary_raw": "3%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States PCE Price Index y/y",
-      "secondary_title": "United States PCE Price Index YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.3,
-          "forecast_secondary": 3.6,
-          "actual_primary": 3.6,
-          "actual_secondary": 3.6,
-          "previous_primary": 3.4,
-          "previous_secondary": 3.4,
-          "actual_secondary_raw": "3.6%",
-          "forecast_secondary_raw": "3.6%",
-          "previous_secondary_raw": "3.4%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Personal Spending m/m",
-      "secondary_title": "United States Personal Spending MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.9,
-          "forecast_secondary": 0.3,
-          "actual_primary": 0.5,
-          "actual_secondary": 0.5,
-          "previous_primary": 0.9,
-          "previous_secondary": 0.9,
-          "actual_secondary_raw": "0.5%",
-          "forecast_secondary_raw": "0.3%",
-          "previous_secondary_raw": "0.9%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Real PCE m/m",
-      "secondary_title": "United States Real Personal Spending MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 0.1,
-          "forecast_secondary": 0.4,
-          "actual_primary": 0.0,
-          "actual_secondary": 0.0,
-          "previous_primary": 0.6,
-          "previous_secondary": 0.5,
-          "actual_secondary_raw": "0%",
-          "forecast_secondary_raw": "0.4%",
-          "previous_secondary_raw": "0.5%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States GDP q/q",
-      "secondary_title": "United States GDP Growth Rate QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 1.4,
-          "forecast_secondary": 3.1,
-          "actual_primary": 3.4,
-          "actual_secondary": 3.4,
-          "previous_primary": 2.2,
-          "previous_secondary": 2.2,
-          "actual_secondary_raw": "3.4%",
-          "forecast_secondary_raw": "3.1%",
-          "previous_secondary_raw": "2.2%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 1.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.4,
-          "actual_yahoo": 3.4,
-          "previous_primary": 2.2,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "3.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
-        }
-      },
-      "yahoo_title": "GDP Advance"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States GDP Price Index q/q",
-      "secondary_title": "United States GDP Price Index QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.4,
-          "forecast_secondary": 3.6,
-          "actual_primary": 2.3,
-          "actual_secondary": 2.2,
-          "previous_primary": 6.1,
-          "previous_secondary": 6.1,
-          "actual_secondary_raw": "2.2%",
-          "forecast_secondary_raw": "3.6%",
-          "previous_secondary_raw": "6.1%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.4,
-          "forecast_yahoo": null,
-          "actual_primary": 2.3,
-          "actual_yahoo": 2.2,
-          "previous_primary": 6.1,
-          "previous_yahoo": 6.1,
-          "actual_yahoo_raw": "2.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.1"
-        }
-      },
-      "yahoo_title": "GDP Deflator Advance"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Core PCE Price Index q/q",
-      "secondary_title": "United States Core PCE Prices QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.8,
-          "forecast_secondary": 2.3,
-          "actual_primary": 2.5,
-          "actual_secondary": 2.5,
-          "previous_primary": 3.3,
-          "previous_secondary": 3.3,
-          "actual_secondary_raw": "2.5%",
-          "forecast_secondary_raw": "2.3%",
-          "previous_secondary_raw": "3.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.8,
-          "forecast_yahoo": null,
-          "actual_primary": 2.5,
-          "actual_yahoo": 2.5,
-          "previous_primary": 3.3,
-          "previous_yahoo": 3.3,
-          "actual_yahoo_raw": "2.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.3"
-        }
-      },
-      "yahoo_title": "Core PCE Prices Advance"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States PCE Price Index q/q",
-      "secondary_title": "United States PCE Prices QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.9,
-          "forecast_secondary": 2.0,
-          "actual_primary": 2.1,
-          "actual_secondary": 2.1,
-          "previous_primary": 5.0,
-          "previous_secondary": 5.0,
-          "actual_secondary_raw": "2.1%",
-          "forecast_secondary_raw": "2.0%",
-          "previous_secondary_raw": "5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 4.9,
-          "forecast_yahoo": null,
-          "actual_primary": 2.1,
-          "actual_yahoo": 2.1,
-          "previous_primary": 5.0,
-          "previous_yahoo": 5.0,
-          "actual_yahoo_raw": "2.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5"
-        }
-      },
-      "yahoo_title": "PCE Prices Advance"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Real PCE q/q",
-      "secondary_title": "United States Real Consumer Spending QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 3.5,
-          "forecast_secondary": 3.9,
-          "actual_primary": 3.8,
-          "actual_secondary": 3.8,
-          "previous_primary": 3.8,
-          "previous_secondary": 3.8,
-          "actual_secondary_raw": "3.8%",
-          "forecast_secondary_raw": "3.9%",
-          "previous_secondary_raw": "3.8%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States GDP Sales q/q",
-      "secondary_title": "United States GDP Sales QoQ Adv",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 2.7,
-          "forecast_secondary": 3.5,
-          "actual_primary": 1.7,
-          "actual_secondary": 1.7,
-          "previous_primary": 2.8,
-          "previous_secondary": 2.8,
-          "actual_secondary_raw": "1.7%",
-          "forecast_secondary_raw": "3.5%",
-          "previous_secondary_raw": "2.8%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 2.7,
-          "forecast_yahoo": null,
-          "actual_primary": 1.7,
-          "actual_yahoo": 1.7,
-          "previous_primary": 2.8,
-          "previous_yahoo": 2.8,
-          "actual_yahoo_raw": "1.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.8"
-        }
-      },
-      "yahoo_title": "GDP Sales Advance"
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States 8-Week Bill Auction",
-      "secondary_title": "United States 17-Week Bill Auction",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-05",
-          "forecast_primary": null,
-          "forecast_secondary": null,
-          "actual_primary": 4.09,
-          "actual_secondary": 4.09,
-          "previous_primary": null,
-          "previous_secondary": 4.14,
-          "actual_secondary_raw": "4.090%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "4.140%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Jobs to Applicants Ratio",
-      "secondary_title": "Japan Jobs/applications ratio",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": 1.18,
-          "forecast_secondary": 1.18,
-          "actual_primary": 1.19,
-          "actual_secondary": 1.19,
-          "previous_primary": 1.18,
-          "previous_secondary": 1.18,
-          "actual_secondary_raw": "1.19",
-          "forecast_secondary_raw": "1.18",
-          "previous_secondary_raw": "1.18"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Retail Sales m/m",
-      "secondary_title": "Japan Retail Sales MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_secondary": 0.6,
-          "actual_primary": -0.7,
-          "actual_secondary": -0.7,
-          "previous_primary": null,
-          "previous_secondary": -0.9,
-          "actual_secondary_raw": "-0.7%",
-          "forecast_secondary_raw": "0.6%",
-          "previous_secondary_raw": "-0.9%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Retail Sales y/y",
-      "secondary_title": "Japan Retail Sales YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_secondary": 3.8,
-          "actual_primary": 2.3,
-          "actual_secondary": 2.3,
-          "previous_primary": null,
-          "previous_secondary": 2.9,
-          "actual_secondary_raw": "2.3%",
-          "forecast_secondary_raw": "3.8%",
-          "previous_secondary_raw": "2.9%"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Industrial Production m/m",
-      "secondary_title": "Japan Industrial Production MoM Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_secondary": 1.1,
-          "actual_primary": 2.2,
-          "actual_secondary": 2.2,
-          "previous_primary": null,
-          "previous_secondary": -2.4,
-          "actual_secondary_raw": "2.2%",
-          "forecast_secondary_raw": "1.1%",
-          "previous_secondary_raw": "-2.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": null,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
-        }
-      },
-      "yahoo_title": "Industrial O/P Rev MM SA *"
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Industrial Production y/y",
-      "secondary_title": "Japan Industrial Production YoY Prel",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_secondary": 3.1,
-          "actual_primary": 1.9,
-          "actual_secondary": 1.9,
-          "previous_primary": null,
-          "previous_secondary": 2.7,
-          "actual_secondary_raw": "1.9%",
-          "forecast_secondary_raw": "3.1%",
-          "previous_secondary_raw": "2.7%"
-        }
-      }
-    },
     {
       "currency": "AUD",
       "primary_title": "Australia PPI q/q",
@@ -593,21 +21,8 @@
           "actual_secondary_raw": "1.1%",
           "forecast_secondary_raw": "1.9%",
           "previous_secondary_raw": "1.3%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 1.0,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 1.3,
-          "previous_yahoo": 1.3,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.3"
         }
-      },
-      "yahoo_title": "PPI QQ"
+      }
     },
     {
       "currency": "AUD",
@@ -625,21 +40,8 @@
           "actual_secondary_raw": "3.6%",
           "forecast_secondary_raw": "4.5%",
           "previous_secondary_raw": "3.6%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 3.2,
-          "forecast_yahoo": null,
-          "actual_primary": 3.6,
-          "actual_yahoo": 3.6,
-          "previous_primary": 3.6,
-          "previous_yahoo": 3.6,
-          "actual_yahoo_raw": "3.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.6"
         }
-      },
-      "yahoo_title": "PPI YY"
+      }
     },
     {
       "currency": "AUD",
@@ -657,21 +59,8 @@
           "actual_secondary_raw": "0.4%",
           "forecast_secondary_raw": "0.4%",
           "previous_secondary_raw": "0.4%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
         }
-      },
-      "yahoo_title": "Housing Credit*"
+      }
     },
     {
       "currency": "AUD",
@@ -689,21 +78,8 @@
           "actual_secondary_raw": "0.6%",
           "forecast_secondary_raw": "0.5%",
           "previous_secondary_raw": "0.6%"
-        },
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 0.6,
-          "forecast_yahoo": null,
-          "actual_primary": 0.6,
-          "actual_yahoo": 0.6,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "0.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
         }
-      },
-      "yahoo_title": "Private Sector Credit*"
+      }
     },
     {
       "currency": "JPY",
@@ -1442,6 +818,25 @@
       "yahoo_title": "Unit Labor Costs Prelim"
     },
     {
+      "currency": "USD",
+      "primary_title": "United States 8-Week Bill Auction",
+      "secondary_title": "United States 17-Week Bill Auction",
+      "evidence": {
+        "secondary": {
+          "dateISO": "2026-11-05",
+          "forecast_primary": null,
+          "forecast_secondary": null,
+          "actual_primary": 4.09,
+          "actual_secondary": 4.09,
+          "previous_primary": null,
+          "previous_secondary": 4.14,
+          "actual_secondary_raw": "4.090%",
+          "forecast_secondary_raw": null,
+          "previous_secondary_raw": "4.140%"
+        }
+      }
+    },
+    {
       "currency": "JPY",
       "primary_title": "Japan Labor Cash Earnings y/y",
       "secondary_title": "Japan Average Cash Earnings YoY",
@@ -1987,44 +1382,6 @@
       }
     },
     {
-      "currency": "EUR",
-      "primary_title": "ECB Interest Rate Decision",
-      "yahoo_title": "ECB Refinancing Rate *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-29",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.65,
-          "actual_yahoo": 2.65,
-          "previous_primary": 2.65,
-          "previous_yahoo": 2.65,
-          "actual_yahoo_raw": "2.65",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.65"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Portugal GDP Growth Rate YoY Prel",
-      "yahoo_title": "ECB Refinancing Rate *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-10-30",
-          "forecast_primary": 2.2,
-          "forecast_yahoo": null,
-          "actual_primary": 2.4,
-          "actual_yahoo": 2.65,
-          "previous_primary": 2.6,
-          "previous_yahoo": 2.65,
-          "actual_yahoo_raw": "2.65",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.65"
-        }
-      }
-    },
-    {
       "currency": "NZD",
       "primary_title": "New Zealand Unemployment Rate",
       "yahoo_title": "HLFS Unemployment Rate",
@@ -2496,6 +1853,25 @@
           "actual_yahoo_raw": "-0.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.5"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Industrial Production m/m",
+      "yahoo_title": "Industrial O/P Rev MM SA *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-16",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": null,
+          "previous_yahoo": 2.2,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.2"
         }
       }
     },
@@ -3446,6 +2822,82 @@
           "actual_yahoo_raw": "23",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "16"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan CPI y/y",
+      "yahoo_title": "CPI, Overall Nationwide",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 1.9,
+          "forecast_yahoo": null,
+          "actual_primary": 2.3,
+          "actual_yahoo": 2.3,
+          "previous_primary": 2.2,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan CPI excl. Food and Energy y/y",
+      "yahoo_title": "CPI, Core Nationwide YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 2.2,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.2,
+          "previous_primary": 2.4,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "JPY",
+      "primary_title": "Japan Core CPI y/y",
+      "yahoo_title": "CPI, Core Nationwide YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-19",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.2,
+          "previous_primary": 2.2,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom GfK Consumer Confidence",
+      "yahoo_title": "GfK/NIM Consumer Confidence",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": -22.0,
+          "forecast_yahoo": null,
+          "actual_primary": -22.0,
+          "actual_yahoo": -22.0,
+          "previous_primary": -24.0,
+          "previous_yahoo": -24.0,
+          "actual_yahoo_raw": "-22",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-24"
         }
       }
     },
