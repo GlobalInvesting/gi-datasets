@@ -1,6 +1,6 @@
 {
-  "runTimestamp": "2026-11-19T21:58:03.935056Z",
-  "runDate": "2026-11-19",
+  "runTimestamp": "2026-11-20T02:05:24.648425Z",
+  "runDate": "2026-11-20",
   "crossCheckOk": true,
   "currencies": {
     "USD": {
@@ -49,7 +49,7 @@
       "status": "ok",
       "rate": "0.00",
       "source": "SNB-scraping",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "issues": []
     },
     "NZD": {
@@ -75,8 +75,6 @@
     }
   },
   "issues": [],
-  "warnings": [
-    "EUR: kept cached 2026-11-01 value over older ECB-SDMX candidate (2026-09-16) \u2014 likely a laggy fallback source"
-  ],
-  "overallStatus": "degraded_cached"
+  "warnings": [],
+  "overallStatus": "ok"
 }
