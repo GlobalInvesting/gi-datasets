@@ -1,30 +1,22 @@
 {
-  "netPosition": -24980,
-  "longPositions": 12133,
-  "shortPositions": 37113,
+  "netPosition": -23862,
+  "longPositions": 12204,
+  "shortPositions": 36066,
   "positionCategory": "Leveraged Funds (speculative)",
   "secondaryCategory": "Asset Manager/Institutional",
   "tertiaryCategory": "Dealer/Intermediary",
   "assetClass": "currency",
   "displayName": null,
-  "openInterestTotal": 132566,
+  "openInterestTotal": 137651,
   "contractMultiplier": 100000,
   "contractUnit": "NZD",
-  "assetManagerNet": -41028,
-  "assetManagerLong": 11305,
-  "assetManagerShort": 52333,
-  "dealerNet": 66528,
-  "dealerLong": 95641,
-  "dealerShort": 29113,
+  "assetManagerNet": -47524,
+  "assetManagerLong": 11239,
+  "assetManagerShort": 58763,
+  "dealerNet": 73199,
+  "dealerLong": 101229,
+  "dealerShort": 28030,
   "history": [
-    {
-      "weekEnding": "2016-11-15",
-      "levNet": 28985,
-      "levLong": 35079,
-      "levShort": 6094,
-      "assetManagerNet": -24381,
-      "dealerNet": -4754
-    },
     {
       "weekEnding": "2016-11-22",
       "levNet": 23471,
@@ -4192,12 +4184,20 @@
       "levShort": 37113,
       "assetManagerNet": -41028,
       "dealerNet": 66528
+    },
+    {
+      "weekEnding": "2026-11-17",
+      "levNet": -23862,
+      "levLong": 12204,
+      "levShort": 36066,
+      "assetManagerNet": -47524,
+      "dealerNet": 73199
     }
   ],
   "sourceType": "options_futures_combined",
   "source": "CFTC Official",
   "sourceUrl": "https://www.cftc.gov/dea/options/financial_lof.htm",
-  "reportDate": "2026-11-17",
-  "lastUpdate": "2026-11-17",
-  "weekEnding": "2026-11-10"
+  "reportDate": "2026-11-20",
+  "lastUpdate": "2026-11-20",
+  "weekEnding": "2026-11-17"
 }

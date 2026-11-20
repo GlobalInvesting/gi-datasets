@@ -1,30 +1,22 @@
 {
-  "netPosition": 114406,
-  "longPositions": 129842,
-  "shortPositions": 15436,
+  "netPosition": 104270,
+  "longPositions": 123116,
+  "shortPositions": 18846,
   "positionCategory": "Managed Money (speculative)",
   "secondaryCategory": "Swap Dealers",
   "tertiaryCategory": "Producer/Merchant/Processor/User (commercial hedgers)",
   "assetClass": "commodity",
   "displayName": "Gold",
-  "openInterestTotal": 546481,
+  "openInterestTotal": 569022,
   "contractMultiplier": 100,
   "contractUnit": "TROY OUNCES",
-  "assetManagerNet": -200751,
-  "assetManagerLong": 19469,
-  "assetManagerShort": 220220,
-  "dealerNet": -9600,
-  "dealerLong": 24007,
-  "dealerShort": 33607,
+  "assetManagerNet": -183238,
+  "assetManagerLong": 22717,
+  "assetManagerShort": 205955,
+  "dealerNet": -3130,
+  "dealerLong": 25770,
+  "dealerShort": 28900,
   "history": [
-    {
-      "weekEnding": "2016-11-15",
-      "levNet": 132064,
-      "levLong": 175336,
-      "levShort": 43272,
-      "assetManagerNet": -98855,
-      "dealerNet": -100464
-    },
     {
       "weekEnding": "2016-11-22",
       "levNet": 121235,
@@ -4192,12 +4184,20 @@
       "levShort": 15436,
       "assetManagerNet": -200751,
       "dealerNet": -9600
+    },
+    {
+      "weekEnding": "2026-11-17",
+      "levNet": 104270,
+      "levLong": 123116,
+      "levShort": 18846,
+      "assetManagerNet": -183238,
+      "dealerNet": -3130
     }
   ],
   "sourceType": "options_futures_combined",
   "source": "CFTC Official",
   "sourceUrl": "https://www.cftc.gov/dea/options/other_lof.htm",
-  "reportDate": "2026-11-17",
-  "lastUpdate": "2026-11-17",
-  "weekEnding": "2026-11-10"
+  "reportDate": "2026-11-20",
+  "lastUpdate": "2026-11-20",
+  "weekEnding": "2026-11-17"
 }
