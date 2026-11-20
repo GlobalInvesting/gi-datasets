@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-20T02:30:38Z",
+  "generatedAt": "2026-11-20T15:41:01Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 153,
+  "aliasCount": 152,
   "aliases": [
     {
       "currency": "AUD",
@@ -985,8 +985,21 @@
           "actual_secondary_raw": "50.9",
           "forecast_secondary_raw": "48.5",
           "previous_secondary_raw": "48.8"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 50.9,
+          "forecast_yahoo": null,
+          "actual_primary": 52.9,
+          "actual_yahoo": 52.9,
+          "previous_primary": 50.9,
+          "previous_yahoo": 50.9,
+          "actual_yahoo_raw": "52.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "50.9"
         }
-      }
+      },
+      "yahoo_title": "U Mich Expectations Final*"
     },
     {
       "currency": "USD",
@@ -1023,8 +1036,21 @@
           "actual_secondary_raw": "3.4%",
           "forecast_secondary_raw": "3.6%",
           "previous_secondary_raw": "3.5%"
+        },
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 3.4,
+          "forecast_yahoo": null,
+          "actual_primary": 3.3,
+          "actual_yahoo": 3.3,
+          "previous_primary": 3.4,
+          "previous_yahoo": 3.4,
+          "actual_yahoo_raw": "3.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.4"
         }
-      }
+      },
+      "yahoo_title": "U Mich 5-Yr Inf Final*"
     },
     {
       "currency": "CAD",
@@ -1535,63 +1561,6 @@
     },
     {
       "currency": "GBP",
-      "primary_title": "United Kingdom Manufacturing Production YoY",
-      "yahoo_title": "Manufacturing Output YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": 3.8,
-          "forecast_yahoo": null,
-          "actual_primary": 4.4,
-          "actual_yahoo": 4.4,
-          "previous_primary": 2.5,
-          "previous_yahoo": 3.0,
-          "actual_yahoo_raw": "4.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Industrial Production YoY",
-      "yahoo_title": "Industrial Output YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": 2.9,
-          "forecast_yahoo": null,
-          "actual_primary": 3.1,
-          "actual_yahoo": 3.1,
-          "previous_primary": 1.1,
-          "previous_yahoo": 1.6,
-          "actual_yahoo_raw": "3.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.6"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Construction Output YoY",
-      "yahoo_title": "Construction O/P Vol YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -2.1,
-          "forecast_yahoo": null,
-          "actual_primary": -1.5,
-          "actual_yahoo": -1.5,
-          "previous_primary": -1.9,
-          "previous_yahoo": -1.8,
-          "actual_yahoo_raw": "-1.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-1.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
       "primary_title": "United Kingdom Business Investment QoQ Prel",
       "yahoo_title": "Business Invest QQ Prelim*",
       "evidence": {
@@ -1649,44 +1618,6 @@
     },
     {
       "currency": "GBP",
-      "primary_title": "United Kingdom Manufacturing Production MoM",
-      "yahoo_title": "Manufacturing Output MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -0.5,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": 0.7,
-          "previous_yahoo": 1.2,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Industrial Production MoM",
-      "yahoo_title": "Industrial Output MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.3,
-          "actual_yahoo": 0.3,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
       "primary_title": "United Kingdom Business Investment YoY Prel",
       "yahoo_title": "Business Invest YY Prelim*",
       "evidence": {
@@ -1701,44 +1632,6 @@
           "actual_yahoo_raw": "3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "5.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Construction Output MoM",
-      "yahoo_title": "Construction O/P Vol MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": -0.5,
-          "previous_yahoo": -0.2,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.2"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Building Permits m/m",
-      "yahoo_title": "Building Permits MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-12",
-          "forecast_primary": -5.9,
-          "forecast_yahoo": null,
-          "actual_primary": -4.1,
-          "actual_yahoo": -4.1,
-          "previous_primary": 8.8,
-          "previous_yahoo": 8.8,
-          "actual_yahoo_raw": "-4.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "8.8"
         }
       }
     },
@@ -2898,6 +2791,120 @@
           "actual_yahoo_raw": "-22",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-24"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Retail Sales YoY",
+      "yahoo_title": "Retail Sales YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 1.7,
+          "forecast_yahoo": null,
+          "actual_primary": 2.3,
+          "actual_yahoo": 2.3,
+          "previous_primary": 0.4,
+          "previous_yahoo": 0.8,
+          "actual_yahoo_raw": "2.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Retail Sales ex Fuel YoY",
+      "yahoo_title": "Retail Sales Ex-Fuel YY",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 1.8,
+          "forecast_yahoo": null,
+          "actual_primary": 2.5,
+          "actual_yahoo": 2.5,
+          "previous_primary": 0.4,
+          "previous_yahoo": 0.8,
+          "actual_yahoo_raw": "2.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.8"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Retail Sales MoM",
+      "yahoo_title": "Retail Sales MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 0.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.7,
+          "actual_yahoo": 0.7,
+          "previous_primary": -0.6,
+          "previous_yahoo": -0.4,
+          "actual_yahoo_raw": "0.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.4"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
+      "primary_title": "United Kingdom Retail Sales ex Fuel MoM",
+      "yahoo_title": "Retail Sales Ex-Fuel MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": -0.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": -0.9,
+          "previous_yahoo": -0.7,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Consumer Sentiment",
+      "yahoo_title": "U Mich Sentiment Final*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 51.0,
+          "forecast_yahoo": null,
+          "actual_primary": 51.5,
+          "actual_yahoo": 51.5,
+          "previous_primary": 51.0,
+          "previous_yahoo": 51.0,
+          "actual_yahoo_raw": "51.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "51"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Michigan Current Conditions",
+      "yahoo_title": "U Mich Conditions Final*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-20",
+          "forecast_primary": 51.0,
+          "forecast_yahoo": null,
+          "actual_primary": 49.4,
+          "actual_yahoo": 49.4,
+          "previous_primary": 51.0,
+          "previous_yahoo": 51.0,
+          "actual_yahoo_raw": "49.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "51"
         }
       }
     },
