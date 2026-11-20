@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-20T17:54:38Z",
-  "generatedAt": "2026-11-20T17:54:38Z",
+  "lastUpdate": "2026-11-20T18:56:45Z",
+  "generatedAt": "2026-11-20T18:56:45Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,11 +9,11 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-20",
   "rangeTo": "2026-12-04",
-  "totalEvents": 7908,
+  "totalEvents": 7911,
   "currencyCounts": {
-    "EUR": 2342,
+    "EUR": 2343,
     "CHF": 179,
-    "GBP": 696,
+    "GBP": 698,
     "USD": 2536,
     "NZD": 198,
     "JPY": 606,
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 3118,
     "high": 1673,
-    "low": 3117
+    "low": 3120
   },
   "surpriseStats": {
     "NZD/retail sales qoq": {
@@ -98916,7 +98916,7 @@
       "event": "United Kingdom S&P Global Composite PMI Flash",
       "impact": "low",
       "actual": null,
-      "forecast": "52.7",
+      "forecast": "53.2",
       "previous": "52.9"
     },
     {
@@ -98929,7 +98929,7 @@
       "event": "United Kingdom S&P Global Services PMI Flash",
       "impact": "high",
       "actual": null,
-      "forecast": "52.5",
+      "forecast": "53",
       "previous": "52.8"
     },
     {
@@ -98942,7 +98942,7 @@
       "event": "United Kingdom S&P Global Manufacturing PMI Flash",
       "impact": "high",
       "actual": null,
-      "forecast": "52.5",
+      "forecast": "53",
       "previous": "52.8"
     },
     {
@@ -99017,7 +99017,33 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Belgium OLO Auction",
+      "event": "Belgium 2031 OLO Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.806%"
+    },
+    {
+      "date": "23 Nov",
+      "dateISO": "2026-11-23",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Belgium 2036 OLO Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "4.414%"
+    },
+    {
+      "date": "23 Nov",
+      "dateISO": "2026-11-23",
+      "timeUTC": "13:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Pill Speech",
       "impact": "low",
       "actual": null,
       "forecast": null,
@@ -99313,14 +99339,40 @@
       "date": "24 Nov",
       "dateISO": "2026-11-24",
       "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Average Weekly Earnings YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.4%",
+      "previous": "3.9%"
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "11:00",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
       "event": "United Kingdom CBI Distributive Trades",
       "impact": "medium",
       "actual": null,
-      "forecast": "-14",
+      "forecast": "-12",
       "previous": "-10"
+    },
+    {
+      "date": "24 Nov",
+      "dateISO": "2026-11-24",
+      "timeUTC": "12:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Greene Speech",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
     },
     {
       "date": "24 Nov",
@@ -99332,7 +99384,7 @@
       "event": "Belgium Business Confidence",
       "impact": "low",
       "actual": null,
-      "forecast": "-10.8",
+      "forecast": "-9",
       "previous": "-9.8"
     },
     {
@@ -99673,19 +99725,6 @@
       "actual": null,
       "forecast": null,
       "previous": "3.37%"
-    },
-    {
-      "date": "25 Nov",
-      "dateISO": "2026-11-25",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Average Weekly Earnings YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.4%",
-      "previous": "3.9%"
     },
     {
       "date": "25 Nov",
@@ -102291,7 +102330,7 @@
       "event": "Greece PPI YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "21.5%",
       "previous": "20.4%"
     },
     {
@@ -103332,7 +103371,7 @@
       "event": "Slovakia Harmonised Inflation Rate YoY Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "2.8%",
       "previous": "2.9%"
     },
     {
@@ -103345,7 +103384,7 @@
       "event": "Slovakia Harmonised Inflation Rate MoM Prel",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.2%",
       "previous": "0.0%"
     },
     {
@@ -103449,7 +103488,7 @@
       "event": "Greece S&P Global Manufacturing PMI",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "52.9",
       "previous": "53.3"
     },
     {
@@ -103553,7 +103592,7 @@
       "event": "Greece Unemployment Rate",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "7.6%",
       "previous": "7.6%"
     },
     {
