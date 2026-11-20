@@ -1,49 +1,81 @@
 {
-  "generated_at": "2026-11-20T00:05:17Z",
+  "generated_at": "2026-11-20T22:03:05Z",
   "signals": [
     {
-      "time": "23:55",
+      "time": "20:42",
       "priority": "critical",
-      "title": "AUD/USD — G10 Bilateral Theme + Fed-RBA Divergence",
-      "text": "The G10 scorecard flags USD outperformance at +1.150% across 9 pairs against AUD underperformance at -1.827% across 4 pairs, creating a 2.977% bilateral spread. AUD/USD trades at 0.6658, holding well below its SMA20/50/200 cluster at 0.6904/0.6975/0.7050 with trend structure confirming an active downtrend extended 5.09 ATR below the 20-day average. The broader move reflects surging US real yields alongside Fed hawkishness, reinforced by J.P. Morgan and Barclays revising calls to multiple upcoming rate hikes. Although RBA at 4.85% maintains an 85bp nominal policy rate premium over the Fed at 4.00%, Australia's softer October employment decline of 43,500 and negative ESI of -6.9 erode domestic support. Retail sentiment sits at an extreme 87% long, setting up sharp unwind vulnerability against the prevailing trend. Trade bias: Bearish AUD/USD, downtrend acceleration with retail capitulation risk. Catalyst: Fed Governor Waller speech at 13:25 UTC. Risk: Sharp risk-asset rebound that compresses the bilateral G10 spread below 0.80%.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical De-risking",
+      "text": "AUD/JPY closed Friday at 104.90 as JPY dominated G10 performance (+1.852%, n=7) against broad AUD liquidation (-2.682%, n=4), establishing an extreme 4.534% bilateral spread. Reports that Trump weighs renewed strikes on Iran combined with a VIX surge to 35.9 trigger sharp safe-haven flows into JPY, overwhelming the +362bp AONIA vs TONA carry cushion. Sydney and Tokyo opens will test downside momentum toward the 104.00 handle as retail remains 91% crowded long. Trade bias: Bearish AUD/JPY into the open; extreme risk-off sentiment drives haven demand over carry yield. Catalyst: Sydney/Tokyo market reopen following weekend Iran strike headlines. Risk: De-escalation headlines out of Washington or immediate bounce in equity futures back above Friday highs.",
       "evidence": [
-        "USD 1W avg: +1.150% (n=9)",
-        "AUD 1W avg: -1.827% (n=4)",
-        "G10 spread: 2.977%"
+        "JPY 1W avg: +1.852% (n=7)",
+        "AUD 1W avg: -2.682% (n=4)",
+        "G10 spread: 4.534%",
+        "AUD/JPY Friday close: 104.90",
+        "VIX: 35.9 (+26.20%)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "AUD/USD",
+        "pair": "AUD/JPY",
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 3.1 ATR with it over five sessions"
+          "price moved 3.7 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-19"
+          "asof": "2026-11-20"
         }
       }
     },
     {
-      "time": "23:51",
+      "time": "20:33",
       "priority": "warning",
-      "title": "USD/JPY — Carry Premium + Technical Barrier",
-      "text": "USD/JPY trades at 159.73, holding above its SMA20/50/200 moving-average cluster at 158.53/157.85/158.73. A 275bp policy rate advantage for the Fed at 4.00% versus the BoJ at 1.25%, backed by a 267bp OIS SOFR-TONA spread, sustains persistent upside demand. The 160.00 threshold remains the key level that has previously triggered Ministry of Finance verbal warnings and intervention scrutiny. Elevated cross-asset volatility with VIX at 28.4 introduces headline sensitivity, while 25d risk reversals at -1.41 reflect persistent institutional hedging against abrupt downside gaps. The correlation between USD/JPY and VIX sits at +0.010 versus the 252-day norm of +0.275 (z = -2.00σ), confirming typical safe-haven mechanics remain distorted by strong US yield support. Trade bias: Long USD/JPY, carry-supported while holding below official intervention thresholds. Catalyst: Japan Core CPI release follow-through and US Michigan Inflation Expectations at 15:00 UTC. Risk: Physical FX intervention by Japanese authorities on a sustained print above 160.00.",
+      "title": "USD/JPY — US Yield Slump vs Options Downside Hedging",
+      "text": "USD/JPY closed Friday at 158.56 as US 10-year Treasury yields plunged 14bp to 4.912% alongside a bull-flattening curve. Saxo 25-delta risk reversals reflect heavy downside demand at -1.77 put skew, running against leveraged funds short -29.5k JPY contracts. Falling US yields compress the +267bp SOFR vs TONA carry advantage, exposing the pair to rapid squeeze risk on the open. Trade bias: Bearish USD/JPY targeting 157.80. Catalyst: Tokyo open cash Treasury response to the 2.77% US 10Y intraday yield drop. Risk: US 10Y yield reclaims 5.00% or BoJ reinforces prolonged hold at the next BoJ meeting (mkt: 79% hike priced).",
       "evidence": [
-        "USD/JPY: 159.73",
-        "Fed 4.0% vs BoJ 1.25% — 275bp",
-        "25d RR: -1.41 (put skew)"
+        "USD/JPY Friday close: 158.56",
+        "US 10Y yield: 4.912% (-14bp intraday)",
+        "USD/JPY 25d RR: -1.77",
+        "SOFR vs TONA carry: +267bp",
+        "JPY COT LF net: -29,545"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
         "pair": "USD/JPY",
-        "direction": 1,
+        "direction": -1,
+        "supports": [
+          "price moved 1.3 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-20"
+        }
+      }
+    },
+    {
+      "time": "18:11",
+      "priority": "warning",
+      "title": "EUR/USD — Crowded COT Short vs French Fiscal Distress",
+      "text": "EUR COT LF net short stands at -105.9k contracts (pctl 2, z -1.68), representing extreme institutional positioning as EUR/USD closed Friday at 1.0969. Fresh remarks from ECB officials warning of a French budget crisis add sovereign credit risk to European assets, while the +146bp SOFR over €STR carry advantage keeps dollar bids intact. S&P 500 selling (-3.70%) and widening Bund spreads keep upside capped despite BEER model valuation showing EUR/USD cheap at -2.80σ. Trade bias: Bearish EUR/USD with 1.0950 support vulnerable. Catalyst: European cash open assessment of French budget rhetoric ahead of the next ECB meeting (mkt: 85% hike priced). Risk: Short squeeze triggered by heavily crowded spec positions if eurozone fiscal fears abate.",
+      "evidence": [
+        "EUR COT LF net: -105,891 (pctl 2, z=-1.68)",
+        "EUR/USD Friday close: 1.0969",
+        "OIS carry: SOFR vs ESTR +146bp",
+        "BEER Fair Value: z=-2.80σ"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "unconfirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction"
         ],
@@ -52,24 +84,26 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-19"
+          "asof": "2026-11-20"
         }
       }
     },
     {
-      "time": "23:48",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded Short + Policy Divergence",
-      "text": "EUR/USD trades at 1.0972, positioned below its SMA20/50/200 moving averages at 1.1127/1.1246/1.1514 in an established downtrend extended 2.49 ATR below the 20-day mean. CFTC data indicates Leveraged Funds hold net short positions of -98,604 contracts, placing positioning at the 6th percentile of its 52-week range with a z-score of -1.58. The policy rate spread of 135bp between Fed at 4.00% and ECB at 2.65% favors USD, with SOFR trading 146bp above €STR. US 5Y yields rose 23bp over the last 5 sessions, driven almost entirely by real yields (+22bp vs +1bp breakeven, FRED, as of Nov 17), expanding the trans-Atlantic real yield gap. Retail sentiment shows 85% long positioning, directly opposing the institutional net short and warning of further downside pressure if retail stops trigger. Trade bias: Bearish EUR/USD, structural policy and real yield divergence dominant. Catalyst: ECB President Lagarde speech at 08:30 UTC. Risk: Leveraged Funds short-covering squeeze reclaiming the SMA20 at 1.1127.",
+      "time": "20:51",
+      "priority": "info",
+      "title": "NZD/USD — ESI Divergence Ahead of Retail Sales",
+      "text": "NZD Economic Surprise Index dropped to an extreme -25.5 while leveraged funds hold net short -23.9k contracts, confirming fundamental deterioration. Friday's close at 0.5469 sits below all key daily moving averages (SMA20 0.5579, SMA200 0.5800), with 93% retail long concentration presenting ongoing liquidation overhang. Upcoming Q3 New Zealand Retail Sales (forecast -0.2% q/q) provide the immediate test for continuation toward 0.5420. Trade bias: Bearish NZD/USD below 0.5500. Catalyst: New Zealand Q3 Retail Sales at 21:45 UTC Sunday. Risk: Retail Sales beat forecast (+0.5% q/q or higher) forcing short covering ahead of the next RBNZ meeting (mkt: 78% hike priced).",
       "evidence": [
-        "EUR COT LF net: -98,604 (pctl 6, z -1.58)",
-        "Fed 4.0% vs ECB 2.65% — 135bp",
-        "Retail EUR/USD: 85% long"
+        "NZD ESI: -25.5 (strong negative)",
+        "NZD/USD Friday close: 0.5469",
+        "NZD COT LF net: -23,862",
+        "Retail sentiment: 93% long",
+        "NZ Retail Sales forecast: -0.2% q/q"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "confirmed",
-        "pair": "EUR/USD",
+        "pair": "NZD/USD",
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
@@ -80,35 +114,7 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-19"
-        }
-      }
-    },
-    {
-      "time": "23:42",
-      "priority": "warning",
-      "title": "EUR/JPY — Risk Reversal Put Skew + Downside Hedging",
-      "text": "EUR/JPY trades at 175.19, supported by a 140bp rate spread between the ECB at 2.65% and the BoJ at 1.25%, with the OIS €STR-TONA differential at 122bp. The 1M 25-delta risk reversal sits at -1.58, indicating strong put skew and heavy institutional demand for downside tail protection. This aggressive downside options pricing emerges alongside broader equity market weakness, with S&P 500 falling 2.02% and VIX rising to 28.4. While carry flows keep spot elevated, the options market is pricing sharp asymmetry should risk liquidation accelerate into the weekend. The BEER fair value model shows cross-currency misalignment with high implied volatility across European assets. Trade bias: Bearish EUR/JPY on cross-asset de-risking, options skew pricing downside shock. Catalyst: ECB President Lagarde speech at 08:30 UTC. Risk: Broader equity market stabilization lowering VIX back below 20.0.",
-      "evidence": [
-        "EUR/JPY 25d RR: -1.58 (strong put skew)",
-        "ECB 2.65% vs BoJ 1.25% — 140bp",
-        "VIX: 28.4 (elevated volatility)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "confirmed",
-        "pair": "EUR/JPY",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.4 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-19"
+          "asof": "2026-11-20"
         }
       }
     }
