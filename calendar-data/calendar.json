@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-20T00:00:55Z",
-  "generatedAt": "2026-11-20T00:00:55Z",
+  "lastUpdate": "2026-11-20T00:23:01Z",
+  "generatedAt": "2026-11-20T00:23:01Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -4202,6 +4202,11 @@
       "n": 2,
       "mean": 0.66,
       "std": 5.586144
+    },
+    "GBP/gfk consumer confidence": {
+      "n": 2,
+      "mean": 11.5,
+      "std": 16.263456
     },
     "AUD/ppi qoq": {
       "n": 2,
@@ -98117,7 +98122,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom GfK Consumer Confidence",
       "impact": "medium",
-      "actual": null,
+      "actual": "-22",
       "forecast": "-22",
       "previous": "-24"
     },
@@ -99641,7 +99646,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "2.64%"
     },
     {
       "date": "25 Nov",
@@ -104329,8 +104334,8 @@
       "event": "Portugal Budget Balance",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-8.0B",
+      "previous": "-4.6B"
     },
     {
       "date": "2 Dec",
@@ -104485,8 +104490,8 @@
       "event": "Belgium New Car Registrations YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.5%",
+      "previous": "-5.9%"
     },
     {
       "date": "2 Dec",
@@ -104629,7 +104634,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "54.3"
     },
     {
       "date": "3 Dec",
@@ -104670,6 +104675,32 @@
       "actual": null,
       "forecast": null,
       "previous": "57.0"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria GDP Growth Rate QoQ Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "-0.1%"
+    },
+    {
+      "date": "3 Dec",
+      "dateISO": "2026-12-03",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria GDP Growth Rate YoY Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.6%",
+      "previous": "0.8%"
     },
     {
       "date": "3 Dec",
@@ -105146,19 +105177,6 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Austria GDP Growth Rate QoQ Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.2%",
-      "previous": "-0.1%"
-    },
-    {
-      "date": "4 Dec",
-      "dateISO": "2026-12-04",
-      "timeUTC": "08:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Slovakia GDP Growth Rate QoQ Final",
       "impact": "low",
       "actual": null,
@@ -105177,19 +105195,6 @@
       "actual": null,
       "forecast": null,
       "previous": null
-    },
-    {
-      "date": "4 Dec",
-      "dateISO": "2026-12-04",
-      "timeUTC": "08:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Austria GDP Growth Rate YoY Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "0.6%",
-      "previous": "0.8%"
     },
     {
       "date": "4 Dec",
