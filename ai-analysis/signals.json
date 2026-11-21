@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-11-20T22:03:05Z",
+  "generated_at": "2026-11-21T19:40:23Z",
   "signals": [
     {
-      "time": "20:42",
+      "time": "22:21",
       "priority": "critical",
-      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical De-risking",
-      "text": "AUD/JPY closed Friday at 104.90 as JPY dominated G10 performance (+1.852%, n=7) against broad AUD liquidation (-2.682%, n=4), establishing an extreme 4.534% bilateral spread. Reports that Trump weighs renewed strikes on Iran combined with a VIX surge to 35.9 trigger sharp safe-haven flows into JPY, overwhelming the +362bp AONIA vs TONA carry cushion. Sydney and Tokyo opens will test downside momentum toward the 104.00 handle as retail remains 91% crowded long. Trade bias: Bearish AUD/JPY into the open; extreme risk-off sentiment drives haven demand over carry yield. Catalyst: Sydney/Tokyo market reopen following weekend Iran strike headlines. Risk: De-escalation headlines out of Washington or immediate bounce in equity futures back above Friday highs.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical Shock",
+      "text": "AUD/JPY faces sharp downside into the open as JPY 1W outperformance (+1.821%, n=7) collides with extreme AUD weakness (-2.688%, n=4), generating a 4.509% G10 bilateral spread. Middle East escalation following naval mine strikes east of the Strait of Hormuz and equity liquidations trigger safe-haven JPY demand that overrides AUD's +362bp OIS carry advantage (AONIA 4.85% vs TONA 1.23%). The Sydney open and subsequent Tokyo cash session resolve whether safe-haven demand breaks support toward 103.50. Trade bias: Bearish AUD/JPY into the open as safe-haven flows dominate carry. Catalyst: Sydney/Tokyo market open following Strait of Hormuz conflict escalation. Risk: Immediate geopolitical de-escalation or Strait reopening announcement driving a relief rally above 106.00.",
       "evidence": [
-        "JPY 1W avg: +1.852% (n=7)",
-        "AUD 1W avg: -2.682% (n=4)",
-        "G10 spread: 4.534%",
-        "AUD/JPY Friday close: 104.90",
-        "VIX: 35.9 (+26.20%)"
+        "JPY 1W avg: +1.821% (n=7)",
+        "AUD 1W avg: -2.688% (n=4)",
+        "G10 spread: 4.509%",
+        "AUD/JPY Friday close: 104.918"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -32,16 +31,73 @@
       }
     },
     {
-      "time": "20:33",
+      "time": "21:46",
       "priority": "warning",
-      "title": "USD/JPY — US Yield Slump vs Options Downside Hedging",
-      "text": "USD/JPY closed Friday at 158.56 as US 10-year Treasury yields plunged 14bp to 4.912% alongside a bull-flattening curve. Saxo 25-delta risk reversals reflect heavy downside demand at -1.77 put skew, running against leveraged funds short -29.5k JPY contracts. Falling US yields compress the +267bp SOFR vs TONA carry advantage, exposing the pair to rapid squeeze risk on the open. Trade bias: Bearish USD/JPY targeting 157.80. Catalyst: Tokyo open cash Treasury response to the 2.77% US 10Y intraday yield drop. Risk: US 10Y yield reclaims 5.00% or BoJ reinforces prolonged hold at the next BoJ meeting (mkt: 79% hike priced).",
+      "title": "AUD/USD — Long Unwind & Technical Breakdown",
+      "text": "AUD/USD closed Friday at 0.6619 as leveraged funds cut net long exposure by 15,052 contracts to +26,143, accelerating downside momentum. Deteriorating Australian macro data (ESI -9.6) and technical breakdown below all key daily moving averages (extended 5.62 ATR below SMA20 at 0.6883) reinforce selling pressure despite AUD's 94bp OIS carry advantage over USD. The next RBA meeting (mkt: 100% hold priced) on 8 Dec determines whether current hold expectations hold or shift to an outright dovish tilt. Trade bias: Bearish AUD/USD on persistent positioning liquidation. Catalyst: Sydney open and RBA meeting on 8 Dec. Risk: Shift in Federal Reserve rate path expectations or rebound in commodity demand pushing spot back above 0.6700.",
       "evidence": [
-        "USD/JPY Friday close: 158.56",
-        "US 10Y yield: 4.912% (-14bp intraday)",
+        "AUD COT LF net: +26,143 (WoW -15,052)",
+        "AUD ESI: -9.6",
+        "AUD/USD Friday close: 0.6619",
+        "AUD/USD SMA20: 0.6883 (5.62 ATR extended)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "AUD/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 3.4 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-20"
+        }
+      }
+    },
+    {
+      "time": "20:59",
+      "priority": "warning",
+      "title": "USD/CAD — Short Squeeze & BoC Divergence",
+      "text": "CAD COT LF net short of -75,447 contracts (22.5% long) anchors USD/CAD upside after spot closed Friday at 1.4340. Favorable USD OIS carry of +136bp (SOFR 3.91% vs CORRA 2.55%) and soft Canadian CPI prints cement policy divergence against the BoC. The next BoC meeting (mkt: 58% hike priced) on 9 Dec determines the extent of domestic policy easing. Trade bias: Bullish USD/CAD targeting the 1.4400 resistance level. Catalyst: BoC meeting on 9 Dec and US October PCE data. Risk: Sharp rebound in crude oil prices above $88/bbl compressing USD/CAD below the 1.4250 support zone.",
+      "evidence": [
+        "CAD COT LF net: -75,447 (22.5% long)",
+        "USD/CAD OIS carry: +136bp favoring USD",
+        "USD/CAD Friday close: 1.4340",
+        "BoC next meeting: 9 Dec"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "USD/CAD",
+        "direction": 1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 1.3 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-20"
+        }
+      }
+    },
+    {
+      "time": "16:00",
+      "priority": "warning",
+      "title": "USD/JPY — Safe-Haven Surge & Volatility Risk",
+      "text": "USD/JPY closed Friday at 158.51 as surging risk-off demand drives 1M risk reversals to -1.77 and expands implied volatility premium (IV 7.5% vs HV30 5.3%, VRP +2.2%). Speculative JPY shorts (-29,545 contracts, 85th percentile) face squeeze risk if Strait of Hormuz supply disruptions accelerate broader equity liquidation. The next BoJ meeting (mkt: 77% hike priced) on 18 Dec determines whether domestic normalization pace quickens. Trade bias: Bearish USD/JPY targeting downside squeeze toward 156.50. Catalyst: Tokyo cash open and BoJ meeting on 18 Dec. Risk: Stabilization in equity risk assets and persistence of the +268bp USD OIS carry advantage pushing spot above 159.50.",
+      "evidence": [
         "USD/JPY 25d RR: -1.77",
-        "SOFR vs TONA carry: +267bp",
-        "JPY COT LF net: -29,545"
+        "USD/JPY IV/HV30: 7.5% vs 5.3% (VRP +2.2%)",
+        "JPY COT LF net: -29,545 (pctl 85)",
+        "USD/JPY Friday close: 158.51"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -61,61 +117,20 @@
       }
     },
     {
-      "time": "18:11",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded COT Short vs French Fiscal Distress",
-      "text": "EUR COT LF net short stands at -105.9k contracts (pctl 2, z -1.68), representing extreme institutional positioning as EUR/USD closed Friday at 1.0969. Fresh remarks from ECB officials warning of a French budget crisis add sovereign credit risk to European assets, while the +146bp SOFR over €STR carry advantage keeps dollar bids intact. S&P 500 selling (-3.70%) and widening Bund spreads keep upside capped despite BEER model valuation showing EUR/USD cheap at -2.80σ. Trade bias: Bearish EUR/USD with 1.0950 support vulnerable. Catalyst: European cash open assessment of French budget rhetoric ahead of the next ECB meeting (mkt: 85% hike priced). Risk: Short squeeze triggered by heavily crowded spec positions if eurozone fiscal fears abate.",
+      "time": "09:00",
+      "priority": "info",
+      "title": "EUR/USD — Crowded Speculative Short & PMI Risk",
+      "text": "EUR COT LF net short stands at an extreme -105,891 contracts (30.4% long, 2nd percentile, z=-1.68), leaving EUR/USD vulnerable to a short squeeze from Friday's close at 1.0975. Subdued European macro performance and a 147bp OIS carry penalty (SOFR 3.91% vs €STR 2.44%) keep spot below all key moving averages, but crowded positioning limits aggressive downside extension. Monday's Flash Eurozone PMIs serve as the immediate directional test. Trade bias: Neutral-to-bearish EUR/USD with caution on crowded short unwinds. Catalyst: Eurozone Flash Manufacturing and Services PMIs at 09:00 UTC Monday. Risk: Upside surprise in German and Eurozone PMIs above 52.0 triggering a squeeze back to the 1.1115 SMA20 level.",
       "evidence": [
         "EUR COT LF net: -105,891 (pctl 2, z=-1.68)",
-        "EUR/USD Friday close: 1.0969",
-        "OIS carry: SOFR vs ESTR +146bp",
-        "BEER Fair Value: z=-2.80σ"
+        "EUR/USD OIS carry: +147bp favoring USD",
+        "EUR/USD Friday close: 1.0975",
+        "Euro Area Flash Composite PMI forecast: 51.0"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "EUR/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-20"
-        }
-      }
-    },
-    {
-      "time": "20:51",
-      "priority": "info",
-      "title": "NZD/USD — ESI Divergence Ahead of Retail Sales",
-      "text": "NZD Economic Surprise Index dropped to an extreme -25.5 while leveraged funds hold net short -23.9k contracts, confirming fundamental deterioration. Friday's close at 0.5469 sits below all key daily moving averages (SMA20 0.5579, SMA200 0.5800), with 93% retail long concentration presenting ongoing liquidation overhang. Upcoming Q3 New Zealand Retail Sales (forecast -0.2% q/q) provide the immediate test for continuation toward 0.5420. Trade bias: Bearish NZD/USD below 0.5500. Catalyst: New Zealand Q3 Retail Sales at 21:45 UTC Sunday. Risk: Retail Sales beat forecast (+0.5% q/q or higher) forcing short covering ahead of the next RBNZ meeting (mkt: 78% hike priced).",
-      "evidence": [
-        "NZD ESI: -25.5 (strong negative)",
-        "NZD/USD Friday close: 0.5469",
-        "NZD COT LF net: -23,862",
-        "Retail sentiment: 93% long",
-        "NZ Retail Sales forecast: -0.2% q/q"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "confirmed",
-        "pair": "NZD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.4 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-20"
-        }
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
       }
     }
   ]
