@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-21T13:37:56Z",
-  "generatedAt": "2026-11-21T13:37:56Z",
+  "lastUpdate": "2026-11-21T14:03:18Z",
+  "generatedAt": "2026-11-21T14:03:18Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -23,9 +23,9 @@
     "NOK": 188
   },
   "impactCounts": {
-    "medium": 3104,
+    "medium": 3138,
     "high": 1661,
-    "low": 3118
+    "low": 3084
   },
   "surpriseStats": {
     "NZD/retail sales qoq": {
@@ -10618,11 +10618,12 @@
       "currency": "NZD",
       "flag": "nz",
       "event": "New Zealand Inflation Rate YoY",
-      "impact": "low",
+      "impact": "medium",
       "forecast": "3%",
       "previous": "3%",
       "actual": "3.1%",
-      "source": "Statistics New Zealand"
+      "source": "Statistics New Zealand",
+      "vendorImpact": "low"
     },
     {
       "currency": "JPY",
@@ -21585,11 +21586,12 @@
       "currency": "NZD",
       "flag": "nz",
       "event": "New Zealand Inflation Rate YoY",
-      "impact": "low",
+      "impact": "medium",
       "forecast": "2.9%",
       "previous": "3.1%",
       "actual": "3.1%",
-      "source": "Statistics New Zealand"
+      "source": "Statistics New Zealand",
+      "vendorImpact": "low"
     },
     {
       "currency": "CHF",
@@ -36352,11 +36354,12 @@
       "currency": "NZD",
       "flag": "nz",
       "event": "New Zealand Inflation Rate YoY",
-      "impact": "low",
+      "impact": "medium",
       "forecast": "4%",
       "previous": "3.1%",
       "actual": "4.1%",
-      "source": "Statistics New Zealand"
+      "source": "Statistics New Zealand",
+      "vendorImpact": "low"
     },
     {
       "date": "21 Jul",
@@ -46393,10 +46396,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand ANZ Business Confidence",
-      "impact": "low",
+      "impact": "medium",
       "actual": "53.7",
       "forecast": "50.6",
-      "previous": "56.1"
+      "previous": "56.1",
+      "vendorImpact": "low"
     },
     {
       "date": "31 Aug",
@@ -47566,10 +47570,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Retail Sales y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "2.3%",
       "forecast": "0.5%",
-      "previous": "1.5%"
+      "previous": "1.5%",
+      "vendorImpact": "low"
     },
     {
       "date": "1 Sep",
@@ -49508,10 +49513,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland CPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "0.8%",
       "forecast": "0.2%",
-      "previous": "0.4%"
+      "previous": "0.4%",
+      "vendorImpact": "low"
     },
     {
       "date": "3 Sep",
@@ -51579,10 +51585,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Unemployment Rate",
-      "impact": "low",
+      "impact": "medium",
       "actual": "3.1%",
       "forecast": "3.1%",
-      "previous": "3.1%"
+      "previous": "3.1%",
+      "vendorImpact": "low"
     },
     {
       "date": "7 Sep",
@@ -55038,10 +55045,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI m/m",
-      "impact": "low",
+      "impact": "medium",
       "actual": "0.7%",
       "forecast": "-0.2%",
-      "previous": "-0.1%"
+      "previous": "-0.1%",
+      "vendorImpact": "low"
     },
     {
       "date": "14 Sep",
@@ -55051,10 +55059,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-0.7%",
       "forecast": "-1.5%",
-      "previous": "-2.1%"
+      "previous": "-2.1%",
+      "vendorImpact": "low"
     },
     {
       "date": "14 Sep",
@@ -56004,10 +56013,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand Current Account",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-1.670B",
       "forecast": "0.801B",
-      "previous": "-1.008B"
+      "previous": "-1.008B",
+      "vendorImpact": "low"
     },
     {
       "date": "15 Sep",
@@ -57705,10 +57715,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand GDP y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "2.6%",
       "forecast": "1.4%",
-      "previous": "1.5%"
+      "previous": "1.5%",
+      "vendorImpact": "low"
     },
     {
       "date": "16 Sep",
@@ -57836,10 +57847,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": "CHF5.6B",
       "forecast": null,
-      "previous": null
+      "previous": null,
+      "vendorImpact": "low"
     },
     {
       "date": "17 Sep",
@@ -58957,10 +58969,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-1.349B",
       "forecast": "0.002B",
-      "previous": "-1.949B"
+      "previous": "-1.949B",
+      "vendorImpact": "low"
     },
     {
       "date": "17 Sep",
@@ -64397,10 +64410,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand ANZ Business Confidence",
-      "impact": "low",
+      "impact": "medium",
       "actual": "51.9",
       "forecast": "43.0",
-      "previous": "53.7"
+      "previous": "53.7",
+      "vendorImpact": "low"
     },
     {
       "date": "30 Sep",
@@ -66974,10 +66988,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland CPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "1.0%",
       "forecast": "1.0%",
-      "previous": "0.8%"
+      "previous": "0.8%",
+      "vendorImpact": "low"
     },
     {
       "date": "1 Oct",
@@ -66987,10 +67002,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Retail Sales y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "3.2%",
       "forecast": "1.6%",
-      "previous": "2.3%"
+      "previous": "2.3%",
+      "vendorImpact": "low"
     },
     {
       "date": "1 Oct",
@@ -69715,10 +69731,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Unemployment Rate",
-      "impact": "low",
+      "impact": "medium",
       "actual": "3.1%",
       "forecast": "3.1%",
-      "previous": "3.1%"
+      "previous": "3.1%",
+      "vendorImpact": "low"
     },
     {
       "date": "6 Oct",
@@ -74649,10 +74666,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI m/m",
-      "impact": "low",
+      "impact": "medium",
       "actual": "0.3%",
       "forecast": "-0.1%",
-      "previous": "0.7%"
+      "previous": "0.7%",
+      "vendorImpact": "low"
     },
     {
       "date": "15 Oct",
@@ -74662,10 +74680,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-0.2%",
       "forecast": "0.1%",
-      "previous": "-0.7%"
+      "previous": "-0.7%",
+      "vendorImpact": "low"
     },
     {
       "date": "15 Oct",
@@ -77074,10 +77093,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-1.971B",
       "forecast": "-1.622B",
-      "previous": "-1.349B"
+      "previous": "-1.349B",
+      "vendorImpact": "low"
     },
     {
       "date": "18 Oct",
@@ -77487,10 +77507,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": "CHF1.4B",
       "forecast": null,
-      "previous": null
+      "previous": null,
+      "vendorImpact": "low"
     },
     {
       "date": "20 Oct",
@@ -82635,10 +82656,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand ANZ Business Confidence",
-      "impact": "low",
+      "impact": "medium",
       "actual": "52.5",
       "forecast": "48.1",
-      "previous": "51.9"
+      "previous": "51.9",
+      "vendorImpact": "low"
     },
     {
       "date": "29 Oct",
@@ -86298,10 +86320,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Retail Sales y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "1.6%",
       "forecast": "2.0%",
-      "previous": "3.2%"
+      "previous": "3.2%",
+      "vendorImpact": "low"
     },
     {
       "date": "2 Nov",
@@ -86944,10 +86967,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland CPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": "1.5",
       "forecast": "0.9%",
-      "previous": "1.0%"
+      "previous": "1.0%",
+      "vendorImpact": "low"
     },
     {
       "date": "3 Nov",
@@ -87290,10 +87314,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand Unemployment Rate",
-      "impact": "low",
+      "impact": "medium",
       "actual": "5.7%",
       "forecast": "5.6%",
-      "previous": "5.6%"
+      "previous": "5.6%",
+      "vendorImpact": "low"
     },
     {
       "date": "3 Nov",
@@ -89018,10 +89043,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Unemployment Rate",
-      "impact": "low",
+      "impact": "medium",
       "actual": "3.1%",
       "forecast": "3.1%",
-      "previous": "3.1%"
+      "previous": "3.1%",
+      "vendorImpact": "low"
     },
     {
       "date": "5 Nov",
@@ -94178,10 +94204,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI m/m",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": "0.0%",
-      "previous": "0.3%"
+      "previous": "0.3%",
+      "vendorImpact": "low"
     },
     {
       "date": "13 Nov",
@@ -94191,10 +94218,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland PPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": "-0.4%",
-      "previous": "-0.2%"
+      "previous": "-0.2%",
+      "vendorImpact": "low"
     },
     {
       "date": "13 Nov",
@@ -96103,10 +96131,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand PPI Output q/q",
-      "impact": "low",
+      "impact": "medium",
       "actual": "0.8%",
       "forecast": "1.0%",
-      "previous": "1.6%"
+      "previous": "1.6%",
+      "vendorImpact": "low"
     },
     {
       "date": "17 Nov",
@@ -97078,10 +97107,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": "-2.772B",
       "forecast": "-0.742B",
-      "previous": "-1.971B"
+      "previous": "-1.971B",
+      "vendorImpact": "low"
     },
     {
       "date": "18 Nov",
@@ -97260,10 +97290,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Trade Balance",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": null,
+      "vendorImpact": "low"
     },
     {
       "date": "19 Nov",
@@ -97273,10 +97304,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland Industrial Production y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": null,
-      "previous": "5.5%"
+      "previous": "5.5%",
+      "vendorImpact": "low"
     },
     {
       "date": "19 Nov",
@@ -101415,10 +101447,11 @@
       "currency": "NZD",
       "flag": "🇳🇿",
       "event": "New Zealand ANZ Business Confidence",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": "43.0",
-      "previous": "52.5"
+      "previous": "52.5",
+      "vendorImpact": "low"
     },
     {
       "date": "30 Nov",
@@ -103796,10 +103829,11 @@
       "currency": "CHF",
       "flag": "🇨🇭",
       "event": "Switzerland CPI y/y",
-      "impact": "low",
+      "impact": "medium",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": null,
+      "vendorImpact": "low"
     },
     {
       "date": "2 Dec",
