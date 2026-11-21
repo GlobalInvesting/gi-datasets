@@ -1,8 +1,8 @@
 {
-  "updated_utc": "2026-11-21T13:41:01.181727+00:00",
-  "updated_label": "13:41 UTC",
+  "updated_utc": "2026-11-21T13:51:00.063206+00:00",
+  "updated_label": "13:51 UTC",
   "total": 52,
-  "total_high": 40,
+  "total_high": 39,
   "total_med": 4,
   "sources_active": [
     "BabyPips",
@@ -10,13 +10,13 @@
     "Bank of England",
     "Barchart",
     "FT Bonds",
-    "FX Markets",
     "FinancialJuice",
     "ForexLive",
     "InvestMacro",
     "InvestingLive",
     "MyFXBook",
     "Nikkei Asia",
+    "RTT News",
     "Riksbank"
   ],
   "lang_counts": {
@@ -66,7 +66,7 @@
       "link": "https://www.financialjuice.com/News/9862892/Ukmto-tanker-leaving-strait-of-Hormuz-struck-on-stern-by-unidentified-projectile.aspx?xy=rss",
       "time": "07:41",
       "ts": 1795246914000,
-      "featured": true,
+      "featured": false,
       "lang": "en",
       "date": "21 Nov",
       "datetime": "2026-11-21T07:41:54+00:00",
@@ -745,6 +745,22 @@
       "recent": false
     },
     {
+      "id": "fd74fc5ff1b6",
+      "cur": "GBP",
+      "impact": "low",
+      "title": "Higher Fuel Costs Drive UK Inflation To One-Year High",
+      "expand": "UK inflation accelerated to a one-year high in October driven by higher motor fuel costs, official data showed Wednesday. Consumer prices increased 3.6 percent on a yearly basis, as expected, following September's 3.5 percent rise, data from the Office for National Statistics revealed.",
+      "source": "RTT News",
+      "link": "https://www.rttnews.com/story.aspx?Id=3715929",
+      "time": "13:21",
+      "ts": 1795008085000,
+      "featured": false,
+      "lang": "en",
+      "date": "18 Nov",
+      "datetime": "2026-11-18T13:21:25+00:00",
+      "recent": false
+    },
+    {
       "id": "a1aaf075820a",
       "cur": "EUR",
       "impact": "high",
@@ -838,22 +854,6 @@
       "lang": "en",
       "date": "17 Nov",
       "datetime": "2026-11-17T20:19:22+00:00",
-      "recent": false
-    },
-    {
-      "id": "7030097161e4",
-      "cur": "CHF",
-      "impact": "high",
-      "title": "Algo providers turning away from lit FX venues, says SNB",
-      "expand": "HFT activity on Clobs is nudging passive orders into dark and disclosed pools, says Swiss central bank official",
-      "source": "FX Markets",
-      "link": "https://www.fx-markets.com/infrastructure/7949908/algo-providers-turning-away-from-lit-fx-venues-says-snb",
-      "time": "13:49",
-      "ts": 1794923371000,
-      "featured": false,
-      "lang": "en",
-      "date": "17 Nov",
-      "datetime": "2026-11-17T13:49:31+00:00",
       "recent": false
     }
   ]
