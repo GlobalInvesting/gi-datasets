@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T01:10:39Z",
+  "updated": "2026-11-21T01:15:44Z",
   "source": "mixed",
   "quotes": {
     "vix": {
@@ -35,13 +35,13 @@
       "pct1w_date": "2026-11-13"
     },
     "gold": {
-      "close": 3532.7998,
+      "close": 3532.8683,
       "prev_close": 3520.57,
-      "chg": 12.2298,
-      "pct": 0.3474,
+      "chg": 12.2983,
+      "pct": 0.3493,
       "source": "twelve_data",
       "high": 3638.1,
-      "low": 3502.9,
+      "low": 3503.2,
       "open": 3633.8,
       "market_state": "REGULAR",
       "market_time": 1795211997
@@ -200,40 +200,40 @@
       "pct1w_date": "2026-11-13"
     },
     "btc": {
-      "close": 58954.2,
+      "close": 59074.0,
       "prev_close": 58802.6,
-      "chg": 151.6,
-      "pct": 0.2578,
-      "high": 59011.47,
+      "chg": 271.4,
+      "pct": 0.4615,
+      "high": 59038.812,
       "low": 58790.24,
       "open": 58802.6,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1795223442,
+      "market_time": 1795223741,
       "source": "quote-pipeline-primary",
-      "pct1w": -13.6193,
+      "pct1w": -13.4438,
       "pct1w_date": "2026-11-13",
-      "session_high": 62324.6,
-      "session_low": 57680.1
+      "session_high": 62322.56,
+      "session_low": 57676.29
     },
     "eth": {
-      "close": 1619.75,
+      "close": 1624.12,
       "prev_close": 1619.3748,
-      "chg": 0.3752,
-      "pct": 0.0232,
+      "chg": 4.7452,
+      "pct": 0.293,
       "high": 1623.712,
-      "low": 1619.0719,
+      "low": 1617.4541,
       "open": 1619.3748,
       "bid": null,
       "ask": null,
       "market_state": "REGULAR",
-      "market_time": 1795223442,
+      "market_time": 1795223744,
       "source": "quote-pipeline-primary",
-      "pct1w": -15.9702,
+      "pct1w": -15.7434,
       "pct1w_date": "2026-11-13",
       "session_high": 1761.46,
-      "session_low": 1580.56
+      "session_low": 1580.99
     },
     "nasdaq": {
       "close": 25028.982,
@@ -376,10 +376,10 @@
       "session_low": 158.459,
       "prev_bar": {
         "time": "2026-11-20",
-        "open": 159.668,
+        "open": 159.663,
         "high": 159.841,
         "low": 158.408,
-        "close": 158.499
+        "close": 158.495
       },
       "hv30": 5.32,
       "hv10": 5.57,
@@ -463,7 +463,7 @@
       "session_low": 1.4337,
       "prev_bar": {
         "time": "2026-11-20",
-        "open": 1.4344,
+        "open": 1.43462,
         "high": 1.43513,
         "low": 1.4295,
         "close": 1.43488
@@ -637,7 +637,7 @@
       "session_low": 1.65522,
       "prev_bar": {
         "time": "2026-11-20",
-        "open": 1.64746,
+        "open": 1.64741,
         "high": 1.65906,
         "low": 1.64369,
         "close": 1.65787
@@ -956,7 +956,7 @@
       "session_low": 1.97409,
       "prev_bar": {
         "time": "2026-11-20",
-        "open": 1.9661,
+        "open": 1.96616,
         "high": 1.97913,
         "low": 1.96199,
         "close": 1.9777
@@ -988,7 +988,7 @@
         "open": 2.38785,
         "high": 2.39389,
         "low": 2.37927,
-        "close": 2.39318
+        "close": 2.39298
       },
       "hv30": 5.75,
       "hv10": 5.32,
@@ -3677,24 +3677,25 @@
     {
       "a": "GBP/USD",
       "b": "FTSE 100",
-      "corr30": 0.347,
+      "corr30": 0.343,
       "n30": 30,
-      "corr": 0.265,
+      "corr": 0.26,
       "n": 60,
-      "corr90": 0.244,
+      "corr90": 0.227,
       "n90": 90,
-      "norm": 0.126,
-      "z_score": 1.15,
-      "norm60": 0.142,
-      "z_score60": 1.1,
+      "norm": 0.124,
+      "z_score": 1.14,
+      "norm60": 0.14,
+      "z_score60": 1.07,
       "n_indep60": 4,
-      "std": 0.2045,
+      "std": 0.2046,
       "n_indep": 8,
-      "band15hi": 0.408,
-      "band15lo": -0.178,
-      "band25hi": 0.564,
-      "band25lo": -0.366,
+      "band15hi": 0.407,
+      "band15lo": -0.18,
+      "band25hi": 0.562,
+      "band25lo": -0.369,
       "history": [
+        -0.143,
         -0.062,
         -0.052,
         -0.127,
@@ -3916,10 +3917,10 @@
         0.4,
         0.299,
         0.314,
-        0.343,
-        0.347
+        0.343
       ],
       "hist_dates": [
+        "2026-01-06",
         "2026-01-07",
         "2026-01-08",
         "2026-01-09",
@@ -4141,13 +4142,12 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-19",
-        "2026-11-20"
+        "2026-11-19"
       ],
       "spread_z": null,
       "signal": null,
       "beta": null,
-      "coint_p": 0.1277,
+      "coint_p": 0.1163,
       "coint_n": 252
     },
     {
