@@ -1,31 +1,31 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-15T13:47:16Z",
-  "week_of": "2026-11-16",
-  "ai_complete": true,
+  "generated_at": "2026-11-22T06:12:15Z",
+  "week_of": "2026-11-23",
+  "ai_complete": false,
   "view": {
-    "headline": "Broad-based USD strength ahead of JPY GDP q/q",
-    "summary": "The US dollar advanced across the board as the DXY gained +1.11% to 103.41, placing it 100% of the way up its 52-week range (low 95.55, high 103.44) and in the upper fifth of that range, while the terminal Risk Monitor remains in RISK-OFF (+0.53σ, 6 sessions in regime) with stress led by Equity Trend (+0.99σ) and FX Risk (+0.86σ), alongside VIX at 19.3 (75th percentile of 1Y), MOVE at 98.79 (89th percentile of 1Y), HY OAS at 320bp (89th percentile of 1Y, as of 2026-11-12), and IG OAS at 89bp (92nd percentile of 1Y, as of 2026-11-12). High-impact catalysts defining the week ahead feature Japan GDP on 15 November, US Retail Sales on 17 November, UK CPI, a speech from BoE Governor Bailey, and Eurozone CPI on 18 November, alongside dual appearances from ECB President Lagarde on 18 and 19 November. The prevailing dollar read would be reinforced by US Retail Sales exceeding the 0.3% forecast and Philadelphia Fed Manufacturing topping 32.2, whereas downside surprises across US activity data alongside softer UK and Eurozone inflation prints would challenge it.",
-    "source": "engine-ai-primary"
+    "headline": "Mixed G10 performance against the USD ahead of GBP S&P Global Services PMI Flash",
+    "summary": "JPY led and AUD lagged the G10 last week (+0.81% and -2.41% against the USD). Cross-asset, the DXY moved +0.41% while the US 2Y yield changed +24.0bp to 4.80%. The DXY closed at 103.84, in the upper fifth of its 52-week range and 3.58% above its SMA200. The terminal's Risk Monitor reads RISK-OFF, a composite of +1.81σ as of 2026-11-20, led by Equity Vol and Equity Trend. Volatility moved +7.61% in the MOVE index and +85.96% in the VIX. Other high-impact releases: GBP S&P Global Services PMI Flash (Mon 23 Nov); GBP S&P Global Manufacturing PMI Flash (Mon 23 Nov); EUR GDP q/q (Wed 25 Nov).",
+    "source": "deterministic"
   },
   "order": [
-    "GBP/CHF",
-    "CAD/JPY",
-    "EUR/CHF"
+    "GBP/NZD",
+    "EUR/AUD",
+    "AUD/CHF"
   ],
   "universe": [
-    "GBP/CHF",
-    "CAD/JPY",
-    "EUR/CHF"
+    "GBP/NZD",
+    "EUR/AUD",
+    "AUD/CHF"
   ],
   "pairs": {
-    "GBP/CHF": {
-      "paragraph": "GBP/CHF is in focus following a +1.28% 1W advance, CHF leveraged-fund positioning at its 4th percentile, an OIS carry gap of 402bp, and a shift in technical alignment, closing at 1.1091 above its SMA20 (1.1020), SMA50 (1.1006), and SMA200 (1.0747) with an uptrend in force. The directional read is Bullish, low conviction. The OIS overnight carry differential stands at 402bp in favour of GBP, widening from +379bp last week, with OIS pricing a 96% hike (+24bp expected) for the BoE on 17 December. Leveraged funds sit 66.8% long GBP (65th percentile) and 23.0% long CHF (4th percentile), while asset managers sit on the opposite side of GBP at 12.6% long (23rd percentile) and 36.1% long CHF (100th percentile). Descriptive of the terminal fair-value model, the z-score is +1.77, and spot trades more than one standard deviation above the model estimate. Ahead of UK CPI and BoE Governor Bailey on 18 November, a push through 1.1094 and 1.1104 would reinforce the bullish technical structure, while a break back below SMA20 at 1.1020 and SMA50 at 1.1006 would invalidate it.",
-      "source": "engine-ai-primary",
-      "updated": "2026-11-15T13:47:16Z",
-      "close": 1.1091,
-      "asof": "2026-11-13",
-      "week_pct": 1.28,
+    "GBP/NZD": {
+      "paragraph": "GBP/NZD closed at 2.3932 (+0.08% on the week), above its SMA20 and SMA50 and SMA200. The terminal's directional read is Bullish, low conviction. Recent price structure is aligned with the fundamental direction. Trend structure: uptrend in force (rising 20-day average above the 200-day); higher swing highs and lows. The overnight OIS differential is 123bp in favour of GBP. The 2Y yield spread (GBP minus NZD) stands at 106bp, +17bp over the last 20 sessions. CFTC leveraged funds are 60.4% long GBP, the 38th percentile of its 52-week range (net 23,730 contracts, -11,856 on the week). Asset managers are net short GBP (13.8% long) while leveraged funds are net long. The terminal fair-value model reads a z-score of +0.88: spot is within one standard deviation of the model estimate. A close above 20D high / 52W high at 2.4179 would ease the current setup, whereas a break below SMA20 at 2.3848 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-11-22T06:12:15Z",
+      "close": 2.3932,
+      "asof": "2026-11-20",
+      "week_pct": 0.08,
       "stance": "Above SMA20/50/200",
       "bias": "Bullish",
       "conviction": "low",
@@ -33,303 +33,260 @@
       "technical_alignment": "aligned",
       "bias_basis": [
         "uptrend in force (rising 20-day average above the 200-day)",
-        "lower swing highs and lows",
-        "close above a resistance zone near 1.1065 (4 swing points) on the latest session",
-        "close above the prior 10-day closing high on the latest session",
-        "latest bar trades entirely above its 20-day moving average",
-        "supports GBP: overnight OIS carry 402bp in favour of GBP",
-        "supports GBP: 2Y spread +17bp over 20 sessions",
-        "supports GBP: GBP 96% hike priced",
-        "supports CHF: fair-value z-score +1.77 (above one standard deviation)",
-        "crowding risk: CHF leveraged-fund positioning at the 4th percentile of its 52-week range"
+        "higher swing highs and lows",
+        "supports GBP: overnight OIS carry 123bp in favour of GBP",
+        "supports GBP: 2Y spread +17bp over 20 sessions"
       ],
-      "crowding": "CHF leveraged-fund positioning at the 4th percentile of its 52-week range",
+      "crowding": null,
       "sma_bias": "Bullish",
       "invalidation": {
         "label": "swing low",
-        "level": 1.0938,
+        "level": 2.3765,
         "rule": "daily close below"
       },
       "resistance": [
         {
-          "label": "20D high",
-          "value": 1.1094
-        },
-        {
-          "label": "52W high",
-          "value": 1.1104
+          "label": "20D high / 52W high",
+          "value": 2.4179
         }
       ],
       "support": [
         {
           "label": "SMA20",
-          "value": 1.102
+          "value": 2.3848
         },
         {
           "label": "SMA50",
-          "value": 1.1006
+          "value": 2.3627
         }
       ],
-      "carry_bp": 402,
+      "carry_bp": 123,
       "spread_2y": {
-        "bp": 470,
+        "bp": 106,
         "chg_bp": 17,
         "sessions": 20,
-        "asof": "2026-11-13"
+        "asof": "2026-11-20"
       },
-      "hv_20d": 4.7,
+      "hv_20d": 6.4,
       "iv_1m": null,
       "rr_25d": null,
       "valuation": {
-        "z": 1.77,
-        "zone": "above",
+        "z": 0.88,
+        "zone": "within",
         "fit": "Solid",
-        "fair_value": 1.1021,
-        "asof": "2026-11-14"
+        "fair_value": 2.3817,
+        "asof": "2026-11-21"
       },
       "vol_profile": null,
-      "reasons": [
-        "1W +1.28%",
-        "CHF leveraged-fund positioning at 4th percentile",
-        "technical alignment changed vs last week",
-        "OIS carry gap 402bp"
-      ],
+      "reasons": [],
       "deltas": [
-        "technical alignment changed from below_sma20_below_sma50_above_sma200 to above_sma20_above_sma50_above_sma200",
-        "OIS carry gap (base minus quote) moved from +379bp to +402bp"
+        "GBP leveraged-fund long% moved from 66.8% to 60.4%"
       ],
       "events": [
         {
-          "date": "2026-11-18",
-          "time": "07:00",
+          "date": "2026-11-23",
+          "time": "09:30",
           "ccy": "GBP",
-          "event": "CPI y/y",
-          "forecast": "2.7%",
-          "previous": "3.1%",
+          "event": "S&P Global Services PMI Flash",
+          "forecast": "53",
+          "previous": "52.8",
           "impact": "high"
         },
         {
-          "date": "2026-11-18",
-          "time": "07:30",
+          "date": "2026-11-23",
+          "time": "09:30",
           "ccy": "GBP",
-          "event": "BoE Governor Bailey Speech",
-          "forecast": null,
-          "previous": null,
+          "event": "S&P Global Manufacturing PMI Flash",
+          "forecast": "53",
+          "previous": "52.8",
           "impact": "high"
         }
       ],
       "meetings": [],
       "status": {
         "state": "active",
-        "close": 1.0982,
+        "close": 2.3932,
         "asof": "2026-11-20"
       }
     },
-    "CAD/JPY": {
-      "paragraph": "CAD/JPY is in focus with JPY leveraged-fund positioning at its 92nd percentile, closing at 112.008 after a -0.17% 1W move to sit above SMA50 (111.775) but below SMA20 (112.435) and SMA200 (114.086) within a range-bound trend structure. The directional read is Bullish, low conviction. The OIS overnight carry differential is 130bp in favour of CAD, with OIS pricing a 64% hike (+15bp expected) for the BoC on 9 December and a 75% hike (+21bp expected) for the BoJ on 18 December. Leveraged funds are 18.5% long CAD (25th percentile) and 44.3% long JPY (92nd percentile), whereas asset managers sit on the opposite side for both currencies at 53.4% long CAD (77th percentile) and 68.1% long JPY (98th percentile). Descriptive of the terminal fair-value model, the z-score is -0.24, and spot is within one standard deviation of the model estimate. Ahead of Japan GDP on 15 November, clearance above SMA20 at 112.435 toward 113.661 would reinforce the bullish setup, while a drop below SMA50 at 111.775 and 111.481 would negate it.",
-      "source": "engine-ai-primary",
-      "updated": "2026-11-15T13:47:16Z",
-      "close": 112.008,
-      "asof": "2026-11-13",
-      "week_pct": -0.17,
-      "stance": "Above SMA50 · Below SMA20/200",
-      "bias": "Bullish",
-      "conviction": "low",
-      "bias_state": "fundamental",
-      "technical_alignment": "technical_neutral",
-      "bias_basis": [
-        "range-bound: tight 20-session box and flat 20-day average",
-        "higher swing highs and lows",
-        "latest bar trades entirely below its 20-day moving average",
-        "supports CAD: overnight OIS carry 130bp in favour of CAD",
-        "supports CAD: 2Y spread +14bp over 20 sessions"
-      ],
-      "crowding": null,
-      "sma_bias": "Mixed",
-      "invalidation": {
-        "label": "swing low",
-        "level": 111.626,
-        "rule": "daily close below"
-      },
-      "resistance": [
-        {
-          "label": "SMA20",
-          "value": 112.435
-        },
-        {
-          "label": "20D high",
-          "value": 113.661
-        }
-      ],
-      "support": [
-        {
-          "label": "SMA50",
-          "value": 111.775
-        },
-        {
-          "label": "20D low",
-          "value": 111.481
-        }
-      ],
-      "carry_bp": 130,
-      "spread_2y": {
-        "bp": 147,
-        "chg_bp": 14,
-        "sessions": 20,
-        "asof": "2026-11-13"
-      },
-      "hv_20d": 5.1,
-      "iv_1m": null,
-      "rr_25d": null,
-      "valuation": {
-        "z": -0.24,
-        "zone": "within",
-        "fit": "Solid",
-        "fair_value": 112.17,
-        "asof": "2026-11-14"
-      },
-      "vol_profile": null,
-      "reasons": [
-        "JPY leveraged-fund positioning at 92nd percentile"
-      ],
-      "deltas": [],
-      "events": [
-        {
-          "date": "2026-11-15",
-          "time": "23:50",
-          "ccy": "JPY",
-          "event": "GDP q/q",
-          "forecast": "0.0%",
-          "previous": "0.4%",
-          "impact": "high"
-        }
-      ],
-      "meetings": [],
-      "status": {
-        "state": "invalidated",
-        "close": 110.46,
-        "asof": "2026-11-20",
-        "since": "2026-11-16"
-      }
-    },
-    "EUR/CHF": {
-      "paragraph": "EUR/CHF is in focus after rising +1.23% over 1W, testing its SMA200 with EUR and CHF leveraged-fund positioning at their 2nd and 4th percentiles, closing at 0.9252 above SMA20 (0.9214) and SMA200 (0.9234) but below SMA50 (0.9317) with no directional edge. The directional read is Mixed, indicating that fundamental evidence has no clear direction. The OIS carry differential is 248bp in favour of EUR, where OIS prices a 75% ECB hike on 17 December. Leveraged funds are 31.8% long EUR (2nd percentile) and 23.0% long CHF (4th percentile), while asset managers sit on the opposite side of EUR at 60.1% long (2nd percentile) and hold CHF at 36.1% long (100th percentile). Descriptive of the terminal fair-value model, the z-score is +1.19, and spot trades more than one standard deviation above the model estimate; options show a 1Y minus 1M implied volatility slope of +0.65 vol points. Ahead of Eurozone CPI and speeches from ECB President Lagarde on 18 and 19 November, sustained trading above SMA200 at 0.9234 toward 0.9287 would reinforce technical momentum, whereas a retreat below SMA20 at 0.9214 would invalidate it.",
-      "source": "engine-ai-primary",
-      "updated": "2026-11-15T13:47:16Z",
-      "close": 0.9252,
-      "asof": "2026-11-13",
-      "week_pct": 1.23,
-      "stance": "Above SMA20/200 · Below SMA50",
+    "EUR/AUD": {
+      "paragraph": "EUR/AUD closed at 1.6579 (+1.92% on the week), above its SMA20 and SMA50 and SMA200. The terminal's directional read is Mixed. The fundamental evidence has no clear direction. Trend structure: short-term move without 200-day confirmation; bullish wide-range bar on the latest session (body 2.1x the 10-bar average body); close above the prior 10-day closing high on the latest session; latest bar trades entirely above its 20-day moving average. The overnight OIS differential is 241bp in favour of AUD. The 2Y yield spread (EUR minus AUD) stands at -156bp, +23bp over the last 20 sessions. CFTC leveraged funds are 30.4% long EUR, the 2nd percentile of its 52-week range (net -105,891 contracts, -7,287 on the week). Asset managers are net long EUR (60.1% long) while leveraged funds are net short. The terminal fair-value model reads a z-score of +2.80: spot trades more than one standard deviation above the model estimate. A close above 20D high at 1.6591 would ease the current setup, whereas a break below SMA200 at 1.6324 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-11-22T06:12:15Z",
+      "close": 1.6579,
+      "asof": "2026-11-20",
+      "week_pct": 1.92,
+      "stance": "Above SMA20/50/200",
       "bias": "Mixed",
       "conviction": null,
       "bias_state": "no_edge",
       "technical_alignment": "technical_neutral",
       "bias_basis": [
-        "no directional edge: mixed short-term evidence",
-        "lower swing highs and lows",
+        "short-term move without 200-day confirmation",
+        "bullish wide-range bar on the latest session (body 2.1x the 10-bar average body)",
         "close above the prior 10-day closing high on the latest session",
         "latest bar trades entirely above its 20-day moving average",
-        "supports EUR: overnight OIS carry 248bp in favour of EUR",
-        "supports EUR: EUR 75% hike priced",
-        "supports CHF: fair-value z-score +1.19 (above one standard deviation)"
+        "supports AUD: overnight OIS carry 241bp in favour of AUD",
+        "supports EUR: 2Y spread +23bp over 20 sessions",
+        "supports EUR: EUR 84% hike priced",
+        "supports AUD: fair-value z-score +2.80 (above one standard deviation)"
       ],
       "crowding": null,
-      "sma_bias": "Mixed",
+      "sma_bias": "Bullish",
       "invalidation": null,
       "resistance": [
         {
           "label": "20D high",
-          "value": 0.9287
+          "value": 1.6591
         },
         {
-          "label": "SMA50",
-          "value": 0.9317
+          "label": "52W high",
+          "value": 1.7804
         }
       ],
       "support": [
         {
           "label": "SMA200",
-          "value": 0.9234
+          "value": 1.6324
         },
         {
           "label": "SMA20",
-          "value": 0.9214
+          "value": 1.6152
         }
       ],
-      "carry_bp": 248,
+      "carry_bp": -241,
       "spread_2y": {
-        "bp": 285,
-        "chg_bp": -2,
+        "bp": -156,
+        "chg_bp": 23,
         "sessions": 20,
-        "asof": "2026-11-13"
+        "asof": "2026-11-20"
       },
-      "hv_20d": 4.9,
-      "iv_1m": 4.9,
-      "rr_25d": -0.61,
+      "hv_20d": 6.9,
+      "iv_1m": null,
+      "rr_25d": null,
       "valuation": {
-        "z": 1.19,
+        "z": 2.8,
         "zone": "above",
         "fit": "Solid",
-        "fair_value": 0.9206,
-        "asof": "2026-11-14"
+        "fair_value": 1.6244,
+        "asof": "2026-11-21"
       },
-      "vol_profile": {
-        "iv_term": {
-          "1W": 5.01,
-          "1M": 4.9,
-          "3M": 4.95,
-          "6M": 5.39,
-          "1Y": 5.55
-        },
-        "rr_term": {
-          "1W": -0.6,
-          "1M": -0.61,
-          "3M": -0.68,
-          "1Y": -0.85
-        },
-        "iv_slope_1m_1y": 0.65,
-        "iv_minus_hv": 0.0,
-        "rr_slope_1m_3m": -0.07
-      },
+      "vol_profile": null,
       "reasons": [
-        "1W +1.23%",
+        "1W +1.92%",
         "EUR leveraged-fund positioning at 2nd percentile",
-        "CHF leveraged-fund positioning at 4th percentile",
-        "technical alignment changed vs last week",
-        "testing SMA200"
+        "technical alignment changed vs last week"
       ],
       "deltas": [
-        "technical alignment changed from below_sma20_below_sma50_below_sma200 to above_sma20_below_sma50_above_sma200"
+        "technical alignment changed from above_sma20_above_sma50_below_sma200 to above_sma20_above_sma50_above_sma200",
+        "AUD leveraged-fund long% moved from 67.2% to 61.0%"
       ],
       "events": [
         {
-          "date": "2026-11-18",
-          "time": "10:00",
+          "date": "2026-11-25",
+          "time": "07:00",
           "ccy": "EUR",
-          "event": "CPI y/y",
-          "forecast": "3.2%",
-          "previous": "3.2%",
+          "event": "GDP q/q",
+          "forecast": "0.2%",
+          "previous": "0.2%",
           "impact": "high"
         },
         {
-          "date": "2026-11-18",
-          "time": "14:25",
+          "date": "2026-11-26",
+          "time": "00:00",
           "ccy": "EUR",
-          "event": "ECB President Lagarde Speech",
+          "event": "EU Leaders Summit",
           "forecast": null,
           "previous": null,
           "impact": "high"
         },
         {
-          "date": "2026-11-19",
-          "time": "13:30",
+          "date": "2026-11-27",
+          "time": "00:00",
           "ccy": "EUR",
-          "event": "ECB President Lagarde Speech",
+          "event": "EU Leaders Summit",
           "forecast": null,
           "previous": null,
           "impact": "high"
         }
       ],
+      "meetings": []
+    },
+    "AUD/CHF": {
+      "paragraph": "AUD/CHF closed at 0.5553 (-2.36% on the week), below its SMA20 and SMA50 and SMA200. The terminal's directional read is Mixed. The fundamental evidence has no clear direction. Trend structure: short-term move without 200-day confirmation; lower swing highs and lows; bearish wide-range bar on the latest session (body 2.9x the 10-bar average body); close below the prior 10-day closing low on the latest session; latest bar trades entirely below its 20-day moving average. The overnight OIS differential is 489bp in favour of AUD. The 2Y yield spread (AUD minus CHF) stands at 443bp, -22bp over the last 20 sessions. CFTC leveraged funds are 61.0% long AUD, the 19th percentile of its 52-week range (net 26,143 contracts, -15,052 on the week). Asset managers are net short AUD (20.8% long) while leveraged funds are net long. The terminal fair-value model reads a z-score of -1.48: spot trades more than one standard deviation below the model estimate. A close above SMA200 at 0.5656 would ease the current setup, whereas a break below 20D low at 0.5543 would extend it.",
+      "source": "deterministic",
+      "updated": "2026-11-22T06:12:15Z",
+      "close": 0.5553,
+      "asof": "2026-11-20",
+      "week_pct": -2.36,
+      "stance": "Below SMA20/50/200",
+      "bias": "Mixed",
+      "conviction": null,
+      "bias_state": "no_edge",
+      "technical_alignment": "technical_neutral",
+      "bias_basis": [
+        "short-term move without 200-day confirmation",
+        "lower swing highs and lows",
+        "bearish wide-range bar on the latest session (body 2.9x the 10-bar average body)",
+        "close below the prior 10-day closing low on the latest session",
+        "latest bar trades entirely below its 20-day moving average",
+        "supports AUD: overnight OIS carry 489bp in favour of AUD",
+        "supports CHF: 2Y spread -22bp over 20 sessions",
+        "supports AUD: fair-value z-score -1.48 (below one standard deviation)"
+      ],
+      "crowding": null,
+      "sma_bias": "Bearish",
+      "invalidation": null,
+      "resistance": [
+        {
+          "label": "SMA200",
+          "value": 0.5656
+        },
+        {
+          "label": "SMA20",
+          "value": 0.5704
+        }
+      ],
+      "support": [
+        {
+          "label": "20D low",
+          "value": 0.5543
+        },
+        {
+          "label": "52W low",
+          "value": 0.5222
+        }
+      ],
+      "carry_bp": 489,
+      "spread_2y": {
+        "bp": 443,
+        "chg_bp": -22,
+        "sessions": 20,
+        "asof": "2026-11-20"
+      },
+      "hv_20d": 9.4,
+      "iv_1m": null,
+      "rr_25d": null,
+      "valuation": {
+        "z": -1.48,
+        "zone": "below",
+        "fit": "Solid",
+        "fair_value": 0.5598,
+        "asof": "2026-11-21"
+      },
+      "vol_profile": null,
+      "reasons": [
+        "1W -2.36%",
+        "CHF leveraged-fund positioning at 2nd percentile",
+        "technical alignment changed vs last week",
+        "OIS carry gap 489bp"
+      ],
+      "deltas": [
+        "technical alignment changed from below_sma20_below_sma50_above_sma200 to below_sma20_below_sma50_below_sma200",
+        "AUD leveraged-fund long% moved from 67.2% to 61.0%",
+        "CHF leveraged-fund long% moved from 23.0% to 18.3%"
+      ],
+      "events": [],
       "meetings": []
     }
   },
@@ -337,308 +294,308 @@
     {
       "key": "dxy",
       "label": "DXY",
-      "level": 103.41,
-      "chg": 1.11,
+      "level": 103.84,
+      "chg": 0.41,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "us2y",
       "label": "US 2Y",
-      "level": 4.73,
-      "chg": 12.0,
+      "level": 4.8,
+      "chg": 24.0,
       "unit": "bp",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "us10y",
       "label": "US 10Y",
-      "level": 5.15,
-      "chg": 31.7,
+      "level": 4.91,
+      "chg": -24.2,
       "unit": "bp",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "vix",
       "label": "VIX",
-      "level": 19.3,
-      "chg": -24.73,
+      "level": 35.89,
+      "chg": 85.96,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "move",
       "label": "MOVE",
-      "level": 98.79,
-      "chg": 0.89,
+      "level": 106.31,
+      "chg": 7.61,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "spx",
       "label": "S&P 500",
-      "level": 7561.67,
-      "chg": 2.51,
+      "level": 6910.39,
+      "chg": -8.61,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "brent",
       "label": "Brent",
-      "level": 95.84,
-      "chg": -2.52,
+      "level": 89.95,
+      "chg": -6.15,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     },
     {
       "key": "gold",
       "label": "Gold",
-      "level": 3886.3,
-      "chg": -4.63,
+      "level": 3515.4,
+      "chg": -9.54,
       "unit": "pct",
-      "asof": "2026-11-13"
+      "asof": "2026-11-20"
     }
   ],
   "dollar_anchor": {
-    "level": 103.41,
-    "asof": "2026-11-13",
+    "level": 103.84,
+    "asof": "2026-11-20",
     "range_low": 95.55,
-    "range_high": 103.44,
-    "range_pos_pct": 100,
+    "range_high": 103.97,
+    "range_pos_pct": 98,
     "zone": "upper_fifth",
-    "sma50": 101.62,
-    "sma200": 100.12,
-    "vs_sma50_pct": 1.76,
-    "vs_sma200_pct": 3.29
+    "sma50": 102.02,
+    "sma200": 100.25,
+    "vs_sma50_pct": 1.79,
+    "vs_sma200_pct": 3.58
   },
   "risk": {
     "regime": "RISK-OFF",
-    "composite": 0.53,
-    "asof": "2026-11-13",
-    "sessions_in_regime": 6,
+    "composite": 1.81,
+    "asof": "2026-11-20",
+    "sessions_in_regime": 11,
     "drivers": [
-      "Equity Trend",
-      "FX Risk"
+      "Equity Vol",
+      "Equity Trend"
     ],
     "blocks": [
       {
+        "label": "Equity Vol",
+        "z": 3.0
+      },
+      {
         "label": "Equity Trend",
-        "z": 0.99
+        "z": 3.0
       },
       {
         "label": "FX Risk",
-        "z": 0.86
-      },
-      {
-        "label": "Rates Vol",
-        "z": 0.63
+        "z": 2.38
       },
       {
         "label": "Credit",
-        "z": 0.46
+        "z": 0.98
       },
       {
-        "label": "Equity Vol",
-        "z": 0.08
+        "label": "Rates Vol",
+        "z": 0.97
       }
     ],
     "levels": {
       "vix": {
         "label": "VIX",
         "unit": "pts",
-        "asof": "2026-11-13",
-        "pctile": 75,
-        "level": 19.3
+        "asof": "2026-11-20",
+        "pctile": 100,
+        "level": 35.89
       },
       "move": {
         "label": "MOVE",
         "unit": "pts",
-        "asof": "2026-11-13",
-        "pctile": 89,
-        "level": 98.79
+        "asof": "2026-11-20",
+        "pctile": 96,
+        "level": 106.31
       },
       "hyoas": {
         "label": "HY OAS",
         "unit": "bp",
-        "asof": "2026-11-12",
-        "pctile": 89,
-        "level": 320,
-        "chg_20d": -5
+        "asof": "2026-11-19",
+        "pctile": 100,
+        "level": 352,
+        "chg_20d": 12
       },
       "igoas": {
         "label": "IG OAS",
         "unit": "bp",
-        "asof": "2026-11-12",
-        "pctile": 92,
-        "level": 89,
+        "asof": "2026-11-19",
+        "pctile": 100,
+        "level": 94,
         "chg_20d": 5
       }
     }
   },
   "us_yields": {
     "tenor": "5Y",
-    "asof": "2026-11-12",
-    "nominal": 4.95,
-    "breakeven": 2.31,
+    "asof": "2026-11-19",
+    "nominal": 4.86,
+    "breakeven": 2.22,
     "real": 2.64,
     "windows": {
       "5": {
-        "nominal": 26,
-        "real": 25,
-        "breakeven": 1,
-        "driver": "real-yield-led"
+        "nominal": -9,
+        "real": 0,
+        "breakeven": -9,
+        "driver": null
       },
       "20": {
-        "nominal": -5,
-        "real": 0,
-        "breakeven": -5,
+        "nominal": -9,
+        "real": 9,
+        "breakeven": -18,
         "driver": null
       }
     }
   },
   "fx_performance": [
     {
-      "ccy": "NZD",
-      "pct": -0.28
+      "ccy": "JPY",
+      "pct": 0.81
     },
     {
-      "ccy": "JPY",
-      "pct": -0.82
+      "ccy": "CHF",
+      "pct": -0.03
+    },
+    {
+      "ccy": "EUR",
+      "pct": -0.53
     },
     {
       "ccy": "CAD",
-      "pct": -0.99
+      "pct": -0.58
     },
     {
       "ccy": "GBP",
       "pct": -1.01
     },
     {
-      "ccy": "NOK",
-      "pct": -1.04
-    },
-    {
-      "ccy": "EUR",
-      "pct": -1.07
-    },
-    {
-      "ccy": "AUD",
-      "pct": -1.27
+      "ccy": "NZD",
+      "pct": -1.1
     },
     {
       "ccy": "SEK",
-      "pct": -1.72
+      "pct": -1.6
     },
     {
-      "ccy": "CHF",
-      "pct": -2.27
+      "ccy": "NOK",
+      "pct": -2.19
+    },
+    {
+      "ccy": "AUD",
+      "pct": -2.41
     }
   ],
   "week_ahead": [
     {
-      "date": "2026-11-15",
-      "time": "23:50",
-      "ccy": "JPY",
-      "event": "GDP q/q",
-      "forecast": "0.0%",
-      "previous": "0.4%",
+      "date": "2026-11-23",
+      "time": "09:30",
+      "ccy": "GBP",
+      "event": "S&P Global Services PMI Flash",
+      "forecast": "53",
+      "previous": "52.8",
       "impact": "high"
     },
     {
-      "date": "2026-11-16",
-      "time": "22:00",
-      "ccy": "NZD",
-      "event": "RBNZ Governor Orr Speech",
+      "date": "2026-11-23",
+      "time": "09:30",
+      "ccy": "GBP",
+      "event": "S&P Global Manufacturing PMI Flash",
+      "forecast": "53",
+      "previous": "52.8",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "15:00",
+      "ccy": "USD",
+      "event": "CB Consumer Confidence Index",
+      "forecast": "91.5",
+      "previous": "91.7",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-24",
+      "time": "23:19",
+      "ccy": "CAD",
+      "event": "BoC Governor Macklem Speech",
       "forecast": null,
       "previous": null,
       "impact": "high"
     },
     {
-      "date": "2026-11-17",
-      "time": "13:30",
-      "ccy": "USD",
-      "event": "Retail Sales m/m",
-      "forecast": "0.3%",
-      "previous": "0.8%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-17",
-      "time": "13:30",
-      "ccy": "USD",
-      "event": "Core Retail Sales m/m",
-      "forecast": "0.7%",
-      "previous": "0.9%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-18",
+      "date": "2026-11-25",
       "time": "07:00",
-      "ccy": "GBP",
-      "event": "CPI y/y",
-      "forecast": "2.7%",
+      "ccy": "EUR",
+      "event": "GDP q/q",
+      "forecast": "0.2%",
+      "previous": "0.2%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "13:30",
+      "ccy": "USD",
+      "event": "Core PCE Price Index m/m",
+      "forecast": "0.3%",
+      "previous": "0.3%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "13:30",
+      "ccy": "USD",
+      "event": "Core PCE Price Index y/y",
+      "forecast": "3.1%",
       "previous": "3.1%",
       "impact": "high"
     },
     {
-      "date": "2026-11-18",
-      "time": "07:30",
-      "ccy": "GBP",
-      "event": "BoE Governor Bailey Speech",
+      "date": "2026-11-25",
+      "time": "13:30",
+      "ccy": "USD",
+      "event": "GDP q/q",
+      "forecast": "3.4%",
+      "previous": "3.4%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "13:30",
+      "ccy": "USD",
+      "event": "GDP Sales q/q",
+      "forecast": "1.7%",
+      "previous": "1.7%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "00:00",
+      "ccy": "EUR",
+      "event": "EU Leaders Summit",
       "forecast": null,
       "previous": null,
       "impact": "high"
     },
     {
-      "date": "2026-11-18",
-      "time": "10:00",
+      "date": "2026-11-26",
+      "time": "23:30",
+      "ccy": "JPY",
+      "event": "Tokyo CPI excl. Food and Energy y/y",
+      "forecast": "2.4%",
+      "previous": "2.6%",
+      "impact": "high"
+    },
+    {
+      "date": "2026-11-27",
+      "time": "00:00",
       "ccy": "EUR",
-      "event": "CPI y/y",
-      "forecast": "3.2%",
-      "previous": "3.2%",
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-18",
-      "time": "14:25",
-      "ccy": "EUR",
-      "event": "ECB President Lagarde Speech",
-      "forecast": null,
-      "previous": null,
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-18",
-      "time": "15:30",
-      "ccy": "USD",
-      "event": "EIA Crude Oil Stocks Change",
-      "forecast": "-0.309M",
-      "previous": "4.657M",
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-19",
-      "time": "13:30",
-      "ccy": "EUR",
-      "event": "ECB President Lagarde Speech",
-      "forecast": null,
-      "previous": null,
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-19",
-      "time": "13:30",
-      "ccy": "USD",
-      "event": "Philadelphia Fed Manufacturing Index",
-      "forecast": "32.2",
-      "previous": "20.9",
-      "impact": "high"
-    },
-    {
-      "date": "2026-11-19",
-      "time": "13:30",
-      "ccy": "USD",
-      "event": "Initial Jobless Claims",
+      "event": "EU Leaders Summit",
       "forecast": null,
       "previous": null,
       "impact": "high"
@@ -647,54 +604,54 @@
   "central_banks": [
     {
       "ccy": "USD",
-      "rate": 3.9,
+      "rate": 3.91,
       "next_meeting": "9 Dec",
       "next_meeting_iso": "2026-12-09",
-      "days_out": 24,
+      "days_out": 17,
       "bias": "hike",
       "prob": 100,
       "in_window": false,
-      "priced_bp": 23
+      "priced_bp": null
     },
     {
       "ccy": "EUR",
-      "rate": 2.443,
+      "rate": 2.441,
       "next_meeting": "17 Dec",
       "next_meeting_iso": "2026-12-17",
-      "days_out": 32,
+      "days_out": 25,
       "bias": "hike",
-      "prob": 75,
+      "prob": 84,
       "in_window": false,
       "priced_bp": null
     },
     {
       "ccy": "GBP",
-      "rate": 3.9845,
+      "rate": 3.984,
       "next_meeting": "17 Dec",
       "next_meeting_iso": "2026-12-17",
-      "days_out": 32,
+      "days_out": 25,
       "bias": "hike",
-      "prob": 96,
+      "prob": 89,
       "in_window": false,
-      "priced_bp": 24
+      "priced_bp": 22
     },
     {
       "ccy": "JPY",
-      "rate": 1.232,
+      "rate": 1.227,
       "next_meeting": "18 Dec",
       "next_meeting_iso": "2026-12-18",
-      "days_out": 33,
+      "days_out": 26,
       "bias": "hike",
-      "prob": 75,
+      "prob": 77,
       "in_window": false,
-      "priced_bp": 21
+      "priced_bp": null
     },
     {
       "ccy": "AUD",
       "rate": 4.85,
       "next_meeting": "8 Dec",
       "next_meeting_iso": "2026-12-08",
-      "days_out": 23,
+      "days_out": 16,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -705,20 +662,20 @@
       "rate": 2.75,
       "next_meeting": "9 Dec",
       "next_meeting_iso": "2026-12-09",
-      "days_out": 24,
+      "days_out": 17,
       "bias": "hike",
-      "prob": 85,
+      "prob": 76,
       "in_window": false,
-      "priced_bp": 21
+      "priced_bp": 19
     },
     {
       "ccy": "CAD",
-      "rate": 2.53,
+      "rate": 2.55,
       "next_meeting": "9 Dec",
       "next_meeting_iso": "2026-12-09",
-      "days_out": 24,
+      "days_out": 17,
       "bias": "hike",
-      "prob": 64,
+      "prob": 58,
       "in_window": false,
       "priced_bp": 15
     },
@@ -727,7 +684,7 @@
       "rate": -0.04,
       "next_meeting": "10 Dec",
       "next_meeting_iso": "2026-12-10",
-      "days_out": 25,
+      "days_out": 18,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -738,7 +695,7 @@
       "rate": 4.5,
       "next_meeting": "17 Dec",
       "next_meeting_iso": "2026-12-17",
-      "days_out": 32,
+      "days_out": 25,
       "bias": "hold",
       "prob": null,
       "in_window": false,
@@ -746,10 +703,10 @@
     },
     {
       "ccy": "SEK",
-      "rate": 1.879,
+      "rate": 1.884,
       "next_meeting": "22 Dec",
       "next_meeting_iso": "2026-12-22",
-      "days_out": 37,
+      "days_out": 30,
       "bias": "cut",
       "prob": 100,
       "in_window": false,
@@ -759,101 +716,96 @@
   "positioning": [
     {
       "ccy": "EUR",
-      "pct_long": 31.8,
+      "pct_long": 30.4,
       "percentile": 2,
-      "net": -104030,
-      "net_change": -4473,
-      "week_ending": "2026-11-03",
+      "net": -105891,
+      "net_change": -7287,
+      "week_ending": "2026-11-17",
       "am_pct_long": 60.1,
       "am_percentile": 2,
-      "am_net": 171259,
-      "am_net_change": -17976,
+      "am_net": 170383,
+      "am_net_change": -20896,
       "am_diverges": true
     },
     {
       "ccy": "GBP",
-      "pct_long": 66.8,
-      "percentile": 65,
-      "net": 32686,
-      "net_change": 12670,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 12.6,
-      "am_percentile": 23,
-      "am_net": -124121,
-      "am_net_change": 5638,
+      "pct_long": 60.4,
+      "percentile": 38,
+      "net": 23730,
+      "net_change": -11856,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 13.8,
+      "am_percentile": 62,
+      "am_net": -102757,
+      "am_net_change": 3055,
       "am_diverges": true
     },
     {
       "ccy": "JPY",
-      "pct_long": 44.3,
-      "percentile": 92,
-      "net": -21213,
-      "net_change": -1989,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 68.1,
-      "am_percentile": 98,
-      "am_net": 80702,
-      "am_net_change": -10925,
+      "pct_long": 42.8,
+      "percentile": 85,
+      "net": -29545,
+      "net_change": -5632,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 66.5,
+      "am_percentile": 96,
+      "am_net": 85536,
+      "am_net_change": -5584,
       "am_diverges": true
     },
     {
       "ccy": "AUD",
-      "pct_long": 67.2,
-      "percentile": 46,
-      "net": 43532,
-      "net_change": -395,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 28.1,
+      "pct_long": 61.0,
+      "percentile": 19,
+      "net": 26143,
+      "net_change": -15052,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 20.8,
       "am_percentile": 2,
-      "am_net": -130966,
-      "am_net_change": -5230,
+      "am_net": -182551,
+      "am_net_change": -25248,
       "am_diverges": true
     },
     {
       "ccy": "NZD",
-      "pct_long": 25.5,
-      "percentile": 21,
-      "net": -23350,
-      "net_change": -628,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 16.5,
-      "am_percentile": 25,
-      "am_net": -46700,
-      "am_net_change": 141,
+      "pct_long": 25.3,
+      "percentile": 23,
+      "net": -23862,
+      "net_change": 1118,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 16.1,
+      "am_percentile": 19,
+      "am_net": -47524,
+      "am_net_change": -6496,
       "am_diverges": false
     },
     {
       "ccy": "CAD",
-      "pct_long": 18.5,
-      "percentile": 25,
-      "net": -85289,
-      "net_change": 11663,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 53.4,
-      "am_percentile": 77,
-      "am_net": 14572,
-      "am_net_change": 17169,
+      "pct_long": 22.5,
+      "percentile": 37,
+      "net": -75447,
+      "net_change": -5235,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 51.4,
+      "am_percentile": 63,
+      "am_net": 6418,
+      "am_net_change": -8307,
       "am_diverges": true
     },
     {
       "ccy": "CHF",
-      "pct_long": 23.0,
-      "percentile": 4,
-      "net": -18905,
-      "net_change": 1038,
-      "week_ending": "2026-11-03",
-      "am_pct_long": 36.1,
+      "pct_long": 18.3,
+      "percentile": 2,
+      "net": -21646,
+      "net_change": -4443,
+      "week_ending": "2026-11-17",
+      "am_pct_long": 42.4,
       "am_percentile": 100,
-      "am_net": -20853,
-      "am_net_change": 4214,
+      "am_net": -11204,
+      "am_net_change": 1965,
       "am_diverges": false
     }
   ],
-  "changes": [
-    "USD: OIS-priced hike probability for the 9 Dec meeting moved from 88% to 100%",
-    "EUR: OIS-priced hike probability for the 17 Dec meeting moved from 55% to 75%",
-    "NZD: OIS-priced hike probability for the 9 Dec meeting moved from 63% to 85%",
-    "CAD: OIS-priced hike probability for the 9 Dec meeting moved from 42% to 64%"
-  ],
-  "status_updated": "2026-11-21T06:09:16Z"
+  "changes": [],
+  "status_updated": "2026-11-22T06:17:35Z"
 }
