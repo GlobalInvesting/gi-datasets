@@ -1,43 +1,33 @@
 {
-  "lastUpdate": "2026-11-21T20:10:26Z",
-  "generatedAt": "2026-11-21T20:10:26Z",
+  "lastUpdate": "2026-11-22T00:35:33Z",
+  "generatedAt": "2026-11-22T00:35:33Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-11-21",
-  "rangeTo": "2026-12-04",
-  "totalEvents": 7883,
+  "rangeFrom": "2025-11-24",
+  "rangeTo": "2026-12-06",
+  "totalEvents": 7872,
   "currencyCounts": {
-    "GBP": 698,
-    "EUR": 2336,
-    "CAD": 444,
-    "USD": 2524,
+    "EUR": 2334,
+    "USD": 2523,
+    "GBP": 693,
     "AUD": 456,
     "NZD": 197,
-    "JPY": 599,
+    "CAD": 440,
+    "JPY": 600,
     "CHF": 178,
     "SEK": 263,
     "NOK": 188
   },
   "impactCounts": {
-    "medium": 3138,
-    "high": 1661,
-    "low": 3084
+    "high": 1653,
+    "medium": 3134,
+    "low": 3085
   },
   "surpriseStats": {
-    "NZD/retail sales qoq": {
-      "n": 2,
-      "mean": -0.7,
-      "std": 0.141421
-    },
-    "NZD/retail sales yoy": {
-      "n": 2,
-      "mean": -0.55,
-      "std": 0.919239
-    },
     "EUR/finland ppi yoy": {
       "n": 3,
       "mean": 0.666667,
@@ -4225,150 +4215,6 @@
     }
   },
   "events": [
-    {
-      "currency": "GBP",
-      "event": "GfK Consumer Confidence",
-      "dateISO": "2025-11-21",
-      "actual": "-19",
-      "forecast": "-18.0",
-      "previous": "-17.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "00:01"
-    },
-    {
-      "currency": "GBP",
-      "event": "Retail Sales ex Fuel MoM",
-      "dateISO": "2025-11-21",
-      "actual": "-1%",
-      "forecast": "-0.2",
-      "previous": "0.7",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "Retail Sales ex Fuel YoY",
-      "dateISO": "2025-11-21",
-      "actual": "1.2%",
-      "forecast": "2.5",
-      "previous": "1.7",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-11-21",
-      "actual": "-1.1%",
-      "forecast": "0.0",
-      "previous": "0.7",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "GBP",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-11-21",
-      "actual": "0.2%",
-      "forecast": "1.5",
-      "previous": "1.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Business Confidence",
-      "dateISO": "2025-11-21",
-      "actual": "98",
-      "forecast": "100.0",
-      "previous": "101.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "07:45"
-    },
-    {
-      "currency": "EUR",
-      "event": "Negotiated Wage Growth",
-      "dateISO": "2025-11-21",
-      "actual": "1.87%",
-      "forecast": "3.4",
-      "previous": "4.01",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "CAD",
-      "event": "New Housing Price Index MoM",
-      "dateISO": "2025-11-21",
-      "actual": "-0.4%",
-      "forecast": "0.0",
-      "previous": "-0.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "CAD",
-      "event": "Retail Sales Ex Autos MoM",
-      "dateISO": "2025-11-21",
-      "actual": "0.2%",
-      "forecast": "-0.5",
-      "previous": "0.8",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "CAD",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-11-21",
-      "actual": "3.4%",
-      "forecast": "3.2",
-      "previous": "4.9",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "CAD",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-11-21",
-      "actual": "-0.7%",
-      "forecast": "-0.7",
-      "previous": "1.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Michigan Consumer Sentiment",
-      "dateISO": "2025-11-21",
-      "actual": "51",
-      "forecast": "50.5",
-      "previous": "53.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
     {
       "currency": "EUR",
       "event": "Ifo Business Climate",
@@ -105629,6 +105475,19 @@
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "6 Dec",
+      "dateISO": "2026-12-06",
+      "timeUTC": "23:50",
+      "country": "JPY",
+      "currency": "JPY",
+      "flag": "🇯🇵",
+      "event": "Japan International Reserves",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "1178.4B"
     }
   ]
 }
