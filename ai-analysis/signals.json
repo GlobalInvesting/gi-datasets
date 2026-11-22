@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-22T19:55:28Z",
+  "generated_at": "2026-11-22T22:01:30Z",
   "signals": [
     {
-      "time": "22:21",
+      "time": "22:00",
       "priority": "critical",
-      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical De-risking",
-      "text": "Strait of Hormuz conflict escalation and a 5.28% Nasdaq drop drive aggressive risk-off flows into the market open — JPY 1W avg +2.026% (n=7) leads G10 outperformance while AUD 1W avg -2.849% (n=4) lags with a 4.875% G10 spread. The 362bp AUD/JPY OIS carry advantage compresses rapidly as equity unwinds override yield differentials. The Sydney/Tokyo open will dictate whether risk sentiment liquidates high-beta cross carry further. Trade bias: Short AUD/JPY into the open; broad risk aversion dominates yield differentials. Catalyst: Sydney/Tokyo open — risk sentiment opening gap. Risk: Sudden de-escalation headlines in the Middle East drive a fast risk-on rebound above 106.00.",
+      "title": "AUD/JPY — G10 Bilateral Theme + Geopolitical Shock",
+      "text": "The G10 Currency Strength Scorecard registers JPY as the strongest currency (+1.877% 1-week average across 7 pairs) while AUD is the weakest (-2.708% 1-week average across 4 pairs), producing a 4.585% spread that triggers a critical bilateral theme. AUD/JPY trades at 104.922, well below its SMA20 of 107.50 and SMA50 of 108.10. While RBA 4.85% vs BoJ 1.25% provides a +360bp OIS carry advantage to AUD, the market is aggressively unwinding carry positions due to severe risk aversion. VIX has surged 26.20% to 35.9, reflecting extreme equity market stress, while maritime mine strikes near the Strait of Hormuz layer acute geopolitical risk. Furthermore, AUD positioning shows a late-trend exhaustion with COT LF net long collapsing WoW by -15,052 contracts to +26,143 (pctl 19), while retail traders are 91% long, creating extreme contrarian risk. Trade bias: Bearish AUD/JPY; risk-off liquidation overrides carry advantage. Catalyst: Japan Services PMI at 00:30 UTC. Risk: VIX retracing below 25 or swift de-escalation in Middle East shipping corridors.",
       "evidence": [
-        "JPY 1W avg: +2.026% (n=7)",
-        "AUD 1W avg: -2.849% (n=4)",
-        "G10 spread: 4.875%"
+        "JPY 1W avg: +1.877% (n=7)",
+        "AUD 1W avg: -2.708% (n=4)",
+        "G10 spread: 4.585%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -30,85 +30,30 @@
       }
     },
     {
-      "time": "22:21",
-      "priority": "critical",
-      "title": "USD/JPY — Safe-Haven JPY Bid vs Middle East Risk Escalation",
-      "text": "Iranian foreign minister statements and tanker mine strikes near the Strait of Hormuz escalate safe-haven demand — JPY COT Leveraged Funds net -29.5k (85th percentile) creates short-squeeze risk into the week's open. USD/JPY closed Friday at 158.51, where options markets reflect severe downside hedging demand via a -1.77 25-delta risk reversal (IV 7.5% vs HV30 5.3%, VRP +2.2%). Japan au Jibun Bank Services PMI at 00:30 UTC serves as the immediate regional economic catalyst. Trade bias: Bearish USD/JPY into the open; safe-haven flows and options put demand threaten a squeeze on JPY shorts. Catalyst: Japan au Jibun Bank Services PMI at 00:30 UTC. Risk: US 10Y yields jump back above 5.00%, reasserting the +268bp USD OIS carry advantage.",
-      "evidence": [
-        "USD/JPY Friday close: 158.51",
-        "JPY COT lev net: -29,545 (pctl 85)",
-        "USD/JPY 25d RR: -1.77 (IV 7.5% vs HV30 5.3%)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": -1,
-        "supports": [
-          "price moved 1.3 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-20"
-        }
-      }
-    },
-    {
-      "time": "16:08",
+      "time": "21:56",
       "priority": "warning",
-      "title": "NZD/USD — Persistently Weak ESI vs Q3 Retail Sales Data Shock",
-      "text": "NZD Economic Surprise Index at -30.6 (strong negative) underscores severe domestic economic underperformance — NZD/USD closed Friday at 0.5470 with retail positioning heavily tilted at 93% long. A broader risk sell-off reinforces downside pressure, though oversold tech indicators warn of sharp volatility on any data beat. New Zealand Q3 Retail Sales at 21:45 UTC tests whether persistent data misses continue. Trade bias: Bearish NZD/USD; weak domestic macro momentum supports lower lows. Catalyst: New Zealand Q3 Retail Sales release at 21:45 UTC. Risk: Retail Sales beat forecasts (+0.4% core expected), triggering a short-squeeze back toward 0.5550.",
+      "title": "USD/JPY — Carry vs Options Skew + Volatility Premium",
+      "text": "USD/JPY trades at 158.597, holding between its SMA50 at 157.95 and SMA200 at 158.85. The Fed 4.00% vs BoJ 1.25% policy rate differential maintains a +275bp nominal advantage (+268bp via OIS SOFR vs TONA), anchoring structural support. However, the options market is pricing sharp downside risk: 25d Risk Reversals sit at -1.77, indicating strong put skew and heavy hedging against a drop toward 155.00. 1M ATM Implied Volatility runs at 7.5% against 30-day Realized Volatility of 5.7%, yielding a +1.8% Volatility Risk Premium that signals option market fear. JPY COT LF net short stands at -29,545 contracts (pctl 85, z +1.12), showing crowded spec short exposure vulnerable to unwinding if risk asset liquidation accelerates. Trade bias: Neutral/Bearish USD/JPY, downside option hedging competes with structural carry. Catalyst: US 2-Year Note Auction at 18:00 UTC. Risk: US 10Y yield rising back toward 5.00% to reinforce carry bid.",
       "evidence": [
-        "NZD/USD Friday close: 0.5470",
-        "NZD ESI: -30.6",
-        "Retail positioning: 93% Long"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "confirmed",
-        "pair": "NZD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.4 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-20"
-        }
-      }
-    },
-    {
-      "time": "16:08",
-      "priority": "warning",
-      "title": "EUR/USD — Extreme Short COT Positioning vs Flash PMI Event Risk",
-      "text": "EUR Leveraged Funds net short -105.8k sits at the 2nd percentile of its 52-week range — EUR/USD closed Friday at 1.0975, pressed beneath its 20-day SMA (1.1115). Heavy short crowding creates asymmetry for a short-covering bounce if European economic activity displays resilience. Eurozone Flash PMIs at 09:00 UTC represent the key structural catalyst for European growth pricing. Trade bias: Neutral-to-Bullish EUR/USD on short-squeeze potential; extreme COT short positioning limits fresh downside momentum. Catalyst: Eurozone Flash PMI releases at 09:00 UTC. Risk: Composite PMI falls below 49.0, accelerating downside breaks toward 1.0900.",
-      "evidence": [
-        "EUR/USD Friday close: 1.0975",
-        "EUR COT lev net: -105,891 (pctl 2)",
-        "EUR/USD SMA20: 1.1115"
+        "USD/JPY 25d RR: -1.77",
+        "USD/JPY IV 7.5% vs HV30 5.7%",
+        "SOFR vs TONA spread: +268bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "pair": "USD/JPY"
       }
     },
     {
-      "time": "16:08",
-      "priority": "info",
-      "title": "USD/CAD — Extreme Retail Short Sentiment vs Heavy Carry Advantage",
-      "text": "USD/CAD closed Friday at 1.4341 with retail sentiment stretched to 92% short — creating contrarian upside risk as SOFR/CORRA OIS carry (+136bp) favors the US dollar. Extended technical momentum (close above 10-day high) combines with compressed US Thanksgiving week liquidity to raise breakout potential. US CB Consumer Confidence and 5-Year Note Auctions on Tuesday provide near-term macro direction. Trade bias: Bullish USD/CAD; contrarian retail positioning and positive carry support higher spot levels. Catalyst: US CB Consumer Confidence at 15:00 UTC on Tuesday. Risk: WTI crude spikes above $88/bbl on Hormuz supply disruptions, boosting CAD value.",
+      "time": "21:52",
+      "priority": "warning",
+      "title": "USD/CAD — COT vs Options Skew Divergence + Retail Extreme",
+      "text": "USD/CAD trades at 1.4341, remaining in a strong technical uptrend above its SMA20 (1.4140) and SMA50 (1.4131). The Fed 4.00% vs BoC 2.50% rate differential offers a +150bp carry advantage (+136bp via OIS) favoring the greenback. COT LF net positioning on CAD is heavily short at -75,447 contracts (pctl 37), but specs added +17,342 net longs over the 4-week window despite WoW shorts accumulating by -5,235. In contrast, 25d Risk Reversals sit near neutral at +0.19, showing options markets are refusing to pay up for upside USD/CAD calls despite spot breaking higher. This institutional options divergence is compounded by extreme retail positioning, where Retail sentiment data shows retail traders are 92% short (8% long), creating massive squeeze potential if spot extends above 1.4400. Trade bias: Bullish USD/CAD; retail extreme short squeezed by carry and commodity weakness. Catalyst: US Consumer Confidence at 15:00 UTC. Risk: Bank of Canada hawkish pivot or sharp rebound in WTI crude above $88/bbl.",
       "evidence": [
-        "USD/CAD Friday close: 1.4341",
-        "Retail sentiment: 92% Short",
-        "USD/CAD OIS spread: +136bp (Fed 3.91% vs BoC 2.55%)"
+        "USD/CAD retail: 92% short",
+        "CAD COT LF net: -75,447",
+        "USD/CAD 25d RR: +0.19"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -118,6 +63,34 @@
         "supports": [
           "technical regime points with the stated direction",
           "price moved 1.3 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-20"
+        }
+      }
+    },
+    {
+      "time": "21:47",
+      "priority": "info",
+      "title": "GBP/USD — ESI Support vs Technical Downtrend",
+      "text": "GBP/USD trades at 1.3099, failing to reclaim its SMA20/50 cluster at 1.3304/1.3302 and remaining anchored in a technical downtrend below the SMA200 at 1.3400. The BoE 4.00% policy rate vs Fed 4.00% yields a 0bp nominal spread, though OIS SONIA vs SOFR gives GBP a minor +7bp carry edge. Macro data remains supportive, with the UK Economic Surprise Index at +9.5 (moderate positive bias) compared to weaker global peers. COT LF net positioning remains net long at +23,730 contracts (pctl 38), though specs trimmed longs significantly with a WoW delta of -11,856 contracts. 25d Risk Reversals show a mild put skew of -0.61, indicating orderly demand for downside protection rather than panic. Trade bias: Bearish GBP/USD; technical breakdown below moving average cluster dominates positive data surprises. Catalyst: UK S&P Global Flash PMIs at 09:30 UTC. Risk: Flash PMIs beat consensus expectations significantly to trigger technical short covering above 1.3200.",
+      "evidence": [
+        "GBP/USD spot: 1.3099 vs SMA20/50: 1.3304/1.3302",
+        "UK ESI: +9.5",
+        "GBP COT WoW delta: -11,856"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "GBP/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 1.9 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
