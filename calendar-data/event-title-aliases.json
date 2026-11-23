@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-23T01:54:53Z",
+  "generatedAt": "2026-11-23T18:36:53Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 140,
+  "aliasCount": 133,
   "aliases": [
     {
       "currency": "AUD",
@@ -1377,25 +1377,6 @@
     },
     {
       "currency": "CAD",
-      "primary_title": "Canada Manufacturing Sales m/m",
-      "yahoo_title": "Manufacturing Sales MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-13",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.0,
-          "actual_yahoo": 0.0,
-          "previous_primary": 1.5,
-          "previous_yahoo": 1.5,
-          "actual_yahoo_raw": "0",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.5"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
       "primary_title": "Canada Wholesale Trade m/m",
       "yahoo_title": "Wholesale Trade MM*",
       "evidence": {
@@ -1467,139 +1448,6 @@
           "actual_yahoo_raw": "-0.6",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.5"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Industrial Production m/m",
-      "yahoo_title": "Industrial O/P Rev MM SA *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": null,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Capacity Utilization Rate",
-      "yahoo_title": "Capacity Utilization MM SA*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 1.6,
-          "actual_yahoo": 1.6,
-          "previous_primary": null,
-          "previous_yahoo": -4.2,
-          "actual_yahoo_raw": "1.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-4.2"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada CPI m/m",
-      "yahoo_title": "CPI Inflation MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.1,
-          "previous_yahoo": 0.1,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.1"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada CPI y/y",
-      "yahoo_title": "CPI Inflation YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 3.1,
-          "forecast_yahoo": null,
-          "actual_primary": 3.1,
-          "actual_yahoo": 3.1,
-          "previous_primary": 3.1,
-          "previous_yahoo": 3.1,
-          "actual_yahoo_raw": "3.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.1"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Core CPI m/m",
-      "yahoo_title": "CPI BoC Core MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.0,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Core CPI y/y",
-      "yahoo_title": "CPI BoC Core YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 2.1,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": 2.2,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Median CPI y/y",
-      "yahoo_title": "CPI BoC Core YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": 1.9,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": 1.9,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
         }
       }
     },
@@ -2664,6 +2512,25 @@
           "actual_yahoo_raw": "3.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Chicago Fed National Activity Index",
+      "yahoo_title": "National Activity Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-23",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": -0.06,
+          "actual_yahoo": -0.06,
+          "previous_primary": 0.07,
+          "previous_yahoo": 0.07,
+          "actual_yahoo_raw": "-0.06",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.07"
         }
       }
     },
