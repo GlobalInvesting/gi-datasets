@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-23T09:02:55Z",
-  "generatedAt": "2026-11-23T09:02:55Z",
+  "lastUpdate": "2026-11-23T09:50:48Z",
+  "generatedAt": "2026-11-23T09:50:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3404,19 +3404,19 @@
       "std": 1.626346
     },
     "GBP/s&p global manufacturing pmi flash": {
-      "n": 2,
-      "mean": 0.75,
-      "std": 0.353553
+      "n": 3,
+      "mean": 0.466667,
+      "std": 0.550757
     },
     "GBP/s&p global services pmi flash": {
-      "n": 2,
-      "mean": 0.3,
-      "std": 1.272792
+      "n": 3,
+      "mean": 0.266667,
+      "std": 0.90185
     },
     "GBP/s&p global composite pmi flash": {
-      "n": 2,
+      "n": 3,
       "mean": 0.4,
-      "std": 1.414214
+      "std": 1.0
     },
     "USD/s&p global composite pmi flash": {
       "n": 2,
@@ -98452,7 +98452,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global Composite PMI Flash",
       "impact": "low",
-      "actual": null,
+      "actual": "52.3",
       "forecast": "51.9",
       "previous": "52.9"
     },
@@ -98465,7 +98465,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global Services PMI Flash",
       "impact": "high",
-      "actual": null,
+      "actual": "52.0",
       "forecast": "51.8",
       "previous": "52.8"
     },
@@ -98478,7 +98478,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom S&P Global Manufacturing PMI Flash",
       "impact": "high",
-      "actual": null,
+      "actual": "52.7",
       "forecast": "52.8",
       "previous": "52.8"
     },
