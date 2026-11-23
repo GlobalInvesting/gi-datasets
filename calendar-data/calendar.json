@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-23T08:04:41Z",
-  "generatedAt": "2026-11-23T08:04:41Z",
+  "lastUpdate": "2026-11-23T08:18:55Z",
+  "generatedAt": "2026-11-23T08:18:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1129,9 +1129,9 @@
       "std": 1.131371
     },
     "EUR/france s&p global manufacturing pmi": {
-      "n": 3,
-      "mean": 0.533333,
-      "std": 1.137248
+      "n": 4,
+      "mean": -0.2,
+      "std": 1.735896
     },
     "EUR/germany s&p global manufacturing pmi": {
       "n": 3,
@@ -1459,14 +1459,14 @@
       "std": 2.253886
     },
     "EUR/france s&p global services pmi": {
-      "n": 3,
-      "mean": 0.433333,
-      "std": 3.13422
+      "n": 4,
+      "mean": 0.875,
+      "std": 2.707243
     },
     "EUR/france s&p global composite pmi": {
-      "n": 3,
-      "mean": 0.566667,
-      "std": 2.89885
+      "n": 4,
+      "mean": 0.65,
+      "std": 2.372762
     },
     "EUR/germany s&p global services pmi": {
       "n": 3,
@@ -98335,7 +98335,7 @@
       "flag": "🇪🇺",
       "event": "France S&P Global Manufacturing PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "47.9",
       "forecast": "50.3",
       "previous": "49.5"
     },
@@ -98348,7 +98348,7 @@
       "flag": "🇪🇺",
       "event": "France S&P Global Services PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "46.6",
       "forecast": "44.4",
       "previous": "46.2"
     },
@@ -98361,7 +98361,7 @@
       "flag": "🇪🇺",
       "event": "France S&P Global Composite PMI",
       "impact": "low",
-      "actual": null,
+      "actual": "46.2",
       "forecast": "45.3",
       "previous": "46.6"
     },
