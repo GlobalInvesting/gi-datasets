@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-23T08:32:41Z",
-  "generatedAt": "2026-11-23T08:32:41Z",
+  "lastUpdate": "2026-11-23T09:02:55Z",
+  "generatedAt": "2026-11-23T09:02:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1154,9 +1154,9 @@
       "std": 0.141421
     },
     "EUR/s&p global manufacturing pmi": {
-      "n": 3,
-      "mean": -0.033333,
-      "std": 0.305505
+      "n": 4,
+      "mean": 0.1,
+      "std": 0.365148
     },
     "EUR/italy unemployment rate": {
       "n": 3,
@@ -1479,14 +1479,14 @@
       "std": 0.702377
     },
     "EUR/s&p global services pmi": {
-      "n": 3,
-      "mean": 0.5,
-      "std": 1.216553
+      "n": 4,
+      "mean": 0.7,
+      "std": 1.070825
     },
     "EUR/s&p global composite pmi": {
-      "n": 3,
-      "mean": 0.566667,
-      "std": 1.24231
+      "n": 4,
+      "mean": 0.6,
+      "std": 1.01653
     },
     "GBP/s&p global/cips services pmi": {
       "n": 3,
@@ -98413,7 +98413,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area S&P Global Manufacturing PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "52.9",
       "forecast": "52.4",
       "previous": "52.7"
     },
@@ -98426,7 +98426,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area S&P Global Services PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "51.2",
       "forecast": "49.9",
       "previous": "51.4"
     },
@@ -98439,7 +98439,7 @@
       "flag": "🇪🇺",
       "event": "Euro Area S&P Global Composite PMI",
       "impact": "medium",
-      "actual": null,
+      "actual": "51.7",
       "forecast": "51.0",
       "previous": "51.7"
     },
