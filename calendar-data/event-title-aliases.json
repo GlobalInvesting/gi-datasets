@@ -1,29 +1,10 @@
 {
-  "generatedAt": "2026-11-22T20:46:44Z",
+  "generatedAt": "2026-11-23T01:54:53Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 141,
+  "aliasCount": 140,
   "aliases": [
-    {
-      "currency": "AUD",
-      "primary_title": "Australia S&P Global Manufacturing PMI",
-      "secondary_title": "Australia S&P Global Manufacturing PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-01",
-          "forecast_primary": 51.0,
-          "forecast_secondary": 49.7,
-          "actual_primary": 49.6,
-          "actual_secondary": 49.6,
-          "previous_primary": 49.6,
-          "previous_secondary": 49.6,
-          "actual_secondary_raw": "49.6",
-          "forecast_secondary_raw": "49.7",
-          "previous_secondary_raw": "49.6"
-        }
-      }
-    },
     {
       "currency": "AUD",
       "primary_title": "Australia Building Approvals m/m",
@@ -1277,44 +1258,6 @@
           "actual_yahoo_raw": "4.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "4.5"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand Electronic Card Retail Sales m/m",
-      "yahoo_title": "Elec Card Retail Sale MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-11",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": -0.7,
-          "actual_yahoo": -0.7,
-          "previous_primary": null,
-          "previous_yahoo": -0.4,
-          "actual_yahoo_raw": "-0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.4"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand Electronic Card Retail Sales y/y",
-      "yahoo_title": "Elec Card Retail Sale YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-11",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 0.3,
-          "actual_yahoo": 0.3,
-          "previous_primary": null,
-          "previous_yahoo": 0.9,
-          "actual_yahoo_raw": "0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.9"
         }
       }
     },
@@ -2683,6 +2626,44 @@
           "actual_yahoo_raw": "49.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "51"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Retail Sales q/q",
+      "yahoo_title": "Retail Sales Volumes QQ",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-22",
+          "forecast_primary": -0.2,
+          "forecast_yahoo": null,
+          "actual_primary": 2.2,
+          "actual_yahoo": 2.2,
+          "previous_primary": -0.5,
+          "previous_yahoo": -0.5,
+          "actual_yahoo_raw": "2.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.5"
+        }
+      }
+    },
+    {
+      "currency": "NZD",
+      "primary_title": "New Zealand Retail Sales y/y",
+      "yahoo_title": "Retail Qrtly Vs Yr Ago",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-22",
+          "forecast_primary": 3.9,
+          "forecast_yahoo": null,
+          "actual_primary": 3.5,
+          "actual_yahoo": 3.5,
+          "previous_primary": 3.3,
+          "previous_yahoo": 3.3,
+          "actual_yahoo_raw": "3.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.3"
         }
       }
     },
