@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-24T10:24:49Z",
-  "generatedAt": "2026-11-24T10:24:49Z",
+  "lastUpdate": "2026-11-24T11:24:50Z",
+  "generatedAt": "2026-11-24T11:24:50Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -79,9 +79,9 @@
       "std": 2.014117
     },
     "GBP/cbi distributive trades": {
-      "n": 3,
-      "mean": 2.333333,
-      "std": 31.342197
+      "n": 4,
+      "mean": 7.0,
+      "std": 27.239677
     },
     "USD/durable goods orders mom": {
       "n": 6,
@@ -98822,25 +98822,12 @@
       "date": "24 Nov",
       "dateISO": "2026-11-24",
       "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Average Weekly Earnings YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": "4.4%",
-      "previous": "3.9%"
-    },
-    {
-      "date": "24 Nov",
-      "dateISO": "2026-11-24",
-      "timeUTC": "11:00",
       "country": "GBP",
       "currency": "GBP",
       "flag": "🇬🇧",
       "event": "United Kingdom CBI Distributive Trades",
       "impact": "medium",
-      "actual": null,
+      "actual": "9",
       "forecast": "-12",
       "previous": "-10"
     },
@@ -99208,6 +99195,19 @@
       "actual": null,
       "forecast": null,
       "previous": "3.37%"
+    },
+    {
+      "date": "25 Nov",
+      "dateISO": "2026-11-25",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Average Weekly Earnings YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "4.4%",
+      "previous": "3.9%"
     },
     {
       "date": "25 Nov",
