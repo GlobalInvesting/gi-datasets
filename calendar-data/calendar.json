@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-24T00:00:54Z",
-  "generatedAt": "2026-11-24T00:00:54Z",
+  "lastUpdate": "2026-11-24T00:22:38Z",
+  "generatedAt": "2026-11-24T00:22:38Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,11 +9,11 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-24",
   "rangeTo": "2026-12-08",
-  "totalEvents": 7961,
+  "totalEvents": 7965,
   "currencyCounts": {
     "EUR": 2374,
     "USD": 2535,
-    "GBP": 693,
+    "GBP": 697,
     "AUD": 457,
     "NZD": 198,
     "CAD": 443,
@@ -24,8 +24,8 @@
   },
   "impactCounts": {
     "high": 1657,
-    "medium": 3162,
-    "low": 3142
+    "medium": 3163,
+    "low": 3145
   },
   "surpriseStats": {
     "AUD/construction work done qoq": {
@@ -103725,76 +103725,11 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Ireland GNP YoY",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "5.2%"
-    },
-    {
-      "date": "2 Dec",
-      "dateISO": "2026-12-02",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland GDP Growth Rate QoQ Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "5.5%",
-      "previous": "10.2%"
-    },
-    {
-      "date": "2 Dec",
-      "dateISO": "2026-12-02",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland Current Account",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "19.7B"
-    },
-    {
-      "date": "2 Dec",
-      "dateISO": "2026-12-02",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
       "event": "Portugal Industrial Production YoY",
       "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": "-2.7%"
-    },
-    {
-      "date": "2 Dec",
-      "dateISO": "2026-12-02",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland GDP Growth Rate YoY Final",
-      "impact": "low",
-      "actual": null,
-      "forecast": "3.9%",
-      "previous": "-0.4%"
-    },
-    {
-      "date": "2 Dec",
-      "dateISO": "2026-12-02",
-      "timeUTC": "11:00",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Ireland GNP QoQ",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": "-5%"
     },
     {
       "date": "2 Dec",
@@ -104717,8 +104652,8 @@
       "event": "Slovakia Retail Sales YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "4.9%",
+      "previous": "5.5%"
     },
     {
       "date": "4 Dec",
@@ -104730,7 +104665,7 @@
       "event": "Slovakia GDP Growth Rate QoQ Final",
       "impact": "low",
       "actual": null,
-      "forecast": "0.2%",
+      "forecast": "0.1%",
       "previous": "0.2%"
     },
     {
@@ -104743,8 +104678,8 @@
       "event": "Slovakia Retail Sales MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-1.2%",
+      "previous": "2.1%"
     },
     {
       "date": "4 Dec",
@@ -104756,7 +104691,7 @@
       "event": "Slovakia GDP Growth Rate YoY Final",
       "impact": "low",
       "actual": null,
-      "forecast": "0.6%",
+      "forecast": "0.3%",
       "previous": "0.8%"
     },
     {
@@ -104827,6 +104762,19 @@
     {
       "date": "4 Dec",
       "dateISO": "2026-12-04",
+      "timeUTC": "09:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom New Car Sales YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
       "timeUTC": "09:30",
       "country": "EUR",
       "currency": "EUR",
@@ -104836,6 +104784,45 @@
       "actual": null,
       "forecast": null,
       "previous": "398.4M"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom DMP 1Y CPI Expectations",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.5%",
+      "previous": "3.4%"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom S&P Global Construction PMI",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": "43.6"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "09:30",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom DMP 3M Output Price Expectations",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.8%"
     },
     {
       "date": "4 Dec",
@@ -104896,11 +104883,76 @@
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
-      "event": "Latvia Industrial Production YoY",
+      "event": "Ireland GNP YoY",
       "impact": "low",
       "actual": null,
       "forecast": null,
+      "previous": "5.2%"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland GDP Growth Rate QoQ Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "5.5%",
+      "previous": "10.2%"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Current Account",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "19.7B"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Latvia Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": "2.2%",
       "previous": "2.6%"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland GDP Growth Rate YoY Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": "3.9%",
+      "previous": "-0.4%"
+    },
+    {
+      "date": "4 Dec",
+      "dateISO": "2026-12-04",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland GNP QoQ",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-5%"
     },
     {
       "date": "4 Dec",
@@ -104912,7 +104964,7 @@
       "event": "Latvia Industrial Production MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.1%",
       "previous": "0.6%"
     },
     {
