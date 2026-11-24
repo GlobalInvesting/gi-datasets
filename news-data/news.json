@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-11-24T06:01:22.082801+00:00",
-  "updated_label": "06:01 UTC",
-  "total": 39,
-  "total_high": 28,
-  "total_med": 5,
+  "updated_utc": "2026-11-24T06:05:38.997006+00:00",
+  "updated_label": "06:05 UTC",
+  "total": 45,
+  "total_high": 30,
+  "total_med": 7,
   "sources_active": [
     "BabyPips",
     "Barchart",
@@ -13,11 +13,15 @@
     "InvestingLive",
     "Marc to Market",
     "MyFXBook",
+    "NewsData AUD",
+    "NewsData CHF",
+    "NewsData EUR",
+    "NewsData NZD",
     "RTT News"
   ],
   "lang_counts": {
     "es": 0,
-    "en": 39
+    "en": 45
   },
   "articles": [
     {
@@ -245,6 +249,70 @@
       "recent": true
     },
     {
+      "id": "7cc1a53a82f2",
+      "cur": "EUR",
+      "impact": "high",
+      "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+      "expand": "The Governing Council of the European Central Bank (ECB) has approved the acceptance of marketable assets issued on DLT platforms licensed under the EU DLT Pilot Regime Regulation as eligible collateral for Eurosystem credit operations, subject to specific Eurosystem requirements.",
+      "source": "NewsData EUR",
+      "link": "https://www.finextra.com/pressarticle/111765/ecb-expands-acceptance-of-dlt-based-assets-as-eligible-eurosystem-collateral",
+      "time": "18:05",
+      "ts": 1795457100000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T18:05:00+00:00",
+      "recent": true
+    },
+    {
+      "id": "5b30fdb0da0d",
+      "cur": "EUR",
+      "impact": "med",
+      "title": "Eurozone Services Activity Growth Slows to 5-Month Low",
+      "expand": "The Euro Area Services PMI fell to 51.2 in November 2026 from 51.4 in October, missing market expectations of 51.8 as growth slowed to its weakest pace in five months. Employment conditions also deteriorated, with service providers recording a second consecutive month of job cuts, reflecting growing caution amid softer business conditions. Meanwhile, price pressures ...",
+      "source": "NewsData EUR",
+      "link": "https://www.hellenicshippingnews.com/eurozone-services-activity-growth-slows-to-5-month-low/",
+      "time": "18:00",
+      "ts": 1795456817000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T18:00:17+00:00",
+      "recent": true
+    },
+    {
+      "id": "85b3d1ccbbd1",
+      "cur": "AUD",
+      "impact": "med",
+      "title": "Australian Dollar Price Forecast: Oversold… and still under pressure",
+      "expand": "The Australian Dollar (AUD) has remained on the back foot for yet another day on Monday, briefly sending AUD/USD just below the 0.6600 yardstick for the first time since December 2025.",
+      "source": "NewsData AUD",
+      "link": "https://www.fxstreet.com/analysis/australian-dollar-price-forecast-oversold-and-still-under-pressure-202611231754",
+      "time": "17:54",
+      "ts": 1795456495000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T17:54:55+00:00",
+      "recent": true
+    },
+    {
+      "id": "7527f17360e7",
+      "cur": "EUR",
+      "impact": "low",
+      "title": "U.S. Dollar Tests Yearly Highs As Stocks Rally: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+      "expand": "The American currency gained strong upside momentum as Jensen Huang was reinstated as Nvidia’s CEO.",
+      "source": "NewsData EUR",
+      "link": "https://www.fxempire.com/forecasts/article/u-s-dollar-tests-yearly-highs-as-stocks-rally-analysis-for-eur-usd-gbp-usd-usd-cad-usd-jpy-1646658",
+      "time": "17:30",
+      "ts": 1795455000000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T17:30:00+00:00",
+      "recent": true
+    },
+    {
       "id": "a12f492e02fc",
       "cur": "EUR",
       "impact": "low",
@@ -258,6 +326,22 @@
       "lang": "en",
       "date": "23 Nov",
       "datetime": "2026-11-23T17:21:31+00:00",
+      "recent": true
+    },
+    {
+      "id": "61a331da6337",
+      "cur": "NZD",
+      "impact": "low",
+      "title": "New Zealand Dollar tumbles to 17-year lows as US Dollar hits fresh highs",
+      "expand": "NZD/USD extends its decline on Monday, losing 0.48% on the day to trade around 0.5440 at the time of writing.",
+      "source": "NewsData NZD",
+      "link": "https://www.fxstreet.com/news/new-zealand-dollar-tumbles-to-17-year-lows-as-us-dollar-hits-fresh-highs-202611231635",
+      "time": "16:35",
+      "ts": 1795451757000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T16:35:57+00:00",
       "recent": true
     },
     {
@@ -338,6 +422,22 @@
       "lang": "en",
       "date": "23 Nov",
       "datetime": "2026-11-23T14:45:41+00:00",
+      "recent": true
+    },
+    {
+      "id": "870bebbf3748",
+      "cur": "CHF",
+      "impact": "high",
+      "title": "The Swiss franc withstands the dollar's rebound",
+      "expand": "The euro lost ground against the Swiss franc, amid a repricing of US monetary policy that boosted the dollar without weakening the Swiss currency. The latter is emerging as the safe haven, absorbing...",
+      "source": "NewsData CHF",
+      "link": "https://www.marketscreener.com/news/latest/The-Swiss-franc-withstands-the-dollar-s-rebound-54803124/",
+      "time": "14:31",
+      "ts": 1795444280000,
+      "featured": false,
+      "lang": "en",
+      "date": "23 Nov",
+      "datetime": "2026-11-23T14:31:20+00:00",
       "recent": true
     },
     {
