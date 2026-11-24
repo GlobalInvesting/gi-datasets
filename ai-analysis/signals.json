@@ -1,61 +1,69 @@
 {
-  "generated_at": "2026-11-24T05:25:14Z",
+  "generated_at": "2026-11-24T08:05:59Z",
   "signals": [
     {
-      "time": "05:21",
+      "time": "08:01",
       "priority": "critical",
-      "title": "NZD/JPY — G10 Bilateral Theme + ESI Divergence",
-      "text": "The G10 scorecard shows JPY outperforming as the weekly leader with a +0.632% average gain across 7 pairs, while NZD sits as the weakest laggard at −0.662% across 4 pairs, creating an extreme 1.294% bilateral spread. NZD/JPY trades at 86.66, pressed lower as NZD data continues to underperform expectations, reflected in a negative ESI reading of −15.4 compared to JPY at neutral +3.7. OIS benchmark rates display a 152bp carry advantage for NZD via NZD OCR at 2.7500% versus TONA at 1.2270%, yet spot trades below its BEER fair value model estimate of 88.95 (z = −2.28σ). Retail positioning sits at an extreme 95% long, representing a severe contrarian reversal risk as institutional flows push the cross lower against retail accumulation. Trade bias: Bearish NZD/JPY, driven by broad G10 bilateral divergence and weak New Zealand macro data. Catalyst: Australia and Asia-Pacific regional data releases including Australia CPI. Risk: A sudden risk-on rally or unexpected hawkish RBNZ communication that triggers short-covering in NZD.",
+      "title": "NZD/CHF — G10 Bilateral Theme + ESI Divergence",
+      "text": "NZD/USD trades at 0.5448 below all major moving averages, while CHF leads G10 performance. In the weekly G10 scorecard, CHF gained +0.514% across 6 pairs while NZD lost -0.580% across 4 pairs, creating a 1.094% bilateral spread. Fundamental support aligns with the Economic Surprise Index, where CHF shows strong positive momentum at +28.0 compared to NZD's strong negative read of -15.4. RBNZ policy rate at 2.75% versus SNB at 0.00% offers a +275bp nominal carry advantage to NZD, but the real policy rate differential (-1.02% CHF vs +0.39% NZD) and persistent data misses weigh on the Kiwi. Spot NZD/USD trades cheap vs BEER fair value model at z=-2.03σ, but macro momentum favors continued CHF outperformance. Trade bias: Bearish NZD/CHF, broad G10 divergence favors CHF strength against NZD. Catalyst: Switzerland Employment Level release on 24 Nov. Risk: RBNZ rate hike pricing expands following upcoming macro releases, narrowing the G10 performance spread below 0.80%.",
       "evidence": [
-        "JPY 1W avg: +0.632% (n=7)",
-        "NZD 1W avg: -0.662% (n=4)",
-        "G10 spread: 1.294%"
+        "CHF 1W avg: +0.514% (n=6)",
+        "NZD 1W avg: -0.580% (n=4)",
+        "G10 spread: 1.094%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "caution",
-        "pair": "NZD/JPY",
+        "verdict": "unconfirmed",
+        "pair": "NZD/CHF",
         "direction": -1,
         "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.4 ATR with it over five sessions"
+          "technical regime points with the stated direction"
         ],
-        "conflicts": [
-          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
-        ],
+        "conflicts": [],
         "read": {
-          "bias": "Bullish",
-          "conviction": "low",
-          "technical_alignment": "counter_trend",
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
           "asof": "2026-11-23"
         }
       }
     },
     {
-      "time": "05:18",
+      "time": "07:58",
       "priority": "warning",
-      "title": "USD/JPY — Carry Support vs Options Risk Reversal Skew",
-      "text": "USD/JPY trades at 159.10, holding above its SMA20 level of 158.69 and remaining inside an overall short-term uptrend structure. A 269bp OIS carry differential favoring USD via SOFR at 3.9200% versus TONA at 1.2270% sustains institutional carry demand. However, Saxo 1M options analytics show a strong 25-delta Risk Reversal skew of −1.87 toward JPY calls, signaling high institutional hedging for downside downside protection as spot holds near key levels. Additionally, implied volatility runs at 7.7% against an HV30 of 5.5%, generating a notable +2.2% Vol Risk Premium that indicates elevated market anxiety. While carry flows support the bid, 160.00 remains the key psychological barrier that has previously drawn MoF verbal intervention warnings. Trade bias: Neutral/Bullish USD/JPY, structurally supported by carry but capped by option downside demand and intervention caution. Catalyst: US Core PCE Price Index and GDP data release. Risk: A sustained breakout above 160.00 or sharp spike in broad volatility above VIX 30.",
+      "title": "USD/JPY — Crowded Carry + Risk Reversal Skew",
+      "text": "USD/JPY trades at 159.35, holding above the SMA20/50/200 cluster at 158.69/158.04/158.88. The SOFR-TONA OIS carry differential of +269bp (Fed 4.00% vs BoJ 1.25%) supports the pair's upside structure, but key technical boundaries require caution. Price at 159.35 remains below 160.00, the key level that has previously triggered BoJ verbal warnings, with intervention risk rising on a sustained break above 160.00. CFTC positioning shows JPY net short at -29,545 contracts sitting at the 85th percentile of its 52-week range (z=+1.12), indicating a crowded carry trade. Options pricing shows strong downside hedging demand with 25d Risk Reversals at -1.87 put skew alongside an elevated Vol Risk Premium (IV 7.7% vs HV30 5.5%, VRP +2.2%). Trade bias: Bullish USD/JPY, carry support remains dominant while VIX stays contained. Catalyst: BoJ Trimmed Mean CPI release on 25 Nov. Risk: VIX clears 30 or BoJ/MoF conducts physical intervention, triggering a sharp short-covering unwind.",
       "evidence": [
-        "SOFR 3.92% vs TONA 1.23% — +269bp",
-        "USDJPY 25d RR: -1.87",
-        "USD/JPY VRP: +2.2% (IV 7.7% vs HV30 5.5%)"
+        "SOFR vs TONA OIS: +269bp",
+        "JPY COT lev_net: pctl 85 (z +1.12)",
+        "USD/JPY 25d RR: -1.87 put skew"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
+        "verdict": "unconfirmed",
+        "pair": "USD/JPY",
+        "direction": 1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-23"
+        }
       }
     },
     {
-      "time": "05:15",
+      "time": "07:55",
       "priority": "warning",
-      "title": "AUD/USD — COT Stalling + Retail Divergence",
-      "text": "AUD/USD trades at 0.6630, positioned below its SMA20 of 0.6863 and SMA200 of 0.7045 within a clear technical downtrend. CFTC positioning shows Leveraged Funds hold a net long position of +26,143 contracts, but a massive WoW delta of −15,052 contracts marks a sharp reduction in institutional backing despite holding at a low 19th percentile of its 52-week range. Retail sentiment data retail sentiment shows an extreme 87% long positioning, directly opposing the institutional net-short reduction and lower macro trajectory. RBA policy rate sits at 4.85% versus Fed at 4.00%, offering an 85bp carry advantage to AUD, but persistent data weakness with AUD ESI at −13.0 caps upside performance. Trade bias: Bearish AUD/USD, following institutional liquidations and contrarian retail extreme. Catalyst: Australia CPI Report release. Risk: Upside CPI surprise that re-attracts institutional buyers and forces retail short adjustments.",
+      "title": "AUD/USD — COT vs Options Skew + Retail Divergence",
+      "text": "AUD/USD trades at 0.6629, positioned below its SMA20/50/200 cluster at 0.6863/0.6953/0.7043 with an active downtrend structure extended 4.97 ATR below its 20-day moving average. CFTC data shows Leveraged Funds net long +26,143 contracts, but a weekly outflow of -15,052 contracts marks positioning liquidation into price weakness. Options markets mirror this caution with 25-Delta Risk Reversals printing a strong -1.60 put skew. Retail sentiment at Retail sentiment data shows 87% of traders long, standing in sharp divergence to institutional unwinds and options downside protection. RBA policy rate at 4.85% vs Fed at 4.00% maintains an 85bp carry advantage for AUD, but weak ESI data (-13.0) and technical breakdown weigh on near-term price action. Trade bias: Bearish AUD/USD, institutional unwinds and options downside skew override retail long crowd. Catalyst: Australia October CPI report on 25 Nov. Risk: Australia CPI beats expectations significantly, forcing RBA hawkish repricing and squeezing spec shorts.",
       "evidence": [
-        "AUD COT LF WoW delta: -15,052",
-        "Retail sentiment: 87% Long",
-        "AUD/USD spot: 0.6630"
+        "AUD COT LF WoW: -15,052 contracts",
+        "AUD/USD 25d RR: -1.60 put skew",
+        "AUD/USD Retail: 87% long"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -76,19 +84,31 @@
       }
     },
     {
-      "time": "05:10",
+      "time": "07:48",
       "priority": "info",
-      "title": "EUR/USD — Positioning Exhaustion near Technical Lows",
-      "text": "EUR/USD trades at 1.0908, remaining below its SMA20 at 1.1102 and SMA200 at 1.1504 within an established downtrend. CFTC COT data reports Leveraged Funds net short at −105,891 contracts, placing positioning at the 2nd percentile of its 52-week range (z = −1.68), indicating extreme institutional net-short saturation. The OIS spread between SOFR at 3.9200% and €STR at 2.4440% maintains a +148bp carry advantage for the US dollar, anchoring structural pressure. However, the BEER fair value model shows EUR/USD severely stretched to the downside at z = −3.48σ against a model fair value of 1.1097. Trade bias: Neutral EUR/USD, as extreme short positioning and fair value undervaluation limit fresh downside momentum. Catalyst: Germany GDP and US PCE Price Index. Risk: US data outperformance driving a clear technical break toward 1.0850.",
+      "title": "EUR/USD — Rate Differential + Technical Downtrend",
+      "text": "EUR/USD trades at 1.0908, holding below its SMA20/50/200 cluster at 1.1102/1.1221/1.1500 in a confirmed downtrend structure. The Fed policy rate of 4.00% vs ECB 2.65% creates a +135bp spread favoring USD (+148bp on SOFR vs €STR OIS basis), structurally capping EUR/USD upside. Leveraged Funds net positioning sits at -105,891 contracts, placing EUR at the 2nd percentile of its 52-week range (z=-1.68) following a weekly shift of -7,287 contracts. Options volatility reflects moderate hedging demand with 1M ATM IV at 6.2% vs HV30 at 5.1% (VRP +1.1%), while 25d Risk Reversals show a mild put skew of -0.44. BEER fair value model indicates spot is stretched cheap at z=-3.20σ (model fair value 1.1093), suggesting mean-reversion potential once rates momentum stabilizes. Trade bias: Bearish EUR/USD, carry advantage and technical breakdown favor dollar dominance. Catalyst: Germany GDP data release on 25 Nov. Risk: German GDP prints well above 0.2% forecast, prompting hawkish ECB repricing and short-covering.",
       "evidence": [
-        "EUR COT LF net: -105,891 (pctl 2, z -1.68)",
-        "EUR/USD BEER z-score: -3.48σ",
-        "SOFR 3.92% vs €STR 2.44% — +148bp"
+        "Fed 4.00% vs ECB 2.65%: +135bp",
+        "EUR COT lev_net: pctl 2 (z -1.68)",
+        "EUR/USD BEER z-score: -3.20σ"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "verdict": "confirmed",
+        "pair": "EUR/USD",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction",
+          "price moved 1.6 ATR with it over five sessions"
+        ],
+        "conflicts": [],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-23"
+        }
       }
     }
   ]
