@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T05:27:25Z",
+  "generatedAt": "2026-11-24T18:06:00Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 127,
+  "aliasCount": 129,
   "aliases": [
     {
       "currency": "AUD",
@@ -1230,44 +1230,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States PPI y/y",
-      "yahoo_title": "PPI Final Demand YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-13",
-          "forecast_primary": 7.3,
-          "forecast_yahoo": null,
-          "actual_primary": 6.5,
-          "actual_yahoo": 6.5,
-          "previous_primary": 6.3,
-          "previous_yahoo": 6.3,
-          "actual_yahoo_raw": "6.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "6.3"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada Wholesale Trade m/m",
-      "yahoo_title": "Wholesale Trade MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-13",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 4.0,
-          "actual_yahoo": 0.7,
-          "previous_primary": -1.6,
-          "previous_yahoo": -1.6,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-1.6"
-        }
-      }
-    },
-    {
       "currency": "JPY",
       "primary_title": "Japan GDP q/q",
       "yahoo_title": "GDP QQ",
@@ -1325,25 +1287,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "NY Fed Empire State Manufacturing Index",
-      "yahoo_title": "NY Fed Manufacturing*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-16",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 7.8,
-          "actual_yahoo": 7.8,
-          "previous_primary": null,
-          "previous_yahoo": 25.5,
-          "actual_yahoo_raw": "7.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "25.5"
-        }
-      }
-    },
-    {
       "currency": "NZD",
       "primary_title": "New Zealand Food Price Index m/m",
       "yahoo_title": "Food Price Index",
@@ -1359,44 +1302,6 @@
           "actual_yahoo_raw": "-0.4",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Average Earnings incl. Bonus (3Mo/Yr)",
-      "yahoo_title": "Avg Wk Earnings 3M YY*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 3.7,
-          "forecast_yahoo": null,
-          "actual_primary": 3.6,
-          "actual_yahoo": 3.6,
-          "previous_primary": 3.8,
-          "previous_yahoo": 3.7,
-          "actual_yahoo_raw": "3.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.7"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Unemployment Rate",
-      "yahoo_title": "ILO Unemployment Rate*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 4.7,
-          "forecast_yahoo": null,
-          "actual_primary": 4.6,
-          "actual_yahoo": 4.6,
-          "previous_primary": 4.7,
-          "previous_yahoo": 4.7,
-          "actual_yahoo_raw": "4.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.7"
         }
       }
     },
@@ -1568,44 +1473,6 @@
           "actual_yahoo_raw": "25",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "29"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand PPI Input q/q",
-      "yahoo_title": "PPI - Inputs QQ",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 1.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": 2.9,
-          "previous_yahoo": 2.9,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.9"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand PPI Output q/q",
-      "yahoo_title": "PPI - Outputs QQ",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 1.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.8,
-          "actual_yahoo": 0.8,
-          "previous_primary": 1.6,
-          "previous_yahoo": 1.7,
-          "actual_yahoo_raw": "0.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.7"
         }
       }
     },
@@ -2409,21 +2276,185 @@
     },
     {
       "currency": "GBP",
+      "primary_title": "United Kingdom CBI Distributive Trades",
+      "yahoo_title": "CBI Distributive Trades*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": -12.0,
+          "forecast_yahoo": null,
+          "actual_primary": 9.0,
+          "actual_yahoo": 9.0,
+          "previous_primary": -10.0,
+          "previous_yahoo": -10.0,
+          "actual_yahoo_raw": "9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-10"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States S&P/CS HPI Composite-20 y/y",
+      "yahoo_title": "CaseShiller 20 YY NSA",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 2.56,
+          "actual_yahoo": 2.6,
+          "previous_primary": null,
+          "previous_yahoo": 2.7,
+          "actual_yahoo_raw": "2.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States S&P/CS HPI Composite-20 n.s.a. m/m",
+      "yahoo_title": "CaseShiller 20 MM NSA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": -0.54,
+          "actual_yahoo": -0.5,
+          "previous_primary": null,
+          "previous_yahoo": -0.4,
+          "actual_yahoo_raw": "-0.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.4"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States S&P/CS HPI Composite-20 s.a. m/m",
+      "yahoo_title": "CaseShiller 20 MM SA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 0.13,
+          "actual_yahoo": 0.1,
+          "previous_primary": null,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States CB Consumer Confidence Index",
+      "yahoo_title": "Consumer Confidence*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": 91.5,
+          "forecast_yahoo": null,
+          "actual_primary": 103.3,
+          "actual_yahoo": 103.3,
+          "previous_primary": 91.7,
+          "previous_yahoo": 91.7,
+          "actual_yahoo_raw": "103.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "91.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Manufacturing Index",
+      "yahoo_title": "Rich Fed Comp. Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": -6.0,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 3.0,
+          "previous_primary": -2.0,
+          "previous_yahoo": -2.0,
+          "actual_yahoo_raw": "3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Manufacturing Shipments",
+      "yahoo_title": "Rich Fed Mfg Shipments",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 2.0,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "Richmond Fed Services Revenues",
+      "yahoo_title": "Rich Fed, Services Index",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-24",
+          "forecast_primary": 8.0,
+          "forecast_yahoo": null,
+          "actual_primary": -7.0,
+          "actual_yahoo": -7.0,
+          "previous_primary": 2.0,
+          "previous_yahoo": 2.0,
+          "actual_yahoo_raw": "-7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core PCE Price Index m/m",
+      "yahoo_title": "Monthly Home Price MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 0.3,
+          "forecast_yahoo": null,
+          "actual_primary": null,
+          "actual_yahoo": 0.0,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
+        }
+      }
+    },
+    {
+      "currency": "GBP",
       "primary_title": "United Kingdom Average Weekly Earnings, Regular Pay y/y",
       "manual": true,
       "secondary_title": "United Kingdom Average Earnings excl. Bonus (3Mo/Yr)",
-      "yahoo_title": "Avg Earnings (Ex-Bonus)*",
       "evidence": {
         "secondary": {
           "actual_primary": null,
           "actual_secondary_raw": "3.7%",
           "dateISO": "2026-10-20",
-          "manual_note": "TE and Yahoo agree with each other (actual 3.5%, previous 3.5%) on 2026-09-15, even though neither matches our primary source's own stated previous (3.4%) within FORECAST_TOLERANCE (0.1pp diff, genuine primary-source data-quality gap, not a different series)."
-        },
-        "yahoo": {
-          "actual_primary": null,
-          "actual_yahoo_raw": "3.5",
-          "dateISO": "2026-11-17",
           "manual_note": "TE and Yahoo agree with each other (actual 3.5%, previous 3.5%) on 2026-09-15, even though neither matches our primary source's own stated previous (3.4%) within FORECAST_TOLERANCE (0.1pp diff, genuine primary-source data-quality gap, not a different series)."
         }
       }
@@ -2433,18 +2464,11 @@
       "primary_title": "United Kingdom Average Weekly Earnings, Total Pay y/y",
       "manual": true,
       "secondary_title": "United Kingdom Average Earnings incl. Bonus (3Mo/Yr)",
-      "yahoo_title": "Avg Wk Earnings 3M YY*",
       "evidence": {
         "secondary": {
           "actual_primary": null,
           "actual_secondary_raw": "3.7%",
           "dateISO": "2026-10-20",
-          "manual_note": "TE and Yahoo agree with each other (actual 3.9%, previous ~4.2%) on 2026-09-15 on the same ONS series ('Total Pay' == 'incl. Bonus'); our primary source's own forecast (4.5%) diverges more from TE's (4.0%) than previous does (4.3% vs 4.2%, 0.1pp) -- forecasts legitimately vary by vendor consensus panel and are not the identity signal here; `previous`, the fixed historical fact both secondary vendors independently corroborate, is."
-        },
-        "yahoo": {
-          "actual_primary": null,
-          "actual_yahoo_raw": "3.6",
-          "dateISO": "2026-11-17",
           "manual_note": "TE and Yahoo agree with each other (actual 3.9%, previous ~4.2%) on 2026-09-15 on the same ONS series ('Total Pay' == 'incl. Bonus'); our primary source's own forecast (4.5%) diverges more from TE's (4.0%) than previous does (4.3% vs 4.2%, 0.1pp) -- forecasts legitimately vary by vendor consensus panel and are not the identity signal here; `previous`, the fixed historical fact both secondary vendors independently corroborate, is."
         }
       }
