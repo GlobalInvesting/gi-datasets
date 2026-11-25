@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-25T15:02:53Z",
-  "generatedAt": "2026-11-25T15:02:53Z",
+  "lastUpdate": "2026-11-25T15:31:08Z",
+  "generatedAt": "2026-11-25T15:31:08Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1079,19 +1079,19 @@
       "std": 0.411906
     },
     "USD/eia crude oil stocks change": {
-      "n": 12,
-      "mean": -1.6255,
-      "std": 5.611753
+      "n": 13,
+      "mean": -1.442308,
+      "std": 5.413292
     },
     "USD/eia cushing crude oil stocks change": {
-      "n": 12,
-      "mean": 0.092333,
-      "std": 1.470302
+      "n": 13,
+      "mean": 0.029923,
+      "std": 1.425578
     },
     "USD/eia crude oil imports change": {
-      "n": 12,
-      "mean": 0.015417,
-      "std": 0.898308
+      "n": 13,
+      "mean": 0.218308,
+      "std": 1.129094
     },
     "USD/eia distillate fuel production change": {
       "n": 12,
@@ -1099,9 +1099,9 @@
       "std": 0.1608
     },
     "USD/eia distillates stocks change": {
-      "n": 12,
-      "mean": 0.161,
-      "std": 2.592459
+      "n": 13,
+      "mean": 0.035846,
+      "std": 2.522776
     },
     "USD/eia gasoline production change": {
       "n": 12,
@@ -1109,14 +1109,14 @@
       "std": 0.36601
     },
     "USD/eia heating oil stocks change": {
-      "n": 12,
-      "mean": 0.055083,
-      "std": 0.580537
+      "n": 13,
+      "mean": 0.062846,
+      "std": 0.556526
     },
     "USD/eia gasoline stocks change": {
-      "n": 12,
-      "mean": 0.942667,
-      "std": 2.486754
+      "n": 13,
+      "mean": 0.972769,
+      "std": 2.383358
     },
     "AUD/balance of trade": {
       "n": 2,
@@ -99505,7 +99505,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Crude Oil Stocks Change",
       "impact": "high",
-      "actual": null,
+      "actual": "1.109M",
       "forecast": "0.353M",
       "previous": "3.380M"
     },
@@ -99518,7 +99518,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Cushing Crude Oil Stocks Change",
       "impact": "medium",
-      "actual": null,
+      "actual": "-0.534M",
       "forecast": "0.185M",
       "previous": "-1.209M"
     },
@@ -99531,7 +99531,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Crude Oil Imports Change",
       "impact": "low",
-      "actual": null,
+      "actual": "1.893M",
       "forecast": "-0.760M",
       "previous": "-2.155M"
     },
@@ -99557,7 +99557,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Distillates Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.715M",
       "forecast": "2.181M",
       "previous": "1.571M"
     },
@@ -99583,7 +99583,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Heating Oil Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.219M",
       "forecast": "0.063M",
       "previous": "-0.775M"
     },
@@ -99596,7 +99596,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Gasoline Stocks Change",
       "impact": "low",
-      "actual": null,
+      "actual": "1.733M",
       "forecast": "0.399M",
       "previous": "5.192M"
     },
@@ -103730,7 +103730,7 @@
       "impact": "high",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "1.109M"
     },
     {
       "date": "2 Dec",
@@ -103743,7 +103743,7 @@
       "impact": "medium",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "-0.534M"
     },
     {
       "date": "2 Dec",
@@ -103782,7 +103782,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.715M"
     },
     {
       "date": "2 Dec",
@@ -103808,7 +103808,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.219M"
     },
     {
       "date": "2 Dec",
@@ -103821,7 +103821,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "1.733M"
     },
     {
       "date": "2 Dec",
