@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-25T10:58:49Z",
-  "generatedAt": "2026-11-25T10:58:49Z",
+  "lastUpdate": "2026-11-25T12:28:55Z",
+  "generatedAt": "2026-11-25T12:28:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,10 +9,10 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-25",
   "rangeTo": "2026-12-09",
-  "totalEvents": 8012,
+  "totalEvents": 8013,
   "currencyCounts": {
     "EUR": 2389,
-    "GBP": 700,
+    "GBP": 701,
     "USD": 2553,
     "AUD": 456,
     "NZD": 203,
@@ -23,7 +23,7 @@
     "NOK": 193
   },
   "impactCounts": {
-    "medium": 3171,
+    "medium": 3172,
     "high": 1662,
     "low": 3179
   },
@@ -99422,6 +99422,19 @@
       "flag": "🇺🇸",
       "event": "United States Initial Jobless Claims 4-Week Average",
       "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "25 Nov",
+      "dateISO": "2026-11-25",
+      "timeUTC": "14:15",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "BoE Monetary Policy Report Hearings",
+      "impact": "medium",
       "actual": null,
       "forecast": null,
       "previous": null
