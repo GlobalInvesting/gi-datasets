@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-25T18:06:21Z",
+  "generated_at": "2026-11-25T21:53:25Z",
   "signals": [
     {
-      "time": "17:58",
+      "time": "21:49",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Carry Divergence",
-      "text": "CHF outperforms across the G10 board with a 1W average gain of +1.625% across 6 pairs, while AUD lags at -1.079% across 4 pairs, creating an extreme 2.704% bilateral spread. RBA 4.85% vs SNB 0.00% delivers a massive +485bp nominal carry advantage to AUD (+362bp on an OIS basis), but safe-haven demand and VIX elevated at 30.4 completely override the carry return. AUD/USD sits extended 4.2 ATR below its 20-day moving average in a clear downtrend, while AUD/CHF trades at 0.5495, holding below its moving average cluster. BEER model misvaluation highlights AUD/CHF as cheap at z=-2.31σ (spot 0.5495 vs fair value 0.5588), but structural risk-off flows continue to push spot away from equilibrium. Trade bias: Short AUD/CHF, momentum-driven bilateral G10 divergence. Catalyst: Australia Private New Capital Expenditure data at 00:30 UTC. Risk: VIX falls back below 20, triggering a rapid unwinding of CHF safe-haven flows back into carry.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Safe-Haven Inflow",
+      "text": "CHF leads the G10 basket with a 1W average of +1.522% across 6 pairs, while AUD lags at -0.898% across 4 pairs, creating a 2.420% spread. AUD/CHF trades at 0.5507 against a 485bp policy carry advantage for AUD (RBA 4.85% vs SNB 0.00%, OIS basis +489bp). Elevated volatility with VIX at 28.3 and European equities retreating override the nominal yield support. In positioning, CHF leveraged funds hold net short -21,646 contracts (pctl 2, z -1.96), leaving substantial short-covering potential into safe-haven flows, while AUD/USD trades below its SMA20/50/200 cluster at 0.6630 in a confirmed downtrend. Trade bias: Bearish AUD/CHF; safe-haven flows override wide positive carry. Catalyst: Switzerland Employment Level at 07:30 UTC. Risk: VIX drops back below 20, halting safe-haven demand and reigniting high-beta carry.",
       "evidence": [
-        "CHF 1W avg: +1.625% (n=6)",
-        "AUD 1W avg: -1.079% (n=4)",
-        "G10 spread: 2.704%"
+        "CHF 1W avg: +1.522% (n=6)",
+        "AUD 1W avg: -0.898% (n=4)",
+        "G10 spread: 2.420%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -18,98 +18,87 @@
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 2.1 ATR with it over five sessions"
+          "price moved 3.0 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-24"
+          "asof": "2026-11-25"
         }
       }
     },
     {
-      "time": "17:55",
+      "time": "21:45",
       "priority": "warning",
-      "title": "GBP/USD — Hawkish BoE Repricing + Technical Resiliency",
-      "text": "BoE Governor Bailey and MPC member Mann delivered aggressive comments, stating it is more likely than not that rates must rise further if energy prices stay elevated, while Mann urged hiking rates more and sooner. BoE 4.00% (HIKING) matches Fed 4.00% (ON HOLD), leaving the OIS SONIA-SOFR spread neutral at -6bp. GBP/USD trades at 1.3116, holding below its SMA20/50/200 cluster (1.3279/1.3285/1.3398) inside a counter-trend pullback within a broader downtrend structure. Leveraged funds hold net long +23,730 contracts (pctl 38, z -0.29) while retail sentiment shows 78% long, reflecting broad positioning support despite recent price weakness. Options markets show a mild put skew with 25d RR at -0.59 while 1M IV runs at 6.5% vs HV30 at 5.9% (+0.6% VRP). Trade bias: Long GBP/USD, central bank hawkish repricing setup. Catalyst: Tokyo CPI data release at 23:30 UTC. Risk: Extended risk-off equity liquidation forces liquidity-driven USD buying.",
+      "title": "USD/JPY — Options Downside Skew + Technical Level",
+      "text": "USD/JPY trades at 159.18, holding directly above its SMA20 at 158.82 and SMA200 at 158.85. The 1M 25-delta risk reversal sits at -1.82, showing extreme put vol demand that explicitly hedges downside protection despite Fed 4.00% vs BoJ 1.25% offering a +269bp OIS carry spread (SOFR 3.92% vs TONA 1.23%). The 160.00 handle marks the key intervention watch level where Japanese authorities have previously escalated response warnings. JPY speculative positioning shows net short -29,545 contracts at the 85th percentile of its 52-week range, reflecting crowded short exposure vulnerable to any policy defense. Trade bias: Bearish USD/JPY; options skew heavily favors downside protection near key resistance. Catalyst: Japan Tokyo CPI at 23:30 UTC. Risk: A clean daily close above 160.00 without official response drives short-covering toward 162.00.",
       "evidence": [
-        "BoE Bailey: Hawkish energy & rate guidance",
-        "BoE 4.00% vs Fed 4.00% — 0bp spread",
-        "GBP/USD: 1.3116 (SMA20 1.3279)"
+        "USD/JPY 25d RR: -1.82 (put skew)",
+        "USD/JPY OIS carry: +269bp",
+        "USD/JPY: 159.18"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "conflicted",
+        "verdict": "caution",
+        "pair": "USD/JPY",
+        "direction": -1,
+        "supports": [],
+        "conflicts": [
+          "technical regime (emerging) points against the stated direction"
+        ],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-25"
+        }
+      }
+    },
+    {
+      "time": "21:42",
+      "priority": "warning",
+      "title": "GBP/USD — Hawkish Repricing vs Technical Downtrend",
+      "text": "GBP/USD trades at 1.3117, contained below its descending SMA20/50/200 cluster (1.3269, 1.3280, 1.3395) in an established counter-trend pullback inside a larger downtrend. Bank of England Governor Bailey noted the likelihood of additional rate increases if energy costs stay elevated, while Catherine Mann argued for hiking sooner. BoE at 4.00% matches the Fed at 4.00%, offering a neutral policy carry differential (+0bp nominal, -6bp OIS basis). Leveraged funds trimmed net longs by -11,856 contracts WoW to +23,730, highlighting institutional hesitation to chase the policy rhetoric ahead of US data strength. Trade bias: Bearish GBP/USD; overhead moving average resistance caps hawkish policy repricing. Catalyst: US Goods Trade Balance at 13:30 UTC. Risk: A sustained breakout and close above the SMA50 at 1.3280 shifts the technical structure to neutral.",
+      "evidence": [
+        "BoE 4.00% vs Fed 4.00% — 0bp",
+        "GBP COT WoW: -11,856 (net +23,730)",
+        "GBP/USD: 1.3117"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "caution",
         "pair": "GBP/USD",
-        "direction": 1,
+        "direction": -1,
         "supports": [
-          "fundamental votes point with it"
+          "technical regime points with the stated direction"
         ],
         "conflicts": [
-          "technical regime (pullback) points against the stated direction",
-          "price moved 1.3 ATR against it over five sessions",
-          "close is already below the last swing low"
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
         ],
         "read": {
           "bias": "Bullish",
           "conviction": "low",
           "technical_alignment": "counter_trend",
-          "asof": "2026-11-24"
+          "asof": "2026-11-25"
         }
       }
     },
     {
-      "time": "17:53",
-      "priority": "warning",
-      "title": "USD/JPY — Crowded Carry vs Options Put Skew",
-      "text": "USD/JPY trades at 158.95, holding just below the key 160.00 level that has historically drawn verbal intervention warnings from the MoF. Fed 4.00% vs BoJ 1.25% provides a +275bp rate spread (+269bp OIS carry premium), keeping the pair structurally bid, but elevated VIX at 30.4 compresses risk appetite. 25-Delta Risk Reversals print a strong put skew at -1.82, showing institutional options traders actively paying up for downside JPY protection despite JPY COT leveraged funds net short at -29,545 contracts (pctl 85, z +1.12). Cross-asset correlations show USD/JPY vs VIX at corr=-0.071 vs 252d norm=+0.269 (z=-2.28σ), confirming a breakdown in JPY's standard safe-haven transmission during equity sell-offs. Technical structure shows USD/JPY in a tight range box around SMA20 at 158.75 and SMA200 at 158.82. Trade bias: Bullish USD/JPY while holding above 158.00 support. Catalyst: Japan Tokyo CPI release at 23:30 UTC. Risk: MoF executes direct market intervention or VIX spikes above 35, triggering systemic carry unwinds.",
-      "evidence": [
-        "USD/JPY 25d RR: -1.82 (strong put skew)",
-        "Fed 4.00% vs BoJ 1.25% — +275bp carry",
-        "JPY COT lev_net: -29,545 (pctl 85)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": 1,
-        "supports": [],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-24"
-        }
-      }
-    },
-    {
-      "time": "17:48",
+      "time": "21:35",
       "priority": "info",
-      "title": "NZD/USD — Retail Extreme vs Speculative Positioning Divergence",
-      "text": "NZD/USD trades at 0.5489, holding below its SMA20/50/200 cluster (0.5557/0.5617/0.5795) in a firm technical downtrend extended 2.04σ below BEER model fair value (spot 0.5489 vs fair value 0.5556). Retail sentiment data retail sentiment shows an extreme 92% long / 8% short positioning, creating a classic contrarian unwind risk. Conversely, CFTC COT leveraged funds hold net short -23,862 contracts (long% 25.3%, pctl 23), showing institutional money positioned for ongoing weakness while retail attempts to catch a falling knife. ESI data confirms NZD as the weakest G10 economy with an index of -15.4 from persistent data misses, reinforcing the institutional macro short. Fed 4.00% vs RBNZ 2.75% provides a +125bp carry advantage to USD, keeping structural pressure on the kiwi. Trade bias: Bearish NZD/USD, riding institutional momentum against retail extreme. Catalyst: RBNZ Bulletin release at 01:30 UTC. Risk: Short-covering rally triggered by broader USD weakness following US GDP/PCE releases.",
+      "title": "EUR/USD — Crowded Speculative Short at Cycle Extremes",
+      "text": "EUR/USD trades at 1.0978, holding below its SMA20 (1.1085) and SMA200 (1.1496) in a firm daily downtrend. CFTC data shows leveraged funds net short -105,891 contracts (2nd percentile, z -1.68) after adding -7,287 contracts WoW, signaling stretched institutional positioning. Fed 4.00% vs ECB 2.65% maintains a +135bp carry premium supporting USD (SOFR 3.92% vs €STR 2.44% at +148bp). Meanwhile, 1M implied volatility trades at 6.5% against 30-day realized volatility of 5.4%, leaving a moderate 1.2-point volatility risk premium. Trade bias: Neutral/range EUR/USD; stretched short positioning limits fresh selling momentum into rate support. Catalyst: France and Spain CPI prints at 07:45–08:00 UTC. Risk: US data outperformance expands the 2Y yield gap beyond -160bp and forces EUR/USD through 1.0900.",
       "evidence": [
-        "NZD/USD Retail: 92% Long / 8% Short",
-        "NZD COT lev_net: -23,862 (long% 25.3%)",
-        "NZD ESI Index: -15.4 (STRONG NEGATIVE)"
+        "EUR COT LF net: -105,891 (pctl 2, z -1.68)",
+        "Fed 4.00% vs ECB 2.65% — 135bp",
+        "EUR/USD: 1.0978"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "NZD/USD",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-24"
-        }
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
       }
     }
   ]
