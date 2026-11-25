@@ -1,105 +1,10 @@
 {
-  "generatedAt": "2026-11-24T23:33:37Z",
+  "generatedAt": "2026-11-25T04:30:16Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 129,
+  "aliasCount": 117,
   "aliases": [
-    {
-      "currency": "AUD",
-      "primary_title": "RBA Interest Rate Decision",
-      "secondary_title": "Australia RBA Interest Rate Decision",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": null,
-          "forecast_secondary": 4.85,
-          "actual_primary": 4.85,
-          "actual_secondary": 4.85,
-          "previous_primary": 4.6,
-          "previous_secondary": 4.6,
-          "actual_secondary_raw": "4.85%",
-          "forecast_secondary_raw": "4.85%",
-          "previous_secondary_raw": "4.6%"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Factory Orders m/m",
-      "secondary_title": "United States Factory Orders MoM",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 0.1,
-          "forecast_secondary": 1.3,
-          "actual_primary": 1.8,
-          "actual_secondary": 1.8,
-          "previous_primary": 0.1,
-          "previous_secondary": 0.3,
-          "actual_secondary_raw": "1.8%",
-          "forecast_secondary_raw": "1.3%",
-          "previous_secondary_raw": "0.3%"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia S&P Global Services PMI",
-      "secondary_title": "Australia S&P Global Services PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 52.6,
-          "forecast_secondary": 47.8,
-          "actual_primary": 48.5,
-          "actual_secondary": 48.5,
-          "previous_primary": 51.9,
-          "previous_secondary": 51.9,
-          "actual_secondary_raw": "48.5",
-          "forecast_secondary_raw": "47.8",
-          "previous_secondary_raw": "51.9"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia S&P Global Composite PMI",
-      "secondary_title": "Australia S&P Global Composite PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": null,
-          "forecast_secondary": 47.7,
-          "actual_primary": 48.2,
-          "actual_secondary": 48.2,
-          "previous_primary": 51.3,
-          "previous_secondary": 51.3,
-          "actual_secondary_raw": "48.20",
-          "forecast_secondary_raw": "47.7",
-          "previous_secondary_raw": "51.3"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "BoJ Monetary Base y/y",
-      "secondary_title": "Japan Monetary Base YoY",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": -15.4,
-          "forecast_secondary": null,
-          "actual_primary": -13.6,
-          "actual_secondary": -13.6,
-          "previous_primary": -15.2,
-          "previous_secondary": -15.2,
-          "actual_secondary_raw": "-13.6%",
-          "forecast_secondary_raw": null,
-          "previous_secondary_raw": "-15.2%"
-        }
-      }
-    },
     {
       "currency": "EUR",
       "primary_title": "Euro Area S&P Global Services PMI",
@@ -1040,82 +945,6 @@
       }
     },
     {
-      "currency": "NZD",
-      "primary_title": "New Zealand Unemployment Rate",
-      "yahoo_title": "HLFS Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 5.6,
-          "forecast_yahoo": null,
-          "actual_primary": 5.7,
-          "actual_yahoo": 5.7,
-          "previous_primary": 5.6,
-          "previous_yahoo": 5.6,
-          "actual_yahoo_raw": "5.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.6"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand Participation Rate",
-      "yahoo_title": "HLFS Participation Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 70.8,
-          "forecast_yahoo": null,
-          "actual_primary": 70.4,
-          "actual_yahoo": 70.4,
-          "previous_primary": 70.7,
-          "previous_yahoo": 70.7,
-          "actual_yahoo_raw": "70.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "70.7"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand Labor Cost Index q/q",
-      "yahoo_title": "Labour Cost Index - QQ",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 0.7,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
-        }
-      }
-    },
-    {
-      "currency": "NZD",
-      "primary_title": "New Zealand Labor Cost Index y/y",
-      "yahoo_title": "Labour Cost Index - YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-03",
-          "forecast_primary": 2.1,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": 2.1,
-          "previous_yahoo": 2.1,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.1"
-        }
-      }
-    },
-    {
       "currency": "NOK",
       "primary_title": "Norges Bank Interest Rate Decision",
       "yahoo_title": "Key Policy Rate",
@@ -1477,44 +1306,6 @@
       }
     },
     {
-      "currency": "JPY",
-      "primary_title": "Japan Imports y/y",
-      "yahoo_title": "Imports YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 24.4,
-          "forecast_yahoo": null,
-          "actual_primary": 21.6,
-          "actual_yahoo": 21.6,
-          "previous_primary": 18.9,
-          "previous_yahoo": 18.9,
-          "actual_yahoo_raw": "21.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "18.9"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Exports y/y",
-      "yahoo_title": "Exports YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 14.8,
-          "forecast_yahoo": null,
-          "actual_primary": 20.5,
-          "actual_yahoo": 20.5,
-          "previous_primary": 16.7,
-          "previous_yahoo": 16.7,
-          "actual_yahoo_raw": "20.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "16.7"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "Australia Wage Price Index q/q",
       "yahoo_title": "Wage Price Index QQ",
@@ -1777,44 +1568,6 @@
           "actual_yahoo_raw": "63",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "66"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Core Machinery Orders m/m",
-      "yahoo_title": "Machinery Orders MM *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": -1.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.3,
-          "actual_yahoo": -0.3,
-          "previous_primary": 5.2,
-          "previous_yahoo": 5.2,
-          "actual_yahoo_raw": "-0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "5.2"
-        }
-      }
-    },
-    {
-      "currency": "JPY",
-      "primary_title": "Japan Core Machinery Orders y/y",
-      "yahoo_title": "Machinery Orders YY *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 21.1,
-          "forecast_yahoo": null,
-          "actual_primary": 13.4,
-          "actual_yahoo": 13.4,
-          "previous_primary": 18.6,
-          "previous_yahoo": 18.6,
-          "actual_yahoo_raw": "13.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "18.6"
         }
       }
     },
@@ -2423,6 +2176,25 @@
           "actual_yahoo_raw": "-7",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Construction Work Done q/q",
+      "yahoo_title": "Construction Work Done",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 0.9,
+          "actual_yahoo": 0.9,
+          "previous_primary": -2.1,
+          "previous_yahoo": -2.1,
+          "actual_yahoo_raw": "0.9",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-2.1"
         }
       }
     },
