@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-25T04:30:16Z",
+  "generatedAt": "2026-11-25T17:30:07Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 117,
+  "aliasCount": 114,
   "aliases": [
     {
       "currency": "EUR",
@@ -1155,44 +1155,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "United States Retail Sales m/m",
-      "yahoo_title": "Retail Sales MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.2,
-          "actual_yahoo": 0.2,
-          "previous_primary": 0.8,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Retail Sales excl. Autos and Gas m/m",
-      "yahoo_title": "Retail Ex Gas/Autos",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "United States Import Price Index m/m",
       "yahoo_title": "Import Prices MM",
       "evidence": {
@@ -1226,82 +1188,6 @@
           "actual_yahoo_raw": "1.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Fed Industrial Production m/m",
-      "yahoo_title": "Industrial Production MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 0.5,
-          "forecast_yahoo": null,
-          "actual_primary": -0.4,
-          "actual_yahoo": -0.4,
-          "previous_primary": 0.7,
-          "previous_yahoo": 0.7,
-          "actual_yahoo_raw": "-0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.7"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Fed Capacity Utilization Rate",
-      "yahoo_title": "Capacity Utilization SA*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 76.7,
-          "forecast_yahoo": null,
-          "actual_primary": 76.4,
-          "actual_yahoo": 76.4,
-          "previous_primary": 76.9,
-          "previous_yahoo": 76.9,
-          "actual_yahoo_raw": "76.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "76.9"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Business Inventories m/m",
-      "yahoo_title": "Business Inventories MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": -0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.5,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.4,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.4"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States NAHB Housing Market Index",
-      "yahoo_title": "NAHB Housing Market Indx",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 32.0,
-          "forecast_yahoo": null,
-          "actual_primary": 25.0,
-          "actual_yahoo": 25.0,
-          "previous_primary": 29.0,
-          "previous_yahoo": 29.0,
-          "actual_yahoo_raw": "25",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "29"
         }
       }
     },
@@ -1340,158 +1226,6 @@
           "actual_yahoo_raw": "3.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "3.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Output YoY",
-      "yahoo_title": "PPI Output Prices YY NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 5.1,
-          "forecast_yahoo": null,
-          "actual_primary": 5.1,
-          "actual_yahoo": 5.1,
-          "previous_primary": 4.7,
-          "previous_yahoo": 4.6,
-          "actual_yahoo_raw": "5.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.6"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Core Inflation Rate MoM",
-      "yahoo_title": "PPI Core Output MM NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.3,
-          "forecast_yahoo": null,
-          "actual_primary": 0.3,
-          "actual_yahoo": 0.1,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Price Index MoM",
-      "yahoo_title": "RPI-X (Retail Prices) MM*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.4,
-          "forecast_yahoo": null,
-          "actual_primary": 0.6,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.1,
-          "previous_yahoo": 0.1,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.1"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Output MoM",
-      "yahoo_title": "PPI Output Prices MM NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.6,
-          "forecast_yahoo": null,
-          "actual_primary": 0.4,
-          "actual_yahoo": 0.4,
-          "previous_primary": 0.8,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Core Output MoM",
-      "yahoo_title": "PPI Core Output MM NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.2,
-          "forecast_yahoo": null,
-          "actual_primary": 0.1,
-          "actual_yahoo": 0.1,
-          "previous_primary": 0.2,
-          "previous_yahoo": 0.2,
-          "actual_yahoo_raw": "0.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.2"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Core Output YoY",
-      "yahoo_title": "PPI Core Output YY NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 3.0,
-          "forecast_yahoo": null,
-          "actual_primary": 2.9,
-          "actual_yahoo": 2.9,
-          "previous_primary": 2.9,
-          "previous_yahoo": 2.9,
-          "actual_yahoo_raw": "2.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.9"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Input MoM",
-      "yahoo_title": "PPI Input Prices MM NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.8,
-          "forecast_yahoo": null,
-          "actual_primary": 2.2,
-          "actual_yahoo": 2.2,
-          "previous_primary": 1.5,
-          "previous_yahoo": 1.5,
-          "actual_yahoo_raw": "2.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.5"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom PPI Input YoY",
-      "yahoo_title": "PPI Input Prices YY NSA",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 9.1,
-          "forecast_yahoo": null,
-          "actual_primary": 10.8,
-          "actual_yahoo": 10.8,
-          "previous_primary": 8.3,
-          "previous_yahoo": 8.3,
-          "actual_yahoo_raw": "10.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "8.3"
         }
       }
     },
@@ -2200,20 +1934,229 @@
     },
     {
       "currency": "USD",
-      "primary_title": "United States Core PCE Price Index m/m",
-      "yahoo_title": "Monthly Home Price MM",
+      "primary_title": "United States Durable Goods Orders m/m",
+      "yahoo_title": "Durable Goods *",
       "evidence": {
         "yahoo": {
           "dateISO": "2026-11-25",
-          "forecast_primary": 0.3,
+          "forecast_primary": -0.7,
           "forecast_yahoo": null,
-          "actual_primary": null,
+          "actual_primary": 0.2,
+          "actual_yahoo": 0.2,
+          "previous_primary": 1.8,
+          "previous_yahoo": 1.9,
+          "actual_yahoo_raw": "0.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.9"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Durable Goods Orders excl. Defense m/m",
+      "yahoo_title": "Durables Ex-Defense MM *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 0.4,
+          "actual_yahoo": 0.4,
+          "previous_primary": 2.2,
+          "previous_yahoo": 2.3,
+          "actual_yahoo_raw": "0.4",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.3"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Core PCE Price Index y/y",
+      "yahoo_title": "Core PCE Price Index YY*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 3.1,
+          "forecast_yahoo": null,
+          "actual_primary": 3.3,
+          "actual_yahoo": 3.3,
+          "previous_primary": 3.1,
+          "previous_yahoo": 3.1,
+          "actual_yahoo_raw": "3.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States PCE Price Index y/y",
+      "yahoo_title": "PCE Price Index YY *",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 3.6,
+          "forecast_yahoo": null,
+          "actual_primary": 3.8,
+          "actual_yahoo": 3.8,
+          "previous_primary": 3.6,
+          "previous_yahoo": 3.6,
+          "actual_yahoo_raw": "3.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Personal Income m/m",
+      "yahoo_title": "Personal Income MM*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 0.4,
+          "forecast_yahoo": null,
+          "actual_primary": 0.7,
+          "actual_yahoo": 0.7,
+          "previous_primary": 0.2,
+          "previous_yahoo": 0.2,
+          "actual_yahoo_raw": "0.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.2"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Real PCE m/m",
+      "yahoo_title": "Personal Consump Real MM*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 0.2,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
           "actual_yahoo": 0.0,
-          "previous_primary": 0.3,
-          "previous_yahoo": 0.3,
+          "previous_primary": 0.0,
+          "previous_yahoo": 0.0,
           "actual_yahoo_raw": "0",
           "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.3"
+          "previous_yahoo_raw": "0"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States GDP q/q",
+      "yahoo_title": "GDP 2nd Estimate",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 3.4,
+          "forecast_yahoo": null,
+          "actual_primary": 4.3,
+          "actual_yahoo": 4.3,
+          "previous_primary": 3.4,
+          "previous_yahoo": 3.4,
+          "actual_yahoo_raw": "4.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.4"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States PCE Price Index q/q",
+      "yahoo_title": "PCE Prices Prelim",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 2.1,
+          "actual_yahoo": 2.1,
+          "previous_primary": 2.1,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "2.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States Corporate Profits q/q",
+      "yahoo_title": "Corporate Profits Prelim*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 4.2,
+          "forecast_yahoo": null,
+          "actual_primary": 3.8,
+          "actual_yahoo": 3.8,
+          "previous_primary": 7.7,
+          "previous_yahoo": 7.7,
+          "actual_yahoo_raw": "3.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "7.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States GDP Sales q/q",
+      "yahoo_title": "GDP Sales Prelim",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 1.7,
+          "forecast_yahoo": null,
+          "actual_primary": 2.6,
+          "actual_yahoo": 2.6,
+          "previous_primary": 1.7,
+          "previous_yahoo": 1.7,
+          "actual_yahoo_raw": "2.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "1.7"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States New Home Sales m/m",
+      "yahoo_title": "New Home Sales Chg MM",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": 2.1,
+          "forecast_yahoo": null,
+          "actual_primary": 14.2,
+          "actual_yahoo": 14.2,
+          "previous_primary": -0.6,
+          "previous_yahoo": -0.6,
+          "actual_yahoo_raw": "14.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.6"
+        }
+      }
+    },
+    {
+      "currency": "USD",
+      "primary_title": "United States EIA Refinery Utilization Rate Change",
+      "yahoo_title": "EIA Wkly Refn Util*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-25",
+          "forecast_primary": null,
+          "forecast_yahoo": null,
+          "actual_primary": 1.8,
+          "actual_yahoo": 1.8,
+          "previous_primary": 0.5,
+          "previous_yahoo": 0.5,
+          "actual_yahoo_raw": "1.8",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.5"
         }
       }
     },
