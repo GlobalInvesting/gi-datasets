@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-25T15:31:08Z",
-  "generatedAt": "2026-11-25T15:31:08Z",
+  "lastUpdate": "2026-11-25T15:32:56Z",
+  "generatedAt": "2026-11-25T15:32:56Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1094,9 +1094,9 @@
       "std": 1.129094
     },
     "USD/eia distillate fuel production change": {
-      "n": 12,
-      "mean": 0.00475,
-      "std": 0.1608
+      "n": 13,
+      "mean": 0.007154,
+      "std": 0.154198
     },
     "USD/eia distillates stocks change": {
       "n": 13,
@@ -1104,9 +1104,9 @@
       "std": 2.522776
     },
     "USD/eia gasoline production change": {
-      "n": 12,
-      "mean": -0.0225,
-      "std": 0.36601
+      "n": 13,
+      "mean": 0.001846,
+      "std": 0.361255
     },
     "USD/eia heating oil stocks change": {
       "n": 13,
@@ -99544,7 +99544,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.012M",
       "forecast": "-0.048M",
       "previous": "0.140M"
     },
@@ -99570,7 +99570,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Gasoline Production Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.258M",
       "forecast": "-0.036M",
       "previous": "-0.202M"
     },
@@ -99609,7 +99609,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Refinery Crude Oil Daily Inputs Change",
       "impact": "low",
-      "actual": null,
+      "actual": "0.428M",
       "forecast": null,
       "previous": "-0.129M"
     },
@@ -99622,7 +99622,7 @@
       "flag": "🇺🇸",
       "event": "United States EIA Refinery Utilization Rate Change",
       "impact": "low",
-      "actual": null,
+      "actual": "1.8%",
       "forecast": null,
       "previous": "0.5%"
     },
@@ -103729,7 +103729,7 @@
       "event": "United States EIA Crude Oil Stocks Change",
       "impact": "high",
       "actual": null,
-      "forecast": null,
+      "forecast": "-0.116M",
       "previous": "1.109M"
     },
     {
@@ -103742,7 +103742,7 @@
       "event": "United States EIA Cushing Crude Oil Stocks Change",
       "impact": "medium",
       "actual": null,
-      "forecast": null,
+      "forecast": "-0.620M",
       "previous": "-0.534M"
     },
     {
@@ -103755,8 +103755,8 @@
       "event": "United States EIA Crude Oil Imports Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.365M",
+      "previous": "1.893M"
     },
     {
       "date": "2 Dec",
@@ -103768,8 +103768,8 @@
       "event": "United States EIA Distillate Fuel Production Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.037M",
+      "previous": "-0.012M"
     },
     {
       "date": "2 Dec",
@@ -103781,7 +103781,7 @@
       "event": "United States EIA Distillates Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "2.595M",
       "previous": "0.715M"
     },
     {
@@ -103794,8 +103794,8 @@
       "event": "United States EIA Gasoline Production Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.097M",
+      "previous": "0.258M"
     },
     {
       "date": "2 Dec",
@@ -103807,7 +103807,7 @@
       "event": "United States EIA Heating Oil Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.035M",
       "previous": "0.219M"
     },
     {
@@ -103820,7 +103820,7 @@
       "event": "United States EIA Gasoline Stocks Change",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "0.685M",
       "previous": "1.733M"
     },
     {
@@ -103834,7 +103834,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "0.428M"
     },
     {
       "date": "2 Dec",
@@ -103847,7 +103847,7 @@
       "impact": "low",
       "actual": null,
       "forecast": null,
-      "previous": null
+      "previous": "1.8%"
     },
     {
       "date": "2 Dec",
