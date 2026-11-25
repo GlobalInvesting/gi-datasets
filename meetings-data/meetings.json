@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-24",
+  "lastUpdate": "2026-11-25",
   "meetings": {
     "USD": {
       "nextMeeting": "9 Dec",
@@ -28,7 +28,7 @@
       "bias": "hike",
       "biasSource": "Fed Funds futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 100,
       "fwdRate": 4.13
@@ -60,10 +60,10 @@
       "bias": "hike",
       "biasSource": "ESTR futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
-      "hikeProb": 74,
-      "fwdRate": 2.685
+      "hikeProb": 75,
+      "fwdRate": 2.6875
     },
     "GBP": {
       "nextMeeting": "17 Dec",
@@ -92,10 +92,10 @@
       "bias": "hike",
       "biasSource": "SONIA futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
-      "hikeProb": 92,
-      "fwdRate": 4.2137
+      "hikeProb": 90,
+      "fwdRate": 4.2097
     },
     "JPY": {
       "nextMeeting": "18 Dec",
@@ -124,7 +124,7 @@
       "bias": "hike",
       "biasSource": "OIS TONA curve + BoJ daily spot rate",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 68,
       "fwdRate": 1.42
@@ -156,7 +156,7 @@
       "bias": "hold",
       "biasSource": "30-day Interbank Cash Rate futures",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 0,
       "fwdRate": 4.85
@@ -190,10 +190,10 @@
       "bias": "hike",
       "biasSource": "CORRA 1-Month futures, meeting-bracketed",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
-      "hikeProb": 62,
-      "fwdRate": 2.705
+      "hikeProb": 75,
+      "fwdRate": 2.7475
     },
     "CHF": {
       "nextMeeting": "10 Dec",
@@ -214,7 +214,7 @@
       "bias": "hold",
       "biasSource": "OIS SARON curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 0,
       "fwdRate": 0.0
@@ -244,7 +244,7 @@
       "bias": "hike",
       "biasSource": "OIS NZIONA curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 72,
       "fwdRate": 2.93
@@ -276,7 +276,7 @@
       "bias": "hold",
       "biasSource": "OIS NOWA curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 0,
       "hikeProb": 0,
       "fwdRate": 4.5
@@ -308,7 +308,7 @@
       "bias": "cut",
       "biasSource": "OIS SWESTR curve, meeting-bracketed forward",
       "biasMethod": "ois",
-      "biasUpdated": "2026-11-24",
+      "biasUpdated": "2026-11-25",
       "cutProb": 100,
       "hikeProb": 0,
       "fwdRate": 1.5
