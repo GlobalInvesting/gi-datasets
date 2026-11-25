@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-25T13:31:17Z",
-  "generatedAt": "2026-11-25T13:31:17Z",
+  "lastUpdate": "2026-11-25T13:32:51Z",
+  "generatedAt": "2026-11-25T13:32:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1074,9 +1074,9 @@
       "std": 0.251661
     },
     "USD/nondefense capital goods shipments excl. aircraft mom": {
-      "n": 5,
-      "mean": 0.06,
-      "std": 0.240832
+      "n": 6,
+      "mean": -0.083333,
+      "std": 0.411906
     },
     "USD/eia crude oil stocks change": {
       "n": 12,
@@ -3729,69 +3729,74 @@
       "std": 0.173205
     },
     "USD/core pce price index mom": {
-      "n": 4,
+      "n": 5,
       "mean": 0.0,
-      "std": 0.08165
+      "std": 0.070711
     },
     "USD/core pce price index yoy": {
-      "n": 4,
-      "mean": -0.175,
-      "std": 0.206155
+      "n": 5,
+      "mean": -0.1,
+      "std": 0.244949
     },
     "USD/pce price index mom": {
-      "n": 4,
-      "mean": 0.1,
-      "std": 0.141421
+      "n": 5,
+      "mean": 0.06,
+      "std": 0.151658
     },
     "USD/pce price index yoy": {
-      "n": 4,
-      "mean": -0.225,
-      "std": 0.478714
+      "n": 5,
+      "mean": -0.14,
+      "std": 0.45607
     },
     "USD/personal spending mom": {
-      "n": 4,
-      "mean": 0.175,
-      "std": 0.419325
+      "n": 5,
+      "mean": 0.14,
+      "std": 0.371484
     },
     "USD/personal income mom": {
-      "n": 4,
-      "mean": -0.05,
-      "std": 0.1
+      "n": 5,
+      "mean": 0.02,
+      "std": 0.178885
     },
     "USD/real pce mom": {
-      "n": 2,
-      "mean": 0.2,
-      "std": 0.424264
+      "n": 3,
+      "mean": 0.066667,
+      "std": 0.378594
     },
     "USD/gdp growth rate qoq": {
-      "n": 2,
-      "mean": 1.35,
-      "std": 0.919239
+      "n": 3,
+      "mean": 1.2,
+      "std": 0.7
     },
     "USD/gdp price index qoq": {
-      "n": 2,
-      "mean": -1.2,
-      "std": 1.272792
+      "n": 3,
+      "mean": -0.933333,
+      "std": 1.011599
     },
     "USD/core pce price index qoq": {
-      "n": 2,
-      "mean": -0.8,
-      "std": 0.707107
+      "n": 3,
+      "mean": -0.533333,
+      "std": 0.680686
     },
     "USD/pce price index qoq": {
-      "n": 2,
-      "mean": -1.55,
-      "std": 1.767767
+      "n": 3,
+      "mean": -1.033333,
+      "std": 1.537314
     },
     "USD/real pce qoq": {
+      "n": 3,
+      "mean": 0.366667,
+      "std": 0.057735
+    },
+    "USD/corporate profits qoq": {
       "n": 2,
-      "mean": 0.35,
+      "mean": -0.45,
       "std": 0.070711
     },
     "USD/gdp sales qoq": {
-      "n": 2,
-      "mean": -0.2,
-      "std": 1.131371
+      "n": 3,
+      "mean": 0.166667,
+      "std": 1.021437
     },
     "USD/goods trade balance adv": {
       "n": 2,
@@ -99201,7 +99206,7 @@
       "flag": "🇺🇸",
       "event": "United States Nondefense Capital Goods Shipments excl. Aircraft m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.6%",
       "forecast": "1.4%",
       "previous": "1.2%"
     },
@@ -99214,7 +99219,7 @@
       "flag": "🇺🇸",
       "event": "United States Core PCE Price Index m/m",
       "impact": "high",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.3%"
     },
@@ -99227,7 +99232,7 @@
       "flag": "🇺🇸",
       "event": "United States Core PCE Price Index y/y",
       "impact": "high",
-      "actual": null,
+      "actual": "3.3%",
       "forecast": "3.1%",
       "previous": "3.1%"
     },
@@ -99240,7 +99245,7 @@
       "flag": "🇺🇸",
       "event": "United States PCE Price Index m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.4%",
       "previous": "0.5%"
     },
@@ -99253,7 +99258,7 @@
       "flag": "🇺🇸",
       "event": "United States PCE Price Index y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "3.6%",
       "previous": "3.6%"
     },
@@ -99266,7 +99271,7 @@
       "flag": "🇺🇸",
       "event": "United States Personal Spending m/m",
       "impact": "medium",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.3%",
       "previous": "0.5%"
     },
@@ -99279,7 +99284,7 @@
       "flag": "🇺🇸",
       "event": "United States Personal Income m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.7%",
       "forecast": "0.4%",
       "previous": "0.2%"
     },
@@ -99292,7 +99297,7 @@
       "flag": "🇺🇸",
       "event": "United States Real PCE m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "0.0%",
       "forecast": "0.2%",
       "previous": "0.0%"
     },
@@ -99305,7 +99310,7 @@
       "flag": "🇺🇸",
       "event": "United States GDP q/q",
       "impact": "high",
-      "actual": null,
+      "actual": "4.3%",
       "forecast": "3.4%",
       "previous": "3.4%"
     },
@@ -99318,7 +99323,7 @@
       "flag": "🇺🇸",
       "event": "United States GDP Price Index q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "1.9%",
       "forecast": "2.3%",
       "previous": "2.3%"
     },
@@ -99331,7 +99336,7 @@
       "flag": "🇺🇸",
       "event": "United States Core PCE Price Index q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "2.5%",
       "forecast": "2.5%",
       "previous": "2.5%"
     },
@@ -99344,7 +99349,7 @@
       "flag": "🇺🇸",
       "event": "United States PCE Price Index q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "2.1%",
       "forecast": "2.1%",
       "previous": "2.1%"
     },
@@ -99357,7 +99362,7 @@
       "flag": "🇺🇸",
       "event": "United States Real PCE q/q",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.2%",
       "forecast": "3.8%",
       "previous": "3.8%"
     },
@@ -99370,7 +99375,7 @@
       "flag": "🇺🇸",
       "event": "United States Corporate Profits q/q",
       "impact": "low",
-      "actual": null,
+      "actual": "3.8%",
       "forecast": "4.2%",
       "previous": "7.7%"
     },
@@ -99383,7 +99388,7 @@
       "flag": "🇺🇸",
       "event": "United States GDP Sales q/q",
       "impact": "high",
-      "actual": null,
+      "actual": "2.6%",
       "forecast": "1.7%",
       "previous": "1.7%"
     },
