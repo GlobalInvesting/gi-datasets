@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T03:42:52Z",
+  "generatedAt": "2026-11-26T17:12:37Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 109,
+  "aliasCount": 97,
   "aliases": [
     {
       "currency": "AUD",
@@ -135,21 +135,8 @@
           "actual_secondary_raw": "4%",
           "forecast_secondary_raw": "4.0%",
           "previous_secondary_raw": "3.75%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-05",
-          "forecast_primary": 4.0,
-          "forecast_yahoo": null,
-          "actual_primary": 4.0,
-          "actual_yahoo": 4.0,
-          "previous_primary": 3.75,
-          "previous_yahoo": 3.75,
-          "actual_yahoo_raw": "4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.75"
         }
-      },
-      "yahoo_title": "BOE Bank Rate"
+      }
     },
     {
       "currency": "USD",
@@ -1021,63 +1008,6 @@
       }
     },
     {
-      "currency": "EUR",
-      "primary_title": "Italy CPI FOI excl. Tobacco m/m",
-      "yahoo_title": "HICP-X Tobacco MM *",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 0.5,
-          "previous_primary": 0.6,
-          "previous_yahoo": 0.6,
-          "actual_yahoo_raw": "0.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.6"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Import Price Index m/m",
-      "yahoo_title": "Import Prices MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 1.9,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 1.1,
-          "previous_yahoo": 1.1,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "1.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Export Price Index m/m",
-      "yahoo_title": "Export Prices MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-17",
-          "forecast_primary": 1.8,
-          "forecast_yahoo": null,
-          "actual_primary": 1.1,
-          "actual_yahoo": 1.1,
-          "previous_primary": 2.2,
-          "previous_yahoo": 2.2,
-          "actual_yahoo_raw": "1.1",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2.2"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "Australia Wage Price Index q/q",
       "yahoo_title": "Wage Price Index QQ",
@@ -1116,82 +1046,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States Housing Starts m/m",
-      "yahoo_title": "House Starts MM: Change",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": -1.8,
-          "forecast_yahoo": null,
-          "actual_primary": 9.9,
-          "actual_yahoo": 9.9,
-          "previous_primary": -5.2,
-          "previous_yahoo": -5.2,
-          "actual_yahoo_raw": "9.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-5.2"
-        }
-      }
-    },
-    {
-      "currency": "CAD",
-      "primary_title": "Canada New Housing Price Index m/m",
-      "yahoo_title": "New Housing Price Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": -0.2,
-          "actual_yahoo": -0.2,
-          "previous_primary": -0.2,
-          "previous_yahoo": -0.2,
-          "actual_yahoo_raw": "-0.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Pending Home Sales m/m",
-      "yahoo_title": "Pending Sales Change MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": -4.7,
-          "actual_yahoo": -4.7,
-          "previous_primary": -7.3,
-          "previous_yahoo": -7.3,
-          "actual_yahoo_raw": "-4.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-7.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Pending Home Sales Index",
-      "yahoo_title": "Pending Homes Index",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-18",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 63.0,
-          "actual_yahoo": 63.0,
-          "previous_primary": 66.0,
-          "previous_yahoo": 66.0,
-          "actual_yahoo_raw": "63",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "66"
-        }
-      }
-    },
-    {
       "currency": "GBP",
       "primary_title": "United Kingdom CBI Industrial Trends Orders",
       "yahoo_title": "CBI Trends - Orders",
@@ -1212,120 +1066,6 @@
     },
     {
       "currency": "USD",
-      "primary_title": "Philadelphia Fed Manufacturing Index",
-      "yahoo_title": "Philly Fed Business Indx*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 32.2,
-          "forecast_yahoo": null,
-          "actual_primary": 6.3,
-          "actual_yahoo": 6.3,
-          "previous_primary": 20.9,
-          "previous_yahoo": 20.9,
-          "actual_yahoo_raw": "6.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "20.9"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Philadelphia Fed Employment",
-      "yahoo_title": "Philly Fed Employment*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 5.5,
-          "forecast_yahoo": null,
-          "actual_primary": 11.6,
-          "actual_yahoo": 11.6,
-          "previous_primary": 9.1,
-          "previous_yahoo": 9.1,
-          "actual_yahoo_raw": "11.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "9.1"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Philadelphia Fed Business Conditions",
-      "yahoo_title": "Philly Fed 6M Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 54.0,
-          "forecast_yahoo": null,
-          "actual_primary": 33.6,
-          "actual_yahoo": 33.6,
-          "previous_primary": 33.0,
-          "previous_yahoo": 33.0,
-          "actual_yahoo_raw": "33.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "33"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Philadelphia Fed Prices Paid",
-      "yahoo_title": "Philly Fed Prices Paid*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 48.4,
-          "forecast_yahoo": null,
-          "actual_primary": 58.2,
-          "actual_yahoo": 58.2,
-          "previous_primary": 43.2,
-          "previous_yahoo": 43.2,
-          "actual_yahoo_raw": "58.2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "43.2"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Philadelphia Fed New Orders",
-      "yahoo_title": "Philly Fed New Orders*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 24.0,
-          "forecast_yahoo": null,
-          "actual_primary": -0.4,
-          "actual_yahoo": -0.4,
-          "previous_primary": 4.3,
-          "previous_yahoo": 4.3,
-          "actual_yahoo_raw": "-0.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.3"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Philadelphia Fed Capex Index",
-      "yahoo_title": "Philly Fed Capex Index*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 37.9,
-          "forecast_yahoo": null,
-          "actual_primary": 18.9,
-          "actual_yahoo": 18.9,
-          "previous_primary": 34.9,
-          "previous_yahoo": 34.9,
-          "actual_yahoo_raw": "18.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "34.9"
-        }
-      }
-    },
-    {
-      "currency": "USD",
       "primary_title": "United States CB Leading Economic Index m/m",
       "yahoo_title": "Leading Index Chg MM",
       "evidence": {
@@ -1340,25 +1080,6 @@
           "actual_yahoo_raw": "-0.3",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "Kansas City Fed Manufacturing Production",
-      "yahoo_title": "KC Fed Manufacturing*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 6.0,
-          "forecast_yahoo": null,
-          "actual_primary": 23.0,
-          "actual_yahoo": 23.0,
-          "previous_primary": 16.0,
-          "previous_yahoo": 16.0,
-          "actual_yahoo_raw": "23",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "16"
         }
       }
     },
@@ -1990,25 +1711,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States EIA Refinery Utilization Rate Change",
-      "yahoo_title": "EIA Wkly Refn Util*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-25",
-          "forecast_primary": null,
-          "forecast_yahoo": null,
-          "actual_primary": 1.8,
-          "actual_yahoo": 1.8,
-          "previous_primary": 0.5,
-          "previous_yahoo": 0.5,
-          "actual_yahoo_raw": "1.8",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.5"
-        }
-      }
-    },
-    {
       "currency": "AUD",
       "primary_title": "Australia Private New Capital Expenditure q/q",
       "yahoo_title": "Capital Expenditure",
@@ -2062,6 +1764,63 @@
           "actual_yahoo_raw": "23.1",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-8.9"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway GDP q/q",
+      "yahoo_title": "GDP Growth",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": 0.0,
+          "forecast_yahoo": null,
+          "actual_primary": -0.3,
+          "actual_yahoo": -0.3,
+          "previous_primary": 0.7,
+          "previous_yahoo": 0.7,
+          "actual_yahoo_raw": "-0.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.7"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway GDP Mainland q/q",
+      "yahoo_title": "GDP Growth Mainland",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.1,
+          "actual_yahoo": 0.1,
+          "previous_primary": 0.3,
+          "previous_yahoo": 0.3,
+          "actual_yahoo_raw": "0.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.3"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "ECB M3 Money Supply y/y",
+      "yahoo_title": "Money-M3 Annual Grwth*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": 3.2,
+          "forecast_yahoo": null,
+          "actual_primary": 3.6,
+          "actual_yahoo": 3.6,
+          "previous_primary": 3.5,
+          "previous_yahoo": 3.5,
+          "actual_yahoo_raw": "3.6",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "3.5"
         }
       }
     },
