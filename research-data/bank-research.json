@@ -1,15 +1,31 @@
 {
-  "updated_utc": "2026-11-26T13:55:46.844645+00:00",
-  "updated_label": "13:55 UTC",
-  "total": 36,
+  "updated_utc": "2026-11-26T16:20:52.312899+00:00",
+  "updated_label": "16:20 UTC",
+  "total": 37,
   "sources": [
     "BIS",
     "CME",
     "ING",
-    "Saxo",
-    "UBS"
+    "Saxo"
   ],
   "items": [
+    {
+      "id": "b772b90cad6d",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "Minutes of ECB’s October meeting confirm tightening bias",
+      "excerpt": "The minutes of the ECB's October meeting confirm a clear tightening bias and suggest a rate hike at the December meeting is almost a done…",
+      "author": "",
+      "url": "https://think.ing.com/articles/minutes-of-ecbs-october-meeting-confirm-tightening-bias/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795701300000,
+      "published": "2026-11-26T13:55:00+00:00"
+    },
     {
       "id": "a62941f24e6b",
       "bank": "Saxo",
@@ -98,6 +114,91 @@
       "published": "2026-11-26T07:00:00+00:00"
     },
     {
+      "id": "0fb91a17ba1f",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
+      "excerpt": "Statement by Mr Kazuo Ueda, Governor of the Bank of Japan, before the Committee on Financial Affairs, Senate, Tokyo, 19 November 2026.",
+      "author": "Kazuo Ueda",
+      "url": "https://www.bis.org/speeches/20261126-bank-japans-semiannual-report-currency-and-monetary-control",
+      "currencies": [
+        "JPY"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "a7b29599c861",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Considerations at the intersection of payments and tokenized markets",
+      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.",
+      "author": "Christopher J Waller",
+      "url": "https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "623ad932c6ad",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "What does monetary policy need to know now?",
+      "excerpt": "Welcome address by Mr Sergio Nicoletti Altimari, Deputy Governor of the Bank of Italy, at the Bank of Italy-SUERF (The European Money and Finance Forum) conference “Inflation, inflation expectations, and monetary policy”, Rome, 19 November 2026.",
+      "author": "Sergio Nicoletti Altimari",
+      "url": "https://www.bis.org/speeches/20261126-what-does-monetary-policy-need-know-now",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "5e8aefb24883",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Setting the scenario - monetary policy communications in uncertain times",
+      "excerpt": "Remarks by Mr Toni Gravelle, Deputy Governor of the Bank of Canada, to the Edmonton Chamber of Commerce, Edmonton, Alberta, 18 November 2026.",
+      "author": "Toni Gravelle",
+      "url": "https://www.bis.org/speeches/20261126-setting-scenario-monetary-policy-communications-uncertain-times",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "7ee96beb1523",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Acting in time",
+      "excerpt": "Keynote speech by Ms Christine Lagarde, President of the European Central Bank, at the 36th Frankfurt European Banking Congress, Frankfurt am Main, 20 November 2026.",
+      "author": "Christine Lagarde",
+      "url": "https://www.bis.org/speeches/20261126-acting-time",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
       "id": "f287547ab428",
       "bank": "BIS",
       "bank_full": "Bank for International Settlements",
@@ -178,40 +279,6 @@
       "currencies": [
         "EUR",
         "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "a7b29599c861",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Considerations at the intersection of payments and tokenized markets",
-      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.",
-      "author": "Christopher J Waller",
-      "url": "https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "5e8aefb24883",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Setting the scenario - monetary policy communications in uncertain times",
-      "excerpt": "Remarks by Mr Toni Gravelle, Deputy Governor of the Bank of Canada, to the Edmonton Chamber of Commerce, Edmonton, Alberta, 18 November 2026.",
-      "author": "Toni Gravelle",
-      "url": "https://www.bis.org/speeches/20261126-setting-scenario-monetary-policy-communications-uncertain-times",
-      "currencies": [
-        "CAD"
       ],
       "pairs": [],
       "category": "macro",
@@ -339,23 +406,6 @@
       "category": "macro",
       "ts": 1795594320000,
       "published": "2026-11-25T08:12:00+00:00"
-    },
-    {
-      "id": "4f067b25342e",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "FX Daily",
-      "title": "FX Daily: Full EMFX unwind underway",
-      "excerpt": "The investment environment remains hostile. Lingering uncertainty over the US tech story, Fed tightening and now a little more tariff uncertainty are leading to a full unwind of risk-seeking trades, particularly in EMFX. More pressure could come today with hot core US PCE inflation. Expect EMFX and commodity FX to remain on the back…",
-      "author": "",
-      "url": "https://think.ing.com/articles/fx-daily-full-emfx-unwind-underway/",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795592400000,
-      "published": "2026-11-25T07:40:00+00:00"
     },
     {
       "id": "07b29c60cd11",
@@ -515,23 +565,6 @@
       "published": "2026-11-23T14:25:00+00:00"
     },
     {
-      "id": "b6fabecac21b",
-      "bank": "UBS",
-      "bank_full": "UBS Global Research",
-      "series": "",
-      "title": "The future of work: AI, hiring trends and the evolution of talent",
-      "excerpt": "The deepest staffing downturn in decades may be easing, but the recovery looks very different from previous cycles. Join Support Service analysts Rory McKenzie and Abi Bell, as they unpack the forces reshaping hiring, from labour hoarding and shifting talent flows to AI-driven productivity and the changing role of recruiters. *(This information is subject to a disclaimer at the end of this podcast. Please ensure that you listen to the disclaimer and go to www.ubs.com for further information about UBS).",
-      "author": "",
-      "url": "https://www.ubs.com/content/dam/assets/ib/global/podcast/research-podcasts/future-of-work.mp3",
-      "currencies": [
-        "CAD"
-      ],
-      "pairs": [],
-      "category": "technical",
-      "ts": 1795438661000,
-      "published": "2026-11-23T12:57:41+00:00"
-    },
-    {
       "id": "b8003f074c61",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -616,23 +649,6 @@
       "category": "macro",
       "ts": 1795121943000,
       "published": "2026-11-19T20:59:03+00:00"
-    },
-    {
-      "id": "9cf9f0383256",
-      "bank": "CME",
-      "bank_full": "CME Group FX",
-      "series": "",
-      "title": "Anthropic IPO drives Nasdaq futures higher.",
-      "excerpt": "Bob Iaccino of Path Trading Partners breaks down the morning's market action as U.S. equity futures rally on Anthropic's record $81.3 billion IPO, with Nasdaq-100 futures up 2.1% and E-mini S P 500 futures up 1.06%. He also covers moves across gold, silver, copper, crude oil and Bitcoin, looks ahead to remarks from four Federal Reserve officials, and previews today's corporate earnings slate alongside the People's Bank of China rate decision, U.K. and Canadian retail sales, German PPI and University of Michigan consumer sentiment data.",
-      "author": "CME Group",
-      "url": "https://www.cmegroup.com/videos/2026/11/19/anthropic-ipo-drives-nasdaq-futures-higher-11-19-26.html?utm_source=cmegroup&utm_medium=rss&utm_campaign=distribution",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795103860000,
-      "published": "2026-11-19T15:57:40+00:00"
     }
   ]
 }
