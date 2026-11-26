@@ -1,188 +1,33 @@
 {
-  "lastUpdate": "2026-11-25T22:38:23Z",
-  "generatedAt": "2026-11-25T22:38:23Z",
+  "lastUpdate": "2026-11-26T00:00:59Z",
+  "generatedAt": "2026-11-26T00:00:59Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-11-25",
-  "rangeTo": "2026-12-09",
-  "totalEvents": 8016,
+  "rangeFrom": "2025-11-26",
+  "rangeTo": "2026-12-10",
+  "totalEvents": 8047,
   "currencyCounts": {
-    "EUR": 2390,
-    "GBP": 701,
-    "USD": 2554,
-    "AUD": 456,
-    "NZD": 203,
+    "AUD": 455,
+    "NZD": 204,
+    "USD": 2557,
+    "EUR": 2410,
     "CAD": 445,
-    "JPY": 631,
-    "CHF": 179,
-    "SEK": 263,
-    "NOK": 194
+    "JPY": 630,
+    "CHF": 184,
+    "GBP": 700,
+    "SEK": 264,
+    "NOK": 198
   },
   "impactCounts": {
-    "medium": 3173,
-    "high": 1663,
-    "low": 3180
+    "medium": 3172,
+    "high": 1665,
+    "low": 3210
   },
   "surpriseStats": {
-    "EUR/estonia retail sales yoy": {
-      "n": 3,
-      "mean": 1.733333,
-      "std": 3.036994
-    },
-    "EUR/finland business confidence": {
-      "n": 3,
-      "mean": -1.0,
-      "std": 2.645751
-    },
-    "EUR/finland consumer confidence": {
-      "n": 3,
-      "mean": -0.966667,
-      "std": 3.516153
-    },
-    "EUR/estonia retail sales mom": {
-      "n": 3,
-      "mean": -0.366667,
-      "std": 2.67644
-    },
-    "EUR/lithuania industrial production yoy": {
-      "n": 3,
-      "mean": -0.066667,
-      "std": 4.718404
-    },
-    "EUR/lithuania industrial production mom": {
-      "n": 3,
-      "mean": 0.266667,
-      "std": 1.550269
-    },
-    "EUR/lithuania retail sales yoy": {
-      "n": 3,
-      "mean": 0.466667,
-      "std": 1.738774
-    },
-    "EUR/germany gfk consumer climate": {
-      "n": 2,
-      "mean": 0.35,
-      "std": 3.606245
-    },
-    "NOK/gdp growth rate qoq": {
-      "n": 2,
-      "mean": 0.45,
-      "std": 0.353553
-    },
-    "SEK/goods trade balance": {
-      "n": 2,
-      "mean": -4.6,
-      "std": 18.667619
-    },
-    "SEK/households loans yoy": {
-      "n": 2,
-      "mean": 24.5,
-      "std": 34.648232
-    },
-    "EUR/france ppi mom": {
-      "n": 4,
-      "mean": 0.475,
-      "std": 0.492443
-    },
-    "EUR/austria unicredit bank manufacturing pmi": {
-      "n": 3,
-      "mean": 2.166667,
-      "std": 1.123981
-    },
-    "EUR/ecb m3 money supply yoy": {
-      "n": 3,
-      "mean": -0.033333,
-      "std": 0.378594
-    },
-    "EUR/ecb households loans yoy": {
-      "n": 3,
-      "mean": 0.133333,
-      "std": 0.057735
-    },
-    "EUR/ecb non-financial corporations loans yoy": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 0.52915
-    },
-    "EUR/ecb private sector loans yoy": {
-      "n": 3,
-      "mean": -0.066667,
-      "std": 0.11547
-    },
-    "USD/wholesale inventories mom": {
-      "n": 9,
-      "mean": 0.155556,
-      "std": 0.665415
-    },
-    "USD/goods trade balance": {
-      "n": 3,
-      "mean": -18.919,
-      "std": 3.739877
-    },
-    "USD/retail inventories mom": {
-      "n": 6,
-      "mean": 0.05,
-      "std": 0.427785
-    },
-    "USD/initial jobless claims": {
-      "n": 11,
-      "mean": 1.454545,
-      "std": 7.019453
-    },
-    "USD/continuing jobless claims": {
-      "n": 11,
-      "mean": -155.745636,
-      "std": 511.94039
-    },
-    "USD/initial jobless claims 4-week average": {
-      "n": 9,
-      "mean": 0.719111,
-      "std": 1.364111
-    },
-    "USD/jobless claims 4-week average": {
-      "n": 10,
-      "mean": 0.1,
-      "std": 1.62532
-    },
-    "USD/retail inventories ex autos mom": {
-      "n": 3,
-      "mean": 0.2,
-      "std": 0.458258
-    },
-    "USD/eia natural gas storage change": {
-      "n": 14,
-      "mean": -6.0,
-      "std": 28.476711
-    },
-    "USD/kansas city fed manufacturing composite index": {
-      "n": 3,
-      "mean": 0.0,
-      "std": 7.937254
-    },
-    "USD/kansas city fed manufacturing production": {
-      "n": 4,
-      "mean": 4.25,
-      "std": 9.105859
-    },
-    "EUR/ireland consumer confidence": {
-      "n": 3,
-      "mean": 0.6,
-      "std": 2.179449
-    },
-    "JPY/unemployment rate": {
-      "n": 2,
-      "mean": 0.0,
-      "std": 0.141421
-    },
-    "JPY/jobs/applications ratio": {
-      "n": 3,
-      "mean": -0.003333,
-      "std": 0.011547
-    },
     "EUR/netherlands business confidence": {
       "n": 3,
       "mean": 0.4,
@@ -1253,6 +1098,26 @@
       "mean": -0.65,
       "std": 0.777817
     },
+    "USD/initial jobless claims": {
+      "n": 10,
+      "mean": 0.3,
+      "std": 6.201254
+    },
+    "USD/continuing jobless claims": {
+      "n": 10,
+      "mean": -171.3214,
+      "std": 536.87813
+    },
+    "USD/initial jobless claims 4-week average": {
+      "n": 8,
+      "mean": 0.439125,
+      "std": 1.149046
+    },
+    "USD/jobless claims 4-week average": {
+      "n": 9,
+      "mean": 0.388889,
+      "std": 1.425828
+    },
     "USD/s&p global services pmi": {
       "n": 3,
       "mean": 0.933333,
@@ -1272,6 +1137,11 @@
       "n": 3,
       "mean": 0.333333,
       "std": 0.665833
+    },
+    "USD/eia natural gas storage change": {
+      "n": 13,
+      "mean": -7.461538,
+      "std": 29.087842
     },
     "JPY/household spending yoy": {
       "n": 6,
@@ -1998,6 +1868,11 @@
       "mean": 0.4,
       "std": 0.216025
     },
+    "USD/wholesale inventories mom": {
+      "n": 7,
+      "mean": -0.157143,
+      "std": 0.276026
+    },
     "USD/wholesale sales mom": {
       "n": 3,
       "mean": 1.066667,
@@ -2613,10 +2488,20 @@
       "mean": 0.36,
       "std": 0.74027
     },
+    "USD/retail inventories mom": {
+      "n": 5,
+      "mean": -0.1,
+      "std": 0.244949
+    },
     "USD/nahb housing market index": {
       "n": 3,
       "mean": -6.333333,
       "std": 1.154701
+    },
+    "USD/retail inventories ex autos mom": {
+      "n": 2,
+      "mean": -0.05,
+      "std": 0.212132
     },
     "USD/fed interest rate decision": {
       "n": 2,
@@ -3328,6 +3213,16 @@
       "mean": 5.52,
       "std": 4.671937
     },
+    "USD/kansas city fed manufacturing composite index": {
+      "n": 2,
+      "mean": -1.5,
+      "std": 10.606602
+    },
+    "USD/kansas city fed manufacturing production": {
+      "n": 3,
+      "mean": 7.0,
+      "std": 8.888194
+    },
     "USD/kansas fed composite index": {
       "n": 2,
       "mean": 4.5,
@@ -3367,6 +3262,26 @@
       "n": 2,
       "mean": 0.05,
       "std": 0.212132
+    },
+    "EUR/ecb m3 money supply yoy": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.424264
+    },
+    "EUR/ecb households loans yoy": {
+      "n": 2,
+      "mean": 0.1,
+      "std": 0.0
+    },
+    "EUR/ecb non-financial corporations loans yoy": {
+      "n": 2,
+      "mean": -0.3,
+      "std": 0.141421
+    },
+    "EUR/ecb private sector loans yoy": {
+      "n": 2,
+      "mean": -0.1,
+      "std": 0.141421
     },
     "EUR/loans to companies yoy": {
       "n": 2,
@@ -3458,10 +3373,45 @@
       "mean": 0.133333,
       "std": 0.351188
     },
+    "EUR/finland business confidence": {
+      "n": 2,
+      "mean": -1.5,
+      "std": 3.535534
+    },
+    "EUR/finland consumer confidence": {
+      "n": 2,
+      "mean": -2.95,
+      "std": 1.06066
+    },
+    "EUR/lithuania retail sales yoy": {
+      "n": 2,
+      "mean": 0.15,
+      "std": 2.333452
+    },
+    "EUR/lithuania industrial production mom": {
+      "n": 2,
+      "mean": 1.15,
+      "std": 0.353553
+    },
+    "EUR/lithuania industrial production yoy": {
+      "n": 2,
+      "mean": 2.65,
+      "std": 0.494975
+    },
+    "EUR/austria unicredit bank manufacturing pmi": {
+      "n": 2,
+      "mean": 1.55,
+      "std": 0.494975
+    },
     "EUR/france jobseekers total": {
       "n": 2,
       "mean": 18.95,
       "std": 97.792868
+    },
+    "EUR/ireland consumer confidence": {
+      "n": 2,
+      "mean": -0.15,
+      "std": 2.474874
     },
     "GBP/brc shop price inflation": {
       "n": 2,
@@ -3698,6 +3648,16 @@
       "mean": -0.166667,
       "std": 0.057735
     },
+    "EUR/estonia retail sales yoy": {
+      "n": 2,
+      "mean": 0.05,
+      "std": 1.202082
+    },
+    "EUR/estonia retail sales mom": {
+      "n": 2,
+      "mean": -1.85,
+      "std": 1.06066
+    },
     "JPY/construction orders yoy": {
       "n": 4,
       "mean": -8.625,
@@ -3727,6 +3687,16 @@
       "n": 3,
       "mean": 0.3,
       "std": 0.173205
+    },
+    "EUR/france ppi mom": {
+      "n": 2,
+      "mean": 0.5,
+      "std": 0.848528
+    },
+    "USD/goods trade balance": {
+      "n": 2,
+      "mean": -21.0615,
+      "std": 0.656902
     },
     "USD/core pce price index mom": {
       "n": 5,
@@ -3874,6 +3844,11 @@
       "std": 0.404145
     },
     "JPY/jobs to applicants ratio": {
+      "n": 2,
+      "mean": 0.0,
+      "std": 0.014142
+    },
+    "JPY/jobs/applications ratio": {
       "n": 2,
       "mean": 0.0,
       "std": 0.014142
@@ -4200,222 +4175,6 @@
     }
   },
   "events": [
-    {
-      "currency": "EUR",
-      "event": "New Car Registrations YoY",
-      "dateISO": "2025-11-25",
-      "actual": "5.8%",
-      "forecast": "12.0",
-      "previous": "10.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "05:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Consumer Confidence",
-      "dateISO": "2025-11-25",
-      "actual": "89",
-      "forecast": "91.0",
-      "previous": "90.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "07:45"
-    },
-    {
-      "currency": "GBP",
-      "event": "CBI Distributive Trades",
-      "dateISO": "2025-11-25",
-      "actual": "-32",
-      "forecast": "-30.0",
-      "previous": "-27.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "11:00"
-    },
-    {
-      "currency": "USD",
-      "event": "ADP Employment Change Weekly",
-      "dateISO": "2025-11-25",
-      "actual": "-13.5K",
-      "forecast": "",
-      "previous": "-2.5",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:15"
-    },
-    {
-      "currency": "USD",
-      "event": "Retail Sales MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0.2%",
-      "forecast": "0.4",
-      "previous": "0.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Retail Sales Ex Autos MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0.3%",
-      "forecast": "0.4",
-      "previous": "0.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-11-25",
-      "actual": "4.3%",
-      "forecast": "3.9",
-      "previous": "5.0",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Retail Sales Ex Gas/Autos MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0.1%",
-      "forecast": "0.4",
-      "previous": "0.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Retail Sales Control Group MoM",
-      "dateISO": "2025-11-25",
-      "actual": "-0.1%",
-      "forecast": "0.3",
-      "previous": "0.6",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "Core PPI MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0.1%",
-      "forecast": "0.2",
-      "previous": "-0.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "PPI MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0.3%",
-      "forecast": "0.3",
-      "previous": "-0.1",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "USD",
-      "event": "S&P/Case-Shiller Home Price YoY",
-      "dateISO": "2025-11-25",
-      "actual": "1.4%",
-      "forecast": "1.4",
-      "previous": "1.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "14:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Pending Home Sales YoY",
-      "dateISO": "2025-11-25",
-      "actual": "-0.4%",
-      "forecast": "-2.4",
-      "previous": "-0.9",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "CB Consumer Confidence",
-      "dateISO": "2025-11-25",
-      "actual": "88.7",
-      "forecast": "93.4",
-      "previous": "95.5",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Pending Home Sales MoM",
-      "dateISO": "2025-11-25",
-      "actual": "1.9%",
-      "forecast": "0.5",
-      "previous": "0.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Business Inventories MoM",
-      "dateISO": "2025-11-25",
-      "actual": "0%",
-      "forecast": "0.1",
-      "previous": "0.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "15:00"
-    },
-    {
-      "currency": "USD",
-      "event": "Monthly Budget Statement",
-      "dateISO": "2025-11-25",
-      "actual": "-$284B",
-      "forecast": "-223.0",
-      "previous": "198.0",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "19:30"
-    },
-    {
-      "currency": "USD",
-      "event": "API Crude Oil Stock Change",
-      "dateISO": "2025-11-25",
-      "actual": "-1.9M",
-      "forecast": "",
-      "previous": "4.4",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "22:30"
-    },
     {
       "currency": "AUD",
       "event": "Construction Work Done QoQ",
@@ -87292,19 +87051,6 @@
     {
       "date": "4 Nov",
       "dateISO": "2026-11-04",
-      "timeUTC": "01:30",
-      "country": "AUD",
-      "currency": "AUD",
-      "flag": "🇦🇺",
-      "event": "RBA Chart Pack",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "4 Nov",
-      "dateISO": "2026-11-04",
       "timeUTC": "05:30",
       "country": "EUR",
       "currency": "EUR",
@@ -88059,19 +87805,6 @@
     {
       "date": "4 Nov",
       "dateISO": "2026-11-04",
-      "timeUTC": "13:20",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Lane Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
-    },
-    {
-      "date": "4 Nov",
-      "dateISO": "2026-11-04",
       "timeUTC": "13:30",
       "country": "CAD",
       "currency": "CAD",
@@ -88563,19 +88296,6 @@
       "forecast": null,
       "previous": "3.7%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "4 Nov",
-      "dateISO": "2026-11-04",
-      "timeUTC": "23:50",
-      "country": "JPY",
-      "currency": "JPY",
-      "flag": "🇯🇵",
-      "event": "BoJ Monetary Policy Meeting Minutes",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "5 Nov",
@@ -107353,6 +107073,686 @@
       "actual": null,
       "forecast": null,
       "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "05:00",
+      "country": "SEK",
+      "currency": "SEK",
+      "flag": "🇸🇪",
+      "event": "Sweden Registered Unemployment Rate",
+      "impact": "low",
+      "actual": null,
+      "forecast": "6.2%",
+      "previous": "6.3%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "05:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Manufacturing Production MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.2%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Estonia Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-269M"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "06:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "4.5%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Lithuania Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-0.71B"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Finland Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-1.19B"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany HICP m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Germany HICP y/y",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.2%",
+      "previous": "3.6%",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway Core CPI m/m",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "-0.3%",
+      "previous": "0.3%",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "07:00",
+      "country": "NOK",
+      "currency": "NOK",
+      "flag": "🇳🇴",
+      "event": "Norway Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "3.3%",
+      "previous": "2.7%",
+      "vendorImpact": "low"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Austria Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.6%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "08:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovakia Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-1.6%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "08:30",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "SNB Interest Rate Decision",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.00%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "08:30",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "SNB Monetary Policy Assessment",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:00",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "SNB Interest Rate Decision",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:00",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "SNB Monetary Policy Assessment",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:30",
+      "country": "CHF",
+      "currency": "CHF",
+      "flag": "🇨🇭",
+      "event": "SNB News Conference",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Slovenia Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "2.1%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:40",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain 3-Year Bonos Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.313%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:40",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain 5-Year Bonos Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "09:40",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Spain 10-Year Obligacion Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "3.802%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Greece Industrial Production YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.6%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "10:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Croatia PPI YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Inflation Rate MoM",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Portugal Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-3209M"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Inflation Rate YoY",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Harmonised Inflation Rate MoM Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Latvia Balance of Trade",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "-369.8M"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Ireland Harmonised Inflation Rate YoY Final",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CPI m/m",
+      "impact": "high",
+      "actual": null,
+      "forecast": "0.1%",
+      "previous": "0.4%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core CPI m/m",
+      "impact": "high",
+      "actual": null,
+      "forecast": "0.2%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CPI y/y",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core CPI y/y",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CPI n.s.a.",
+      "impact": "low",
+      "actual": null,
+      "forecast": "338.891",
+      "previous": "337.511"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core CPI",
+      "impact": "low",
+      "actual": null,
+      "forecast": "340.460",
+      "previous": "339.900"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Real Earnings m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "-0.3%",
+      "previous": "0.0%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CPI n.s.a. m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.2%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core CPI n.s.a. m/m",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": "0.2%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States CPI",
+      "impact": "high",
+      "actual": null,
+      "forecast": "336.960",
+      "previous": "337.476"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "13:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States Core CPI n.s.a.",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "339.921"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "15:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States EIA Natural Gas Storage Change",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "16:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Cleveland Fed Median CPI m/m",
+      "impact": "low",
+      "actual": null,
+      "forecast": "0.3%",
+      "previous": "0.3%"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 4-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "16:30",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 8-Week Bill Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "17:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States WASDE Report",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "18:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "United States 30-Year Bond Auction",
+      "impact": "high",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "19:00",
+      "country": "USD",
+      "currency": "USD",
+      "flag": "🇺🇸",
+      "event": "Federal Budget Balance",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "143.6B",
+      "previous": "-404.1B"
+    },
+    {
+      "date": "10 Dec",
+      "dateISO": "2026-12-10",
+      "timeUTC": "21:30",
+      "country": "NZD",
+      "currency": "NZD",
+      "flag": "🇳🇿",
+      "event": "New Zealand BusinessNZ Manufacturing Index",
+      "impact": "medium",
+      "actual": null,
+      "forecast": "57.1",
+      "previous": "54.9"
     }
   ]
 }
