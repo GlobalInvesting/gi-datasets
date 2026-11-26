@@ -1,16 +1,50 @@
 {
-  "updated_utc": "2026-11-26T08:20:52.274522+00:00",
-  "updated_label": "08:20 UTC",
-  "total": 31,
+  "updated_utc": "2026-11-26T12:21:02.159768+00:00",
+  "updated_label": "12:21 UTC",
+  "total": 37,
   "sources": [
+    "BIS",
     "CME",
     "Danske",
     "ING",
     "Saxo",
-    "UBS",
-    "Wells Fargo"
+    "UBS"
   ],
   "items": [
+    {
+      "id": "a62941f24e6b",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Precious metals: From historic exuberance to historic distress",
+      "excerpt": "Key Points: From historic exuberance to historic distress : Gold has swung from trading 45% above its 200-day moving average in January to 20% below it this week, following its deepest drawdown within a 12-month period since the early 1980s. Macro headwinds continue to dominate : Dollar strength, energy-driven inflation, rising rate hike expectations and AI-related equity market turmoil are fuelling a dash for cash, overshadowing largely intact long-term fundamental drivers. Early signs of selling exhaustion : With silver and platinum trading respectively 37% and 27% below their 200-day moving averages, oversold conditions and emerging bullish reversal patterns in gold and silver highlight the potential for a technical rebound. Seasonality offers a potential tailwind : Gold has risen for…",
+      "author": "Ole Hansen",
+      "url": "https://www.home.saxo/content/articles/commodities/precious-metals-from-historic-exuberance-to-historic-distress-26112026",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "trade_idea",
+      "ts": 1795690800000,
+      "published": "2026-11-26T11:00:00+00:00"
+    },
+    {
+      "id": "021bf8c8d57b",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "How Spain’s parties plan to raise incomes as low earners gain ground",
+      "excerpt": "EUROPE: Spain's monthly pay rose faster at the bottom than across much of the middle, though the largest gains were concentrated near the top. The political parties differ on how to raise incomes. Some favour a higher minimum wage and shorter working hours; others emphasise tax cuts and hiring incentives, or propose deregulation and tighter access to…",
+      "author": "",
+      "url": "https://think.ing.com/articles/how-spain-political-parties-plan-to-raise-incomes-as-low-earners-gain-ground/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795684920000,
+      "published": "2026-11-26T09:22:00+00:00"
+    },
     {
       "id": "f7dfdf682c56",
       "bank": "ING",
@@ -82,21 +116,125 @@
       "published": "2026-11-26T07:00:00+00:00"
     },
     {
-      "id": "0578542a259e",
-      "bank": "Wells Fargo",
-      "bank_full": "Wells Fargo Securities",
+      "id": "5e8aefb24883",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
       "series": "",
-      "title": "Economics Week Ahead",
-      "excerpt": "We expect November payrolls to rise 80K, roughly in line with the six-month average, and the unemployment rate to hold at 4.1%. Firming labor-demand indicators point to a healthy labor market that isn&#8217;t overheating, which leaves inflation as the Fed&#8217;s bigger concern. Meanwhile, the ISM surveys should show both manufacturing and services still expanding, though [&#8230;] The post Economics Week Ahead appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662125-economics-week-ahead-35/",
+      "title": "Setting the scenario - monetary policy communications in uncertain times",
+      "excerpt": "Remarks by Mr Toni Gravelle, Deputy Governor of the Bank of Canada, to the Edmonton Chamber of Commerce, Edmonton, Alberta, 18 November 2026.",
+      "author": "Toni Gravelle",
+      "url": "https://www.bis.org/speeches/20261126-setting-scenario-monetary-policy-communications-uncertain-times",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "f287547ab428",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Investing in America’s underserved communities",
+      "excerpt": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at the conference “Making missing markets: catalyzing capital and igniting innovation”, organised by the Federal Reserve Bank of New York, New York City, 18 November 2026.",
+      "author": "Michael S Barr",
+      "url": "https://www.bis.org/speeches/20261126-investing-americas-underserved-communities",
       "currencies": [
         "USD"
       ],
       "pairs": [],
       "category": "macro",
-      "ts": 1795657689000,
-      "published": "2026-11-26T01:48:09+00:00"
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "93a8bc02e66f",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The United Kingdom’s regional growth - unlocking the economy’s full potential",
+      "excerpt": "Speech by Mr Andrew Bailey, Governor of the Bank of England, at the Institute of Economic Development Conference, London, 18 September 2026.",
+      "author": "Andrew Bailey",
+      "url": "https://www.bis.org/speeches/20261126-united-kingdoms-regional-growth-unlocking-economys-full-potential",
+      "currencies": [
+        "GBP"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "5ffd70f5cf43",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Opening remarks - Productivity and Jobs Task Force Conference",
+      "excerpt": "Speech by Mr Kevin Warsh, Chair of the Board of Governors of the Federal Reserve System, at the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California, 16 November 2026.",
+      "author": "Kevin Warsh",
+      "url": "https://www.bis.org/speeches/20261126-opening-remarks-productivity-and-jobs-task-force-conference",
+      "currencies": [
+        "USD",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "c8d3c7257df5",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Monetary policy amid frequent and complex shocks",
+      "excerpt": "Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the International Monetary Fund and Central Bank of Brazil Conference “A quarter century of inflation targeting in Latin America: progress, challenges, and the road ahead”, Brasilia, 19 November 2026.",
+      "author": "Philip N Jefferson",
+      "url": "https://www.bis.org/speeches/20261126-monetary-policy-amid-frequent-and-complex-shocks",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "3f05d887b2f2",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Europe and China - a changing relationship in a changing world",
+      "excerpt": "Keynote speech by Dr Sabine Mauderer, First Deputy Governor of the Deutsche Bundesbank, at the 12th China Day, organised by dfv Euro Finance Group GmbH, Frankfurt am Main, 16 November 2026.",
+      "author": "Sabine Mauderer",
+      "url": "https://www.bis.org/speeches/20261126-europe-and-china-changing-relationship-changing-world",
+      "currencies": [
+        "EUR",
+        "AUD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "a7b29599c861",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Considerations at the intersection of payments and tokenized markets",
+      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.",
+      "author": "Christopher J Waller",
+      "url": "https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
     },
     {
       "id": "a5e238068c4b",
@@ -255,23 +393,6 @@
       "category": "macro",
       "ts": 1795592100000,
       "published": "2026-11-25T07:35:00+00:00"
-    },
-    {
-      "id": "75d1e82efe47",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "German economic rebound lost steam in the third quarter",
-      "excerpt": "EUROPE: After the optimism around Germany’s economic resilience in the first half of the year, this morning’s data suggest the recovery is losing steam…",
-      "author": "",
-      "url": "https://think.ing.com/snaps/german-gdp-q3-26-update/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795591200000,
-      "published": "2026-11-25T07:20:00+00:00"
     },
     {
       "id": "298a26cc3806",
@@ -459,23 +580,6 @@
       "category": "trade_idea",
       "ts": 1795425300000,
       "published": "2026-11-23T09:15:00+00:00"
-    },
-    {
-      "id": "92b532a8e5d0",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "COP31: Three decades of Climate Talks, but Have they Worked?",
-      "excerpt": "For more than three decades, world leaders have gathered every year to tackle climate change. The process began in 1995 in Berlin and continued in 2026 with COP31 in Antalya, Turkey, where the question is increasingly difficult to avoid: what have 31 COPs actually achieved? Has COP put the world on a better path, or has progress fallen short of what the climate crisis demands? This article looks at COP’s achievements, the gap between commitments and real-world progress, and how governments, companies and individuals, including investors, can contribute to climate action. What is COP and what has it achieved COP is a climate summit convened by the United Nations. Its overarching objective is to prevent dangerous interference with the climate system. Each year, the global climate community…",
-      "author": "Ida Kassa Johannesen",
-      "url": "https://www.home.saxo/content/articles/esg/cop31-23112026",
-      "currencies": [
-        "CAD"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1795420800000,
-      "published": "2026-11-23T08:00:00+00:00"
     },
     {
       "id": "cb685d24819b",
