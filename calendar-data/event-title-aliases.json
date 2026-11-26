@@ -1,124 +1,10 @@
 {
-  "generatedAt": "2026-11-25T23:10:42Z",
+  "generatedAt": "2026-11-26T03:42:52Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 114,
+  "aliasCount": 109,
   "aliases": [
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Services PMI",
-      "secondary_title": "Euro Area S&P Global Services PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": 51.7,
-          "forecast_secondary": 51.7,
-          "actual_primary": 51.4,
-          "actual_secondary": 51.4,
-          "previous_primary": 51.7,
-          "previous_secondary": 53.0,
-          "actual_secondary_raw": "51.4",
-          "forecast_secondary_raw": "51.7",
-          "previous_secondary_raw": "53.0"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area S&P Global Composite PMI",
-      "secondary_title": "Euro Area S&P Global Composite PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": 51.9,
-          "forecast_secondary": 51.9,
-          "actual_primary": 51.7,
-          "actual_secondary": 51.7,
-          "previous_primary": 51.9,
-          "previous_secondary": 53.1,
-          "actual_secondary_raw": "51.7",
-          "forecast_secondary_raw": "51.9",
-          "previous_secondary_raw": "53.1"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area Core CPI y/y",
-      "secondary_title": "Euro Area Core Inflation Rate YoY Flash",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": 2.5,
-          "forecast_secondary": 2.6,
-          "actual_primary": 2.5,
-          "actual_secondary": 2.5,
-          "previous_primary": 2.5,
-          "previous_secondary": 2.5,
-          "actual_secondary_raw": "2.5%",
-          "forecast_secondary_raw": "2.6%",
-          "previous_secondary_raw": "2.5%"
-        }
-      }
-    },
-    {
-      "currency": "EUR",
-      "primary_title": "Euro Area CPI",
-      "secondary_title": "Euro Area CPI Flash",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": null,
-          "forecast_secondary": 104.6,
-          "actual_primary": 104.77,
-          "actual_secondary": 104.77,
-          "previous_primary": 104.31,
-          "previous_secondary": 104.31,
-          "actual_secondary_raw": "104.77",
-          "forecast_secondary_raw": "104.6",
-          "previous_secondary_raw": "104.31"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States S&P Global Services PMI",
-      "secondary_title": "United States S&P Global Services PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": 57.9,
-          "forecast_secondary": 57.9,
-          "actual_primary": 58.8,
-          "actual_secondary": 56.1,
-          "previous_primary": 58.8,
-          "previous_secondary": 58.8,
-          "actual_secondary_raw": "56.1",
-          "forecast_secondary_raw": "57.9",
-          "previous_secondary_raw": "58.8"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States S&P Global Composite PMI",
-      "secondary_title": "United States S&P Global Composite PMI Final",
-      "evidence": {
-        "secondary": {
-          "dateISO": "2026-11-04",
-          "forecast_primary": 59.3,
-          "forecast_secondary": 57.6,
-          "actual_primary": 55.9,
-          "actual_secondary": 55.9,
-          "previous_primary": 58.4,
-          "previous_secondary": 58.4,
-          "actual_secondary_raw": "55.9",
-          "forecast_secondary_raw": "57.6",
-          "previous_secondary_raw": "58.4"
-        }
-      }
-    },
     {
       "currency": "AUD",
       "primary_title": "Australia Exports m/m",
@@ -1306,44 +1192,6 @@
       }
     },
     {
-      "currency": "AUD",
-      "primary_title": "Australia Participation Rate",
-      "yahoo_title": "Participation Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 66.9,
-          "forecast_yahoo": null,
-          "actual_primary": 66.6,
-          "actual_yahoo": 66.6,
-          "previous_primary": 66.8,
-          "previous_yahoo": 66.8,
-          "actual_yahoo_raw": "66.6",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "66.8"
-        }
-      }
-    },
-    {
-      "currency": "AUD",
-      "primary_title": "Australia Unemployment Rate",
-      "yahoo_title": "Unemployment Rate",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 4.8,
-          "forecast_yahoo": null,
-          "actual_primary": 4.9,
-          "actual_yahoo": 4.9,
-          "previous_primary": 4.7,
-          "previous_yahoo": 4.7,
-          "actual_yahoo_raw": "4.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "4.7"
-        }
-      }
-    },
-    {
       "currency": "GBP",
       "primary_title": "United Kingdom CBI Industrial Trends Orders",
       "yahoo_title": "CBI Trends - Orders",
@@ -2157,6 +2005,63 @@
           "actual_yahoo_raw": "1.8",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.5"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Private New Capital Expenditure q/q",
+      "yahoo_title": "Capital Expenditure",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 12.2,
+          "actual_yahoo": 12.2,
+          "previous_primary": -3.6,
+          "previous_yahoo": -3.6,
+          "actual_yahoo_raw": "12.2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-3.6"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Building Capital Expenditure q/q",
+      "yahoo_title": "Building Capex",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": -1.4,
+          "forecast_yahoo": null,
+          "actual_primary": 1.7,
+          "actual_yahoo": 1.7,
+          "previous_primary": 2.1,
+          "previous_yahoo": 2.1,
+          "actual_yahoo_raw": "1.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2.1"
+        }
+      }
+    },
+    {
+      "currency": "AUD",
+      "primary_title": "Australia Equipment, Plant and Machinery Capital Expenditure q/q",
+      "yahoo_title": "Plant/Machinery Capex",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-26",
+          "forecast_primary": 5.1,
+          "forecast_yahoo": null,
+          "actual_primary": 23.1,
+          "actual_yahoo": 23.1,
+          "previous_primary": -8.9,
+          "previous_yahoo": -8.9,
+          "actual_yahoo_raw": "23.1",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-8.9"
         }
       }
     },
