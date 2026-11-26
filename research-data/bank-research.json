@@ -1,16 +1,86 @@
 {
-  "updated_utc": "2026-11-26T04:20:51.832982+00:00",
-  "updated_label": "04:20 UTC",
-  "total": 32,
+  "updated_utc": "2026-11-26T08:20:52.274522+00:00",
+  "updated_label": "08:20 UTC",
+  "total": 31,
   "sources": [
     "CME",
+    "Danske",
     "ING",
     "Saxo",
-    "TD",
     "UBS",
     "Wells Fargo"
   ],
   "items": [
+    {
+      "id": "f7dfdf682c56",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "FX Daily",
+      "title": "FX Daily: Korean won stands out in a harsh EM environment",
+      "excerpt": "It looks like the sell-off in risk assets has run its course for now, with investors starting to find value in equities, commodities and some FX pairs. How long this calm lasts is unknown, since it looks like the Fed will have to push ahead with tightening. To withstand dollar strength, currencies will need a good story. The Korean won has…",
+      "author": "",
+      "url": "https://think.ing.com/articles/fx-daily-korean-won-stands-out-in-a-harsh-em-environment/",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795680000000,
+      "published": "2026-11-26T08:00:00+00:00"
+    },
+    {
+      "id": "8428ca871bb1",
+      "bank": "Saxo",
+      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
+      "series": "",
+      "title": "Market Quick Take - Nasdaq briefly hits bear market territory before paring losses - 26 November 2026",
+      "excerpt": "Market drivers and catalysts Macro : Yields and dollar retreat as stocks recover despite hot inflation print Equities : US stocks recovered from sharp intraday losses, European equities fell on renewed AI concerns, Asian markets rebounded as technology shares recovered. Volatility: Fear gauge rose into the holiday, but VIX futures slipped overnight Digital Assets : Crypto stocks edged higher, but bitcoin ETFs saw a seventh day of outflows Commodities : Oil climbs as Middle East risks resurface, gold rebounds and copper struggles Fixed Income : Treasuries rallied during the equity selloff and pared gains while stocks recovered Currencies : The Swiss franc led G10 currencies while the Australian dollar lagged Macro October PCE inflation rose to 3.8% year on year , its highest in five…",
+      "author": "Saxo Bank",
+      "url": "https://www.home.saxo/content/articles/macro/market-quick-take---nasdaq-briefly-hits-bear-market-territory-before-paring-losses---26-november-2026-26112026",
+      "currencies": [
+        "USD",
+        "EUR",
+        "CHF"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795677360000,
+      "published": "2026-11-26T07:16:00+00:00"
+    },
+    {
+      "id": "9c9816b86e24",
+      "bank": "Danske",
+      "bank_full": "Danske Bank",
+      "series": "",
+      "title": "New US Tariffs Capped at Trade Deal Levels",
+      "excerpt": "In focus today In the euro area, the ECB will publish the minutes from its October meeting, which we expect to confirm that a hike in December is basically a done deal. We will look for signals on the outlook and any discussion of changes to the minimum reserve requirement (MRR). We also receive data [&#8230;] The post New US Tariffs Capped at Trade Deal Levels appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662152-new-us-tariffs-capped-at-trade-deal-levels/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795676562000,
+      "published": "2026-11-26T07:02:42+00:00"
+    },
+    {
+      "id": "b2d4dcdcce62",
+      "bank": "ING",
+      "bank_full": "ING Think",
+      "series": "",
+      "title": "German consumers still don’t share companies’ optimism",
+      "excerpt": "EUROPE: While leading business sentiment indicators like the Ifo index and the PMI point to a continuation of the cyclical rebound of the German economy, consumers' wallets remain…",
+      "author": "",
+      "url": "https://think.ing.com/snaps/german-consumer-confidence-nov26/",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795676400000,
+      "published": "2026-11-26T07:00:00+00:00"
+    },
     {
       "id": "0578542a259e",
       "bank": "Wells Fargo",
@@ -85,21 +155,6 @@
       "published": "2026-11-25T16:31:26+00:00"
     },
     {
-      "id": "160f15af0a86",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "U.S. Consumer Spending Stalls In October as Inflation Eats Into Gains",
-      "excerpt": "Personal income rose by 0.7% month-over-month (m/m) in October, nearly double the consensus forecast and a notable acceleration from September’s 0.2% gain. After adjusting for inflation, taxes, and transfers, real disposable personal income rose by a healthy 0.5%, following a disappointing performance in the prior two months. Nominal spending rose by 0.3% m/m, however, higher [&#8230;] The post U.S. Consumer Spending Stalls In October as Inflation Eats Into Gains appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662108-u-s-consumer-spending-stalls-in-october-as-inflation-eats-into-gains/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795616901000,
-      "published": "2026-11-25T14:28:21+00:00"
-    },
-    {
       "id": "61b757b52116",
       "bank": "ING",
       "bank_full": "ING Think",
@@ -115,21 +170,6 @@
       "category": "macro",
       "ts": 1795616100000,
       "published": "2026-11-25T14:15:00+00:00"
-    },
-    {
-      "id": "b1188c9499b9",
-      "bank": "TD",
-      "bank_full": "TD Bank Financial Group",
-      "series": "",
-      "title": "US GDP: Third Quarter Growth Expands at Fastest Pace in Three Years",
-      "excerpt": "The U.S. economy expanded by 4.3% quarter-on-quarter (q/q, annualized) in the third quarter, considerably stronger than the 3.4% reported in the advance estimate. The upward revision reflects a larger contribution from both consumer spending and investment. Consumer spending rose by a healthy 4.2% q/q (previously 3.8%), thanks to an upgrade in both goods (5.0% from [&#8230;] The post US GDP: Third Quarter Growth Expands at Fastest Pace in Three Years appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662101-us-gdp-third-quarter-growth-expands-at-fastest-pace-in-three-years/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795615913000,
-      "published": "2026-11-25T14:11:53+00:00"
     },
     {
       "id": "ceed438de718",
@@ -251,21 +291,6 @@
       "published": "2026-11-24T21:05:14+00:00"
     },
     {
-      "id": "51c177ca7d09",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "Rates Spark: Treasuries with blinkers on",
-      "excerpt": "We had a solid (post-midterms) consumer sentiment report on Tuesday – ignored by Treasuries. We had the Nvidia reversal on Monday – ignored by Treasuries. Wednesday sees a PCE inflation report that won't be pretty – should be tough for Treasuries to ignore. Or, maybe Treasures are just in a good Thanksgiving mood. Still looks a tad too…",
-      "author": "",
-      "url": "https://think.ing.com/articles/rates-spark-equity-sentiment-versus-inflation-reality/",
-      "currencies": [],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795542840000,
-      "published": "2026-11-24T17:54:00+00:00"
-    },
-    {
       "id": "41ac0102792a",
       "bank": "CME",
       "bank_full": "CME Group FX",
@@ -282,24 +307,6 @@
       "category": "macro",
       "ts": 1795535540000,
       "published": "2026-11-24T15:52:20+00:00"
-    },
-    {
-      "id": "b4a67141771e",
-      "bank": "ING",
-      "bank_full": "ING Think",
-      "series": "",
-      "title": "France’s golden rule won’t fix its budget problem",
-      "excerpt": "EUROPE: French President Emmanuel Macron’s proposal to revive a constitutional fiscal rule has helped ease pressure on French government bonds. But the reform would only create a framework whose strength would depend on legislation adopted later. The immediate test of France’s fiscal credibility remains the 2027…",
-      "author": "",
-      "url": "https://think.ing.com/articles/frances-golden-rule-wont-fix-its-budget-problem/",
-      "currencies": [
-        "EUR",
-        "CHF"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795530600000,
-      "published": "2026-11-24T14:30:00+00:00"
     },
     {
       "id": "d249425945ce",
@@ -469,23 +476,6 @@
       "category": "trade_idea",
       "ts": 1795420800000,
       "published": "2026-11-23T08:00:00+00:00"
-    },
-    {
-      "id": "7d13bcf1663f",
-      "bank": "Saxo",
-      "bank_full": "Saxo Bank (SaxoStrats) — Articles",
-      "series": "",
-      "title": "Bitcoin breaks its summer floor, then bounces: relief or turn?",
-      "excerpt": "Bitcoin has fallen for seven weeks and broke below its 200-day average on 12 November. What drove the slide, what the options market is pricing after the weekend plunge, and three calm ways investors can approach it. Seven weeks of losses, one violent weekend and a bounce: what has really changed for bitcoin investors? For anyone holding bitcoin, the past seven weeks have been a slow grind rather than a single shock. Each week closed lower than the one before. What changed on the weekend of 21 and 22 November was the speed: a market-wide sell-off on Friday 20 November turned a steady decline into a sharp flush, before buyers pulled the price back above USD 60,000 (Source: Saxo, Deribit, as of 23 November 2026). Past performance is not indicative of future results. The question for…",
-      "author": "Koen Hoorelbeke",
-      "url": "https://www.home.saxo/content/articles/options/bitcoin-breaks-its-summer-floor-then-bounces-relief-or-turn-23112026",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "trade_idea",
-      "ts": 1795420500000,
-      "published": "2026-11-23T07:55:00+00:00"
     },
     {
       "id": "cb685d24819b",
