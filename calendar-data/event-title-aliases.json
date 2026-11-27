@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27T03:43:38Z",
+  "generatedAt": "2026-11-27T16:54:36Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 82,
+  "aliasCount": 79,
   "aliases": [
     {
       "currency": "EUR",
@@ -116,21 +116,8 @@
           "actual_secondary_raw": "50.9",
           "forecast_secondary_raw": "48.5",
           "previous_secondary_raw": "48.8"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 50.9,
-          "forecast_yahoo": null,
-          "actual_primary": 52.9,
-          "actual_yahoo": 52.9,
-          "previous_primary": 50.9,
-          "previous_yahoo": 50.9,
-          "actual_yahoo_raw": "52.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "50.9"
         }
-      },
-      "yahoo_title": "U Mich Expectations Final*"
+      }
     },
     {
       "currency": "USD",
@@ -167,21 +154,8 @@
           "actual_secondary_raw": "3.4%",
           "forecast_secondary_raw": "3.6%",
           "previous_secondary_raw": "3.5%"
-        },
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 3.4,
-          "forecast_yahoo": null,
-          "actual_primary": 3.3,
-          "actual_yahoo": 3.3,
-          "previous_primary": 3.4,
-          "previous_yahoo": 3.4,
-          "actual_yahoo_raw": "3.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "3.4"
         }
-      },
-      "yahoo_title": "U Mich 5-Yr Inf Final*"
+      }
     },
     {
       "currency": "CAD",
@@ -773,139 +747,6 @@
       }
     },
     {
-      "currency": "USD",
-      "primary_title": "United States CB Leading Economic Index m/m",
-      "yahoo_title": "Leading Index Chg MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-19",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": -0.3,
-          "actual_yahoo": -0.3,
-          "previous_primary": 0.0,
-          "previous_yahoo": 0.0,
-          "actual_yahoo_raw": "-0.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales YoY",
-      "yahoo_title": "Retail Sales YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 1.7,
-          "forecast_yahoo": null,
-          "actual_primary": 2.3,
-          "actual_yahoo": 2.3,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "2.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales ex Fuel YoY",
-      "yahoo_title": "Retail Sales Ex-Fuel YY",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 1.8,
-          "forecast_yahoo": null,
-          "actual_primary": 2.5,
-          "actual_yahoo": 2.5,
-          "previous_primary": 0.4,
-          "previous_yahoo": 0.8,
-          "actual_yahoo_raw": "2.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "0.8"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales MoM",
-      "yahoo_title": "Retail Sales MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 0.0,
-          "forecast_yahoo": null,
-          "actual_primary": 0.7,
-          "actual_yahoo": 0.7,
-          "previous_primary": -0.6,
-          "previous_yahoo": -0.4,
-          "actual_yahoo_raw": "0.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.4"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom Retail Sales ex Fuel MoM",
-      "yahoo_title": "Retail Sales Ex-Fuel MM",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": -0.1,
-          "forecast_yahoo": null,
-          "actual_primary": 0.9,
-          "actual_yahoo": 0.9,
-          "previous_primary": -0.9,
-          "previous_yahoo": -0.7,
-          "actual_yahoo_raw": "0.9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-0.7"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Consumer Sentiment",
-      "yahoo_title": "U Mich Sentiment Final*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 51.0,
-          "forecast_yahoo": null,
-          "actual_primary": 51.5,
-          "actual_yahoo": 51.5,
-          "previous_primary": 51.0,
-          "previous_yahoo": 51.0,
-          "actual_yahoo_raw": "51.5",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "51"
-        }
-      }
-    },
-    {
-      "currency": "USD",
-      "primary_title": "United States Michigan Current Conditions",
-      "yahoo_title": "U Mich Conditions Final*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-20",
-          "forecast_primary": 51.0,
-          "forecast_yahoo": null,
-          "actual_primary": 49.4,
-          "actual_yahoo": 49.4,
-          "previous_primary": 51.0,
-          "previous_yahoo": 51.0,
-          "actual_yahoo_raw": "49.4",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "51"
-        }
-      }
-    },
-    {
       "currency": "NZD",
       "primary_title": "New Zealand Retail Sales q/q",
       "yahoo_title": "Retail Sales Volumes QQ",
@@ -959,25 +800,6 @@
           "actual_yahoo_raw": "-0.06",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "0.07"
-        }
-      }
-    },
-    {
-      "currency": "GBP",
-      "primary_title": "United Kingdom CBI Distributive Trades",
-      "yahoo_title": "CBI Distributive Trades*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-24",
-          "forecast_primary": -12.0,
-          "forecast_yahoo": null,
-          "actual_primary": 9.0,
-          "actual_yahoo": 9.0,
-          "previous_primary": -10.0,
-          "previous_yahoo": -10.0,
-          "actual_yahoo_raw": "9",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "-10"
         }
       }
     },
@@ -1510,6 +1332,101 @@
           "actual_yahoo_raw": "2.9",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "2.6"
+        }
+      }
+    },
+    {
+      "currency": "EUR",
+      "primary_title": "Finland Business Confidence",
+      "yahoo_title": "Business Climate*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-27",
+          "forecast_primary": 1.0,
+          "forecast_yahoo": null,
+          "actual_primary": 0.0,
+          "actual_yahoo": -0.01,
+          "previous_primary": 2.0,
+          "previous_yahoo": 0.09,
+          "actual_yahoo_raw": "-0.01",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "0.09"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway Retail Sales m/m",
+      "yahoo_title": "Retail Sales Ex. Auto",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-27",
+          "forecast_primary": 0.1,
+          "forecast_yahoo": null,
+          "actual_primary": 0.5,
+          "actual_yahoo": 0.5,
+          "previous_primary": -0.4,
+          "previous_yahoo": -0.4,
+          "actual_yahoo_raw": "0.5",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "-0.4"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Manufacturing Confidence",
+      "yahoo_title": "Manufacturing Confidence*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-27",
+          "forecast_primary": 112.4,
+          "forecast_yahoo": null,
+          "actual_primary": 107.7,
+          "actual_yahoo": 107.7,
+          "previous_primary": 111.5,
+          "previous_yahoo": 111.5,
+          "actual_yahoo_raw": "107.7",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "111.5"
+        }
+      }
+    },
+    {
+      "currency": "SEK",
+      "primary_title": "Sweden Consumer Confidence",
+      "yahoo_title": "Consumer Confidence SA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-27",
+          "forecast_primary": 86.3,
+          "forecast_yahoo": null,
+          "actual_primary": 90.3,
+          "actual_yahoo": 90.3,
+          "previous_primary": 94.3,
+          "previous_yahoo": 94.3,
+          "actual_yahoo_raw": "90.3",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "94.3"
+        }
+      }
+    },
+    {
+      "currency": "NOK",
+      "primary_title": "Norway NAV Unemployment Rate n.s.a.",
+      "yahoo_title": "Reg'd Unemployment NSA*",
+      "evidence": {
+        "yahoo": {
+          "dateISO": "2026-11-27",
+          "forecast_primary": 2.0,
+          "forecast_yahoo": null,
+          "actual_primary": 2.0,
+          "actual_yahoo": 2.0,
+          "previous_primary": 2.0,
+          "previous_yahoo": 2.0,
+          "actual_yahoo_raw": "2",
+          "forecast_yahoo_raw": "-",
+          "previous_yahoo_raw": "2"
         }
       }
     },
