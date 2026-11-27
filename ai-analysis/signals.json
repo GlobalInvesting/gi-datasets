@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-26T13:05:14Z",
+  "generated_at": "2026-11-27T00:02:22Z",
   "signals": [
     {
-      "time": "13:00",
+      "time": "23:58",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme",
-      "text": "CHF 1W avg: +1.160% (n=6 pairs) vs AUD 1W avg: -0.715% (n=4 pairs), yielding a G10 spread of 1.874%. The extreme divergence between the strongest and weakest G10 currencies this week reflects severe risk aversion compressing high-beta commodity currencies while safe-haven flows concentrate in the Swiss franc. RBA AONIA at 4.85% vs SNB SARON at -0.04% provides a +485bp carry advantage for AUD/CHF, yet spot continues to trade under intense downward pressure as VIX sits at 26.9 (elevated volatility). The technical structure for AUD/USD shows spot at 0.6636, holding well below its SMA20/50/200 cluster and extended 3.95 ATR from its 20-day moving average in a confirmed downtrend. Meanwhile, AUD/USD retail sentiment shows 81% long, creating a vulnerability to long liquidation. Trade bias: Bearish AUD/CHF; severe risk aversion and safe-haven demand override the carry advantage. Catalyst: Euro Area Economic Sentiment Indicator and upcoming central bank speakers. Risk: Risk sentiment abruptly normalizes, narrowing the G10 spread and triggering a sharp short-covering bounce in the laggard.",
+      "title": "AUD/CHF — G10 Bilateral Theme + Carry Disadvantage",
+      "text": "CHF leads G10 performance with a 1W average gain of +1.167% across 6 pairs, while AUD lags at -0.666% across 4 pairs, creating an extreme 1.832% spread. The pair trades at 0.5536, with AUD/USD remaining pinned in a clear downtrend below its SMA20/50/200 cluster at 0.6803/0.6925/0.7037. The RBA cash rate at 4.85% vs SNB 0.00% delivers a 485bp nominal carry advantage to AUD, yet CHF safe-haven demand completely overrides this yield premium amid VIX holding at 26.8. Furthermore, Swiss macroeconomic momentum outpaces Australia, as reflected in the CHF ESI of +20.1 against the AUD ESI of -10.1. Trade bias: Bearish AUD/CHF, momentum and safe-haven flows dominating carry. Catalyst: RBA meeting 8 Dec — hold priced. Risk: Broad cross-asset volatility retreats with VIX dropping below 20, triggering carry-seeking flows back into high-yielding AUD.",
       "evidence": [
-        "CHF 1W avg: +1.160% (n=6)",
-        "AUD 1W avg: -0.715% (n=4)",
-        "G10 spread: 1.874%"
+        "CHF 1W avg: +1.167% (n=6)",
+        "AUD 1W avg: -0.666% (n=4)",
+        "G10 spread: 1.832%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
@@ -18,48 +18,75 @@
         "direction": -1,
         "supports": [
           "technical regime points with the stated direction",
-          "price moved 3.0 ATR with it over five sessions"
+          "price moved 1.7 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-25"
+          "asof": "2026-11-26"
         }
       }
     },
     {
-      "time": "12:55",
-      "priority": "warning",
-      "title": "EUR/USD — Positioning + BEER Valuation + ECB Minutes",
-      "text": "EUR/USD trades at 1.0977, positioned below its SMA20 at 1.1085, SMA50 at 1.1200, and SMA200 at 1.1496 in a downtrend characterized by falling moving averages and a price sitting entirely below the 20-day average. CFTC leveraged funds net short stands at -105,891 contracts with a 52-week percentile of 2, indicating extreme positioning crowding at the lower decile of its historical range alongside a -7,287 WoW contraction. The BEER-model misvaluation z-score sits at -2.43σ, marking EUR/USD as severely cheap relative to rate differentials and risk sentiment, with spot at 1.0977 versus model fair value at 1.1119. Today's ECB published minutes confirmed that transmission is working smoothly and a hike at the current meeting was actively discussed to pre-empt second-round effects, contrasting with SOFR 3.94% vs ESTR 2.44% (+150bp carry favoring USD). Trade bias: Neutral/range EUR/USD, positioning exhaustion against extreme valuation mispricing. Catalyst: ECB meeting 17 Dec — hike probability priced by policy bias. Risk: US data outperformance keeps DXY bid above 103.73, pushing the misvaluation z-score even deeper without triggering a mean-reverting bounce.",
+      "time": "23:55",
+      "priority": "critical",
+      "title": "USD/JPY — Intervention Risk + Options Skew",
+      "text": "USD/JPY prints at 159.298, trading just below the critical 160.00 intervention threshold and above its SMA20/50/200 moving-average band at 158.90/158.25/158.95. The 1M 25d risk reversal reflects severe downside hedging at -1.85, showing aggressive institutional demand for JPY calls despite Fed 4.00% vs BoJ 1.25% offering a +275bp carry buffer. Tokyo Core CPI just printed hot at 2.9% YoY against a 2.8% forecast, intensifying domestic pressure on the Bank of Japan ahead of its policy meeting. At the same time, VIX sits elevated at 26.8, and the correlation between USD/JPY and VIX has flipped negative to -0.162 (z=-2.29σ), confirming safe-haven dynamics are re-engaging. Trade bias: Neutral/bearish USD/JPY, intervention overhang capping upside. Catalyst: BoJ meeting 18 Dec — hike bias active. Risk: MoF remains passive on a test of 160.00, allowing positive carry to extend spot higher.",
       "evidence": [
-        "EUR/USD: 1.0977",
-        "EUR COT lev_net: -105,891 (pctl 2)",
-        "BEER z-score: -2.43σ"
+        "USD/JPY 25d RR: -1.85 (indicative mid)",
+        "Tokyo Core CPI: 2.9% vs 2.8% forecast",
+        "USD/JPY: 159.298 (160.00 watch level)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "not_directional",
-        "pair": "EUR/USD"
+        "pair": "USD/JPY"
       }
     },
     {
-      "time": "12:50",
+      "time": "23:51",
       "priority": "warning",
-      "title": "USD/JPY — Options Skew + Carry + VIX Divergence",
-      "text": "USD/JPY trades at 159.28, holding above its SMA20 at 158.82, SMA50 at 158.18, and SMA200 at 158.85. The 25d risk reversal sits at -1.82, showing strong put skew and elevated hedging demand for downside protection as spot tests intervention thresholds near 160.00. SOFR at 3.94% vs TONA at 1.23% provides a +271bp carry premium favoring the dollar, while the USD/JPY vs VIX correlation prints at -0.097 against a 252-day norm of +0.267 (z = -2.25σ), signalling that the traditional JPY safe-haven feedback loop is disconnected while elevated VIX at 26.9 pressures risk assets. CFTC leveraged funds show JPY net short at -29,545 contracts with a 52-week percentile of 85, marking a crowded short position in the upper decile of its historical range. Trade bias: Long USD/JPY, carry-supported with downside options hedging against verbal intervention risks. Catalyst: Japan Tokyo CPI excl. Food and Energy y/y. Risk: Sustained break above 160.00 triggers official Ministry of Finance intervention, overriding the carry differential.",
+      "title": "EUR/USD — Crowded Short + ECB Leadership Shift",
+      "text": "EUR/USD trades at 1.0973, holding below its daily SMA20 at 1.1074, SMA50 at 1.1189, and SMA200 at 1.1487. CFTC data shows leveraged funds heavily net short EUR by -105,891 contracts, positioned at the 2nd percentile of its 52-week range with z=-1.68, reflecting an extremely crowded institutional short. Headlines confirm Pablo Hernández de Cos will succeed Christine Lagarde as ECB President, arriving alongside published minutes highlighting a tightening bias. Although Fed 4.00% vs ECB 2.65% maintains a 135bp carry advantage supporting the dollar, EUR/USD screens as deeply cheap on fair value at z=-2.79σ against a model benchmark of 1.1155. Trade bias: Bullish EUR/USD mean-reversion, short-squeeze potential against crowded specs. Catalyst: France and Spain flash CPI prints due 07:45–08:00 UTC. Risk: Eurozone inflation prints miss expectations, reinforcing structural dollar carry dominance.",
       "evidence": [
-        "USD/JPY: 159.28",
-        "25d RR: -1.82",
-        "JPY COT pctl: 85"
+        "EUR COT LF net: -105,891 (pctl 2, z -1.68)",
+        "EUR/USD BEER FV: z=-2.79σ (fair value 1.1155)",
+        "Fed 4.00% vs ECB 2.65% — 135bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "caution",
+        "pair": "EUR/USD",
+        "direction": 1,
+        "supports": [],
+        "conflicts": [
+          "technical regime (trend) points against the stated direction"
+        ],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-26"
+        }
+      }
+    },
+    {
+      "time": "23:47",
+      "priority": "warning",
+      "title": "NZD/USD — Positioning vs Retail Divergence",
+      "text": "NZD/USD trades at 0.5471, locked in a structural downtrend below falling moving averages with SMA20 at 0.5542 and SMA50 at 0.5608. Leveraged funds hold a substantial net short of -23,862 contracts (pctl 23), whereas retail sentiment is 92% long, creating an acute institutional-versus-retail divergence. New Zealand data remains deeply depressed with the NZD Economic Surprise Index printing at -15.4, while falling fuel prices have cooled consumer inflation fears. Furthermore, the Fed at 4.00% vs RBNZ at 2.75% provides a +125bp carry advantage favoring the dollar. Trade bias: Bearish NZD/USD, retail capitulation risk in force. Catalyst: RBNZ meeting 9 Dec — hike bias active. Risk: Retail longs clear without triggering a stop run and RBNZ delivers a hawkish surprise.",
+      "evidence": [
+        "Retail sentiment: 92% long / 8% short",
+        "NZD COT LF net: -23,862",
+        "Fed 4.00% vs RBNZ 2.75% — 125bp"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "unconfirmed",
-        "pair": "USD/JPY",
-        "direction": 1,
+        "pair": "NZD/USD",
+        "direction": -1,
         "supports": [
           "technical regime points with the stated direction"
         ],
@@ -68,36 +95,7 @@
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-25"
-        }
-      }
-    },
-    {
-      "time": "12:45",
-      "priority": "info",
-      "title": "USD/CAD — Technical Reversal + OIS Carry Differential",
-      "text": "USD/CAD trades at 1.4230, sitting above its SMA20 at 1.4180, SMA50 at 1.4152, and SMA200 at 1.3934 in a counter-trend pullback inside a larger uptrend. The prior session recorded a bearish engulfing bar with a body measuring 1.6 times the ATR and a wide-range bar at 3.8 times the 10-bar average body, accompanied by a close below the prior 10-day closing low. SOFR at 3.94% versus CORRA at 2.56% delivers a +138bp carry advantage favoring the dollar, supported by a Fed policy rate of 4.00% against the Bank of Canada rate of 2.50%. Retail FX sentiment shows 31% long and 69% short, reflecting broad retail participation fading the broader uptrend. CFTC speculative positioning records CAD net short at -75,447 contracts with a 52-week percentile of 37, representing a moderate positioning structure without extreme crowding. Trade bias: Bullish USD/CAD on a counter-trend dip; carry and moving average structure favor trend resumption. Catalyst: Canada Current Account release. Risk: Continued downside follow-through breaks the SMA20 support at 1.4180 and shifts the medium-term structure bearish.",
-      "evidence": [
-        "USD/CAD: 1.4230",
-        "OIS spread: +138bp",
-        "CAD COT lev_net: -75,447"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "caution",
-        "pair": "USD/CAD",
-        "direction": 1,
-        "supports": [
-          "technical regime points with the stated direction"
-        ],
-        "conflicts": [
-          "price moved 1.7 ATR against it over five sessions"
-        ],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-25"
+          "asof": "2026-11-26"
         }
       }
     }
