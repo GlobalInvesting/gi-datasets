@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-27T03:07:06Z",
-  "generatedAt": "2026-11-27T03:07:06Z",
+  "lastUpdate": "2026-11-27T06:18:48Z",
+  "generatedAt": "2026-11-27T06:18:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3109,14 +3109,14 @@
       "std": 0.351188
     },
     "EUR/finland business confidence": {
-      "n": 2,
-      "mean": -1.5,
-      "std": 3.535534
+      "n": 3,
+      "mean": -1.333333,
+      "std": 2.516611
     },
     "EUR/finland consumer confidence": {
-      "n": 2,
-      "mean": -2.95,
-      "std": 1.06066
+      "n": 3,
+      "mean": -2.166667,
+      "std": 1.550269
     },
     "EUR/lithuania retail sales yoy": {
       "n": 2,
@@ -3519,19 +3519,19 @@
       "std": 1.202082
     },
     "EUR/finland gdp yoy": {
-      "n": 2,
-      "mean": 0.85,
-      "std": 0.494975
+      "n": 3,
+      "mean": 0.333333,
+      "std": 0.960902
     },
     "EUR/estonia retail sales yoy": {
-      "n": 2,
-      "mean": 0.05,
-      "std": 1.202082
+      "n": 3,
+      "mean": -1.5,
+      "std": 2.816026
     },
     "EUR/estonia retail sales mom": {
-      "n": 2,
-      "mean": -1.85,
-      "std": 1.06066
+      "n": 3,
+      "mean": -1.066667,
+      "std": 1.550269
     },
     "JPY/construction orders yoy": {
       "n": 4,
@@ -99505,7 +99505,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "1.5%",
       "forecast": "1.0%",
       "previous": "-1.9%"
     },
@@ -99518,9 +99518,9 @@
       "flag": "🇪🇺",
       "event": "Finland GDP YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "1.2%",
       "forecast": "1.9%",
-      "previous": "2.0%"
+      "previous": "1.3%"
     },
     {
       "date": "27 Nov",
@@ -99531,9 +99531,9 @@
       "flag": "🇪🇺",
       "event": "Finland GDP Growth Rate YoY Final",
       "impact": "low",
-      "actual": null,
+      "actual": "1.4%",
       "forecast": "1.8%",
-      "previous": "1.6%"
+      "previous": "1.3%"
     },
     {
       "date": "27 Nov",
@@ -99544,7 +99544,7 @@
       "flag": "🇪🇺",
       "event": "Finland Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "0",
       "forecast": "1",
       "previous": "2"
     },
@@ -99557,7 +99557,7 @@
       "flag": "🇪🇺",
       "event": "Estonia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.3%",
       "forecast": "4.3%",
       "previous": "4.0%"
     },
@@ -99570,9 +99570,9 @@
       "flag": "🇪🇺",
       "event": "Finland GDP Growth Rate QoQ Final",
       "impact": "low",
-      "actual": null,
+      "actual": "0.3%",
       "forecast": "0.5%",
-      "previous": "0.4%"
+      "previous": "0.2%"
     },
     {
       "date": "27 Nov",
@@ -99583,7 +99583,7 @@
       "flag": "🇪🇺",
       "event": "Finland Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "-11.2",
       "forecast": "-10.6",
       "previous": "-9.7"
     },
