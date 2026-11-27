@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-27T08:01:03Z",
-  "generatedAt": "2026-11-27T08:01:03Z",
+  "lastUpdate": "2026-11-27T08:02:42Z",
+  "generatedAt": "2026-11-27T08:02:42Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -1874,24 +1874,24 @@
       "std": 0.0
     },
     "EUR/spain cpi mom": {
-      "n": 5,
-      "mean": 0.04,
-      "std": 0.219089
+      "n": 6,
+      "mean": -0.15,
+      "std": 0.504975
     },
     "EUR/spain cpi yoy": {
-      "n": 5,
-      "mean": 0.12,
-      "std": 0.178885
+      "n": 6,
+      "mean": -0.033333,
+      "std": 0.408248
     },
     "EUR/spain hicp mom": {
-      "n": 5,
-      "mean": -0.14,
-      "std": 0.279285
+      "n": 6,
+      "mean": -0.266667,
+      "std": 0.39833
     },
     "EUR/spain hicp yoy": {
-      "n": 5,
-      "mean": 0.08,
-      "std": 0.083666
+      "n": 6,
+      "mean": -0.066667,
+      "std": 0.36697
     },
     "EUR/italy trade balance": {
       "n": 3,
@@ -3209,9 +3209,9 @@
       "std": 1.414214
     },
     "EUR/spain retail sales yoy": {
-      "n": 2,
-      "mean": -1.4,
-      "std": 0.141421
+      "n": 3,
+      "mean": -1.133333,
+      "std": 0.472582
     },
     "SEK/business confidence": {
       "n": 3,
@@ -99808,7 +99808,7 @@
       "flag": "🇪🇺",
       "event": "Spain CPI m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.6%",
       "forecast": "0.5%",
       "previous": "0.6%"
     },
@@ -99821,7 +99821,7 @@
       "flag": "🇪🇺",
       "event": "Spain CPI y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.1%",
       "forecast": "4.9%",
       "previous": "4.9%"
     },
@@ -99834,7 +99834,7 @@
       "flag": "🇪🇺",
       "event": "Spain HICP m/m",
       "impact": "low",
-      "actual": null,
+      "actual": "-0.7%",
       "forecast": "0.2%",
       "previous": "0.5%"
     },
@@ -99847,7 +99847,7 @@
       "flag": "🇪🇺",
       "event": "Spain HICP y/y",
       "impact": "medium",
-      "actual": null,
+      "actual": "4.1%",
       "forecast": "4.9%",
       "previous": "4.9%"
     },
@@ -99860,7 +99860,7 @@
       "flag": "🇪🇺",
       "event": "Spain Retail Sales y/y",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.0%",
       "forecast": "-0.4%",
       "previous": "-1.4%"
     },
