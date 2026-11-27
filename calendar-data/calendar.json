@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-27T09:04:45Z",
-  "generatedAt": "2026-11-27T09:04:45Z",
+  "lastUpdate": "2026-11-27T09:48:48Z",
+  "generatedAt": "2026-11-27T09:48:48Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -3149,14 +3149,14 @@
       "std": 1.68226
     },
     "EUR/slovenia retail sales mom": {
-      "n": 2,
-      "mean": 1.15,
-      "std": 0.777817
+      "n": 3,
+      "mean": 0.433333,
+      "std": 1.357694
     },
     "EUR/slovenia retail sales yoy": {
-      "n": 2,
-      "mean": 1.2,
-      "std": 0.282843
+      "n": 3,
+      "mean": 0.333333,
+      "std": 1.514376
     },
     "EUR/france jobseekers total": {
       "n": 3,
@@ -3249,14 +3249,14 @@
       "std": 0.458258
     },
     "EUR/portugal business confidence": {
-      "n": 2,
-      "mean": -0.05,
-      "std": 0.070711
+      "n": 3,
+      "mean": -0.066667,
+      "std": 0.057735
     },
     "EUR/portugal consumer confidence": {
-      "n": 2,
-      "mean": -1.65,
-      "std": 1.484924
+      "n": 3,
+      "mean": -1.5,
+      "std": 1.081665
     },
     "GBP/m4 money supply mom": {
       "n": 2,
@@ -100044,9 +100044,9 @@
       "flag": "🇪🇺",
       "event": "Slovenia Retail Sales YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "3.3%",
       "forecast": "4.7%",
-      "previous": "5.4%"
+      "previous": "6.0%"
     },
     {
       "date": "27 Nov",
@@ -100057,7 +100057,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Consumer Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "-24.8",
       "forecast": "-23.6",
       "previous": "-23.1"
     },
@@ -100070,7 +100070,7 @@
       "flag": "🇪🇺",
       "event": "Slovenia Retail Sales MoM",
       "impact": "low",
-      "actual": null,
+      "actual": "-1.4%",
       "forecast": "-0.4%",
       "previous": "0.8%"
     },
@@ -100083,7 +100083,7 @@
       "flag": "🇪🇺",
       "event": "Portugal Business Confidence",
       "impact": "low",
-      "actual": null,
+      "actual": "2.4",
       "forecast": "2.5",
       "previous": "2.6"
     },
@@ -100229,6 +100229,19 @@
       "actual": null,
       "forecast": "5.2%",
       "previous": "5.26%"
+    },
+    {
+      "date": "27 Nov",
+      "dateISO": "2026-11-27",
+      "timeUTC": "10:30",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Netherlands Business Confidence",
+      "impact": "low",
+      "actual": null,
+      "forecast": "1.0",
+      "previous": "2.3"
     },
     {
       "date": "27 Nov",
@@ -100659,19 +100672,6 @@
       "actual": null,
       "forecast": null,
       "previous": "0.714M"
-    },
-    {
-      "date": "30 Nov",
-      "dateISO": "2026-11-30",
-      "timeUTC": "05:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "Netherlands Business Confidence",
-      "impact": "low",
-      "actual": null,
-      "forecast": "1",
-      "previous": "2.3"
     },
     {
       "date": "30 Nov",
