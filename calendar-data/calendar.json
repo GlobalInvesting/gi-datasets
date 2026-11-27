@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-27T00:00:57Z",
-  "generatedAt": "2026-11-27T00:00:57Z",
+  "lastUpdate": "2026-11-27T00:18:43Z",
+  "generatedAt": "2026-11-27T00:18:43Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,7 +9,7 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-27",
   "rangeTo": "2026-12-11",
-  "totalEvents": 8045,
+  "totalEvents": 8046,
   "currencyCounts": {
     "NZD": 202,
     "EUR": 2416,
@@ -17,7 +17,7 @@
     "JPY": 631,
     "CHF": 184,
     "AUD": 448,
-    "GBP": 699,
+    "GBP": 700,
     "USD": 2559,
     "SEK": 264,
     "NOK": 197
@@ -25,7 +25,7 @@
   "impactCounts": {
     "medium": 3171,
     "high": 1650,
-    "low": 3224
+    "low": 3225
   },
   "surpriseStats": {
     "JPY/retail sales mom": {
@@ -3429,9 +3429,9 @@
       "std": 6.576093
     },
     "GBP/car production yoy": {
-      "n": 2,
-      "mean": 23.85,
-      "std": 13.788582
+      "n": 3,
+      "mean": 15.166667,
+      "std": 17.92382
     },
     "JPY/industrial production mom prel": {
       "n": 2,
@@ -99492,7 +99492,7 @@
       "flag": "🇬🇧",
       "event": "United Kingdom Car Production YoY",
       "impact": "low",
-      "actual": null,
+      "actual": "6.2%",
       "forecast": "8.4%",
       "previous": "38.6%"
     },
@@ -105760,8 +105760,21 @@
       "event": "Greece Balance of Trade",
       "impact": "low",
       "actual": null,
-      "forecast": null,
+      "forecast": "-3.0B",
       "previous": "-3.3B"
+    },
+    {
+      "date": "8 Dec",
+      "dateISO": "2026-12-08",
+      "timeUTC": "10:00",
+      "country": "GBP",
+      "currency": "GBP",
+      "flag": "🇬🇧",
+      "event": "United Kingdom Treasury Gilt 2036 Auction",
+      "impact": "low",
+      "actual": null,
+      "forecast": null,
+      "previous": "5.418%"
     },
     {
       "date": "8 Dec",
@@ -105786,8 +105799,8 @@
       "event": "Latvia Inflation Rate YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "3.2%",
+      "previous": "3.1%"
     },
     {
       "date": "8 Dec",
@@ -105799,8 +105812,8 @@
       "event": "Latvia Inflation Rate MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "-0.2%",
+      "previous": "0.4%"
     },
     {
       "date": "8 Dec",
@@ -106072,8 +106085,8 @@
       "event": "Lithuania PPI YoY",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "17.7%",
+      "previous": "18.2%"
     },
     {
       "date": "9 Dec",
@@ -106085,8 +106098,8 @@
       "event": "Lithuania PPI MoM",
       "impact": "low",
       "actual": null,
-      "forecast": null,
-      "previous": null
+      "forecast": "0.1%",
+      "previous": "0.4%"
     },
     {
       "date": "9 Dec",
@@ -106191,7 +106204,7 @@
       "event": "Austria Balance of Trade",
       "impact": "low",
       "actual": null,
-      "forecast": "-600M",
+      "forecast": "-1100.0M",
       "previous": "-1280.7M"
     },
     {
