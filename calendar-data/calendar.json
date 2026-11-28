@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026-11-27T22:10:46Z",
-  "generatedAt": "2026-11-27T22:10:46Z",
+  "lastUpdate": "2026-11-28T00:00:55Z",
+  "generatedAt": "2026-11-28T00:00:55Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
   "source": "Calendar feed",
   "errorMessage": null,
   "fetchErrors": [],
-  "rangeFrom": "2025-11-27",
-  "rangeTo": "2026-12-11",
-  "totalEvents": 8058,
+  "rangeFrom": "2025-11-28",
+  "rangeTo": "2026-12-12",
+  "totalEvents": 8046,
   "currencyCounts": {
-    "NZD": 202,
-    "EUR": 2426,
-    "CAD": 445,
-    "JPY": 631,
-    "CHF": 184,
+    "JPY": 628,
+    "EUR": 2422,
+    "CHF": 183,
+    "CAD": 444,
     "AUD": 448,
-    "GBP": 700,
-    "USD": 2559,
+    "GBP": 699,
+    "USD": 2558,
+    "NZD": 201,
     "SEK": 264,
     "NOK": 199
   },
   "impactCounts": {
-    "medium": 3177,
-    "high": 1654,
-    "low": 3227
+    "medium": 3167,
+    "high": 1653,
+    "low": 3226
   },
   "surpriseStats": {
     "JPY/retail sales mom": {
@@ -4160,114 +4160,6 @@
     }
   },
   "events": [
-    {
-      "currency": "NZD",
-      "event": "ANZ Business Confidence",
-      "dateISO": "2025-11-27",
-      "actual": "67.1",
-      "forecast": "57.7",
-      "previous": "58.1",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "00:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "GfK Consumer Confidence",
-      "dateISO": "2025-11-27",
-      "actual": "-23.2",
-      "forecast": "-23.2",
-      "previous": "-24.1",
-      "impact": "high",
-      "importance": 3,
-      "source": "Myfxbook",
-      "timeUTC": "07:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Consumer Confidence",
-      "dateISO": "2025-11-27",
-      "actual": "95",
-      "forecast": "97.6",
-      "previous": "97.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Business Confidence",
-      "dateISO": "2025-11-27",
-      "actual": "89.6",
-      "forecast": "88.5",
-      "previous": "88.4",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "09:00"
-    },
-    {
-      "currency": "EUR",
-      "event": "Economic Sentiment",
-      "dateISO": "2025-11-27",
-      "actual": "97",
-      "forecast": "97.0",
-      "previous": "96.8",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "10:00"
-    },
-    {
-      "currency": "CAD",
-      "event": "Current Account",
-      "dateISO": "2025-11-27",
-      "actual": "-C$9.7B",
-      "forecast": "-16.5",
-      "previous": "-21.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "13:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Unemployment Rate",
-      "dateISO": "2025-11-27",
-      "actual": "2.6%",
-      "forecast": "2.5",
-      "previous": "2.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:30"
-    },
-    {
-      "currency": "JPY",
-      "event": "Industrial Production MoM",
-      "dateISO": "2025-11-27",
-      "actual": "1.4%",
-      "forecast": "-0.6",
-      "previous": "2.6",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:50"
-    },
-    {
-      "currency": "JPY",
-      "event": "Retail Sales YoY",
-      "dateISO": "2025-11-27",
-      "actual": "1.7%",
-      "forecast": "0.8",
-      "previous": "0.2",
-      "impact": "medium",
-      "importance": 2,
-      "source": "Myfxbook",
-      "timeUTC": "23:50"
-    },
     {
       "currency": "JPY",
       "event": "Housing Starts YoY",
@@ -89128,19 +89020,6 @@
       "date": "6 Nov",
       "dateISO": "2026-11-06",
       "timeUTC": "08:00",
-      "country": "CHF",
-      "currency": "CHF",
-      "flag": "🇨🇭",
-      "event": "Switzerland Consumer Climate",
-      "impact": "low",
-      "actual": null,
-      "forecast": "-36",
-      "previous": "-35"
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
-      "timeUTC": "08:00",
       "country": "EUR",
       "currency": "EUR",
       "flag": "🇪🇺",
@@ -89201,19 +89080,6 @@
       "actual": "2.0%",
       "forecast": "0.9%",
       "previous": "1.5%"
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
-      "timeUTC": "09:30",
-      "country": "EUR",
-      "currency": "EUR",
-      "flag": "🇪🇺",
-      "event": "ECB Executive Board Member Lane Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "6 Nov",
@@ -89295,19 +89161,6 @@
       "forecast": "6.6%",
       "previous": "6.58%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
-      "timeUTC": "12:15",
-      "country": "GBP",
-      "currency": "GBP",
-      "flag": "🇬🇧",
-      "event": "BoE Pill Speech",
-      "impact": "low",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "6 Nov",
@@ -89818,19 +89671,6 @@
       "forecast": "4.7%",
       "previous": "4.7%",
       "source": "secondary-calendar"
-    },
-    {
-      "date": "6 Nov",
-      "dateISO": "2026-11-06",
-      "timeUTC": "17:15",
-      "country": "USD",
-      "currency": "USD",
-      "flag": "🇺🇸",
-      "event": "Fed Governor Bowman Speech",
-      "impact": "medium",
-      "actual": null,
-      "forecast": null,
-      "previous": null
     },
     {
       "date": "6 Nov",
@@ -107899,6 +107739,19 @@
       "flag": "🇺🇸",
       "event": "United States CFTC Nasdaq 100 Non-Commercial Net Positions",
       "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "12 Dec",
+      "dateISO": "2026-12-12",
+      "timeUTC": "11:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "Latvia PPI MoM",
+      "impact": "low",
       "actual": null,
       "forecast": null,
       "previous": null
