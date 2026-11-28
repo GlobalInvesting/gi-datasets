@@ -1,101 +1,105 @@
 {
-  "generated_at": "2026-11-27T00:02:22Z",
+  "generated_at": "2026-11-28T20:31:14Z",
   "signals": [
     {
-      "time": "23:58",
+      "time": "21:00",
       "priority": "critical",
-      "title": "AUD/CHF — G10 Bilateral Theme + Carry Disadvantage",
-      "text": "CHF leads G10 performance with a 1W average gain of +1.167% across 6 pairs, while AUD lags at -0.666% across 4 pairs, creating an extreme 1.832% spread. The pair trades at 0.5536, with AUD/USD remaining pinned in a clear downtrend below its SMA20/50/200 cluster at 0.6803/0.6925/0.7037. The RBA cash rate at 4.85% vs SNB 0.00% delivers a 485bp nominal carry advantage to AUD, yet CHF safe-haven demand completely overrides this yield premium amid VIX holding at 26.8. Furthermore, Swiss macroeconomic momentum outpaces Australia, as reflected in the CHF ESI of +20.1 against the AUD ESI of -10.1. Trade bias: Bearish AUD/CHF, momentum and safe-haven flows dominating carry. Catalyst: RBA meeting 8 Dec — hold priced. Risk: Broad cross-asset volatility retreats with VIX dropping below 20, triggering carry-seeking flows back into high-yielding AUD.",
+      "title": "NZD/CHF — G10 Bilateral Theme + ESI Divergence",
+      "text": "CHF gained +1.101% across 6 pairs while NZD lost -0.534% across 4 pairs, creating a critical 1.635% G10 spread that anchors downside momentum into Sunday's open. Persistent NZD data misses (ESI -15.0) diverge sharply from strong Swiss outperformance (ESI +20.1), overriding the 275bp nominal carry disadvantage against the franc. Switzerland GDP and KOF Barometer at 08:00 UTC Monday resolve whether CHF outperformance extends through European trading. Trade bias: Short NZD/CHF into the Sydney open. Catalyst: Swiss GDP release at 08:00 UTC Monday. Risk: A rebound above the descending moving averages or an upside NZD data surprise invalidates the breakdown.",
       "evidence": [
-        "CHF 1W avg: +1.167% (n=6)",
-        "AUD 1W avg: -0.666% (n=4)",
-        "G10 spread: 1.832%"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "confirmed",
-        "pair": "AUD/CHF",
-        "direction": -1,
-        "supports": [
-          "technical regime points with the stated direction",
-          "price moved 1.7 ATR with it over five sessions"
-        ],
-        "conflicts": [],
-        "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-26"
-        }
-      }
-    },
-    {
-      "time": "23:55",
-      "priority": "critical",
-      "title": "USD/JPY — Intervention Risk + Options Skew",
-      "text": "USD/JPY prints at 159.298, trading just below the critical 160.00 intervention threshold and above its SMA20/50/200 moving-average band at 158.90/158.25/158.95. The 1M 25d risk reversal reflects severe downside hedging at -1.85, showing aggressive institutional demand for JPY calls despite Fed 4.00% vs BoJ 1.25% offering a +275bp carry buffer. Tokyo Core CPI just printed hot at 2.9% YoY against a 2.8% forecast, intensifying domestic pressure on the Bank of Japan ahead of its policy meeting. At the same time, VIX sits elevated at 26.8, and the correlation between USD/JPY and VIX has flipped negative to -0.162 (z=-2.29σ), confirming safe-haven dynamics are re-engaging. Trade bias: Neutral/bearish USD/JPY, intervention overhang capping upside. Catalyst: BoJ meeting 18 Dec — hike bias active. Risk: MoF remains passive on a test of 160.00, allowing positive carry to extend spot higher.",
-      "evidence": [
-        "USD/JPY 25d RR: -1.85 (indicative mid)",
-        "Tokyo Core CPI: 2.9% vs 2.8% forecast",
-        "USD/JPY: 159.298 (160.00 watch level)"
-      ],
-      "_source": "engine-ai-primary",
-      "bias_check": {
-        "verdict": "not_directional",
-        "pair": "USD/JPY"
-      }
-    },
-    {
-      "time": "23:51",
-      "priority": "warning",
-      "title": "EUR/USD — Crowded Short + ECB Leadership Shift",
-      "text": "EUR/USD trades at 1.0973, holding below its daily SMA20 at 1.1074, SMA50 at 1.1189, and SMA200 at 1.1487. CFTC data shows leveraged funds heavily net short EUR by -105,891 contracts, positioned at the 2nd percentile of its 52-week range with z=-1.68, reflecting an extremely crowded institutional short. Headlines confirm Pablo Hernández de Cos will succeed Christine Lagarde as ECB President, arriving alongside published minutes highlighting a tightening bias. Although Fed 4.00% vs ECB 2.65% maintains a 135bp carry advantage supporting the dollar, EUR/USD screens as deeply cheap on fair value at z=-2.79σ against a model benchmark of 1.1155. Trade bias: Bullish EUR/USD mean-reversion, short-squeeze potential against crowded specs. Catalyst: France and Spain flash CPI prints due 07:45–08:00 UTC. Risk: Eurozone inflation prints miss expectations, reinforcing structural dollar carry dominance.",
-      "evidence": [
-        "EUR COT LF net: -105,891 (pctl 2, z -1.68)",
-        "EUR/USD BEER FV: z=-2.79σ (fair value 1.1155)",
-        "Fed 4.00% vs ECB 2.65% — 135bp"
+        "CHF 1W avg: +1.101% (n=6)",
+        "NZD 1W avg: -0.534% (n=4)",
+        "G10 spread: 1.635%"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
         "verdict": "caution",
-        "pair": "EUR/USD",
-        "direction": 1,
-        "supports": [],
+        "pair": "NZD/CHF",
+        "direction": -1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
         "conflicts": [
-          "technical regime (trend) points against the stated direction"
+          "fundamental votes (carry, 2Y spread, OIS pricing, fair value) point against it"
         ],
         "read": {
-          "bias": "Mixed",
-          "conviction": null,
-          "technical_alignment": "technical_neutral",
-          "asof": "2026-11-26"
+          "bias": "Bullish",
+          "conviction": "low",
+          "technical_alignment": "counter_trend",
+          "asof": "2026-11-27"
         }
       }
     },
     {
-      "time": "23:47",
+      "time": "21:00",
       "priority": "warning",
-      "title": "NZD/USD — Positioning vs Retail Divergence",
-      "text": "NZD/USD trades at 0.5471, locked in a structural downtrend below falling moving averages with SMA20 at 0.5542 and SMA50 at 0.5608. Leveraged funds hold a substantial net short of -23,862 contracts (pctl 23), whereas retail sentiment is 92% long, creating an acute institutional-versus-retail divergence. New Zealand data remains deeply depressed with the NZD Economic Surprise Index printing at -15.4, while falling fuel prices have cooled consumer inflation fears. Furthermore, the Fed at 4.00% vs RBNZ at 2.75% provides a +125bp carry advantage favoring the dollar. Trade bias: Bearish NZD/USD, retail capitulation risk in force. Catalyst: RBNZ meeting 9 Dec — hike bias active. Risk: Retail longs clear without triggering a stop run and RBNZ delivers a hawkish surprise.",
+      "title": "EUR/USD — Crowded Short Positioning + Rate Hike Bets",
+      "text": "EUR COT LF short -105.9k contracts (pctl 2, z=-1.68) sets up elevated short-squeeze risk after Friday closed at 1.0939. Solid U.S. Treasury yields and firming bets on a December Fed hike maintain downside pressure, reinforced by a +151bp OIS carry advantage favoring the dollar. German CPI data at 13:00 UTC Monday followed by ECB President Lagarde's speeches will dictate whether EUR shorts face liquidation. Trade bias: Neutral with an upside squeeze bias on EUR/USD. Catalyst: German CPI and Lagarde speech at 14:30 UTC Monday. Risk: A break below technical support near 1.0900 accelerates trend continuation lower.",
       "evidence": [
-        "Retail sentiment: 92% long / 8% short",
-        "NZD COT LF net: -23,862",
-        "Fed 4.00% vs RBNZ 2.75% — 125bp"
+        "EUR COT LF net: -105,891 (pctl 2, z=-1.68)",
+        "EUR/USD Friday close: 1.0939",
+        "OIS carry: SOFR 3.95% vs €STR 2.44% (+151bp USD)"
       ],
       "_source": "engine-ai-primary",
       "bias_check": {
-        "verdict": "unconfirmed",
-        "pair": "NZD/USD",
-        "direction": -1,
+        "verdict": "not_directional",
+        "pair": "EUR/USD"
+      }
+    },
+    {
+      "time": "19:27",
+      "priority": "warning",
+      "title": "USD/JPY — Bear Steepener vs Options Downside Skew",
+      "text": "USD/JPY closed Friday at 159.51 as U.S. 10Y yields pushed to 4.94% in a classic bear steepener regime (+32.6bp 2s10s). Options markets reflect heavy downside hedging demand with 25-delta risk reversals at -1.77, running directly counter to JPY leveraged funds short positioning of -29.5k. Japan Retail Sales and Industrial Production at 23:50 UTC determine whether Tokyo traders fade the yield-driven rally back below 159.00. Trade bias: Long USD/JPY on the yield spread momentum. Catalyst: Japan Industrial Production at 23:50 UTC Sunday. Risk: Options put skew materializes via BoJ tightening expectations, pushing spot below 158.30.",
+      "evidence": [
+        "USD/JPY Friday close: 159.51",
+        "USD/JPY 25d Risk Reversal: -1.77",
+        "US-JGB 10Y yield spread: 229bp"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "confirmed",
+        "pair": "USD/JPY",
+        "direction": 1,
         "supports": [
-          "technical regime points with the stated direction"
+          "technical regime points with the stated direction",
+          "price moved 1.1 ATR with it over five sessions"
         ],
         "conflicts": [],
         "read": {
           "bias": "Mixed",
           "conviction": null,
           "technical_alignment": "technical_neutral",
-          "asof": "2026-11-26"
+          "asof": "2026-11-27"
+        }
+      }
+    },
+    {
+      "time": "14:03",
+      "priority": "warning",
+      "title": "USD/CAD — Crowded Short Base Ahead of Q3 GDP",
+      "text": "CAD COT LF short -75.4k contracts (22.5% long) keeps USD/CAD supported after closing Friday at 1.4248 above its 20-day SMA of 1.4207. A +141bp OIS carry spread (SOFR 3.95% vs CORRA 2.54%) favors the greenback despite crude oil stabilizing above $83/bbl. Canada Q3 GDP at 13:30 UTC Monday tests whether the Bank of Canada retains room for further tightening. Trade bias: Long USD/CAD into the New York session. Catalyst: Canada Q3 GDP release at 13:30 UTC Monday. Risk: Canada GDP beats the 0.8% annualized forecast, triggering an unwind of CAD net shorts.",
+      "evidence": [
+        "CAD COT LF net: -75,447 (22.5% long)",
+        "USD/CAD Friday close: 1.4248",
+        "OIS carry: SOFR 3.95% vs CORRA 2.54% (+141bp USD)"
+      ],
+      "_source": "engine-ai-primary",
+      "bias_check": {
+        "verdict": "caution",
+        "pair": "USD/CAD",
+        "direction": 1,
+        "supports": [
+          "technical regime points with the stated direction"
+        ],
+        "conflicts": [
+          "price moved 1.5 ATR against it over five sessions"
+        ],
+        "read": {
+          "bias": "Mixed",
+          "conviction": null,
+          "technical_alignment": "technical_neutral",
+          "asof": "2026-11-27"
         }
       }
     }
