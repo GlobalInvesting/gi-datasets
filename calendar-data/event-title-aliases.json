@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-28T03:27:22Z",
+  "generatedAt": "2026-11-28T15:45:16Z",
   "scriptVersion": "1.9",
   "matchTolerance": 0.05,
   "dateWindowDays": 1,
-  "aliasCount": 68,
+  "aliasCount": 65,
   "aliases": [
     {
       "currency": "JPY",
@@ -1161,63 +1161,6 @@
           "actual_yahoo_raw": "0.5",
           "forecast_yahoo_raw": "-",
           "previous_yahoo_raw": "-0.4"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Manufacturing Confidence",
-      "yahoo_title": "Manufacturing Confidence*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-27",
-          "forecast_primary": 112.4,
-          "forecast_yahoo": null,
-          "actual_primary": 107.7,
-          "actual_yahoo": 107.7,
-          "previous_primary": 111.5,
-          "previous_yahoo": 111.5,
-          "actual_yahoo_raw": "107.7",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "111.5"
-        }
-      }
-    },
-    {
-      "currency": "SEK",
-      "primary_title": "Sweden Consumer Confidence",
-      "yahoo_title": "Consumer Confidence SA*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-27",
-          "forecast_primary": 86.3,
-          "forecast_yahoo": null,
-          "actual_primary": 90.3,
-          "actual_yahoo": 90.3,
-          "previous_primary": 94.3,
-          "previous_yahoo": 94.3,
-          "actual_yahoo_raw": "90.3",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "94.3"
-        }
-      }
-    },
-    {
-      "currency": "NOK",
-      "primary_title": "Norway NAV Unemployment Rate n.s.a.",
-      "yahoo_title": "Reg'd Unemployment NSA*",
-      "evidence": {
-        "yahoo": {
-          "dateISO": "2026-11-27",
-          "forecast_primary": 2.0,
-          "forecast_yahoo": null,
-          "actual_primary": 2.0,
-          "actual_yahoo": 2.0,
-          "previous_primary": 2.0,
-          "previous_yahoo": 2.0,
-          "actual_yahoo_raw": "2",
-          "forecast_yahoo_raw": "-",
-          "previous_yahoo_raw": "2"
         }
       }
     },
