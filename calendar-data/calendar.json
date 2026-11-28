@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-11-28T14:24:57Z",
-  "generatedAt": "2026-11-28T14:24:57Z",
+  "lastUpdate": "2026-11-28T16:02:51Z",
+  "generatedAt": "2026-11-28T16:02:51Z",
   "fetchMode": "Calendar feed, backfilled",
   "timezoneNote": "All times UTC",
   "status": "ok",
@@ -9,10 +9,10 @@
   "fetchErrors": [],
   "rangeFrom": "2025-11-28",
   "rangeTo": "2026-12-12",
-  "totalEvents": 8048,
+  "totalEvents": 8049,
   "currencyCounts": {
     "JPY": 628,
-    "EUR": 2422,
+    "EUR": 2423,
     "CHF": 183,
     "CAD": 444,
     "AUD": 448,
@@ -23,7 +23,7 @@
     "NOK": 198
   },
   "impactCounts": {
-    "medium": 3168,
+    "medium": 3169,
     "high": 1653,
     "low": 3227
   },
@@ -104776,6 +104776,19 @@
       "currency": "USD",
       "flag": "🇺🇸",
       "event": "United States CFTC Nasdaq 100 Non-Commercial Net Positions",
+      "impact": "medium",
+      "actual": null,
+      "forecast": null,
+      "previous": null
+    },
+    {
+      "date": "5 Dec",
+      "dateISO": "2026-12-05",
+      "timeUTC": "16:00",
+      "country": "EUR",
+      "currency": "EUR",
+      "flag": "🇪🇺",
+      "event": "ECB Executive Board Member Lane Speech",
       "impact": "medium",
       "actual": null,
       "forecast": null,
