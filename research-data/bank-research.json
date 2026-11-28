@@ -1,15 +1,51 @@
 {
-  "updated_utc": "2026-11-28T00:20:48.475469+00:00",
-  "updated_label": "00:20 UTC",
-  "total": 35,
+  "updated_utc": "2026-11-28T04:20:48.562379+00:00",
+  "updated_label": "04:20 UTC",
+  "total": 36,
   "sources": [
     "BIS",
     "CME",
     "Danske",
     "ING",
-    "Saxo"
+    "RBC",
+    "Saxo",
+    "TD"
   ],
   "items": [
+    {
+      "id": "5a551eac93e0",
+      "bank": "TD",
+      "bank_full": "TD Bank Financial Group",
+      "series": "",
+      "title": "The Weekly Bottom Line: AI-nxiety Meets a Resilient Economy",
+      "excerpt": "Canadian Highlights While gains were made this week, equity markets and oil prices are still down sharply from the highs seen earlier in November. In an important speech Tuesday, Governor Macklem emphasized that persistent inflation pressures are likely to pass through to consumer prices, reinforcing the case for another rate hike, likely in December. Next [&#8230;] The post The Weekly Bottom Line: AI-nxiety Meets a Resilient Economy appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662353-the-weekly-bottom-line-ai-nxiety-meets-a-resilient-economy/",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795832034000,
+      "published": "2026-11-28T02:13:54+00:00"
+    },
+    {
+      "id": "c302a795ad74",
+      "bank": "RBC",
+      "bank_full": "RBC Financial Group",
+      "series": "",
+      "title": "Canada’s GDP, Jobs Data to Test Case for December Rate Hike",
+      "excerpt": "Canada&#8217;s Q3 gross domestic product data on Monday and November Labour Force Survey data on Friday are final key inputs that could sway the Bank of Canada&#8217;s December 9 interest rate decision. We expect GDP growth to slow to 1.5% annualized and employment to rebound, with the unemployment rate falling to 6.5% in November. A [&#8230;] The post Canada’s GDP, Jobs Data to Test Case for December Rate Hike appeared first on ActionForex .",
+      "author": "",
+      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662349-canadas-gdp-jobs-data-to-test-case-for-december-rate-hike/",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795831859000,
+      "published": "2026-11-28T02:10:59+00:00"
+    },
     {
       "id": "8e124026771c",
       "bank": "Danske",
@@ -187,23 +223,6 @@
       "published": "2026-11-27T07:30:00+00:00"
     },
     {
-      "id": "2d7ffd8021ab",
-      "bank": "Danske",
-      "bank_full": "Danske Bank",
-      "series": "",
-      "title": "De Cos Set to Become Next ECB President",
-      "excerpt": "In focus today and this weekend In the euro area, we will get the Commission&#8217;s business survey and the ECB&#8217;s consumer expectations survey. We will focus on firms&#8217; selling price expectations and consumers&#8217; inflation expectations, which have both drifted slightly higher since the summer, and we expect this trend to have continued. Flash November inflation [&#8230;] The post De Cos Set to Become Next ECB President appeared first on ActionForex .",
-      "author": "",
-      "url": "https://www.actionforex.com/contributors/fundamental-analysis/662264-de-cos-set-to-become-next-ecb-president/",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795762695000,
-      "published": "2026-11-27T06:58:15+00:00"
-    },
-    {
       "id": "1acd5c66fecc",
       "bank": "Saxo",
       "bank_full": "Saxo Bank (SaxoStrats) — Articles",
@@ -255,6 +274,74 @@
       "category": "macro",
       "ts": 1795677360000,
       "published": "2026-11-26T07:16:00+00:00"
+    },
+    {
+      "id": "0fb91a17ba1f",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
+      "excerpt": "Statement by Mr Kazuo Ueda, Governor of the Bank of Japan, before the Committee on Financial Affairs, Senate, Tokyo, 19 November 2026.",
+      "author": "Kazuo Ueda",
+      "url": "https://www.bis.org/speeches/20261126-bank-japans-semiannual-report-currency-and-monetary-control",
+      "currencies": [
+        "JPY"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "a7b29599c861",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Considerations at the intersection of payments and tokenized markets",
+      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.",
+      "author": "Christopher J Waller",
+      "url": "https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",
+      "currencies": [
+        "USD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "623ad932c6ad",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "What does monetary policy need to know now?",
+      "excerpt": "Welcome address by Mr Sergio Nicoletti Altimari, Deputy Governor of the Bank of Italy, at the Bank of Italy-SUERF (The European Money and Finance Forum) conference “Inflation, inflation expectations, and monetary policy”, Rome, 19 November 2026.",
+      "author": "Sergio Nicoletti Altimari",
+      "url": "https://www.bis.org/speeches/20261126-what-does-monetary-policy-need-know-now",
+      "currencies": [
+        "EUR"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
+    },
+    {
+      "id": "5e8aefb24883",
+      "bank": "BIS",
+      "bank_full": "Bank for International Settlements",
+      "series": "",
+      "title": "Setting the scenario - monetary policy communications in uncertain times",
+      "excerpt": "Remarks by Mr Toni Gravelle, Deputy Governor of the Bank of Canada, to the Edmonton Chamber of Commerce, Edmonton, Alberta, 18 November 2026.",
+      "author": "Toni Gravelle",
+      "url": "https://www.bis.org/speeches/20261126-setting-scenario-monetary-policy-communications-uncertain-times",
+      "currencies": [
+        "CAD"
+      ],
+      "pairs": [],
+      "category": "macro",
+      "ts": 1795651200000,
+      "published": "2026-11-26T00:00:00+00:00"
     },
     {
       "id": "7ee96beb1523",
@@ -354,74 +441,6 @@
       "currencies": [
         "EUR",
         "AUD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "0fb91a17ba1f",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
-      "excerpt": "Statement by Mr Kazuo Ueda, Governor of the Bank of Japan, before the Committee on Financial Affairs, Senate, Tokyo, 19 November 2026.",
-      "author": "Kazuo Ueda",
-      "url": "https://www.bis.org/speeches/20261126-bank-japans-semiannual-report-currency-and-monetary-control",
-      "currencies": [
-        "JPY"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "a7b29599c861",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Considerations at the intersection of payments and tokenized markets",
-      "excerpt": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at The Clearing House Annual Conference 2026 “Navigating the future of banking and payments”, New York City, 17 November 2026.",
-      "author": "Christopher J Waller",
-      "url": "https://www.bis.org/speeches/20261126-considerations-intersection-payments-and-tokenized-markets",
-      "currencies": [
-        "USD"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "623ad932c6ad",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "What does monetary policy need to know now?",
-      "excerpt": "Welcome address by Mr Sergio Nicoletti Altimari, Deputy Governor of the Bank of Italy, at the Bank of Italy-SUERF (The European Money and Finance Forum) conference “Inflation, inflation expectations, and monetary policy”, Rome, 19 November 2026.",
-      "author": "Sergio Nicoletti Altimari",
-      "url": "https://www.bis.org/speeches/20261126-what-does-monetary-policy-need-know-now",
-      "currencies": [
-        "EUR"
-      ],
-      "pairs": [],
-      "category": "macro",
-      "ts": 1795651200000,
-      "published": "2026-11-26T00:00:00+00:00"
-    },
-    {
-      "id": "5e8aefb24883",
-      "bank": "BIS",
-      "bank_full": "Bank for International Settlements",
-      "series": "",
-      "title": "Setting the scenario - monetary policy communications in uncertain times",
-      "excerpt": "Remarks by Mr Toni Gravelle, Deputy Governor of the Bank of Canada, to the Edmonton Chamber of Commerce, Edmonton, Alberta, 18 November 2026.",
-      "author": "Toni Gravelle",
-      "url": "https://www.bis.org/speeches/20261126-setting-scenario-monetary-policy-communications-uncertain-times",
-      "currencies": [
-        "CAD"
       ],
       "pairs": [],
       "category": "macro",
